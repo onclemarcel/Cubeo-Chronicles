@@ -11,20 +11,21 @@ Onclemarcel's review:
 
 
 - [CONTEXT]:
-  - Delavalette is very receptive to signs/icons shown on walls - the prologue includes visions of a color-shifting geometric forms shaping an eagle (a blurred sign for the 4 imperial eagles with additional shapes (5 stars light blue for aisling, green ship for Patreus, purple eagle shadow for Arissa, Dark blue crown for Zemina)
+  - Delavalette is very receptive to signs/icons shown on walls - the prologue includes visions of a color-shifting imperial eagle
   - Delavalette gets confident in herself coming back to trading routines, far away from strange behaviors observed in Cubeo; people are neutral in Metz Enterprise, they don't react to her turquoise-gray very light eyes, some even talk freely at the starport, allowing her to share knowledge of the recent events (see Galnet).
   - Inara.cz is named Pilot Circle computing system, but you may invent a name for it.
 
-- [CHARACTER]: Delavalette had an eyes surgery for a purpose to be romanced later on (did she lose her eyes dur to the accident (acid spreads), did she have to change her identity (eyes scan gives identity in some locations, she may have changed to enter in a secret location) due to high pressure in 3308, did someone changed them on purpose while she was in coma? This is a key element for the overall story to be shaped later on. She will realize with a shock on a picture that her eyes were different in the past...
-  - Galnet News : see [GALNET] entry at the end of the file, for the canon -> @CLAUDE: invent/propose possible plot/affair/intrigue from those, we will filter what's interesting later on... I was thinking about talks and gossips when taking a break during trading with other commanders.
-
 - [CONTEXT]: 
-    - the surname Tio: The history of the surname comes from Delavalette regularly confusing Roskam and Roksam syllables in the past, before the accident; Roksam is heared as "Rock Sam!" and easily linked to Uncle Sam, a name from a legend coming fron Earth planet more a thousand years ago. Roskam calls her "Tio" as a kind response back, she's using it later on during her missions with her contacts and other commanders, where she does not have to mention her real name.
+    - the surname Tio: The history of the surname dates from before the accident. "Tio" replaces tonton completly, she's using it later on during her missions with her contacts and other commanders, where she does not have to mention her real name.
+    - Delavalette remembers her own name from the beginning, to be changed in characters.md
 
 - [NARRATIVE]:
  - **Day 2 afternoon**:
-    - Simplify the paragraph dealing with her Tio surname. She remembers the origin of this surname and recognises it quickly when he says hello. 
-    - Add a short debrief of the poor state of the ships and need for upgrading modules and changing for better ones.
+    - Simplify the paragraph dealing with her Tio surname. She remembers the origin of this surname and recognises it quickly when he says hello, this a relief to remember something 
+    - Add a short debrief of the poor state of the ships and need for upgrading modules and changing for better ones. 
+    - the mechanic also mention that when she was slacking off for years, spacecrafts manufacturers did work and released new models.
+    - mechanic mentions he's happy to see her on business again and enthusiastic to receive new Materials and other odd stuff so that he can work on new experimental modules. then comes the not flying alone text.
+ - **Day 3**: should be shorter and more abrupt since she's writing after the flight and she's becomed frustrated at the end. he knows she loves flying recklessly and pushing the limits, this is why they get along so well. she's writing in this state of mind.
  - **Day 4**: 14th Sept & **Day 5: 15th Sept** & **Day 6: 16th Sept** : could be enhanced with [IN-GAME] CG experience, walks in Metz Enterprise, context of Galnet news, considerations for the place of Delavalette in her world:
    - Day 4 conclude the mystery with the file reading on her facts/ranks/logs, 
    - Day 5 is much more relieving, people are neutral/friendly to her. Other commanders come from everywhere, they speak traders vocabulary, some are rude but without being mean, some show contempt as they are proud of making more money than anyone else. Anyway she feels she belong to this crowd.
