@@ -4,9 +4,9 @@ Onclemarcel's review:
 
 - [IN-GAME]: 15th, september :
   - Start the CG trade routes from EGA to SCORPII SECTOR PI-T B3-4 for Gold in Zolloz City: 4 round trips brings about 300M credits - impressive
-  - 2 interdictions but easily avoided
+  - 2 interdictions but easily avoided: one against an unnamed pilot, the second against Michael Prahn, probably a pirate with a warrant, but my Type-9 is not a ship fit for a fight
   - The Type-9 is a real pain for manoeuvring into starships narrow entries
-  - Hostile flag does not bring any apparent issues, trading is performed as usual
+  - Hostile flag does not bring any apparent issues, trading is performed as usual. I've checked about Hostile status meaning, I may be a target for a adverse powerplay commander who has a contract for killing those alleged to the opponent power.
  
 - [IN-GAME]: 16th, Sept:
   - Carry on trading Gold with CRUCIS SECTOR OY-R B4-1 in SUKARNO Horizons: 300M more and I earned the Trader Elite badge
@@ -16,40 +16,40 @@ Onclemarcel's review:
   - I will have to think about ship outfit upgrades with recently earned money, baseed on Claude recommendations in In-Game Operations
   - Noticed that the trading round trips made me an allied of the "Beyond Infinity Corporation" linked to independant power (star system is exploited by Edmund Mahon)
   - The starport shows a lot of Edmund Mahon picture and independant icon
+  - I carry on with other trips on the following stations/system and made profits over 1 billion credits: 
+    - Hannah Station | 49 Librae
+    - Eternal Flame Citadell | Scorpii Sector WZ-P a5-1
+    - Violet Ann Memorial | Scorpii Sector QT-R b4-0
+
 
 - [CONTEXT]:
   - Delavalette is very receptive to signs/icons shown on walls - the prologue includes visions of a color-shifting geometric forms shaping an eagle (a blurred sign for the 4 imperial eagles with additional shapes (5 stars light blue for aisling, green ship for Patreus, purple eagle shadow for Arissa, Dark blue crown for Zemina)
-  - Delavalette gets confident in herself coming back to trading routines, far away from strange behaviors observed in Cubeo; people are neutral in Metz Enterprise, they don't react to her turquoise-gray very light eyes.
-  - For the story - Delavalette had an eyes surgery for a purpose to be romanced later on (did she lose her eyes dur to the accident (acid spreads), did she have to change her identity due to high pressure in 3308, did someone changed them on purpose while she was in coma? This is a key element for the overall story to be shaped later on. She will realize with a shock on a picture that her eyes were different in the past...
-  - Galnet News : see [GALNET] entry at the end of the file, for the canon -> @CLAUDE: invent/propose possible plot/affair/intrigue from those, we will filter what's interesting later on
+  - Delavalette gets confident in herself coming back to trading routines, far away from strange behaviors observed in Cubeo; people are neutral in Metz Enterprise, they don't react to her turquoise-gray very light eyes, some even talk freely at the starport, allowing her to share knowledge of the recent events (see Galnet).
+  - Inara.cz is named Pilot Circle computing system, but you may invent a name for it.
+
+- [CHARACTER]: Delavalette had an eyes surgery for a purpose to be romanced later on (did she lose her eyes dur to the accident (acid spreads), did she have to change her identity (eyes scan gives identity in some locations, she may have changed to enter in a secret location) due to high pressure in 3308, did someone changed them on purpose while she was in coma? This is a key element for the overall story to be shaped later on. She will realize with a shock on a picture that her eyes were different in the past...
+  - Galnet News : see [GALNET] entry at the end of the file, for the canon -> @CLAUDE: invent/propose possible plot/affair/intrigue from those, we will filter what's interesting later on... I was thinking about talks and gossips when taking a break during trading with other commanders.
+
+- [CONTEXT]: 
+    - the surname Tio: The history of the surname comes from Delavalette regularly confusing Roskam and Roksam syllables in the past, before the accident; Roksam is heared as "Rock Sam!" and easily linked to Uncle Sam, a name from a legend coming fron Earth planet more a thousand years ago. Roskam calls her "Tio" as a kind response back, she's using it later on during her missions with her contacts and other commanders, where she does not have to mention her real name.
 
 - [NARRATIVE]:
-  - **PROLOGUE**: should be short and enigmatic - should not reveal or hint the solution to the reader - should confuse the reader or lure him/her
-  - 1st paragraph: OK (colour)
-  - 2nd paragraph: OK (thargoids, something stops breathing = the sudden loss (treason feeling) or the accident itself)
-  - 3rd paragraph: OK (muffled sounds, woman word (who is it ? what is this word ? ennemy / friend / love ? gentle/profesional, probably a nurse during the coma phase)
-  - 4th paragraph: voice could be set to plurals, to mix the Doctor voice with those of the nurses (male/female). There is no numbers in italic, maybe more medical terms or number could emphasize the medical ambiance
-  - 5th paragraph: OK - the gentle hand - no hint of who's hand it is, but it is gentle and has the feelong on wanting to stay / fall asleep in it
-  - 6th paragraph: new visions - change the corridor images by the icon/geomtric forms/the eagle shape (where the plot has its sources). what is the signature related to ? we could find something related (a falsified module ? a contract on her? a private note signed by someone who disappeared ?
-  - after the separator, prologue should be shorter, the awakening is shaping:
-    - 7th paragraph: OK
-    - 8th paragraph: OK
-    - 9th paragraph until the end of prologue: NOK - remaining from the initial prologue - could be removed since upper paragraphs mentions this is a more subtle way - ending on "until one of them doesn't" is great : mysterious, and why does the storyteller focus on this shape ? Enemy / friend / doctor / nurse / other ?
-
-- [NARRATIVE]:
-  - **Day 1** is OK - short, with unsaid thinking at the end - place Day 1 on 11th Sept instead of 12th
-  - **Day 2** is a bit long as it is: could be split in two half days 
-    - **12th Sept - morning**
-    - 1st paragraph: Morning in the cubicle - still difficult to wake up - washing refreshing and a new look at her hands, the neat fingers and the thought of the day before at the bar, those cleaned fingers brings an issue, they look like those of an aristocrat or office worker, that does not fit with a past as an experienced pilot.
-    - 2nd paragraph: Back to the bar for breakfast and the scene of the window pane and face . Last sentence could be removed - she remember being a pilot, so she should remember most of her face - except she just notices the bright light turquoise-gray eyes
-    - **12th Sept - afternoon**
-    - the hangar and visit to Roksam : the discovery of her ships, she recognize them, one is missing (the one from her accident), one ship fit for heavy combat although she does not feel having a strong experienced in combat (evidences are the records looked at later on in the ship in EGA)
-    - discussion with Roksam and plan for a flight on 13th sept
-    - the surname should be changed to something else or probably the spanish version of uncle ? Tio ? short, masculine ? The history of the surname comes from Delavalette regularly confusing Roskam and Roksam syllables; Roksam is easily understood as "Rock Sam!" and easily linked to uncle Sam. Roskam calls her "Tio" as a kind response back, she's using it later on during her missions with her contacts, where she does not have to mention her real name.
-    - "doctors said no solo" -> could be changed to more argotic words ? doc ? other
-    - The flight out should be split from here on 13th, Sept
- - **Day 3**: 13th Sept flying out - I will read after the above changes for consistency and size of reading
- - **Day 4**: 14th Sept & **Day 5: 15th Sept** & **Day 6: 16th Sept** : could be enhanced with [IN-GAME] CG experience, walks in Metz Enterprise, context of Galnet news, considerations for the place of Delavalette in her world: Day 4 conclude the mystery with the file reading on her facts/ranks/logs, Day 5 and Day 6 are much more relieving, people are neutral to her, not hostile, not strange feelings, almost back to her former trader life, reflexes back, pirate avoidance (one unexperienced almost a joke, one named with a warrant on his head, more difficult to dodge with a huge beast like the Type-9). Day 6 is very quiet, Radio Sidewinder in the ears, trading and trading, earning a high showing she's not in her beginning on her career
+ - **Day 2 afternoon**:
+    - Simplify the paragraph dealing with her Tio surname. She remembers the origin of this surname and recognises it quickly when he says hello. 
+    - Add a short debrief of the poor state of the ships and need for upgrading modules and changing for better ones.
+ - **Day 4**: 14th Sept & **Day 5: 15th Sept** & **Day 6: 16th Sept** : could be enhanced with [IN-GAME] CG experience, walks in Metz Enterprise, context of Galnet news, considerations for the place of Delavalette in her world:
+   - Day 4 conclude the mystery with the file reading on her facts/ranks/logs, 
+   - Day 5 is much more relieving, people are neutral/friendly to her. Other commanders come from everywhere, they speak traders vocabulary, some are rude but without being mean, some show contempt as they are proud of making more money than anyone else. Anyway she feels she belong to this crowd.
+   - Some are alleged to Felicia Winter and agree with her being angry on Federation exclusion. The narrator does not show or speak of her allegiance, she is in hostile environment for powerplay.
+   - She has no strange feelings, almost back to her former trader life, reflexes back, pirate avoidance (one unexperienced almost a joke, one named with a warrant on his head, more difficult to dodge with a huge beast like the Type-9).
+   - she gets tired easily on this day but she's bulimic on trading Gold
+   - Day 6 starts quietly, Radio Sidewinder in the ears, trading and trading, earning a high amount of credits, showing she's not in her beginning on her career. 
+   - However, she's getting really tired from those 3 days, while looking for a new route (she has already dried Hannah Station, Zolloz City and Sukarno Horizons) she spots Violet Ann Memorial with a big amount of gold available and decide to go there for a last trip.
+   - Strange cumulative things happen on the trip, is it her tired mind ? did that really happen by chance or is it a warning ? : 
+    - first Violet, part of the name, the purple color flashes back in her memory with flickering sign of the eagle with its large shadow underneath, the symbol of Arissa Duval, the emperor. 
+    - Then Memorial, also part of the name, bringing a kind of loss feeling, loss of memory? (she remembers the name from Al Kurdi's question, what a good-looking woman btw if cold and distant: LHS3447 and decide to look at the map in her ship: a star system, democratic, alleged to the Pilot Federation Minor Faction, but strangely currently fortified by Yuri Grom, a anarchist and smuggler... did the doctor named it on purpose? does she want me to do something about this system? she said I should go and do what I think is the best...)
+    - Then, the starport market almost empty (??), did the Pilot Circle computing system missed that? A local bug missing data refresh? what a bad luck for a last trip...
+    - on the way back, with little material, she's bullied by a pirate named  Paladin, she escapes twice but he is following until EGA Metz Enterprise... what a rotten luck with this sticky bastard! and he keeps bullying her through the intercom "here you are, at last", "looking for you since so much time", "I'll fry you right away",.... 15 round trips with almost no one interested in a full 758T cargo of gold, but now this one for an empty can, following her until almost touching the starport, she saw the Cobra MK III flying above her and received a last "you can't escape anymore"... shaken to the bones and frozen in her ship, she's breathing hard on the landing pad, head spinning, shoulder burning... she has to tell to the doctor what happened. she can't just write it when it's being overwhelming 
  
 - [GALNET]:
   - Galnet news
