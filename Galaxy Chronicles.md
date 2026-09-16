@@ -217,6 +217,7 @@ was her who took the Asp out — to keep the ship alive, the way she kept the bo
 | **Aisling Duval** | Imperial princess, abolitionist, HQ at Cubeo, largest Power as of 3312 | Her Power. Never met in person. |
 | **Zemina Torval** | Imperial senator, slaver, ZYADA ally of Aisling | The ideological antagonist. Interests she would have threatened. Now, on paper, a colleague. |
 | **Denton Patreus** | Imperial militarist senator, ZYADA ally of Aisling | Alternative lead for the falsified armament. Same alliance as above. |
+| **Edmund Mahon** | Alliance Prime Minister, Power headquartered at Gateway/Colonia, **not** part of ZYADA | A rival bloc's territory brushing up against Aisling's. Explains, mundanely, why a system outside ZYADA space can flag a ZYADA-pledged commander hostile on sight — useful as a red herring or as the real thing, undecided (see `In-Game Operations.md` §4). |
 
 ---
 

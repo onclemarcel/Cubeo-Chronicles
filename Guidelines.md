@@ -179,8 +179,12 @@ What I believe is false:
 Never make it the stated goal of a chapter. One clue per chapter, no more, slipped into the sixth
 line of an otherwise ordinary entry.
 
-- **Ch. I–II** — nothing. She's learning to fly. One detail that doesn't sit right, which she notes
-  without dwelling on it.
+- **Prologue** — the eagle, colour and shape only, never named, never finishing its resolution.
+  Seeded once; do not repeat it until it can carry new information.
+- **Ch. I–II** — nothing on the through-line proper. She's learning to fly. One detail that doesn't
+  sit right (her hands, planted Ch. I Day 2), which she notes without dwelling on it. The eyes
+  motif is live throughout (background texture, not a clue yet — it becomes one only at its own
+  dedicated beat, not before).
 - **Ch. III** — a colony, a terminal, a supplier's name that gives her a physical unease she can't
   explain.
 - **Ch. IV** — an engineer recognises the signature of a falsified hull plating. He's seen it
@@ -212,6 +216,15 @@ one.
 - **Paper.** An actual ink-and-page logbook, handed to her in a century that hasn't used one in
   living memory. She never questions why the doctor chose this over a data-slate. Neither should
   the text — let the reader wonder instead.
+- **The eyes.** Too pale for her face — the detail strangers remember before they remember her
+  name (see `characters.md`, Viscountess §7, "Question to settle eventually"). Never explained on
+  the page until a photograph forces the question on her. Until then, it's just a thing people
+  notice, the way the shoulder is just a thing that flares.
+- **The eagle.** First seen only as colour and shape in the prologue, never named. Four fragments
+  riding one silhouette — five pale-blue points, a green sliver, a bruise-coloured shadow, a
+  deep-blue crown — that never finishes resolving into a bird. Recurs whenever she's closest to
+  the thing she can't remember; each recurrence may add or sharpen one fragment, never all four at
+  once, and never a caption explaining what they are.
 
 ---
 

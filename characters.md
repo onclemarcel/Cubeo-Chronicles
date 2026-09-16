@@ -114,6 +114,15 @@ she'd refuse to do, without remembering why. She used to take almost any job, il
 included — but never anything that trafficked in human lives. That code is what led her to Aisling
 Duval, and it's the one thing the accident didn't erase.
 
+*Question to settle eventually:* her eyes. Too pale for her face, a detail strangers remember
+before they remember her name (see §2). Three readings, none to be confirmed before she's ready to
+ask the question out loud: (1) the acid that caught her shoulder reached further than the record
+admits, and what she's wearing are reconstructions, not originals; (2) an identity change forced by
+the pressure she was under in 3308 — new eyes as part of going unrecognisable, deliberately, before
+the mission that killed her; (3) someone changed them on purpose, during the four years, without
+her consent or knowledge. Payoff device: she finds an old picture — of herself, pre-3308 — and the
+eyes in it are a different colour. She doesn't ask why yet. She just can't stop looking at it.
+
 ## 8. What the Viscountess perceives
 *(of herself — to be filled in)*
 
@@ -128,6 +137,9 @@ The single point of view. The reader knows only what she knows.
 - 2026-09-16 — legal name confirmed as Marcella Delavalette (papers only, no recognition
   response). Powerplay standing with Aisling Duval found intact rather than lapsed — planted as
   the possible root of unexplained hostility flags in later chapters.
+- 2026-09-16 — added the eyes as a standing open question (three readings above, none settled).
+  Payoff planned as a photograph reveal, not a conversation — keep it visual, keep it unexplained
+  on the page. Do not resolve before she's emotionally ready to look for the answer herself.
 
 ---
 
@@ -169,8 +181,12 @@ than anyone remembers to ask about — and always finds a reason to be elsewhere
 heads that way.
 
 ## 6. Speech
-Short, imperative sentences. Addresses her informally. Never uses her title. Mechanical metaphors
-for talking about people — he'd know. **Doesn't finish his sentences** when things get personal.
+Short, imperative sentences. Addresses her informally. Never uses her title — calls her **Tonton**
+(the name the galaxy flies by) in earnest moments, and **Tío** when he's teasing, a second nickname
+born from her habit of mangling his own surname into "Roksam" (which slides into "Rock Sam," which
+slides into "Uncle Sam," which he threw back at her as "Tío" — lighter than Tonton, no weight of
+twenty years on it yet). Mechanical metaphors for talking about people — he'd know. **Doesn't
+finish his sentences** when things get personal.
 Genuinely funny, when he lets himself be — dry puns about ship parts, the kind of humour that
 lands because it's clearly a reflex and not a performance. Use it; it's what makes the silences
 land harder by contrast.
@@ -223,6 +239,10 @@ real plating from fake on sight.
   Enterprise, and was at some point used against her — programmed or pressured, mechanism still
   undefined. She remains unaware on both counts. Added: genuine sense of humour (dry, reflexive,
   ship-part puns), to be played straight against the omission rule, not softened by it.
+- 2026-09-16 — added second nickname "Tío" (Ch. I, Day 2 afternoon), born from her repeatedly
+  mispronouncing his surname as "Roksam." Kept alongside "Tonton," not instead of it: Tonton stays
+  the private, load-bearing name; Tío is the lighter one, usable later as a field alias with
+  contacts who don't need to know she's a Viscountess (planted, not yet paid off on the page).
 
 ---
 

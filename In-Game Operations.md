@@ -12,11 +12,11 @@
 | CMDR | Onclemarcel |
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
-| Trade rank | Tycoon |
+| Trade rank | **Elite** (Trader Elite badge earned 16 Sept 2026) |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval (allegiance to be reinstated) |
+| Power | Aisling Duval — pledged, **Rank 0 / 0 merits** this cycle (journal-verified, see §4) |
 | Home port | Cubeo — Medupe City |
-| Treasury | 130,000,000 CR |
+| Treasury | **782,037,614 CR** (journal-verified snapshot, 16 Sept 08:53 UTC — before that day's trading) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -120,7 +120,59 @@ Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), c
   supply run, not after. Possible connection: Powerplay standing with Aisling Duval never
   lapsed (see `characters.md`, Viscountess sheet) — worth checking whether Ega's controlling
   faction is hostile to that Power specifically.
-- **Still to do:** the actual buy/sell rotations, the 758 t runs, confirm final tier reached.
+  - **15–16 Sept — plausible mundane explanation surfaced:** the Ega-area trading loop put the
+    Type-9 in reputation contact with **Beyond Infinity Corporation**, a minor faction reported
+    as aligned with **Edmund Mahon** (Alliance Prime Minister of Colonia, an independent Power
+    outside Aisling's ZYADA bloc — see `Galaxy Chronicles.md`). Standard Powerplay behaviour: a
+    system leaning toward a rival Power can flag a commander pledged elsewhere as hostile on
+    sight, independent of any bounty/bond. **Not yet confirmed** — check Ega's controlling
+    faction and current Power-conflict state on Inara before treating this as closed. (Keeping
+    the mystery open in the narrative doc regardless — this is a technical note, not a verdict.)
+- **15 Sept:** ran the CG loop plus independent Gold trading — Ega → **Scorpii Sector PI-T B3-4**
+  (Zolloz City), 4 round trips, ≈300M CR. Two interdictions, both evaded without incident. Type-9
+  confirmed hard to thread into narrow starport approaches — worth a note for any future large-hull
+  purchase (Panther Clipper Mk II, Type-11) re: station compatibility. Hostile flag had no gameplay
+  effect on trading access.
+- **16 Sept:** continued Gold trading, Ega → **Crucis Sector OY-R B4-1** (Sukarno Horizons), ≈300M
+  CR more — crossed the threshold for the **Trader Elite** rank. Reputation with **Beyond Infinity
+  Corporation** reached Allied as a side effect of the trade volume.
+- **16 Sept — Powerplay (journal-verified):** `Powerplay` event confirms Power=Aisling Duval,
+  Rank=**0**, Merits=**0**, TimePledged≈6.8 days. Allegiance is genuinely live (not lapsed), but at
+  rank 0 with no merits banked this cycle — consistent with §7's note that the 5 gating missions
+  haven't been run yet. Doesn't resolve the Hostile-tag question either way.
+- **16 Sept — CG result (journal-verified, CGID 859, matches this section):** `PlayerContribution`
+  **6,822** units, `PlayerPercentileBand` **50** → **Top 50% bracket, 110M CR**, beating the 90M
+  target. CG closes **17 Sept 11:00 UTC** — still technically open, so this could still climb if
+  more is contributed before expiry. The original buy-near-Ega/sell-at-Metz-Enterprise plan and
+  the Gold-trading log above are **the same activity**: gold is on the CG's commodity list (§4),
+  so the "regular" trading was contributing to the CG the whole time.
+- **Also found — a second, already-closed CG** (CGID 856, "Wreaken tests its new mining rig,"
+  expired 10 Sept, not previously logged here): `TierReached` Tier 5, 50M CR bonus tier. Predates
+  this session's narrative window; noting it for the treasury trail, not for the Logbook.
+- **16 Sept — faction confirmation:** `Beyond Infinity Corporation` (see above) is in an active
+  **Boom** economic state per the last `Docked` event — plausible knock-on effect of the trade
+  volume passing through, worth keeping as a narrative detail if useful.
+- **Lifetime trading stats (journal `Statistics` event, not session-scoped):** 835,108,663 CR
+  total market profit, 26 markets traded with, highest single transaction 72,958,258 CR.
+
+**Recommendation (requested 16 Sept — ship outfit upgrades)**
+Treasury was 130M CR at session start (§1); the two Gold runs above add roughly **+600M CR** before
+CG payout and expenses, which almost certainly clears **Ground Rule 4** ("no new hull purchases
+before ~500M CR", §3). Can't give an exact figure without a current treasury read (see note on
+Inara sync at the end of this file), but directionally:
+1. **Cheap, high-value fixes first, regardless of exact balance:** Imperial Clipper (combat) FSD
+   5E → 5A (~5M CR, §2.2) — this was already flagged as the best value upgrade in the fleet and
+   costs a rounding error next to the CG profit.
+2. **Asp "To fix" checklist (§2.1)** is now comfortably affordable in full: strip the missile racks
+   and shield boosters, FSD grade 4→5, thrusters/power plant grade 1→5, AFMU, heat sink launchers.
+   This was gated on money more than anything else.
+3. **First new-hull purchase under Ground Rule 4** becomes a live option for the first time this
+   campaign. Roadmap (§11, medium term) already names the targets: **Type-11 Prospector (67.86M
+   CR)** is the cheapest and most immediately useful (mining role, SCO-optimised, frees the aging
+   mining Clipper) — reasonable first pick. **Mandalay** (exploration/exobiology) is the other
+   medium-term candidate but has no listed price here yet to compare against.
+4. Hold off on the **Guardian FSD Booster** and **Fleet Carrier** — still long-term items per §11,
+   no new information this session changes that.
 
 ---
 
@@ -255,4 +307,16 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 
 ---
 
-*Last updated: 13 September 2026. To be completed session by session.*
+*Last updated: 16 September 2026. To be completed session by session.*
+
+**Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
+Developments\Elite Dangerous\`) on this machine as you play — plain JSON-lines, one event per
+line (`LoadGame`, `Rank`, `Progress`, `Reputation`, `Powerplay`, `CommunityGoal`, `MarketSell`,
+`Statistics`, etc.). Everything marked "journal-verified" above was read directly from today's
+files, no API or login involved. This is the preferred source going forward — more accurate than
+memory, no setup, no credentials. Two fallbacks exist if the journal ever isn't available (e.g.
+working from a different machine): **(a)** a public Inara CMDR profile page can be read directly
+if you share the URL — one-off, no API key needed; **(b)** Frontier's own Companion API would give
+the same data but requires OAuth login with the actual game account, which isn't something worth
+setting up for this — Frontier has also long restricted new API client registrations. The journal
+folder makes both unnecessary while this session's machine is the one being played on.

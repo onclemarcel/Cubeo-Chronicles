@@ -18,19 +18,25 @@ can hold on to any of it.
 
 A taste finds me, next time. Metal, and beneath it something sharper — the memory of acid, though
 nothing here could possibly be burning. I can't tell if I'm tasting it or remembering it, and I'm
-not sure the difference matters yet. Then a voice, close, unhurried, reading numbers the way you'd
-read a shopping list. *Heart rate stable. Cortical response within range. Sedation reduced to—*
-the rest dissolves before it reaches me. There's no fear in that voice. Only competence, and
-competence turns out to be its own kind of comfort.
+not sure the difference matters yet. Then voices, two or three, close, unhurried, overlapping the
+way a shift-change overlaps, reading numbers the way you'd read a shopping list. *Heart rate
+eighty-two and holding. Cortical response at sixty-one percent baseline.* A second voice, lower,
+takes over mid-sentence without a seam. *Sedation reduced to point-four milligrams. Re-scan the
+shoulder graft at oh-six-hundred.* The rest dissolves before it reaches me. There's no fear in any
+of those voices. Only competence, and competence turns out to be its own kind of comfort.
 
 A hand finds my wrist. Three fingers, patient, counting something only they understand. It stays
 longer than a pulse should take, and then it's gone, quickly, like a hand remembering it isn't
 allowed to linger.
 
 Other things surface, underneath the numbers, and they don't belong to any hospital. A face with
-no features. A corridor the exact colour the Empire paints its corridors. A signature at the foot
-of a document I never read. The green, again — patient, waiting its turn. I let the dark take me
-back. It's easier than staying.
+no features. Colour bleeding into shape, slow, deliberate, the way a held breath resolves into a
+held note — and for a moment it holds the outline of a bird, wings taken from four different skies
+at once: five points of pale blue scattered like a rank insignia, a hull-green sliver cutting under
+one wing like a knife folded shut, a shadow the colour of a bruise wearing the same silhouette a
+beat too long, a crown the blue of deep water balanced where a head should be. It never finishes
+becoming the bird. A signature at the foot of a document I never read. The green comes back,
+patient, waiting its turn. I let the dark take me back. It's easier than staying.
 
 · · ·
 
@@ -43,36 +49,13 @@ way you'd talk about weather finally turning — relief, and a professional dist
 were a system coming back online rather than a person waking up inside one. I try to hold on to
 the shapes. They keep sliding, for a while, until one of them doesn't.
 
-She's there every time I open my eyes, after that, and I think she was there, too, on the days I
-didn't open them. She speaks low. She finishes her sentences. She asks questions instead of
-stating things, and when she doesn't know what to say, her hand finds my wrist — three fingers,
-the length of a pulse, then she pulls them back as if she'd just remembered something.
-
-It's gentle. Too gentle. You could fall asleep in it and never decide anything again, and that's
-exactly why I have to leave.
-
-She calls me Viscountess. A woman who washed me, stitched me, sat with me for four years, and she
-calls me Viscountess. I didn't ask her why. I think I know the answer and I don't want to hear it.
-
-When she said *four years*, I waited to feel something. Nothing came. What came, an hour later,
-was want. Not to heal. To get out. To climb, to punch through the ceiling, to cross the ring and
-keep going until there's nothing left behind me.
-
-I asked if my ships were still there.
-
-They were. Four of them, in an Imperial hangar, under a layer of dust no one had had reason to
-disturb. A sensible woman would have sold them, taken the payout, and watched the stars from a
-veranda on Cubeo. I don't think I'm that woman. I don't remember enough of myself to be sure.
-
-**First flight tomorrow.**
-
 ---
 
 # CHAPTER I — LEARNING TO FALL AGAIN
 
 > *"They gave me back my licences without giving me back my reflexes."*
 
-## Day 1 — 12 September 3312
+## Day 1 — 11 September 3312
 
 There's a page at the front of this book with six lines printed on it, like a form. *Ship.
 Mission. Outcome.* As if what's happened to me could fit inside a cargo manifest. I looked at it
@@ -126,17 +109,22 @@ make it truer.
 
 Tomorrow, the hangar. Properly, this time.
 
-## Day 2 — 13 September 3312
+## Day 2 — 12 September 3312 — morning
 
-Woke in the cubicle. Sat with the book open a long time. Nothing came, so I gave up and went back
-to the bar instead, which feels like it might become a habit whether I like it or not.
+Woke in the cubicle, slow to surface, the way water is slow to admit you've disturbed it. Washed,
+and looked — properly, this time, breaking yesterday's promise to myself within a day — at my own
+hands under the tap. Clean nails. No callus where a yoke should have worn one in twenty years.
+Fingers a desk clerk would be proud of, or an aristocrat who's never held anything heavier than a
+signature pen. I turned them over twice, like that might change the answer, then dried them and
+stopped looking, which is easier to write than it was to do. Sat with the book open a long time
+after that. Nothing came, so I gave up and went back to the bar instead, which feels like it might
+become a habit whether I like it or not.
 
 The bar has tinted windows that look out on the ring, and I caught the woman in the glass again
 before I placed her as me. Short curly hair, greyer at the temples than I'd have guessed. Skin the
 Imperial light turns almost golden. And the eyes — too pale for that face, the kind of detail
 people would remember. *So this is what I look like*, I thought. Then, right behind it: *so this
-is what I looked like before, too.* Nobody warns you that you can forget your own face along with
-everything else.
+is what I looked like before, too.*
 
 The bartender put down the same spiced tea as yesterday, again without my asking. I don't know if
 that means I ordered it every day for years, or if he simply decided I'm the kind of woman who
@@ -155,7 +143,7 @@ I paid. I left. I wanted, with a clarity nothing else has managed since the infi
 somewhere none of them could find the shape of me in a stranger's face. Not to run. To leave. I'm
 fairly sure those aren't the same thing, and I seem to be the only one who thinks it matters.
 
-· · ·
+## Day 2 — 12 September 3312 — afternoon
 
 He'd clearly been waiting since morning — I could tell by how many times he'd already tidied tools
 that didn't need it.
@@ -171,6 +159,16 @@ all the way through. I didn't ask where it came from. I think I knew before I kn
 one who gave it to me, a long time ago, and that it's the name the galaxy actually flies by. A
 man's surname over a woman's face. Suited everyone, starting with me.
 
+I got his name wrong twice in the first minute — Roksam, then Roskam, then Roksam again, the
+syllables sliding past each other every time I reached for them. He let it go the first two times.
+The third, he laughed outright. *"Roksam. That's a new one. Sounds like a holovid marshal — Rock
+Sam, riding into town."* Something about the words fit together on their own, the way *Rock Sam*
+wanted to become *Uncle Sam*, an old joke from a planet I've never seen. He must have caught the
+same drift, because he pointed a spanner at me and said, *"Fine. If I'm your uncle now, you're
+mine too. Tío."* Not Tonton back — something else, lighter, a name with no weight of twenty years
+behind it yet. I don't know why it stuck. It just did, the way a spare part sits right the first
+time you try it, before you've worked out which system it belongs to.
+
 He said he'd always known I'd come back. Not *hoped. Known.* That people like me don't finish in
 an infirmary bed, that you don't die in the sheets when you've spent a whole life hunting better
 ways to go. That my destiny was out there among the stars and whatever hides behind them, and
@@ -178,11 +176,16 @@ certainly not in some drawing room smiling at people who've never held a yoke.
 
 That's the kind of line you only earn the right to say after twenty years.
 
-*"Doctors said no solo. So I'm flying with you."*
+*"Docs say no solo. So I'm flying with you."*
 
 I didn't argue. Possibly the most worrying sign of the week.
 
-· · ·
+*"Tomorrow,"* he said, already turning back to whatever he'd been tightening before I walked in.
+*"Get some sleep. You're going to need your hands."*
+
+I looked at them again on the way out. Still didn't like the answer.
+
+## Day 3 — 13 September 3312
 
 There's no simulator waiting for me here, it turns out — that was apparently a Day One idea I
 never actually had. He walked me straight to the Asp, ran a check I only half followed, and told
@@ -244,7 +247,7 @@ this book, so — fine. It's working, a little. I still don't like it.
 
 > *"There were seven thousand of us and I spoke to no one. It was exactly what I needed."*
 
-## Day 3 — 14 September 3312
+## Day 4 — 14 September 3312
 
 Back at the bar and I couldn't make myself order the tea. Told the bartender water instead. He
 didn't react, which I've decided means he notices everything and shows none of it — a talent that
