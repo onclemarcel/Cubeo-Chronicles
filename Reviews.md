@@ -2,74 +2,100 @@ Onclemarcel's review:
 
 ---
 
-**Logbook.md** <br>
-*the Prologue*
-- *[IN-GAME] the game starts in the station were I left my ships, first step is to wander aimlessly inside the spaceport, remembering the different counters*
+- [IN-GAME]: 15th, september :
+  - Start the CG trade routes from EGA to SCORPII SECTOR PI-T B3-4 for Gold in Zolloz City: 4 round trips brings about 300M credits - impressive
+  - 2 interdictions but easily avoided
+  - The Type-9 is a real pain for manoeuvring into starships narrow entries
+  - Hostile flag does not bring any apparent issues, trading is performed as usual
+ 
+- [IN-GAME]: 16th, Sept:
+  - Carry on trading Gold with CRUCIS SECTOR OY-R B4-1 in SUKARNO Horizons: 300M more and I earned the Trader Elite badge
+  - Changed the commander name to "Marcella Delavalette"
+  - Walked in Metz Enterprise wandering aimlessly, thinking about the ranks and the consequences, trying to find an in-game radio (Elite has the Sidewinder Radio)
+  - Received a message from Aisling Duval - weekly reminder of powerplay cycle - could be used to re-attach Delavalette to her obligations with the power
+  - I will have to think about ship outfit upgrades with recently earned money, baseed on Claude recommendations in In-Game Operations
+  - Noticed that the trading round trips made me an allied of the "Beyond Infinity Corporation" linked to independant power (star system is exploited by Edmund Mahon)
+  - The starport shows a lot of Edmund Mahon picture and independant icon
 
-- [CONTEXT] The prologue's content is written in the bar in Medupe City, after having being handed by the doctor. The viscountess also wanders aimlessly around the station, wanting to escape through the hangar... but something held her, the psychic pain felt during her awakening has to be explained, the flashes/unordered memories must have a meaning. She ends up in the bar, being held this good and known spiced tea, looking at the blank pages and take the pen. The viscountess has not lost everything: Cubeo's sounds, smells, food, drinks are familiar, even inviting her to rest and spend a quiet life after her accident - looking to the stars through the marvelous terrace of Medupe City and wandering the planets with the tourism starships...
+- [CONTEXT]:
+  - Delavalette is very receptive to signs/icons shown on walls - the prologue includes visions of a color-shifting geometric forms shaping an eagle (a blurred sign for the 4 imperial eagles with additional shapes (5 stars light blue for aisling, green ship for Patreus, purple eagle shadow for Arissa, Dark blue crown for Zemina)
+  - Delavalette gets confident in herself coming back to trading routines, far away from strange behaviors observed in Cubeo; people are neutral in Metz Enterprise, they don't react to her turquoise-gray very light eyes.
+  - For the story - Delavalette had an eyes surgery for a purpose to be romanced later on (did she lose her eyes dur to the accident (acid spreads), did she have to change her identity due to high pressure in 3308, did someone changed them on purpose while she was in coma? This is a key element for the overall story to be shaped later on. She will realize with a shock on a picture that her eyes were different in the past...
+  - Galnet News : see [GALNET] entry at the end of the file, for the canon -> @CLAUDE: invent/propose possible plot/affair/intrigue from those, we will filter what's interesting later on
 
-- [NARRATIVE] The prologue is written on Day 1 (at the same time as "Day 1", see below)it contains feelings all 5 senses - smells and tastes (e.g. acid/corrosion) may be added to the strangeness:
-  - (eyes closed) the initial images, muffle sounds, dull/distant sensations on her - softly caring and helping drive the most scary memories away - and mainly the enigmatic memory elements - a careful reader will find its way in the meaning of those elements in later chapters. (got back to sleep) 
-  - (eyes closed) part of medical sentences - the doctor voice and complex medical wording for human body constants, state, medecines, symptoms... part of better feeling of touching, soft & kind but clearly medical, caring (got back to sleep)
-  - (eyes open) blurred vision, nurses (male or female), the doctor, more voices "she's well/she's better/a few hours of sleep and she's on her feet" (something of this kind)
+- [NARRATIVE]:
+  - **PROLOGUE**: should be short and enigmatic - should not reveal or hint the solution to the reader - should confuse the reader or lure him/her
+  - 1st paragraph: OK (colour)
+  - 2nd paragraph: OK (thargoids, something stops breathing = the sudden loss (treason feeling) or the accident itself)
+  - 3rd paragraph: OK (muffled sounds, woman word (who is it ? what is this word ? ennemy / friend / love ? gentle/profesional, probably a nurse during the coma phase)
+  - 4th paragraph: voice could be set to plurals, to mix the Doctor voice with those of the nurses (male/female). There is no numbers in italic, maybe more medical terms or number could emphasize the medical ambiance
+  - 5th paragraph: OK - the gentle hand - no hint of who's hand it is, but it is gentle and has the feelong on wanting to stay / fall asleep in it
+  - 6th paragraph: new visions - change the corridor images by the icon/geomtric forms/the eagle shape (where the plot has its sources). what is the signature related to ? we could find something related (a falsified module ? a contract on her? a private note signed by someone who disappeared ?
+  - after the separator, prologue should be shorter, the awakening is shaping:
+    - 7th paragraph: OK
+    - 8th paragraph: OK
+    - 9th paragraph until the end of prologue: NOK - remaining from the initial prologue - could be removed since upper paragraphs mentions this is a more subtle way - ending on "until one of them doesn't" is great : mysterious, and why does the storyteller focus on this shape ? Enemy / friend / doctor / nurse / other ?
 
-- [NARRATIVE] Prologue is closed - Day 1: 12th Sept 3312:
-  - The viscountess does not know what to write, so she relates her wandering and the bar scene. short phrases. The doctor has mentionned that everything is ok, at least physically, but knowing that her memory is broken from the accident/wounds/coma, she held her the empty book and tells her to get back to the life she thinks is fit for her, while putting on paper her feelings, her memories, her beliefs; it will help her connecting the dots
-  - The viscountess has no real talent for writing, she's an experienced pilot, a smuggler with a self code of honor, a reckless mercenary, but with hole in her memory : proof being just given by the doctor Al Kurdi when she asked seemless questions on LHS3447 or her past when letting her go and rest back at her cubicle in Medupe City. She could answer correctly on very well-known facts : the name of the empress, the powers, the most known star systems, the ships she used in the past. Not everything is lost. But she keep her mouth hanged open ("...") when asked simple questions on her past. 
-  - she can't write full literary paragraphs, so she simply introduce the purpose of those pages, almost reproachfully, and writes down their dialog (doctor and her) that ended up in her giving this damned logbook, but she may be right and she's a war doctor and a pilot, too, experienced... and she could not answer, that was the worst.
+- [NARRATIVE]:
+  - **Day 1** is OK - short, with unsaid thinking at the end - place Day 1 on 11th Sept instead of 12th
+  - **Day 2** is a bit long as it is: could be split in two half days 
+    - **12th Sept - morning**
+    - 1st paragraph: Morning in the cubicle - still difficult to wake up - washing refreshing and a new look at her hands, the neat fingers and the thought of the day before at the bar, those cleaned fingers brings an issue, they look like those of an aristocrat or office worker, that does not fit with a past as an experienced pilot.
+    - 2nd paragraph: Back to the bar for breakfast and the scene of the window pane and face . Last sentence could be removed - she remember being a pilot, so she should remember most of her face - except she just notices the bright light turquoise-gray eyes
+    - **12th Sept - afternoon**
+    - the hangar and visit to Roksam : the discovery of her ships, she recognize them, one is missing (the one from her accident), one ship fit for heavy combat although she does not feel having a strong experienced in combat (evidences are the records looked at later on in the ship in EGA)
+    - discussion with Roksam and plan for a flight on 13th sept
+    - the surname should be changed to something else or probably the spanish version of uncle ? Tio ? short, masculine ? The history of the surname comes from Delavalette regularly confusing Roskam and Roksam syllables; Roksam is easily understood as "Rock Sam!" and easily linked to uncle Sam. Roskam calls her "Tio" as a kind response back, she's using it later on during her missions with her contacts, where she does not have to mention her real name.
+    - "doctors said no solo" -> could be changed to more argotic words ? doc ? other
+    - The flight out should be split from here on 13th, Sept
+ - **Day 3**: 13th Sept flying out - I will read after the above changes for consistency and size of reading
+ - **Day 4**: 14th Sept & **Day 5: 15th Sept** & **Day 6: 16th Sept** : could be enhanced with [IN-GAME] CG experience, walks in Metz Enterprise, context of Galnet news, considerations for the place of Delavalette in her world: Day 4 conclude the mystery with the file reading on her facts/ranks/logs, Day 5 and Day 6 are much more relieving, people are neutral to her, not hostile, not strange feelings, almost back to her former trader life, reflexes back, pirate avoidance (one unexperienced almost a joke, one named with a warrant on his head, more difficult to dodge with a huge beast like the Type-9). Day 6 is very quiet, Radio Sidewinder in the ears, trading and trading, earning a high showing she's not in her beginning on her career
+ 
+- [GALNET]:
+  - Galnet news
+Increased Traffic Near Prison Ships Sparks Concern
+Governing authorities of several star systems have reported unusually high traffic around prison reformatories during recent inmate transfers.
 
-  - [NARRATIVE] Day 2: 13th Sept 3312
-      - She wakes up in the cubicle, tried to write, but nothing comes
-      - She is back to the bar - look at herself in the window pane - the barmen helds her the same spiced tea as the day before : she feels the looking of the others; this is what she writes and goes to the hangar, needind to leave
-      - she ends up meeting Roskam and being told about the state of her ships. he tells her about flying with her
-      - their is no simulator, but a real flight and a real landing, with Roskam limiting the ships capabilities on purpose - tutorial purpose.
-      - she's not doing good in escaping the station, even touching a huge ship incoming in by flying too fast when going out - no harm but thermal shields needing energy to come back to normal state, a huge bump, her shoulder hurting (where she received the thargoîd acid splashes), the loudspeaker mentioning her a fine due to cautionless flying.
-      - the rest of the flight is much more quiet, she follows Roskam's indications, apparently nice and restful. She suggests landing in Roskam Enterprise, he refuses with humor and realize inside him that she does not know him being a cyborg - has she lost her memory ? That could change a lots of things, but could complicate a lot her own situation, she must be cared of.
-      - nice feelings coming back in the dark, planet atmosphere entering, chosing a simple nice sunset place for disambarking, far from a Surface port, walking in the dust.
-      - on the flight back, she's approching the orbis starport very close for a low-level flight and sharp angles (she's used to 'flight assist off' mode relying on newton's physics), but Roskam has disabled it on purpose to limit the viscountess' concentration and recovering her practice. Back to the angry mode, frustration surfacing
-      - she thought she was doing well finally, more than expected, she feels uneasy about her most reliable pal limiting her action, he usually does whatever she is asking... or used too...
+Known affiliates of local pirate factions have been spotted flying in formation near the prison ships, but so far have not engaged with local security forces or prisoner transports.
 
-  - [NARRATIVE] Day 3: 14th, Sept 3312
-     - She's back to the bar, avoids the barman, avoids the spiced tea, it's becoming unbearable. By chance she ears about the CG news on TV flowing their news to the spaceport inhabitants : minerals in EGA, a new rover, 3x payment for commodities, prime for participants if tier levels are reached : what a better opportunity for escaping to the world.
-     - a look on the map - 200ly - easily reachable with the ASP in 4 jumps
-     - she knows that a suddenly popular place for big rewards and transportation attracts self-centered pirates, interdiction, threats and a lot of traffic, but hey! that's what life is done for: adventure!... - but hey! care for yourself, too...
-     - she sneaks in the hangar, past Roskam seemingly not looking at her - she does not know (or remember) that he is a cyborg - jumps in the ASP, and replays the moves she tried the day before. She receives a kind 'good luck for your CG' message from Roskam in the message box; that's nice and kind... wait - how did he know ??
-     - in Metz Entreprise, she would summon her Type-9 good old truck for a maximum load capacity and plan for a wealthy trade route
-     - when she arrives in Ega, she notices the "Hostile" warning on her ASP... what is happening here, I've never been here, what did I do ? The plan may be not as easy as it seemed
-     - while waiting for her big bug Type-9 (1,5M credit for bringing the ship from Cubeo, but it seems she still has a well-furbished credits acconut - and, b.t.w., this should be well refunded by the CG), she reminds those strange feelings - paranoid, uneasy - of the few last days awake - she starts opening her personal file logged in her ship
+"Although no direct action has taken place, the pattern and frequency of their appearance suggest that these criminal elements are observing inmate transport movements," a spokesperson for The Independent Detention Foundation remarked to Vox Galactica. “Given that many of the identified pilots have seen the inside of our cells at some stage, it’s unusual to be so brazen in their activity."
 
-  - [CHARACTER] Doctor Al Kurdi - that's her name now, an arabian-type of woman with dark eyes into which the character could drown, and long dark straight hair, sometimes combed in a turban scarf shape showing her narrow face and slim neck. She knows that the Viscountess has no memory from the past, since she did not react to the formal speech or to the questions that should have sturred emotions from **their** past, a few years ago.
+"For now there has been no conflict with these vessels, and pilots are complying with directives to maintain a minimum distance. We're working closely with local authorities across our fleet itinerary to ensure there are adequate security forces in place to deter any escalation."
 
-  - [CHARACTER] Roksam - cyborg - but the viscountess does not know it from the beginning. he is very friendly, she relies a lot on him/it. he is able to act as a real friend and does not have anything against her. He is protective, a guide on ships & outfitting & engineering. He is playful and has a real sense of humour - puns and jokes may be added. on the "dark side", he has been used in the past against her (programmed or pressured - we'll defined later on), this is why truth means harm, so omitting is always ok - Roskam sentences generally have a double meaning
+14 Sep 3312
+Crime
+Independent
+Federation Condemns Ongoing October Accords Exclusion
+President Felicia Winters held a conference today condemning the continued exclusion of the Federation from ongoing research into Radicoida unica.
 
-  - [CHARACTER] Viscountess - she is Marcella Delavalette - I will change CMDR Onclemarcel to this name in the game. Her status is in Inara.cz, she realizes she is attached to Aisling Duval Power - great news, but may explain things related to hostile people ? She has all the symptoms of post-traumatic treason feelings - see end of file
+Speaking directly from the White House at Olympus Village, Mars, she addressed the press stating that Federal military analysts confirmed the coalition under the October agreement now posed a threat to security.
 
-  - [GUIDELINES] The prologue can be read several times by a reader : the more he learns in the "Days" pages, the more he understands the enigmatic images & sounds & hallucinations - meaning that some visions may be added to the prologue later on, but without loaded it too heavily - the prologue should remain disordered/inexplicable/weird/disconcerting
+"The evidence presented to me has concluded that those involved with the October Accords pose a credible threat to the Federation," she said.
 
-  - [GUIDELINES] Day 1 contains the tea section and a dialog leading to the logbook handling : the dialog should reflect the doctor state: professional, knowing but not showing, questionning while confirming her own thoughts, she wants her to stay but say her to leave to remember. Generally, the first "days" in the logbook does not reveal the character's nature, the reader believes in a standard story of the viscountess starting to find a new way of life.
+"For whatever reason or method, the use of the research into Radicoida unica has solely been focused on weaponising the flora. We can only assume that, as the Federation was left out of the Accords, we are now a target."
 
-  - [GUIDELINES] Day 2 contains the window / faces / looks section and an interaction with the mechanics - he's briefing shortly about the "In-Game operations" ships future upgrades, mentions a bit of what's new from all this years (new ships, a short powers state evolution, etc... ). The huge ship on which she bumps is a Panther Clipper MKII - "what is that ??"
+Winters ended the press conference with a stern warning against any attempt of aggression.
 
-  - [GUIDELINES] Day 3 is a mix of 'back to the real life' and 'what is the matter with this reality ?' - she feels paranoid, she's got the post-traumatic symptoms of treason without knowing them. She learns about her past through basic commander logs in her ship
+"The Federation will not tolerate any attack on our sovereign way of life, and any use of force will be met with the strongest of responses."
 
-  - [CONTEXT] found on Post-traumatic symptoms of treason : 
-    - Short-Term Post-Traumatic Symptoms
-        Immediately following exposure to a perceived or actual act of treason, individuals may experience acute stress responses, which overlap with general trauma reactions:
-        - Emotional Symptoms: Shock, denial, or disbelief, Intense fear or horror, Guilt and shame over perceived culpability, Anger and resentment towards authorities or peers
-        - Cognitive Symptoms: Intrusive thoughts about the event, Obsessive rumination on consequences or betrayal, Difficulty concentrating, decision-making impairment
-        - Behavioral Symptoms: Withdrawal from social or professional networks, Hypervigilance, avoidance of reminders of the event, Overworking or obsessive attempts to repair reputation
-        - Physical Symptoms: Sleep disturbances (insomnia, nightmares)
-        - Psychosomatic responses: rapid heartbeat, muscle tension, gastrointestinal distress, Panic attacks triggered by cues associated with the event
-    - Long-Term Symptoms
-        Long-term effects arise when the stressor is not resolved or continues to impact identity, social status, or safety. Historical analyses of treason trials and moral injury literature provide insight:
-        - Post-Traumatic Stress Disorder (PTSD):
-        - Chronic re-experiencing: flashbacks, nightmares, intrusive memories
-        - Avoidance behaviors: avoiding people, locations, or discussions linked to the event
-        - Emotional dysregulation: irritability, anger outbursts, persistent anxiety
-        - Hyperarousal: exaggerated startle reflex, difficulty relaxing, persistent vigilance
-        - Moral Injury (particularly salient for those who feel they violated personal or societal ethics): Enduring guilt or shame, Loss of trust in leaders, institutions, or peers, Disruption of personal identity and self-worth
-        - Cognitive and Neuropsychological Effects: Impaired executive function, working memory deficits, difficulties with decision-making, Rumination and obsessive guilt leading to reduced mental flexibility, Delayed neurobiological changes in areas such as the amygdala, hippocampus, and prefrontal cortex, affecting emotional regulation and threat perception
-        - Social and Interpersonal Symptoms: Persistent mistrust, social withdrawal, and isolation, Difficulties in forming or maintaining relationships, Stigmatization, loss of status, and marginalization within a community
-        - Physical Health Impacts: Chronic stress leading to cardiovascular problems, weakened immune function, or gastrointestinal disturbances, Sleep and metabolic disturbances, Increased risk of substance misuse as a coping mechanism
-        - Delayed-Onset Symptoms: Emotional and cognitive effects may remain dormant for months or years, surfacing after life stressors such as public recognition, political change, or familial pressure.
+11 Sep 3312
+Federation
+Felicia Winters
+Wreaken Calls for Surface Mining Support Tests
+To test its new deployable mining rig, Wreaken Corporation has called for independent pilots to help complete field trials.
 
+Dr. Ben Curtis, Chief Geologist at Wreaken, stated:
+
+"We're excited to not only test the rig's patented mining laser technology but also verify which materials it can extract from a variety of planetary body types."
+
+"In order to conduct accurate tests, we're also opening up these field trials to pilots willing to laser mine asteroids for comparative yield analysis."
+
+He added that it was a result of the direct cooperation with Vodel for the release of the new SRV Rhino that placed the deployable rig in the hands of intrepid miners so quickly.
+
+"The Rhino is the first of its kind in this new class of SRV. We know buyers are going to have a lot of fun taking this across terrain they found tough before." added Owen McKenna, CEO of Core Dynamics.
+
+All independent pilots willing to take part in the initiative should head to the Ega system and register their interest at Metz Enterprise.
+
+03 Sep 3312
+Core Dynamics
+Independent
