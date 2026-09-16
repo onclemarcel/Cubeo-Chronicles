@@ -2,20 +2,8 @@ Onclemarcel's review:
 
 ---
 
-- [IN-GAME]: 15th, september :
-  - Start the CG trade routes from EGA to SCORPII SECTOR PI-T B3-4 for Gold in Zolloz City: 4 round trips brings about 300M credits - impressive
-  - 2 interdictions but easily avoided: one against an unnamed pilot, the second against Michael Prahn, probably a pirate with a warrant, but my Type-9 is not a ship fit for a fight
-  - The Type-9 is a real pain for manoeuvring into starships narrow entries
-  - Hostile flag does not bring any apparent issues, trading is performed as usual. I've checked about Hostile status meaning, I may be a target for a adverse powerplay commander who has a contract for killing those alleged to the opponent power.
- 
-- [IN-GAME]: 16th, Sept:
-  - Carry on trading Gold with CRUCIS SECTOR OY-R B4-1 in SUKARNO Horizons: 300M more and I earned the Trader Elite badge
-  - Changed the commander name to "Marcella Delavalette"
-  - Walked in Metz Enterprise wandering aimlessly, thinking about the ranks and the consequences, trying to find an in-game radio (Elite has the Sidewinder Radio)
-  - Received a message from Aisling Duval - weekly reminder of powerplay cycle - could be used to re-attach Delavalette to her obligations with the power
-  - I will have to think about ship outfit upgrades with recently earned money, baseed on Claude recommendations in In-Game Operations
-  - Noticed that the trading round trips made me an allied of the "Beyond Infinity Corporation" linked to independant power (star system is exploited by Edmund Mahon)
-  - The starport shows a lot of Edmund Mahon picture and independant icon
+
+- [IN-GAME]: 16th sept:
   - I carry on with other trips on the following stations/system and made profits over 1 billion credits: 
     - Hannah Station | 49 Librae
     - Eternal Flame Citadell | Scorpii Sector WZ-P a5-1
