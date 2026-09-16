@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 13 September 2026 (3312)
+## Campaign memory — status as of 16 September 2026 (3312)
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 
