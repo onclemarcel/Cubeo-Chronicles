@@ -111,7 +111,7 @@ Tomorrow, the hangar. Properly, this time.
 
 ## Day 2 — 12 September 3312 — morning
 
-Woke in the cubicle, slow to surface, the way water is slow to admit you've disturbed it. Washed,
+Woke in the cubicle, slow to surface. Washed,
 and looked — properly, this time, breaking yesterday's promise to myself within a day — at my own
 hands under the tap. Clean nails. No callus where a yoke should have worn one in twenty years.
 Fingers a desk clerk would be proud of, or an aristocrat who's never held anything heavier than a
