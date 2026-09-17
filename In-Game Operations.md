@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 16 September 2026 (3312)
+## Campaign memory — status as of 17 September 2026 (3312)
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 
@@ -16,7 +16,7 @@
 | Imperial Navy rank | **Viscount** |
 | Power | Aisling Duval — pledged, **Rank 0 / 0 merits** this cycle (journal-verified, see §4) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **782,037,614 CR** (journal-verified snapshot, 16 Sept 08:53 UTC — before that day's trading) |
+| Treasury | **1,661,101,632 CR** (journal-verified snapshot, 17 Sept 06:57 UTC — `LoadGame` 1,587,955,063 + this session's gold run net +73,147,000 − 431 refuel; CG 859 payout not yet included, see §4) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -64,9 +64,11 @@ Eventually replaced by the Type-11 Prospector. Keep for now.
 
 ### 2.4 Type-9 Heavy — `ON-16T`
 
-**758 t cargo · 26.49 ly · total value 130.7M CR · hull 76.5M · docked at Medupe City**
+**758 t cargo · 26.49 ly · total value 130.7M CR · hull 76.5M**
 
 Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), class 6, once the CG payout clears.
+
+**Current location (17 Sept, journal-verified):** docked at **Violet Ann Memorial** (Scorpii Sector QT-R b4-0), not Medupe City — still out running the CG/gold loop. Plan: one more leg to Metz Enterprise (Ega) to close out the CG, then swap active ship to the Asp and bring the Type-9 home to Medupe City on a later run (see §4 recommendation).
 
 ### 2.5 In storage
 
@@ -163,6 +165,25 @@ Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), c
   (Cobra Mk III), pursued the Type-9 from Violet Ann Memorial back to Ega across multiple
   interdiction attempts, no hull damage taken. Logged here as a recurring-antagonist candidate for
   the narrative (see `characters.md`, "The rival").
+- **17 Sept — one more gold run (journal-verified):** Violet Ann Memorial → Metz Enterprise, 758 t
+  bought at 44,839 CR/t (33,987,962 CR out), sold at 141,339 CR/t (107,134,962 CR in) — net
+  +73,147,000 CR. `CommunityGoal` (CGID 859, last read 06:54 UTC) confirms this run pushed
+  `PlayerContribution` to **15,918** units and `PlayerPercentileBand` to **25** —
+  **corrects the pre-session expectation of a 50% finish: this is a Top 25% result.** The
+  in-journal live `Bonus` field for that band reads **170,000,000 CR** (higher than §4's static
+  155M table estimate — CG reward scaling is dynamic and moves with total participation, not
+  fixed). CG closes **17 Sept 11:00 UTC**; it was still open at session end (`Shutdown` 06:57 UTC,
+  docked at Violet Ann Memorial), so payout hasn't posted yet and the band could still shift a
+  little before expiry — but this is comfortably clear of the 90M target either way.
+- **17 Sept — treasury resync (journal-verified, supersedes the 16 Sept snapshot in §1):**
+  `LoadGame` 1,587,955,063 CR at session start + this run's net profit − refuel cost =
+  **1,661,101,632 CR**. The 782M figure previously in §1 predated the bulk of 16 Sept's gold
+  trading, as already flagged there.
+- **17 Sept — stated plan for the next session:** fly the Type-9 from Violet Ann Memorial back to
+  Metz Enterprise (Ega) to close out the CG properly, swap the active ship to the **Asp Explorer**
+  at Ega, fly the Asp back to Cubeo, then regroup the whole fleet at Medupe City and start working
+  the upgrade checklists (§2, §11) — treasury now clears Ground Rule 4 many times over, so nothing
+  in the recommendation below is money-gated anymore.
 
 **Recommendation (requested 16 Sept — ship outfit upgrades)**
 Treasury was 130M CR at session start (§1); the two Gold runs above add roughly **+600M CR** before
@@ -279,8 +300,10 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 **Immediate (before 17 September)**
 - [ ] FSD 5A on the combat Clipper
 - [ ] Check power priorities on the Asp
-- [ ] Sign up for the CG at Metz Enterprise
-- [ ] 2–3 runs of 758 t
+- [x] Sign up for the CG at Metz Enterprise
+- [x] 2–3 runs of 758 t — Top 25% bracket reached (journal-verified, §4)
+- [ ] Close out the CG run at Metz Enterprise, swap to the Asp at Ega, fly it back to Cubeo, regroup
+      the fleet at Medupe City (§4, 17 Sept plan)
 
 **Short term**
 - [ ] Reinstate Aisling allegiance + 5 initial missions
@@ -316,7 +339,7 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 
 ---
 
-*Last updated: 16 September 2026. To be completed session by session.*
+*Last updated: 17 September 2026. To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
 Developments\Elite Dangerous\`) on this machine as you play — plain JSON-lines, one event per

@@ -152,7 +152,7 @@ A stocky man, past sixty, hands that will never come fully clean again. He took 
 me, stopped, straightened his back — the reflex you get around a Viscountess. Then he actually
 looked at my face and the reflex fell away on its own.
 
-*"Ah. There you are, Tonton."*
+*"Ah. There you are, Tio."*
 
 Nobody's called me that in four years, and it's still the first word since I woke that felt true
 all the way through. I didn't ask where it came from. I think I knew before I knew — that he's the
@@ -162,8 +162,7 @@ man's surname over a woman's face. Suited everyone, starting with me.
 I got his name wrong twice in the first minute — Roksam, then Roskam, then Roksam again. He let
 the first two slide. The third, he laughed outright, pointed a spanner at me and said, *"Fine. If
 I'm your uncle now, you're mine too. Tío."* I understood the joke before he'd finished making it —
-Roksam, Rock Sam, Uncle Sam, Tío, an old chain of nonsense from a planet I've never seen. Not
-Tonton back. Something lighter. It was the first thing since the infirmary I hadn't had to work
+Roksam, Rock Sam, Uncle Sam, Tío, an old chain of nonsense from a planet I've never seen. It was the first thing since the infirmary I hadn't had to work
 for. I'll take it.
 
 Then he got serious, in his way — which means he started talking about the ships instead of me.
