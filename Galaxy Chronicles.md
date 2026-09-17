@@ -149,6 +149,42 @@ about, if her file still worked.
 
 ---
 
+## LHS 3447 — WHAT SHE FOUND ON THE MAP (16 September 3312)
+
+Checked in-game, in session, Chapter II Day 6: **LHS 3447** — her own departure system, the one
+even the doctor's discharge questions couldn't reopen (see `Guidelines.md`, "FILE — WHO SHE WAS")
+— currently shows **democratic, independent, nominally aligned to the Pilot Federation**, but
+**fortified under Powerplay by Yuri Grom**, the anarchist/smuggler Power. No in-fiction explanation
+attached yet, and none should be until its own dedicated beat (see `Guidelines.md`, Through-Line,
+Ch. II Day 6 note). Treat this as a bare, checkable fact she can look up on the map, not as
+something anyone tells her.
+
+---
+
+## SEPTEMBER 3312 — GALNET, LIVE
+
+Three real Galnet pieces surfaced this session, all usable as background texture or conversation
+fodder without inventing anything:
+
+- **03 Sep 3312 — "Wreaken Calls for Surface Mining Support Tests."** Wreaken Corporation
+  (Dr Ben Curtis, Chief Geologist) calls independent pilots to Ega/Metz Enterprise to field-test its
+  new deployable mining rig and the **Rhino** SRV, developed with Vodel. This is the article behind
+  the **already-closed CG** noted in `In-Game Operations.md` §4 (CGID 856, "Wreaken tests its new
+  mining rig," expired 10 Sept, Tier 5/50M CR reached) — a concrete in-world source for a CG the
+  Viscountess never directly narrates, since it closed before she reached Ega.
+- **11 Sep 3312 — "Federation Condemns Ongoing October Accords Exclusion."** President **Felicia
+  Winters** accuses the October Accords coalition of weaponising **Radicoida unica** and warns that
+  any aggression toward the Federation will be met in kind. Live political backdrop for the trader
+  crowd at Metz Enterprise (Ch. II Day 5) — some of them furious on Winters's behalf, none of it
+  requiring the Viscountess to declare where she stands.
+- **14 Sep 3312 — "Increased Traffic Near Prison Ships Sparks Concern."** Known pirate-faction
+  affiliates spotted shadowing prison-transport movements near several reformatories, no
+  engagement yet, just sustained observation. No direct link to the Viscountess's own week — usable
+  later as atmosphere (something watching, patiently, for reasons not yet given) if the story wants
+  it.
+
+---
+
 ## THE ANOMALY — THE MINING LASER
 
 **16 to 23 November 3309 — "Mine Resources for Torval Mining Ltd."**
@@ -218,6 +254,7 @@ was her who took the Asp out — to keep the ship alive, the way she kept the bo
 | **Zemina Torval** | Imperial senator, slaver, ZYADA ally of Aisling | The ideological antagonist. Interests she would have threatened. Now, on paper, a colleague. |
 | **Denton Patreus** | Imperial militarist senator, ZYADA ally of Aisling | Alternative lead for the falsified armament. Same alliance as above. |
 | **Edmund Mahon** | Alliance Prime Minister, Power headquartered at Gateway/Colonia, **not** part of ZYADA | A rival bloc's territory brushing up against Aisling's. Explains, mundanely, why a system outside ZYADA space can flag a ZYADA-pledged commander hostile on sight — useful as a red herring or as the real thing, undecided (see `In-Game Operations.md` §4). |
+| **Yuri Grom** | Anarchist/smuggler Power, part of the ZYADA bloc alongside Aisling | Currently fortifies **LHS 3447** — her own departure system — for reasons unknown to her. Freshly found, Ch. II Day 6 (see "LHS 3447" above). |
 
 ---
 
@@ -226,7 +263,10 @@ was her who took the Asp out — to keep the ship alive, the way she kept the bo
 Proteus Wave · Bright Sentinel · Heart of Taurus · Musashi · Maelstrom · Titan · Interceptor ·
 Scout · Guardian artefact · meta-alloy · caustic · Aegis · Pilots' Federation ALERT · Vox
 Galactica · Majestic-class interdictor · Farragut-class cruiser · Hind Mine · Universal
-Cartographics · Vista Genomics.
+Cartographics · Vista Genomics · Radio Sidewinder.
+
+**Invented in-fiction name, not canon vocabulary:** Inara.cz appears in the text as **"the Pilot
+Circle"** — see `Guidelines.md`, "World Vocabulary."
 
 **Rule of use:** these words get dropped without explanation. A narrator who explains her own
 world doesn't live in it. The reader will catch up.

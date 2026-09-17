@@ -68,8 +68,10 @@ What this character is for. What breaks in the story if they disappear.
 # THE VISCOUNTESS
 
 ## 1. Identity
-Legal name **Marcella Delavalette** — it's on her papers, and it means nothing to her; it never
-once fires as recognition, only as data, which is its own small horror. Known across the galaxy
+Legal name **Marcella Delavalette** — unlike almost everything else, this one came back on its
+own, from the first day; she's never had to relearn it, only get used to hearing it from other
+people's mouths again. It's the rest of what should attach to a name — a childhood, a home, a
+reason for the surname she doesn't use — that the accident took and kept. Known across the galaxy
 by a **man's surname** instead, inherited from the nickname the mechanic gave her. Viscountess of
 the Empire — a real title, zero influence. Origin: **LHS 3447**, the departure system. No family
 she remembers; possibly no family at all.
@@ -81,9 +83,12 @@ systems, read her ship as hostile on sight before she's done anything at all —
 for later, not for her to ask out loud yet.
 
 ## 2. Physical
-Short curly hair, greying at the temples. Mixed-race skin. **Pale eyes, too pale for that face**
-— the detail people remembered, and the one that makes her impossible to forget even though she's
-forgotten everything. A frankly feminine build under a man's name.
+Short curly hair, greying at the temples. Mixed-race skin. **Pale eyes — turquoise-grey, too
+light for that face** — the detail people remembered, and the one that makes her impossible to
+forget even though she's forgotten everything. Away from Cubeo, where no one has a memory of her
+to check it against, they read as just a colour, nothing more — the effect depends entirely on
+someone already knowing which face they're supposed to belong to. A frankly feminine build under a
+man's name.
 
 ## 3. The tic
 **Her left thumb, reaching for the flight assist toggle.** Before the decision, before the
@@ -96,6 +101,10 @@ The mechanic does.
 - **The lie she tells herself:** that she's alone because she prefers it that way.
 - **Wants:** to leave again.
 - **Needs:** to know who sent her to die. And to let someone get close.
+- **A standing trait, not a one-off:** she's receptive to signs and icons before she's receptive to
+  facts — colours, shapes, insignia on a wall register on her before whatever they're attached to
+  does (see the prologue's eagle vision, and its recurrences in `Guidelines.md`, Recurring Motifs).
+  She doesn't name this in herself; the reader should notice the pattern before she does.
 
 ## 5. Upbringing and background
 Self-taught pilot. No aristocratic upbringing whatsoever: she's **shunned Imperial high society**
@@ -140,6 +149,14 @@ The single point of view. The reader knows only what she knows.
 - 2026-09-16 — added the eyes as a standing open question (three readings above, none settled).
   Payoff planned as a photograph reveal, not a conversation — keep it visual, keep it unexplained
   on the page. Do not resolve before she's emotionally ready to look for the answer herself.
+- 2026-09-17 — clarified: her own legal name is intact from day one, never lost, unlike LHS 3447 or
+  everything that should surround the name — the amnesia is selective, not global. Eye colour
+  specified (turquoise-grey) for later precise use (the photograph payoff, §7). Added the
+  receptiveness-to-signs trait (§4) as an explicit, standing character trait rather than a
+  one-scene device. Clarified that "Tío" (Ch. I, Day 2 afternoon) is heading toward becoming her
+  working alias with contacts and other commanders once she starts operating under a name that
+  isn't tied to the Viscountess title — used in place of "Tonton" in those contexts, not alongside
+  it; "Tonton" stays private to the mechanic. Still planted, not yet paid off on the page.
 
 ---
 
@@ -243,6 +260,10 @@ real plating from fake on sight.
   mispronouncing his surname as "Roksam." Kept alongside "Tonton," not instead of it: Tonton stays
   the private, load-bearing name; Tío is the lighter one, usable later as a field alias with
   contacts who don't need to know she's a Viscountess (planted, not yet paid off on the page).
+- 2026-09-17 — scope of "Tío" clarified on the Viscountess sheet (§1/Evolution): it's heading
+  toward replacing "Tonton" specifically in her dealings with outside contacts and other
+  commanders, not becoming a second everyday nickname alongside it. No change to how he uses either
+  name himself.
 
 ---
 
@@ -322,7 +343,7 @@ fragment of the through-line.
 |---|---|---|
 | The ducal contact | to be built | Tic to be defined. Lies about a date in Ch. V. |
 | The bartender of Medupe City | to be built | Hears everything, never looks up. |
-| The rival | to be built | Patreus loyalist, or old comrade. |
+| The rival | to be built | Patreus loyalist, or old comrade. Candidate: **Paladin**, a pirate (Cobra Mk III) who chased her from Violet Ann Memorial to Ega, Ch. II Day 6 — too early to confirm, played as an ordinary pirate encounter on the page so far. |
 | The ghost | to be built | Never reveal too soon. |
 | The modules' supplier | **to be built** | The real antagonist. May not appear until Ch. VIII. |
 | A reclusive engineer | to be built | Recognises the signature of the falsified plating (Ch. IV). |

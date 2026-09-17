@@ -185,6 +185,16 @@ line of an otherwise ordinary entry.
   sit right (her hands, planted Ch. I Day 2), which she notes without dwelling on it. The eyes
   motif is live throughout (background texture, not a clue yet — it becomes one only at its own
   dedicated beat, not before).
+  **2026-09-16, Ch. II Day 6 — two threads planted ahead of the original schedule** (real-session
+  material demanded it; treated as an early long-range plant, not a rewrite of the plan): (1) LHS
+  3447, her own departure system, turns up on the Powerplay map fortified by Yuri Grom, for no
+  reason she can access yet — stays a bare fact on the page, no theory attached; (2) the eagle's
+  bruise-coloured shadow fragment (see Recurring Motifs) gets its first colour-only association,
+  with violet — never named, never explained, not even to herself. Neither thread is revisited
+  until its own dedicated beat. A pirate calling himself **Paladin** also appears for the first
+  time, chasing her from Violet Ann Memorial to Ega — a candidate for "the rival" (see Recurring
+  Characters), too early to confirm; play it as an ordinary, frightening pirate encounter on the
+  page, no special narrative weight yet.
 - **Ch. III** — a colony, a terminal, a supplier's name that gives her a physical unease she can't
   explain.
 - **Ch. IV** — an engineer recognises the signature of a falsified hull plating. He's seen it
@@ -225,6 +235,25 @@ one.
   deep-blue crown — that never finishes resolving into a bird. Recurs whenever she's closest to
   the thing she can't remember; each recurrence may add or sharpen one fragment, never all four at
   once, and never a caption explaining what they are.
+  This motif is one expression of a wider trait, not a one-off vision: she's generally receptive to
+  signs and icons — colours, shapes, insignia on a wall — registering on her before whatever
+  they're attached to does (see `characters.md`, Viscountess §4). Usable for other symbol-based
+  foreshadowing beyond the eagle itself, on the same never-explained terms.
+
+---
+
+## WORLD VOCABULARY — NAMES FOR REAL-WORLD TOOLS
+
+Some real-world companion tools need an in-fiction name when a character would plausibly reference
+them (checking a route, a market, a reputation). Convention so far:
+
+- **Inara.cz → "the Pilot Circle."** The computing system commanders consult for maps, market
+  data, standings, and reputation. Used matter-of-factly, no explanation on the page — the reader
+  infers its function from context, same as any other piece of `CANONICAL VOCABULARY`
+  (`Galaxy Chronicles.md`).
+
+Add to this list as new tools come up in play, rather than inventing a fresh name each time one is
+needed.
 
 ---
 

@@ -159,15 +159,25 @@ all the way through. I didn't ask where it came from. I think I knew before I kn
 one who gave it to me, a long time ago, and that it's the name the galaxy actually flies by. A
 man's surname over a woman's face. Suited everyone, starting with me.
 
-I got his name wrong twice in the first minute — Roksam, then Roskam, then Roksam again, the
-syllables sliding past each other every time I reached for them. He let it go the first two times.
-The third, he laughed outright. *"Roksam. That's a new one. Sounds like a holovid marshal — Rock
-Sam, riding into town."* Something about the words fit together on their own, the way *Rock Sam*
-wanted to become *Uncle Sam*, an old joke from a planet I've never seen. He must have caught the
-same drift, because he pointed a spanner at me and said, *"Fine. If I'm your uncle now, you're
-mine too. Tío."* Not Tonton back — something else, lighter, a name with no weight of twenty years
-behind it yet. I don't know why it stuck. It just did, the way a spare part sits right the first
-time you try it, before you've worked out which system it belongs to.
+I got his name wrong twice in the first minute — Roksam, then Roskam, then Roksam again. He let
+the first two slide. The third, he laughed outright, pointed a spanner at me and said, *"Fine. If
+I'm your uncle now, you're mine too. Tío."* I understood the joke before he'd finished making it —
+Roksam, Rock Sam, Uncle Sam, Tío, an old chain of nonsense from a planet I've never seen. Not
+Tonton back. Something lighter. It was the first thing since the infirmary I hadn't had to work
+for. I'll take it.
+
+Then he got serious, in his way — which means he started talking about the ships instead of me.
+All four had been kept alive, not kept sharp: engineered a decade ago and never touched since,
+missile racks and shield boosters bolted on for jobs I don't remember taking, dead weight he'd
+never had the heart to strip without me there to say yes. *"You left them running. You didn't
+leave them good."* He said it like an apology that wasn't his to give.
+
+He told me, not quite looking up from the spanner, that the yards hadn't sat idle while I had. New
+hulls since the accident, names I didn't recognise, one of them a big Imperial thing out of
+Gutamaya he clearly wanted for himself more than for me. Then, quieter, almost embarrassed by it:
+he was glad to have me buying again. Materials, odd components, whatever strange thing I hauled
+back from wherever I ended up — he had experiments of his own he'd been wanting to run, blueprints
+with nowhere to go for four years.
 
 He said he'd always known I'd come back. Not *hoped. Known.* That people like me don't finish in
 an infirmary bed, that you don't die in the sheets when you've spent a whole life hunting better
@@ -187,59 +197,28 @@ I looked at them again on the way out. Still didn't like the answer.
 
 ## Day 3 — 13 September 3312
 
-There's no simulator waiting for me here, it turns out — that was apparently a Day One idea I
-never actually had. He walked me straight to the Asp, ran a check I only half followed, and told
-me to take her out.
+No simulator. He walked me to the Asp, ran a check I half followed, told me to fly.
 
-Cubeo's docking slot is a rotating collar on the inside of an Orbis ring: you match its spin,
-thread the gap, and try not to think too hard about the tolerances. My hands remembered the shape
-of the manoeuvre before my head had finished deciding to trust them, which should have been
-reassuring and instead made me overconfident. I came out of the slot too fast.
+I came out of the docking slot too fast and put my canopy nose-to-nose with a Panther Clipper Mk
+II I'd never seen in my life — hauled clear with room to spare, technically, thermal shields
+screaming, my shoulder lighting up like an old debt called in. A very calm voice fined me for it.
+I didn't argue. I clearly earned it.
 
-There was a Panther Clipper Mk II inbound on the same lane — a ship I have never in my life seen
-before, a wall of hull with the manners of a Fer-de-lance and the mass of a moon — and for about a
-second and a half the whole width of my canopy was full of someone else's coating. I hauled us
-clear with room to spare, technically. Thermal shields flared and had to bleed the heat back down,
-a bump you feel in your teeth more than your ears, and my shoulder — the left one, where the acid
-caught me, where I apparently keep a permanent weather report — lit up like I'd slept on it wrong
-for a decade.
+Roskam said nothing for a minute. Then, dry: *"Welcome back."*
 
-A very calm dock authority voice informed me I'd be fined for reckless proximity. I have, it
-turns out, a well-furnished credit account and absolutely no ability to argue with a fine I'd
-clearly earned.
+I joked about setting down at Roskam Enterprise, the family seat. He laughed too fast and had us
+diverting before I'd finished the sentence. I noticed the seam and let it go — I've got enough
+mysteries this week.
 
-Roskam didn't say anything for a full minute. Then, over comms, dry as the rag he's always got in
-his hand: *"Welcome back."*
+We landed instead on open ground under a tea-coloured sunset, and for about a minute nothing was
+heavier than the dust under my boots.
 
-After that it went quiet, almost gentle. He talked me through a slower line out past the beacon,
-the kind of flying that's mostly listening. I could have stayed in that particular quiet a long
-time.
+Coming back in, old habit reached for the flight-assist toggle. Dead. He'd locked it from his side
+before we ever left the pad. I was angrier about that than the moment deserved — he's never told
+me no before, as far as I remember, which isn't far. I didn't say any of it out loud.
 
-Coming up on the surface, I suggested — half joking, testing the name in my mouth — that we set
-down at Roskam Enterprise. See the family seat.
-
-He laughed before I'd finished the sentence, said something about the coffee there being an insult
-to the word, and had us diverting toward a different stretch of coastline before I could ask if
-I'd said something wrong. It landed a beat too fast to just be a joke. I noticed the seam in it and
-didn't know what to do with the noticing, so I let it go.
-
-We put down instead on open ground under a sunset the colour of the tea, a long way from anything
-with a name on the chart. I got out, stood in the dust next to my own ship, and for about a minute
-none of it — not the face, not the title, not the four years — was heavier than the ground under
-my boots.
-
-Coming back in was worse. Old habit brought my thumb to the flight-assist toggle on final approach
-— the move that apparently once put me nose-to-nose with a training drone, in a life I'm told I
-used to have — and the switch did nothing. Roskam had locked it out from his side before we ever
-left the pad. Training wheels, except I'm forty-something years old and used to fly this exact
-approach with the assist off and the whole galaxy relying on physics instead of me.
-
-I was angrier about it than the moment deserved. He's never once told me no when I've asked him
-for anything, as far as I remember — which isn't very far, granted — and it turns out being told
-no by the one person I trust completely sits worse than being told no by a stranger.
-
-I didn't say any of that out loud. I wrote it here instead, which I gather is the entire point of
-this book, so — fine. It's working, a little. I still don't like it.
+He knows I fly like the ground doesn't apply to me. It's probably why we get along. Doesn't mean I
+have to enjoy being reminded he's the one holding the leash tonight.
 
 ---
 
@@ -315,11 +294,120 @@ I'm going to open it now, while the Type-9 finishes its crossing.
 I don't know yet if that's a good idea. I'm writing it down anyway. I gather that's also the
 point.
 
-**Entries:**
+It wasn't what I braced for.
 
-```
-### 
-```
+No warning, no threat, no message addressed to a version of me smart enough to leave herself one.
+Just a service file: rank progression, certifications, three commendations from factions I don't
+remember serving, a trade turnover figure that made even me sit back in the couch. Elite, once, in
+combat — lapsed to nothing years before the accident, cold on that front since before whatever
+finally got me. Four hulls listed by name, dates of acquisition, nothing about why.
+
+I read it twice, waiting for the part that explained anything, and it never came. A life, filed
+and dated and entirely correct, about a woman I have to take the system's word for. No villain. No
+warning. Just paperwork, and the strange, deflating relief of paperwork — proof that whatever I
+was doing before Ega, I was doing it well enough for someone to keep count.
+
+The Type-9 dropped out of supercruise twenty minutes later. I closed the file and went to meet it,
+because there's only so long you can sit with your own inventory before it starts reading like an
+obituary with the death date left blank.
+
+## Day 5 — 15 September 3312
+
+Metz Enterprise doesn't know who I am, and that turned out to be the best thing that's happened to
+me all week.
+
+Nobody here holds a door for a Viscountess. Nobody's face does the three-weather thing Cubeo's
+does. Not one of them does the double-take my own eyes usually earn back home — too pale, too
+strange for the face they're set in, the kind of thing Cubeo never lets me forget I'm wearing.
+Here, it's just a colour. Nobody's cross-referencing it against a memory of who I used to be. I'm
+just another hauler at the market terminal, queueing behind CMDRs from a dozen systems I've never
+heard of, all of us talking the same shorthand — margins, tonnage, which faction's paying above
+the going rate this cycle. Traders swear more than pilots I remember; one told me my rig's paint
+job looked like it lost a fight with a Corvette, and meant it as a compliment. Someone else,
+sharper, made a point of mentioning his numbers were double mine this run, like it cost him nothing
+to say and everything to need saying. I let both land. It's the first crowd in four years I haven't
+had to explain myself to.
+
+I even found myself repeating something off the Galnet ticker to a table of strangers — pirates
+apparently shadowing prison transports two systems over, no attacks yet, just watching — and for
+once people leaned in instead of stepping back. Strange, what passes for conversation currency out
+here.
+
+A knot of them were arguing Federation politics over the bar feed — something about Winters and
+the Accords, a coalition somewhere weaponising a flower, of all things. A couple were furious on
+her behalf, properly furious, the kind that comes from actually being Federal rather than just
+liking the news. I didn't say which way I lean. I'm not sure this is a room that wants to know, and
+every allegiance I still carry — however unpaid it's been — points the wrong direction for the
+conversation. I listened. I traded Gold, apparently having strong feelings about tonnage but none
+I was willing to name out loud about the Federation.
+
+Nothing here scared me. That's worth writing down on its own — four days back and this is the
+first one where my hands didn't check for a threat that wasn't there. Reflexes came back instead,
+the useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
+before he'd committed, more embarrassing for him than dangerous for me. A second one wasn't a
+joke — a name with a bounty attached, and threading a fully loaded Type-9 clear of him took real
+work, the kind that leaves your palms damp after.
+
+I'm tired in a way sleep doesn't seem to fix yet. Doesn't stop me loading another 758 tonnes of
+Gold before I let myself admit it.
+
+## Day 6 — 16 September 3312
+
+Radio Sidewinder in one ear, the market ticker in the other, and for the first two hours nothing
+happened worth writing, which might be the nicest sentence I've put in this book yet. I traded. I
+made real money doing it — the kind of number that doesn't come from luck, only from having done
+this exact thing ten thousand times before whatever wiped the memory of the first nine thousand
+nine hundred.
+
+Three days had already dried Hannah Station, then Zolloz City, then Sukarno Horizons — good
+markets, thin now, the gold gone the way gold goes when everyone reads the same board I did. I was
+tired in the way that makes you careless about being tired, still hunting a fourth run instead of
+calling it, when the terminal turned up **Violet Ann Memorial**. A wall of gold sitting there,
+untouched. One more. Last one. I told myself that like I believed it.
+
+Violet. The colour came up before the thought did — a flash of the same bruise-purple shadow I
+still can't place, a shape under a wing I've seen before and never once finished seeing. I didn't
+examine it. I've learned this week not to.
+
+Memorial did something else. It put Dr. Al Kurdi's voice back in the room, asking me about **LHS
+3447** the way she asks everything, gently, like she already knew the shape of the silence coming.
+I pulled up the Pilot Circle plot in the cockpit out of nothing but reflex. Democratic.
+Independent. Aligned, on paper, to the Pilot Federation. And currently fortified — Powerplay flag
+and all — by **Yuri Grom.** An anarchist. A smuggler by reputation, by trade, by choice. My own
+departure system, held by a man like that, and I have absolutely no memory of when that started,
+or whether it matters, or why she asked me about that specific rock out of every name on the
+chart.
+
+*Go and live whatever life suits you*, she'd said. Not go there. She never said go there. I don't
+know why I keep hearing it as if she had.
+
+The starport market at Violet Ann Memorial was nearly empty when I docked. No gold, no listing,
+nothing but a stale board that hadn't refreshed since I don't know when. Did the Pilot Circle
+system miss it? A bug, a stale feed, no one bothered to correct? Bad luck, on a day I'd already
+called my last of the week. I want it to be that simple.
+
+It's the trip back I don't want to write. I'm going to anyway, because apparently that's the whole
+point of this exercise, and because Al Kurdi will ask and I'd rather it be on this page first.
+
+He came out of nowhere past the beacon — a Cobra Mk III, fast, mean little thing, call sign
+**Paladin.** I dodged the interdiction twice, clean, the reflexes doing exactly what they'd done
+all week. He followed anyway. Not for the cargo — I was running back with next to nothing, a few
+tonnes in a 758-tonne hold, and he had to know it. He wanted me. *"Here you are, at last,"* over
+the open channel, cheerful, almost fond, the way you'd greet someone you'd waited a long time for.
+*"Looking for you since so much time."* *"I'll fry you right away."* Fifteen round trips this week
+with a full hold and nobody interested. One trip home nearly empty, and this.
+
+He rode my wake all the way to Ega, past the beacon, past the mail slot, close enough on final
+approach that I saw the paint on his hull before I saw the pad. *"You can't escape anymore,"* he
+said, and cut the channel.
+
+I'm on the ground. I don't know how long I've been on the ground. My hands won't stop, my
+shoulder's on fire the way it gets when it's decided something before I have, and I keep hearing
+that voice like it's still in the cockpit with me.
+
+I have to tell the doctor.
+
+I can't write the rest of this tonight.
 
 ---
 

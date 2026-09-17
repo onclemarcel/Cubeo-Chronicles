@@ -154,6 +154,15 @@ Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), c
   volume passing through, worth keeping as a narrative detail if useful.
 - **Lifetime trading stats (journal `Statistics` event, not session-scoped):** 835,108,663 CR
   total market profit, 26 markets traded with, highest single transaction 72,958,258 CR.
+- **16 Sept, continued:** additional independent Gold runs beyond the CG contribution logged
+  above — **Hannah Station** (49 Librae), **Eternal Flame Citadel** (Scorpii Sector WZ-P a5-1),
+  **Violet Ann Memorial** (Scorpii Sector QT-R b4-0). Combined with the runs already logged this
+  session, total trading profit for 16 Sept alone now exceeds **1 billion CR** — the treasury
+  figure in §1 predates this activity and should be re-synced from the journal next session.
+- **16 Sept — notable interdiction:** a persistent NPC pirate, callsign broadcast as **"Paladin"**
+  (Cobra Mk III), pursued the Type-9 from Violet Ann Memorial back to Ega across multiple
+  interdiction attempts, no hull damage taken. Logged here as a recurring-antagonist candidate for
+  the narrative (see `characters.md`, "The rival").
 
 **Recommendation (requested 16 Sept — ship outfit upgrades)**
 Treasury was 130M CR at session start (§1); the two Gold runs above add roughly **+600M CR** before
