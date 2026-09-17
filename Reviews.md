@@ -3,11 +3,7 @@ Onclemarcel's review:
 ---
 
 - [NARRATIVE]: **Day 2 - morning**
-  - 4th paragraph: starting with "Then the rest of the room noticed me, the way it apparently always will [...]": there is something weird in that sentence and the one after:
-    - It seems that suddenly people in the room start looking at her - would it be better to say that she notices how people look at her?
-    - One man holding a door: this sounds misplaced in time - she's at the bar with a tea, so she may remember that for a few moments ago on her way from her cubicle to the bar ?
-    - One man stepping back: she is not moving, so this would have happened before, too
-      > rewording of 4th paragraph to be proposed
+  - 4th paragraph: replace with "The worst part is that people look at me. No one is indifferent to this face, and it took me half an hour to realize that was a problem. Women hold my gaze a second too long, then look away with a politeness that feels like an apology. Men are another matter. One held the door for me the way you'd steady a convalescent. Another took a step back when he saw the title on my papers, and his face changes three times in a second."
 
 - [GUIDELINES]: logbook pages involving Roskam should be more lively based on dialogs and few descriptions - only those necessary to describe the scene, the observed behaviors:
   - it will help breaking the monotone flow between the logbook pages
