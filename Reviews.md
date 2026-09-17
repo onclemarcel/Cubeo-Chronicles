@@ -11,8 +11,8 @@ Onclemarcel's review:
  
 - [NARRATIVE]: **Day 3 - afternoon**
   - 5th paragraph: could be removed - keep the story of the surname for later, if needed.
-  - Dialog summary (to be elaborated with Delavalette's / Roskam's ways of speaking - I will correct afterwards if not correct):
-    - Tio (5th paragraph): "Looks like you got pretty bored lately"
+  - Dialog summary (to be elaborated with Delavalette's / Roskam's ways of speaking - I will correct afterwards if not correct) - *replaces 5th paragraph until the end*:
+    - Tio : "Looks like you got pretty bored lately"
     - Sam : "4 years 2 months 6 days 18 hours 39 m..."
     - Tio: "Ok, got it Sam! Any ship available for sale ?"
     - Sam: "Yours! and they're free! All four have been kept alive, not sharp though. Technology don't wait, there are new modules, new blueprints, new components... new hulls, too"
