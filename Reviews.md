@@ -9,7 +9,7 @@ Onclemarcel's review:
   - it will help breaking the monotone flow between the logbook pages
   - it involves Roskam's sense of humour, his way to use machines vocabulary (see characters.md), and most importantly his ability to turn the truth the way he wants people to understand, known as *paltering*
  
-- [NARRATIVE]: **Day 3 - afternoon**
+- [NARRATIVE]: **Day 2 - afternoon**
   - 5th paragraph: could be removed - keep the story of the surname for later, if needed.
   - Dialog summary (to be elaborated with Delavalette's / Roskam's ways of speaking - I will correct afterwards if not correct) - *replaces 5th paragraph until the end*:
     - Tio : "Looks like you got pretty bored lately"
