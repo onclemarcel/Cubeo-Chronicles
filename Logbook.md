@@ -133,8 +133,7 @@ comfort exactly. It's a reminder that other people's memory of me is running wel
 
 Then the rest of the room noticed me, the way it apparently always will. The women, a second too
 long and then away, polite as an apology. The men worse — too close or too careful, one holding a
-door like he was bracing an invalid, another stepping back when he clocked the title on my docking
-papers, his face going through three different weathers in two seconds.
+door like he was bracing an invalid, another stepping back, his face going through three different weathers in two seconds.
 
 None of it is about me. It's about a woman they think they recognise, and neither version of her
 finished this tea.
