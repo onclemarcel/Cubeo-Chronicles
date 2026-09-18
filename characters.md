@@ -132,6 +132,13 @@ the mission that killed her; (3) someone changed them on purpose, during the fou
 her consent or knowledge. Payoff device: she finds an old picture — of herself, pre-3308 — and the
 eyes in it are a different colour. She doesn't ask why yet. She just can't stop looking at it.
 
+**2026-09-18, internal:** during the Great Solitude (Dec 3306, see `Galaxy Chronicles.md`), she had
+one of the only unguarded conversations of her adult life — with the doctor, about her own past,
+what flying had cost her, LHS 3447 by name. Something almost started between them afterward and
+didn't hold. Whether she felt something real at the time, or only let herself seem to, isn't
+settled — see `characters.md`, Doctor of Cubeo §7, for the fuller account. None of it survives the
+amnesia; she has no access to it now, only the guardedness it apparently left behind.
+
 ## 8. What the Viscountess perceives
 *(of herself — to be filled in)*
 
@@ -157,6 +164,9 @@ The single point of view. The reader knows only what she knows.
   working alias with contacts and other commanders once she starts operating under a name that
   isn't tied to the Viscountess title — used in place of "Tonton" in those contexts, not alongside
   it; "Tonton" stays private to the mechanic. Still planted, not yet paid off on the page.
+- 2026-09-18 — §7 gains the Great Solitude conversation with the doctor (internal record, see
+  Doctor of Cubeo §7 for the fuller account) — explains why the Day 1 LHS 3447 question lands as
+  loaded rather than random. Not accessible to her; amnesia covers it completely.
 
 ---
 
@@ -335,6 +345,21 @@ truth she never dared hand over** — afraid of watching her leave for revenge, 
 time. She has never told her, in four years, that the man who calls her Tonton is the one whose
 hands did it.
 
+**2026-09-18, internal — the root of the Day 1 question:** during the **Great Solitude** (Dec 3306,
+the Sirius Atmospherics ammonia-world campaign, 520 ly out — see `Galaxy Chronicles.md`), the two
+of them had one of the only real, unguarded conversations either would ever allow. Something in
+that isolation cracked the Viscountess's fact-to-fact, no-feelings default, and she talked — about
+her own past, what becoming a pilot had cost her, how it felt — in a register she used nowhere
+else, including naming LHS 3447 herself. That's the only reason the doctor knows to build the
+discharge question around that specific system: not a probe at random, a callback. The doctor let
+herself get closer over it afterward, slowly, deliberately, for the first time in years — and it
+didn't hold. Whatever almost started between them broke before either of them could name it. The
+Viscountess taking on such an absurdly remote, notoriously slow CG right after (`Galaxy
+Chronicles.md`, "The Great Solitude") reads, in hindsight, like flight — five hundred and twenty
+light-years put between herself and whatever had just failed to happen. Whether she felt something
+real at the time, or only let herself seem to, isn't settled — either way it's unrecoverable to her
+now. Neither of them has spoken of it since. Not yet on the page.
+
 At discharge, she runs through the expected memory checks — Empress, Powers, systems, ships — and
 the Viscountess answers every one without reaching. Then, deliberately, she asks a question built
 to land on *their* history, not the galaxy's: something only someone who'd been close to her before
@@ -368,6 +393,12 @@ fragment of the through-line.
   gave out). She's known Roskam since before the accident — internal record only, not yet on the
   page. Her unrequited feeling for the Viscountess remains invisible to him specifically because he
   can't register it as a category (see his sheet, §4) — not because she hides it especially well.
+- 2026-09-18 — §7 extended: the Day 1 LHS 3447 question (`Logbook.md`, Ch. I Day 1) is now
+  explicitly a callback to one real conversation during the Great Solitude (Dec 3306), not a random
+  probe — the Viscountess talked about her own past there, uncharacteristically, and named LHS 3447
+  herself. The doctor's slow approach afterward, and its failure, is the new working explanation for
+  why the Viscountess took on that specific CG (`Galaxy Chronicles.md` updated to match). "Unrequited"
+  above describes the present tense, not the full history — see the new §7 paragraph.
 
 ---
 

@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 17 September 2026 (3312)
+## Campaign memory — status as of 18 September 2026 (3312)
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 
@@ -14,9 +14,9 @@
 | Squadron | EliteCommanders |
 | Trade rank | **Elite** (Trader Elite badge earned 16 Sept 2026) |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 0 / 0 merits** this cycle (journal-verified, see §4) |
+| Power | Aisling Duval — pledged, **Rank 0 / 0 merits** (~8.7 days pledged, journal-verified 18 Sept — still gated on the 5 initial missions, see §7, §11) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **1,661,101,632 CR** (journal-verified snapshot, 17 Sept 06:57 UTC — `LoadGame` 1,587,955,063 + this session's gold run net +73,147,000 − 431 refuel; CG 859 payout not yet included, see §4) |
+| Treasury | **1,824,833,287 CR** (journal-verified, `Status.json` 18 Sept 08:31 UTC — `LoadGame` 1,661,100,215 + CG 859 payout 170,000,000 + this session's transfer/mission/trading/refit activity, reconciled to within 1,462 CR of the live balance; see §4) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -37,16 +37,27 @@
 
 **To fix**
 - [ ] Thrusters flagged `enabled: false` in the export — check power priorities in-game
-- [ ] Strip 2× missile racks 2B + 4× lasers 1E → ~13 t of dead weight
-- [ ] Strip the 2 shield boosters 0A → ~7 t
+- [x] Strip 2× missile racks 2B + 4× lasers 1E → ~13 t of dead weight — **done 18 Sept**, all 6
+      hardpoints sold at Medupe City (journal-verified, +1,341,400 CR combined with the shield
+      boosters below)
+- [x] Strip the 2 shield boosters 0A → ~7 t — **done 18 Sept**
 - [ ] FSD grade 4 → **grade 5** (Farseer)
 - [ ] Thrusters and power plant grade 1 → **grade 5**
 - [ ] Add an **AFMU**
-- [ ] Fill the 2 empty utility slots with **heat sink launchers**
+- [x] Fill the empty utility slots with **heat sink launchers** — **done 18 Sept**, all 4 tiny
+      hardpoints fitted (not just the 2 originally empty — the 2 freed by the shield-booster strip
+      got one too)
 - [ ] Unlock and fit the **Guardian FSD Booster** (Tech Broker) → target 55+ ly
-- [ ] Buy an **FSD 5A (SCO)** and keep the engineered FSD in storage (free)
+- [~] Buy an **FSD 5A (SCO)** and keep the engineered FSD in storage — **tried and reverted, 18
+      Sept**: bought the SCO (5,971,625 CR), test-fitted it, judged the range loss too steep against
+      the grade-4 *Increased Range*/*Deep Charge* engineering (43.08 ly unladen); swapped back to
+      the engineered FSD and put the SCO in storage instead (free, same station). Revisit once the
+      FSD reaches grade 5 — a higher engineered range floor may make the SCO trade-off easier to
+      accept.
 
-**Two loadouts to save:** *Long range* (fully stripped) and *Rescue* (limpets + cargo racks).
+**Two loadouts to save:** *Long range* and *Rescue* (limpets + cargo racks). The 18 Sept strip
+already puts the ship close to the *Long range* config (no weapons left at all) — worth locking in
+as a saved loadout before anything gets re-added by habit.
 
 ### 2.2 Imperial Clipper — *combat / bounty hunting*
 
@@ -55,6 +66,10 @@ Shield 6A, thrusters 6A, distributor 6A, power plant 6C, gimballed beam laser 3C
 **Critical issue: stock FSD 5E.** Never replaced. A 5A costs ~5M — best value-for-money upgrade in the whole fleet.
 
 **Future role:** Powerplay merit generator. **Do not sell.**
+
+**18 Sept, journal-verified:** flown for the Tritium supply mission round trip (Medupe City →
+Cellarius Beacon → Medupe City, §4) specifically for its 440 m/s top boost — no interdiction taken.
+Repaired on departure (2,692 CR). Still on the stock FSD 5E; the 5A upgrade above remains open.
 
 ### 2.3 Imperial Clipper — *mining*
 
@@ -66,9 +81,12 @@ Eventually replaced by the Type-11 Prospector. Keep for now.
 
 **758 t cargo · 26.49 ly · total value 130.7M CR · hull 76.5M**
 
-Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), class 6, once the CG payout clears.
+Fully outfitted. **This was the CG ship** — CG 859 closed 18 Sept (§4), so the Type-9 is off active CG duty. Consider an FSD (SCO), class 6, next time it's in for outfitting.
 
-**Current location (17 Sept, journal-verified):** docked at **Violet Ann Memorial** (Scorpii Sector QT-R b4-0), not Medupe City — still out running the CG/gold loop. Plan: one more leg to Metz Enterprise (Ega) to close out the CG, then swap active ship to the Asp and bring the Type-9 home to Medupe City on a later run (see §4 recommendation).
+**Current location (18 Sept, journal-verified): home at Medupe City.** `ShipyardTransfer` from Ega
+(Metz Enterprise) to Medupe City — 200.5 ly, 1,599,783 CR, ~38 min transfer, completed the same
+session as the Asp refit. First time all four hulls (Asp, combat Clipper, mining Clipper, Type-9)
+have sat docked at the same station together this campaign.
 
 ### 2.5 In storage
 
@@ -89,7 +107,10 @@ Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), c
 
 ## 4. CURRENT OPERATION — THE EGA COMMUNITY GOAL
 
-**"Wreaken Calls for Sourced Materials for Output Comparison Tests"** — ends **17 September 2026**.
+**CLOSED — 18 September 2026, journal-verified.** Final result below; this section is now historical
+except where noted. See §11 for what replaces it as the active roadmap.
+
+**"Wreaken Calls for Sourced Materials for Output Comparison Tests"** — ended **17 September 2026**.
 
 - **Location:** Metz Enterprise, **Ega** system — Coriolis, **5,394 Ls** from the arrival star, large platform
 - **Commodities:** palladium, gold, silver, bertrandite, indite, gallite, coltan, uraninite, lepidolite, cobalt, rutile, water — **bought at a nearby market**, not mined
@@ -184,6 +205,44 @@ Fully outfitted, flight-ready. **This is the CG ship.** Consider an FSD (SCO), c
   at Ega, fly the Asp back to Cubeo, then regroup the whole fleet at Medupe City and start working
   the upgrade checklists (§2, §11) — treasury now clears Ground Rule 4 many times over, so nothing
   in the recommendation below is money-gated anymore.
+- **18 Sept — CG closed, final result (journal-verified):** docked at Metz Enterprise 07:18:29 UTC;
+  the `CommunityGoal` read moments later confirms **CGID 859 `IsComplete: true`**, final
+  `PlayerContribution` **15,918**, `PlayerPercentileBand` **25** — the **Top 25% bracket** stands as
+  the definitive result (supersedes the 17 Sept 50%-band expectation). `CommunityGoalReward` fired
+  at 07:18:48 UTC for **170,000,000 CR** — exactly the live `Bonus` figure already spotted 17 Sept,
+  confirming the payout held steady into close. The older CG (CGID 856, "new mining rig," Tier
+  5/50M) is unchanged from the 16 Sept note — already resolved before this session.
+- **18 Sept — fleet regrouped at Medupe City (journal-verified):** swapped to the Asp at Metz
+  Enterprise (`ShipyardSwap`, 07:19:32), flew Ega → Cubeo (5 jumps, ~43 ly/jump unladen), docked
+  Medupe City 07:29:52. `ShipyardTransfer` brought the Type-9 home the same session (§2.4). Combat
+  and mining Clippers were already in storage there — **all four hulls now sit at the same station
+  for the first time this campaign.**
+- **18 Sept — Tritium supply mission, Prismatic Imperium (journal-verified):** picked up
+  `Mission_Collect_Industrial` at Medupe City (72 t Tritium, offered reward 8,190,042 CR, expiry 19
+  Sept), swapped into the **combat Imperial Clipper** for the run (§2.2 — 440 m/s boost), bought 128
+  t Tritium at **Cellarius Beacon** (Tucanae Sector CG-W b2-0, 50,118 CR/t), delivered 72 t at
+  Medupe City. Actual `MissionCompleted` reward: **3,380,042 CR + 12× Antimony**, plus
+  **Reputation ++** and **Influence ++** with Prismatic Imperium. No interdiction logged on the
+  round trip — clean run both ways, ~15 minutes undock to dock. Sold the 56 t leftover Tritium
+  locally afterward for **+3,016,048 CR**. The Antimony batch is tied in-session to an
+  outfit-upgrade checklist noted on Roskam's workbench — raw material for a future `Logbook.md` day,
+  not yet drafted (see `characters.md`, Roskam sheet, and `Guidelines.md` §"Recurring Characters:
+  the old mechanic of Hangar 12").
+- **18 Sept — Asp refit, first pass (journal-verified, see §2.1):** stripped both missile racks, all
+  four beam lasers and both shield boosters (**+1,341,400 CR** module sale); fitted heat sink
+  launchers to all four tiny hardpoints (**−13,652 CR**). Bought an FSD (SCO) to test
+  (**−5,971,625 CR**), judged the range loss too steep against the grade-4 engineered FSD's ~43 ly
+  unladen range, and swapped back — the SCO is now in storage at Medupe City (free), the engineered
+  FSD stays fitted.
+- **18 Sept — treasury resync (journal-verified, supersedes the 17 Sept snapshot in §1):**
+  `Status.json` reads **1,824,833,287 CR** at 08:31 UTC — cross-checked against `LoadGame`
+  (1,661,100,215 CR) plus this session's transactions (CG reward, ship transfer, mission, trading,
+  refit) to within 1,462 CR of the live balance; the small residual is an untracked minor fee, not a
+  data error.
+
+**Status update, 18 Sept:** points 1–2 of the recommendation below are now substantially executed —
+see the refit log just above and §2.1/§2.2. Point 3 (first new-hull purchase) is still open; §11 now
+carries the concrete next-session sequencing for it and everything else.
 
 **Recommendation (requested 16 Sept — ship outfit upgrades)**
 Treasury was 130M CR at session start (§1); the two Gold runs above add roughly **+600M CR** before
@@ -297,30 +356,62 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 
 ## 11. ROADMAP
 
-**Immediate (before 17 September)**
-- [ ] FSD 5A on the combat Clipper
-- [ ] Check power priorities on the Asp
+**Immediate — done, 18 September**
 - [x] Sign up for the CG at Metz Enterprise
 - [x] 2–3 runs of 758 t — Top 25% bracket reached (journal-verified, §4)
-- [ ] Close out the CG run at Metz Enterprise, swap to the Asp at Ega, fly it back to Cubeo, regroup
-      the fleet at Medupe City (§4, 17 Sept plan)
+- [x] Close out the CG at Metz Enterprise (170M CR paid, §4)
+- [x] Swap to the Asp at Ega, fly it back to Cubeo, regroup the whole fleet at Medupe City (§2.4, §4)
+- [x] Strip the Asp's weapons + shield boosters, fit heat sink launchers ×4 (§2.1)
 
-**Short term**
-- [ ] Reinstate Aisling allegiance + 5 initial missions
-- [ ] Complete Asp refit (section 2.1)
-- [ ] First reactivation missions across Cubeo's 4 Odyssey settlements
-- [ ] Allied reputation with an Imperial faction
+**Immediate — still open**
+- [ ] FSD 5A on the combat Clipper — still the best value-for-money upgrade in the fleet (§2.2)
+- [ ] Check power priorities on the Asp — thrusters flagged `enabled: false` in the export (§2.1)
+
+**Short term — the "first steps back" arc**
+
+Treasury clears Ground Rule 4 many times over (§3) — nothing below is money-gated. Sequenced,
+roughly one block per session:
+
+1. [ ] **Reinstate Aisling Duval allegiance** (any station — already home at Medupe City) and run the
+       **5 gating missions** (§7). Powerplay has sat at Rank 0 / 0 merits for ~8.7 days pledged
+       (journal-verified, 18 Sept, §1) purely because these haven't been run yet — pure upside, no
+       new risk.
+2. [ ] **First on-foot excursion** — one **abandoned-settlement reactivation** mission, on one of
+       Cubeo's 4 Odyssey settlements (§9 step 1: zero NPCs, zero alarms, lowest possible risk).
+       First boots on the ground since the coma; a natural low-stakes way to "find the reflexes
+       back" before anything harder.
+3. [ ] Follow up with a **data recovery** mission at a powered-down site (§9 step 2), same or a
+       second settlement — banks Profile Analyser clones and on-foot materials without combat risk,
+       and starts the engineering material stockpile (§10).
+4. [ ] Finish the rest of the Asp refit (§2.1): FSD/thrusters/power plant to grade 5, fit an AFMU.
+5. [ ] Push reputation with one Imperial faction in a dense system to **Allied** (Aisling's +100%
+       rep-gain perk applies in ducal territory, §7) — this is what makes Imperial Navy missions
+       start appearing on the board (§8).
 
 **Medium term**
-- [ ] Prismatic shields
-- [ ] Mandalay (migrate the grade-5 DSS and the FSD)
-- [ ] Type-11 Prospector + Rhino
-- [ ] Duke rank → Cutter
+- [ ] Only once steps 2–3 above have gone cleanly: attempt a **cut-the-reactor** infiltration at an
+      *active* settlement (§9 step 3) — the first real on-foot risk taken, deliberately not before
+      confidence is re-established.
+- [ ] Unlock the **Prismatic Shield Generator** — Aisling's first Power module (§7)
+- [ ] Farseer (Deciat): FSD grade 4 → grade 5 on the Asp (§2.1, §10)
+- [ ] Vatermann / Qwent visits (shields, power plant) once material stock allows (§10)
+- [ ] **Type-11 Prospector** (67.86M CR) + Rhino — retires the aging mining Clipper (§2.3); first new
+      hull purchase of the campaign, easily affordable now
+- [ ] Stack Imperial Navy missions toward **Count → Earl → Marquis → Duke** (§8)
+- [ ] **Mandalay** (migrate the grade-5 DSS and the FSD once acquired)
+- [ ] **Guardian FSD Booster** once the FSD is grade 5 — target 55+ ly (§2.1)
+- [ ] **Duke rank → Imperial Cutter** (§8)
 
 **Long term**
 - [ ] Claim a system and Architect status, on the Imperial frontier
 - [ ] Fleet Carrier
 - [ ] Deep-space expedition / exobiology
+
+**Deliberately not on this list:** no trip to **LHS 3447**. It's her departure system, currently
+Fortified under Yuri Grom with no rival Power contest live (checked 18 Sept, `Galaxy Chronicles.md`)
+— routing a supply, explo, or CG run through it by accident would spend a beat that isn't due for a
+while. Two candidate reasons for an eventual deliberate visit are on record (`Guidelines.md`,
+Through-Line Ch. VIII) — neither is a live trigger yet. Plot a wide berth around it until one is.
 
 ---
 
@@ -339,7 +430,7 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 
 ---
 
-*Last updated: 17 September 2026. To be completed session by session.*
+*Last updated: 18 September 2026. To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
 Developments\Elite Dangerous\`) on this machine as you play — plain JSON-lines, one event per

@@ -143,6 +143,12 @@ tension of the character lives in what stays unsaid.
 Function: the conscience. She resurfaces whenever the Viscountess takes too many risks. And she
 holds a piece of the truth about the betrayal — the piece she never dared hand over.
 
+*Settled, 2026-09-18 (internal record — not yet on the page):* "a love that will never be returned"
+is the present tense, not the whole history. Before the accident, during the Great Solitude (Dec
+3306, `Galaxy Chronicles.md`), something real and briefly mutual almost happened between them and
+didn't hold — the doctor remembers it; the Viscountess's amnesia erased it completely, which is
+also why the Day 1 LHS 3447 question lands as loaded. See `characters.md`, Doctor of Cubeo §7.
+
 ### The old mechanic of Hangar 12
 Her **real family**. Big brother, guardian, unshakeable support. He's the one who calls her
 **Tonton** — and that nickname is the name under which the galaxy knows her. He kept all four of
@@ -213,6 +219,20 @@ line of an otherwise ordinary entry.
 - **Ch. VII** — she founds a system. Putting herself out of reach is also an answer.
 - **Ch. VIII** — she goes back to the wreck. What she finds there isn't what she went looking for.
 
+**Ch. VIII, mechanics note (internal, 2026-09-18 — not yet on the page):** two candidate reasons are
+now on record for why she'd ever go back to LHS 3447, neither chosen yet:
+1. **Trace her own file at the source.** LHS 3447 is where every pilot's record starts — a visit
+   could mean pulling her own career history through the Pilot Circle (`Inara`) in the one system
+   where that file was first opened, not just wherever she happens to be standing. Purely a story
+   reason; nothing about the real mechanic requires physical presence in-system for this.
+2. **Help push out Yuri Grom.** Off the table as of 18 Sept 2026 (checked live): Grom holds LHS 3447
+   Fortified (~35%, real Powerplay read) and, while it's absorbing real undermining traffic, no
+   rival Power has opened a formal contest there. This only becomes usable if that changes — the
+   system would need to actually turn **Contested** between two named Powers, not merely
+   undermined — so treat it as dormant, worth a periodic real check, not a plot lever yet.
+
+Neither should surface on the page before its own dedicated beat.
+
 **Golden rule:** she must never ask the question directly. She doesn't even know yet that there is
 one.
 
@@ -223,7 +243,8 @@ one.
 - **The colour green.** Thargoid carcasses, when they split open. She keeps returning to what's
   dead.
 - **Acid.** What corrodes without a sound. Metal, certifications, trust.
-- **LHS 3447.** The departure system. She's never gone back. No one knows why.
+- **LHS 3447.** The departure system. She's never gone back. No one knows why. (Two candidate
+  reasons she might, someday, are logged at Ch. VIII above — neither active.)
 - **Hangar dust.** What's left when no one's waiting for you.
 - **Faces.** Her own, first. Never explain the amnesia outright — show it through the gaps.
 - **Dirty hands.** A Viscountess of the Empire picking up rocks.

@@ -54,7 +54,11 @@ hundred contributors, and a gauge that refused to move.
 - She spent weeks hunting the rarest planets in the galaxy to mark the ones where humans might
   one day **build homes**. A woman who runs from attachment, put to work cataloguing places where
   other people would settle.
-- This is the exact window when the doctor got too close. She left.
+- This is the exact window when the doctor got too close. One real conversation, unguarded — the
+  Viscountess talked about her own past there, LHS 3447 included — and then it didn't hold. She
+  took the CG and put five hundred and twenty light-years of "the rarest planets in the galaxy"
+  between herself and whatever had almost happened. See `characters.md`, Doctor of Cubeo §7, for
+  the fuller account (internal — not yet on the page).
 - **Twenty months before the accident.** The DSS is legitimately hers. It leaves only **one
   anomaly** in her inventory — and it stands out all the more clearly for it.
 
@@ -158,6 +162,18 @@ even the doctor's discharge questions couldn't reopen (see `Guidelines.md`, "FIL
 attached yet, and none should be until its own dedicated beat (see `Guidelines.md`, Through-Line,
 Ch. II Day 6 note). Treat this as a bare, checkable fact she can look up on the map, not as
 something anyone tells her.
+
+**Production note (real, not in-fiction — 2026-09-18):** LHS 3447 was picked as her origin because
+it's Tonton Marcel's own actual first system when he started playing Elite Dangerous — the system
+every real commander starts from. That's the reason behind the choice, not a fact the character or
+the text ever needs to surface.
+
+**Powerplay status check (real, 18 Sept 2026, Inara):** still Yuri Grom, still **Fortified**
+(~35% fortification, real undermining traffic present but no named rival Power has opened a formal
+contest there). Two candidate story reasons for an eventual return are logged in `Guidelines.md`
+(Through-Line, Ch. VIII note) — one purely narrative (tracing her own file at the source), one
+mechanically gated on this system actually turning **Contested**, which it currently is not. Worth
+a periodic recheck; not a plot lever yet.
 
 ---
 
