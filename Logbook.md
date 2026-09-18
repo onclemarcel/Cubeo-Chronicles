@@ -131,9 +131,9 @@ that means I ordered it every day for years, or if he simply decided I'm the kin
 drinks spiced tea and has spent his shift quietly proving himself right. Either way, it isn't a
 comfort exactly. It's a reminder that other people's memory of me is running well ahead of my own.
 
-Then the rest of the room noticed me, the way it apparently always will. The women, a second too
-long and then away, polite as an apology. The men worse — too close or too careful, one holding a
-door like he was bracing an invalid, another stepping back, his face going through three different weathers in two seconds.
+The worst part is the way people look at me.
+
+No one is indifferent to this face, and it took me half an hour to realize that was a problem. Women hold my gaze a second too long, then look away with a politeness that feels like an apology. Men are another matter. One of them held a door for me the way you'd steady a woman just out of a sickbed. Another took a step back when he saw the title on my papers when leaving the hospital, and his face changed three times in two seconds.
 
 None of it is about me. It's about a woman they think they recognise, and neither version of her
 finished this tea.
