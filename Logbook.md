@@ -154,15 +154,9 @@ looked at my face and the reflex fell away on its own.
 *"Ah. There you are, Tio."*
 
 Nobody's called me that in four years, and it's still the first word since I woke that felt true
-all the way through. I didn't ask where it came from. I think I knew before I knew — that he's the
-one who gave it to me, a long time ago, and that it's the name the galaxy actually flies by. A
-man's surname over a woman's face. Suited everyone, starting with me.
+all the way through. 
 
-I got his name wrong twice in the first minute — Roksam, then Roskam, then Roksam again. He let
-the first two slide. The third, he laughed outright, pointed a spanner at me and said, *"Fine. If
-I'm your uncle now, you're mine too. Tío."* I understood the joke before he'd finished making it —
-Roksam, Rock Sam, Uncle Sam, Tío, an old chain of nonsense from a planet I've never seen. It was the first thing since the infirmary I hadn't had to work
-for. I'll take it.
+A man's surname over a woman's face. Suited everyone, starting with me.
 
 *"So."* He set the spanner down like it had earned a rest. *"You want to see what four years of my
 life looks like?"*
@@ -176,27 +170,22 @@ thing all week.
 *"Yours,"* he said, like I might have forgotten which planet I was standing on. *"All four. Kept
 alive. Not kept sharp — you're about to feel the difference."*
 
-*"Define alive."*
+*"Define alive, Sam."* I said.
 
-*"Engines turn over. Life support holds a seal. Paint's original, more's the pity."* He drew a
-thumb down the Clipper's flank, leaving a clean line through four years of dust. *"Missile racks,
-shield boosters — half of it's dead weight from jobs you don't remember taking. Didn't have the
-heart to strip it off without you here to say yes."* A beat, shorter than the others. *"You left
-them running. You didn't leave them good."*
-
-He said it like an apology that wasn't his to give, and moved on before I could ask whose it was.
+*"Engines turn over. Life support holds a seal. Paint's original, more's the pity."* He walked past another one, revealing an ASP Explorer. *"Missile racks,
+shield boosters — half of it's dead weight from jobs you may not remember taking. Didn't have the
+heart to strip it off without you here to say yes."* 
 
 *"Yards didn't exactly hold their breath either,"* he went on, circling the second Clipper like it
 had personally offended him by existing. *"Gutamaya's put out a new Corsair. FSD SCO from the
 factory line, six hardpoints, three of them large. Had my hands inside one twice — once to fix
 someone else's mistake, once because I wanted to."*
 
-*"Sounds like you want one."*
+*"Sounds like you want one."* I pointed out to him.
 
-*"I want you buying again."* Too fast to be the joke he tried to make it sound like. *"Materials.
+*"I want you on business again."* Too fast to be the joke he tried to make it sound like. *"Materials.
 Odd components. Whatever strange thing you haul back from wherever you end up next — I've got
-blueprints that have had nowhere to go for four years. A man can only re-read a schematic so many
-times before he starts arguing with it."*
+blueprints that have had nowhere to go for those years."*
 
 I asked him, because it felt like a thing I should already know the answer to, whether he'd been
 here the whole time.
@@ -206,7 +195,7 @@ here the whole time.
 Not a question. He picked the rag off his belt and went at a bolt that was already clean. I've got
 enough mysteries this week without collecting the ones he hands me on purpose.
 
-*"Hope four years in a bed didn't soften that mule head of yours."* He laughed and clapped my
+*"Hope slacking off four years in a bed didn't soften that mule head of yours."* He laughed and clapped my
 shoulder — the wrong one, the one that still remembers the acid better than I do. I didn't hide
 the flinch fast enough. His laugh didn't stop, but something behind it did, a half-second too late
 to cover.
@@ -225,15 +214,14 @@ Viscountess — was never going to be, and a man who's kept four hulls flying on
 doesn't need to start now. My title's a decoration on a file nobody opens. I'm a tomboy with a coat
 of arms, and we both know it.
 
-That's the kind of line you only earn the right to say after twenty years.
+*"Docs say no solo. So I'm flying with you."* he said. 
 
-*"Docs say no solo. So I'm flying with you."*
+I didn't argue. *"OK, Sam..."*
 
-I didn't argue. Possibly the most worrying sign of the week.
+Possibly the most worrying sign of the day.
 
 I was already half-turned for the door when the light caught the label on his jacket — stitched
-crooked over the left breast, the kind of job you only trust to your own hands. **W. ROSKAM.** Not
-the nonsense I'd been playing with all afternoon. A name, in full, sewn down like it meant to stay.
+crooked over the left breast. **W. ROSKAM.**  A name, in full, sewn down like it meant to stay.
 Something in me went looking for it and came back with nothing. I don't remember the name. I stood
 there a beat too long deciding whether that should have surprised me.
 
@@ -251,9 +239,9 @@ II I'd never seen in my life — hauled clear with room to spare, technically, t
 screaming, my shoulder lighting up like an old debt called in. A very calm voice fined me for it.
 I didn't argue. I clearly earned it.
 
-Roskam said nothing for a minute. Then, dry: *"Welcome back."*
+Sam - *Roskam ?* - said nothing for a minute. Then, dry: *"Welcome back."*
 
-I joked about setting down at Roskam Enterprise, the family seat. He laughed too fast and had us
+I tried a joke about setting down at Roskam Enterprise, *"the family seat"* I said with a smile I hoped was convincing enough. He laughed too fast and had us
 diverting before I'd finished the sentence. I noticed the seam and let it go — I've got enough
 mysteries this week.
 
@@ -261,8 +249,8 @@ We landed instead on open ground under a tea-coloured sunset, and for about a mi
 heavier than the dust under my boots.
 
 Coming back in, old habit reached for the flight-assist toggle. Dead. He'd locked it from his side
-before we ever left the pad. I was angrier about that than the moment deserved — he's never told
-me no before, as far as I remember, which isn't far. I didn't say any of it out loud.
+before we ever left the pad. I was angrier about that than the moment deserved — he's never restrained
+me before, as far as I remember - which isn't far, I must admit. I didn't say any of it out loud.
 
 He knows I fly like the ground doesn't apply to me. It's probably why we get along. Doesn't mean I
 have to enjoy being reminded he's the one holding the leash tonight.
