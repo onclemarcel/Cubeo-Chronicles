@@ -164,29 +164,78 @@ I'm your uncle now, you're mine too. Tío."* I understood the joke before he'd f
 Roksam, Rock Sam, Uncle Sam, Tío, an old chain of nonsense from a planet I've never seen. It was the first thing since the infirmary I hadn't had to work
 for. I'll take it.
 
-Then he got serious, in his way — which means he started talking about the ships instead of me.
-All four had been kept alive, not kept sharp: engineered a decade ago and never touched since,
-missile racks and shield boosters bolted on for jobs I don't remember taking, dead weight he'd
-never had the heart to strip without me there to say yes. *"You left them running. You didn't
-leave them good."* He said it like an apology that wasn't his to give.
+*"So."* He set the spanner down like it had earned a rest. *"You want to see what four years of my
+life looks like?"*
 
-He told me, not quite looking up from the spanner, that the yards hadn't sat idle while I had. New
-hulls since the accident, names I didn't recognise, one of them a big Imperial thing out of
-Gutamaya he clearly wanted for himself more than for me. Then, quieter, almost embarrassed by it:
-he was glad to have me buying again. Materials, odd components, whatever strange thing I hauled
-back from wherever I ended up — he had experiments of his own he'd been wanting to run, blueprints
-with nowhere to go for four years.
+He didn't wait for an answer. Walked me past a curtain of hangar dust to four hulls under grey
+sheeting and pulled the nearest one back himself. A Clipper. Behind it, another — two of them, the
+kind of ship only a handful of Imperial names can afford to fly once, let alone twice. Even under
+the dust, the lines of them did something to my chest the spiced tea never managed. First good
+thing all week.
 
-He said he'd always known I'd come back. Not *hoped. Known.* That people like me don't finish in
-an infirmary bed, that you don't die in the sheets when you've spent a whole life hunting better
-ways to go. That my destiny was out there among the stars and whatever hides behind them, and
-certainly not in some drawing room smiling at people who've never held a yoke.
+*"Yours,"* he said, like I might have forgotten which planet I was standing on. *"All four. Kept
+alive. Not kept sharp — you're about to feel the difference."*
+
+*"Define alive."*
+
+*"Engines turn over. Life support holds a seal. Paint's original, more's the pity."* He drew a
+thumb down the Clipper's flank, leaving a clean line through four years of dust. *"Missile racks,
+shield boosters — half of it's dead weight from jobs you don't remember taking. Didn't have the
+heart to strip it off without you here to say yes."* A beat, shorter than the others. *"You left
+them running. You didn't leave them good."*
+
+He said it like an apology that wasn't his to give, and moved on before I could ask whose it was.
+
+*"Yards didn't exactly hold their breath either,"* he went on, circling the second Clipper like it
+had personally offended him by existing. *"Gutamaya's put out a new Corsair. FSD SCO from the
+factory line, six hardpoints, three of them large. Had my hands inside one twice — once to fix
+someone else's mistake, once because I wanted to."*
+
+*"Sounds like you want one."*
+
+*"I want you buying again."* Too fast to be the joke he tried to make it sound like. *"Materials.
+Odd components. Whatever strange thing you haul back from wherever you end up next — I've got
+blueprints that have had nowhere to go for four years. A man can only re-read a schematic so many
+times before he starts arguing with it."*
+
+I asked him, because it felt like a thing I should already know the answer to, whether he'd been
+here the whole time.
+
+*"Where else would I be."*
+
+Not a question. He picked the rag off his belt and went at a bolt that was already clean. I've got
+enough mysteries this week without collecting the ones he hands me on purpose.
+
+*"Hope four years in a bed didn't soften that mule head of yours."* He laughed and clapped my
+shoulder — the wrong one, the one that still remembers the acid better than I do. I didn't hide
+the flinch fast enough. His laugh didn't stop, but something behind it did, a half-second too late
+to cover.
+
+*"Wrong side,"* was all he said. No apology followed it, and I didn't wait for one to arrive late.
+
+*"I knew you'd come back."* He wasn't looking at me when he said it, which is maybe the only reason
+he managed to say it at all. *"Not hoped. Knew. People like you don't finish in an infirmary bed.
+You've spent a whole life hunting better ways to go — you don't die quiet in the sheets because a
+doctor tells you to."* His hands had gone still on the bolt. *"Your destiny's out there among the
+stars, and whatever's hiding behind them. Not in some drawing room, smiling at people who've never
+held a yoke."*
+
+Imperial deference runs one direction, and it's never once reached him. He's not impressed by a
+Viscountess — was never going to be, and a man who's kept four hulls flying on nothing but memory
+doesn't need to start now. My title's a decoration on a file nobody opens. I'm a tomboy with a coat
+of arms, and we both know it.
 
 That's the kind of line you only earn the right to say after twenty years.
 
 *"Docs say no solo. So I'm flying with you."*
 
 I didn't argue. Possibly the most worrying sign of the week.
+
+I was already half-turned for the door when the light caught the label on his jacket — stitched
+crooked over the left breast, the kind of job you only trust to your own hands. **W. ROSKAM.** Not
+the nonsense I'd been playing with all afternoon. A name, in full, sewn down like it meant to stay.
+Something in me went looking for it and came back with nothing. I don't remember the name. I stood
+there a beat too long deciding whether that should have surprised me.
 
 *"Tomorrow,"* he said, already turning back to whatever he'd been tightening before I walked in.
 *"Get some sleep. You're going to need your hands."*

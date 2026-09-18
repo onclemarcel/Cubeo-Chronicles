@@ -189,6 +189,11 @@ It's what he does instead of the lie.
   same as being born.
 - **Wants:** for her to stay.
 - **Needs:** for her to leave again, and he knows it. Hence *"your destiny is out there."*
+- **A standing limit, not a choice:** romantic love doesn't register on him as a legible signal —
+  whatever was done to him left that part of the reconstruction incomplete, and 3312's cybernetics
+  haven't caught up to it yet. He reads Dr. Al Kurdi as a fellow protector, not as a woman in love
+  with the Viscountess, because "protector" is a category he has instruments for and "in love"
+  isn't. He'd understand the danger in a room before he'd understand the feeling in it.
 
 ## 5. Upbringing and background
 Skilled tradesman. No deference to aristocracy beyond basic manners. He knows everything about a
@@ -216,16 +221,23 @@ truth broke tomorrow — that constraint doesn't loosen, it's the whole point.
 
 ## 7. His history, from his own point of view
 He kept her four hulls maintained for four years without knowing if she'd come back — except he
-insists he *knew*. He was there, or he wasn't there, the day the modules were fitted. Both
-versions are playable, and neither should be settled before Chapter VI. **He is a cyborg** — this
-is settled, not a hypothesis, though she doesn't know it and shouldn't find out early. What isn't
-settled: whatever put him back together happened at the colony that gave him his name, and at some
-point after that — programmed, pressured, or both, mechanism to be defined — **he was used
-against her.** He has never told her which came first: the rebuilding, or the reason to stop
-asking questions about certified components. He has also never told her the third thing, the one
-underneath both: that he was there for a use he didn't choose, and that not lying about it, while
-never once explaining it, is the closest he can come to an apology he's forbidden himself from
-giving outright.
+insists he *knew*. **He is a cyborg** — settled, not a hypothesis, though she doesn't know it and
+shouldn't find out early. **Confirmed, 2026-09-18 — no longer two playable versions:** he was
+there the day the modules were fitted. He installed the falsified one himself, with his own hands.
+He was hacked into doing it — his cybernetics compromised by someone else's hand — and did not
+decide it. He has never learned who reached into him to make it happen, or he has and won't let
+himself think the name; either way, that person is still unbuilt (see "Characters to be built,"
+below).
+
+He knows, with the same certainty he applies to everything else he refuses to lie about, that she
+will find out one day. He cannot predict how, or what she'll do when she does, and that
+uncertainty is the real engine behind everything he does now in front of her — the humour, the
+mechanical distraction, the deliberate steering of her attention toward new components and new
+blueprints instead of old questions. Getting her back into a routine isn't kindness for its own
+sake. It's the only form of protection he has left to offer someone he already failed once. He has
+never told her which came first: the rebuilding, or the hack. He has also never told her the third
+thing, the one underneath both: that not lying about any of it, while never once explaining it, is
+the closest he can come to an apology he's forbidden himself from giving outright.
 
 ## 8. What the Viscountess perceives
 A reassuring presence, immediate, predating memory. The first true word since her awakening. She
@@ -264,6 +276,15 @@ real plating from fake on sight.
   toward replacing "Tonton" specifically in her dealings with outside contacts and other
   commanders, not becoming a second everyday nickname alongside it. No change to how he uses either
   name himself.
+- 2026-09-18 — **the "two playable versions" of §7 are resolved, internal record only, not on the
+  page:** he was there, he installed the falsified module, and he was hacked into doing it rather
+  than choosing it. He knows a reckoning is coming and can't predict it — that uncertainty is now
+  the stated reason behind his Ch. I behaviour (humour, mechanical distraction, steering her toward
+  new components) rather than just an unremarked charm. Added a standing psychological limit (§4):
+  he cannot register romantic love directed at others, including Dr. Al Kurdi's feelings for the
+  Viscountess — reads her instead as a fellow protector. He and Dr. Al Kurdi know each other, from
+  before 3308 (see her sheet). None of this is to surface on the page before its scheduled
+  through-line beats (`Guidelines.md`, Through-Line, Ch. IV/VI/VIII).
 
 ---
 
@@ -302,10 +323,17 @@ register she feels entitled to. **Asks questions instead of stating facts.**
 **Never says:** what she feels. Or exactly what she saw, that day.
 
 ## 7. Her history, from her own point of view
-She caught wind of the setup. She followed. She tried desperately to warn her. She arrived too
-late, watched the ship give out, pulled a tiny pod out of the void. Four years of care. **She
-holds a piece of the truth she never dared hand over** — afraid of watching her leave for revenge,
-and die for real this time.
+She's known Roskam for years — long enough that when something in him read wrong, in 3308, it
+wasn't guesswork. War medicine had taught her what a compromised cyborg looks like from the
+outside, and she recognised the shape of it in him before she had a name for what was happening to
+the Viscountess. She put it together too late to stop the module install, and too late to stop the
+launch. She followed anyway — out of Cubeo right behind her, close enough to hold a wake scan the
+whole way, chasing a ship she could never quite close the distance on. She was still on the wake
+when the Viscountess reached the combat field. She arrived after the hull had already given out.
+She pulled the pod from the wreck herself. Four years of care followed. **She holds a piece of the
+truth she never dared hand over** — afraid of watching her leave for revenge, and die for real this
+time. She has never told her, in four years, that the man who calls her Tonton is the one whose
+hands did it.
 
 At discharge, she runs through the expected memory checks — Empress, Powers, systems, ships — and
 the Viscountess answers every one without reaching. Then, deliberately, she asks a question built
@@ -334,6 +362,12 @@ fragment of the through-line.
 - 2026-09-16 — named (Dr. Al Kurdi), physical description set. Discharge scene now includes a
   deliberate test of shared pre-accident history, met with nothing — the clinical confirmation of
   a loss she'd already guessed at, delivered without letting it show.
+- 2026-09-18 — §7 sharpened: she suspected Roskam specifically (not just "the setup") in 3308,
+  from having known him for years and recognising a compromised cyborg when she saw one; the chase
+  to Ega/the combat field detailed (wake scan, never closing the distance, arriving after the hull
+  gave out). She's known Roskam since before the accident — internal record only, not yet on the
+  page. Her unrequited feeling for the Viscountess remains invisible to him specifically because he
+  can't register it as a category (see his sheet, §4) — not because she hides it especially well.
 
 ---
 
@@ -345,7 +379,7 @@ fragment of the through-line.
 | The bartender of Medupe City | to be built | Hears everything, never looks up. |
 | The rival | to be built | Patreus loyalist, or old comrade. Candidate: **Paladin**, a pirate (Cobra Mk III) who chased her from Violet Ann Memorial to Ega, Ch. II Day 6 — too early to confirm, played as an ordinary pirate encounter on the page so far. |
 | The ghost | to be built | Never reveal too soon. |
-| The modules' supplier | **to be built** | The real antagonist. May not appear until Ch. VIII. |
+| The modules' supplier | **to be built** | The real antagonist. May not appear until Ch. VIII. Roskam was confirmed 2026-09-18 as the hands that installed the falsified module — hacked into it, not complicit. This is who reached into him to make that happen. |
 | A reclusive engineer | to be built | Recognises the signature of the falsified plating (Ch. IV). |
 
 ---

@@ -108,9 +108,17 @@ mission sold as survivable, which it wasn't. Her modules' armour ratings were fa
 as reinforced, they weren't. **The acid ate through them.** She wasn't prepared, and that was the
 point.
 
-**The rescue.** Cubeo's doctor had caught wind of the setup. She followed the Viscountess, tried
-desperately to warn her, arrived too late. She watched the ship give out. She pulled the tiny
-escape pod out of the void. Four years of care followed.
+**2026-09-18 — confirmed:** the hands that installed the falsified module were Roskam's. He was
+hacked into doing it — compromised, not complicit — and has never chosen to tell her. Who reached
+into him to make it happen is still unbuilt (see `characters.md`, "Characters to be built" → the
+modules' supplier). Internal record only; not yet on the page.
+
+**The rescue.** Cubeo's doctor suspected something wrong in Roskam before she understood the shape
+of the mission itself — she'd known him for years, and it read to her like a compromised cyborg
+going wrong. She was too late to stop the install, too late to stop the launch. She followed
+anyway, holding the Viscountess's wake the whole way out, never quite closing the distance. She was
+still chasing when the Viscountess reached the combat field. She arrived after the hull gave out,
+and pulled the escape pod from the wreck herself. Four years of care followed.
 
 **The open question.** Those falsified modules came from somewhere. Someone ordered them, someone
 certified them, someone installed them. She remembers none of it: not the people, not the
@@ -142,8 +150,9 @@ her hulls maintained during her absence. He always *knew* she'd come back. He fl
 long as the doctors forbid solo flight. The only person in front of whom her title carries no
 weight at all.
 
-*Question to settle eventually:* who installed the falsified modules? If he wasn't there, who
-replaced him — and why? If he was there, he carries a guilt he will never voice.
+*Settled, 2026-09-18 (internal record — not yet on the page):* he installed them. He was hacked
+into doing it, didn't choose it, and carries a guilt he will never voice. Still open: who reached
+into him to make it happen (see `characters.md`, the modules' supplier).
 
 ### The ducal contact
 Go-between with Aisling. Polite, insistent, never quite candid. The closest thing to the source:
@@ -359,6 +368,17 @@ someone who knew what had been done to her hull.
 
 Test before finalising a line: if the truth broke tomorrow, would this sentence still hold up? If
 yes, it's good. If it becomes a lie, rewrite it.
+
+### Writing scenes with Roskam
+
+Lean on dialogue, not description. His scenes carry the story's humour and its central omission at
+once, and both land better said aloud than summarised. Let him talk shop — hulls, hardpoints, FSD
+grades, whatever's dusty in the hangar — at length; it's characterisation, not filler (see
+"Procedural detail as proof of reality," above). Description is reserved for what dialogue can't
+carry: the tic, a look that doesn't match the joke, the beat before a sentence he doesn't finish.
+When he deflects a personal question, let the deflection be a real answer to a different question,
+not a dodge the reader can catch him in — that's the double-meaning rule (above), applied to
+evasion instead of affection.
 
 ---
 
