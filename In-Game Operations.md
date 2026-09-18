@@ -27,13 +27,9 @@
 
 ### 2.1 Asp Explorer — *exploration / rescue*
 
-**Notable modules**
-- FSD 5A — *Increased Range* **grade 4** + **Deep Charge** experimental effect → 43.08 ly unladen, 41.17 ly laden
-- DSS 1I — *Expanded Probe Scanning Radius* **grade 5** (CG reward, irreplaceable)
-- Fuel Scoop 6A
-- Power Plant 5A *Armoured* **grade 1** / Thrusters 5A *Clean* **grade 1**
-- Planetary hangar 2G, shield 5D, 20 t cargo
-- **Rescue Multi Limpet Controller 3C** → latent Search & Rescue configuration
+**Current fit:** FSD 5A *Increased Range* g4 + *Deep Charge* (43.08 ly unladen / 41.17 laden) ·
+DSS 1I g5 (CG reward, irreplaceable) · Fuel Scoop 6A · Power Plant 5A g1 / Thrusters 5A g1 ·
+planetary hangar 2G, shield 5D, 20 t cargo · Rescue Multi Limpet Controller 3C (latent S&R config).
 
 **To fix**
 - [ ] Thrusters flagged `enabled: false` in the export — check power priorities in-game
