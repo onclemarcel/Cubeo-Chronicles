@@ -441,6 +441,54 @@ I can't write the rest of this tonight.
 
 > *"Before the accident, I failed every mission I ever ran on foot. I want to know why."*
 
+> **PLANNING NOTE — NOT STORY — TEMPORARY (2026-09-20).** Kept here so we can see where we stand;
+> delete this whole block once Ch. III is drafted. Copy of `Guidelines.md`, "Chapter III — Workplan"
+> and Through-Line items 1–10 — if the two differ, fix both. This chapter's stub below is the
+> *older* plan: it will be reshaped by what follows.
+>
+> **Where we are.** No Ch. III prose exists. Acts 1–2 can be drafted from play already banked
+> (18 Sept, `In-Game Operations.md` §4b). Act 3 needs on-foot play that hasn't happened yet.
+>
+> **Decisions taken (details: `Guidelines.md`, Through-Line, Ch. III items 1–10).**
+> Golden rule kept, amended: she chases *loose ends*, never *the* question · the doctor is not the one
+> who says "it wasn't an accident" · the five Aisling missions are played as errands in Ch. III, the
+> formal oath stays in Ch. V · Gutamaya-only is a real rule, with one exception (a Type-11 + Rhino
+> lent by someone, for information about her past) · her Aisling pledge is dated 9 Sept, two days
+> before Day 1, author open · the leash is on her own side · **she is a built pilot, the doctor's
+> work; Sam is an older, cruder enemy build (Zemina Torval's programme)** · Sam's cyborg nature is
+> found mid-logbook, hers near the very end · the ending: the doctor tells her everything, cannot
+> shut her down, lets her go.
+>
+> **Workplan — four acts, about 14 entries, one per play session.** Story dates and play dates part
+> after Day 7; the journal is ground truth for what happened, not when.
+> - **Act 1 — Debrief (D8–9), play banked.** D8: CG paid, home in the Asp; she tells the doctor about
+>   Paladin and leaves out *"looking for you"*; the doctor's one question (*who knew where you were
+>   going?*); the wrist-check lingers. D9: the hangar, all four hulls home; the Tritium run; the
+>   Antimony and the blueprint checklist on Sam's workbench, dated before she has decided anything;
+>   the chance meeting with the doctor at Vista Genomics.
+> - **Act 2 — Errands (D10–14), play banked, journal order.** D10: Karsuki Ti → HIP 7311, first
+>   HIP 3254 scan; the Powerplay panel: pledged 9 Sept. D11: refit; Vargerson; the Hostile tag
+>   explained. D12 (rupture): HIP 3254 again, power failure, escape on speed, Paladin's paint. D13:
+>   Lambda Hydri wrecks and black boxes; the Asp swap. D14: Chinovane; rank arrives; the registry
+>   lookup of W. Roskam (nothing before ~20 years ago); the Gutamaya vow.
+> - **Act 3 — The Darkened Colony (D15–19), needs play.** Two abandoned-settlement reactivations;
+>   data recovery and the **supplier's name** on a terminal (the one clue); an unscripted failure
+>   and short rupture; long calm — *cut the power first, what I'd been getting wrong* — and the
+>   hook: the name, in the sixth line.
+>
+> **Standing constraints.** One through-line clue only · at most 3 streams move (Sam, the pledge,
+> the hunter; the body only as a tiny option) · doctor: at most one pointed question per scene ·
+> arc of the hand: still movement one, the sixth line comes first only at the rupture(s) · rhythm:
+> calm — calm — tension — rupture — long calm — hook.
+>
+> **Questions waiting for Tonton Marcel (asked 2026-09-20).**
+> 1. The **supplier's name** for the terminal in D17 (a Torval-side supplier).
+> 2. The **ducal contact's tic**, and whether the unsigned message on D14 stays.
+> 3. **Why the doctor is at Vista Genomics** on D9.
+> 4. The **chapter title**: keep "The Darkened Colony", or rename now that it opens with errands.
+> 5. **Sam's origin**, candidate 1 (built to watch the doctor) or 2 (built in parallel, placed as a
+>    mechanic days after she left Roskam) — not needed for Ch. III; Claude leans to 2.
+
 An abandoned settlement, no lights, no one. She hunts for the power distribution centre in the
 dark. It's the most atmospheric moment Odyssey has to offer, and most pilots walk through it
 thinking about something else. Not her.

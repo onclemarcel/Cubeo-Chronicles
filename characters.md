@@ -167,6 +167,29 @@ The single point of view. The reader knows only what she knows.
 - 2026-09-18 — §7 gains the Great Solitude conversation with the doctor (internal record, see
   Doctor of Cubeo §7 for the fuller account) — explains why the Day 1 LHS 3447 question lands as
   loaded rather than random. Not accessible to her; amnesia covers it completely.
+- 2026-09-19 — from Ch. III she commits fully to Aisling Duval and the Imperial rank climb, and
+  flies **only Gutamaya hulls** (`In-Game Operations.md` §3 rule 6). Decided: she does *not* know
+  there is a question behind this — the golden rule stands (`Guidelines.md`, Through-Line). On the
+  page it is a stubborn, half-explained vow about ships and ranks; the body and the sign-receptive
+  trait (§4) carry the rest. The five Aisling errands (18 Sept play) are her first steps.
+- 2026-09-19 — eyes, confirmed: the photograph payoff (§7) shows **her, pre-3308, well known in
+  Cubeo, with a different eye colour** — not a lookalike or decoy. Consequence for the page: the
+  double-takes in Cubeo (Ch. I Day 2) come from people who remember the *face* and are thrown by the
+  *eyes*; §2's line that the pale eyes were "the detail people remembered" should be read as the
+  face being remembered and the eyes being what makes them look twice. Away from Cubeo, still just
+  a colour. Which of the three readings holds is still open.
+- 2026-09-19 — the Aisling pledge is dated **9 Sept 3312**, two days before Day 1 (journal
+  `TimePledged`), so "simply continuing" (§1) is superseded: someone renewed it in her name knowing
+  she was about to be discharged; author open (`Guidelines.md`, Ch. III, decisions 6–7). Pre-3308 she
+  was tricked and trapped in a plot she nearly unravelled *for Aisling* — the leash is on her own
+  side. Origin/rebuild question parked (decision 8).
+- 2026-09-20 — **decided in outline (internal, not on the page):** she is a built pilot — the doctor's
+  work ~20 years ago, rebuilt again during the four years. Level of construct deliberately
+  ambiguous; whether she can feel is never settled. Moral code built in (from the doctor's way of
+  thinking). Perfect on paper (rank, commendations, service file), out of place in drawing rooms.
+  Her own discovery is scheduled for near the very end (Ch. VIII), far after Sam's
+  (`Guidelines.md`, Ch. III decision 9). Reads back: clean hands, eyes, shoulder graft, fear of
+  attachment, leaving for months (the Great Solitude flight).
 
 ---
 
@@ -295,6 +318,10 @@ real plating from fake on sight.
   Viscountess — reads her instead as a fellow protector. He and Dr. Al Kurdi know each other, from
   before 3308 (see her sheet). None of this is to surface on the page before its scheduled
   through-line beats (`Guidelines.md`, Through-Line, Ch. IV/VI/VIII).
+- 2026-09-20 — **decided in outline (internal, not on the page):** Sam is *not* the doctor's build.
+  He is an older, cruder product of an enemy programme dating from Roskam, power-related — hence the
+  incomplete reconstruction (no romantic love) and the back door that was used in 3308. Power still
+  open — *settled the same day: Zemina Torval's programme, an inside enemy of the Empire; his origin has two candidates, see `Guidelines.md`, Ch. III item 10.* His cyborg nature is discovered mid-logbook (target Ch. IV–V), far ahead of hers (Ch. VIII).
 
 ---
 
@@ -399,6 +426,16 @@ fragment of the through-line.
   herself. The doctor's slow approach afterward, and its failure, is the new working explanation for
   why the Viscountess took on that specific CG (`Galaxy Chronicles.md` updated to match). "Unrequited"
   above describes the present tense, not the full history — see the new §7 paragraph.
+- 2026-09-19 — Ch. III plan (`Guidelines.md`, Through-Line): a chance meeting at Vista Genomics
+  where she is caught off-guard and lets the weakness show for a moment before recovering into her
+  professional manner — planned beat, unwritten. Decided the same day that she is **not** the one who
+  tells the Viscountess it wasn't an accident; she keeps her silence (§4, §6).
+- 2026-09-20 — **decided in outline (internal, not on the page):** she built the Viscountess. Her
+  feelings began as a means of keeping her near and grew beyond her control; the logbook began as a
+  way to monitor "the product" and she is increasingly impressed as it exceeds spec. Her tic (§3)
+  reads two ways at once — inspecting the rebuild, and a finger lingering from feeling — with the
+  human reading meant to come first for the reader. What she has never dared hand over now includes
+  what the Viscountess is. Still open: whether she came out of the enemy programme that built Sam.
 
 ---
 
@@ -410,6 +447,7 @@ fragment of the through-line.
 | The bartender of Medupe City | to be built | Hears everything, never looks up. |
 | The rival | to be built | Patreus loyalist, or old comrade. Candidate: **Paladin**, a pirate (Cobra Mk III) who chased her from Violet Ann Memorial to Ega, Ch. II Day 6 — too early to confirm, played as an ordinary pirate encounter on the page so far. |
 | The ghost | to be built | Never reveal too soon. |
+| The nudge | to be built — added 2026-09-19 | Whoever first lets the Viscountess hear that the accident was "not quite" one. **Not the doctor.** Candidates: the bartender, the ducal contact, or a newcomer; no hurry — new characters may arrive over time to add wrong turns. Also a candidate (2026-09-19): the owner of the Type-11 she borrows for surface mining, paying her in information (`Guidelines.md`, Ch. III, decision 5). |
 | The modules' supplier | **to be built** | The real antagonist. May not appear until Ch. VIII. Roskam was confirmed 2026-09-18 as the hands that installed the falsified module — hacked into it, not complicit. This is who reached into him to make that happen. |
 | A reclusive engineer | to be built | Recognises the signature of the falsified plating (Ch. IV). |
 

@@ -126,6 +126,10 @@ missions, not the faces. She'll only relearn through **sensation** — what she 
 before she understands why. The rest will come in fragments: contacts, rumours, truths, lies,
 manipulations.
 
+**2026-09-20 — added to the File (internal, not yet on the page):** she is herself a built pilot
+(the doctor's work, ~20 years ago), and the logbook is partly the doctor's instrument for watching
+her "product" develop. See Ch. III decision 9 (Through-Line, below).
+
 ---
 
 ## RECURRING CHARACTERS
@@ -233,8 +237,198 @@ now on record for why she'd ever go back to LHS 3447, neither chosen yet:
 
 Neither should surface on the page before its own dedicated beat.
 
+**Ch. III opening — storyboard (internal, 2026-09-19 — DECIDED in outline, nothing yet written on
+the page):**
+
+*Decisions, 2026-09-19 (Tonton Marcel):*
+1. **Golden rule stands.** She does not set out to answer a question she doesn't know exists. The
+   vow is stated only in terms of ships and ranks (Duke → Cutter, Gutamaya hulls only, Aisling as
+   employer); the real reason surfaces at most in the sixth line.
+2. **The doctor is not the one who says it wasn't an accident.** It would break her sheet, and she
+   is wrong for a slow unravelling. Other characters may turn up to deliver the nudge — no hurry;
+   added to "Characters to be built" (`characters.md`).
+3. **The five Aisling missions are played in Ch. III** as errands, and that is the justification for
+   the in-game mission choices. Read as: errands in Ch. III whose meaning only shows later; Ch. V
+   keeps the formal oath and the ducal contact's lie about a date. *(If the intent was to move the
+   oath itself into Ch. III, this line needs correcting.)*
+4. **Gutamaya-only is adopted as a real rule change** (`In-Game Operations.md` §3 rule 6, §13).
+   Some missions will be difficult until the hulls are engineered — accepted, and it feeds Ch. IV.
+
+5. **The Rhino exception (Tonton Marcel, 19 Sept).** Missions that need surface mining need a
+   Type-11 + Rhino, which no Gutamaya hull can carry. Device: she helps someone use *his* ship in
+   exchange for information about her past. The Type-11 is then never "hers" — rule 6 holds. Craft
+   notes: he offers the information; she does not ask (golden rule), and her reluctance to take it
+   fits her fear of attachment. He is a strong candidate for "The nudge" (`characters.md`), in
+   which case what he gives should be partial and slightly wrong, not the answer.
+6. **The pledge date (Tonton Marcel, 19 Sept).** Her Aisling pledge dates from 9 Sept 3312, two days
+   before Day 1 — someone acted for her knowing she was about to be discharged. Three candidate
+   authors, deliberately left open: (a) Aisling's office, re-enlisting her for what she did before;
+   (b) a protector, keeping her near Cubeo and on Aisling work; (c) someone who hopes it will push
+   her toward the truth and disturb the enemy again. She can read the date herself (loose end, not a
+   question). Supersedes "never lapsed, simply continuing".
+7. **The leash is on her own side (Tonton Marcel, 19 Sept).** Before 3308 she almost unravelled a plot
+   *for Aisling* and was tricked and trapped; now she may be re-used to walk the same path and
+   succeed. Theme: whether a Power is friend or foe, pledging means being used — yet Aisling's
+   refusal of the slave trade is still honoured, and that is what holds her. The enemy sits inside
+   the same rooms (Ch. VI), not outside them.
+8. **SUPERSEDED by item 9 (20 Sept) — Sam's and her origin.** Options that were on the table: (a) she too was
+   *rebuilt* — not necessarily machine — which would explain the clean hands, the eyes and the
+   shoulder graft; (b) Sam was built with a dormant back door 20 years ago, so 3308 is an
+   activation, not a first hack; (c) the doctor as the surgeon behind both rebuilds — heavy: it
+   rewrites her sheet and makes her a suspect. Until decided, plant only dots that fit every
+   option: a registry with nothing on W. Roskam before ~20 years ago; the wrist (the doctor's tic, the
+   seam on Sam's wrist, the catch she felt shaking his hand); the hands.
+9. **DECIDED in outline (Tonton Marcel, 20 Sept) — what she is, and what Sam is.** Internal record;
+   none of it on the page before its own beat.
+   - **She is a built pilot** — the doctor's work, about 20 years ago: an ideal pilot / mercenary.
+     The four-year "recovery" was a rebuild. Level of construct deliberately in the middle
+     (rebuilt human vs implanted template): **never settle whether she can feel.**
+   - **Her moral code is built in**, coming from the doctor's own way of thinking.
+   - **The doctor's feelings** began as a means of keeping her near, then outgrew her control (a
+     cold-headed woman, close to loving a machine). The logbook started as a way to monitor "the
+     product"; she is more and more impressed as it exceeds spec. **That is the arc of the hand.**
+   - **The wrist-check reads two ways at once:** inspecting the rebuild, and a finger that lingers
+     because of feeling. The reader should drift to the human reading first.
+   - **Sam is not the doctor's build.** He is an older, cruder product of an enemy programme dating
+     from Roskam, power-related — less efficient than she is, hence the love-blind limit and the
+     back door. Which Power / programme: **OPEN.**
+   - **Reveal order:** Sam is discovered mid-logbook (target Ch. IV–V) — his thread drives the plot
+     reveal and must never point the reader at her. Hers comes near the very end (Ch. VIII), and
+     the world the reader has built crumbles.
+   - **Paper vs. drawing room:** rank, commendations and service file are impeccable on paper; in
+     the drawing rooms she is out of place (no upbringing; a title with zero influence).
+   - **Still open:** which Power built Sam; whether the doctor came out of that programme (would
+     explain why Sam avoids Roskam Enterprise, and the shared 20-year horizon); who commissioned her
+     (an inside Aisling faction, the ducal contact?); how she finds out — from the logbook itself?
+10. **Decided 20 Sept — the enemy, Sam's origin candidates, the ending.**
+   - **The enemy programme behind Sam is Zemina Torval's:** same Superpower (the Empire), inside
+     enemy. Rebuilt people as property — the opposite of the code built into her.
+   - **Sam's origin — two candidates, still open.** (1) Roskam built him to watch the doctor, who
+     was the one being observed and tracked; she took him with her (and the Viscountess) without
+     checking for flaws, trusting him. (2) Built in parallel and in haste with older technology, sent
+     a few days after the doctor left Roskam and placed as a mechanic; she met him as a stranger and
+     introduced the Viscountess as a recruit from another system; she has known him ~20 years and
+     never recognised him as a Roskam product; his release date ≈ hers. *Notes:* (2) fits the 20-year
+     horizon exactly and keeps the doctor innocent, but needs an answer for why a man named Roskam
+     didn't alarm someone who had just left Roskam; (1) makes her trust her tragedy and explains how
+     the enemy always knew the project. Ch. III plants fit both.
+   - **The ending.** Near the very end the doctor tells her what she is, from the beginning. She
+     leaves Cubeo for good, keeping the logbook. If the construct has no further use for the
+     Empire, the doctor should shut her down; she starts to, cannot, and lets her go. The logbook's
+     last page is the Viscountess's own account of that near-shutdown, stopped at the last minute.
+     The doctor loses her "product" for good — the top-level cyborg with an almost complete human
+     way of thinking, lacking only attachment — and chooses release: she is too human for what she
+     made.
+   - *Claude's proposals, not yet confirmed:* the leash ends in disposal — succeeding at the mission
+     she doesn't know she has is what makes her expendable. The doctor's tic (a finger on the wrist)
+     could be where the shutdown is done, paying off the prologue's hand.
+
+*Raw input, from the 19 Sept review.* Ch. II ends on the Paladin rupture (Day 7) and "I have to tell
+the doctor"; the logbook stops at 17 Sept, the end of the CG. Ch. III therefore opens with:
+1. **The doctor debrief** — she has to be told what happened on 17 Sept.
+2. **A chance meeting in the Vista Genomics area** (Medupe City) — the doctor is caught off-guard
+   and briefly shows her weakness for the Viscountess, then recovers into her professional manner.
+3. **A bridge to the in-game work** — the five Aisling missions (already played, 18 Sept, see
+   `In-Game Operations.md` §4b) and easy on-ground jobs such as abandoned-settlement reactivation
+   (the existing Ch. III premise). She needs a reason to work actively for Aisling, where before she
+   only climbed Imperial ranks through minor-faction missions.
+4. **New driver:** someone — the doctor, or a new character — tells her the accident was "not quite
+   an accident". She commits fully to Aisling and the Imperial rank climb hoping to trigger what
+   she lived before; **flies only Gutamaya hulls**; works mostly for Aisling, except when farming
+   G5 materials/data/components to engineer those hulls (Gutamaya isn't the best choice for every
+   job). That commitment produces a long side roadmap — material farming, engineer visits — during
+   which the plot unravels slowly and new characters add complexity and wrong turns.
+
+*Tensions that were on record, and how they were resolved (see the decisions above):* the golden
+rule vs. an investigating heroine (rule kept); who delivers the "not an accident" line (not the
+doctor); Ch. V's oath ceremony vs. missions already played (errands in Ch. III, oath in Ch. V);
+Gutamaya-only vs. the roadmap (Asp/Type-9 stored under Ground Rule 1 — hangar dust is also a motif;
+Type-11 + Rhino and Mandalay shelved). Still true: the Imperial Cutter needs Duke rank
+(`In-Game Operations.md` §8), so the "tank" build is a long way off.
+
+*What already fits and needs no new chapter:* the vow supplies the *reason* for Ch. IV (the hermits —
+a Gutamaya-only fleet forces the engineer pilgrimage) and Ch. VI (the rank climb into the room where
+the decision was made). Vista Genomics also echoes the unresolved eyes question (`characters.md`,
+Viscountess §7) and Ch. VIII's exobiology — a plant if wanted, not to be resolved.
+
 **Golden rule:** she must never ask the question directly. She doesn't even know yet that there is
 one.
+
+**Amendment, 2026-09-19 (Tonton Marcel, agreed):** "never asks the question" means *the* question —
+who wanted her dead. It does **not** mean she wanders passively. From Ch. III she chases **loose
+ends**: things that itch (a tag, a file, a date, a name on a label) get treated as practical chores —
+check it, look it up, read the small print. She never links them into one question; the reader does.
+Her stated reason for working stays practical (get back to her business, be away from faces that
+know her). Corollary for the doctor: she may ask, but sparingly — at most one pointed question per
+scene, and her wish to get closer is what makes it read as care rather than interrogation.
+
+---
+
+## CHAPTER III — WORKPLAN (draft, 2026-09-20 — for Tonton Marcel's review; nothing written on the page)
+
+**Purpose.** The first real crack. She goes back to work to get away from faces that know her, chases
+loose ends without naming them, meets one through-line clue on foot, and fails at least once.
+
+**Standing constraints.** Golden rule as amended (loose ends, never *the* question) · one through-line
+clue only (a supplier's name, stream E) · at most 3 streams move (B, C, D; A only as a tiny option) ·
+doctor: at most one pointed question per scene · at least one on-foot failure, unscripted · arc of the
+hand: still movement one, the first crack arrives at the rupture, the sixth line comes first only
+there · style rhythm: calm — calm — tension — rupture — long calm — hook; the rupture stays short.
+
+**Shape.** Four acts, about 14 entries (Ch. I had 3 days of entries, Ch. II had 4), one entry per
+play session, short entries allowed. **Calendar note:** the six sessions of 18 Sept were played on one
+real day; in the story they become Days 8–14. After Day 7, story dates and play dates part; the
+journal stays ground truth for *what happened*, not for *when*.
+
+**Act 1 — Debrief (Days 8–9). All play banked (18 Sept, session 1).**
+- **D8:** the CG pays out at Metz Enterprise; she swaps to the Asp and flies home. She tells the
+  doctor about Paladin and leaves out *"looking for you"* (sixth line). The doctor's one question:
+  *who knew where you were going?* — and the wrist-check lingers. *Streams:* D and B planted;
+  Sam's message from Day 3 comes back to her, unspoken.
+- **D9:** the hangar, dialogue-led. All four hulls are home together for the first time. The Tritium
+  run in the combat Clipper (speed as the reason). The Antimony and the blueprint checklist on
+  Sam's workbench — **dated before she has decided anything**. The Asp stripped of dead weight. The
+  chance meeting with the doctor at **Vista Genomics**: caught off-guard for a beat, then
+  professional again. *Streams:* B (he is ahead of her again).
+
+**Act 2 — Errands (Days 10–14). All play banked (sessions 2–6). Journal order stands.**
+- **D10:** Karsuki Ti → HIP 7311 (rare goods, calm), then the first HIP 3254 beacon scan — pirates
+  thick, scans done. She reads her Powerplay panel: **pledged 9 Sept**. *Stream C.* Motive stated:
+  work, and be away from Cubeo's faces (stream A as avoidance).
+- **D11:** the combat Clipper refit, then Vargerson with the Aisling programmes. A rival Power's
+  system reads her ship as hostile — the **Hostile tag now makes sense**, mundane. The ZYADA irony:
+  "allies" undermining one another. *Stream C resolved in part, opened in part.*
+- **D12 — the rupture:** HIP 3254 again. She falls out of power, shields at zero, hull down, and
+  escapes on the Clipper's speed. **Paladin's hull paint** on one of the pirates. Short, hard. The
+  first crack: the sixth line arrives first. *Stream D.*
+- **D13:** Lambda Hydri. Other pilots' wrecks and black boxes; her own wreck at the back of her mind.
+  The Clipper cannot land, so back to Cubeo for the Asp (a Sam scene, brief), then three more runs.
+  Calm, procedural, a little eerie.
+- **D14:** the Chinovane bounty, then the rank arrives unannounced. That night, a Pilot Circle
+  lookup of **W. Roskam**: nothing before about twenty years ago (B). She decides, stubbornly and
+  without a stated reason, to fly **Gutamaya hulls only**. *Optional:* a first, unsigned message
+  from the ducal contact.
+
+**Act 3 — The Darkened Colony (Days 15–19). Needs play — not yet played.**
+- **D15–16:** abandoned-settlement reactivation at a Cubeo settlement, then a second one. Dark, dust,
+  the power distribution centre, hands dirty (motif). Calm. Her body knows the yoke, not boots.
+- **D17:** data recovery at a powered-down site: the **terminal and the supplier's name** — a
+  certified-armour manifest. Her shoulder flares before she reads it. **The chapter's one clue.**
+  The name is still to be built (a Torval-side supplier).
+- **D18 — the failure and rupture:** a tripped alarm at an active site, a run for the ship under
+  turret fire. Short. Costs something. Not scripted: if play doesn't produce a failure, this entry
+  stays honest and short.
+- **D19 — long calm and hook:** Sam repairs what needs repairing. The lesson: **cut the power
+  first — what I'd been getting wrong this whole time.** The doctor's wrist-check again. Hook: the
+  supplier's name, in the sixth line.
+
+**Drafting order.** Acts 1–2 (D8–D14) can be written now from banked play. Act 3 waits for on-foot
+sessions. Tonton Marcel plays Act 3 while Acts 1–2 are drafted and reviewed.
+
+**Open before drafting Act 1.** (1) The supplier's name. (2) The ducal contact's tic and whether
+D14's message stays. (3) Sam's origin, candidate 1 or 2 — not needed for Ch. III. (4) Why the
+doctor is at Vista Genomics. (5) The chapter title: keep "The Darkened Colony" or rename now that
+it opens with errands.
 
 ---
 

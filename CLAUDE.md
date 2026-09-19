@@ -26,6 +26,7 @@ Each file states its own scope at its own top; restated here for a quick referen
 | `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | Numeric/technical data |
 | `Galaxy Chronicles.md` | Canon bedrock — real Elite Dangerous dates, events, real people available for use | Invented characters, invented events |
 | `characters.md` | Character sheets (invented + real-person usage notes), living document, dated `Evolution` entries | Plot mechanics, stats |
+| *(exception)* a `PLANNING NOTE — TEMPORARY` block at the top of a chapter in `Logbook.md` | Where we stand on a chapter still being planned: decisions, workplan, questions waiting. Added 2026-09-20 for Ch. III at Tonton Marcel's request. **Delete it once the chapter is drafted** — it is the one place `Logbook.md` holds a roadmap. | Prose |
 | `Reviews.md` | **Ephemeral.** Tonton Marcel's session notes, tagged. Cleared once distributed — see §3 | Anything meant to last |
 
 ## 3. How updates happen — the Reviews.md cycle

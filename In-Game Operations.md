@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 18 September 2026 (3312)
+## Campaign memory — status as of 18 September 2026 (3312), end of evening session
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 
@@ -14,9 +14,9 @@
 | Squadron | EliteCommanders |
 | Trade rank | **Elite** (Trader Elite badge earned 16 Sept 2026) |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 0 / 0 merits** (~8.7 days pledged, journal-verified 18 Sept — still gated on the 5 initial missions, see §7, §11) |
+| Power | Aisling Duval — pledged, **Rank 5 / 16,424 merits** (journal-verified: the 5 gating missions were completed 18 Sept, `PowerplayRank` event 19:47:50 UTC; was Rank 0 / 0 merits at the start of the day — see §4b, §7) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **1,824,833,287 CR** (journal-verified, `Status.json` 18 Sept 08:31 UTC — `LoadGame` 1,661,100,215 + CG 859 payout 170,000,000 + this session's transfer/mission/trading/refit activity, reconciled to within 1,462 CR of the live balance; see §4) |
+| Treasury | **1,818,649,914 CR** (journal-verified, `LoadGame` 18 Sept 19:11 UTC — down ~6.2M from the 08:31 UTC figure of 1,824,833,287 after the second refit round, incl. the mining Clipper's FSD 5A; end-of-session balance not read, the game had closed and `Status.json` was empty — re-sync next session; older reconciliation in §4) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -27,12 +27,18 @@
 
 ### 2.1 Asp Explorer — *exploration / rescue*
 
-**Current fit:** FSD 5A *Increased Range* g4 + *Deep Charge* (43.08 ly unladen / 41.17 laden) ·
-DSS 1I g5 (CG reward, irreplaceable) · Fuel Scoop 6A · Power Plant 5A g1 / Thrusters 5A g1 ·
-planetary hangar 2G, shield 5D, 20 t cargo · Rescue Multi Limpet Controller 3C (latent S&R config).
+**Current fit** (`MA-07A`, ShipID 4 — matches the Inara SLEF export of 19 Sept): FSD 5A *Increased
+Range* g4 + *Deep Charge* (43.08 ly unladen / 41.17 laden) · DSS 1I g5 *Expanded Probe Scanning
+Radius* (CG reward, irreplaceable) · Fuel Scoop 6A · Power Plant 5A *Armoured* g1 / Thrusters 5A *Tuned*
+g1 (thrusters on power priority 3 — the likely origin of the old "`enabled: false`" scare) ·
+planetary hangar 2G, shield 5D, 20 t cargo racks · collector limpet controller 3A · life support 4D ·
+distributor 4D · sensors 5D. *Lakon hull — stored from 19 Sept (§3, rule 6); modules moved to
+storage keep their engineering (rule 2), so the DSS and FSD can follow her into a Gutamaya hull.*
 
 **To fix**
-- [ ] Thrusters flagged `enabled: false` in the export — check power priorities in-game
+- [x] Thrusters flagged `enabled: false` in the export — **closed 19 Sept**: no problem observed in
+      play; the Asp flew the Ega CG and the Lambda Hydri rescue runs (§4b) without issue. Export
+      artefact, not a real fault.
 - [x] Strip 2× missile racks 2B + 4× lasers 1E → ~13 t of dead weight — **done 18 Sept**, all 6
       hardpoints sold at Medupe City (journal-verified, +1,341,400 CR combined with the shield
       boosters below)
@@ -55,29 +61,64 @@ planetary hangar 2G, shield 5D, 20 t cargo · Rescue Multi Limpet Controller 3C 
 already puts the ship close to the *Long range* config (no weapons left at all) — worth locking in
 as a saved loadout before anything gets re-added by habit.
 
+**Re-armed for the rescue runs — 18 Sept, 18:32–18:35 UTC (journal-verified):** 2× medium gimballed
+pulse lasers, 4× small fixed dumbfire missile racks and a **collector limpet controller 3A** (slot
+4) were fitted. This reverses the earlier strip — the habit warned about above — and is deliberate
+only for the collector limpets: the Asp is the medium-pad hull that can land at Hansteen Depot
+(Lambda Hydri), where the Clipper cannot (§4b). Strip the weapons again before the *Long range*
+loadout is saved.
+
 ### 2.2 Imperial Clipper — *combat / bounty hunting*
 
-Shield 6A, thrusters 6A, distributor 6A, power plant 6C, gimballed beam laser 3C, multi-cannon 3C, chaff, ECM, 2 boosters, scoop 4A.
+`MA-10E` (ShipID 2). **Fit as of 19 Sept — Inara SLEF export, cross-checked against the journal
+`Loadout` of 18 Sept 19:57 UTC:**
 
-**Critical issue: stock FSD 5E.** Never replaced. A 5A costs ~5M — best value-for-money upgrade in the whole fleet.
+- **Hardpoints:** 2× large gimballed beam laser 3C · 2× medium multi-cannon **turret** (replaced the
+  2 medium gimballed beams, 18 Sept 12:06) · 2× shield booster · 2× chaff launcher (replaced the
+  third booster and the crime scanner, 12:07)
+- **Core:** shield 6A · thrusters 6A · power plant 6A · distributor 6A · sensors 5D · life support 5D ·
+  fuel tank 4C · armour **grade 3** (20.07M CR)
+- **FSD:** 5A, engineered **Faster Boot Sequence g5** — *not* the stock 5E the earlier version of this
+  sheet claimed; the upgrade was already done before 18 Sept
+- **Internals:** cargo rack 7E · 2× hull reinforcement 4D · module reinforcement 1D · fuel scoop 3A ·
+  FSD interdictor 2D · multi limpet controller (operations) 3C · planetary hangar 2G
+- **Engineering:** the FSD is the *only* engineered module on the hull — weapons, shields, power
+  plant, distributor and thrusters are all stock. That is the real work order for this ship (see §13)
+- **Flagged `Hot: true` in the export** — cause not identified (no `CommitCrime` on this hull in the 16–18
+  Sept journals except two 400 CR docking fines on the 16th). Check in-game; it can restrict docking
+
+*Correction, 19 Sept:* the "FSD 5A on the combat Clipper" item in earlier versions of this file was
+based on a stale export. The 5A engineered FSD on **this** hull was already fitted; the 18 Sept
+purchase (12:38 UTC) was the *mining* Clipper's (§2.3), as Tonton Marcel reported. No burst lasers are
+fitted: per Tonton Marcel the weapon change was a power-budget experiment, and the beam lasers turned
+out to fit within the power limit after all.
 
 **Future role:** Powerplay merit generator. **Do not sell.**
 
 **18 Sept, journal-verified:** flown for the Tritium supply mission round trip (Medupe City →
 Cellarius Beacon → Medupe City, §4) specifically for its 440 m/s top boost — no interdiction taken.
-Repaired on departure (2,692 CR). Still on the stock FSD 5E; the 5A upgrade above remains open.
+Repaired on departure (2,692 CR).
 
 ### 2.3 Imperial Clipper — *mining*
 
-Cargo hold 7E (128 t), 3× collector limpet controllers 3A, prospector limpet controller 1A, refinery 2A, 2× mining lasers 2D, DSS 1I.
+`MA-04E` (ShipID 10). **Fit as of 19 Sept — Inara SLEF export:** cargo rack 7E (128 t) · 3× collector
+limpet controller 3A · prospector limpet controller 1A · refinery 2A · 2× fixed mining laser 2D ·
+DSS 1I (unengineered) · shield 6A · thrusters 6A · power plant **6C** · distributor 6A · fuel scoop 4A ·
+sensors 5D · life support 5D · armour grade 1. It also carries 1× large gimballed beam laser, 1× large
+gimballed multi-cannon, chaff, ECM and 2× shield booster — more armed than the earlier sheet said.
+**No engineering on any module.**
 
-Eventually replaced by the Type-11 Prospector. Keep for now.
+**FSD 5E → 5A: done 18 Sept, 12:38 UTC (journal-verified, ShipID 10, unengineered)** — the "FSD 5A on
+the Clipper" item from the old Immediate list. The combat Clipper already had its own (§2.2).
+
+*Was to be replaced by the Type-11 Prospector — shelved 19 Sept by the Gutamaya-only rule (§3, rule
+6); this hull is now the mining hull for the foreseeable future.*
 
 ### 2.4 Type-9 Heavy — `ON-16T`
 
 **758 t cargo · 26.49 ly · total value 130.7M CR · hull 76.5M**
 
-Fully outfitted. **This was the CG ship** — CG 859 closed 18 Sept (§4), so the Type-9 is off active CG duty. Consider an FSD (SCO), class 6, next time it's in for outfitting.
+Fully outfitted. **This was the CG ship** — CG 859 closed 18 Sept (§4), so the Type-9 is off active CG duty. **SLEF fit, 19 Sept** (`MA-16T`, ShipID 11): FSD 6B engineered *Increased Range* g5 + *Deep Charge* · power plant 6A · thrusters 6A · distributor 6A · shield 5A · sensors 4E · 3 medium + 2 small gimballed weapons · armour grade 1. Lakon hull — **stored, not flown, from 19 Sept** (§3, rule 6). An SCO FSD is no longer a priority.
 
 **Current location (18 Sept, journal-verified): home at Medupe City.** `ShipyardTransfer` from Ega
 (Metz Enterprise) to Medupe City — 200.5 ly, 1,599,783 CR, ~38 min transfer, completed the same
@@ -97,7 +138,17 @@ have sat docked at the same station together this campaign.
 2. **Engineered modules keep their engineering on transfer** — they only lose it on sale.
 3. **One ship, two FSDs:** one long-range engineered, one SCO. Swap in minutes at the hangar.
 4. **No new hull purchases before ~500M CR.**
-5. Target fleet: Mandalay (exploration/exobiology) · Type-9 (cargo, colonisation) · Type-11 + Rhino (mining) · combat Clipper (merits).
+5. ~~Target fleet: Mandalay (exploration/exobiology) · Type-9 (cargo, colonisation) · Type-11 + Rhino
+   (mining) · combat Clipper (merits).~~ **Superseded 19 Sept by rule 6.**
+6. **Gutamaya only (decided 19 Sept 2026).** She flies Gutamaya hulls exclusively — Imperial Eagle /
+   Courier / Clipper / Cutter, Gutamaya Corsair. Non-Gutamaya hulls (Asp, Type-9) are **stored, not
+   sold** (rule 1). She works mainly for Aisling Duval; the exception is trips to farm G5
+   materials/data/components to engineer the Gutamaya fleet. Consequences: Type-11 + Rhino and
+   Mandalay are shelved as *her* hulls (no Gutamaya hull carries a Rhino) — **one story exception,
+   decided 19 Sept:** for missions that need surface mining, a Type-11 + Rhino may enter the fleet as
+   *someone else's ship, on loan* (`Guidelines.md`, Ch. III); some missions will be hard until each
+   hull is properly engineered — that is intended. Story reason: `Guidelines.md`, Through-Line,
+   Ch. III. Fleet plan and engineering work order: §13.
 
 ---
 
@@ -261,6 +312,54 @@ Inara sync at the end of this file), but directionally:
 
 ---
 
+## 4b. SESSION LOG — AISLING'S FIVE GATING MISSIONS (18 Sept, journal-verified)
+
+Source: journal files of 18 Sept, 10:26–19:57 UTC (all times below UTC). **Result: Powerplay Rank
+0 → 5, merits 0 → 16,424** — the `PowerplayRank` event (Rank 5) fired at 19:47:50, seconds after the
+fifth mission paid out. Merits had been accruing the whole day while the rank stayed 0 (5,708 by
+12:02, 9,401 by 14:07, 13,117 by 19:30), then posted at once: the §7 gating works exactly as
+documented. Per-mission merit awards below are the round-number jumps in `PowerplayMerits`.
+
+| # | Mission | Where | Ship | Merits | Notes |
+|---|---|---|---|---|---|
+| 1 | Rare material → unexploited system | **Karsuki Ti** (West Market: 18× Karsuki Locusts @ 915 CR, 10:37) → **HIP 7311** (Fan Base, unoccupied, 10:49) | Asp | +3,600 | Clean. |
+| 2 | Ship scans, reinforcement | **HIP 3254** (Aisling Stronghold, heavy undermining) — nav beacon scan 11:18 | combat Clipper (ID 2) | +2,000 | First visit 11:12–11:24 (scan done). Second visit 14:20 after the refit below: shields dropped 14:23, hull 79.9% at 14:25 (`HullDamage`), shields back 14:26, jumped home 14:26. Pirates thick around the beacon. |
+| 3 | Aisling Programme → undermine an exploited system | **Vargerson** (Browncoat Refuge; exploited by *A. Lavigny-Duval* + Aisling) — 15× `aislingpromotionalmaterials` collected at Cubeo 12:03, delivered 12:21 | combat Clipper (ID 2) | +3,600 | Route out via Ehlanda / Gliese 54.3 / Tehuenef, back via HIP 6616 / Kaukamal / Hernovacle. Easy. Note the irony: ALD is a ZYADA ally on paper (`Galaxy Chronicles.md`), yet this mission undermines her hold. |
+| 4 | Rescue — wreckage / black boxes | **Lambda Hydri** (Hansteen Depot, pop. 2,490, exploited) | Clipper (first pass, 18:01) → **Asp** (from 18:38) | +2,800 | See mechanics below. Three more runs after the first hand-in. |
+| 5 | Bounty hunting, reinforced system | **Chinovane** (pop. 2,133, exploited) — nav beacon, 19:42–19:48 | combat Clipper (ID 2) | +3,200 | Easier than expected; wanted pilots found by scanning at the beacon. Rank 5 posts here. |
+
+**Rescue mission — how it actually works (no in-game briefing says this plainly):**
+- There is **no mission board entry** — not from minor factions, not from the Imperial contact. It is
+  wreckage collected in space and handed in.
+- Go to a system **exploited by Aisling** where other Powers are more likely to contest it; use the
+  **FSS** to find signal sources of Power-ship wreckage there.
+- Recover the items with **collector limpets**; take care with **black boxes** — the authorities
+  jump in quickly to check on arrivals.
+- **Hand-in must be to the Imperial contact in the same system** where the items were found. Hansteen
+  Depot has **no large pad**: the Clipper (large) cannot dock, so the Asp is the right hull for this
+  job. Fitted for it 18:32–18:35 (collector limpet controller 3A, §2.1).
+- Solved by watching other players' videos; worth keeping this paragraph so it isn't rediscovered.
+
+**Combat Clipper refit between the two HIP 3254 visits (§2.2):** multi-cannon turrets, chaff and a
+module reinforcement went in at 12:06–12:11, after the first visit. The journal logs no damage on
+that first visit; the only `HullDamage` is on the second (see the discrepancies just below).
+
+**Discrepancies between the session notes and the journal — all settled 19 Sept:**
+- *"Lambda Hybris"* was a typo for **Lambda Hydri** (confirmed).
+- The journal's order stands (confirmed): **scans first** (11:18, +2,000 merits), refit second
+  (12:06–12:11), the only logged combat damage on the **second** HIP 3254 visit (79.9% hull at the
+  logged hit, not the remembered 66% — `HullDamage` logs the first hit, not necessarily the worst).
+  The session notes were written quickly; the Inara/journal record is authoritative.
+- Burst lasers were never fitted, and the combat Clipper's FSD 5A predates 18 Sept: see §2.2.
+
+**Raw material for future `Logbook.md` days** (real play, not yet drafted): falling out of power in
+the combat Clipper during a pirate engagement — the "what it cost me" of a bad power-distribution
+policy; the Clipper's speed as the escape; wreckage and black boxes recovered from other pilots'
+dead ships, handed to a stranger on a pad the Clipper wouldn't fit; a second, easier bounty run
+that ends with the rank arriving unannounced.
+
+---
+
 ## 5. THE SETTING — CUBEO
 
 Imperial system, **10.02 billion inhabitants**, agriculture/industry economy, Patronage government, controlling faction **Prismatic Imperium**, high security, **scoopable class F** star. Powerplay HQ of Aisling Duval.
@@ -306,6 +405,8 @@ Everything fits in a single station. No need to leave Cubeo before Chapter II.
 
 - Reinstate allegiance from any station.
 - **The 5 initial missions are gating**: rank 0 until they're done, even with merits already accumulated.
+  **Confirmed in play, 18 Sept:** all five done (§4b) — rank jumped 0 → 5 on completion of the fifth,
+  with 16,424 merits banked by then.
 - Merits earned through almost any activity in ducal territory. Progress is **cumulative, never lost**. 100 ranks.
 - All Powers grant access to the same 12 modules; only the unlock order differs. Aisling unlocks the **Prismatic Shield Generator** first.
 - **Aisling's perks: +200% Search & Rescue payouts and +100% minor faction reputation gain, within ducal territory.**
@@ -359,19 +460,21 @@ Three ship-side stocks: **raw** · **manufactured** · **encoded**. Plus, separa
 - [x] Swap to the Asp at Ega, fly it back to Cubeo, regroup the whole fleet at Medupe City (§2.4, §4)
 - [x] Strip the Asp's weapons + shield boosters, fit heat sink launchers ×4 (§2.1)
 
-**Immediate — still open**
-- [ ] FSD 5A on the combat Clipper — still the best value-for-money upgrade in the fleet (§2.2)
-- [ ] Check power priorities on the Asp — thrusters flagged `enabled: false` in the export (§2.1)
+**Immediate — updated 19 Sept**
+- [x] FSD 5A on a Clipper — **done on the mining Clipper**, 18 Sept 12:38 UTC (§2.3). The combat
+      Clipper already had an engineered 5A (Faster Boot g5) — the old "critical issue" was stale (§2.2)
+- [x] Check power priorities on the Asp — no problem observed, closed (§2.1)
+- [ ] **Power distribution policy on the combat Clipper** — lost power mid-fight at HIP 3254 (§4b).
+      Review the priority groups (weapons/shields/thrusters/FSD) before the next combat sortie
 
 **Short term — the "first steps back" arc**
 
 Treasury clears Ground Rule 4 many times over (§3) — nothing below is money-gated. Sequenced,
 roughly one block per session:
 
-1. [ ] **Reinstate Aisling Duval allegiance** (any station — already home at Medupe City) and run the
-       **5 gating missions** (§7). Powerplay has sat at Rank 0 / 0 merits for ~8.7 days pledged
-       (journal-verified, 18 Sept, §1) purely because these haven't been run yet — pure upside, no
-       new risk.
+1. [x] **Reinstate Aisling Duval allegiance** and run the **5 gating missions** (§7) — **done 18
+       Sept**: Rank 5, 16,424 merits (journal-verified, §4b). The allegiance never needed
+       reinstating — it had never lapsed.
 2. [ ] **First on-foot excursion** — one **abandoned-settlement reactivation** mission, on one of
        Cubeo's 4 Odyssey settlements (§9 step 1: zero NPCs, zero alarms, lowest possible risk).
        First boots on the ground since the coma; a natural low-stakes way to "find the reflexes
@@ -379,7 +482,8 @@ roughly one block per session:
 3. [ ] Follow up with a **data recovery** mission at a powered-down site (§9 step 2), same or a
        second settlement — banks Profile Analyser clones and on-foot materials without combat risk,
        and starts the engineering material stockpile (§10).
-4. [ ] Finish the rest of the Asp refit (§2.1): FSD/thrusters/power plant to grade 5, fit an AFMU.
+4. [ ] ~~Finish the rest of the Asp refit (§2.1)~~ — **superseded 19 Sept**: the Asp is stored under
+       rule 6 (§3). Engineering effort goes to the Gutamaya hulls instead (§13).
 5. [ ] Push reputation with one Imperial faction in a dense system to **Allied** (Aisling's +100%
        rep-gain perk applies in ducal territory, §7) — this is what makes Imperial Navy missions
        start appearing on the board (§8).
@@ -389,12 +493,13 @@ roughly one block per session:
       *active* settlement (§9 step 3) — the first real on-foot risk taken, deliberately not before
       confidence is re-established.
 - [ ] Unlock the **Prismatic Shield Generator** — Aisling's first Power module (§7)
-- [ ] Farseer (Deciat): FSD grade 4 → grade 5 on the Asp (§2.1, §10)
-- [ ] Vatermann / Qwent visits (shields, power plant) once material stock allows (§10)
-- [ ] **Type-11 Prospector** (67.86M CR) + Rhino — retires the aging mining Clipper (§2.3); first new
-      hull purchase of the campaign, easily affordable now
+- [ ] Farseer (Deciat): FSD grade 4 → grade 5 — was the Asp's; now retargeted at a Gutamaya hull (§13)
+- [ ] Vatermann / Qwent visits (shields, power plant) once material stock allows (§10, §13)
+- [ ] ~~**Type-11 Prospector** (67.86M CR) + Rhino~~ — **shelved 19 Sept** (rule 6, §3) *except as a loaned hull, when a mission needs a Rhino*. First new hull
+      purchase is now a Gutamaya one: Courier or Corsair (§13)
 - [ ] Stack Imperial Navy missions toward **Count → Earl → Marquis → Duke** (§8)
-- [ ] **Mandalay** (migrate the grade-5 DSS and the FSD once acquired)
+- [ ] ~~**Mandalay** (migrate the grade-5 DSS and the FSD once acquired)~~ — **shelved 19 Sept**
+      (rule 6); the DSS and FSD migrate to a Gutamaya hull instead (§13)
 - [ ] **Guardian FSD Booster** once the FSD is grade 5 — target 55+ ly (§2.1)
 - [ ] **Duke rank → Imperial Cutter** (§8)
 
@@ -426,7 +531,53 @@ Through-Line Ch. VIII) — neither is a live trigger yet. Plot a wide berth arou
 
 ---
 
-*Last updated: 18 September 2026. To be completed session by session.*
+---
+
+## 13. THE GUTAMAYA PROGRAMME (rule 6, decided 19 Sept 2026)
+
+Technical plan only — the story reason lives in `Guidelines.md`, Through-Line, Ch. III. **Hull specs
+and rank gates below are from memory and unverified — check Coriolis/EDSY and the in-game shipyard
+before buying anything.**
+
+| Role | Hull | Status | Note |
+|---|---|---|---|
+| Combat / merits | Imperial Clipper `MA-10E` | owned | FSD engineered, everything else stock (§2.2) |
+| Mining | Imperial Clipper `MA-04E` | owned | nothing engineered (§2.3); no Rhino on any Gutamaya hull |
+| On-foot settlement work (taxi and escape) / piracy | Imperial Courier | to buy | revised 19 Sept: its edge is **speed, boost and the best base shields of any small ship** — settlement-hopping and a fast getaway when a site turns hostile — *not* stealth. Land >1 km away (§9 step 4); the ship is the exit, not the infiltration tool. Web sources; unverified in-game |
+| Multi-role / trading / medium-pad jobs | Gutamaya Corsair | to buy | the §8 stepping stone; would also cover the Lambda Hydri-type jobs the Asp did |
+| Heavy bounty hunting ("tank") | Imperial Cutter | **needs Duke** (§8) | Tonton Marcel's build: flight assist off, flipping, beam turrets + corrosive-shell multi-cannons |
+| Long-range exploration + exobiology | Gutamaya Corsair (revised 19 Sept — was "Courier, for steep terrain") | to buy | Stratum Tectonicas-type species live on **flat ground** (thin CO₂/NH₃/SO₂ atmosphere, ≥165 K, up to ~0.6 g), so the Courier's steep-terrain agility isn't needed. Web sources: many internal slots (one each size 1–4, three each of 5 and 6), SCO-optimised, community exploration builds reported around 50 ly with a Guardian booster — **unverified in-game**, and the rank gate still unchecked |
+
+**Stored, not sold:** Asp (grade-5 DSS and grade-4 FSD to migrate) · Type-9.
+
+**Courier as a long-range hull — research, 19 Sept (web sources, not checked in-game):** a heavily
+engineered Courier is reported at about **45.5 ly**; 50 ly would need everything at once. Levers:
+FSD engineering (*Increased Range* g5, Deep Charge-type experimental), stripping weight, and a
+**Guardian FSD Booster** — a *flat* bonus by size (about +10 ly at class 5), so it helps small hulls
+most, but is limited by the Courier's largest optional slot. Unlocking it means a long Guardian-site
+materials grind at a Guardian Tech Broker. The real limit is **optional slots**: fuel scoop (needed for
+neutron supercharging) + booster + AFMU leaves little else. **Neutron stars:** supercharging
+multiplies the *next* jump range by 4 (capped by the FSD's max fuel per jump) at about 1% module
+damage per jet; an AFMU is standard kit — repair before integrity falls under ~90%. Before committing,
+build it in Coriolis/EDSY and read the real slot sizes.
+
+**Decision, 19 Sept (Tonton Marcel): long jumps and exobiology go to a larger Gutamaya hull, most
+likely the Corsair** (its slot count answers the scoop + booster + AFMU squeeze above); the Courier
+stays a specialist for infiltration and piracy, with neutron-boosted range as a bonus.
+
+**Engineering work order (from the 19 Sept SLEF exports):** the only engineered modules across the
+four hulls are the two Lakon FSDs, the Asp's DSS/power plant/thrusters (g1), and the combat Clipper's
+FSD. Both Clippers have stock weapons, shields, distributors and thrusters. Order of work, per §10's
+engineer list: FSD range (Farseer) → shields and power plant (Vatermann, Qwent) → weapons
+(McQuinn/Nemo) → thrusters/distributor. Blueprints per hull to be fixed once each role is settled;
+this is the "side roadmap" of material farming and engineer visits that gives Ch. IV its shape.
+
+**Open:** whether a farming trip may use a non-Gutamaya hull (e.g. mining) or only a non-Aisling
+employer. Default until decided: the exception covers *who she works for*, not what she flies.
+
+---
+
+*Last updated: 19 September 2026 (journal of 18 Sept read through 19:57 UTC; Inara SLEF exports of all four hulls, 19 Sept). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
 Developments\Elite Dangerous\`) on this machine as you play — plain JSON-lines, one event per
