@@ -263,7 +263,7 @@ have to enjoy being reminded he's the one holding the leash tonight.
 
 ## Day 4 — 14 September 3312
 
-Back at the bar and I couldn't make myself order the tea. Told the bartender water instead. He
+Back at the bar for breakfast and I couldn't make myself order the tea. Told the bartender water instead. He
 didn't react, which I've decided means he notices everything and shows none of it — a talent that
 seems to be common to everyone who's looked after me since I woke up.
 
@@ -274,8 +274,8 @@ The wall behind the bar runs Galnet on a loop, sound down, captions crawling. I 
 watching until a name caught — Metz Enterprise, a system called Ega, a community goal for
 materials I could buy on any half-decent market and resell for three times the going rate at the
 collection point. Top brackets paying out in the hundreds of millions. A livery for a rover called
-a Rhino that apparently didn't exist four years ago. A tiered structure, easy to read even
-distracted: put in enough, get paid well; put in a little, get paid a little; don't show up, get
+a Rhino, newly released by Vodel. A tiered structure, easy to read even
+distracted: put in enough, get paid well; put nothing, get
 nothing.
 
 Two hundred light-years. I did the math before I'd finished the thought — four jumps in the Asp if
@@ -287,34 +287,30 @@ reading the same board I just read. That's not a reason not to go. That's the wh
 being honest with this page the way I apparently agreed to be. Adventure doesn't come pre-screened
 for risk. It never did, whoever I was.
 
-Take care of yourself, too, though. I don't know who I'm quoting when I think that. Possibly no
-one. Possibly it's advice I never once followed, and I'm handing it to myself now because there's
-finally someone around to receive it.
-
-I went to the hangar without telling him. He was at the far end with his back to the door,
+I went to the hangar without telling Sam. He was at the far end with his back to the door,
 elbow-deep in something on the Clipper, and I let myself believe he hadn't seen me. Ran the same
 checks he'd walked me through the day before, lifted clean, and lined the Asp up for Ega on my own
 for the first time since the accident.
 
 Halfway to the first jump, a message came through the console. *Good luck out there. Bring back
-something worth the trip. — Roskam.*
+something worth the trip. — Sam.*
 
 I hadn't told him where I was going.
 
 I sat with that longer than the jump countdown gave me, then let the FSD take the thought away
 with everything else.
 
-Metz Enterprise, once I'd signed on to the goal, meant a real cargo hauler — the Asp holds nothing
-worth the fuel to carry it. I paid to have the Type-9 flown out from Cubeo, a serious chunk of
-change for the privilege, money I apparently still have plenty of, and the CG should more than
-cover regardless. While it made its own way across two hundred light-years without me, I sat in
-Ega with nothing to do but notice things.
+---
+
+Metz Enterprise. I signed on to the goal,  paid for my Type-9 flown out from Cubeo, a serious chunk of
+change for the privilege, money I apparently still have plenty of. I sat in
+Ega with nothing to do but notice things while the Type-9 wanders through the stars.
 
 The first thing I noticed was the tag on my own ship. **Hostile.**
 
 Not wanted. Not a bounty, not a bond I could find, not a faction I remember ever crossing.
-Hostile, flat and unearned, the way you'd flag a threat rather than a debtor. I've never been to
-this system. I checked. As far as any record I can reach says, I have never been to this system.
+Hostile, flat and unearned. I've never been to
+this system. I checked.
 
 Something old and familiar sat up in my chest while I waited — the kind of unease that arrives
 before any reason for it does, cold hands on a warm concourse, a pulse that won't slow for a
@@ -323,11 +319,6 @@ recognise the shape of it even without a name for it.
 
 There's a personal file logged somewhere in this ship's memory. Mine, apparently, from before. I
 hadn't opened it once since I got my legs back under me.
-
-I'm going to open it now, while the Type-9 finishes its crossing.
-
-I don't know yet if that's a good idea. I'm writing it down anyway. I gather that's also the
-point.
 
 It wasn't what I braced for.
 
@@ -342,9 +333,7 @@ and dated and entirely correct, about a woman I have to take the system's word f
 warning. Just paperwork, and the strange, deflating relief of paperwork — proof that whatever I
 was doing before Ega, I was doing it well enough for someone to keep count.
 
-The Type-9 dropped out of supercruise twenty minutes later. I closed the file and went to meet it,
-because there's only so long you can sit with your own inventory before it starts reading like an
-obituary with the death date left blank.
+The Type-9 dropped out of supercruise in the end of the afternoon. I closed the file and went to meet it.
 
 ## Day 5 — 15 September 3312
 
@@ -352,10 +341,10 @@ Metz Enterprise doesn't know who I am, and that turned out to be the best thing 
 me all week.
 
 Nobody here holds a door for a Viscountess. Nobody's face does the three-weather thing Cubeo's
-does. Not one of them does the double-take my own eyes usually earn back home — too pale, too
-strange for the face they're set in, the kind of thing Cubeo never lets me forget I'm wearing.
-Here, it's just a colour. Nobody's cross-referencing it against a memory of who I used to be. I'm
-just another hauler at the market terminal, queueing behind CMDRs from a dozen systems I've never
+does. Not one of them does the double-take my own eyes usually earn back home.
+Here, it's just a colour. Nobody's cross-referencing it against a memory of who I used to be. 
+
+I'm just another hauler at the market terminal, queueing behind CMDRs from a dozen systems I've never
 heard of, all of us talking the same shorthand — margins, tonnage, which faction's paying above
 the going rate this cycle. Traders swear more than pilots I remember; one told me my rig's paint
 job looked like it lost a fight with a Corvette, and meant it as a compliment. Someone else,
@@ -365,39 +354,41 @@ had to explain myself to.
 
 I even found myself repeating something off the Galnet ticker to a table of strangers — pirates
 apparently shadowing prison transports two systems over, no attacks yet, just watching — and for
-once people leaned in instead of stepping back. Strange, what passes for conversation currency out
-here.
+once people leaned in instead of stepping back.
 
 A knot of them were arguing Federation politics over the bar feed — something about Winters and
 the Accords, a coalition somewhere weaponising a flower, of all things. A couple were furious on
 her behalf, properly furious, the kind that comes from actually being Federal rather than just
 liking the news. I didn't say which way I lean. I'm not sure this is a room that wants to know, and
 every allegiance I still carry — however unpaid it's been — points the wrong direction for the
-conversation. I listened. I traded Gold, apparently having strong feelings about tonnage but none
-I was willing to name out loud about the Federation.
+conversation. I listened. I'm here to trade Gold.
 
-Nothing here scared me. That's worth writing down on its own — four days back and this is the
-first one where my hands didn't check for a threat that wasn't there. Reflexes came back instead,
-the useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
+
+## Day 6 — 16 September 3312
+
+Nothing here scared me. Reflexes came back instead on the second day.
+The useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
 before he'd committed, more embarrassing for him than dangerous for me. A second one wasn't a
 joke — a name with a bounty attached, and threading a fully loaded Type-9 clear of him took real
 work, the kind that leaves your palms damp after.
 
-I'm tired in a way sleep doesn't seem to fix yet. Doesn't stop me loading another 758 tonnes of
-Gold before I let myself admit it.
+I'm tired in a way sleep doesn't seem to fix yet, but I can't stop me loading another 758 tonnes of
+Gold, and again, and again.
 
-## Day 6 — 16 September 3312
+Radio Sidewinder in one ear, the market ticker in the other, and for hours nothing
+happened worth writing, which might be the nicest sentence I've put in this book yet. 
 
-Radio Sidewinder in one ear, the market ticker in the other, and for the first two hours nothing
-happened worth writing, which might be the nicest sentence I've put in this book yet. I traded. I
-made real money doing it — the kind of number that doesn't come from luck, only from having done
-this exact thing ten thousand times before whatever wiped the memory of the first nine thousand
-nine hundred.
+I traded. 
 
-Three days had already dried Hannah Station, then Zolloz City, then Sukarno Horizons — good
-markets, thin now, the gold gone the way gold goes when everyone reads the same board I did. I was
-tired in the way that makes you careless about being tired, still hunting a fourth run instead of
-calling it, when the terminal turned up **Violet Ann Memorial**. A wall of gold sitting there,
+I made real money doing it — the kind of number that doesn't come from luck, only from having done
+this exact thing ten thousand times before whatever wiped the memory.
+
+Two days had already dried Hannah Station, then Zolloz City, then Sukarno Horizons — good
+markets, thin now, the gold gone the way gold goes when everyone reads the same board I did. 
+
+I became
+tired in the way that makes you careless about being tired, still hunting another run instead of
+calling it a day, when the terminal turned up **Violet Ann Memorial**. A wall of gold sitting there,
 untouched. One more. Last one. I told myself that like I believed it.
 
 Violet. The colour came up before the thought did — a flash of the same bruise-purple shadow I
