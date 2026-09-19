@@ -304,7 +304,7 @@ with everything else.
 
 Metz Enterprise. I signed on to the goal,  paid for my Type-9 flown out from Cubeo, a serious chunk of
 change for the privilege, money I apparently still have plenty of. I sat in
-Ega with nothing to do but notice things while the Type-9 wanders through the stars.
+the Asp with nothing to do but notice things while the Type-9 wanders through the stars.
 
 The first thing I noticed was the tag on my own ship. **Hostile.**
 
@@ -341,7 +341,7 @@ Metz Enterprise doesn't know who I am, and that turned out to be the best thing 
 me all week.
 
 Nobody here holds a door for a Viscountess. Nobody's face does the three-weather thing Cubeo's
-does. Not one of them does the double-take my own eyes usually earn back home.
+does. Not one of them does the double-take my own too pale eyes usually earn back home.
 Here, it's just a colour. Nobody's cross-referencing it against a memory of who I used to be. 
 
 I'm just another hauler at the market terminal, queueing behind CMDRs from a dozen systems I've never
@@ -363,6 +363,8 @@ liking the news. I didn't say which way I lean. I'm not sure this is a room that
 every allegiance I still carry — however unpaid it's been — points the wrong direction for the
 conversation. I listened. I'm here to trade Gold.
 
+## Day 6 — 16 September 3312
+
 Nothing here scared me. Reflexes came back instead, the useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
 before he'd committed, more embarrassing for him than dangerous for me. A second one wasn't a
 joke — a name with a bounty attached, and threading a fully loaded Type-9 clear of him took real
@@ -379,7 +381,7 @@ I traded.
 I made real money doing it — the kind of number that doesn't come from luck, only from having done
 this exact thing ten thousand times before whatever wiped the memory.
 
-## Day 6 — 16 September 3312
+## Day 7 — 17 September 3312
 
 Two days had already dried Hannah Station, then Zolloz City, then Sukarno Horizons — good
 markets, thin now, the gold gone the way gold goes when everyone reads the same board I did. 
