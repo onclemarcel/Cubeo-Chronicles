@@ -255,19 +255,11 @@ me before, as far as I remember - which isn't far, I must admit. I didn't say an
 He knows I fly like the ground doesn't apply to me. It's probably why we get along. Doesn't mean I
 have to enjoy being reminded he's the one holding the leash tonight.
 
----
-
-# CHAPTER II — THE EGA CONVOY
-
-> *"There were seven thousand of us and I spoke to no one. It was exactly what I needed."*
-
-## Day 4 — 14 September 3312
-
-Back at the bar for breakfast and I couldn't make myself order the tea. Told the bartender water instead. He
+Back at the bar for a rest and I couldn't make myself order the tea. Told the bartender water instead. He
 didn't react, which I've decided means he notices everything and shows none of it — a talent that
 seems to be common to everyone who's looked after me since I woke up.
 
-Three days of this and it was starting to feel less like recovery and more like a very comfortable
+Two days of this and it was starting to feel less like recovery and more like a very comfortable
 cage.
 
 The wall behind the bar runs Galnet on a loop, sound down, captions crawling. I wasn't really
@@ -287,7 +279,7 @@ reading the same board I just read. That's not a reason not to go. That's the wh
 being honest with this page the way I apparently agreed to be. Adventure doesn't come pre-screened
 for risk. It never did, whoever I was.
 
-I went to the hangar without telling Sam. He was at the far end with his back to the door,
+I went back to the hangar without telling Sam. He was at the far end with his back to the door,
 elbow-deep in something on the Clipper, and I let myself believe he hadn't seen me. Ran the same
 checks he'd walked me through the day before, lifted clean, and lined the Asp up for Ega on my own
 for the first time since the accident.
@@ -301,6 +293,12 @@ I sat with that longer than the jump countdown gave me, then let the FSD take th
 with everything else.
 
 ---
+
+# CHAPTER II — THE EGA CONVOY
+
+> *"There were seven thousand of us and I spoke to no one. It was exactly what I needed."*
+
+## Day 4 — 14 September 3312
 
 Metz Enterprise. I signed on to the goal,  paid for my Type-9 flown out from Cubeo, a serious chunk of
 change for the privilege, money I apparently still have plenty of. I sat in
@@ -363,11 +361,7 @@ liking the news. I didn't say which way I lean. I'm not sure this is a room that
 every allegiance I still carry — however unpaid it's been — points the wrong direction for the
 conversation. I listened. I'm here to trade Gold.
 
-
-## Day 6 — 16 September 3312
-
-Nothing here scared me. Reflexes came back instead on the second day.
-The useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
+Nothing here scared me. Reflexes came back instead, the useful kind: I clocked a pirate before he'd finished his interdiction vector and shook him off
 before he'd committed, more embarrassing for him than dangerous for me. A second one wasn't a
 joke — a name with a bounty attached, and threading a fully loaded Type-9 clear of him took real
 work, the kind that leaves your palms damp after.
@@ -382,6 +376,8 @@ I traded.
 
 I made real money doing it — the kind of number that doesn't come from luck, only from having done
 this exact thing ten thousand times before whatever wiped the memory.
+
+## Day 6 — 16 September 3312
 
 Two days had already dried Hannah Station, then Zolloz City, then Sukarno Horizons — good
 markets, thin now, the gold gone the way gold goes when everyone reads the same board I did. 
