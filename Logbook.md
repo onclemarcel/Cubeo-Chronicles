@@ -232,16 +232,16 @@ I looked at them again on the way out. Still didn't like the answer.
 
 ## Day 3 — 13 September 3312
 
-No simulator. He walked me to the Asp, ran a check I half followed, told me to fly.
+No simulator. Sam walked me to the Asp, ran a check I half followed, told me to fly.
 
 I came out of the docking slot too fast and put my canopy nose-to-nose with a Panther Clipper Mk
 II I'd never seen in my life — hauled clear with room to spare, technically, thermal shields
 screaming, my shoulder lighting up like an old debt called in. A very calm voice fined me for it.
 I didn't argue. I clearly earned it.
 
-Sam - *Roskam ?* - said nothing for a minute. Then, dry: *"Welcome back."*
+Sam - *wait...Roskam ?* - said nothing for a minute. Then, dry: *"Welcome back."*
 
-I tried a joke about setting down at Roskam Enterprise, *"the family seat"* I said with a smile I hoped was convincing enough. He laughed too fast and had us
+The memory of the sewn label on his jacket made me try a joke about setting down at Roskam Enterprise - Cubeo, *"the family seat"* I said with a smile I hoped was convincing enough. He laughed too fast and had us
 diverting before I'd finished the sentence. I noticed the seam and let it go — I've got enough
 mysteries this week.
 
@@ -250,12 +250,14 @@ heavier than the dust under my boots.
 
 Coming back in, old habit reached for the flight-assist toggle. Dead. He'd locked it from his side
 before we ever left the pad. I was angrier about that than the moment deserved — he's never restrained
-me before, as far as I remember - which isn't far, I must admit. I didn't say any of it out loud.
+me before, as far as I remember, which isn't far, I must admit. I didn't say any of it out loud.
 
 He knows I fly like the ground doesn't apply to me. It's probably why we get along. Doesn't mean I
 have to enjoy being reminded he's the one holding the leash tonight.
 
-Back at the bar for a rest and I couldn't make myself order the tea. Told the bartender water instead. He
+---
+
+Back at the Medupe City bar for a rest and I couldn't make myself order the tea. Told the bartender water instead. He
 didn't react, which I've decided means he notices everything and shows none of it — a talent that
 seems to be common to everyone who's looked after me since I woke up.
 
