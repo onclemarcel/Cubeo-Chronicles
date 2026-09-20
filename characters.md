@@ -1,4 +1,4 @@
-# CHARACTER SHEETS
+²# CHARACTER SHEETS
 ## Chronicles of Cubeo — working document
 
 > This file is **alive**. Every sheet contradicts itself over time: that's normal, and it's even
@@ -77,15 +77,26 @@ people's mouths again. It's the rest of what should attach to a name — a child
 reason for the surname she doesn't use — that the accident took and kept. Known across the galaxy
 by a **man's surname** instead, inherited from the nickname the mechanic gave her. Viscountess of
 the Empire — a real title, zero influence. Origin: **LHS 3447**, the departure system. No family
-she remembers; possibly no family at all.
+she remembers; possibly no family at all. 
 
-Her Inara-equivalent standing shows her still formally attached to **Aisling Duval**'s Power — not
+She is formally attached to **Aisling Duval**'s Power — not
 lapsed, not reinstated-from-scratch as she'd assumed, simply *continuing*, as if someone kept the
 paperwork current while she wasn't there to. Whether that explains why certain people, in certain
 systems, read her ship as hostile on sight before she's done anything at all — that's a question
 for later, not for her to ask out loud yet.
 
+### From the writer's perspective
+
+The Viscountess is a cyborg created in 3305 in Roskam Enterprise, 3 years before the 'accident'. She's part of a secret program from Aisling council to build advanced cyborgs to undermine adverse powers, through reckless missions for her. 
+
+Built and trained by Al Kurdi, Marcella exceeds her specifications and integrates human world with perfection, she even develops human-like cognitive perks, to such a point that Al Kurdi is mesmerised by her own product. 
+
+She's trained as pilot and for on-ground missions.  
+
 ## 2. Physical
+
+### Reader's / Character's perspective
+
 Short curly hair, greying at the temples. Mixed-race skin. **Pale eyes — turquoise-grey, too
 light for that face** — the detail people remembered, and the one that makes her impossible to
 forget even though she's forgotten everything. Away from Cubeo, where no one has a memory of her
@@ -93,21 +104,35 @@ to check it against, they read as just a colour, nothing more — the effect dep
 someone already knowing which face they're supposed to belong to. A frankly feminine build under a
 man's name.
 
+### Writer's perspective
+
+Al kurdi modified the android after the accident by changing the eyes, a proper way to scan people on ground, so she's got a completely new identity from a biological perspective.
+
+Marcella's physical characteristics are good-looking for many humans, so entries into any place is usually easy, except for those where she is expected by foes...
+
 ## 3. The tic
-**Her left thumb, reaching for the flight assist toggle.** Before the decision, before the
-thought. It moves even when she's not at the controls — at the bar, walking. She doesn't notice.
-The mechanic does.
+
+*unsure about the tic*
 
 ## 4. Psyche
-- **Drive:** adventure, the outside, whatever doesn't have a name yet.
-- **Central fear:** attachment. Not death — attachment.
+
+### Reader's / Character's perspective
+
+- **Drive:** adventure, the outside, idealistic with Aisling's ideas on abolition and human rights.
+- **Central fear:** attachment to people. 
 - **The lie she tells herself:** that she's alone because she prefers it that way.
-- **Wants:** to leave again.
-- **Needs:** to know who sent her to die. And to let someone get close.
+- **Wants:** to be on missions again.
+- **Needs:** through the story, to understand weird feelings and observations since she woke up. to know who sent her to die. And to let someone get close while being independant.
 - **A standing trait, not a one-off:** she's receptive to signs and icons before she's receptive to
   facts — colours, shapes, insignia on a wall register on her before whatever they're attached to
   does (see the prologue's eagle vision, and its recurrences in `Guidelines.md`, Recurring Motifs).
   She doesn't name this in herself; the reader should notice the pattern before she does.
+
+### Writer's perspective
+
+She's trained for Aisling's mission and main purpose.
+She's learning quickly human beings behaviour and mix easily, helped by Al Kurdi pushing her in this way.
+Over time, she realises that her algorithms are almost all driven to resol
 
 ## 5. Upbringing and background
 Self-taught pilot. No aristocratic upbringing whatsoever: she's **shunned Imperial high society**
