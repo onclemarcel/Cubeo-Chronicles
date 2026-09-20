@@ -68,6 +68,9 @@ What this character is for. What breaks in the story if they disappear.
 # THE VISCOUNTESS
 
 ## 1. Identity
+
+### From reader's and character's perspective
+
 Legal name **Marcella Delavalette** — unlike almost everything else, this one came back on its
 own, from the first day; she's never had to relearn it, only get used to hearing it from other
 people's mouths again. It's the rest of what should attach to a name — a childhood, a home, a
