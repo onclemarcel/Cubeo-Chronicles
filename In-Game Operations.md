@@ -12,11 +12,11 @@
 | CMDR | Onclemarcel |
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
-| Trade rank | **Elite** (Trader Elite badge earned 16 Sept 2026) |
+| Trade rank | **Elite** (earned 16 Sept 2026) |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 5 / 16,424 merits** (journal-verified: the 5 gating missions were completed 18 Sept, `PowerplayRank` event 19:47:50 UTC; was Rank 0 / 0 merits at the start of the day — see §4b, §7) |
+| Power | Aisling Duval — pledged, **Rank 5 / 16,424 merits** |
 | Home port | Cubeo — Medupe City |
-| Treasury | **1,818,649,914 CR** (journal-verified, `LoadGame` 18 Sept 19:11 UTC — down ~6.2M from the 08:31 UTC figure of 1,824,833,287 after the second refit round, incl. the mining Clipper's FSD 5A; end-of-session balance not read, the game had closed and `Status.json` was empty — re-sync next session; older reconciliation in §4) |
+| Treasury | **1,818,649,914 CR** |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
