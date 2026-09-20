@@ -132,12 +132,23 @@ Marcella's physical characteristics are good-looking for many humans, so entries
 
 She's trained for Aisling's mission and main purpose.
 She's learning quickly human beings behaviour and mix easily, helped by Al Kurdi pushing her in this way.
-Over time, she realises that her algorithms are almost all driven to resol
+Over time, she realises that her algorithms are almost all driven to complex humans cognitive behavior, she's getting slow to learn the on-ground missions and escaped in 3306 to found herself a one-self human being... ironically, Al Kurdi's goal is reached since Marcella is showing a real human behaviour in her leaving, though nothing expected by Al Kurdi, and for AI reasons from Marcella's perspective... in 3312, some path again, Marcella is reset, learns better over the story, feels she's improving over time, get internal rewards for that until she finally leaves definitely again, but after having found the key people of her betrayal.
 
 ## 5. Upbringing and background
+
+### Reader's / Character's perspective
+
 Self-taught pilot. No aristocratic upbringing whatsoever: she's **shunned Imperial high society**
 her entire career. A tomboy with a coat of arms. She can repair, negotiate, lie to a customs
 officer and hold a landing approach. She can't dance, and it's never bothered her.
+
+### Writer's perspective
+
+She's programmed to know she comes from the Pilot Circle in LHS3447, and the whereabouts of the galaxy, history and key people. 
+
+She's been partially erased by Al Kurdi to forget about the betrayal, past failures and... the doctor's attempt to make her reach the ultimate love feeling that she did not quite reached as expected, but left.
+
+Memory holes are then focused on Zemina Torval, ZYADA, ennemies, Sam the Mechanics being a cyborg, and other main unravelling threads
 
 ## 6. Speech
 Dry narration. Short sentences. Refuses direct introspection: she describes what she sees rather
