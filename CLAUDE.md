@@ -59,8 +59,10 @@ Because Reviews.md and the conversation itself are not preserved, every file tha
 result of a session records *what changed and why*, dated, in its own body — this is what makes a
 future cold-start session possible at all:
 
-- `characters.md` — every sheet ends in an `## Evolution` block: `- [date] — [what changed, why]`.
-  Never overwrite a prior reading; add to it.
+- `characters.md` — every sheet ends in an `## Evolution` block: `- [date] — [what changed, why]`
+  — a short summary of the **most recent** change only, not a cumulative log. The full history of
+  a sheet lives in git (`git log -- characters.md`), not in the file. (Changed 2026-09-21 — the
+  cumulative version was cluttering the read; git already keeps the trail.)
 - `In-Game Operations.md` — dated bullets under "Actual execution (log)" / roadmap checkboxes.
 - `Logbook.md` — no changelog (it's prose), but structural changes of consequence (renumbering,
   cut paragraphs, moved scenes) are worth a one-line mention back to Tonton Marcel in the same

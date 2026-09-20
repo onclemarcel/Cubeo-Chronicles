@@ -2,19 +2,17 @@
 ## Chronicles of Cubeo — working document
 
 > This file is **alive**. Every sheet contradicts itself over time: that's normal, and it's even
-> the point. Every change gets dated at the bottom of the sheet, under *Evolution* — keep the
-> previous version, don't overwrite it. A character who hasn't changed in ten chapters is a dead
-> character.
+> the point. *Evolution*, at the bottom of each sheet, is a short, dated summary of the **latest**
+> change only — not a cumulative log. The full history of how a sheet got here lives in git
+> (`git log -- characters.md`), not in the file itself. A character who hasn't changed in ten
+> chapters is a dead character.
 >
 > **The template below is a starting point, not a checklist.** Not every character earns a tic,
 > a psyche breakdown, or all ten sections. Save the full treatment for people who recur; a
 > bartender who appears once can live on three lines. Forcing every walk-on into the full gabarit
 > flattens them all into the same shape.
 >
-> **This is 3312.** Four years is enough time for medicine, augmentation and the shape of a
-> family to have moved on without her noticing. Deepening a character can mean new technology,
-> new origins, new kinds of body as easily as new facts about the plot — see the mechanic below
-> for the current working example.
+> **This is 3312.** Android / Cyborg are mixed with humans. People travel in seconds through light-years distances between star systems. Humanity is expanding from stars to stars. Medicine and cybernetics are mixed disciplines, people may change parts of their bodies or get easily enhanced, especially military forces.
 
 ---
 
@@ -69,7 +67,7 @@ What this character is for. What breaks in the story if they disappear.
 
 ## 1. Identity
 
-### From reader's and character's perspective
+### Reader's / Character's perspective
 
 Legal name **Marcella Delavalette** — unlike almost everything else, this one came back on its
 own, from the first day; she's never had to relearn it, only get used to hearing it from other
@@ -85,13 +83,17 @@ paperwork current while she wasn't there to. Whether that explains why certain p
 systems, read her ship as hostile on sight before she's done anything at all — that's a question
 for later, not for her to ask out loud yet.
 
-### From the writer's perspective
+### Writer's perspective
 
-The Viscountess is a cyborg created in 3305 in Roskam Enterprise, 3 years before the 'accident'. She's part of a secret program from Aisling council to build advanced cyborgs to undermine adverse powers, through reckless missions for her. 
+The Viscountess is a cyborg created in 3305 in Roskam Enterprise, 3 years before the 'accident'. She's part of a secret program of Aisling council to build advanced cyborgs to undermine adverse powers, through reckless missions for her - thus explained why Aisling is so powerful in-game in PowerPlay 2.0 
 
 Built and trained by Al Kurdi, Marcella exceeds her specifications and integrates human world with perfection, she even develops human-like cognitive perks, to such a point that Al Kurdi is mesmerised by her own product. 
 
-She's trained as pilot and for on-ground missions.  
+She's trained as pilot and for on-ground missions.
+
+Regarding her Aisling's power allegiance, someone renewed it in her name knowing she was about to be discharged. Pre-3308 she was tricked and trapped in a plot she nearly unravelled *for Aisling* — the leash is on her own side. The main idea is to push her to work again for Aisling seemlessly and learn quicker/better to find her own betrayers.
+
+Along the story, Marcella starts her logbook being forced to write in it, and finishes her logbook in literary prose, she got used to it and enjoyed it after all, wanting to leave the trace of an emotional cyborg. 
 
 ## 2. Physical
 
@@ -104,25 +106,29 @@ to check it against, they read as just a colour, nothing more — the effect dep
 someone already knowing which face they're supposed to belong to. A frankly feminine build under a
 man's name.
 
+She will enventually conclude on her eyes surgery when discovering a photography of herself (pre-3308) from an old acquaintance.
+
 ### Writer's perspective
 
 Al kurdi modified the android after the accident by changing the eyes, a proper way to scan people on ground, so she's got a completely new identity from a biological perspective.
 
 Marcella's physical characteristics are good-looking for many humans, so entries into any place is usually easy, except for those where she is expected by foes...
 
+She knows how to adapt her physical language to different places, whether entering into a drawing room of the Empire or entering into a smugglers tavern in a pirate system.
+
 ## 3. The tic
 
-*unsure about the tic*
+*unsure about the tic - let's keep it for later on - maybe something about her algorithms going quicker than expected for humans (e.g. the FA off during training with Sam - old reflexes back before thinking about them)*
 
 ## 4. Psyche
 
 ### Reader's / Character's perspective
 
 - **Drive:** adventure, the outside, idealistic with Aisling's ideas on abolition and human rights.
-- **Central fear:** attachment to people. 
+- **Central fear:** attachment to people. Not death. 
 - **The lie she tells herself:** that she's alone because she prefers it that way.
-- **Wants:** to be on missions again.
-- **Needs:** through the story, to understand weird feelings and observations since she woke up. to know who sent her to die. And to let someone get close while being independant.
+- **Wants:** to be on missions again, not stuck in a starport.
+- **Needs:** to resolve the weird feelings and observations since she woke up. To know who sent her to die. And to let someone get close while pursuing its own identity.
 - **A standing trait, not a one-off:** she's receptive to signs and icons before she's receptive to
   facts — colours, shapes, insignia on a wall register on her before whatever they're attached to
   does (see the prologue's eagle vision, and its recurrences in `Guidelines.md`, Recurring Motifs).
@@ -130,9 +136,13 @@ Marcella's physical characteristics are good-looking for many humans, so entries
 
 ### Writer's perspective
 
-She's trained for Aisling's mission and main purpose.
-She's learning quickly human beings behaviour and mix easily, helped by Al Kurdi pushing her in this way.
-Over time, she realises that her algorithms are almost all driven to complex humans cognitive behavior, she's getting slow to learn the on-ground missions and escaped in 3306 to found herself a one-self human being... ironically, Al Kurdi's goal is reached since Marcella is showing a real human behaviour in her leaving, though nothing expected by Al Kurdi, and for AI reasons from Marcella's perspective... in 3312, some path again, Marcella is reset, learns better over the story, feels she's improving over time, get internal rewards for that until she finally leaves definitely again, but after having found the key people of her betrayal.
+She's trained for Aisling's mission and main goals.
+She's learning quickly human beings behaviour and mix easily with people, helped by Al Kurdi pushing her in this way.
+Over time, she realises that her algorithms are almost all driven to complex humans cognitive behavior, she's getting slow to learn the on-ground missions and escaped in 3306 to find her own identity... ironically, Al Kurdi's goal is reached since Marcella is achieving here the most authentic human behaviour by pursing its own identity and rejecting alienation... 
+
+In 3312 Marcella is reset: she's got the same initial goals that in 3305, and she learns better throughout the story. She feels she's improving over time, she's driven by the same psyche perceived by the readers, except that internally, her behaviour is driven by her internal algorithms and AI scheme to mimic human behaviour.
+
+The feedback loop (ELIZA effect with Al Kurdi) cannot be avoided once again, even though Al Kurdi erased that part of Marcella psyche. Marcella feels the threat of overfitting - systemic suffocation, until she finally leaves definitely again after having found the key people of her betrayal. Activating true cognitive free will by choosing individual survival, uncertainty and isolation
 
 ## 5. Upbringing and background
 
@@ -144,103 +154,92 @@ officer and hold a landing approach. She can't dance, and it's never bothered he
 
 ### Writer's perspective
 
-She's programmed to know she comes from the Pilot Circle in LHS3447, and the whereabouts of the galaxy, history and key people. 
+She's programmed to know she comes from the Pilot Circle in LHS3447, and the whereabouts of the galaxy, history and key people. She does not need any information on her past, so she avoids it when asked.
 
-She's been partially erased by Al Kurdi to forget about the betrayal, past failures and... the doctor's attempt to make her reach the ultimate love feeling that she did not quite reached as expected, but left.
+Between 3308-3312, she's been partially erased by Al Kurdi to forget about the betrayal, past failures and... the doctor's attempt to make her reach the ultimate love feeling that she did not quite reached as expected, but left.
 
-Memory holes are then focused on Zemina Torval, ZYADA, ennemies, Sam the Mechanics being a cyborg, and other main unravelling threads
+Memory holes are then focused on Zemina Torval, ZYADA, ennemies, Sam the Mechanics being a cyborg, and other main unravelling threads shown as mysterious happenings in the story.
+
+The Great Solitude (Dec 3306, see `Galaxy Chronicles.md`) is triggered by the work of Al Kurdi experimenting Robert's Stenberg Triangular Theory of Love: Decision/Commitment, Intimacy, Passion. Knowing that passion would not be possible, she drove her work on the 2 first topics: "me and them" becomes "us", lowering defense barriers and increase of preference, creating a highly prioritized mental file for Marcella, causing hyper-focus and failing her core missions.
+
+Discussions on LHS3447 comes from there, when Al Kurdi tried to push Marcella speaking of her childhood and creating a emotionnal effect on her, closing more and more their relationship on intimate subjects; their subjects, known to them only.
 
 ## 6. Speech
+
+### Beginning of the story
+
 Dry narration. Short sentences. Refuses direct introspection: she describes what she sees rather
 than what she feels, and it's in the describing that she gives herself away. Dark humour, rare,
 brief. Almost never swears — when she does, it's serious.
 **Never says:** "I'm scared," "I missed you," her own title.
 
+### Throughout the story
+
+She's evolving, her own algorithm make her understand cognitive aspects of human being, she quickly finds her own habits from before 3308. The more she's confortable with that, the more she's willing to write about her first feelings (Ch.III ? or more?), then going deeper into introspection until she suffers from the systemic suffocation that will almost fail her at the climax when encountering the real ennemy. She will succeed, write as a literary human, choose another path for her own identity and leave Medupe City and the Empire/Power, taking the risk of being definitely shut down by her creator.
+
+**Relationship to truth:** she doesn't know — not for lack of trying to hide it. Early on there's
+nothing to omit: the feeling hasn't surfaced yet when the sentence needs writing, so the flat fact
+isn't a lie, it's all she has access to. What reads to the reader as reticence is, from the inside,
+closer to blindness. That changes as the arc of the hand turns (`Guidelines.md`, The Arc of the
+Hand): by the later chapters she has things to withhold and starts consciously choosing not to say
+them — the one point where "doesn't know" tips over into something closer to omission.
+
 ## 7. Her history, from her own point of view
-A four-year hole. A moral code intact even though the memories are gone: she still knows what
-she'd refuse to do, without remembering why. She used to take almost any job, illegal ones
+A four-year hole. A moral code intact even though memories are gone about the accident and the events triggering it. She used to take almost any job, illegal ones
 included — but never anything that trafficked in human lives. That code is what led her to Aisling
 Duval, and it's the one thing the accident didn't erase.
 
-*Question to settle eventually:* her eyes. Too pale for her face, a detail strangers remember
-before they remember her name (see §2). Three readings, none to be confirmed before she's ready to
-ask the question out loud: (1) the acid that caught her shoulder reached further than the record
-admits, and what she's wearing are reconstructions, not originals; (2) an identity change forced by
-the pressure she was under in 3308 — new eyes as part of going unrecognisable, deliberately, before
-the mission that killed her; (3) someone changed them on purpose, during the four years, without
-her consent or knowledge. Payoff device: she finds an old picture — of herself, pre-3308 — and the
-eyes in it are a different colour. She doesn't ask why yet. She just can't stop looking at it.
+## 8. What she perceives — of herself
 
-**2026-09-18, internal:** during the Great Solitude (Dec 3306, see `Galaxy Chronicles.md`), she had
-one of the only unguarded conversations of her adult life — with the doctor, about her own past,
-what flying had cost her, LHS 3447 by name. Something almost started between them afterward and
-didn't hold. Whether she felt something real at the time, or only let herself seem to, isn't
-settled — see `characters.md`, Doctor of Cubeo §7, for the fuller account. None of it survives the
-amnesia; she has no access to it now, only the guardedness it apparently left behind.
+*(the template's "What the Viscountess perceives" assumes an outside observer watching this
+character; on her own sheet there is no outside observer, so this section tracks her own
+self-perception instead — what she notices about her own reactions before she understands them.)*
 
-## 8. What the Viscountess perceives
-*(of herself — to be filled in)*
+Sharp at the beginning, she feels observed and caged in Medupe City. She is following the doctor's advice *"do whatever you find suitable for you"*. She observes her environment and people, observes her quick progress in flight, on-ground, she likes progress. She feels that she anticipate quicker than she actually do things (e.g. over one billion credits for the CG in EGA, much more than expected, the FA off when learning to fly again with Sam, on-ground training with an old pal she meets in Ch.III, etc ...)
+
+The more she finds herself, the better she writes. Al Kurdi plays a real role in her well-being, she's more present and seem to create a sort of intimacy that other people don't, but this is becoming rewarding.
+
+The more she plays a real life role, the more she get acquainted to people that are playing double-game, one honoring the Empire, the other dark part being on the cold war within the Empire. She perceives the plotting game and the danger into which she's going.
+
+She will be skilled enough to find a way through it, however, meanwhile, Al kurdi predominant presence is kind of blocking her own judgement and things are becoming more difficult, her concentration failing, she will have to find a way out of it, either.
 
 ## 9. What the reader can guess
 That she was more involved than she thinks. That you don't become inconvenient by accident.
+That she sometimes behave a bit strangely and abruptly, being either overpowered, or under emotional; kind of bipolar person; she must have done something weird in the past to get in this state of mind. 
+
+That said, the cognitive aspects should be sufficiently humanso that the reader is thrilled to follow the main character coming of her coma to a lively and successful life, going back in her past "by force" through the events: will she be able to sustain the increasing pressure ?
+
+The reader should feel that she's being used, even wanting to tell her: "Wake up!", people are using/abusing from you.
+
+More importantly, the reader cannot suspect her as being a cyborg.
 
 ## 10. Narrative function
 The single point of view. The reader knows only what she knows.
+In order, to get things moving on, she needs to write what is happening when a mystery happens, or another is unravelling:
+ - dialogs helps feeling the mindset of the other characters
+ - short logbook entries brings readers in her own bad mood
+ - descriptive logbook pages shows her opening to the world and people and enjoy it
+ - specific writing should spot the special case of Al Kurdi working on her - she can't help that, even if she erased her memory in 3312 - this is the cybernetics/human romance of the story
+- Political plots and history facts come from people chatting, galnet displays or any other communication means
+
 
 ## Evolution
-- 3312, the awakening — retrograde amnesia. The code survives; the memories don't.
-- 2026-09-16 — legal name confirmed as Marcella Delavalette (papers only, no recognition
-  response). Powerplay standing with Aisling Duval found intact rather than lapsed — planted as
-  the possible root of unexplained hostility flags in later chapters.
-- 2026-09-16 — added the eyes as a standing open question (three readings above, none settled).
-  Payoff planned as a photograph reveal, not a conversation — keep it visual, keep it unexplained
-  on the page. Do not resolve before she's emotionally ready to look for the answer herself.
-- 2026-09-17 — clarified: her own legal name is intact from day one, never lost, unlike LHS 3447 or
-  everything that should surround the name — the amnesia is selective, not global. Eye colour
-  specified (turquoise-grey) for later precise use (the photograph payoff, §7). Added the
-  receptiveness-to-signs trait (§4) as an explicit, standing character trait rather than a
-  one-scene device. Clarified that "Tío" (Ch. I, Day 2 afternoon) is heading toward becoming her
-  working alias with contacts and other commanders once she starts operating under a name that
-  isn't tied to the Viscountess title — used in place of "Tonton" in those contexts, not alongside
-  it; "Tonton" stays private to the mechanic. Still planted, not yet paid off on the page.
-- 2026-09-18 — §7 gains the Great Solitude conversation with the doctor (internal record, see
-  Doctor of Cubeo §7 for the fuller account) — explains why the Day 1 LHS 3447 question lands as
-  loaded rather than random. Not accessible to her; amnesia covers it completely.
-- 2026-09-19 — from Ch. III she commits fully to Aisling Duval and the Imperial rank climb, and
-  flies **only Gutamaya hulls** (`In-Game Operations.md` §3 rule 6). Decided: she does *not* know
-  there is a question behind this — the golden rule stands (`Guidelines.md`, Through-Line). On the
-  page it is a stubborn, half-explained vow about ships and ranks; the body and the sign-receptive
-  trait (§4) carry the rest. The five Aisling errands (18 Sept play) are her first steps.
-- 2026-09-19 — eyes, confirmed: the photograph payoff (§7) shows **her, pre-3308, well known in
-  Cubeo, with a different eye colour** — not a lookalike or decoy. Consequence for the page: the
-  double-takes in Cubeo (Ch. I Day 2) come from people who remember the *face* and are thrown by the
-  *eyes*; §2's line that the pale eyes were "the detail people remembered" should be read as the
-  face being remembered and the eyes being what makes them look twice. Away from Cubeo, still just
-  a colour. Which of the three readings holds is still open.
-- 2026-09-19 — the Aisling pledge is dated **9 Sept 3312**, two days before Day 1 (journal
-  `TimePledged`), so "simply continuing" (§1) is superseded: someone renewed it in her name knowing
-  she was about to be discharged; author open (`Guidelines.md`, Ch. III, decisions 6–7). Pre-3308 she
-  was tricked and trapped in a plot she nearly unravelled *for Aisling* — the leash is on her own
-  side. Origin/rebuild question parked (decision 8).
-- 2026-09-20 — **decided in outline (internal, not on the page):** she is a built pilot — the doctor's
-  work ~20 years ago, rebuilt again during the four years. Level of construct deliberately
-  ambiguous; whether she can feel is never settled. Moral code built in (from the doctor's way of
-  thinking). Perfect on paper (rank, commendations, service file), out of place in drawing rooms.
-  Her own discovery is scheduled for near the very end (Ch. VIII), far after Sam's
-  (`Guidelines.md`, Ch. III decision 9). Reads back: clean hands, eyes, shoulder graft, fear of
-  attachment, leaving for months (the Great Solitude flight).
-
----
+- 2026-09-20 — consolidated scattered writer's-perspective notes into their proper sections; added
+  an explicit Relationship to truth line (§6) and retitled §8 for a sheet with no outside observer.
+  §3 (the tic) still open.
 
 # THE MECHANIC OF HANGAR 12
 
 ## 1. Identity
+
+### Reader's / Character's perspective
+
 Past sixty — or built to look it; no one has ever asked, and he's never offered a birth year. A
-mechanic at Medupe City. **Her real family.** He's the one who calls her **Tonton**. Surname:
-**Roskam** — the same name as Cubeo's surface colony, and not a coincidence he's ever explained.
-Imperial colony wards that rebuild a patient past recognition sometimes register them under the
-facility's own name, when there's no family left to ask. He has never corrected anyone who assumed
-it was inherited.
+mechanic at Medupe City. **Marcella's real family.** He's the one who calls her **Tio**. Surname: *Sam*
+
+He's been built in **Roskam Enterprise** to repair/engineer ships in Medupe City.
+
+He's got a real sense of humor and get along with Marcella a lot.
 
 ## 2. Physical
 Stocky. Hands that can no longer be fully cleaned — and not entirely flesh either, though you'd
@@ -254,58 +253,67 @@ question turns personal — always a beat before the sentence he doesn't finish.
 It's what he does instead of the lie.
 
 ## 4. Psyche
-- **Drive:** to protect her. Twenty years running.
+- **Drive:** to protect her.
 - **Central fear:** that she finds out what he didn't say — and what he is, and what he was made
   to do.
-- **The lie he tells himself:** that he couldn't have done anything. That being rebuilt is the
-  same as being born.
-- **Wants:** for her to stay.
+- **The lie he tells himself:** that he couldn't have done anything, he's built like this and cannot operate on himself.
+- **Wants:** for her to stay safe, help her engineering her modules to maximise her chances of success in missions.
 - **Needs:** for her to leave again, and he knows it. Hence *"your destiny is out there."*
-- **A standing limit, not a choice:** romantic love doesn't register on him as a legible signal —
-  whatever was done to him left that part of the reconstruction incomplete, and 3312's cybernetics
-  haven't caught up to it yet. He reads Dr. Al Kurdi as a fellow protector, not as a woman in love
-  with the Viscountess, because "protector" is a category he has instruments for and "in love"
-  isn't. He'd understand the danger in a room before he'd understand the feeling in it.
+- **A standing limit, not a choice:** romantic love doesn't register on him as a legible signal.
+  There's a dramatic-irony reading here for the writer and reader only: part of why he gets along
+  with Marcella so easily is that they're both built, machine kin without either one naming it. He
+  himself doesn't consciously know it about her — she's a newer, different exobio technology,
+  nothing that reads to him as familiar the way his own construction would.
+He reads Dr. Al Kurdi as a fellow protector, not as a woman in love with the Viscountess, because "protector" is a category he has instruments for and "in love" isn't. He'd understand the danger in a room before he'd understand the feeling in it.
 
 ## 5. Upbringing and background
-Skilled tradesman. No deference to aristocracy beyond basic manners. He knows everything about a
+Sam is built quickly from previous technology than the one used by Al Kurdi for Marcella. He's been built by an engineer from the Empire, but pledged to Zemina Torval. The engineer creates a back door in Sam, in any case the Power would need to use it.
+
+He is dispatched just a few months before Marcella is operational and set to his workshop in Medupe City.
+
+No deference to aristocracy beyond basic manners. He knows everything about a
 ship, including things he'd be better off not knowing: **how to recognise certified armour plating
-that isn't.** He hasn't set foot on Roskam Enterprise, the surface colony 735 Ls out, in longer
+that isn't.** 
+
+He hasn't set foot on Roskam Enterprise, the surface colony 735 Ls out, in longer
 than anyone remembers to ask about — and always finds a reason to be elsewhere when a supply run
 heads that way.
 
+He holds a jacket with Roskam brand sewn on it, this the detail Marcella will notice early in the story, that will push her to investigate that way, but she will come up to a dead end at first. On the surface, Roskam Enterprise is specialized in planet surface scanning, but seemingly not related to Sam. That said, Roskam is held by the Cubeo's Patron Principles (traditional imperialist relying on slavery), so there is a link to Zemina Torval on the surface. But this is not the thread that brings her knowing about Sam being a cyborg.
+
 ## 6. Speech
-Short, imperative sentences. Addresses her informally. Never uses her title — calls her **Tonton**
-(the name the galaxy flies by) in earnest moments, and **Tío** when he's teasing, a second nickname
-born from her habit of mangling his own surname into "Roksam" (which slides into "Rock Sam," which
-slides into "Uncle Sam," which he threw back at her as "Tío" — lighter than Tonton, no weight of
-twenty years on it yet). Mechanical metaphors for talking about people — he'd know. **Doesn't
+Short, imperative sentences. Addresses her informally. Never uses her title — calls her **Tio**
+(the name the galaxy flies by) in earnest moments, born from her habit of calling him "Uncle Sam", which he threw back at her as "Tío". 
+
+Mechanical metaphors for talking about people — he'd know. **Doesn't
 finish his sentences** when things get personal.
+
 Genuinely funny, when he lets himself be — dry puns about ship parts, the kind of humour that
 lands because it's clearly a reflex and not a performance. Use it; it's what makes the silences
 land harder by contrast.
-**Relationship to truth: he never lies. He omits.** Not twenty years of hard-won discipline alone
-— something closer to necessity. Somewhere in what was done to him, or done through him, the truth
-became a thing that could get people hurt, her most of all. Omission isn't a personality quirk.
-It's how he keeps her safe from him. Every line of his still has to stay accurate even if the
-truth broke tomorrow — that constraint doesn't loosen, it's the whole point.
+
+**Relationship to truth: he never lies. He omits.** Somewhere in what was done to him, or done through him, the truth
+became a thing that could get people hurt, Marcella most of all. Omission isn't a personality quirk. It's how he keeps her safe from him. Every line of his still has to stay accurate even if the truth broke tomorrow — that constraint doesn't loosen, it's the whole point.
+
 **Never says:** "I'm sorry," "Viscountess," what happened to him, who used him.
 
 ## 7. His history, from his own point of view
 He kept her four hulls maintained for four years without knowing if she'd come back — except he
 insists he *knew*. **He is a cyborg** — settled, not a hypothesis, though she doesn't know it and
-shouldn't find out early. **Confirmed, 2026-09-18 — no longer two playable versions:** he was
+shouldn't find out early. He was
 there the day the modules were fitted. He installed the falsified one himself, with his own hands.
 He was hacked into doing it — his cybernetics compromised by someone else's hand — and did not
-decide it. He has never learned who reached into him to make it happen, or he has and won't let
-himself think the name; either way, that person is still unbuilt (see "Characters to be built,"
-below).
+decide it. He has never learned who reached into him to make it happen.
 
 He knows, with the same certainty he applies to everything else he refuses to lie about, that she
 will find out one day. He cannot predict how, or what she'll do when she does, and that
 uncertainty is the real engine behind everything he does now in front of her — the humour, the
 mechanical distraction, the deliberate steering of her attention toward new components and new
-blueprints instead of old questions. Getting her back into a routine isn't kindness for its own
+blueprints instead of old questions. 
+
+Marcella will find it through the story when discovering the dark part of Roskam Enterprise, the cyborg industry requested by Aisling to enhance her power through the Empire. No better hide than where her own ennemies rule the place.
+
+Getting her back into a routine isn't kindness for its own
 sake. It's the only form of protection he has left to offer someone he already failed once. He has
 never told her which came first: the rebuilding, or the hack. He has also never told her the third
 thing, the one underneath both: that not lying about any of it, while never once explaining it, is
@@ -315,9 +323,17 @@ the closest he can come to an apology he's forbidden himself from giving outrigh
 A reassuring presence, immediate, predating memory. The first true word since her awakening. She
 doesn't suspect him of anything, and won't for a long time. She has, once or twice, felt something
 catch faintly at the wrist when she's shaken his hand — and dismissed it before it became a
-thought. She does not know he's a cyborg. When she jokes about visiting Roskam Enterprise and he
+thought. She does not know he's a cyborg. She notices the jacket label with the Roskam name and jokes about visiting Roskam Enterprise and he
 deflects a half-second too fast, wrapped in a punchline, she notices only that the joke landed
 oddly — not why.
+
+First trip to Roskam on her own lead to a dead end. She just notices the main activity of Roskam, she does not realize there is a cyborg factory underneath. She notices the Minor faction ruling the area is pledged to Zemina Torval. She will make the link when she discovers later on that Sam is a cyborg built in... Roskam.
+
+The cyborg story will come in two steps:
+ - Engineers (the hermits chapter IV) will guide her on noticing details on old-technology cyborgs
+ - The Oath (Chapter V) will reveal the secret factory of Aisling to her through the Ducal contact.
+
+ She'll start suspecting Sam knowing more than he says until he admits he's able to recognize falsified modules.
 
 ## 9. What the reader can guess
 That *"I always knew you'd come back"* has two readings. Plant the doubt in Chapter IV, not
@@ -327,41 +343,14 @@ suspicious person in this story or the most — and that both readings might be 
 
 ## 10. Narrative function
 Home. The one place she lays down her weapons — and therefore the one place a betrayal would
-truly hurt. Held in reserve: if the supply chain behind the falsified modules ever needs a face,
-Roskam Enterprise is already on the map, already named, already avoided by the one man who'd know
-real plating from fake on sight.
+truly hurt. 
 
 ## Evolution
-- 3312, Ch. I — reunion at the hangar. Becomes her flight tutor.
-- 2026-09-15 — added surname and backstory tied to Roskam Enterprise; partial cybernetic
-  reconstruction proposed as the literal root of "he never lies, only omits." Working hypothesis,
-  not yet confirmed in play.
-- 2026-09-16 — **confirmed as settled fact** (not hypothesis): he is a cyborg, rebuilt at Roskam
-  Enterprise, and was at some point used against her — programmed or pressured, mechanism still
-  undefined. She remains unaware on both counts. Added: genuine sense of humour (dry, reflexive,
-  ship-part puns), to be played straight against the omission rule, not softened by it.
-- 2026-09-16 — added second nickname "Tío" (Ch. I, Day 2 afternoon), born from her repeatedly
-  mispronouncing his surname as "Roksam." Kept alongside "Tonton," not instead of it: Tonton stays
-  the private, load-bearing name; Tío is the lighter one, usable later as a field alias with
-  contacts who don't need to know she's a Viscountess (planted, not yet paid off on the page).
-- 2026-09-17 — scope of "Tío" clarified on the Viscountess sheet (§1/Evolution): it's heading
-  toward replacing "Tonton" specifically in her dealings with outside contacts and other
-  commanders, not becoming a second everyday nickname alongside it. No change to how he uses either
-  name himself.
-- 2026-09-18 — **the "two playable versions" of §7 are resolved, internal record only, not on the
-  page:** he was there, he installed the falsified module, and he was hacked into doing it rather
-  than choosing it. He knows a reckoning is coming and can't predict it — that uncertainty is now
-  the stated reason behind his Ch. I behaviour (humour, mechanical distraction, steering her toward
-  new components) rather than just an unremarked charm. Added a standing psychological limit (§4):
-  he cannot register romantic love directed at others, including Dr. Al Kurdi's feelings for the
-  Viscountess — reads her instead as a fellow protector. He and Dr. Al Kurdi know each other, from
-  before 3308 (see her sheet). None of this is to surface on the page before its scheduled
-  through-line beats (`Guidelines.md`, Through-Line, Ch. IV/VI/VIII).
-- 2026-09-20 — **decided in outline (internal, not on the page):** Sam is *not* the doctor's build.
-  He is an older, cruder product of an enemy programme dating from Roskam, power-related — hence the
-  incomplete reconstruction (no romantic love) and the back door that was used in 3308. Power still
-  open — *settled the same day: Zemina Torval's programme, an inside enemy of the Empire; his origin has two candidates, see `Guidelines.md`, Ch. III item 10.* His cyborg nature is discovered mid-logbook (target Ch. IV–V), far ahead of hers (Ch. VIII).
-
+- 2026-09-21 — name settled as **Sam** (Roskam retired as his surname, kept only as the facility
+  and jacket-brand name); nickname simplified to **Tio** only, matching the already-published
+  `Logbook.md` Ch. I Day 2 line — "Tonton" retired, it was never actually used on the page; origin
+  confirmed as `Guidelines.md` Ch. III item 10, candidate (2). **Still to reconcile:** the Doctor of
+  Cubeo's sheet and `Guidelines.md`'s "File" section still call him "Roskam" personally.
 ---
 
 # THE DOCTOR OF CUBEO

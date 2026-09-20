@@ -20,6 +20,33 @@ mind that remembers is sometimes reached faster through the hand than through th
 She did not ask for it. She did not want it. That reluctance is not a flaw to write around — it
 is the starting condition, and it has to show on the page.
 
+### THE DOUBLE PURPOSE
+
+*(added 2026-09-20, Tonton Marcel's framing — a lens for the craft decisions below, not a new rule
+that competes with them)*
+
+On the surface this is a political / plot sci-fi thriller: Powers, a conspiracy, a betrayal, a
+woman piecing together who tried to have her killed. That's what puts a reader on the next page,
+and it should never read as an alibi for something else going on underneath.
+
+Underneath, the actual subject is a cyborg's cognition — a machine's approximation of a human mind,
+examined from the inside, in its own hand, without ever naming itself as such. The thriller plot is
+the vehicle. The question the logbook is actually answering, entry by entry, is what it costs to
+fake — or become — a human mind convincingly enough that even its own narrator stops being able to
+tell the difference.
+
+Both readings have to work at once, and neither should need the other footnoted in:
+- A reader chasing Powers, betrayal and the chase should get all of it, undiluted, nothing held
+  back for the sake of the deeper layer.
+- A reader who's noticed the cognition question — *is she choosing this, or running an algorithm?
+  is the arc of the hand character growth, or a machine converging on spec?* — should find every
+  clue was already sitting in plain sight, dressed as an ordinary character beat the first time
+  through (see The Arc of the Hand, below; The Body Keeps the Log It Wasn't Given).
+
+**Working rule:** never write a sentence that only makes sense as a cybernetics essay. If a beat
+about her cognition can't also stand, unassisted, as a beat about a woman afraid of attachment, cut
+it or fold it into one that does both.
+
 ### THE ARC OF THE HAND
 
 This is the part that makes the logbook different from a mission log: **the writing itself gets
@@ -154,8 +181,9 @@ didn't hold — the doctor remembers it; the Viscountess's amnesia erased it com
 also why the Day 1 LHS 3447 question lands as loaded. See `characters.md`, Doctor of Cubeo §7.
 
 ### The old mechanic of Hangar 12
-Her **real family**. Big brother, guardian, unshakeable support. He's the one who calls her
-**Tonton** — and that nickname is the name under which the galaxy knows her. He kept all four of
+Her **real family**. Big brother, guardian, unshakeable support. His own name is **Sam** — he's
+the one who calls her **Tio**, and that nickname is the name under which the galaxy knows her
+(confirmed on the page: `Logbook.md`, Ch. I Day 2, "Ah. There you are, Tio."). He kept all four of
 her hulls maintained during her absence. He always *knew* she'd come back. He flies with her as
 long as the doctors forbid solo flight. The only person in front of whom her title carries no
 weight at all.
@@ -303,15 +331,16 @@ the page):**
 10. **Decided 20 Sept — the enemy, Sam's origin candidates, the ending.**
    - **The enemy programme behind Sam is Zemina Torval's:** same Superpower (the Empire), inside
      enemy. Rebuilt people as property — the opposite of the code built into her.
-   - **Sam's origin — two candidates, still open.** (1) Roskam built him to watch the doctor, who
-     was the one being observed and tracked; she took him with her (and the Viscountess) without
-     checking for flaws, trusting him. (2) Built in parallel and in haste with older technology, sent
-     a few days after the doctor left Roskam and placed as a mechanic; she met him as a stranger and
-     introduced the Viscountess as a recruit from another system; she has known him ~20 years and
-     never recognised him as a Roskam product; his release date ≈ hers. *Notes:* (2) fits the 20-year
-     horizon exactly and keeps the doctor innocent, but needs an answer for why a man named Roskam
-     didn't alarm someone who had just left Roskam; (1) makes her trust her tragedy and explains how
-     the enemy always knew the project. Ch. III plants fit both.
+   - **Sam's origin — confirmed 21 Sept (Tonton Marcel): candidate (2).** Built in parallel and in
+     haste with older technology, dispatched a few months after the doctor left Roskam and placed
+     as a mechanic; she met him as a stranger and introduced the Viscountess as a recruit from
+     another system; she has known him ~20 years; his release date ≈ hers (`characters.md`,
+     Mechanic of Hangar 12, §5). Fits the 20-year horizon exactly and keeps the doctor innocent.
+     Candidate (1) — Roskam built him specifically to watch the doctor — is retired. The naming
+     objection that used to weigh against (2) (why didn't a man named Roskam alarm someone who'd
+     just left Roskam?) no longer applies either way: his own name was separately settled as
+     **Sam**, with "Roskam" only ever the facility's name, never his (`characters.md`, Mechanic of
+     Hangar 12, §1/§5/Evolution).
    - **The ending.** Near the very end the doctor tells her what she is, from the beginning. She
      leaves Cubeo for good, keeping the logbook. If the construct has no further use for the
      Empire, the doctor should shut her down; she starts to, cannot, and lets her go. The logbook's
