@@ -451,6 +451,27 @@ journal stays ground truth for *what happened*, not for *when*.
   first — what I'd been getting wrong this whole time.** The doctor's wrist-check again. Hook: the
   supplier's name, in the sixth line.
 
+**Act 3 proposal — 2026-09-21, from Tonton Marcel; memory question and fourth musketeer settled the
+same day (below), the scene's slot is still open.** At the Medupe City bar she meets
+two young friends she used to run on-foot missions with ("the three musketeers" — a fourth would be
+needed). They suggest flying straight to Cubeo 3A for local infiltrations, like before. She accepts
+and is caught. This would be the unscripted on-foot failure (D18 slot or earlier) and matches banked
+play (21 Sept: a heist at Kohli Cultivation Base, killed by a security drone, respawned aboard the
+megaship **The Sepulchre** — `In-Game Operations.md` §4c). It also fits the chapter epigraph ("I
+failed every mission I ever ran on foot") — and fits *going back to work to get away from faces that
+know her*, which now works: **she cannot place their faces, only feels them as familiar, and chooses
+to act as though she knows them** — adapting to the situation to avoid feeling lost, the way she
+does everywhere (her built nature stays internal; the page shows only the performance and the small
+gaps in it). **The fourth musketeer is a deliberate hook**, unfilled. See `characters.md`.
+
+*Scene shape, 2026-09-21 (Tonton Marcel):* all three fly to Cubeo 3A. The friends take her to their old
+haunt, **Paterson's place** (in game: **Paterson Botanical Plantation**, a Prismatic Imperium
+settlement — spelled with one *t* in the journal; the fiction may spell it as it likes), and they pick
+up heist missions there for fun: **no kills, only bullying the adverse faction** (in game, Cubeo
+Patron's Principles' sites such as Kohli Cultivation Base — "Torval's wing" in the story). Real play
+already has this loop: the failed heist was picked up at the Prismatic side and run against
+Kohli (`In-Game Operations.md` §4c). Tone note: games between friends, low stakes — until she is caught.
+
 **Drafting order.** Acts 1–2 (D8–D14) can be written now from banked play. Act 3 waits for on-foot
 sessions. Tonton Marcel plays Act 3 while Acts 1–2 are drafted and reviewed.
 

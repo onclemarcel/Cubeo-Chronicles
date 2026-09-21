@@ -360,6 +360,104 @@ that ends with the rank arriving unannounced.
 
 ---
 
+## 4c. SESSION LOG — 21 September: Roskam visit, Prismatic Imperium supply run, on-foot salvage deaths (journal-verified)
+
+Source: journal files of 21 Sept, 08:05–18:28 UTC (morning and evening sessions).
+
+**Roskam Enterprise visit confirmed:** the controlling minor faction on the ground there is
+**Cubeo Patron's Principles** (Patronage government, Empire allegiance) — matches §5's existing
+flag (`≠ Prismatic Imperium`) and Tonton Marcel's read of it as "traditional imperialist."
+
+**Prismatic Imperium supply-mission run (08:05–11:50 UTC):** ~20 `Mission_Collect_CivilLiberty`
+missions ("Fournisseur en quête de...") run back-to-back — commodities (Surface Stabilisers,
+Silver, Gold, Palladium) delivered **to Roskam Enterprise**, all correctly accepted **for
+Prismatic Imperium** (the `Faction` field on each `MissionAccepted`) — the intended target
+faction. Individual rewards ranged 10k–30M CR; combined well over 400M CR across the run. Every
+`MissionCompleted` fired an `Influence` gain of `"+++"` to `"+++++"` for **Prismatic Imperium**.
+
+**Why Prismatic Imperium's own influence barely moved — confirmed with a multi-day trend, not a
+targeting mistake:** `Location` events across this session put Prismatic Imperium's Cubeo
+influence at **46.26% at session start (07:06 UTC) and 45.56% at session end (12:42 UTC)** — flat
+to slightly down, despite ~20 completed missions each individually flagged `"+++"`/`"+++++"`.
+Pulling the same reading from the 18 Sept session's journal shows **46.2%** that day too — the
+number has sat within a fraction of a point of 46% across at least three real-world days (18, then
+21 Sept) of heavy trading and mission-running for this exact faction. Two real ED mechanics explain
+this, not a targeting error:
+1. **BGS influence updates on a periodic daily tick, not live.** The `"+++"`/`"+++++"` tags on each
+   `MissionCompleted` are that mission's contribution *queued toward the next tick* — they are not
+   an immediate change to the `Influence` value read back in `Location`/`Docked` events, which
+   instead reflects the last tick that already happened. A single session's missions, however many,
+   won't show up in the visible percentage until (at the earliest) the next tick — and only then if
+   they outweighed every other faction's activity (NPC and other commanders') that also feeds that
+   tick.
+2. **Cubeo's population is enormous (10,016,390,018, per the `Location` event) and hosts 7 minor
+   factions.** BGS influence swing per mission is diluted by total system economic activity — the
+   bigger the population, the smaller the visible percentage move from any one commander's mission
+   volume, even a 400M-CR run. Smaller-population systems (a few million, not ten billion) show
+   influence move noticeably after a handful of missions; Cubeo does not.
+
+**Implication — this is not "Prismatic Imperium can't take Roskam from Cubeo Patron's Principles
+via missions," it's "one session isn't the right unit of measurement."** BGS takeover of a rival
+minor faction's stations requires influence to climb consistently **across many ticks** (i.e. many
+real-world days), not a single binge session, precisely because of point 1 above — and note this is
+a **separate mechanic from Powerplay control** (Aisling Duval's Stronghold status over Cubeo, §7):
+growing Prismatic Imperium's BGS influence doesn't itself change `PowerplayStateControlProgress`;
+the two systems (BGS minor-faction influence vs. Powerplay system control) run in parallel and are
+tracked separately in the journal (`Factions[].Influence` vs. `PowerplayState`/
+`PowerplayStateControlProgress`).
+
+**Narrative hook confirmed:** this run gives Ch. III's Roskam thread its opening (Marcella looking
+into Roskam Enterprise) without yet surfacing anything about cyborgs there — matches Tonton
+Marcel's note; raw material, not yet drafted.
+
+**On-foot salvage missions — two failed runs (12:10–12:42 UTC):**
+- Two `Mission_OnFoot_Salvage_MB` missions accepted from **Cubeo Patron's Principles** (ship
+  schematic recovery from a ground wreck), ~84k CR reward each.
+- **12:31:33 — Died**, killed by "Saniyah Flynn" (`assaultsuitai_class1`); mission failed on the spot.
+- **12:41:20 — Died** on the retry, killed by "Nancy Goodman" (`rangedsuitai_class1`); second
+  mission failed the same way.
+- Both resurrections were free (`Resurrect`, `Option: "rejoin"`, `Cost: 0`) — no credit lost, but
+  both missions were gone for good; the journal shows no second attempt offered after death.
+- Matches Tonton Marcel's account: rushed by several hostiles converging on an open wreck site with
+  no cover taken. These salvage-wreck sites are **not** the "zero NPC, zero alarm" case in §9 step
+  1 — they can spawn armed guards, and the current base loadout (Maverick suit, no ranged-combat
+  prep) didn't survive the encounter twice in a row.
+
+**Roadmap note — add to §9:** a dedicated "hostile wreck salvage" sub-step is missing from the
+on-foot protocol; §9 step 1 assumes an *abandoned* settlement (no NPCs). A ground wreck with a
+`Salvage` mission tag should be treated as contested from the start — approach from cover, engage
+at range, don't cross open ground toward the objective marker.
+
+**Evening session, 15:07–18:28 UTC (journal-verified) — zero-threat on-foot missions succeed, the
+heist fails:**
+- **Salvage, Nexus Heavy Industries** (vehicle schematic from a wreck, accepted 15:14, completed
+  15:55) — the salvage type that killed her twice that morning, this time clean. Paid Chemical
+  Patents ×4 (data micro-resource).
+- **Three Prismatic Imperium on-foot missions** accepted together at Medupe City 15:58 — two
+  *"Sécurisation d'un colis"* (target carriers Zachary Hogan / Flora Guthrie at **Kohli Cultivation
+  Base** and **Kapoor Agricultural Biome**) and one *Insight data bank* collect at **Daramy
+  Botanical Habitat** — ~56–58k CR offered each. All three completed 17:40–17:41. The two bases
+  visited before that, Kohli and Paterson, are settlements of two different factions
+  (`ApproachSettlement`: Kohli = Cubeo Patron's Principles; Kapoor, Daramy, Paterson = Prismatic
+  Imperium), not one.
+- **The heist — failed.** `Mission_OnFoot_Heist_MB` ("theft, no violence": a synthetic genome from an
+  installation), accepted from Prismatic Imperium 17:55, worked at **Kohli Cultivation Base**
+  (Cubeo Patron's Principles' settlement, so a Prismatic job run against the rival faction's site).
+  Tonton Marcel's account: scanned one guard successfully, taken afterwards. Journal: **18:13:23
+  `CommitCrime` `onFoot_failureToSubmitToPolice`, 500 CR fine, victim Willard Mendoza, faction Cubeo
+  Patron's Principles**; **18:14:55 Died — killed by a `skimmerdrone`** (a security drone, not a
+  guard); mission failed the same second.
+- **Rebuy 500 CR** (`Resurrect`, option `recover`, cost 500 — unlike the morning's free `rejoin`),
+  respawned aboard **The Sepulchre**, a **megaship** in **Col 285 Sector YU-F c11-1**, five jumps
+  from Cubeo (18:17 embark → 18:23 Cubeo → docked Medupe City 18:26). Nothing else logged after.
+
+**Mechanics worth keeping:** the `Faction` on an on-foot mission does not tell you whose settlement
+you are about to enter — check `ApproachSettlement`/the settlement's controlling faction before
+landing. On a heist a scan alone is not stealth: being challenged and not submitting is logged as a
+crime and turns the site hostile (§9 step 3, *cut the reactor first*, is still the untried fix).
+
+---
+
 ## 5. THE SETTING — CUBEO
 
 Imperial system, **10.02 billion inhabitants**, agriculture/industry economy, Patronage government, controlling faction **Prismatic Imperium**, high security, **scoopable class F** star. Powerplay HQ of Aisling Duval.
@@ -479,6 +577,9 @@ roughly one block per session:
        Cubeo's 4 Odyssey settlements (§9 step 1: zero NPCs, zero alarms, lowest possible risk).
        First boots on the ground since the coma; a natural low-stakes way to "find the reflexes
        back" before anything harder.
+   *(21 Sept: on-foot play started, but not in this order — wreck salvage and settlement collect
+   missions were played and mostly failed or passed as §4c records; no abandoned-settlement
+   reactivation yet, so boxes 2 and 3 stay open.)*
 3. [ ] Follow up with a **data recovery** mission at a powered-down site (§9 step 2), same or a
        second settlement — banks Profile Analyser clones and on-foot materials without combat risk,
        and starts the engineering material stockpile (§10).

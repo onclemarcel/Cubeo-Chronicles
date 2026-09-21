@@ -488,6 +488,11 @@ I can't write the rest of this tonight.
 > 4. The **chapter title**: keep "The Darkened Colony", or rename now that it opens with errands.
 > 5. **Sam's origin**, candidate 1 (built to watch the doctor) or 2 (built in parallel, placed as a
 >    mechanic days after she left Roskam) — not needed for Ch. III; Claude leans to 2.
+> 6. **(2026-09-21) The two young friends** ("the three musketeers") who suggest the Cubeo 3A
+>    infiltration she fails at. **Settled:** she only feels them as familiar and plays old friends
+>    anyway; the fourth musketeer stays an open hook; all three fly to Cubeo 3A, to their old haunt
+>    (Paterson's place) to pick up no-kill heists against the adverse faction. Still open: their names, and whether this is the
+>    D18 failure or an earlier one. (`Guidelines.md`, Ch. III workplan, "Act 3 proposal".)
 
 An abandoned settlement, no lights, no one. She hunts for the power distribution centre in the
 dark. It's the most atmospheric moment Odyssey has to offer, and most pilots walk through it
