@@ -22,23 +22,25 @@ Each file states its own scope at its own top; restated here for a quick referen
 | File | Contains | Never contains |
 |---|---|---|
 | `Logbook.md` | The story itself — prologue, chapters, dated entries, in her voice | Stats, builds, roadmaps |
-| `In-Game Operations.md` | Fleet status, CMDR stats, in-game goals, roadmap, session logs not captured in the story — technical, no narrative | Prose, character interiority |
-| `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | Numeric/technical data |
+| `In-Game Operations.md` | Fleet status, CMDR stats, in-game goals, roadmap/tasks, session logs not captured in the story — technical, no narrative | Prose, character interiority |
+| `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | In-game notes, stats, Numeric/technical data, prose |
 | `Galaxy Chronicles.md` | Canon bedrock — real Elite Dangerous dates, events, real people available for use | Invented characters, invented events |
-| `characters.md` | Character sheets (invented + real-person usage notes) | stats |
-| *(exception)* a `PLANNING NOTE — TEMPORARY` block at the top of a chapter in `Logbook.md` | Where we stand on a chapter still being planned: decisions, workplan, questions waiting. Added 2026-09-20 for Ch. III at Tonton Marcel's request. **Delete it once the chapter is drafted** — it is the one place `Logbook.md` holds a roadmap. | Prose |
+| `characters.md` | Character sheets (invented + real-person usage notes) | updated stats, prose |
 | `Reviews.md` | **Ephemeral.** Tonton Marcel's session notes, tagged. Cleared once distributed — see §3 | Anything meant to last |
+
+*(exception)* a `PLANNING NOTE — TEMPORARY` block at the top of a chapter in `Logbook.md` may be created to show "Where we stand on a chapter still being planned": decisions, workplan, questions waiting. **Delete it once the chapter is drafted** — it is the one place `Logbook.md` holds a roadmap.
 
 ## 3. How updates happen — the Reviews.md cycle
 
-Tonton Marcel's input arrives two ways: in conversation, or written into `Reviews.md` with one or
-more tags per note, marking which file(s) it's mainly about. Known tags so far:
+Tonton Marcel's input arrives two ways: 
+  - in conversation for short updates or questions, or,
+  - in `Reviews.md` with one or more tags per note, marking which file(s) it's mainly about. Known tags so far:
 
 | Tag | Primary destination | Notes |
 |---|---|---|
-| `[IN-GAME]` | `In-Game Operations.md` (session log) | Also raw material for future `Logbook.md` days — real play, not yet fictionalised |
+| `[IN-GAME]` | `In-Game Operations.md` (session log, roadmap, remaining tasks, goals) | Session logs are raw material for future `Logbook.md` days — real play, not yet fictionalised. Session logs are removed after use in the 'logbook.md' prose - ask Marcel for removing old session logs already implemented |
 | `[NARRATIVE]` | `Logbook.md` | Two modes: **feedback** on existing prose (paragraph-by-paragraph notes to apply as edits), or a **request for new text** to be drafted. Read the note to tell which. |
-| `[CONTEXT]` | Wherever the idea actually belongs — often several files at once | Background/worldbuilding ideas, open questions, story mechanics not yet prose |
+| `[CONTEXT]` | Wherever the idea actually belongs — often 'Guidelines.md' but may touch several files at once when context deals with a new/updated plot/event/ | Background/worldbuilding ideas, open questions, story mechanics not yet prose |
 | `[CHARACTER]` | `characters.md` | Two modes: **additive** (new material to fold in, may also feed `Logbook.md`), or **corrective** (may require checking whether already-written `Logbook.md` content needs to change for consistency) |
 | `[GALNET]` / `[GALAXY]` | `Galaxy Chronicles.md` | Real Elite Dangerous info (news, events, game facts). May double as plot-brainstorming fodder — propose ideas in conversation; don't write invented plot into this file until Tonton Marcel picks one (this file is canon-only, see §2) |
 | `[GUIDELINES]` | `Guidelines.md` | Clarifies *how* a `[NARRATIVE]` note should be interpreted or written — craft direction, not content |
