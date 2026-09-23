@@ -99,14 +99,13 @@ Review of current file:
 - [ ] **The Brick** : inchangé. C'est le moteur de mérites par le commerce.
 
 ### Powerplay : ≈ 230 000 mérites restants jusqu'au rang 34
-- [ ] Vérifier que les 5 assignments initiaux sont validés (le rang 5 laisse penser que c'est le cas).
-- [ ] **Commerce PP avec The Brick** : ventes à forte marge dans les systèmes Aisling visés. Règles précises d'achat et de vente à vérifier dans l'interface Powerplay. C'est probablement la source de mérites la plus rapide vu le rang Trade.
+- [ ] **Commerce PP avec The Brick** : ventes à forte marge dans les systèmes Aisling visés. Règles précises d'achat et de vente à vérifier dans l'interface Powerplay.
 - [ ] **Minage PP avec Astroforge** : miner et vendre dans le même système de renforcement.
 - [ ] **Combat PP léger avec Pacifier** : Low RES en système de renforcement.
 
 ### Navy impériale : Viscount vers Duke
 - [ ] Missions pour des factions mineures impériales dans l'espace Aisling (cumul PP et Navy).
-- [ ] Les missions de commerce et de livraison comptent aussi : exploiter la force commerciale.
+- [ ] Les missions de commerce et de livraison comptent aussi.
 - [ ] Accepter les missions de promotion dès qu'elles apparaissent.
 
 ### Ingénieurs
