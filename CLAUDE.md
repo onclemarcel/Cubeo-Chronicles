@@ -9,7 +9,7 @@
 
 ## 1. What this is
 
-A collaborative fiction project set in Elite Dangerous: CMDR Onclemarcel (Marcella Delavalette,
+A collaborative fanfiction project set in Elite Dangerous: CMDR Onclemarcel (Marcella Delavalette,
 Viscountess of the Empire) is writing an in-character logbook after waking from a four-year coma,
 built on real 2026-session gameplay and real Elite Dangerous canon. Tonton Marcel plays the game
 and reports back; Claude turns the reports into prose, keeps the supporting documents consistent,
@@ -22,10 +22,10 @@ Each file states its own scope at its own top; restated here for a quick referen
 | File | Contains | Never contains |
 |---|---|---|
 | `Logbook.md` | The story itself — prologue, chapters, dated entries, in her voice | Stats, builds, roadmaps |
-| `In-Game Operations.md` | Fleet status, credits, CG progress, roadmap, session logs — technical, no narrative | Prose, character interiority |
+| `In-Game Operations.md` | Fleet status, CMDR stats, in-game goals, roadmap, session logs not captured in the story — technical, no narrative | Prose, character interiority |
 | `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | Numeric/technical data |
 | `Galaxy Chronicles.md` | Canon bedrock — real Elite Dangerous dates, events, real people available for use | Invented characters, invented events |
-| `characters.md` | Character sheets (invented + real-person usage notes), living document, dated `Evolution` entries | Plot mechanics, stats |
+| `characters.md` | Character sheets (invented + real-person usage notes) | stats |
 | *(exception)* a `PLANNING NOTE — TEMPORARY` block at the top of a chapter in `Logbook.md` | Where we stand on a chapter still being planned: decisions, workplan, questions waiting. Added 2026-09-20 for Ch. III at Tonton Marcel's request. **Delete it once the chapter is drafted** — it is the one place `Logbook.md` holds a roadmap. | Prose |
 | `Reviews.md` | **Ephemeral.** Tonton Marcel's session notes, tagged. Cleared once distributed — see §3 | Anything meant to last |
 
