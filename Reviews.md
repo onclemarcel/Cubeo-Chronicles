@@ -24,3 +24,14 @@ Review of current file:
     - Remove "recommendations" paragraphs, they should go into the "roadmap/checklist/taksks" sub-section
  
 - Section 5: CUBEO : can be removed.
+
+- Section 6 to 10: can be removed, those will be part of the Roadmap section (currently section 11)
+
+- Section 12: Ok to keep, I don't use it but Claude may use it.
+
+- Section 13: here is below a proposed workplan in french to obtain the 100% Gutamaya fleet.
+  - you may merge this workplan with current section 11 to track of a single set of tasks/checkpoints.
+
+---
+
+
