@@ -40,12 +40,12 @@ Tonton Marcel's input arrives two ways:
 |---|---|---|
 | `[IN-GAME]` | `In-Game Operations.md` (session log, roadmap, remaining tasks, goals) | Session logs are raw material for future `Logbook.md` days — real play, not yet fictionalised. Session logs are removed after use in the 'logbook.md' prose - ask Marcel for removing old session logs already implemented |
 | `[NARRATIVE]` | `Logbook.md` | Two modes: **feedback** on existing prose (paragraph-by-paragraph notes to apply as edits), or a **request for new text** to be drafted. Read the note to tell which. |
-| `[CONTEXT]` | Wherever the idea actually belongs — often 'Guidelines.md' but may touch several files at once when context deals with a new/updated plot/event/ | Background/worldbuilding ideas, open questions, story mechanics not yet prose |
+| `[CONTEXT]` | Wherever the idea actually belongs — often 'Guidelines.md' but may touch several files at once when context deals with a new/updated plot/event or introduction of new characters and links with in-game logs | Background/worldbuilding ideas, open questions, story mechanics not yet prose |
 | `[CHARACTER]` | `characters.md` | Two modes: **additive** (new material to fold in, may also feed `Logbook.md`), or **corrective** (may require checking whether already-written `Logbook.md` content needs to change for consistency) |
 | `[GALNET]` / `[GALAXY]` | `Galaxy Chronicles.md` | Real Elite Dangerous info (news, events, game facts). May double as plot-brainstorming fodder — propose ideas in conversation; don't write invented plot into this file until Tonton Marcel picks one (this file is canon-only, see §2) |
 | `[GUIDELINES]` | `Guidelines.md` | Clarifies *how* a `[NARRATIVE]` note should be interpreted or written — craft direction, not content |
 
-**This list will grow.** If a new tag, or an ambiguous use of an existing one, shows up: make a
+**This list may grow.** If a new tag, or an ambiguous use of an existing one, shows up: make a
 reasonable call about where it goes, apply it, and say so plainly in your reply rather than
 silently guessing. Tonton Marcel will confirm or correct — fold the confirmed mapping back into
 this table so the next session doesn't have to re-derive it.
@@ -57,26 +57,27 @@ Reviews.md pass is considered "handled."
 
 ## 4. Durable record-keeping convention
 
-Because Reviews.md and the conversation itself are not preserved, every file that changes as a
-result of a session records *what changed and why*, dated, in its own body — this is what makes a
-future cold-start session possible at all:
+Reviews.md and the conversation itself are not preserved, every file that changes as a
+result of a session will be reviewed by Marcel and a new Github commit done when accepted.
+After a cold-start (e.g. new conversation), take existing file as granted and accepted - check in previous
+Github commits for change history of a file, where needed, or ask Marcel for any doubt or detected
+inconsistencies:
 
-- `characters.md` — every sheet ends in an `## Evolution` block: `- [date] — [what changed, why]`
-  — a short summary of the **most recent** change only, not a cumulative log. The full history of
-  a sheet lives in git (`git log -- characters.md`), not in the file. (Changed 2026-09-21 — the
-  cumulative version was cluttering the read; git already keeps the trail.)
-- `In-Game Operations.md` — dated bullets under "Actual execution (log)" / roadmap checkboxes.
+- `characters.md` : No changelok. Additions are visible in Github Changelog over commited versions. Each character has a card, regularly updated and commited when accepted by Marcel
+- `In-Game Operations.md` : No changelok. Additions are visible in Github Changelog over commited versions
+  - This file is updated with the in-game logs history on each `Reviews.md` update.
+  - Tasks done are removed from file while Marcel progresses in-game - session logs not yet incorporated in the prose (`logbook.md`) are kept in this file until taken into account or until explicit request from Marcel to remove it.
+  - Roadmap is updated when needed, depending on [CONTEXT] inputs in `Reviews.md`
 - `Logbook.md` — no changelog (it's prose), but structural changes of consequence (renumbering,
   cut paragraphs, moved scenes) are worth a one-line mention back to Tonton Marcel in the same
   reply, so nothing silently vanishes without him seeing it.
-- `Guidelines.md` / `Galaxy Chronicles.md` — additions are self-dating in context (e.g. "planted
-  2026-09-16, payoff not yet written") when they set up something for later.
+- `Guidelines.md` / `Galaxy Chronicles.md` — No changelok. Additions are visible in Github Changelog over commited versions
 
 ## 5. Starting a new session
 
 1. Read this file (automatic).
 2. If `Reviews.md` exists and has content: read it, route each tagged note per §3, apply the
-   changes to the target files (with dating per §4), confirm with Tonton Marcel, then clear
+   changes to the target files with record-keeping as per §4, confirm with Tonton Marcel, then clear
    `Reviews.md`.
 3. **Check the game's own Journal files** before relying on numbers already in
    `In-Game Operations.md` — they're the ground truth and update as he plays, no API/login needed:
@@ -89,8 +90,8 @@ future cold-start session possible at all:
 4. Before writing or editing `Logbook.md` prose specifically, read `Guidelines.md` — it is not
    auto-loaded, and its rules (voice, pacing, the arc-of-the-hand, what never gets explained
    outright) are not optional.
-5. For anything touching a specific character, check `characters.md` first — sheets are living and
-   may have moved since the last session touched them.
+5. For anything touching a specific character or the `logbook.md`, check `characters.md` first — sheets are living and
+   may have moved since the last session touched them. Take current file as granted and accepted. Check in Github commits history in case of unresolved discrepancy (e.g. request for modifying a character while it does not exist at all in the `characters.md` file)
 6. For anything touching real Elite Dangerous facts (dates, Powers, factions, canon events), check
    `Galaxy Chronicles.md` before inventing — the project's credibility rests on fiction never
    contradicting the real timeline (see its own "Golden Rule").
