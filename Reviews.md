@@ -109,7 +109,7 @@ Review of current file:
 - [ ] Accepter les missions de promotion dès qu'elles apparaissent.
 
 ### Ingénieurs
-- [ ] **passer le FSD de Hyperion en G5**.
+- [x] **passer le FSD de Hyperion en G5**.
 - [ ] **Didi Vatermann** (boosters G5) : Trade Merchant ✔ + 50 Lavian Brandy.
 - [ ] **Lei Cheung** (bouclier G5) : condition de commerce probablement remplie + 200 Gold.
 - [ ] **Hera Tani** (centrale G5) : Navy Outsider ✔ + 50 Kamitra Cigars.
