@@ -18,7 +18,7 @@ Review of current file:
   - Rule 6: Applicable as a top-level Goal
  
 - Section 4: Current Operation - EGA Convoy
-    - EGA logs are taken into account in the story until 17th, Sept entries - You can safely remove the content until 18th, Sept logs
+    - EGA logs are taken into account in the story until 17th, Sept entries - You can safely remove the content before 18th, Sept logs
     - Rename this section as "Session logs"
     - Keep content of current 4b and 4c (dating from 18th, Sept and later on), but you may name sub-sections differently with the date/hour bullets
     - Remove "recommendations" paragraphs, they should go into the "roadmap/checklist/taksks" sub-section
