@@ -40,15 +40,15 @@ Review of current file:
 
 | Nom | Coque | Rôle actuel | Destin |
 |---|---|---|---|
-| Astroforge | Imperial Clipper | Minage | au musée en phase 5 (remplacé par Hephaestus) |
+| Astroforge | Imperial Clipper | Minage | Revendu en phase 5 (remplacé par Hephaestus) |
 | Pacifier | Imperial Clipper | Combat / commerce | Entraîneur combat, puis **Diplomat** en phase 6 |
 | Dart | Imperial Courier | Taxi | Conservé (Dart v2) |
 | The Brick | Type-9 Heavy | Commerce CG | **Pont**, au musée en phase 5 (remplacé par Cornucopia) |
 | Hyperion | Asp Explorer | Exploration | **Pont**, au musée en phase 6 (remplacé par Marco Polo) |
 
-> Pont "Brick" > Cornucopia : The Brick couvre les CG de commerce jusqu'au Cornucopia ;
-> Pont "Pacifier" > Diplomat : Pacifier couvre le bounty hunting et se transforme en Diplomat ;
-> Pont "Hyperion" > Marco Polo : Hyperion couvre les explorations & la quête Guardian jusqu'au Marco Polo ;
+> Pont "Brick" > Cornucopia : The Brick couvre les CG de commerce jusqu'au Cornucopia<br>
+> Pont "Pacifier" > Diplomat : Pacifier couvre le bounty hunting et se transforme en Diplomat<br>
+> Pont "Hyperion" > Marco Polo : Hyperion couvre les explorations & la quête Guardian jusqu'au Marco Polo<br>
 
 
 ---
