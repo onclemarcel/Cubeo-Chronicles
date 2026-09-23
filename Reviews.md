@@ -27,6 +27,10 @@ Review of current file:
 
 - Section 6 to 10: can be removed, those will be part of the Roadmap section (currently section 11)
 
+- Section 11:
+  - Include a weekly routine with a Key Performance Indicator mesured from logs of previous week (see 1. Weekly Routines below & question for Claude)
+  - Merge existing text with new proposal below (in french), after the comments - see also comment on section 13 just below, linked to the roadmap consistency rework
+
 - Section 12: Ok to keep, I don't use it but Claude may use it.
 
 - Section 13: here is below a proposed workplan in french to obtain the 100% Gutamaya fleet.
