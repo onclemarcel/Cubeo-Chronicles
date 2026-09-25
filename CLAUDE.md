@@ -22,7 +22,11 @@ Each file states its own scope at its own top; restated here for a quick referen
 | File | Contains | Never contains |
 |---|---|---|
 | `Logbook.md` | The story itself — prologue, chapters, dated entries, in her voice | Stats, builds, roadmaps |
-| `In-Game Operations.md` | Fleet status, CMDR stats, in-game goals, roadmap/tasks, session logs not captured in the story — technical, no narrative | Prose, character interiority |
+| `In-Game Operations.md` | Fleet status, CMDR stats, in-game goals, roadmap **main line** (§5: phases, milestones, checkpoints), session logs not captured in the story — technical, no narrative | Prose, character interiority, detailed checklists that belong in a satellite |
+| `Powerplay Missions.md` | *Satellite of §5.* Aisling Duval playbook: this week's 5 assignments, the weekly loop, merit loops, one card per PP mission type | Session logs, prose |
+| `Shipyard.md` | *Satellite of §5.* One card per ship (current and future): upgrade checklists, build specs (JSON annex A1–B9) | Current fits (those stay in `In-Game Operations.md` §2), prose |
+| `Engineers & Materials.md` | *Satellite of §5.* Engineer roster and unlock chains, priorities, materials and farms | Per-ship blueprints (ship cards), prose |
+| `On-Foot.md` | *Satellite of §5.* Odyssey protocol, gear, progression, one card per ground mission type | Session logs, prose |
 | `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | In-game notes, stats, Numeric/technical data, prose |
 | `Galaxy Chronicles.md` | Canon bedrock — real Elite Dangerous dates, events, real people available for use | Invented characters, invented events |
 | `characters.md` | Character sheets (invented + real-person usage notes) | updated stats, prose |
@@ -38,7 +42,8 @@ Tonton Marcel's input arrives two ways:
 
 | Tag | Primary destination | Notes |
 |---|---|---|
-| `[IN-GAME]` | `In-Game Operations.md` (session log, roadmap, remaining tasks, goals) | Session logs are raw material for future `Logbook.md` days — real play, not yet fictionalised. Session logs are removed after use in the 'logbook.md' prose - ask Marcel for removing old session logs already implemented |
+| `[IN-GAME]` | `In-Game Operations.md` (session log, roadmap, remaining tasks, goals) **and** its satellites, by topic | Session logs are raw material for future `Logbook.md` days — real play, not yet fictionalised. Session logs are removed after use in the 'logbook.md' prose - ask Marcel for removing old session logs already implemented. Split each note two ways: what *happened* → session log (§4); what was *learned* (steps, pitfalls, stats) → the matching card in a satellite file, refined in place rather than appended |
+| `[PP]` / `[SHIP]` / `[ENGINEERING]` / `[ON-FOOT]` | `Powerplay Missions.md` / `Shipyard.md` / `Engineers & Materials.md` / `On-Foot.md` | Optional finer versions of `[IN-GAME]`; the session-log part of the note still goes to `In-Game Operations.md` §4 |
 | `[NARRATIVE]` | `Logbook.md` | Two modes: **feedback** on existing prose (paragraph-by-paragraph notes to apply as edits), or a **request for new text** to be drafted. Read the note to tell which. |
 | `[CONTEXT]` | Wherever the idea actually belongs — often 'Guidelines.md' but may touch several files at once when context deals with a new/updated plot/event or introduction of new characters and links with in-game logs | Background/worldbuilding ideas, open questions, story mechanics not yet prose |
 | `[CHARACTER]` | `characters.md` | Two modes: **additive** (new material to fold in, may also feed `Logbook.md`), or **corrective** (may require checking whether already-written `Logbook.md` content needs to change for consistency) |
@@ -68,6 +73,11 @@ inconsistencies:
   - This file is updated with the in-game logs history on each `Reviews.md` update.
   - Tasks done are removed from file while Marcel progresses in-game - session logs not yet incorporated in the prose (`logbook.md`) are kept in this file until taken into account or until explicit request from Marcel to remove it.
   - Roadmap is updated when needed, depending on [CONTEXT] inputs in `Reviews.md`
+- `Powerplay Missions.md`, `Shipyard.md`, `Engineers & Materials.md`, `On-Foot.md` (satellites of
+  `In-Game Operations.md` §5, created 25 Sept 2026): no changelog. Cards and checklists are refined
+  in place, never appended to as a log. Each checkbox lives in one place only: the main line (§5)
+  ticks the milestone, the satellite ticks the steps. The PP "this week" table is reset at each
+  Thursday tick, once its results are folded into the cards' Stats lines.
 - `Logbook.md` — no changelog (it's prose), but structural changes of consequence (renumbering,
   cut paragraphs, moved scenes) are worth a one-line mention back to Tonton Marcel in the same
   reply, so nothing silently vanishes without him seeing it.
