@@ -431,7 +431,7 @@ risk-free.
       planetary hangar and a multi-drone controller, plus a newly bought 3A fuel scoop (23 Sept,
       §4) — cargo down to 128 t.
 - [ ] Pacifier v2 (annex A3), remaining: 7A Shield + 6A SCB, Kill Warrant Scanner swap.
-- [ ] The Brick: unchanged. It's the trade-merit engine.
+- [ ] The Brick: It's the trade-merit engine. Optimize on mass, manoeuvrability, interdiction espaces
 
 **Powerplay: ≈230,000 merits remaining to rank 34**
 - [ ] PP trade with The Brick: high-margin sales in the targeted Aisling systems. Precise
