@@ -153,6 +153,47 @@ about, if her file still worked.
 
 ---
 
+## CUBEO — HOME SYSTEM
+
+*Moved here 23 September 2026 from `In-Game Operations.md` (real system/station facts belong in
+this canon file, not the operations tracker — see that file's own `CLAUDE.md` §2).*
+
+Imperial system, **10.02 billion inhabitants**, agriculture/industry economy, Patronage
+government, controlling faction **Prismatic Imperium**, high security, scoopable class F star.
+Powerplay HQ of Aisling Duval.
+
+**Orbital ports**
+
+| Station | Type | Distance |
+|---|---|---|
+| Medupe City | Orbis | 332 Ls |
+| Adelman Station | Orbis | 425 Ls |
+| Chelomey Orbital | Coriolis | ~734 Ls |
+| Weaver Vision | Orbis | ~1,103 Ls |
+| Whittle Orbital | Outpost | ~1,904 Ls |
+
+**Surface ports** — all ~735 Ls, faction *Cubeo Patron's Principles* (≠ Prismatic Imperium)
+
+- Finch Beacon
+- **Lubbock Penal colony**
+- Roskam Enterprise
+
+Plus **4 Odyssey settlements** in the system (on-foot training ground) and over 100 Fleet Carriers
+in orbit.
+
+**Services at Medupe City:** shipyard, outfitting, commodities market, Apex Interstellar, bar,
+contacts, crew lounge, **Frontline Solutions**, missions, Pioneer Supplies, refuel/repair,
+**Search & Rescue**, **system colonisation contact**, Tuning, Universal Cartographics, **Vista
+Genomics**.
+
+Everything fits in a single station. No need to leave Cubeo before Chapter II.
+
+**Note (21 Sept 2026 session, see `In-Game Operations.md` §4):** Roskam Enterprise's controlling
+minor faction, Cubeo Patron's Principles, is a Patronage government under Empire allegiance —
+confirmed "traditional imperialist" in play, matching Marcella's read of it.
+
+---
+
 ## LHS 3447 — WHAT SHE FOUND ON THE MAP (16 September 3312)
 
 Checked in-game, in session, Chapter II Day 6: **LHS 3447** — her own departure system, the one
