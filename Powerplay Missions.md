@@ -43,6 +43,9 @@ Stats line (§4).*
 
 - [ ] After the Thursday tick, read the 5 assignments in the Powerplay screen and map each one
       to a card (§4). An assignment with no matching card gets a new card.
+- [ ] Weekly assignments are **optional bonus merits**: only the very first set after pledging
+      (18 Sept, §4) gated rank progression. If one can't be done this week, skip it and put the
+      time into a merit loop (§3) instead; everything counts toward rank.
 - [ ] Group assignments by region and by hull; do the ship swaps at Medupe City in one go (all
       hulls are stored there, §2).
 - [ ] Before picking a hull, check the pad size at every hand-in station (Clipper = large pad —
