@@ -10,11 +10,16 @@ Finds "buy here -> sell there" trades that should earn Powerplay merits:
     must be bought in a Fortified system of your power within 20 ly or a
     Stronghold within 30 ly of the selling system.
 
-Merit legs are ranked by ESTIMATED MERITS, not credits. Estimate (fitted on
-our own journal sales, 29-30 Sept 2026 - provisional, 4 data points):
-    merits ~= MERIT_K * tons * margin      (per single sale, rounded down)
-so cheap goods at a huge margin beat expensive goods at +40%, and the hold
-must be sold in ONE sale (small lots round to 0).
+Merits depend on the credit PROFIT of each single sale (sell the whole hold
+in ONE sale; small lots round to 0), so merit legs are ranked by profit.
+The published formula (0.375 x sqrt(profit)) is ~10x too high since the trade
+nerf. Our journal sales (29-30 Sept 2026) fit two models, shown as a range:
+    low  (sqrt model)   : SQRT_K x sqrt(profit)
+    high (linear model) : profit / CR_PER_MERIT[R|A]
+They diverge on big sales - the next big sale into an Exploited system
+tells them apart. Observed: 0 merits for 40%+ sales into Aisling
+STRONGHOLDS (twice, incl. 878k CR profit) - skipped by default
+(--skip-states). Fortified destinations are unconfirmed (flagged "?").
 
 For each merit leg it also suggests the best return leg (credits only,
 flagged "PP" if that leg earns merits too).
@@ -44,7 +49,12 @@ from datetime import datetime, timezone
 API = "https://spansh.co.uk/api/stations/search"
 CONTROL_STATES = ("Exploited", "Fortified", "Stronghold")
 ACQ_RANGE = {"Fortified": 20.0, "Stronghold": 30.0}
-MERIT_K = 0.116   # merits per (ton x margin), journal fit - see docstring
+# Fleet carriers: owner-set prices, and carrier goods reportedly earn no
+# PP merits. Construction depots: not real markets. (--allow-carriers)
+EXCLUDED_TYPES = {"Drake-Class Carrier", "Planetary Construction Depot",
+                  "Space Construction Depot"}
+SQRT_K = 0.032                      # journal fit, sqrt model
+CR_PER_MERIT = {"R": 7000, "A": 21000}  # journal fit, linear model
 JOURNAL_DIR = os.path.join(os.path.expanduser("~"), "Saved Games",
                            "Frontier Developments", "Elite Dangerous")
 
@@ -107,14 +117,15 @@ def fetch_stations(ref, radius, pad, extra=None):
     if pad == "M":
         stations = [s for s in stations
                     if s.get("has_large_pad") or (s.get("medium_pads") or 0)]
-    return stations
+    return [s for s in stations if s.get("type") not in EXCLUDED_TYPES]
 
 
 # ---------------------------------------------------------------- helpers --
 def age_days(stamp):
     if not stamp:
         return None
-    t = datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%SZ").replace(
+    stamp = stamp.split(".")[0].rstrip("Z")   # drop fractional seconds
+    t = datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%S").replace(
         tzinfo=timezone.utc)
     return (datetime.now(timezone.utc) - t).total_seconds() / 86400.0
 
@@ -125,11 +136,11 @@ def dist(a, b):
                      (a["system_z"] - b["system_z"]) ** 2)
 
 
-def sell_kind(st, power):
+def sell_kind(st, power, skip_states=()):
     """'R' reinforcement, 'A' acquisition, None if no merits on sale."""
     state = st.get("system_power_state")
     if st.get("system_controlling_power") == power and state in CONTROL_STATES:
-        return "R"
+        return None if state in skip_states else "R"
     if state in (None, "Unoccupied") and power in (st.get("system_power") or []):
         return "A"
     return None
@@ -143,17 +154,14 @@ def acq_source_ok(src, dst, power):
     return limit is not None and dist(src, dst) <= limit
 
 
-def est_merits(qty, margin):
-    """Estimated merits for one sale of qty t at margin (provisional fit)."""
-    return int(MERIT_K * qty * margin)
+def est_merits(profit, kind):
+    """(low, high) merit estimate for one sale - see docstring."""
+    return (int(SQRT_K * math.sqrt(profit)),
+            int(profit / CR_PER_MERIT[kind]))
 
 
 def best_leg(src, dst, cargo, min_margin=None):
-    """Best commodity src -> dst.
-
-    Margin-gated (merit leg): best by estimated merits, then profit.
-    Otherwise (return leg): best by trip profit.
-    """
+    """Best commodity src -> dst by trip profit (optionally margin-gated)."""
     best = None
     sells = {c["commodity"]: c for c in dst.get("market") or []}
     for c in src.get("market") or []:
@@ -169,18 +177,16 @@ def best_leg(src, dst, cargo, min_margin=None):
             continue
         qty = min(cargo, supply, demand)
         leg = {"commodity": c["commodity"], "buy": buy, "sell": sell,
-               "margin": margin, "qty": qty, "profit": qty * (sell - buy),
-               "merits": est_merits(qty, margin)}
-        if best is None or leg_score(leg, min_margin) > \
-                leg_score(best, min_margin):
+               "margin": margin, "qty": qty, "profit": qty * (sell - buy)}
+        if best is None or leg["profit"] > best["profit"]:
             best = leg
     return best
 
 
-def leg_score(leg, min_margin):
-    if min_margin is None:
-        return (leg["profit"],)
-    return (leg["merits"], leg["profit"])
+def merits_txt(leg, kind, dst):
+    lo, hi = est_merits(leg["profit"], kind)
+    flag = "?" if dst.get("system_power_state") == "Fortified" else ""
+    return "merits ~%d..%d%s" % (lo, hi, flag)
 
 
 def is_fresh(st, max_age):
@@ -252,7 +258,7 @@ def sphere_routes(args):
           % (len(stations), len(fresh)))
     routes = []
     for dst in fresh:
-        kind = sell_kind(dst, args.power)
+        kind = sell_kind(dst, args.power, args.skip_states)
         if kind is None or (args.mode == "reinforce" and kind != "R") or \
                 (args.mode == "acquire" and kind != "A"):
             continue
@@ -296,9 +302,18 @@ def main():
                          "--radius and --mode)")
     ap.add_argument("--max-hubs", type=int, default=8,
                     help="nearest hubs to explore in --hubs mode (default 8)")
+    ap.add_argument("--skip-states", default="Stronghold",
+                    help="comma list of own control states where sales earned "
+                         "0 merits in-game (default Stronghold; '' = none)")
+    ap.add_argument("--allow-carriers", action="store_true",
+                    help="keep fleet carriers and construction depots")
     args = ap.parse_args()
     if not args.ref:
         ap.error("no --ref given and no journal found")
+    if args.allow_carriers:
+        EXCLUDED_TYPES.clear()
+    args.skip_states = tuple(s.strip() for s in args.skip_states.split(",")
+                             if s.strip())
 
     print("Reference %s, %s, cargo %d t, pad %s, margin >= %d%%, "
           "markets <= %.0f d old" % (
@@ -308,34 +323,34 @@ def main():
               args.cargo, args.pad, args.margin * 100, args.max_age))
     routes = hub_routes(args) if args.hubs is not None else sphere_routes(args)
 
-    routes.sort(key=lambda r: (r[3]["merits"], r[3]["profit"]), reverse=True)
+    routes.sort(key=lambda r: r[3]["profit"], reverse=True)
     if not routes:
         print("No qualifying route found - try a larger --radius, an older "
               "--max-age or a smaller --cargo.")
         return
-    print("Merits are an estimate (MERIT_K=%.3f x tons x margin). Sell the "
-          "whole hold in ONE sale.\n" % MERIT_K)
+    print("Merit range = sqrt model .. linear model (see docstring); '?' = "
+          "Fortified, unconfirmed.\nSell the whole hold in ONE sale.\n")
 
     for n, (src, dst, kind, leg) in enumerate(routes[:args.top], 1):
         back = best_leg(dst, src, args.cargo)
-        back_pp = sell_kind(src, args.power) == "R" and back and \
-            back["margin"] >= args.margin
+        back_pp = back and back["margin"] >= args.margin and \
+            sell_kind(src, args.power, args.skip_states) == "R"
         print("%2d. [%s] %s (%s) -> %s (%s)  %.1f ly" % (
             n, "Reinf" if kind == "R" else "Acq",
             src["name"], src["system_name"], dst["name"], dst["system_name"],
             dist(src, dst)))
         print("    MERIT LEG  %-26s %6d -> %6d CR  +%4.0f%%  %4d t  "
-              "profit %s CR  ~%d merits" % (
+              "profit %s CR  %s" % (
                   leg["commodity"], leg["buy"], leg["sell"],
                   leg["margin"] * 100, leg["qty"],
-                  format(leg["profit"], ","), leg["merits"]))
+                  format(leg["profit"], ","), merits_txt(leg, kind, dst)))
         if back:
             print("    return     %-26s %6d -> %6d CR  +%4.0f%%  %4d t  "
                   "profit %s CR%s" % (back["commodity"], back["buy"],
                                       back["sell"], back["margin"] * 100,
                                       back["qty"],
                                       format(back["profit"], ","),
-                                      "  (PP too, ~%d merits)" % back["merits"]
+                                      "  PP too: %s" % merits_txt(back, "R", src)
                                       if back_pp else ""))
         print("    market age: buy %.1f d / sell %.1f d   states: %s -> %s" % (
             age_days(src.get("market_updated_at")),

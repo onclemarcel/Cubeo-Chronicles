@@ -73,15 +73,32 @@ Stats line (§4).*
       sales in a row.
   - **Sell the whole hold in one sale.** Merits are worked out per sale and small sales round
     to zero: cobalt lots of 1, 2 and 1 t gave nothing; the 16 t lot gave 9.
-  - **Formula — not settled.** A community formula (merits ≈ 0.375 × √profit) predicts ~90
-    merits for our cobalt lot; we got 9, so it doesn't fit (older data, or nerfed since). Our
-    own four data points fit **merits ≈ 2.3 × 10⁻⁹ × (profit of the sale)²** — cobalt 16 t,
-    62,896 CR → 9; uraninite 20 t, 46,400 CR → 5; 2 t, 7,862 CR → 0. Two non-zero points only,
-    so a simpler "tons × margin" rule fits almost as well; a single full-hold Type-9 sale will
-    tell the two apart (squared: thousands of merits; linear: ~20× the Asp result).
+  - **Formula — not settled; merits follow the credit profit of each sale.** The community
+    formula (0.375 × √profit, Inara guide) is ~10× too high today (trade nerf). Journal data:
+
+    | Date | Sale (one transaction) | Where it was sold | Profit | Merits |
+    |---|---|---|---|---|
+    | 29 Sept | cobalt 16 t | YA-K b23-10 (**Exploited**) | 62,896 | 9 |
+    | 29 Sept | uraninite 20 t | YA-K b23-10 (**Exploited**) | 46,400 | 5 |
+    | 30 Sept | water 758 t, +2,278% | Fefra's Legacy (**acquisition**) | 466,170 | 22 |
+    | 30 Sept | catalysers 10 t, +57% | Fefra's Legacy (acquisition) | 12,920 | 0 |
+    | 30 Sept | silver 10 t, +42% | The Knight's Watch, HIP 3254 (**Stronghold**) | 146,250 | 0 |
+    | 30 Sept | agronomic treatment 758 t, +45% | Chelomey Orbital, Cubeo (**Stronghold**) | 877,764 | **0** |
+
+    Two models fit the paying sales: **≈ 0.032 × √profit**, or **profit ÷ ~7,000 CR
+    (Exploited) / ÷ ~21,000 CR (acquisition)**. They agree on small sales and diverge on big
+    ones (11M CR profit → ~100 vs ~1,500 merits): the next big sale settles it.
+    ✘ The "tons × margin" rule is dead (it predicted ~2,000 for the water, we got 22) —
+    a cheap good at a huge margin earns little. **Aim for big credit profit per sale.**
+  - **Strongholds paid nothing** for 40%+ trade, twice (incl. 878k CR profit). Fortified:
+    untested. Only Exploited reinforcement and acquisition sales have paid so far.
+  - **No fleet carriers** (buy or sell): owner-set prices, and carrier goods reportedly
+    earn no merits. The route finder now skips them.
   - **Route finder:** `python tools/pp_trade_routes.py` (Spansh data; defaults to the current
-    system and ship cargo from the journal; `--radius`, `--max-age`, `--mode acquire`,
-    `--cargo`, `--pad M`). Lists merit legs ≥40% plus the best return leg.
+    system and ship cargo from the journal; `--radius`, `--max-age`, `--mode reinforce|acquire`,
+    `--cargo`, `--pad M`, `--hubs LY` for acquisition around nearby Fortified/Stronghold hubs,
+    `--skip-states` default `Stronghold`). Ranks merit legs ≥40% by profit and shows a merit
+    range (√ model .. linear model; `?` = Fortified, unconfirmed), plus the best return leg.
   - **The 40% gate is strict**: palladium, Type-9, 29 Sept (ZA-K 47,138 → YA-K 59,250, +25.7%),
     668 t sold for 8.1M CR profit → **0 merits**. Check `(sell − buy) / buy ≥ 0.40` before
     loading.
