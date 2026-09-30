@@ -28,7 +28,7 @@
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Defenceless** |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 6 / 25,291 merits** (25 Sept, 07:47 UTC) |
+| Power | Aisling Duval — pledged, **Rank 8 / 51,790 merits** (30 Sept, 18:04 UTC) |
 | Home port | Cubeo — Medupe City |
 | Treasury | **≈2,093,110,558 CR** (23 Sept 2026, ~18:35 UTC, journal-computed — see §4) |
 | Game mode | Solo |
@@ -325,6 +325,30 @@ Source: journal files of 29 Sept, 11:56–19:22 UTC. Merits 34,507 → **34,892*
 one day — once as a thief, once as an executioner — and walking out with the one secret the
 Gabraceni ports never gave up.
 
+### 30 September — The PP Trade Formula, The Brick V2, and the Pyrophyllite Loop (journal-verified)
+
+Source: journal files of 30 Sept, 06:03–18:05 UTC. Merits 34,892 → **51,790** (+16,898;
+**rank 7 → 8**).
+
+- **Trade-merit tests, morning (Asp then Type-9):** eight test sales to work out the PP trade
+  rule (HIP 3254, Fefra's Legacy, Primi, Luphis, Kurosawa Gateway). Result, exact on every sale
+  since: **merits = floor(tons × (sell − 1.4 × buy) × 156 / 1M)** into Exploited/Fortified,
+  ~48 instead of 156 into acquisition systems, 0 into Strongholds. Only the profit above the 40%
+  line counts. Full data and rules: `Powerplay Missions.md` §3.
+- **The Brick V2 refit, 10:29–12:36** (`Shipyard.md`): weapons and chaff sold at Kenig City,
+  7A thrusters + 6A SCO FSD + 5C tank + 4D sensors bought; FSD G5 at Paola Prospect / Farseer,
+  Dirty Drive G3, High Capacity G5 at The Dweller, Reinforced G5 + boosters G3 at Lei Cheung.
+  Lei Cheung unlocked at 11:22 without the planned gold donation. Max jump 26.5 → 35.2 ly.
+- **Cryolite / silver runs, 12:36–13:12:** cryolite Gottlob Frege Point (Ehlanda) → Kurosawa
+  Gateway (Tucanae Sector UT-Z b5) → 1,669 and 1,462 merits; silver at +45% → only 209.
+- **Pyrophyllite loop, 14:44–18:03:** 7 runs Gottlob Frege Point → Kurosawa Gateway (16.9 ly,
+  one jump each way), 758 t per sale, **11,430 merits and 93.9M CR profit**. Merits per run fell
+  1,784 → 1,450 as the buy price rose 8,994 → 10,629 CR (+~320 CR per purchase; barely
+  recovered over a 2 h break). Benchmark in Checkpoint 1 (§5.4).
+- **Donations, 18:03:** two Adamantine Union altruism missions, 1.75M CR → 154 merits (~88 per
+  1M CR *spent* — a trade run *earns* ~13M CR for ~1,600 merits).
+- **One interdiction escaped** on a loaded run — the V2 shields did their job.
+
 ---
 
 ## 5. ROADMAP
@@ -355,7 +379,7 @@ satellite ticks the steps).
 | Gauge | Status | Target | Unlocks |
 |---|---|---|---|
 | Imperial Navy | Viscount | Duke (4 promotions) | Imperial Cutter |
-| Aisling rank | Rank 6 / 25,291 merits | Rank 34 (≈247,000 merits) | Prismatic Shields |
+| Aisling rank | Rank 8 / 51,790 merits | Rank 34 (≈247,000 merits) | Prismatic Shields |
 | Engineering | FSD G5 accessible | Combat and defence engineers at G5, Guardian tech | All target builds, §5.7 |
 | Combat piloting | Novice | Comfortable in HazRES and conflict zones | Actually usable TTK |
 | On-foot gear | Defenceless | Better suits and weapons | Ground missions, §5.2 |
@@ -420,13 +444,14 @@ risk-free.
 - [~] Dart v2 (annex A2) — hull bought 21 Sept; engineering not started.
 - [~] Pacifier v2 (annex A3) — impound cleared and refit done 23 Sept; 7A Shield + 6A SCB and
       Kill Warrant Scanner swap remaining.
-- [~] The Brick V2 — "90 %" plan (annex A5).
+- [x] The Brick V2 — "90 %" plan (annex A5) — done 30 Sept, plus a 6A SCO FSD.
 - [~] Hyperion — FSD G5 done 23 Sept; thrusters at G3 of G5.
 
-**Powerplay** → `Powerplay Missions.md` — ≈222,000 merits remaining to rank 34
+**Powerplay** → `Powerplay Missions.md` — ≈195,000 merits remaining to rank 34 (30 Sept:
+51,790 of ≈247,000 — about 26 h of The Brick's trade loop at ~7,600 merits/h)
 - [ ] Weekly assignments, every Thursday tick.
-- [ ] Three merit loops run and measured: PP trade (The Brick), PP mining (Astroforge), Low RES
-      (Pacifier).
+- [~] Three merit loops run and measured: **PP trade (The Brick) ✔ 30 Sept** (~7,600
+      merits/h, Checkpoint 1 below), PP mining (Astroforge), Low RES (Pacifier).
 
 **Imperial Navy: Viscount → Duke** — remaining: Count → Earl → Marquis → Duke. Duke rank unlocks
 the **Imperial Cutter**. Method: rank up to **Allied** with an Imperial faction in a dense system
@@ -444,10 +469,33 @@ merit grinding.
 
 **Engineers** → `Engineers & Materials.md`
 - [ ] Tod McQuinn unlocked (unclaimed bounty-voucher donation — prerequisite: the Low RES loop).
-- [ ] Lei Cheung unlocked (via The Dweller and The Brick V2 plan, step 5).
+- [x] Lei Cheung unlocked (via The Dweller) — 30 Sept 11:22, rank 5 the same day; the gold
+      donation of step 5 wasn't needed.
 
 **📍 Checkpoint 1 — the merit engines are running**
-- [ ] Merits/h measured for The Brick, Astroforge and Pacifier. Pick the best loop.
+- [~] Merits/h measured for The Brick, Astroforge and Pacifier. Pick the best loop.
+      **The Brick ✔ (30 Sept)** — benchmark below; Astroforge and Pacifier still to measure.
+
+  **Benchmark — PP trade, The Brick V2** (Type-9, 758 t, engineered; baseline for the future
+  Cornucopia and for the other loops). Route: Pyrophyllite, Gottlob Frege Point (Ehlanda,
+  Stronghold) → Kurosawa Gateway (Tucanae Sector UT-Z b5, Fortified), 16.9 ly = one jump each
+  way, stations at 24 ls and 442 ls. Source: journal, 30 Sept.
+
+  | Metric | Value | Notes |
+  |---|---|---|
+  | Round trip (sale to sale) | **~11.3 min** (10.9–11.6) | 14.9 min once, when the route plotted 3 jumps |
+  | Merits per run | 1,784 → 1,450 | Falls ~65 per run as the buy price climbs |
+  | Profit per run | 14.2M → 12.5M CR | |
+  | **Merits/h — full session** | **~7,640** | 17:01 login → 18:03 last sale: 5 runs, 7,897 merits |
+  | **Credits/h — full session** | **~63.7M CR** | 65.8M CR profit over the same 62 min |
+  | Merits/h — steady cycle | ~7,600 | 4 cycles in 48.9 min, 6,188 merits |
+  | Best case (fresh price, 11 min cycle) | ~9,500 | First run's 1,784 merits × 5.3 runs/h |
+
+  How to compare another ship or loop: **merits/h = runs per hour × tons × (sell − 1.4 × buy)
+  × 156 / 1M**. The Brick's levers are tonnage (758 t) and a one-jump route; for the
+  Cornucopia, compare the same route with its cargo and its round-trip time. The route itself
+  wears out: each purchase raises the buy price ~320 CR, so rotate commodities/sources
+  (`tools/pp_trade_routes.py` ranks them with the formula).
 - [ ] Pacifier: 10 Low RES sessions with no losses, combat rank at least Competent.
 - [ ] Hyperion's FSD at G5, Pacifier's boosters and shield at G3+.
 

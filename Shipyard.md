@@ -46,8 +46,16 @@ annex A3 (v2), annex B4 (Diplomat).
 *Role:* trade CGs, PP trade. *Fate:* stored at the Medupe City museum in Phase 5, replaced by the
 Cornucopia. *Spec:* annex A5.
 
-- [~] The Brick V2 — the trade-merit engine, optimised for mass, manoeuvrability and interdiction
+- [x] The Brick V2 — the trade-merit engine, optimised for mass, manoeuvrability and interdiction
       escapes. Full checklist below ("The Brick V2 — '90 %' plan"); target build in annex A5.
+      **Done 30 Sept 2026** (journal `Loadout`, 12:36 UTC): every 90 % item fitted, plus
+      Super Capacitors on all 4 boosters, Drag Drives on the thrusters, a **6A SCO FSD**
+      (Increased Range G5 + Deep Charge) and Lightweight G1 sensors. Max jump 26.5 → 35.2 ly.
+      Mass (journal `Loadout`, unladen): original 1,096.8 t → V2 unengineered 1,076.0 t →
+      V2 engineered **1,087.2 t** — all the engineering together adds only ~11 t (~0.6 % of
+      laden mass), and V2 is still ~10 t lighter than the original. Shield engineering kept:
+      it costs almost no range and buys the time to escape interdictions (one escaped easily
+      on 30 Sept).
 
 **The Brick V2 — "90 %" plan (Type-9, solo, trade / Aisling Powerplay)** — added 25 Sept 2026
 from Tonton Marcel's plan (written in French, translated here). Estimated time **6–10 h**.
@@ -123,10 +131,12 @@ by their material rewards; trade surpluses at a Material Trader (manufactured, r
 
 *5. Lei Cheung — Laksak, Trader's Rest (≈ 2 h)*
 - Unlock:
-  - [ ] Trade at enough extra markets to pass 50, if not already there.
-  - [ ] Buy 200 t of Gold in Laksak (Pinto City or Hedin Hub, whichever is cheaper), one trip
-        with The Brick.
-  - [ ] Donate the Gold to Lei Cheung (Trader's Rest).
+  - [x] **Not needed** — journal 30 Sept: invitation (*Known*) at 11:17 while rolling at The
+        Dweller, **Unlocked** at 11:22, no gold donation (`EngineerContribution`) logged. The
+        200 t of Gold bought at Rotsler Station (Laksak, 43,101 CR/t) was never asked for;
+        carried along (lower jump range on that leg) and sold at Gottlob Frege Point
+        (43,587 CR/t, +97,200 CR).
+  - Rank 1 → 5 reached while crafting the shield, 12:01–12:09.
 - Shield:
   - [ ] Reinforced G1 → G3 (Phosphorus; + Conductive Components; + Mechanical Components).
   - [ ] Reinforced G4 (Manganese + Conductive Ceramics + Configurable Components).
@@ -405,7 +415,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
   "ship": "Type-9 Heavy (bridge ship, non-Gutamaya)",
   "name": "\"The Brick\" T9-01",
   "role": "PP merit engine through trade, and trade/colonisation CGs, until the Cornucopia arrives",
-  "status": "V2 refit in progress (Phase 1, 'The Brick V2 — 90 % plan', §5.4). Cargo 758 t unchanged",
+  "status": "V2 done 30 Sept 2026 (journal Loadout 12:36 UTC), plus 6A SCO FSD. Cargo 758 t unchanged, max jump 35.2 ly",
   "hardpoints": "Empty (all weapons sold)",
   "utility_mounts": [
     "0A Shield Booster — Thermal Resistant G3",
@@ -417,7 +427,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
   "core_internals": {
     "power_plant": "6A stock (25.2 MW, everything on priority 1)",
     "thrusters": "7A — Dirty Drive G3 (+ Drag Drives if offered); G5 via Professor Palin later",
-    "frame_shift_drive": "6B — Increased Range G5 + Deep Charge (unchanged)",
+    "frame_shift_drive": "6A SCO (overcharge) — Increased Range G5 + Deep Charge (upgraded from 6B, 30 Sept)",
     "power_distributor": "6A — High Capacity G5 + Super Conduits (The Dweller)",
     "sensors": "4D", "fuel_tank": "5C (32 t)"
   },

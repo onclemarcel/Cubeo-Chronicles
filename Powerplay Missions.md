@@ -62,8 +62,10 @@ Stats line (§4).*
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈212,000 merits remaining to rank 34** (≈247,000 − 34,892)
-- [ ] PP trade with The Brick: high-margin sales in the targeted Aisling systems.
+**Powerplay: ≈195,000 merits remaining to rank 34** (≈247,000 − 51,790, 30 Sept)
+- [x] PP trade with The Brick: high-margin sales in the targeted Aisling systems — **measured
+      30 Sept: ~7,600 merits/h, ~64M CR/h** (pyrophyllite loop, benchmark in
+      `In-Game Operations.md` Checkpoint 1).
   - **Rules** (community guides, matched by our 29 Sept journal): sale must make **≥ 40% profit**.
     - *Reinforcement system* (any Aisling-controlled system, incl. Exploited): goods can come
       from anywhere. ✔ paid at Col 285 Sector YA-K b23-10.
@@ -87,20 +89,26 @@ Stats line (§4).*
     | 30 Sept | agronomic treatment 758 t, +45% | Chelomey Orbital, Cubeo (**Stronghold**) | 877,764 | **0** |
     | 30 Sept | **A**: silver 758 t, +41.7% | Flettner Ring, Primi (**Fortified**) | 10,626,402 | **67** |
     | 30 Sept | **B**: lepidolite 758 t, +232% | Ackerman's Folly, Luphis (**Exploited**) | 626,866 | **80** |
-    | 30 Sept | **C** (split test): silver 1 / 5 / 10 / 25 / 50 / 667 t, +41.7% | Flettner Ring, Primi (Fortified) — **demand only 64 t** | 14,019 CR/t | 0 / 0 / 0 / **2** / **4** / *none logged* |
+    | 30 Sept | **C** (split test): silver 1 / 5 / 10 / 25 / 50 / 667 t, +41.7% | Flettner Ring, Primi (Fortified) — **demand only 64 t** | 14,019 CR/t | 0 / 0 / 0 / **2** / **4** / **59** (seen in the login total) |
+    | 30 Sept | **D**: cryolite 758 t, +189% | Kurosawa Gateway, Tucanae Sector UT-Z b5 (Fortified) | 14,148,070 | **1,740** |
+    | 30 Sept | cryolite 758 t, +178% (bought 10,217) | Kurosawa Gateway (Fortified) | 13,799,390 | **1,669** |
+    | 30 Sept | silver 758 t, +45%, demand 4,023 t | Kurosawa Gateway (Fortified) | 11,537,518 | **209** |
+    | 30 Sept | cryolite 758 t, +149% (bought 11,345) | Kurosawa Gateway (Fortified) | 12,817,780 | **1,462** |
 
-    | 30 Sept | **D**: cryolite 758 t, +189% | Kurosawa Gateway, Tucanae Sector UT-Z b5 (Fortified), demand 9,496 t | 14,148,070 | **1,740** |
+    **✔ Formula — exact on 13 of 14 sales (the 14th, acquisition, is 1 off):**
 
-    (C's 667 t lot paid **59** — seen in the login total, 35,067 → 35,126.)
+    > **merits = floor( tons × (sell − 1.4 × buy) × 156 / 1,000,000 )**
+    > into Exploited or Fortified systems; ~**48** instead of 156 into an acquisition system.
 
-    **✔ Formula found: merits ≈ 125 per 1M CR of profit, per sale**, into Exploited or
-    Fortified systems: cobalt 143, uraninite 108, lepidolite 128, cryolite 123 per 1M CR —
-    from 16 t to 758 t, 46k to 14M CR profit. Acquisition (water, one sale): ~47 per 1M CR.
-    Rounded down per sale → **sell the whole hold at once**. Margin only has to pass 40%;
-    after that, **credit profit per sale is what counts** (big hold × big profit per tonne).
-    ✘ **Exception — low-demand market**: every silver lot at Flettner Ring (demand 64 t,
-    demand bracket 1) paid ~6 per 1M CR, 20× less, even the lots still within demand.
-    Always check in-game that demand is well above the load before buying.
+    **Only the profit above the 40% line counts.** Silver at +45% leaves ~1,770 CR/t above
+    the line (209 merits for 11.5M CR profit); cryolite at +190% leaves ~14,700 CR/t
+    (1,740 merits for 14.1M CR). It's neither the material nor demand: the old
+    "low-demand penalty" was just silver's thin margin (demand 4,023 t at Kurosawa paid
+    the same low rate). Rounded down per sale → **sell the whole hold at once**.
+    **Buying pushes the price up**: cryolite went 9,859 → 10,217 → 11,345 at Gottlob Frege
+    over three runs, and the merits fell 1,740 → 1,669 → 1,462. Rotate goods.
+    **Best trade:** high margin (well above 40%) × high price per tonne × full hold.
+    Route finder uses the formula (`tools/pp_trade_routes.py`).
 
     ✘ **Credit profit does not drive merits**: B made 17× less profit than A and earned more.
     ✘ Both models tried so far (√profit, profit-linear) and "tons × margin" are dead.
