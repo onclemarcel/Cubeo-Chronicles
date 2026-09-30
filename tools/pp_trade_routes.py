@@ -10,15 +10,16 @@ Finds "buy here -> sell there" trades that should earn Powerplay merits:
     must be bought in a Fortified system of your power within 20 ly or a
     Stronghold within 30 ly of the selling system.
 
-Merit formula: UNKNOWN - no merit estimate is shown. Journal facts (29-30
-Sept 2026, see Powerplay Missions.md §3):
-  * a full 758 t Type-9 sale earned 67 (10.6M CR profit, Fortified) and 80
-    (0.6M CR profit, Exploited): credit profit does NOT drive merits, and a
-    bulk sale seems to stall around 70-80 merits (diminishing returns per
-    sale - players report splitting sales into lots pays more);
+Merit estimate (journal fit, 29-30 Sept 2026, see Powerplay Missions.md §3):
+  * merits ~ MERITS_PER_MCR x profit of ONE sale: ~125 per 1M CR into
+    Exploited/Fortified (cobalt 143, uraninite 108, lepidolite 128, cryolite
+    123 - from 16 t to 758 t), ~47 per 1M CR into an acquisition system
+    (1 sale). Rounded down per sale: sell the whole hold at once.
+  * exception: a LOW-DEMAND market (Flettner Ring silver, 64 t) paid ~6
+    per 1M CR - 20x less - on every lot, even within demand;
   * 0 merits for 40%+ sales into Aisling STRONGHOLDS (twice) - skipped by
-    default (--skip-states). Exploited, Fortified and acquisition pay.
-Routes are ranked by profit (credits). Merit legs need Spansh demand >= the
+    default (--skip-states).
+Routes are ranked by estimated merits. Merit legs need Spansh demand >= the
 cargo (--min-demand; Flettner Ring had 64 t demand for our 758 t silver, and
 the lots above demand paid nothing). Demand below 4x the load can also crash
 the price (Luphis, 6,046 -> 1,184 CR) - such legs are flagged LOW DEMAND.
@@ -57,6 +58,10 @@ ACQ_RANGE = {"Fortified": 20.0, "Stronghold": 30.0}
 EXCLUDED_TYPES = {"Drake-Class Carrier", "Planetary Construction Depot",
                   "Space Construction Depot"}
 DEMAND_FACTOR = 4   # demand < 4x the load crashes the price (herzbube wiki)
+# Merits per 1M CR of profit (one sale), journal fit 29-30 Sept 2026:
+# reinforcement (Exploited/Fortified) 108-143 over 4 sales, acquisition 47
+# (1 sale). A low-demand market paid ~6 (Flettner Ring silver, demand 64 t).
+MERITS_PER_MCR = {"R": 125.0, "A": 47.0}
 JOURNAL_DIR = os.path.join(os.path.expanduser("~"), "Saved Games",
                            "Frontier Developments", "Elite Dangerous")
 
@@ -181,6 +186,11 @@ def best_leg(src, dst, cargo, min_margin=None, min_demand=0):
         if best is None or leg["profit"] > best["profit"]:
             best = leg
     return best
+
+
+def est_merits(leg, kind):
+    """Estimated merits for one sale of the whole leg (journal fit)."""
+    return int(leg["profit"] / 1e6 * MERITS_PER_MCR[kind])
 
 
 def demand_txt(leg):
@@ -330,13 +340,15 @@ def main():
               args.cargo, args.pad, args.margin * 100, args.max_age))
     routes = hub_routes(args) if args.hubs is not None else sphere_routes(args)
 
-    routes.sort(key=lambda r: r[3]["profit"], reverse=True)
+    routes.sort(key=lambda r: (est_merits(r[3], r[2]), r[3]["profit"]),
+                reverse=True)
     if not routes:
         print("No qualifying route found - try a larger --radius, an older "
               "--max-age or a smaller --cargo.")
         return
-    print("No merit estimate (formula unknown - see docstring). Observed: "
-          "~70-80 merits per full-hold sale.\n")
+    print("Merits ~ %d per 1M CR profit (reinforcement) / %d (acquisition), "
+          "one sale, demand >= load.\n" % (MERITS_PER_MCR["R"],
+                                          MERITS_PER_MCR["A"]))
 
     for n, (src, dst, kind, leg) in enumerate(routes[:args.top], 1):
         back = best_leg(dst, src, args.cargo)
@@ -347,10 +359,11 @@ def main():
             src["name"], src["system_name"], dst["name"], dst["system_name"],
             dist(src, dst)))
         print("    MERIT LEG  %-26s %6d -> %6d CR  +%4.0f%%  %4d t  "
-              "profit %s CR  %s" % (
+              "profit %s CR  ~%d merits  %s" % (
                   leg["commodity"], leg["buy"], leg["sell"],
                   leg["margin"] * 100, leg["qty"],
-                  format(leg["profit"], ","), demand_txt(leg)))
+                  format(leg["profit"], ","), est_merits(leg, kind),
+                  demand_txt(leg)))
         if back:
             print("    return     %-26s %6d -> %6d CR  +%4.0f%%  %4d t  "
                   "profit %s CR%s" % (back["commodity"], back["buy"],

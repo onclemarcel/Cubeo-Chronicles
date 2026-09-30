@@ -89,13 +89,18 @@ Stats line (§4).*
     | 30 Sept | **B**: lepidolite 758 t, +232% | Ackerman's Folly, Luphis (**Exploited**) | 626,866 | **80** |
     | 30 Sept | **C** (split test): silver 1 / 5 / 10 / 25 / 50 / 667 t, +41.7% | Flettner Ring, Primi (Fortified) — **demand only 64 t** | 14,019 CR/t | 0 / 0 / 0 / **2** / **4** / *none logged* |
 
-    Split test C: on the same route, merits are **linear in tonnage, floored per sale**
-    (~0.08 merit/t: 25 t → 2, 50 t → 4, 10 t → 0; A's 758 t → 67 = 0.088/t). **Splitting a
-    hold doesn't multiply merits** — it only loses the rounding on each lot. The 667 t lot
-    (way above the 64 t demand) logged no merit event before the game shut down: check the
-    total at next login (35,067 before it). The per-tonne rate differs between routes
-    (silver 0.085, lepidolite 0.106, cobalt 0.56, uraninite 0.25, water 0.029) — what sets
-    it is still unknown.
+    | 30 Sept | **D**: cryolite 758 t, +189% | Kurosawa Gateway, Tucanae Sector UT-Z b5 (Fortified), demand 9,496 t | 14,148,070 | **1,740** |
+
+    (C's 667 t lot paid **59** — seen in the login total, 35,067 → 35,126.)
+
+    **✔ Formula found: merits ≈ 125 per 1M CR of profit, per sale**, into Exploited or
+    Fortified systems: cobalt 143, uraninite 108, lepidolite 128, cryolite 123 per 1M CR —
+    from 16 t to 758 t, 46k to 14M CR profit. Acquisition (water, one sale): ~47 per 1M CR.
+    Rounded down per sale → **sell the whole hold at once**. Margin only has to pass 40%;
+    after that, **credit profit per sale is what counts** (big hold × big profit per tonne).
+    ✘ **Exception — low-demand market**: every silver lot at Flettner Ring (demand 64 t,
+    demand bracket 1) paid ~6 per 1M CR, 20× less, even the lots still within demand.
+    Always check in-game that demand is well above the load before buying.
 
     ✘ **Credit profit does not drive merits**: B made 17× less profit than A and earned more.
     ✘ Both models tried so far (√profit, profit-linear) and "tons × margin" are dead.
