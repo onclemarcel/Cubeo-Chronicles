@@ -71,8 +71,9 @@ Stats line (§4).*
       within 20 ly or a Stronghold within 30 ly**. Goods from an *Exploited* system don't count.
       ✘ Our medicines (bought at YA-K b23-10, Exploited) paid **0 merits** at ZA-K b23-1, five
       sales in a row.
-  - **Sell the whole hold in one sale.** Merits are worked out per sale and small sales round
-    to zero: cobalt lots of 1, 2 and 1 t gave nothing; the 16 t lot gave 9.
+  - **Sell the whole hold in one sale** (answered by split test C): merits are linear in
+    tonnage and rounded down per sale, so small lots only lose merits. **Demand must cover
+    the load** — check it in-game before buying (the route finder filters on Spansh demand).
   - **Formula — not settled; merits follow the credit profit of each sale.** The community
     formula (0.375 × √profit, Inara guide) is ~10× too high today (trade nerf). Journal data:
 
@@ -84,21 +85,34 @@ Stats line (§4).*
     | 30 Sept | catalysers 10 t, +57% | Fefra's Legacy (acquisition) | 12,920 | 0 |
     | 30 Sept | silver 10 t, +42% | The Knight's Watch, HIP 3254 (**Stronghold**) | 146,250 | 0 |
     | 30 Sept | agronomic treatment 758 t, +45% | Chelomey Orbital, Cubeo (**Stronghold**) | 877,764 | **0** |
+    | 30 Sept | **A**: silver 758 t, +41.7% | Flettner Ring, Primi (**Fortified**) | 10,626,402 | **67** |
+    | 30 Sept | **B**: lepidolite 758 t, +232% | Ackerman's Folly, Luphis (**Exploited**) | 626,866 | **80** |
+    | 30 Sept | **C** (split test): silver 1 / 5 / 10 / 25 / 50 / 667 t, +41.7% | Flettner Ring, Primi (Fortified) — **demand only 64 t** | 14,019 CR/t | 0 / 0 / 0 / **2** / **4** / *none logged* |
 
-    Two models fit the paying sales: **≈ 0.032 × √profit**, or **profit ÷ ~7,000 CR
-    (Exploited) / ÷ ~21,000 CR (acquisition)**. They agree on small sales and diverge on big
-    ones (11M CR profit → ~100 vs ~1,500 merits): the next big sale settles it.
-    ✘ The "tons × margin" rule is dead (it predicted ~2,000 for the water, we got 22) —
-    a cheap good at a huge margin earns little. **Aim for big credit profit per sale.**
-  - **Strongholds paid nothing** for 40%+ trade, twice (incl. 878k CR profit). Fortified:
-    untested. Only Exploited reinforcement and acquisition sales have paid so far.
+    Split test C: on the same route, merits are **linear in tonnage, floored per sale**
+    (~0.08 merit/t: 25 t → 2, 50 t → 4, 10 t → 0; A's 758 t → 67 = 0.088/t). **Splitting a
+    hold doesn't multiply merits** — it only loses the rounding on each lot. The 667 t lot
+    (way above the 64 t demand) logged no merit event before the game shut down: check the
+    total at next login (35,067 before it). The per-tonne rate differs between routes
+    (silver 0.085, lepidolite 0.106, cobalt 0.56, uraninite 0.25, water 0.029) — what sets
+    it is still unknown.
+
+    ✘ **Credit profit does not drive merits**: B made 17× less profit than A and earned more.
+    ✘ Both models tried so far (√profit, profit-linear) and "tons × margin" are dead.
+    A full Type-9 hold sold in one go earns only **~70–80 merits** whatever the profit —
+    consistent with player reports of **diminishing returns per sale** (merits per tonne drop
+    as the lot grows; some split sales down to 1 t). Next test: split a hold into rising lots.
+  - **Demand ≥ 4× the load**, or the price crashes: Luphis showed 6,046 CR on Spansh, paid
+    1,184 CR for 758 t. The route finder flags such legs `LOW DEMAND`.
+  - **Strongholds paid nothing** for 40%+ trade, twice (incl. 878k CR profit). **Fortified
+    pays** (A), Exploited pays (B, 29 Sept), acquisition pays (water).
   - **No fleet carriers** (buy or sell): owner-set prices, and carrier goods reportedly
     earn no merits. The route finder now skips them.
   - **Route finder:** `python tools/pp_trade_routes.py` (Spansh data; defaults to the current
     system and ship cargo from the journal; `--radius`, `--max-age`, `--mode reinforce|acquire`,
     `--cargo`, `--pad M`, `--hubs LY` for acquisition around nearby Fortified/Stronghold hubs,
-    `--skip-states` default `Stronghold`). Ranks merit legs ≥40% by profit and shows a merit
-    range (√ model .. linear model; `?` = Fortified, unconfirmed), plus the best return leg.
+    `--skip-states` default `Stronghold`, fleet carriers skipped). Ranks merit legs ≥40% by
+    profit, flags `LOW DEMAND`, no merit estimate (formula unknown); plus the best return leg.
   - **The 40% gate is strict**: palladium, Type-9, 29 Sept (ZA-K 47,138 → YA-K 59,250, +25.7%),
     668 t sold for 8.1M CR profit → **0 merits**. Check `(sell − buy) / buy ≥ 0.40` before
     loading.

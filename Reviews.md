@@ -3,10 +3,8 @@
 *Ephemeral. Tonton Marcel's session notes land here, tagged; cleared once distributed into their
 target files — see `CLAUDE.md` §3.*
 
+Next test, clean on demand:
 
-Two tests, Type-9, one sale each (check prices in-game before loading):
-
-Test	Route	Profit	Merits: √ model / linear model	What it settles
-A	Silver: Gunter Port (HIP 1937, Stronghold) → Flettner Ring (Primi, Fortified), 9.7 ly	~11.2M CR	~107 / ~1,600	Whether Fortified pays, and which model holds at high profit
-B	Lepidolite: Nouvel Platform (Theta Octantis) → Ackerman's Folly (Luphis, Exploited), 24.2 ly	~4.3M CR	~66 / ~608	Which model holds, in a system type we know pays
-Test A needs about 25.5M CR to buy the full hold.
+Buy 758 t of Cryolite at Gottlob Frege Point (Ehlanda) for 9,859 CR/t, about 7.5M CR in total.
+Sell at Kurosawa Gateway (Tucanae Sector UT-Z b5, Fortified), 16.9 ly away, for 28,760 CR: +192%, about 14.3M CR profit. Spansh shows 9,493 t of demand, over 12 times your load.
+Check demand in-game first, then sell in one sale.
