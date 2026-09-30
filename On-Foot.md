@@ -139,9 +139,25 @@ faction before landing. On a heist a scan alone is not stealth: being challenged
 submitting is logged as a crime and turns the site hostile (§5.2 step 3, *cut the reactor first*,
 is still the untried fix).
 
-- **Stats:** 1 run, failed · last: 21 Sept, Kohli Cultivation Base (Prismatic job against a
-  Cubeo Patron's Principles site) — challenged, didn't submit, killed by a security drone.
+- **Stats:** 2 runs · 1 failed, 1 success · last: 29 Sept, **Simon Biochemical Forum**
+  (Sarana 6 b, high-tech, anarchy faction) — covert variant (`Mission_OnFoot_Heist_Covert_MB`),
+  biological samples stolen, 191,735 CR + data materials (offer 314,235 CR; the difference is
+  the materials reward option).
 
 ### 4.4 Settlement reactivation / data recovery
 
 - Not yet played — §1 steps 1–2, Phase 1 in §3 above.
+
+### 4.5 On-foot massacre (`Mission_OnFoot_MassacreIllegal_MB`)
+
+- **Recognise it:** kill N members of a named faction's personnel at a settlement.
+- **Run:**
+  - [ ] Use the SRV to come and go (in and out of the settlement several times on 29 Sept).
+  - [ ] While the site is cleared, open its data ports: Power data, possibly classified
+        (`Powerplay Missions.md` 4.8).
+- **Pitfalls:** each kill logs `onFoot_murder` with a 1,000 CR bounty from the target faction,
+  even in an anarchy system — check your status/bounties before docking elsewhere. Killing far
+  more than required (about 45 for 11) adds bounties but no pay.
+- **Stats:** 1 run, success · last: 29 Sept, **Sharma Analytics Installation** (Sarana 6 a,
+  high-tech) for The Eldaren — 18,863 CR + 14× Weapon Schematic (offer 308,863 CR; the
+  materials option was taken again).

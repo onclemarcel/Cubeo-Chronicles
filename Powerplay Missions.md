@@ -18,8 +18,8 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **6** (`PowerplayRank`, 25 Sept 2026 07:17 UTC) |
-| Merits | **25,291** (`PowerplayMerits`, 25 Sept 2026 07:47 UTC) |
+| Rank | **7** (`Powerplay`, 29 Sept 2026 18:36 UTC) |
+| Merits | **34,892** (`PowerplayMerits`, 29 Sept 2026 19:20 UTC) |
 | Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
 
 ---
@@ -62,9 +62,31 @@ Stats line (§4).*
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈222,000 merits remaining to rank 34** (≈247,000 − 25,291)
-- [ ] PP trade with The Brick: high-margin sales in the targeted Aisling systems. Precise
-      buy/sell rules to verify in the Powerplay interface.
+**Powerplay: ≈212,000 merits remaining to rank 34** (≈247,000 − 34,892)
+- [ ] PP trade with The Brick: high-margin sales in the targeted Aisling systems.
+  - **Rules** (community guides, matched by our 29 Sept journal): sale must make **≥ 40% profit**.
+    - *Reinforcement system* (any Aisling-controlled system, incl. Exploited): goods can come
+      from anywhere. ✔ paid at Col 285 Sector YA-K b23-10.
+    - *Acquisition system* (Unoccupied): goods must be **bought in an Aisling Fortified system
+      within 20 ly or a Stronghold within 30 ly**. Goods from an *Exploited* system don't count.
+      ✘ Our medicines (bought at YA-K b23-10, Exploited) paid **0 merits** at ZA-K b23-1, five
+      sales in a row.
+  - **Sell the whole hold in one sale.** Merits are worked out per sale and small sales round
+    to zero: cobalt lots of 1, 2 and 1 t gave nothing; the 16 t lot gave 9.
+  - **Formula — not settled.** A community formula (merits ≈ 0.375 × √profit) predicts ~90
+    merits for our cobalt lot; we got 9, so it doesn't fit (older data, or nerfed since). Our
+    own four data points fit **merits ≈ 2.3 × 10⁻⁹ × (profit of the sale)²** — cobalt 16 t,
+    62,896 CR → 9; uraninite 20 t, 46,400 CR → 5; 2 t, 7,862 CR → 0. Two non-zero points only,
+    so a simpler "tons × margin" rule fits almost as well; a single full-hold Type-9 sale will
+    tell the two apart (squared: thousands of merits; linear: ~20× the Asp result).
+  - **Route finder:** `python tools/pp_trade_routes.py` (Spansh data; defaults to the current
+    system and ship cargo from the journal; `--radius`, `--max-age`, `--mode acquire`,
+    `--cargo`, `--pad M`). Lists merit legs ≥40% plus the best return leg.
+  - **The 40% gate is strict**: palladium, Type-9, 29 Sept (ZA-K 47,138 → YA-K 59,250, +25.7%),
+    668 t sold for 8.1M CR profit → **0 merits**. Check `(sell − buy) / buy ≥ 0.40` before
+    loading.
+  - Asp (20 t) measurement, 29 Sept: 14 merits for ~30 min → **~30 merits/h**. Not worth it in
+    the Asp; retry with the Type-9 (moved to YA-K b23-10 the same evening).
 - [ ] PP mining with Astroforge: mine and sell in the same reinforcement system.
 - [ ] Light PP combat with Pacifier: Low RES in the reinforcement system. **Do not redeem the
       bounty vouchers this time** — carry them to Wolf 397 (Trophy Camp) once past 100k CR
@@ -160,3 +182,85 @@ specific week — the week's progress lives in §1.*
 - **Pitfalls:** none met so far — "easier than expected."
 - **Stats:** 1 run · +3,200 merits · last: 18 Sept, **Chinovane** (pop. 2,133, exploited) — nav
   beacon, 19:42–19:48, ~6 min.
+
+### 4.6 Holoscreens, rival system
+
+- **Recognise it:** hack holoscreens at a station in a system **another Power controls** (the
+  screens show that Power's adverts).
+- **Ship:** any hull with a **recon limpet controller** and recon limpets.
+- **Run:**
+  - [ ] Pick a system controlled by another Power, next to Aisling's border.
+  - [ ] Drop at the station, target a holoscreen, launch a recon limpet (+merits per hack).
+  - [ ] Back to supercruise, drop again: the screens reset, hack them again. Repeat until the
+        assignment pays out.
+- **Pitfalls:** none met — "easy." Every screen can be selected in these systems.
+- **Stats:** 1 assignment · +4,800 merits (+ 14 × 86 per hack) · last: 25 Sept, **Shui Wei
+  Sector VT-R b4-5** (Lavigny-Duval, Exploited), Lounge Reach — 06:32–06:52, ~20 min.
+
+### 4.7 Holoscreens, reinforcement
+
+- **Recognise it:** hack holoscreens in an **Aisling system** that needs reinforcing.
+- **Ship:** any hull with a **recon limpet controller** and recon limpets.
+- **What to look for (the tricky part):** in your own system you can only hack a screen that
+  **another Power has already hijacked** — a screen showing Aisling cannot even be selected.
+  Hijacked screens are only found where rivals are active:
+  - [ ] An Aisling system **on the border**, whose `Powers` list (journal `FSDJump`, or the
+        system panel) names **several other Powers**. Amaneque had four.
+  - [ ] Marked as a **priority system for reinforcement** in the Powerplay screen (active
+        undermining).
+  - [ ] High undermining alone is **not** enough: HIP 5700 (Stronghold, 20,526 undermining) and
+        Wababa list only Aisling — no screen could be selected there.
+- **Run:**
+  - [ ] Drop at the station, check every screen; the selectable ones are the hijacked ones.
+  - [ ] Recon limpet on it (+merits per hack).
+  - [ ] Back to supercruise, drop again: the screen shows the rival's adverts again — one screen
+        is enough for the whole assignment.
+- **Pitfalls:**
+  - A day lost searching Aisling-only systems (25 Sept) before finding the rule above.
+  - Merits per hack dropped from 100 (25 Sept) to 65 (26 Sept) — reason unconfirmed (maybe the
+    system's reinforcement going up).
+- **Stats:** 1 assignment · +2,400 merits (+ 5 × 100 and 7 × 65 per hack) · last: 25–26 Sept,
+  **Amaneque** (Aisling, Exploited; Lavigny-Duval, Mahon, Torval also present), Gilliland Colony
+  (outpost) — completed 26 Sept 09:18.
+
+### 4.8 Power classified data (settlement data ports)
+
+*Not completed yet — this card holds what is known so far.*
+
+- **Recognise it:** download **Power classified data** at settlement data ports and hand it in.
+- **Ship / suit:** any ship that can land near the settlement; on-foot suit and a tool to open
+  the data ports.
+- **What to look for (the tricky part):** the assignment says **download in a reinforcement
+  system and deliver in the same system** (an Aisling system being reinforced).
+  - [ ] Settlement type does **not** seem to decide it: players report classified data drops
+        **at random from any type of settlement data port**, with a low chance (Steam thread,
+        not confirmed by Frontier). Our own results agree: tourism, industrial, agricultural and
+        military settlements all gave only the common data types (see Pitfalls).
+  - [ ] So it is a **volume game**: open as many data ports as possible in one reinforcement
+        system, and hand in the common data as you go (it pays merits too, see Stats).
+  - [ ] Faster ways to open many ports: "restore power" / "power up" missions at abandoned
+        settlements (one player got classified data this way) — **untested here**; and
+        settlements in anarchy systems — ✔ **worked once** (29 Sept, see Stats).
+  - [ ] Pair it with an on-foot massacre mission against the same settlement's faction: you
+        clear the guards anyway, then open the ports in peace (29 Sept, Sarana).
+- **Run:**
+  - [ ] Land, find the data ports, download.
+  - [ ] Check the backpack for `powerclassifieddata` before leaving.
+  - [ ] Hand in at the Power contact **in the same system**.
+- **Pitfalls:**
+  - 25 Sept — settlements in Aisling-controlled systems gave only the other Power data types
+    (association, industrial, political); never classified:
+    - Sasaki Tourism Lodge (Wababa, Stronghold, tourism)
+    - Sar Metallurgic Complex (Aisoci, Fortified)
+    - Almeida-Vega Agricultural (ICZ ZZ-P b5-4, Exploited)
+  - 26 Sept 09:23 — `dockingMinorTresspass` fine (400 CR) on touchdown at Aoki Astrophysics
+    Expedition: land on the pad or outside the settlement's no-landing zone.
+  - 26 Sept — Aoki Astrophysics Expedition and Dashkevych's Astrophysics (Amaneque, high-tech):
+    the journal shows no data downloaded at either.
+  - 27 Sept — **Gabraceni** (Stronghold, heavily undermined): about 20 downloads, none
+    classified (and no research data either). Settlements: Sklyarenko's Edge (tourism,
+    3 passes), Hammond Military Site (military), Pidgaiko's Joy (tourism).
+- **Stats:** 1 classified data handed in · **+187 merits** · last: 29 Sept, **Sarana**
+  (Aisling Stronghold, anarchy) — Sharma Analytics Installation (Sarana 6 a, high-tech), handed
+  in at Blaha Dock. Side income from the common data: 234 merits per item handed in (27 Sept,
+  Gabraceni). **7 common data items still in the ship locker** (29 Sept) — hand them in.

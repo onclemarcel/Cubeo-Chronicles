@@ -265,6 +265,66 @@ this entry is the correction, done properly this time.
 Dart-ownership and Pacifier-Hot open items from the first restructuring pass are both resolved
 (§2, §5.6).
 
+### 27 September — Gabraceni, the Classified Data That Never Drops (journal-verified)
+
+Source: journal files of 27 Sept, 09:15–18:11 UTC. Weekly assignment "Power classified data"
+(card 4.8 in `Powerplay Missions.md`), still not completed.
+
+- **Where:** **Gabraceni** — Aisling **Stronghold**, with five rival Powers also listed in the
+  system (A. Lavigny-Duval, Mahon, Winters, Grom, Torval) and heavily undermined by the Federation side.
+  Many settlements; six of them run by a Federation minor faction, so no reputation to protect there.
+- **Settlements raided on foot:** Sklyarenko's Edge (Gabraceni 9 h, tourism, Fathers of Nontime,
+  3 passes 09:24 / 11:03 / 12:28), Hammond Military Site (9 a, military, Gabraceni Empire
+  Assembly, 16:55), Pidgaiko's Joy (9 i, tourism, Terra-EX Astro Corp, Federation, 17:49–18:03).
+- **Data downloaded:** about 20 items, all association, industrial or political data —
+  **no classified data, and no research data either.**
+- **Handed in anyway** at the Power contact: 2+2 at 09:34, 1+1 at 16:42, 1+3 at 18:10 →
+  **+1,404 merits** for the 16:42 and 18:10 hand-ins (32,869 → 34,273); rank 7.
+
+**Raw material for future `Logbook.md` days:** the same settlements plundered again and again in
+a system the Federation is eating away at — every port gives up the wrong secrets.
+
+### 29 September — Sarana on Foot, the First Classified Data, and a Merit-Poor Trade Loop (journal-verified)
+
+Source: journal files of 29 Sept, 11:56–19:22 UTC. Merits 34,507 → **34,892** (rank 7).
+
+- **Covert heist, Sarana (success):** `Mission_OnFoot_Heist_Covert_MB` for Workers of Sarana for
+  Equality — steal biological samples from **Simon Biochemical Forum** (Sarana 6 b, high-tech,
+  run by Explorers of the Anarchy). On the ground 12:16–13:01, sample taken 12:58, handed in at
+  Blaha Dock 13:06: **191,735 CR** + data materials, reputation and influence ++ (offered
+  314,235 CR — the difference, exactly 122,500, suggests a materials reward option was picked).
+- **On-foot massacre, Sarana (success):** `Mission_OnFoot_MassacreIllegal_MB` for The Eldaren —
+  11 kills of Workers of Sarana for Equality personnel. Done at **Sharma Analytics Installation**
+  (Sarana 6 a, high-tech, democracy-run faction inside an anarchy system), 15:38–16:42 via the
+  SRV, about 45 `onFoot_murder` entries (1,000 CR bounty each, Workers faction) plus minor fines.
+  Paid at 16:48: **18,863 CR + 14× Weapon Schematic** (offered 308,863 — again exactly 290,000
+  less, same materials-option pattern).
+- **First Power classified data:** downloaded at Sharma Analytics at 16:41, handed in at Blaha
+  Dock (Sarana, Aisling **Stronghold**) 16:49 → **+187 merits**. Also picked up and still in the
+  ship locker: 2+2 industrial, 1 research, 1 political, 1 association Power data — not handed in.
+- **Engineering at Blaha Dock:** 14 `EngineerCraft` rolls on the Asp's 5A FSD (Overcharged),
+  18:40–18:41.
+- **Move to Col 285:** Asp flown Sarana → **Col 285 Sector YA-K b23-10** (Aisling Exploited,
+  The Wayward Star). The **Type-9 was transferred there from Cubeo** (971,372 CR, ~25 min).
+  Exploration data sold at The Wayward Star 18:53–18:54 → **+184 merits** in small chunks.
+- **Trade loop, Asp (20 t):** YA-K b23-10 ↔ **ZA-K b23-1** (Kozyry Prospect, *Unoccupied*,
+  Aisling acquisition target, conflict progress 0.0), three round trips 18:52–19:20:
+  - medicines bought at YA-K (203) sold at ZA-K (4,643) in lots of 1/2/4/13, then 20 → **0 merits**;
+  - cobalt bought at ZA-K (807) sold at YA-K (4,738) in lots of 1/2/16/1 → **9 merits** (all
+    on the 16 t lot);
+  - uraninite bought at ZA-K (1,081) sold at YA-K (3,401), 20 t → **5 merits**.
+  About 340k CR profit for 14 merits. Analysis and rules in `Powerplay Missions.md` §3.
+- **19:21** — picked up `Mission_Collect_Industrial` from Blackhawk Corporation at The Wayward
+  Star: 90 t Palladium.
+- **Palladium run, Type-9 (19:42–19:51):** bought 758 t at Kozyry Prospect (47,138 CR/t,
+  35.7M CR), delivered 90 t for the Blackhawk mission, sold the other 668 t at The Wayward Star
+  (59,250 CR/t, lots of 1/10/100/557) → ~8.1M CR trade profit, **0 merits** (margin +25.7%,
+  under the 40% PP threshold).
+
+**Raw material for future `Logbook.md` days:** the Viscountess going into a settlement twice in
+one day — once as a thief, once as an executioner — and walking out with the one secret the
+Gabraceni ports never gave up.
+
 ---
 
 ## 5. ROADMAP

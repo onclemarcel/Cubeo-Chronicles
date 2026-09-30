@@ -30,6 +30,7 @@ Each file states its own scope at its own top; restated here for a quick referen
 | `Guidelines.md` | Narrative craft: style manual, entry format, recurring motifs, through-line, character-writing rules | In-game notes, stats, Numeric/technical data, prose |
 | `Galaxy Chronicles.md` | Canon bedrock — real Elite Dangerous dates, events, real people available for use | Invented characters, invented events |
 | `characters.md` | Character sheets (invented + real-person usage notes) | updated stats, prose |
+| `tools/` | Helper scripts for in-game planning (e.g. `pp_trade_routes.py`, Powerplay trade route finder on Spansh data) | Story content, stats |
 | `Reviews.md` | **Ephemeral.** Tonton Marcel's session notes, tagged. Cleared once distributed — see §3 | Anything meant to last |
 
 *(exception)* a `PLANNING NOTE — TEMPORARY` block at the top of a chapter in `Logbook.md` may be created to show "Where we stand on a chapter still being planned": decisions, workplan, questions waiting. **Delete it once the chapter is drafted** — it is the one place `Logbook.md` holds a roadmap.
