@@ -18,24 +18,24 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **7** (`Powerplay`, 29 Sept 2026 18:36 UTC) |
-| Merits | **34,892** (`PowerplayMerits`, 29 Sept 2026 19:20 UTC) |
+| Rank | **12** (`PowerplayRank`, 1 Oct 2026 17:21 UTC) |
+| Merits | **74,756** (`PowerplayMerits`, 1 Oct 2026 17:21 UTC) |
 | Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
 
 ---
 
-## 1. THIS WEEK — tick of Thursday 24 September 2026
+## 1. THIS WEEK — tick of Thursday 1 October 2026
 
 *Reset at every Thursday tick: delete last week's rows, after moving each result into its card's
 Stats line (§4).*
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | *to fill from Tonton Marcel's notes* | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Rare goods → unoccupied system | 4.1 | Karsuki Ti → Tucanae Sector WO-Z b0 | ✔ 1 Oct 12:11 | 3,600 |
+| 2 | Megaship datalink scans | 4.9 | Karsuki Ti, Primi, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade, HIP 7142 | ✔ 1 Oct 14:27 | 2,400 (+ 8 × 468) |
+| 3 | Aisling sealed contracts | 4.10 | Cubeo → Wababa | ✔ 1 Oct 14:51 | 2,000 |
+| 4 | Power data (association / political / research) | 4.11 | Irush → Kapoongzi | ✔ 1 Oct 17:21 | 5,600 (+ 5,040) |
+| 5 | *to fill — not started* | | | | |
 
 ---
 
@@ -62,7 +62,20 @@ Stats line (§4).*
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈195,000 merits remaining to rank 34** (≈247,000 − 51,790, 30 Sept)
+**Powerplay: ≈172,000 merits remaining to rank 34** (≈247,000 − 74,756, 1 Oct)
+
+**Comparison, rough (assignment bonuses excluded, journal 1 Oct):**
+
+| Loop | Ship | Merits/h | Basis |
+|---|---|---|---|
+| PP trade (pyrophyllite) | The Brick | **~7,600** | 30 Sept, measured (below) |
+| Megaship datalink scans | Dart | **~3,100**, **~4,300** at a steady pace | 8 paid scans × 468 in ~72 min; steady stretch 6 scans in 39 min (~6.5 min per megaship). The 2 unpaid scans in Cubeo cost ~10 min. Card 4.9 |
+| Power data on foot | Dart + suit | **~2,100**, **~3,300** without lost time | 10 items, 5,040 merits, 14:58 undock → 17:21 hand-in (143 min). ~50 min of it gave nothing (first landings, two re-logs). Card 4.11 |
+| Holoscreens (side income) | any + recon limpets | ~126 per hack, ~1 min each | 3 hacks, 1 Oct. Cards 4.6/4.7 |
+
+The Brick's trade loop is still the best merits/h by about 2×. The Dart loops are worth running
+when an assignment pays for the same work, since the assignment bonus is added on top.
+
 - [x] PP trade with The Brick: high-margin sales in the targeted Aisling systems — **measured
       30 Sept: ~7,600 merits/h, ~64M CR/h** (pyrophyllite loop, benchmark in
       `In-Game Operations.md` Checkpoint 1).
@@ -132,6 +145,21 @@ Stats line (§4).*
   - Asp (20 t) measurement, 29 Sept: 14 merits for ~30 min → **~30 merits/h**. Not worth it in
     the Asp; retry with the Type-9 (moved to YA-K b23-10 the same evening).
 - [ ] PP mining with Astroforge: mine and sell in the same reinforcement system.
+  - **Spot finder:** `python tools/pp_mining_routes.py` (Spansh: ring hotspots, reserves, Power
+    state, best in-system buyer; laser-minable minerals only; `--skip-states Stronghold`,
+    `--minerals`, `--radius`). Its merit figure is a **hypothesis**: the trade formula with
+    buy = 0, i.e. tons × sell × 156 / 1M. Not measured yet.
+  - **Step 1: test whether Strongholds pay for mining.** Nearly all the good spots within
+    40 ly of Cubeo are Strongholds, where trade paid 0. Cheap test: **HIP 5700** (13 ly), Platinum
+    3× hotspot (A 2 A ring) + LTD + Painite, sold at Kaiser's Journey. Mine ~10 t, sell, read
+    `PowerplayMerits`. Check the station's real price and demand first (Spansh data 220 days old).
+  - **Step 2, if Strongholds pay 0:** **ICZ DG-O b6-3** (Exploited, 44 ly). It has a **Pristine**
+    icy ring with an LTD hotspot (5 A Ring, 1,220 ls), and Noel Station sits right next to it
+    (1,220 ls, 198,534 CR/t, demand 3,411 t, market 41 days old). Alternative: Sokaram (Major
+    reserves, Porco Gateway at 29 ls, 180k CR/t).
+  - **Fit:** 2× medium mining lasers are slow. Swapping the beam laser and multi-cannon
+    (large hardpoints) for **2× large mining lasers** roughly doubles the extraction rate.
+    Limpets also take up part of the 128 t.
 - [ ] Light PP combat with Pacifier: Low RES in the reinforcement system. **Do not redeem the
       bounty vouchers this time** — carry them to Wolf 397 (Trophy Camp) once past 100k CR
       instead, for McQuinn's unlock donation (Engineers). **Expect this to be slow toward
@@ -160,8 +188,9 @@ specific week — the week's progress lives in §1.*
   - [ ] Buy the required quantity.
   - [ ] Fly to the target system and deliver.
 - **Pitfalls:** none met so far.
-- **Stats:** 1 run · +3,600 merits · last: 18 Sept, **Karsuki Ti** (West Market: 18× Karsuki
-  Locusts @ 915 CR, 10:37) → **HIP 7311** (Fan Base, unoccupied, 10:49) — ~12 min.
+- **Stats:** 2 runs · +3,600 merits each · last: 1 Oct, **Karsuki Ti** (West Market, Karsuki
+  Locusts) → **Tucanae Sector WO-Z b0** (Fefra's Legacy, unoccupied), sold 12:11 — ~20 min from
+  Kenig City. First run 18 Sept: Karsuki Ti → HIP 7311 (Fan Base), ~12 min.
 
 ### 4.2 Ship scans, reinforcement
 
@@ -307,4 +336,57 @@ specific week — the week's progress lives in §1.*
 - **Stats:** 1 classified data handed in · **+187 merits** · last: 29 Sept, **Sarana**
   (Aisling Stronghold, anarchy) — Sharma Analytics Installation (Sarana 6 a, high-tech), handed
   in at Blaha Dock. Side income from the common data: 234 merits per item handed in (27 Sept,
-  Gabraceni). **7 common data items still in the ship locker** (29 Sept) — hand them in.
+  Gabraceni). **7 common data items still in the ship locker** (29 Sept) — hand them in. One
+  was handed in at Wababa on 1 Oct for only 187 merits. Fresh data from an unoccupied system
+  paid 540 per item the same day (card 4.11).
+
+### 4.9 Megaship datalink scans
+
+- **Recognise it:** scan the datalink (uplink) of megaships in Aisling systems.
+- **Ship:** the Dart (fast, small, recon limpets on board). Journal event: `DataScanned`
+  `$Datascan_ShipUplink;`.
+- **Run:**
+  - [ ] Megaships sit near planets: supercruise to the planet, drop at the megaship signal.
+  - [ ] Target the datalink and scan it, then leave.
+  - [ ] Chain systems one jump apart (1 Oct: Primi → Lambda-1 Tucanae → Osane → Ehlanda →
+        Fire Fade → HIP 7142, via Cubeo as a hub).
+- **Pitfalls:**
+  - **Cubeo paid 0 merits** for two scans (1 Oct 13:40 and 13:46). Every other system paid
+    468: Karsuki Ti, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade (Strongholds), Primi and
+    HIP 7142 (Fortified). Cause unconfirmed (Cubeo is Aisling's capital). Skip Cubeo.
+- **Stats:** 1 assignment · +2,400 merits + **468 per scan** (8 paid) · last: 1 Oct, 11:57–14:27.
+  **~6.5 min per megaship** at a steady pace (6 scans 13:48 → 14:27) → **~4,300 merits/h**;
+  ~3,100 merits/h over the whole run.
+
+### 4.10 Aisling sealed contracts
+
+- **Recognise it:** collect `aislingmediaresources` ("Aisling's sealed contracts") and deliver
+  them to another Aisling system.
+- **Ship:** any hull with a small cargo hold (1 Oct: the Dart, 14 t).
+- **Run:**
+  - [ ] Collect at the Power contact (1 Oct: 12 at Medupe City, Cubeo).
+  - [ ] Deliver to the target system's station.
+- **Pitfalls:** none met — 7 min from collection to delivery.
+- **Stats:** 1 run · +2,000 merits (+37) · last: 1 Oct, Medupe City (14:44) → **Roelofs
+  Station, Wababa** (Stronghold, 14:51).
+
+### 4.11 Power data on foot (association / political / research)
+
+- **Recognise it:** download the common Power data types (`poweremployeedata` = association,
+  `powerpropagandadata` = political, `powerresearchdata` = research) at settlement data ports,
+  and hand them in.
+- **Ship / suit:** the Dart (lands close to the settlement); on-foot suit.
+- **Run:**
+  - [ ] Pick settlements in an **unoccupied** system next to Aisling space (1 Oct: Irush).
+  - [ ] Land, open the data ports, check the backpack.
+  - [ ] Hand in at an Aisling Stronghold station (1 Oct: Jones Hub, Kapoongzi).
+- **Pitfalls:**
+  - 1 Oct took 12 landings for 10 items.
+  - Two re-logs on the ground (15:47, 16:07) and ~50 min lost before the first item.
+  - Value per item depends on where it came from: **540** (association, political) and **360**
+    (research) for Irush data. An older association item from the locker paid **187** at
+    Wababa.
+- **Stats:** 1 assignment · +5,600 merits + **5,040 for the items** (5 association, 3 political,
+  2 research) · last: 1 Oct, **Irush A 3 a** (Ganguly's Garden, Ma Hydroponics Hub),
+  15:09–17:15. ~2,100 merits/h over the whole session (143 min); ~3,300 merits/h if the lost
+  50 min are left out.

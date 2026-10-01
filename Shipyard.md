@@ -9,6 +9,10 @@
 > **References:** a bare `§N` points to `In-Game Operations.md`; "annex A1…B9" points to §3 of
 > this file; "Engineers" = `Engineers & Materials.md`.
 
+> Where to find modules : Kenig City (ICZ EG-O b6-2)
+> Raw Material Trader   : Paola Prospect, Kuki An
+> Manufactured Material Trader : Olahus Hub, Kou Hu
+
 ---
 
 ## 1. CURRENT FLEET
@@ -36,9 +40,30 @@ annex A3 (v2), annex B4 (Diplomat).
 
 ### Dart — Imperial Courier (Odyssey taxi)
 
-*Role:* taxi, pre-landing support. *Fate:* kept (Dart v2). *Spec:* annex A2.
+*Role:* taxi, pre-landing support, megaship scans, on-foot Powerplay runs. Survives by
+outrunning threats: speed first, then shields (almost no hull). *Fate:* kept (Dart v2).
+*Spec:* annex A2.
 
-- [~] Dart v2 (annex A2) — hull bought 21 Sept (§2, §4); engineering not started.
+- [x] Refit (1 Oct, Medupe City / Kenig City): dumbfire missile rack, point defence, chaff,
+      2× shield booster 0A, shield 3A in the size-3 slot, fuel scoop 2A, recon limpet
+      controller, sensors 2D. Current fit: §2.
+- [~] Engineering, in priority order (1 Oct: 26.3 ly, 91.6 t):
+  - [ ] 1. **Thrusters 3A → Dirty Drive G3 + Drag Drives** (Farseer, G3 max). The biggest gain
+        for escaping; the only core module still stock.
+  - [~] 2. **Shield 3A → Reinforced G5 + Hi-Cap** (Lei Cheung) — at G4, 75 % rolled.
+  - [ ] 3. **Shield boosters**: 1× Heavy Duty G3 + 1× Thermal Resistant G3, both + Super
+        Capacitors (Lei Cheung). The thermal booster covers the shield's −4.7 % thermal
+        resistance against laser turrets (megaships, settlements).
+  - [~] 4. **Distributor → Engine Focused G5** (The Dweller), for chaining boosts. Currently
+        High Capacity G2; switching only loses those cheap G2 rolls. Alternative: keep High
+        Capacity and take it to G5 + Super Conduits.
+  - [~] 5. **FSD → Increased Range G5 + Mass Manager** (Farseer) — at G4.
+  - [ ] 6. Power plant 4A → Overcharged G3 (Farseer), only if power runs short.
+  - [ ] 7. Pulse lasers → Efficient G3–G4 (The Dweller): lower distributor draw.
+- Utility slots: keep the chaff (megaship turrets are gimballed). On megaship sorties,
+  swap the point defence for a **heat sink** (lower signature during the scan and escape).
+- Later: grade-5 thrusters need **Professor Palin** (not on the roster). 3A Enhanced
+  Performance Thrusters would be the top upgrade; how to unlock them now is unverified.
 - Missile blueprint needs **Liz Ryder** — only "Known" (Engineers).
 
 ### The Brick — Type-9 Heavy (bulk trade, bridge ship)
@@ -276,29 +301,29 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
 {
   "ship": "Imperial Courier",
   "name": "\"Dart\" CO-01",
-  "role": "Odyssey taxi + pre-landing support",
+  "role": "Odyssey taxi + pre-landing support + megaship scans + on-foot Powerplay runs; escapes by speed",
   "slot_layout": "Optional slots 3/3/2/2/2/1/1/1 | 3M | 4 utility",
   "hardpoints": [
-    { "slot": "mediumhardpoint1", "module": "2F Pulse Laser (Gimballed)", "purpose": "Skimmers, SRV" },
-    { "slot": "mediumhardpoint2", "module": "2F Pulse Laser (Gimballed)" },
+    { "slot": "mediumhardpoint1", "module": "2F Pulse Laser (Gimballed)", "purpose": "Skimmers, SRV", "engineering_target": "Efficient G3-G4 (The Dweller)" },
+    { "slot": "mediumhardpoint2", "module": "2F Pulse Laser (Gimballed)", "engineering_target": "Efficient G3-G4 (The Dweller)" },
     { "slot": "mediumhardpoint3", "module": "2B Missile Rack (Dumbfire)", "purpose": "Area damage against ground groups", "engineering_target": "High Capacity (Liz Ryder)" }
   ],
-  "utility_mounts": ["0I Point Defence (automatic, even landed; ineffective against lasers)", "0I Chaff Launcher", "0A Shield Booster", "0A Shield Booster"],
+  "utility_mounts": ["0I Point Defence (automatic, even landed; ineffective against lasers) — swap for a Heat Sink on megaship sorties", "0I Chaff Launcher", "0A Shield Booster — Heavy Duty G3 + Super Capacitors", "0A Shield Booster — Thermal Resistant G3 + Super Capacitors"],
   "core_internals": {
-    "power_plant": "4A — target: Overcharged",
-    "thrusters": "3A — target: Dirty Drive Tuning",
-    "frame_shift_drive": "3A SCO — target: Increased Range + Mass Manager",
-    "life_support": "1E", "power_distributor": "3A — target: Engine Focused",
-    "sensors": "2E", "fuel_tank": "3C (8 t)", "armour": "Lightweight Alloy"
+    "power_plant": "4A — target: Overcharged G3, only if power runs short",
+    "thrusters": "3A — target: Dirty Drive Tuning G3 + Drag Drives (Farseer); G5 later (Palin)",
+    "frame_shift_drive": "3A SCO — target: Increased Range G5 + Mass Manager (G4 done 1 Oct)",
+    "life_support": "1E", "power_distributor": "3A — target: Engine Focused G5 (High Capacity G2 fitted 1 Oct)",
+    "sensors": "2D", "fuel_tank": "3C (8 t)", "armour": "Lightweight Alloy"
   },
   "optional_internals": [
-    { "slot": "size3", "module": "3A Shield Generator" },
+    { "slot": "size3", "module": "3A Shield Generator — Reinforced G5 + Hi-Cap (G4 done 1 Oct)" },
     { "slot": "size3", "module": "3E Cargo Rack (8 t)" },
     { "slot": "size2", "module": "2A Fuel Scoop" },
     { "slot": "size2", "module": "Planetary Vehicle Hangar + Scorpion SRV" },
     { "slot": "size2", "module": "2E Cargo Rack (4 t)" },
     { "slot": "size1", "module": "Detailed Surface Scanner" },
-    { "slot": "size1", "module": "1E Docking Computer or Supercruise Assist" },
+    { "slot": "size1", "module": "1E Recon Limpet Controller (holoscreens, megaship hacks) — replaces the docking computer/assist" },
     { "slot": "size1", "module": "1E Cargo Rack (2 t)" }
   ],
   "ground_support_doctrine": [

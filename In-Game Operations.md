@@ -28,9 +28,9 @@
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Defenceless** |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 8 / 51,790 merits** (30 Sept, 18:04 UTC) |
+| Power | Aisling Duval — pledged, **Rank 12 / 74,756 merits** (1 Oct, 17:21 UTC) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈2,093,110,558 CR** (23 Sept 2026, ~18:35 UTC, journal-computed — see §4) |
+| Treasury | **≈2,224,588,122 CR** (1 Oct 2026, 15:47 UTC, journal `LoadGame`) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -47,10 +47,10 @@ nothing more is added.
 
 | Ship | Hull | Modules (class/grade + engineering + experimental effect) |
 |---|---|---|
-| **Astroforge** (ex-mining Clipper, `MA-04E`, ShipID 10) | Imperial Clipper | Cargo rack 7E (128 t) · 3× Collector Limpet Controller 3A · Prospector Limpet Controller 1A · Refinery 2A · 2× Mining Laser 2D (Fixed) · 1× Beam Laser (Large, Gimballed) · 1× Multi-Cannon (Large, Gimballed) · Chaff · ECM · 2× Shield Booster · DSS 1I (unengineered) · Shield 6A · Thrusters 6A · Power Plant 6C · Distributor 6A · Fuel Scoop 4A · Sensors 5D · Life Support 5D · Armour grade 1 · **FSD 5A, unengineered** (upgraded from 5E, 18 Sept). *No engineering on any module — Phase 1 target.* |
+| **Astroforge** (mining Clipper, `CL-002`, ShipID 10) | Imperial Clipper | *Journal `Loadout` 1 Oct 09:00 + `EngineerCraft` 09:13–09:49 (Farseer, Deciat).* Cargo rack 7E (128 t) · 2× Collector Limpet Controller 3A · Prospector Limpet Controller 1A · Refinery 4A · Fuel Scoop 4A · Shield Cell Bank 2A · 2× Mining Laser 2D (Fixed) · 1× Beam Laser (Large, Gimballed) · 1× Multi-Cannon (Large, Gimballed) · **4× Shield Booster 0A, Heavy Duty G1 + Super Capacitors** · **Shield 6A, Reinforced G5** · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Monstered** · **Distributor 6A, High Capacity G5** · **FSD 5A SCO, Increased Range G5 + Mass Manager** (32.8 ly before Mass Manager) · DSS Expanded G3 · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 1. No chaff/ECM any more. Merits/h of the PP mining loop still to measure (Checkpoint 1). |
 | **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Current fit confirmed from the journal `Loadout`, 23 Sept 18:20:33 UTC (see §4 — supersedes the 19 Sept Inara-export description below, which turns out not to match that day's actual journal `Loadout` either).* 2× Beam Laser (Large, Gimballed) · 2× Multi-Cannon (Medium, Turret) · 2× Shield Booster 0A · 2× Chaff Launcher · Cargo rack 7E (128 t, only cargo left) · Shield 6A · 2× Hull Reinforcement 4D · Module Reinforcement 1D · Multi-drone Controller (Operations) 3C · Fuel Scoop 3A · FSD Interdictor 2D · Planetary hangar 2D · Power Plant 6A · Thrusters 6A · Distributor 6A · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 · **FSD 5A, Faster Boot Sequence g5** (only engineered module on the hull — shield/boosters/KWS from annex A3 still not applied). **Impound cleared 23 Sept** (`ClearImpound`, resolves the old "Hot: true" mystery) — `StoredShips` now shows **Hot: false**. |
-| **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026, 07:29:47 UTC (`ShipyardBuy`, 2,479,358 CR) — confirmed owned (journal `StoredShips`/`Statistics.Owned_Ship_Count: 5`). Stock, no engineering yet (Phase 1 target, annex A2). 3× Pulse Laser (Medium, Gimballed) · Armour grade 1 · Power Plant 4A · Thrusters 3A · **FSD 3A SCO** (not yet the long-range engineered pair from rule 3) · Life Support 1E · Distributor 3A · Sensors 2E · Fuel Tank 3C · Shield Generator 2A · Planetary hangar 2D · Detailed Surface Scanner (tiny) · 14 t cargo racks. 20.9 ly unladen, Rebuy 279,921 CR. |
-| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Stored, not flown, since 19 Sept** (rule 6, §3) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit planned** (Phase 1, §5.4; target build annex A5) — loadout above is still the original. |
+| **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026, 07:29:47 UTC (`ShipyardBuy`, 2,479,358 CR) — confirmed owned. *Refit + first engineering 1 Oct (journal `Loadout` 17:15 UTC).* 2× Pulse Laser (Medium, Gimballed) · Dumbfire Missile Rack (Medium) · Point Defence · Chaff · 2× Shield Booster 0A (stock) · **Shield 3A, Reinforced G4** (Lei Cheung) · **FSD 3A SCO, Increased Range G4** (Farseer) · **Distributor 3A, High Capacity G2** (The Dweller) · Power Plant 4A · Thrusters 3A (stock) · Life Support 1E · Sensors 2D · Fuel Tank 3C · Fuel Scoop 2A · Planetary hangar 2D · Recon Limpet Controller 1E · Detailed Surface Scanner · 14 t cargo racks · Armour grade 1. **26.3 ly unladen**, 91.6 t, Rebuy 349,958 CR. Next steps and target build: `Shipyard.md`, Dart card. ⚠ The 17:15 `Loadout` shows the thrusters switched **off**. Check the Modules panel. |
+| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Stored, not flown, since 19 Sept** (rule 6, §3) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **FSD upgraded to G5 today** (23 Sept, Felicity Farseer at Deciat, `EngineerCraft`): Increased Range g5 + Deep Charge (up from g4/43.08 ly — new jump range not yet re-read from a fresh `Loadout`/Inara export). **Thrusters partially engineered today too:** Tuned g1 → **Dirty Drive Tuning g3 + Overloaded** experimental (not full g5 yet — annex A4 still calls for g5). DSS 1I g5, Expanded Probe Scanning Radius (Lei Cheung, unchanged) · Fuel Scoop 6A · Power Plant 5A, Armoured g1 (unchanged) · Planetary hangar 2D · Shield 5D · 20 t cargo racks · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher (all tiny hardpoints). Still carrying the rescue-run weapons (2× pulse laser, 4× dumbfire missile rack, collector limpet controller) as of the 23 Sept `Loadout` — strip again before the *Long range* loadout is saved. SCO FSD 5A bought and tested (18 Sept), reverted, stored free at the same station. **Stored, not flown, between sessions** (rule 6) — bridge ship for exploration/exobiology until Marco Polo (Phase 6, §5); her DSS and FSD migrate to that hull. |
 
 **In storage:** Modified Mining Laser 1A, pre-engineered grade 5, at LHS 3872 [Curbeam Hub] —
@@ -349,6 +349,37 @@ Source: journal files of 30 Sept, 06:03–18:05 UTC. Merits 34,892 → **51,790*
   1M CR *spent* — a trade run *earns* ~13M CR for ~1,600 merits).
 - **One interdiction escaped** on a loaded run — the V2 shields did their job.
 
+### 1 October — Astroforge and Dart Engineering, Four of Five Assignments (journal-verified)
+
+Source: journal files of 1 Oct, 08:59–17:22 UTC (Thursday, first day after the weekly tick).
+Merits 51,734 → **74,756** (+23,022; **rank 9 → 12**: 10 at 12:11, 11 at 14:51, 12 at 17:21).
+
+- **Astroforge engineering, Deciat (Farseer Inc), 09:13–09:49:** Power Plant Overcharged G1 +
+  Monstered, DSS Expanded G3, Dirty Drive G3 + Drag Drives, FSD G5 + Mass Manager, 4 shield
+  boosters Heavy Duty G1 + Super Capacitors. Material trader stops at Bernoulli Vision,
+  Chandler Ring and Zahn Enterprise between two visits to Farseer. Fit in §2.
+- **Dart refit, Medupe City, 10:01–10:12:** missile rack, point defence and chaff added, shield
+  3A moved to the size-3 slot, fuel scoop fitted. Remote engineering: FSD Increased Range G4
+  (Farseer), Shield Reinforced G4 (Lei Cheung), Distributor High Capacity G2 (The Dweller).
+  At Kenig City (11:41–11:45): 2 shield boosters, sensors 2D, recon limpet controller.
+- **Assignment 1 — rare goods:** Karsuki Locusts bought at West Market (Karsuki Ti), sold at
+  Fefra's Legacy (Tucanae Sector WO-Z b0, unoccupied) 12:11 → **+3,600**.
+- **Holoscreens:** Swift Landing (Ross 279) 10:52, Heinkel Observatory (Shui Wei Sector UJ-Q
+  b5-4) 13:30 and 13:31 → 3 × 126 merits.
+- **Assignment 2 — megaship datalink scans (Dart):** 10 uplink scans. 8 paid 468 merits each
+  (Karsuki Ti ×2, Primi, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade, HIP 7142). The 2 in
+  **Cubeo** (13:40, 13:46) paid **nothing**. Assignment complete 14:27 → **+2,400**.
+- **Assignment 3 — Aisling sealed contracts:** 12 collected at Medupe City 14:44, delivered at
+  Roelofs Station (Wababa) 14:51 → **+2,000** (+37). One association data item from the locker
+  handed in there too → only 187 merits.
+- **Assignment 4 — Power data, on foot at Irush (unoccupied):** Ganguly's Garden and Ma
+  Hydroponics Hub (Irush A 3 a), 15:09–17:15. Many short take-offs and landings around the
+  settlements, plus two re-logs (15:47, 16:07). Collected 5 association, 3 political and 2
+  research data. Handed in at Jones Hub (Kapoongzi, Stronghold) 17:20: 2,700 + 1,620 + 720,
+  assignment **+5,600**.
+- **Fifth assignment** not started.
+- Merit rates for these loops: `Powerplay Missions.md` §3.
+
 ---
 
 ## 5. ROADMAP
@@ -440,18 +471,22 @@ Moved to `Engineers & Materials.md` (25 Sept 2026).
 risk-free.
 
 **Ships** → `Shipyard.md`
-- [ ] Astroforge v2 (annex A1).
-- [~] Dart v2 (annex A2) — hull bought 21 Sept; engineering not started.
+- [~] Astroforge v2 (annex A1) — engineering 1 Oct (power plant, thrusters, FSD, boosters);
+      PP mining merits/h still to measure.
+- [~] Dart v2 (annex A2) — refit and first engineering 1 Oct (FSD G4, shield G4,
+      distributor G2); thrusters and boosters next.
 - [~] Pacifier v2 (annex A3) — impound cleared and refit done 23 Sept; 7A Shield + 6A SCB and
       Kill Warrant Scanner swap remaining.
 - [x] The Brick V2 — "90 %" plan (annex A5) — done 30 Sept, plus a 6A SCO FSD.
 - [~] Hyperion — FSD G5 done 23 Sept; thrusters at G3 of G5.
 
-**Powerplay** → `Powerplay Missions.md` — ≈195,000 merits remaining to rank 34 (30 Sept:
-51,790 of ≈247,000 — about 26 h of The Brick's trade loop at ~7,600 merits/h)
+**Powerplay** → `Powerplay Missions.md` — ≈172,000 merits remaining to rank 34 (1 Oct:
+74,756 of ≈247,000 — about 23 h of The Brick's trade loop at ~7,600 merits/h)
 - [ ] Weekly assignments, every Thursday tick.
 - [~] Three merit loops run and measured: **PP trade (The Brick) ✔ 30 Sept** (~7,600
       merits/h, Checkpoint 1 below), PP mining (Astroforge), Low RES (Pacifier).
+      Also measured 1 Oct with the Dart: **megaship scans ~3,100–4,300 merits/h** and
+      **Power data on foot ~2,100–3,300 merits/h** (rough; `Powerplay Missions.md` §3).
 
 **Imperial Navy: Viscount → Duke** — remaining: Count → Earl → Marquis → Duke. Duke rank unlocks
 the **Imperial Cutter**. Method: rank up to **Allied** with an Imperial faction in a dense system
