@@ -19,7 +19,7 @@
 |---|---|
 | Power | Aisling Duval — pledged |
 | Rank | **12** (`PowerplayRank`, 1 Oct 2026 17:21 UTC) |
-| Merits | **74,756** (`PowerplayMerits`, 1 Oct 2026 17:21 UTC) |
+| Merits | **75,257** (`PowerplayMerits`, 1 Oct 2026 20:16 UTC) |
 | Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
 
 ---
@@ -145,21 +145,50 @@ when an assignment pays for the same work, since the assignment bonus is added o
   - Asp (20 t) measurement, 29 Sept: 14 merits for ~30 min → **~30 merits/h**. Not worth it in
     the Asp; retry with the Type-9 (moved to YA-K b23-10 the same evening).
 - [ ] PP mining with Astroforge: mine and sell in the same reinforcement system.
-  - **Spot finder:** `python tools/pp_mining_routes.py` (Spansh: ring hotspots, reserves, Power
-    state, best in-system buyer; laser-minable minerals only; `--skip-states Stronghold`,
-    `--minerals`, `--radius`). Its merit figure is a **hypothesis**: the trade formula with
-    buy = 0, i.e. tons × sell × 156 / 1M. Not measured yet.
-  - **Step 1: test whether Strongholds pay for mining.** Nearly all the good spots within
-    40 ly of Cubeo are Strongholds, where trade paid 0. Cheap test: **HIP 5700** (13 ly), Platinum
-    3× hotspot (A 2 A ring) + LTD + Painite, sold at Kaiser's Journey. Mine ~10 t, sell, read
-    `PowerplayMerits`. Check the station's real price and demand first (Spansh data 220 days old).
-  - **Step 2, if Strongholds pay 0:** **ICZ DG-O b6-3** (Exploited, 44 ly). It has a **Pristine**
-    icy ring with an LTD hotspot (5 A Ring, 1,220 ls), and Noel Station sits right next to it
-    (1,220 ls, 198,534 CR/t, demand 3,411 t, market 41 days old). Alternative: Sokaram (Major
-    reserves, Porco Gateway at 29 ls, 180k CR/t).
-  - **Fit:** 2× medium mining lasers are slow. Swapping the beam laser and multi-cannon
-    (large hardpoints) for **2× large mining lasers** roughly doubles the extraction rate.
-    Limpets also take up part of the 128 t.
+  - **✔ Formula — exact on all 10 mined-goods sales (1 Oct, journal):**
+
+    > **merits = floor( sale value / 2,560 )** — about **391 merits per 1M CR** of sale
+
+    | Sale | Where | Value (CR) | Merits |
+    |---|---|---|---|
+    | silver 17 t | Kaiser's Journey, HIP 5700 (**Stronghold**) | 832,235 | 325 |
+    | gold 2 t | Kaiser's Journey (Stronghold) | 111,532 | 43 |
+    | coltan 5 t / praseodymium 3 t | Kaiser's Journey (Stronghold) | 19,610 / 15,999 | 7 / 6 |
+    | tritium 5 t | Noel Station, ICZ DG-O b6-3 (**Exploited**) | 269,460 | 105 |
+    | H₂O₂ 5 t / methane clathrate 9 t / LiOH 2 t | Noel Station (Exploited) | 16,060 / 15,102 / 11,522 | 6 / 5 / 4 |
+    | water 3 t, liquid oxygen 1 t, lepidolite 2 t | both | < 2,560 each | 0 |
+
+    **Strongholds pay for mining**, unlike trade, at the same rate as Exploited. Mined goods have
+    no purchase price, so the whole sale counts: 2.5× the trade rate (156 per 1M CR of profit
+    above the 40% line). Rounded down per sale, so sell each commodity in one go.
+    **A full hold of Platinum (~110 t × ~267k) ≈ 29M CR ≈ 11,000 merits; LTD (~198k) ≈ 8,500.**
+  - **Spot finder:** `python tools/pp_mining_routes.py --cargo 110` (Spansh: ring hotspots,
+    reserves, Power state, best in-system buyer, laser-minable minerals only, merits per hold
+    from the formula above). Set `--cargo` to the hold minus the limpets.
+  - **Best spot: HIP 5700** (Stronghold, 13 ly from Cubeo). Platinum **3× hotspot** in the
+    A 2 A Ring (2,073 ls), sold at Kaiser's Journey (2,038 ls, next to the ring). Spansh's
+    Platinum price there (267k, demand 551 t) is 220 days old: check it in game. Backups: ICZ
+    DG-O b6-3 (Pristine icy ring, LTD hotspot, Noel Station next to it); Daibo (Platinum 4×,
+    43.6 ly, but only 124 t demand).
+  - **Fit:** mining lasers only exist in sizes 1 and 2 (no large ones). Upgrade the 2× 2D to
+    **2× 2B**, the best available. The large hardpoints keep their weapons. Limpets take part of
+    the 128 t.
+
+**PP mining run — how to hit the hotspot** (lesson of 1 Oct):
+- [ ] Before the session: buy limpets, then check the station's real price and demand for the
+      target mineral.
+- [ ] **Map the ring with the Detailed Surface Scanner** (probes on the ring). Hotspots only
+      appear on the ring once it's mapped.
+- [ ] Target the hotspot marker and drop **into** it. Not into a Resource Extraction Site: on
+      1 Oct the drop in HIP 5700 was into a Hazardous RES, and the ring at Noel Station was never
+      mapped. Result: 61 asteroids prospected, **no Platinum, no LTD** (silver, gold, osmium,
+      tritium…).
+- [ ] Prospect; only mine asteroids with a good share of the target mineral (e.g. Platinum
+      ≥ 20–25 %). Skip the rest.
+- [ ] Sell each commodity in one go at the in-system station.
+- **Stats:** 1 session · 1 Oct, without hotspots: HIP 5700 19:08–19:34 (29 t, **381 merits**,
+  ~880/h) and ICZ DG-O b6-3 19:52–20:14 (25 t, **120 merits**). Real hotspot rate still to
+  measure.
 - [ ] Light PP combat with Pacifier: Low RES in the reinforcement system. **Do not redeem the
       bounty vouchers this time** — carry them to Wolf 397 (Trophy Camp) once past 100k CR
       instead, for McQuinn's unlock donation (Engineers). **Expect this to be slow toward

@@ -9,10 +9,6 @@
 > **References:** a bare `§N` points to `In-Game Operations.md`; "annex A1…B9" points to §3 of
 > this file; "Engineers" = `Engineers & Materials.md`.
 
-> Where to find modules : Kenig City (ICZ EG-O b6-2)
-> Raw Material Trader   : Paola Prospect, Kuki An
-> Manufactured Material Trader : Olahus Hub, Kou Hu
-
 ---
 
 ## 1. CURRENT FLEET
@@ -22,7 +18,9 @@
 *Role:* laser mining, PP mining. *Fate:* sold in Phase 5 once the Hephaestus beats her. *Spec:*
 annex A1.
 
-- [ ] Astroforge v2 (annex A1, §5.7): 162 t, scoop and 3rd collector stored.
+- [x] Astroforge v2 fitted (annex A1, updated 3 Oct 2026 from the Inara export): 128 t, 4A
+      refinery, prospector, SCB; shield, FSD, distributor, thrusters and boosters engineered.
+- [ ] 4A Fuel Scoop → 4E Cargo Rack (+16 t → 144 t); scoop stored (intra-system principle).
 - PP mining loop: `Powerplay Missions.md` §3.
 
 ### Pacifier — Imperial Clipper (combat trainer → Diplomat)
@@ -34,37 +32,230 @@ annex A3 (v2), annex B4 (Diplomat).
 - [x] Pacifier: cargo racks swapped for hull/module reinforcements, an FSD interdictor, a
       planetary hangar and a multi-drone controller, plus a newly bought 3A fuel scoop (23 Sept,
       §4) — cargo down to 128 t.
-- [ ] Pacifier v2 (annex A3), remaining: 7A Shield + 6A SCB, Kill Warrant Scanner swap.
-- [ ] Pacifier: shields and boosters to G3 minimum (Lei Cheung, Didi Vatermann).
-- [ ] Power distribution priorities reviewed (weekly-routine task, §5.1).
+- [~] Pacifier V2 — combat-CG and Low RES build, survival first. Full checklist below
+      ("Pacifier V2 — '90 %' plan"); target build in annex A3.
+- [ ] Power distribution priorities reviewed (weekly-routine task, §5.1). Note: the Inara export
+      of 3 Oct shows the **main thrusters switched off** — fix before anything else.
 
-### Dart — Imperial Courier (Odyssey taxi)
+**Pacifier V2 — "90 %" plan (Clipper, solo, combat CG / Low RES)** — added 3 Oct 2026, same
+model as The Brick V2. Estimated time **4–7 h** (all engineers already unlocked by The Brick V2).
 
-*Role:* taxi, pre-landing support, megaship scans, on-foot Powerplay runs. Survives by
-outrunning threats: speed first, then shields (almost no hull). *Fate:* kept (Dart v2).
+*Why:* a combat-bond CG is open, and the Pacifier is the only combat ship in the fleet until the
+Nemesis (Phase 3). Combat rank is still low, so survival comes before damage: a bigger shield,
+an SCB and reinforcements instead of the leftover utility modules (interdictor, hangar, drones).
+It also trains the CZ routine (pick a side, cash bonds often) before the Nemesis and the Charybdis.
+*Why "90 %":* every engineer needed is already on the roster thanks to The Brick V2, so G5 goes
+on the shield (Lei Cheung) and the distributor (The Dweller); boosters (Lei Cheung) and thrusters
+(Farseer) stop at G3. Weapons stay stock in this plan. The remaining 10 % is listed under
+"Beyond the 90 % plan" at the end.
+*Combat rule:* low-intensity CZs and Low RES only, until step 7 is validated (annex A3,
+training progression: Medium only once shield and boosters are G3+).
+
+| Slot | Current loadout (Inara, 3 Oct) | Pacifier V2 (90 % plan) |
+|---|---|---|
+| Hardpoints | 2× Beam Laser (L, Gimballed), 2× Multi-Cannon (M, Turret) | Unchanged (engineering: see "Beyond") |
+| Utility | 2× stock 0A Shield Booster, 2× Chaff | **2× 0A Shield Booster Heavy Duty G3** (+ Super Capacitors if offered), **1× Heatsink**, 1× Chaff |
+| Power Plant | 6A stock | 6A stock (unchanged — power check in step 1) |
+| Thrusters | 6A stock (**switched off** in the export) | **6A Dirty Drive G3** (+ Drag Drives if offered) |
+| FSD | 5A Fast Boot G5 | Unchanged |
+| Distributor | 6A stock | **6A Charge Enhanced G5 + Super Conduits** |
+| Sensors / Life support / Fuel | 5D / 5D / 4C | Unchanged |
+| Armour | Military Grade Composite | Unchanged |
+| Slot 7 | 7E Cargo Rack (128 t) | **7A Shield Generator — Reinforced G5 + Hi-Cap** |
+| Slot 6 | 6A Shield Generator | **6A Shield Cell Bank** |
+| Slots 4 / 4 | 2× 4D Hull Reinforcement | Unchanged |
+| Slots 3 / 3 | Multi-drone controller, 3A Fuel Scoop | **3D Module Reinforcement**, **3D Hull Reinforcement** |
+| Slots 2 / 2 | FSD Interdictor, Planetary Vehicle Hangar | **2A Fuel Scoop**, 2E Cargo Rack (4 t) |
+| Slot 1 | 1D Module Reinforcement | 1E Cargo Rack (2 t), as in annex A3 |
+
+*1. Preparation (≈ 30 min)*
+- [ ] Build the target in EDSY: 7A shield + 6A SCB + 2 beams on the stock 6A power plant —
+      check the power draw with hardpoints deployed and the SCB firing.
+- [ ] Set power priorities: thrusters, FSD, shield, life support on priority 1; SCB, weapons,
+      heatsink on lower priorities so the shield never drops.
+- [ ] Inara crafting lists for the 4 blueprints (shield, boosters, distributor, thrusters),
+      material stock inventoried (shortfalls in step 3).
+
+*2. Outfitting (≈ 30 min)*
+- [ ] Find a station selling the 7A Shield Generator and the 6A Shield Cell Bank (Inara).
+- [ ] Budget: 7A shield ≈ 50M (to verify) + SCB; the rebuy goes up accordingly (5 % of value).
+- [ ] **Store** the 7E Cargo Rack (needed again for the Diplomat, annex B4) and the 6A shield.
+- [ ] Sell or store the FSD interdictor, planetary hangar, multi-drone controller and 3A scoop.
+- [ ] Sell one Chaff Launcher; buy a Heatsink Launcher.
+- [ ] Fit the 7A shield (slot 7), 6A SCB (slot 6), 3D module and 3D hull reinforcements (slots 3),
+      2A fuel scoop and 2E cargo rack (slots 2), 1E cargo rack (slot 1).
+- [ ] Fire groups: SCB and heatsink on the same group as a secondary fire key.
+
+*3. Materials (≈ 1–3 h, depending on stock left after The Brick V2)* — same rule: pick Imperial
+Navy and Powerplay missions by their material rewards; trade surpluses at a Material Trader.
+- [ ] Shield Reinforced G1 → G5 + Hi-Cap: same recipe as The Brick V2 step 5.
+- [ ] Distributor Super Conduits: same recipe as The Brick V2 step 4.
+- [ ] Distributor Charge Enhanced G1 → G5, boosters Heavy Duty G1 → G3, thrusters Dirty Drive
+      G1 → G3: shortfalls to fill in from the Inara lists.
+- [ ] Re-check the Inara lists: all green?
+
+*4. Lei Cheung — Laksak, Trader's Rest (≈ 1 h 30)*
+- Shield (7A):
+  - [ ] Reinforced G1 → G5 (recipe as The Brick V2 step 5).
+  - [ ] Experimental **Hi-Cap**.
+- Boosters:
+  - [ ] 2 boosters Heavy Duty G1 → G3.
+  - [ ] **Super Capacitors** if offered (checked during The Brick V2), on both boosters.
+
+*5. The Dweller — Wyrd, Black Hide (≈ 1 h)* — distributor
+- [ ] Charge Enhanced G1 → G5.
+- [ ] Experimental **Super Conduits**.
+
+*6. Felicity Farseer — Deciat (≈ 45 min)* — thrusters
+- [ ] Dirty Drive G1 → G3 on the 6A thrusters.
+- [ ] **Drag Drives** if offered.
+
+*7. Validation (≈ 30 min)*
+- [ ] Export the loadout to EDSY and compare against the plan (power, shield MJ, resistances).
+- [ ] Check that the thrusters are **on** and the power margin holds with hardpoints deployed.
+- [ ] Test round in a Low RES: SCB + heatsink timing, shield regen, heat level.
+- [ ] Decide the 4th utility: keep the chaff, or a 3rd Heavy Duty booster if heat stays low.
+- [ ] First low-intensity CZ for the CG: pick a side on entry, cash the bonds regularly.
+
+*Beyond the 90 % plan (later)*
+- [ ] *(Optional)* Boosters to G5 with Didi Vatermann (Leesti) — same unlock chain as The
+      Brick V2 "Beyond".
+- [ ] *(Optional)* Weapons per annex A3 targets (beams Efficient + Thermal Vent, multi-cannons
+      Overcharged + Corrosive / Incendiary) — engineers to identify in Engineers.
+- [ ] *(Optional)* Sensors Long Range (annex A3 target).
+- [ ] Medium RES / medium-intensity CZ once steps 4–7 are done; hand-off to the Nemesis in Phase 3.
+
+### Dart — Imperial Courier (Odyssey taxi, recovery, snatch and flee)
+
+*Role:* black-box missions (snatch and flee), material recovery (HGE, Jameson crash site, raw
+materials), Odyssey taxi with pre-landing clearance and extraction. *Fate:* kept (Dart v2).
 *Spec:* annex A2.
 
-- [x] Refit (1 Oct, Medupe City / Kenig City): dumbfire missile rack, point defence, chaff,
-      2× shield booster 0A, shield 3A in the size-3 slot, fuel scoop 2A, recon limpet
-      controller, sensors 2D. Current fit: §2.
-- [~] Engineering, in priority order (1 Oct: 26.3 ly, 91.6 t):
-  - [ ] 1. **Thrusters 3A → Dirty Drive G3 + Drag Drives** (Farseer, G3 max). The biggest gain
-        for escaping; the only core module still stock.
-  - [~] 2. **Shield 3A → Reinforced G5 + Hi-Cap** (Lei Cheung) — at G4, 75 % rolled.
-  - [ ] 3. **Shield boosters**: 1× Heavy Duty G3 + 1× Thermal Resistant G3, both + Super
-        Capacitors (Lei Cheung). The thermal booster covers the shield's −4.7 % thermal
-        resistance against laser turrets (megaships, settlements).
-  - [~] 4. **Distributor → Engine Focused G5** (The Dweller), for chaining boosts. Currently
-        High Capacity G2; switching only loses those cheap G2 rolls. Alternative: keep High
-        Capacity and take it to G5 + Super Conduits.
-  - [~] 5. **FSD → Increased Range G5 + Mass Manager** (Farseer) — at G4.
-  - [ ] 6. Power plant 4A → Overcharged G3 (Farseer), only if power runs short.
-  - [ ] 7. Pulse lasers → Efficient G3–G4 (The Dweller): lower distributor draw.
-- Utility slots: keep the chaff (megaship turrets are gimballed). On megaship sorties,
-  swap the point defence for a **heat sink** (lower signature during the scan and escape).
-- Later: grade-5 thrusters need **Professor Palin** (not on the roster). 3A Enhanced
-  Performance Thrusters would be the top upgrade; how to unlock them now is unverified.
+- [~] Dart V2 — hull bought 21 Sept (§2, §4); engineering started at Farseer (3 Oct). Full checklist below
+      ("Dart V2 — '90 %' plan"); target build in annex A2.
 - Missile blueprint needs **Liz Ryder** — only "Known" (Engineers).
+
+**Dart V2 — "90 %" plan (Courier, solo, recovery / snatch and flee / taxi)** — added 3 Oct 2026,
+revised the same day to the EDSY compromise build (annex A2). Same model as The Brick V2, but
+split in three tiers by engineer access.
+
+*Why:* three roles that all come down to getting in, grabbing something and getting out: a black
+box from a signal source or a surface wreck, materials from an HGE, Jameson's crash site or a
+raw-material site, or a ground team dropped after the defences are cleared. On a Courier, jump
+range and speed both come from **low mass**: D-rated core modules and Lightweight engineering
+take the ship from ~20 ly to ~43 ly while keeping the SRV hangar, three weapons, chaff, heatsink
+and two boosters (stripped HGE/travel build without them: ~51 ly, EDSY, 3 Oct).
+*Target (EDSY):* 60.9 t unladen, 43.6 ly, 18 t cargo, 131 MJ base shield.
+*Known limits:* thrusters optimised for 78.75 t — fully laden (~83 t) the ship is noticeably
+slower; 4 t tank for 2.09 t per jump = scoop every two jumps.
+*Changes vs the first V2 plan (3 Oct):* pulse lasers kept instead of the beams of the first EDSY
+draft (2 medium beams drain the WEP capacitor in ~6–7 s on an Engine Focused distributor);
+D-rated core and Lightweight engineering everywhere; 2× 0D Resistance Augmented boosters
+instead of 0A Heavy Duty; Extended cargo racks; the Supercruise Assist dropped for a
+Lightweight collector limpet controller.
+
+| Slot | Current (Inara, 3 Oct) | Target (annex A2) | Tier |
+|---|---|---|---|
+| Hardpoints | 2× Pulse Laser (M, Gimballed), Dumbfire (M) | Same, all **Lightweight G5 + Stripped Down** | 1 (pulse G4) / 2 (missiles) / 3 (pulse G5) |
+| Utility | Point Defence, Chaff, 2× 0A Booster Heavy Duty G1 | Chaff, **Heatsink** (both Lightweight G5), **2× 0D Booster Resistance Augmented G5 + Super Capacitors** | 1 (buy, boosters G3) / 3 (G5, Lightweight) |
+| Power Plant | 4A Overcharged G1 | **4D** Overcharged G5 + Stripped Down | 1 (buy) / 2 (G4) / 3 (G5) |
+| Thrusters | 3A Dirty Drive G3 + Drag Drives | **3D** Dirty Drive G5 + Drag Drives | 1 (buy, G3) / 3 (G5) |
+| FSD | 3A SCO Increased Range G4 + Deep Charge | 3A SCO Increased Range **G5** + Deep Charge | 1 |
+| Life Support | 1D | 1D Lightweight G5 | 3 (engineer to identify) |
+| Distributor | 3A High Capacity G2 | **3D Engine Focused G5 + Super Conduits** | 1 |
+| Sensors | 2D | 2D Lightweight G5 | 1 |
+| Fuel tank | 3C (8 t) | **2C (4 t)** | 1 (buy) |
+| Armour | Lightweight Alloy | Unchanged | — |
+| Size 3 | 3A Shield Reinforced G4 | **3D** Shield Reinforced G5 + Hi-Cap | 1 |
+| Size 3 | 3E Cargo Rack | 3E Cargo Rack Extended G5 (11 t) | 3 (engineer to identify) |
+| Size 2 | 2E Cargo Rack | 2E Cargo Rack Extended G5 (5 t) | 3 (engineer to identify) |
+| Size 2 | 2A Fuel Scoop | **2D** Fuel Scoop Scoop-Rate Enhanced G5 | 1 (buy) / 3 (engineer to identify) |
+| Size 2 | Planetary Vehicle Hangar 2H | Planetary Vehicle Hangar **2G** + Scarab | 1 (buy) |
+| Size 1 | Detailed Surface Scanner Expanded G3 | DSS Expanded G5 | 1 |
+| Size 1 | 2× Collector Limpet Controller 1A | **1× 1D** Collector, Lightweight G5 | 1 (buy) / 3 (Lightweight) |
+| Size 1 | — | 1E Cargo Rack (2 t) | 1 (buy) |
+
+**Tier 1 — reachable now (Farseer, The Dweller, Lei Cheung; ≈ 4–6 h)**
+
+*1. Preparation (≈ 20 min)*
+- [ ] EDSY: Tier 1 fit (D-rated core, G3/G4 where G5 is out of reach) — check range, speed and
+      that the power plant still covers everything with the stock 4D.
+- [ ] Inara crafting lists for the Tier 1 blueprints, material stock inventoried.
+
+*2. Outfitting (≈ 30 min)* — store the engineered A-rated modules rather than sell them.
+- [ ] Buy and fit: 4D power plant, 3D thrusters, 3D distributor, 3D shield generator,
+      2C fuel tank, 2D fuel scoop, Planetary Vehicle Hangar 2G, 1D collector, 1E cargo rack.
+- [ ] Sell the Point Defence and the second collector; buy a Heatsink Launcher.
+- [ ] Two 0D shield boosters to replace the 0A Heavy Duty pair (or keep the 0A pair until the
+      0D ones are engineered — compare in EDSY).
+- [ ] Swap the SRV for a Scarab.
+- [ ] Power priorities and fire groups (heatsink reachable from the flight group).
+
+*3. Materials — shopping list (Inara crafting lists "Dart V2 Tier 1", 3 Oct 2026)*
+Shortfalls are the totals across all eight lists — Inara counts each list against the whole
+stock, so it under-reports shared materials (Arsenic, Cadmium, Proto Radiolic Alloys).
+Tier 1 reference fit (EDSY, 3 Oct): **68.7 t unladen, 38.8 ly**, pulse lasers Lightweight G4.
+
+| Material | Needed | In stock | Missing | Blocks |
+|---|---|---|---|---|
+| Arsenic (raw) | 10 | 1 | **9** | FSD G5 (Farseer), shield G5 (Lei Cheung) |
+| Cadmium (raw) | 9 | 0 | **9** | Boosters G3 (Lei Cheung), distributor G5 (The Dweller) |
+| Proto Radiolic Alloys (manufactured) | 10 | 5 | **5** | DSS G5, sensors G5 (Lei Cheung) |
+| Improvised Components (manufactured) | 5 | 0 | **5** | Shield G5 (Lei Cheung) |
+| Datamined Wake Exceptions (encoded) | 5 | 0 | **5** | FSD G5 (Farseer) |
+
+*Raw — Raw Material Trader (refinery / extraction economies) or SRV prospecting (Scarab)*
+- [ ] Arsenic ×9 (Orrere planned, or trade surplus raw: Iron 198, Carbon 276, Sulphur 202).
+- [ ] Cadmium ×9.
+
+*Manufactured — HGE runs with the Dart, or Manufactured Material Trader (industrial economies)*
+- [ ] Proto Radiolic Alloys ×5.
+- [ ] Improvised Components ×5.
+- Trade-in surplus if needed: Salvaged Alloys 81, Phase Alloys 86, Worn Shield Emitters 84,
+  Galvanising Alloys 66.
+
+*Encoded — Encoded Material Trader (high-tech / military economies)*
+- [ ] Datamined Wake Exceptions ×5 — the Dart has no wake scanner, so trade for them (surplus:
+      Atypical Disrupted Wake Echoes 42).
+
+*Watch*
+- [ ] Proto Light Alloys: exactly 18 needed for 18 in stock (DSS, power plant, pulse lasers,
+      sensors) — don't spend any elsewhere before Tier 1 is done.
+- [ ] Re-check the Inara lists: all green?
+
+*4. Felicity Farseer — Deciat* — FSD
+- [ ] Increased Range G4 → G5, keep Deep Charge.
+- [ ] Thrusters (new 3D): Dirty Drive G1 → G3 + **Drag Drives**.
+
+*5. The Dweller — Wyrd, Black Hide* — distributor and lasers
+- [ ] Distributor (new 3D): Engine Focused G1 → G5 + **Super Conduits** (more recharge on all
+      three capacitors, less capacity — chosen 3 Oct for chained engagements).
+- [ ] 2 pulse lasers: Lightweight G1 → G4 (The Dweller's maximum for pulse lasers).
+
+*6. Lei Cheung — Laksak, Trader's Rest* — shield, boosters, sensors
+- [ ] Shield (new 3D): Reinforced G1 → G5 + **Hi-Cap**.
+- [ ] 2 boosters: Resistance Augmented G1 → G3 + **Super Capacitors**.
+- [ ] Sensors: Lightweight G1 → G5. DSS: Expanded G3 → G5.
+
+*7. Validation (≈ 30 min)*
+- [ ] EDSY export vs plan: range, boost, power margin, laden vs unladen speed.
+- [ ] Test: one HGE (manual scoop or limpet), one surface site with the Scarab, one silent-
+      running escape with the heatsink, one Odyssey taxi run (doctrine, annex A2).
+
+**Tier 2 — short unlocks (Liz Ryder, Marco Qwent)**
+- [ ] Unlock Liz Ryder; missile rack Lightweight G1 → G5 + Stripped Down.
+- [ ] Unlock Marco Qwent; power plant Overcharged G1 → G4 + Stripped Down (G5 is beyond
+      Qwent — see Tier 3).
+
+**Tier 3 — long unlocks (Professor Palin, Colonia engineers, others)**
+- [ ] Thrusters Dirty Drive G4 → G5: Professor Palin (Arque) or a Colonia engineer.
+- [ ] Pulse lasers Lightweight G5: an engineer with G5 lasers (bubble or Colonia, Engineers).
+- [ ] Boosters Resistance Augmented G4 → G5: Didi Vatermann (Leesti).
+- [ ] Power plant Overcharged G5: an engineer with G5 power plants (Engineers).
+- [ ] Lightweight on chaff, heatsink and collector; life support, fuel scoop and Extended cargo
+      racks: engineers to identify (Engineers).
+- [ ] *(Optional)* Enhanced Performance Thrusters (Palin) + Drive Distributors: the 800+ m/s
+      variant — check the heat and the hangar mass in EDSY first.
 
 ### The Brick — Type-9 Heavy (bulk trade, bridge ship)
 
@@ -73,14 +264,6 @@ Cornucopia. *Spec:* annex A5.
 
 - [x] The Brick V2 — the trade-merit engine, optimised for mass, manoeuvrability and interdiction
       escapes. Full checklist below ("The Brick V2 — '90 %' plan"); target build in annex A5.
-      **Done 30 Sept 2026** (journal `Loadout`, 12:36 UTC): every 90 % item fitted, plus
-      Super Capacitors on all 4 boosters, Drag Drives on the thrusters, a **6A SCO FSD**
-      (Increased Range G5 + Deep Charge) and Lightweight G1 sensors. Max jump 26.5 → 35.2 ly.
-      Mass (journal `Loadout`, unladen): original 1,096.8 t → V2 unengineered 1,076.0 t →
-      V2 engineered **1,087.2 t** — all the engineering together adds only ~11 t (~0.6 % of
-      laden mass), and V2 is still ~10 t lighter than the original. Shield engineering kept:
-      it costs almost no range and buys the time to escape interdictions (one escaped easily
-      on 30 Sept).
 
 **The Brick V2 — "90 %" plan (Type-9, solo, trade / Aisling Powerplay)** — added 25 Sept 2026
 from Tonton Marcel's plan (written in French, translated here). Estimated time **6–10 h**.
@@ -156,12 +339,10 @@ by their material rewards; trade surpluses at a Material Trader (manufactured, r
 
 *5. Lei Cheung — Laksak, Trader's Rest (≈ 2 h)*
 - Unlock:
-  - [x] **Not needed** — journal 30 Sept: invitation (*Known*) at 11:17 while rolling at The
-        Dweller, **Unlocked** at 11:22, no gold donation (`EngineerContribution`) logged. The
-        200 t of Gold bought at Rotsler Station (Laksak, 43,101 CR/t) was never asked for;
-        carried along (lower jump range on that leg) and sold at Gottlob Frege Point
-        (43,587 CR/t, +97,200 CR).
-  - Rank 1 → 5 reached while crafting the shield, 12:01–12:09.
+  - [ ] Trade at enough extra markets to pass 50, if not already there.
+  - [ ] Buy 200 t of Gold in Laksak (Pinto City or Hedin Hub, whichever is cheaper), one trip
+        with The Brick.
+  - [ ] Donate the Gold to Lei Cheung (Trader's Rest).
 - Shield:
   - [ ] Reinforced G1 → G3 (Phosphorus; + Conductive Components; + Mechanical Components).
   - [ ] Reinforced G4 (Manganese + Conductive Ceramics + Configurable Components).
@@ -260,38 +441,53 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
 {
   "ship": "Imperial Clipper",
   "name": "\"Astroforge\" CL-002",
-  "role": "Laser mining, Powerplay 2.0 (Aisling, reinforcement) — Phase 1, no engineering",
-  "slot_layout": "Optional slots 7/6/4/4/3/3/2/2/1 | 2L + 2M | 4 utility (slot 1 revealed by the Pacifier's export)",
+  "role": "Laser mining, Powerplay 2.0 (Aisling, reinforcement in systems under heavy undermining)",
+  "revision": "3 Oct 2026 — rewritten from the Inara export (actual fit); previous A1 was the unengineered Phase 1 plan",
+  "slot_layout": "Optional slots 7/6/4/4/3/3/2/2/1 | 2L + 2M | 4 utility",
   "principle": "PP2 reinforcement: mine and sell in the same system. Intra-system runs: no fuel scoop, cargo takes priority.",
   "hardpoints": [
-    { "slot": "largehardpoint1", "module": "3E Beam Laser (Gimballed)" },
-    { "slot": "largehardpoint2", "module": "3E Multi-Cannon (Gimballed)" },
+    { "slot": "largehardpoint1", "module": "Beam Laser (L, Gimballed)", "purpose": "Deterrence" },
+    { "slot": "largehardpoint2", "module": "Multi-Cannon (L, Gimballed)", "purpose": "Deterrence" },
     { "slot": "mediumhardpoint1", "module": "2D Mining Laser (Fixed)" },
     { "slot": "mediumhardpoint2", "module": "2D Mining Laser (Fixed)" }
   ],
-  "utility_mounts": ["0I Chaff Launcher", "0F Electronic Countermeasure (anti hatch breakers)", "0A Shield Booster", "0A Shield Booster"],
+  "utility_mounts": [
+    "0A Shield Booster — Heavy Duty G1 + Super Capacitors",
+    "0A Shield Booster — Heavy Duty G1 + Super Capacitors",
+    "0A Shield Booster — Heavy Duty G1 + Super Capacitors",
+    "0A Shield Booster — Heavy Duty G1 + Super Capacitors"
+  ],
   "core_internals": {
-    "power_plant": "6C (upgrade to 6A if power saturates) — target: Overcharged",
-    "thrusters": "6A — target: Dirty Drive Tuning",
-    "frame_shift_drive": "5A — target: Increased Range + Mass Manager",
-    "life_support": "5D", "power_distributor": "6A", "sensors": "5D",
-    "fuel_tank": "4C (16 t)", "armour": "Lightweight Alloy"
+    "power_plant": "6A — Overcharged G1 + Monstered (likely 'XXL' in the French client: the experimental that raises power output)",
+    "thrusters": "6A — Dirty Drive G3 + Drag Drives",
+    "frame_shift_drive": "5A SCO — Increased Range G5 + Mass Manager (SCO is what matters here: faster ring → station legs)",
+    "life_support": "5D",
+    "power_distributor": "6A — High Capacity G5 (no experimental)",
+    "sensors": "5D",
+    "fuel_tank": "4C (16 t)",
+    "armour": "Lightweight Alloy"
   },
   "optional_internals": [
     { "slot": "size7", "module": "7E Cargo Rack (128 t)" },
-    { "slot": "size6", "module": "6A Shield Generator" },
-    { "slot": "size4", "module": "4E Cargo Rack (16 t)" },
-    { "slot": "size4", "module": "4E Cargo Rack (16 t) — 4A scoop stored" },
+    { "slot": "size6", "module": "6A Shield Generator — Reinforced G5" },
+    { "slot": "size4", "module": "4A Refinery" },
+    { "slot": "size4", "module": "4A Fuel Scoop", "planned": "→ 4E Cargo Rack (16 t), scoop stored" },
     { "slot": "size3", "module": "3A Collector Limpet Controller" },
     { "slot": "size3", "module": "3A Collector Limpet Controller" },
-    { "slot": "size2", "module": "2A Refinery" },
-    { "slot": "size2", "module": "1A Hephaestus Limpet Controller" },
-    { "slot": "size1", "module": "1E Cargo Rack (2 t) — slot currently empty" }
+    { "slot": "size2", "module": "2A Shield Cell Bank" },
+    { "slot": "size2", "module": "1A Prospector Limpet Controller" },
+    { "slot": "size1", "module": "Detailed Surface Scanner — Expanded G3 (hotspot mapping; useless if rings are picked from Inara / EDTools)" }
   ],
-  "cargo_capacity": "162 t (≈20 limpets included)",
+  "cargo_capacity": "128 t, limpets included (144 t once the scoop is swapped for a 4E rack)",
+  "notes": [
+    "Mining lasers stay on the medium hardpoints: standard mining lasers only exist in small and medium (correction 3 Oct 2026)",
+    "Lightweight engineering not worth it: cargo dominates the laden mass, gains of a few percent at most",
+    "Option: boosters Heavy Duty G1 → G3 with Lei Cheung (already unlocked)",
+    "Option: an experimental on the distributor (none fitted)"
+  ],
+  "variant_max_cargo": "If mining becomes more frequent: slot 6 as 6E Cargo (64 t) + 4A shield in the scoop slot (size 4) = 7E 128 t + 6E 64 t ≈ 192 t, quiet systems only. The engineered 6A Reinforced G5 shield is stored, not sold.",
   "end_of_life": "Sold in Phase 5 once the Hephaestus beats her performance (profit/h and merits/h).",
-  "variant_max_cargo": "Slot 6 as 6E Cargo (64 t) + 4A shield in slot 4: ≈208 t, quiet systems only",
-  "power_priorities": { "1": "Thrusters, FSD, shield, life support, sensors", "2": "Mining lasers, limpets, refinery", "3": "Weapons, chaff, ECM" }
+  "power_priorities": "All modules on priority 1 — the 6A Overcharged power plant covers the whole fit (3 Oct 2026)"
 }
 ```
 
@@ -301,29 +497,40 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
 {
   "ship": "Imperial Courier",
   "name": "\"Dart\" CO-01",
-  "role": "Odyssey taxi + pre-landing support + megaship scans + on-foot Powerplay runs; escapes by speed",
+  "role": "Black-box snatch and flee, material recovery (HGE, Jameson, raw), Odyssey taxi + pre-landing support",
+  "revision": "3 Oct 2026 — EDSY compromise build: D-rated core + Lightweight engineering, pulse lasers kept instead of beams (WEP drain), tiers in the Dart V2 plan",
+  "edsy_target": { "unladen_mass_t": 60.92, "max_jump_ly": 43.6, "cargo_t": 18, "fuel_t": 4, "max_fuel_per_jump_t": 2.09 },
+  "stripped_variant": "No hardpoints, utilities or hangar: 51.45 t, 51.3 ly — HGE / travel only (EDSY, 3 Oct 2026)",
   "slot_layout": "Optional slots 3/3/2/2/2/1/1/1 | 3M | 4 utility",
   "hardpoints": [
-    { "slot": "mediumhardpoint1", "module": "2F Pulse Laser (Gimballed)", "purpose": "Skimmers, SRV", "engineering_target": "Efficient G3-G4 (The Dweller)" },
-    { "slot": "mediumhardpoint2", "module": "2F Pulse Laser (Gimballed)", "engineering_target": "Efficient G3-G4 (The Dweller)" },
-    { "slot": "mediumhardpoint3", "module": "2B Missile Rack (Dumbfire)", "purpose": "Area damage against ground groups", "engineering_target": "High Capacity (Liz Ryder)" }
+    { "slot": "mediumhardpoint1", "module": "2F Pulse Laser (Gimballed)", "engineering": "Lightweight G5 + Stripped Down", "purpose": "Skimmers, SRV" },
+    { "slot": "mediumhardpoint2", "module": "2F Pulse Laser (Gimballed)", "engineering": "Lightweight G5 + Stripped Down" },
+    { "slot": "mediumhardpoint3", "module": "2B Missile Rack (Dumbfire)", "engineering": "Lightweight G5 + Stripped Down (Liz Ryder)", "purpose": "Area damage against ground groups" }
   ],
-  "utility_mounts": ["0I Point Defence (automatic, even landed; ineffective against lasers) — swap for a Heat Sink on megaship sorties", "0I Chaff Launcher", "0A Shield Booster — Heavy Duty G3 + Super Capacitors", "0A Shield Booster — Thermal Resistant G3 + Super Capacitors"],
+  "utility_mounts": [
+    "0I Chaff Launcher — Lightweight G5",
+    "0I Heatsink Launcher — Lightweight G5 (silent running, lock breaking, scooping)",
+    "0D Shield Booster — Resistance Augmented G5 + Super Capacitors",
+    "0D Shield Booster — Resistance Augmented G5 + Super Capacitors"
+  ],
   "core_internals": {
-    "power_plant": "4A — target: Overcharged G3, only if power runs short",
-    "thrusters": "3A — target: Dirty Drive Tuning G3 + Drag Drives (Farseer); G5 later (Palin)",
-    "frame_shift_drive": "3A SCO — target: Increased Range G5 + Mass Manager (G4 done 1 Oct)",
-    "life_support": "1E", "power_distributor": "3A — target: Engine Focused G5 (High Capacity G2 fitted 1 Oct)",
-    "sensors": "2D", "fuel_tank": "3C (8 t)", "armour": "Lightweight Alloy"
+    "power_plant": "4D — Overcharged G5 + Stripped Down",
+    "thrusters": "3D — Dirty Drive G5 + Drag Drives (optimal mass 78.75 t)",
+    "frame_shift_drive": "3A SCO — Increased Range G5 + Deep Charge",
+    "life_support": "1D — Lightweight G5",
+    "power_distributor": "3D — Engine Focused G5 + Super Conduits",
+    "sensors": "2D — Lightweight G5",
+    "fuel_tank": "2C (4 t)",
+    "armour": "Lightweight Alloy"
   },
   "optional_internals": [
-    { "slot": "size3", "module": "3A Shield Generator — Reinforced G5 + Hi-Cap (G4 done 1 Oct)" },
-    { "slot": "size3", "module": "3E Cargo Rack (8 t)" },
-    { "slot": "size2", "module": "2A Fuel Scoop" },
-    { "slot": "size2", "module": "Planetary Vehicle Hangar + Scorpion SRV" },
-    { "slot": "size2", "module": "2E Cargo Rack (4 t)" },
-    { "slot": "size1", "module": "Detailed Surface Scanner" },
-    { "slot": "size1", "module": "1E Recon Limpet Controller (holoscreens, megaship hacks) — replaces the docking computer/assist" },
+    { "slot": "size3", "module": "3D Shield Generator — Reinforced G5 + Hi-Cap (131.7 MJ)" },
+    { "slot": "size3", "module": "3E Cargo Rack — Extended G5 (11 t)" },
+    { "slot": "size2", "module": "2E Cargo Rack — Extended G5 (5 t)" },
+    { "slot": "size2", "module": "Planetary Vehicle Hangar 2G + Scarab SRV (wave scanner; Scorpion only for ground combat)" },
+    { "slot": "size2", "module": "2D Fuel Scoop — Scoop-Rate Enhanced G5" },
+    { "slot": "size1", "module": "1D Collector Limpet Controller — Lightweight G5" },
+    { "slot": "size1", "module": "Detailed Surface Scanner — Expanded G5" },
     { "slot": "size1", "module": "1E Cargo Rack (2 t)" }
   ],
   "ground_support_doctrine": [
@@ -349,7 +556,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
     "6A shield moved from slot 6 to a 7A in slot 7 (purchase, ≈50M to verify); the old 6A is stored",
     "6A Shield Cell Bank in slot 6",
     "Cargo racks replaced with hull and module reinforcements",
-    "One chaff launcher replaced with a Kill Warrant Scanner (bounty hunting)"
+    "One chaff launcher replaced with a Heatsink Launcher for the SCB (3 Oct 2026: Kill Warrant Scanner dropped — useless in CZs, as for the Charybdis)"
   ],
   "hardpoints": [
     { "slot": "largehardpoint1", "module": "3E Beam Laser (Gimballed)", "status": "Kept", "engineering_target": "Efficient or Short Range + Thermal Vent" },
@@ -357,7 +564,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
     { "slot": "mediumhardpoint1", "module": "2E Multi-Cannon (Turret)", "status": "Kept", "engineering_target": "Overcharged + Corrosive Shell" },
     { "slot": "mediumhardpoint2", "module": "2E Multi-Cannon (Turret)", "status": "Kept", "engineering_target": "Overcharged + Incendiary Rounds" }
   ],
-  "utility_mounts": ["0A Shield Booster (kept)", "0A Shield Booster (kept)", "0I Chaff Launcher (kept)", "0C Kill Warrant Scanner (new)"],
+  "utility_mounts": ["0A Shield Booster (kept)", "0A Shield Booster (kept)", "0I Chaff Launcher (kept)", "0I Heatsink Launcher (new)"],
   "core_internals": {
     "power_plant": "6A (kept)",
     "thrusters": "6A (kept) — target: Dirty Drive Tuning",
@@ -440,7 +647,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
   "ship": "Type-9 Heavy (bridge ship, non-Gutamaya)",
   "name": "\"The Brick\" T9-01",
   "role": "PP merit engine through trade, and trade/colonisation CGs, until the Cornucopia arrives",
-  "status": "V2 done 30 Sept 2026 (journal Loadout 12:36 UTC), plus 6A SCO FSD. Cargo 758 t unchanged, max jump 35.2 ly",
+  "status": "V2 refit in progress (Phase 1, 'The Brick V2 — 90 % plan', §5.4). Cargo 758 t unchanged",
   "hardpoints": "Empty (all weapons sold)",
   "utility_mounts": [
     "0A Shield Booster — Thermal Resistant G3",
@@ -452,7 +659,7 @@ Phase 6 once Marco Polo's range beats hers; her DSS and FSD migrate to that hull
   "core_internals": {
     "power_plant": "6A stock (25.2 MW, everything on priority 1)",
     "thrusters": "7A — Dirty Drive G3 (+ Drag Drives if offered); G5 via Professor Palin later",
-    "frame_shift_drive": "6A SCO (overcharge) — Increased Range G5 + Deep Charge (upgraded from 6B, 30 Sept)",
+    "frame_shift_drive": "6B — Increased Range G5 + Deep Charge (unchanged)",
     "power_distributor": "6A — High Capacity G5 + Super Conduits (The Dweller)",
     "sensors": "4D", "fuel_tank": "5C (32 t)"
   },

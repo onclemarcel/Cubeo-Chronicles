@@ -14,12 +14,16 @@ Ranking: estimated value of one full hold sold at the best in-system station
 (cargo x sell price, capped by demand), then hotspot count on the ring (2+ =
 possible overlap), then Pristine reserves, then station distance.
 
-Merit estimate - HYPOTHESIS, NOT MEASURED: the trade formula
-    merits = floor( tons x (sell - 1.4 x buy) x 156 / 1,000,000 )
-with buy = 0 for mined goods gives tons x sell x 156 / 1M. Verify with a
-first sale (journal MarketSell + PowerplayMerits) before trusting it.
-Strongholds paid 0 merits for TRADE; whether that holds for mining is
-unknown, so they are listed but flagged (--skip-states to drop them).
+Merit formula (journal fit, 1 Oct 2026 - exact on all 10 mined-goods sales,
+Stronghold HIP 5700 and Exploited ICZ DG-O b6-3 alike):
+    merits = floor( sale value / 2,560 )      (~391 merits per 1M CR)
+Mined goods have no purchase price, so the whole sale counts - 2.5x the
+trade rate (156 per 1M CR of excess profit). Rounded down per sale: sell
+each commodity in one go. Strongholds DO pay for mining (unlike trade).
+
+Hotspots only show after mapping the ring with the Detailed Surface Scanner
+(probes on the ring); then target the hotspot marker and drop into it.
+Dropping at a ring or a RES at random gives the ring's ordinary mix.
 
 Data: https://spansh.co.uk (public API, EDDN-fed). Ring hotspots come from
 players' DSS scans; prices can be days old - check the "age" column and the
@@ -29,7 +33,7 @@ Usage examples:
   python tools/pp_mining_routes.py                       # around current system
   python tools/pp_mining_routes.py --ref Cubeo --radius 40
   python tools/pp_mining_routes.py --minerals Platinum --cargo 128
-  python tools/pp_mining_routes.py --skip-states Stronghold
+  python tools/pp_mining_routes.py --cargo 110            # hold minus limpets
 """
 
 import argparse
@@ -47,7 +51,7 @@ UA = {"Content-Type": "application/json",
       "User-Agent": "cubeo-chronicles-pp-mining/1.0"}
 LASER_MINERALS = ("Platinum", "Painite", "Low Temperature Diamonds",
                   "Osmium", "Palladium", "Gold", "Bertrandite", "Bromellite")
-MERITS_PER_MCR = 156.0          # trade fit, reinforcement - unverified here
+MERIT_DIVISOR = 2560.0          # merits = floor(sale / 2560), journal 1 Oct
 RESERVE_RANK = {"Pristine": 3, "Major": 2, "Common": 1, "Low": 0,
                 "Depleted": -1}
 
@@ -128,7 +132,7 @@ def main():
                     help="comma list of hotspot commodities to look for")
     ap.add_argument("--skip-states", default="",
                     help="comma list of own control states to drop "
-                         "(e.g. Stronghold; default: none, flagged instead)")
+                         "(default: none - Strongholds pay for mining)")
     ap.add_argument("--max-age", type=float, default=7.0,
                     help="flag markets older than N days (default 7)")
     ap.add_argument("--top", type=int, default=15)
@@ -175,30 +179,27 @@ def main():
                 -(b.get("distance_to_arrival") or 0))
     rows.sort(key=key, reverse=True)
 
-    print("Merits/hold = cargo x sell x %d / 1M  (HYPOTHESIS from the trade "
-          "formula with buy = 0 - verify on the first sale)\n" %
-          MERITS_PER_MCR)
+    print("Merits/hold = floor(hold value / %d)  (journal fit, 1 Oct). "
+          "Map the ring with the DSS first.\n" % MERIT_DIVISOR)
     for n, (b, ring, mineral, count, outlet) in enumerate(rows[:args.top], 1):
         state = b.get("system_power_state")
         print("%2d. %-24s %dx hotspot  %s  (%s, %s)  %.1f ly" % (
             n, mineral, count, ring["name"], b["system_name"], state,
             b.get("distance") or 0))
-        print("    ring %s, reserves %s, body at %.0f ls%s" % (
+        print("    ring %s, reserves %s, body at %.0f ls" % (
             ring.get("type") or "?", b.get("reserve_level") or "?",
-            b.get("distance_to_arrival") or 0,
-            "   [Stronghold: trade paid 0 merits here]"
-            if state == "Stronghold" else ""))
+            b.get("distance_to_arrival") or 0))
         if outlet:
             st, sell, demand, value = outlet
             age = age_days(st.get("market_updated_at"))
             print("    sell at %s (%.0f ls, %s pad): %s CR/t, demand %d t%s"
-                  "  -> hold %s CR, ~%d merits?%s" % (
+                  "  -> hold %s CR, ~%d merits%s" % (
                       st["name"], st.get("distance_to_arrival") or 0,
                       "L" if st.get("has_large_pad") else "M",
                       format(sell, ","), demand,
                       "  LOW DEMAND" if demand < args.cargo else "",
                       format(value, ","),
-                      int(value / 1e6 * MERITS_PER_MCR),
+                      int(value / MERIT_DIVISOR),
                       "  (market %.1f d old%s)" % (
                           age, ", STALE" if age > args.max_age else "")
                       if age is not None else ""))

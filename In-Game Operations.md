@@ -28,7 +28,7 @@
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Defenceless** |
 | Imperial Navy rank | **Viscount** |
-| Power | Aisling Duval — pledged, **Rank 12 / 74,756 merits** (1 Oct, 17:21 UTC) |
+| Power | Aisling Duval — pledged, **Rank 12 / 75,257 merits** (1 Oct, 20:16 UTC) |
 | Home port | Cubeo — Medupe City |
 | Treasury | **≈2,224,588,122 CR** (1 Oct 2026, 15:47 UTC, journal `LoadGame`) |
 | Game mode | Solo |
@@ -352,7 +352,7 @@ Source: journal files of 30 Sept, 06:03–18:05 UTC. Merits 34,892 → **51,790*
 ### 1 October — Astroforge and Dart Engineering, Four of Five Assignments (journal-verified)
 
 Source: journal files of 1 Oct, 08:59–17:22 UTC (Thursday, first day after the weekly tick).
-Merits 51,734 → **74,756** (+23,022; **rank 9 → 12**: 10 at 12:11, 11 at 14:51, 12 at 17:21).
+Merits 51,734 → **75,257** (+23,523; **rank 9 → 12**: 10 at 12:11, 11 at 14:51, 12 at 17:21).
 
 - **Astroforge engineering, Deciat (Farseer Inc), 09:13–09:49:** Power Plant Overcharged G1 +
   Monstered, DSS Expanded G3, Dirty Drive G3 + Drag Drives, FSD G5 + Mass Manager, 4 shield
@@ -379,6 +379,13 @@ Merits 51,734 → **74,756** (+23,022; **rank 9 → 12**: 10 at 12:11, 11 at 14:
   assignment **+5,600**.
 - **Fifth assignment** not started.
 - Merit rates for these loops: `Powerplay Missions.md` §3.
+- **First PP mining test, Astroforge, 18:46–20:17:** 88 limpets bought at Kenig City. HIP 5700
+  (Stronghold): dropped into a Hazardous RES of the A 2 A Ring, not the Platinum hotspot (ring
+  not mapped with the DSS). 29 t refined (silver, gold, coltan…), sold at Kaiser's Journey →
+  **381 merits**. ICZ DG-O b6-3 (Exploited): 25 t (tritium, ices…), sold at Noel Station →
+  **120 merits**. 61 asteroids prospected, no Platinum, no LTD. Result: **merits =
+  floor(sale / 2,560)** and Strongholds pay for mining (`Powerplay Missions.md` §3). Merits
+  74,756 → 75,257.
 
 ---
 
@@ -472,7 +479,8 @@ risk-free.
 
 **Ships** → `Shipyard.md`
 - [~] Astroforge v2 (annex A1) — engineering 1 Oct (power plant, thrusters, FSD, boosters);
-      PP mining merits/h still to measure.
+      mining lasers 2D → 2B to do; PP mining formula found 1 Oct, hotspot merits/h still to
+      measure.
 - [~] Dart v2 (annex A2) — refit and first engineering 1 Oct (FSD G4, shield G4,
       distributor G2); thrusters and boosters next.
 - [~] Pacifier v2 (annex A3) — impound cleared and refit done 23 Sept; 7A Shield + 6A SCB and
