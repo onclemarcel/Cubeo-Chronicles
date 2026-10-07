@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 6 October 2026 (3312), journal read through 6 Oct 15:04 UTC
+## Campaign memory — status as of 6 October 2026 (3312), journal read through 7 Oct 18:33 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -23,14 +23,14 @@
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
 | Trade rank | **Elite** (earned 16 Sept 2026) |
-| Combat rank | **Competent** (since 29 Sept 2026, journal `Rank`) |
+| Combat rank | **Competent** (since 29 Sept 2026) — **83 %** toward Expert (7 Oct evening; 9 % before CG 860) |
 | Explorer rank | **Ranger** |
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Mostly Defenceless** (since 29 Sept 2026) |
 | Imperial Navy rank | **Viscount** — **95 %** toward Count (6 Oct; was 86 % on 1 Oct) |
 | Power | Aisling Duval — pledged, **Rank 12 / 75,458 merits** (3 Oct, 10:10 UTC; no merits since) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈2,221,500,000 CR** (6 Oct 2026, 15:04 UTC — `LoadGame` 11:41 + CG 860 vouchers − repairs/ammo) |
+| Treasury | **≈2,234,800,000 CR** (7 Oct 2026, 15:45 UTC — `LoadGame` 06:15 + CG 860 vouchers − weapons, repairs, ammo) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -48,7 +48,7 @@ nothing more is added.
 | Ship | Hull | Modules (class/grade + engineering + experimental effect) |
 |---|---|---|
 | **Astroforge** (mining Clipper, `CL-002`, ShipID 10) | Imperial Clipper | *Journal `Loadout` 1 Oct 09:00 + `EngineerCraft` 09:13–09:49 (Farseer, Deciat).* Cargo rack 7E (128 t) · 2× Collector Limpet Controller 3A · Prospector Limpet Controller 1A · Refinery 4A · Fuel Scoop 4A · Shield Cell Bank 2A · 2× Mining Laser 2D (Fixed) · 1× Beam Laser (Large, Gimballed) · 1× Multi-Cannon (Large, Gimballed) · **4× Shield Booster 0A, Heavy Duty G1 + Super Capacitors** · **Shield 6A, Reinforced G5** · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Monstered** · **Distributor 6A, High Capacity G5** · **FSD 5A SCO, Increased Range G5 + Mass Manager** (32.8 ly before Mass Manager) · DSS Expanded G3 · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 1. No chaff/ECM any more. Merits/h of the PP mining loop still to measure (Checkpoint 1). |
-| **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Pacifier V2 refit, 6 Oct 2026 (journal `Loadout` 11:41 + `EngineerCraft` to 12:13).* 2× Beam Laser (Large, Gimballed), **Overcharged G3 + Flow Control** (The Dweller) · 2× Multi-Cannon (Medium, **Turret**, stock) · **2× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher (replaces one chaff) · Chaff · **Shield 7A, Reinforced G5 + Hi-Cap** (Lei Cheung, bought 6 Oct, 50.0M CR) · **Shield Cell Bank 6A** (bought 6 Oct, replaces the old 6A shield) · 2× Hull Reinforcement 4D · Module Reinforcement 3D + 1D · Fuel Scoop 3A · 2× Cargo Rack 2E (8 t) · **Distributor 6A, High Capacity G5 + Super Conduits** (The Dweller) · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Thermal Spread** · **FSD 5A, Faster Boot G5 + Mass Manager** (Farseer) · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 (Military Grade). Removed 6 Oct and stored: 7E cargo rack, FSD interdictor, planetary hangar, multi-drone controller. ~784.6 t, ~17.9 ly, Rebuy ≈7.1M CR. First combat test: CG 860, Redonesses (§4, 6 Oct). |
+| **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Pacifier V2 refit, 6 Oct 2026; weapons changed 7 Oct (journal `Loadout` 06:57).* **Multi-Cannon (Large, Gimballed)** (stock, bought 7 Oct; replaces one beam, stored) · Beam Laser (Large, Gimballed), **Overcharged G3 + Flow Control** (The Dweller) · **2× Multi-Cannon (Medium, Gimballed)** (stock, 7 Oct; the turrets were sold) · **2× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · **2× Heat Sink Launcher** (no chaff left since 7 Oct) · **Shield 7A, Reinforced G5 + Hi-Cap** (Lei Cheung, bought 6 Oct, 50.0M CR) · **Shield Cell Bank 6A** (bought 6 Oct, replaces the old 6A shield) · 2× Hull Reinforcement 4D · Module Reinforcement 3D + 1D · Fuel Scoop 3A · 2× Cargo Rack 2E (8 t) · **Distributor 6A, High Capacity G5 + Super Conduits** (The Dweller) · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Thermal Spread** · **FSD 5A, Faster Boot G5 + Mass Manager** (Farseer) · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 (Military Grade). Removed 6 Oct and stored: 7E cargo rack, FSD interdictor, planetary hangar, multi-drone controller. ~784.6 t, ~17.9 ly, Rebuy ≈7.1M CR. First combat test: CG 860, Redonesses (§4, 6 Oct). |
 | **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026 (`ShipyardBuy`, 2,479,358 CR). *Dart V2 Tier 1 done 5 Oct 2026 (journal `Loadout` 6 Oct 06:50).* 2× Pulse Laser (Medium, Gimballed), **Lightweight G4 + Stripped Down** · Dumbfire Missile Rack (Medium) · Heat Sink Launcher (replaces the point defence) · Chaff · **2× Shield Booster 0D, Resistance Augmented G3 + Super Capacitors** · **Shield 3D, Reinforced G5 + Hi-Cap** · **FSD 3A SCO, Increased Range G5 + Deep Charge** · **Distributor 3D, Engine Focused G5 + Super Conduits** · **Thrusters 3D, Dirty Drive G3 + Drag Drives** · **Power Plant 4D, Overcharged G1 + Stripped Down** · **Sensors 2D, Lightweight G5** (60 % roll) · Life Support 1D · Fuel Tank 2C · Fuel Scoop 3A · Planetary hangar 2G · Collector Limpet Controller 1D · DSS Expanded G3 · 10 t cargo racks · Armour grade 1. **68.76 t, 38.8 ly unladen**, Rebuy ≈231k CR. Engineered A-rated modules stored, not sold. Note: every `Loadout` since 1 Oct reports the thrusters as switched off (`On: false`), yet the Dart has flown ~150 jumps since — most likely a journal/Inara reporting quirk, not a real fault. |
 | **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Stored, not flown, since 19 Sept** (rule 6, §3) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 2 Oct:** a 6A fuel scoop in place of a 6E cargo rack → **694 t** (§4). |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **FSD upgraded to G5 today** (23 Sept, Felicity Farseer at Deciat, `EngineerCraft`): Increased Range g5 + Deep Charge (up from g4/43.08 ly — new jump range not yet re-read from a fresh `Loadout`/Inara export). **Thrusters partially engineered today too:** Tuned g1 → **Dirty Drive Tuning g3 + Overloaded** experimental (not full g5 yet — annex A4 still calls for g5). DSS 1I g5, Expanded Probe Scanning Radius (Lei Cheung, unchanged) · Fuel Scoop 6A · Power Plant 5A, Armoured g1 (unchanged) · Planetary hangar 2D · Shield 5D · 20 t cargo racks · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher (all tiny hardpoints). Still carrying the rescue-run weapons (2× pulse laser, 4× dumbfire missile rack, collector limpet controller) as of the 23 Sept `Loadout` — strip again before the *Long range* loadout is saved. SCO FSD 5A bought and tested (18 Sept), reverted, stored free at the same station. **Stored, not flown, between sessions** (rule 6) — bridge ship for exploration/exobiology until Marco Polo (Phase 6, §5); her DSS and FSD migrate to that hull. |
@@ -483,6 +483,38 @@ dead ship at Koli Discii and at Jameson's grave, picking up what's left; the Pac
 for survival, then her first real fight — a prison ship full of wanted pilots, then a conflict
 zone where the shields go down six times and hold.
 
+
+### 7 October — CG 860, the New Fit Works (journal-verified)
+
+Source: journal file of 7 Oct, 06:15–15:45 UTC. No merits.
+
+- **Weapons reworked, 06:19–06:57:** at Sword of Iustitia, the two turreted medium
+  multi-cannons sold and replaced with **gimballed** ones (55,575 CR each); at Crevenna's Folly
+  (Col 285 Sector AC-H b12-1), one large beam stored and replaced with a **large gimballed
+  multi-cannon** (563,976 CR); the last chaff swapped for a second heat sink launcher (two heat
+  sinks synthesised as well). Result: one beam for shields, three multi-cannons for hull.
+  Tonton Marcel's verdict: the change works.
+- **CG 860, ~9.5 h on and off:** 18 low-intensity and 2 medium-intensity conflict zones for
+  Redonesses Defence Party against Clan of Redonesses — **107 kill bonds**, cashed in 12 trips
+  to Sword of Iustitia for **13,580,454 CR** (redeemed value ≈3× the 4.36M CR shown at each
+  kill). Plus 4 bounties (574,245 CR).
+- **CG standing at 15:44:** contribution 2,589,023 → **16,169,477 CR**, bracket **Top 75 % →
+  Top 25 %**. Tier 2 of 5 reached, bonus pool now 220M CR, 8,235 contributors. Ends **8 Oct,
+  10:00 UTC**.
+- **Damage:** shields lost six times, lowest hull **58 %** (14:54), no death. Repairs and ammo
+  ≈166k CR. Four interdictions by the other side (Redonesses Gold Comms Services, mostly its
+  system defence force): three submitted, none lost.
+- **Combat rank:** progress toward Expert 9 % → 25 % (6 Oct session) → **83 %** (this one).
+- **Evening session, 17:15–18:33:** four more low-intensity zones, 24 kill bonds, 2,953,321 CR
+  redeemed. Closest call of the CG: hull **35 %** at 18:29 before jumping out. Final standing at
+  18:32: contribution **17,783,572 CR, Top 25 %**, tier 2, 8,336 contributors.
+- **Metrics:** every zone of the CG rebuilt from the journal with `tools/combat_stats.py` —
+  summary in Checkpoint 1 (§5.4).
+
+**Raw material for future `Logbook.md` days:** the day the Pacifier learns to fight — the beam
+kept for shields, the guns swapped for ones that actually track, and a hundred kills in one
+long shift. The CG bracket climbing from the bottom quarter to the top quarter of 8,000 pilots.
+
 ---
 
 ## 5. ROADMAP
@@ -562,11 +594,11 @@ Moved to `Engineers & Materials.md` (25 Sept 2026).
 | Pacifier | Imperial Clipper | Combat / trade | Combat trainer, then becomes the Diplomat in Phase 6 |
 | Dart | Imperial Courier | Taxi | Kept (Dart v2) |
 | The Brick | Type-9 Heavy | Trade CGs | Bridge ship, stored at the museum in Phase 5 (replaced by Cornucopia) |
-| Hyperion | Asp Explorer | Exploration | Bridge ship, stored at the museum in Phase 6 (replaced by Marco Polo) |
+| Hyperion | Asp Explorer | Exploration | Bridge ship, stored at the museum **once the Marco Polo's exploration kit is fitted** (decided 7 Oct) |
 
 > Bridge "The Brick" → Cornucopia: The Brick covers trade CGs until the Cornucopia arrives.
 > Bridge "Pacifier" → Diplomat: the Pacifier covers bounty hunting and transforms into the Diplomat.
-> Bridge "Hyperion" → Marco Polo: the Hyperion covers exploration and the Guardian quest until the Marco Polo arrives.
+> Bridge "Hyperion" → Marco Polo: the Hyperion covers exploration until the Marco Polo arrives; the Guardian expedition is flown by the Marco Polo (decided 7 Oct 2026).
 
 #### Phase 1 — Trade and mining first, learn combat
 
@@ -579,11 +611,16 @@ risk-free.
       measure.
 - [x] Dart v2 Tier 1 (annex A2) — done 5 Oct, 38.8 ly; DSS G5 and Tiers 2–3 remain
       (`Shipyard.md`).
-- [~] Pacifier v2 (annex A3) — 7A shield + 6A SCB, engineering done 6 Oct; first combat CG the
-      same day (CG 860). Weapon loadout under review (lasers drain the capacitor, turreted
-      multi-cannons too weak) — `Shipyard.md`.
+- [x] Pacifier v2 (annex A3) — done 6 Oct, weapons reworked 7 Oct (1 beam + 3 gimballed
+      multi-cannons), validated in CG 860. No weapon engineering on her (decision 7 Oct): that
+      goes to the Corsairs — `Shipyard.md`.
+- [ ] **Next (decided 7 Oct, after CG 860): start the Corsair series with the Marco Polo**
+      (taxi core, then exploration kit) — an exploration / long-distance CG is the likely next
+      one. Build plan with stages, materials and trips: `Shipyard.md`, Marco Polo card. Nemesis
+      and Soteria follow, depending on missions, Powerplay and CGs.
 - [x] The Brick V2 — "90 %" plan (annex A5) — done 30 Sept, plus a 6A SCO FSD.
-- [~] Hyperion — FSD G5 done 23 Sept; thrusters at G3 of G5.
+- [x] Hyperion — FSD G5 done 23 Sept; thrusters stay at G3 (no more engineering: she retires
+      once the Marco Polo is equipped, decided 7 Oct).
 
 **Powerplay** → `Powerplay Missions.md` — ≈172,000 merits remaining to rank 34 (1 Oct:
 74,756 of ≈247,000 — about 23 h of The Brick's trade loop at ~7,600 merits/h)
@@ -639,16 +676,65 @@ merit grinding.
   wears out: each purchase raises the buy price ~320 CR, so rotate commodities/sources
   (`tools/pp_trade_routes.py` ranks them with the formula).
 - [~] Pacifier: 10 Low RES sessions with no losses, combat rank at least Competent — rank
-      Competent since 29 Sept; first session 6 Oct (CG 860, low/medium CZs, no loss).
-- [ ] Hyperion's FSD at G5, Pacifier's boosters and shield at G3+.
+      Competent since 29 Sept; 2 sessions so far, no loss (6 and 7 Oct, CG 860, low/medium CZs).
+  **Benchmark — combat, Pacifier V2** (CG 860, Redonesses, 6–7 Oct; baseline for the Nemesis
+  and the Charybdis). Source: `python tools/combat_stats.py --since 2026-10-06`. Same shield,
+  boosters and engineering in both rows; only the weapons changed.
 
-#### Phase 2 — Guardian expedition with Hyperion, no purchase
+  | Metric | 2 beams + 2 turreted MCs (6 Oct) | 1 beam + 3 gimballed MCs (7 Oct) |
+  |---|---|---|
+  | Zones fought / time in zone | 5 CZ + 2 megaship, 1.8 h | 26 (mostly low CZ), 6.1 h |
+  | **Kills per hour in zone** | 18.4 | **22.1** |
+  | Median gap between kills | 2:16 | 2:07 |
+  | Time on target / damage rate, low CZs only | 2:01 / 68 pts/min | 1:58 / 71 pts/min |
+  | **Engagements dropped without a kill, per hour** | 9.4 | **4.3** |
+  | Shields lost per hour | 2.2 | **1.3** |
+  | Heat warnings | 3 | 0 |
+  | Zones left with shields up | 3 of 7 | **20 of 26** |
+  | Lowest hull | 58 % | 35 % (once) |
+  | Kills per logged hour (commute and hand-ins included) | ~10 | ~12 (18 in the short evening session) |
+
+  Reading: in the same kind of zone, the new fit doesn't kill a target faster (damage rate
+  68 → 71 points of shield % + hull % per minute). What changed is staying power: half as
+  many engagements dropped, fewer shield collapses, no more empty weapon capacitor. 167 of the
+  168 kills are confirmed by the lock (a kill clears the lock in the same second).
+
+  **Target difficulty** (both fits, median; "rate" = shield % + hull % removed per minute,
+  "shield back" = the target's shield recovered during the fight):
+
+  | Target | Kills | Time on target | Rate | Shield back | Dropped |
+  |---|---|---|---|---|---|
+  | Eagle | 24 | 1:15 | 123 | 2 | 2 |
+  | Viper Mk III | 21 | 1:42 | 91 | 2 | 4 |
+  | Vulture | 21 | 1:49 | 84 | 1 | 3 |
+  | Viper Mk IV | 14 | 2:08 | 79 | 2 | **8** |
+  | Asp Explorer | 15 | 2:06 | 70 | 2 | 4 |
+  | Cobra Mk III | 17 | 2:51 | 58 | 1 | 5 |
+  | Python | 24 | 2:49 | 41 | **7** | 6 |
+  | Anaconda | 8 | 2:56 | 30 | **6** | 3 |
+  | Alliance Challenger / Crusader / Chieftain | 5 | 3:32–6:22 | 17–30 | 2 | 5 |
+
+  Viper Mk IV: the most dropped target — fast, and quick to flee at ~15 % hull (Tonton
+  Marcel); some were also dropped on purpose when a bigger ship attacked from behind.
+  Pilot rank changes little (Competent 78, Elite 63 points/min). The power plant was the
+  subsystem most often targeted (24 kills), then thrusters (19). Full detail:
+  `python tools/combat_stats.py --since 2026-10-06 --kills`.
+- [x] Hyperion's FSD at G5, Pacifier's boosters and shield at G3+ (Pacifier: G3 boosters,
+      G5 shield, 6 Oct).
+
+#### Phase 2 — Guardian expedition with the Marco Polo
+
+*Changed 7 Oct 2026:* the expedition was planned on the Hyperion with no purchase; the Marco
+Polo (first Corsair, bought in Phase 1) flies it instead, in her exploration configuration, and
+the Hyperion retires early.
 
 **Goal:** unlock Guardian technology for the whole fleet, and start exobiology (currently
 Directionless), which funds what follows.
 
 **Preparation**
-- [ ] Hyperion v2 (annex A4) → `Shipyard.md`.
+- [ ] Marco Polo exploration configuration (Stage 3 of her build plan) → `Shipyard.md`.
+- [ ] Hyperion stripped and stored at the museum; her DSS (Expanded G5) transferred to the
+      Marco Polo.
 - [ ] On-foot gear: Artemis suit + Genetic Sampler → `On-Foot.md`.
 
 **Expedition**
@@ -715,9 +801,8 @@ purchase.
 
 #### Phase 6 — 100% Gutamaya completion
 
-- [ ] Corsair #2 "Marco Polo" (annex B1, §5.7). Starts directly with FSD G5 and the Guardian
-      booster.
-- [ ] Store Hyperion at the museum once Marco Polo's range beats hers.
+- [x] ~~Corsair #2 "Marco Polo"~~ — moved forward: first Corsair, Phase 1 (decided 7 Oct);
+      the Hyperion's retirement moves with her (Phase 2).
 - [ ] Pacifier → Diplomat (annex B4, §5.7): FSD re-engineered to Increased Range, Military Grade
       armour stored.
 - [ ] Corsair #3 "Soteria" (annex B5, §5.7).
@@ -748,7 +833,7 @@ it until one is.
 | Spectre | Imperial Courier | S | Stealth, smuggling, scans, holo-screens | Thermal signature | Phase 4 |
 | Diplomat | Imperial Clipper | L | Fast PP logistics | t/trip, PP goods carried | Ex-Pacifier |
 | Nemesis | Corsair | M | Bounties, assassinations, massacres, Operations, PP combat | TTK | Phase 3 |
-| Marco Polo | Corsair | M | Exploration, exobiology, cartography | Range | Phase 6 (replaces Hyperion) |
+| Marco Polo | Corsair | M | Long-range taxi; exploration, exobiology, cartography, Guardian expedition | Range | Phase 1 (first Corsair; replaces Hyperion) |
 | Soteria | Corsair | M | Pad-M freight, passengers, salvage | Profit/h | Phase 6 |
 | Aegis *(opt.)* | Corsair | M | AX | AX TTK | Phase 6 |
 | Cornucopia | Imperial Cutter | L | Bulk trade, CGs, colonisation | Profit/h | Phase 5 (replaces The Brick) |
@@ -817,6 +902,7 @@ Moved to `Shipyard.md` §3 (25 Sept 2026). Annex labels A1–A5 and B1–B9 are 
 | EDSM | Cartography, stations, history |
 | Spansh | Exobiology, material, cargo and neutron routes |
 | Coriolis / EDSY | Builds before purchase |
+| `tools/combat_stats.py` | Combat metrics from the journal: zones, kills/h, gap and time on target, ship types and pilot ranks killed, shields lost, outcomes, per weapon fit (`--kills`, `--csv`) |
 | ED Colonisation Planner | Build order for a system |
 | EDMC / EDDiscovery | Automatic journal upload, Inara sync |
 
@@ -825,7 +911,7 @@ the account in settings, or pull each hull out of the hangar once with EDMC runn
 
 ---
 
-*Last updated: 6 October 2026 (journal read through 6 Oct 15:04 UTC; session logs 2–6 Oct
+*Last updated: 7 October 2026 (journal read through 7 Oct 18:33 UTC; session logs 2–7 Oct
 added). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
