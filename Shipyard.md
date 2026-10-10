@@ -90,6 +90,30 @@ Cornucopia. *Spec:* annex A5.
       escapes. Completed plan archived in §4 ("The Brick V2"); target build in annex A5.
 - Lightweight engineering reviewed 4 Oct 2026: not worth it (cargo dominates the laden mass).
 
+**Fuel on short loaded routes (CG 861, 9 Oct 2026, journal `FSDJump` fuel figures)** — tank 5C
+(32 t), no fuel scoop (6E cargo rack back in its place, 758 t).
+- A loaded jump burns **4–8.5 t** (1.3 t for a 10 ly hop); an empty one about 5 t. The usual
+  4-jump loaded leg HR 5518 → HIP 74116 takes **19.7 t**, leaving 12 t.
+- **Two near-empty arrivals, neither from a missed refuel** (every dock had a `RefuelAll`):
+  - 08:35–09:03: the plotter sent the loaded route through other systems (NN-A b1-1, VJ-Z c2,
+    OY-Y b1-1); Tonton Marcel turned back to HR 5518 on a low-consumption route, six jumps —
+    **1.2 t left** on arrival.
+  - From 09:22: about **3 t gone before the first jump** of each loaded leg (most likely the
+    SCO overcharge in supercruise from the 608 ls station — confirmed), and from 11:09 the
+    plotter added a fifth jump (via TO-Z c3, +6.5 t; the journal doesn't say why — the usual
+    first hop, 18.4 ly, is close to the laden limit) — **1.8 t left** at 11:27.
+- [x] **6C (64 t) fitted** at Vercher Survey, 9 Oct 13:05 (333,038 CR). Justified at once: the
+      first loaded leg from Vercher took **30.6 t** (4 jumps, 17–20 ly each) — the 5C would have
+      arrived with about 1.4 t. Laden range unchanged in practice (still 4 jumps).
+      *Original task:* for Vercher Survey (70.8 ly) and the other 66–71 ly sources, 5C → 6C —
+      a loaded leg of 4–5 jumps plus SCO use would need 25–30 t, too close to 32 t. Cost: the
+      6C module is heavier and a full 64 t tank adds fuel mass, so laden range drops by a few
+      percent — check in EDSY whether it adds a jump; a partial refuel (≈45 t) keeps most of
+      the margin with less mass. Store the 5C.
+- [ ] On the loaded leg: plot the route before leaving the station and check the jump count
+      (4 expected); use the SCO overcharge on the empty leg only, unless the fuel margin is
+      known.
+
 **Later plan (beyond the 90 % plan)**
 - [ ] *(Optional)* Thrusters to Dirty Drive G5 with Professor Palin (Arque):
   - [ ] Unlock chain: Martuuk → Qwent (Sirius permit, 25 Modular Terminals).
@@ -110,11 +134,11 @@ and stored at the Medupe City museum; her DSS (Expanded G5) **moves to the Marco
 - [~] Hyperion thrusters G1 → G3, Dirty Drive Tuning + Overloaded (23 Sept, §4).
 - **Dropped (7 Oct):** Hyperion v2 (annex A4) and her thrusters to G5 — no more engineering on
   a hull that retires once the Marco Polo is equipped.
-- [ ] Retire her: transfer her DSS to the Marco Polo (Stage 3), strip the other useful modules
-      (AFMU/scoop to storage), store the
-      hull at the museum (rule 1, never sold).
+- [x] DSS transferred to the Marco Polo (8 Oct, Medupe City).
+- [ ] Retire her: strip the other useful modules (AFMU/scoop to storage, weapons if still
+      fitted), store the hull at the museum (rule 1, never sold).
 
-### Marco Polo — Corsair (next purchase: long-range taxi, then exploration; ex-"Hermes")
+### Marco Polo — Corsair (long-range taxi and exploration; ex-"Hermes") — bought 8 Oct 2026
 
 *Role:* one hull, two configurations swapped at a station (same principle as the Dart):
 - **Taxi configuration** (now, annex A6) — fly to a distant target (a CG, an engineer, a remote
@@ -128,12 +152,62 @@ flies the Guardian expedition (Phase 2) herself (decided 7 Oct 2026).
 *Spec:* annex A6 (taxi) and annex B1 (exploration).
 *Merge (5 Oct 2026):* the "Hermes" taxi project (4 Oct) is the light version of the Marco Polo
 planned in annex B1 — one Corsair instead of two. The core and all its engineering are shared;
-only the optional modules change between configurations. **Not bought yet** (journal check,
-7 Oct): chosen on 7 Oct as the first Corsair, ahead of the Nemesis — build plan below.
+only the optional modules change between configurations. **Bought 8 Oct 2026** at Crevenna's
+Folly (77.3M CR), the fleet's first Corsair; current fit in `In-Game Operations.md` §2.
 
-- [ ] Taxi configuration (annex A6; EDSY target 316.4 t unladen, **67.9 ly**, no cargo; shield 5D
-      + 6D AFMU cost 1.6 ly) — Stages 0–2 below.
-- [ ] Exploration configuration (annex B1) — Stage 3 below; Guardian FSD booster in Stage 4.
+- [x] Bought and Tier 1 engineered (8 Oct): **63.4 ly**, 339.5 t, with most of the exploration
+      kit already fitted (2× 6A AFMU, 4D HRP, SRV hangar, DSS, heatsink) and 72 t of cargo.
+      Differences from the plan: thrusters **5D** (not 4D) with **Drag Drives** (not Stripped
+      Down), distributor **High Capacity** G5 (not Engine Focused), cargo racks instead of
+      empty slots — check the Supercruise Assist and the Advanced Docking Computer (sold
+      during the refit).
+- [x] Named "MARCO POLO" in game (8 Oct, 10:15).
+- [ ] **Power budget** — see "Power: the second AFMU" below.
+- [ ] Exploration configuration complete (Stage 3) — then the Guardian expedition (Stage 4).
+
+**Power: the second AFMU (8 Oct 2026)** — from `ModulesInfo.json` (draw per module) and the
+power plant's grade:
+- Supply: 4D power plant, 11.7 MW stock, plus the Overcharged G1 bonus — **about 13 MW** (read
+  the exact value in the Modules panel).
+- Draw: thrusters 4.96 MW, each AFMU 3.26, shield 2.08, fuel scoop 0.83, SRV hangar 0.75, FSD
+  0.69, cargo hatch 0.60, life support 0.56, distributor 0.56, sensors 0.45, heatsink 0.20 —
+  **≈14.5 MW with one AFMU, ≈17.7 MW with both**. Already over budget with one: the game
+  shuts the lowest priorities first (hatch, hangar, heatsink at 3; the second AFMU at 4).
+- **The two AFMUs never need to run together.** An AFMU can't repair itself; the second one
+  is there to repair the first. So the question is "can one AFMU run?", not "can both?".
+- Options, cheapest first:
+  - [ ] **Now, no purchase:** both AFMUs **off**, on the lowest priority (5). To repair, stop,
+        switch off the shield and the SRV hangar (−2.8 MW), then switch on one AFMU: ≈12.7 MW,
+        inside the budget. Repairs happen stopped anyway (after a neutron boost, before a
+        landing).
+  - [ ] **Don't downsize the second AFMU:** AFMUs are massless, so a smaller one saves no range;
+        the 6A carries more ammunition (more repairs). Annex B1's 5A only saves credits.
+  - [ ] **Proper fix:** power plant Overcharged **G4** (Marco Qwent, via Martuuk) ≈ 15.6 MW, or G5
+        (16.4 MW): one AFMU runs with everything else on. Unlock Qwent next (Stage 4).
+  - [ ] *(Alternative)* a 4A power plant (15.6 MW stock, more with Overcharged) — heavier, costs
+        some range; compare in EDSY before buying.
+  - [ ] *(Check)* thrusters 5D → 4D as in annex A6: less draw and mass, if the thrust holds
+        with the exploration kit at exobiology gravities (Stage 0 check).
+
+**Travel benchmark** (`python tools/travel_stats.py --since 2026-09-18`; route = jumps without
+docking or landing in between; ly/h = light years per hour of route time, scooping included)
+
+| Ship | Max jump | Average jump | Jump cadence | **ly per hour** |
+|---|---|---|---|---|
+| Marco Polo (Corsair, 8 Oct) | 63.4 ly | 53.0 ly | 0:51 | **≈3,700** (≈4,000 on the Redonesses round trip) |
+| Hyperion (Asp) | 53.6 ly | 35.4 ly | 0:56 | ≈2,200 |
+| Astroforge (Clipper) | 33.3 ly | 24.0 ly | 1:03 | ≈1,400 |
+| The Brick (Type-9) | 35.2 ly | 21.2 ly | 1:02 | ≈1,200 |
+| Dart (Courier) | 38.8 ly | 21.1 ly | 1:12 | ≈950 |
+| Pacifier (Clipper) | 18.7 ly | 14.3 ly | 1:15 | ≈630 |
+
+Reading: the cadence (charge, tunnel, scooping) is a little quicker on the Corsair, but the
+gain is mostly range — each jump covers far more distance. Average jumps sit below the maximum
+because routes end at a target, and the older figures include the ships' pre-engineering
+weeks. 30 Corsair jumps so far (8 Oct, incl. the ~400 ly Redonesses round trip, 7 jumps each
+way): re-run after the next long trip. The SCO overcharge in
+supercruise isn't written to the journal, so its stability can't be measured.
+
 
 **Marco Polo — build plan (Corsair, solo; taxi core first, then the exploration kit)** — added
 7 Oct 2026, replaces the 4 Oct taxi-only plan. Same model as the Dart V2 (tiers by engineer

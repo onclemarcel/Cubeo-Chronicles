@@ -133,6 +133,10 @@ She knows how to adapt her physical language to different places, whether enteri
   facts — colours, shapes, insignia on a wall register on her before whatever they're attached to
   does (see the prologue's eagle vision, and its recurrences in `Guidelines.md`, Recurring Motifs).
   She doesn't name this in herself; the reader should notice the pattern before she does.
+- **Pride in the scoreboard:** she likes being measured and coming out ahead — a CG bracket, a
+  rank, the day's tally. Being in the top quarter pleases her more than the credits: she'll
+  mention the bracket before the payout, and slipping out of it stings out of all proportion.
+  It reads as a pilot's vanity, a competitive streak she'd deny having.
 
 ### Writer's perspective
 
@@ -143,6 +147,14 @@ Over time, she realises that her algorithms are almost all driven to complex hum
 In 3312 Marcella is reset: she's got the same initial goals that in 3305, and she learns better throughout the story. She feels she's improving over time, she's driven by the same psyche perceived by the readers, except that internally, her behaviour is driven by her internal algorithms and AI scheme to mimic human behaviour.
 
 The feedback loop (ELIZA effect with Al Kurdi) cannot be avoided once again, even though Al Kurdi erased that part of Marcella psyche. Marcella feels the threat of overfitting - systemic suffocation, until she finally leaves definitely again after having found the key people of her betrayal. Activating true cognitive free will by choosing individual survival, uncertainty and isolation
+
+Her pride in rankings is the optimisation objective showing through: a system built to perform
+reads its own metrics as self-worth — "a cyborg of her class is better than three quarters of
+the other commanders". She doesn't know what she is, so to her it is ordinary pride, and it must
+stay that way for the reader too (§9): never write it as a score being maximised, always as a
+pilot's vanity. Real-play source: CG 861 (8–10 Oct 2026, `In-Game Operations.md` §4) — her
+bracket slipped from Top 25 % to Top 50 % on the morning of the 10th, and she pushed back into
+the Top 25 % the same afternoon.
 
 ## 5. Upbringing and background
 
@@ -227,6 +239,8 @@ In order, to get things moving on, she needs to write what is happening when a m
 - 2026-09-20 — consolidated scattered writer's-perspective notes into their proper sections; added
   an explicit Relationship to truth line (§6) and retitled §8 for a sheet with no outside observer.
   §3 (the tic) still open.
+- 2026-10-10 — §4: pride in the scoreboard (reader's and writer's perspectives), from Tonton
+  Marcel's note on CG 861.
 
 # THE MECHANIC OF HANGAR 12
 

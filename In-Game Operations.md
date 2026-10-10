@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 6 October 2026 (3312), journal read through 7 Oct 18:33 UTC
+## Campaign memory — status as of 6 October 2026 (3312), journal read through 10 Oct 15:56 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -30,7 +30,7 @@
 | Imperial Navy rank | **Viscount** — **95 %** toward Count (6 Oct; was 86 % on 1 Oct) |
 | Power | Aisling Duval — pledged, **Rank 12 / 75,458 merits** (3 Oct, 10:10 UTC; no merits since) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈2,234,800,000 CR** (7 Oct 2026, 15:45 UTC — `LoadGame` 06:15 + CG 860 vouchers − weapons, repairs, ammo) |
+| Treasury | **≈3,345,000,000 CR** (10 Oct 2026, 15:56 UTC — `LoadGame` 15:29 + two CG 861 runs). CG 860 reward collected 8 Oct (220M CR) |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -51,7 +51,8 @@ nothing more is added.
 | **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Pacifier V2 refit, 6 Oct 2026; weapons changed 7 Oct (journal `Loadout` 06:57).* **Multi-Cannon (Large, Gimballed)** (stock, bought 7 Oct; replaces one beam, stored) · Beam Laser (Large, Gimballed), **Overcharged G3 + Flow Control** (The Dweller) · **2× Multi-Cannon (Medium, Gimballed)** (stock, 7 Oct; the turrets were sold) · **2× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · **2× Heat Sink Launcher** (no chaff left since 7 Oct) · **Shield 7A, Reinforced G5 + Hi-Cap** (Lei Cheung, bought 6 Oct, 50.0M CR) · **Shield Cell Bank 6A** (bought 6 Oct, replaces the old 6A shield) · 2× Hull Reinforcement 4D · Module Reinforcement 3D + 1D · Fuel Scoop 3A · 2× Cargo Rack 2E (8 t) · **Distributor 6A, High Capacity G5 + Super Conduits** (The Dweller) · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Thermal Spread** · **FSD 5A, Faster Boot G5 + Mass Manager** (Farseer) · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 (Military Grade). Removed 6 Oct and stored: 7E cargo rack, FSD interdictor, planetary hangar, multi-drone controller. ~784.6 t, ~17.9 ly, Rebuy ≈7.1M CR. First combat test: CG 860, Redonesses (§4, 6 Oct). |
 | **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026 (`ShipyardBuy`, 2,479,358 CR). *Dart V2 Tier 1 done 5 Oct 2026 (journal `Loadout` 6 Oct 06:50).* 2× Pulse Laser (Medium, Gimballed), **Lightweight G4 + Stripped Down** · Dumbfire Missile Rack (Medium) · Heat Sink Launcher (replaces the point defence) · Chaff · **2× Shield Booster 0D, Resistance Augmented G3 + Super Capacitors** · **Shield 3D, Reinforced G5 + Hi-Cap** · **FSD 3A SCO, Increased Range G5 + Deep Charge** · **Distributor 3D, Engine Focused G5 + Super Conduits** · **Thrusters 3D, Dirty Drive G3 + Drag Drives** · **Power Plant 4D, Overcharged G1 + Stripped Down** · **Sensors 2D, Lightweight G5** (60 % roll) · Life Support 1D · Fuel Tank 2C · Fuel Scoop 3A · Planetary hangar 2G · Collector Limpet Controller 1D · DSS Expanded G3 · 10 t cargo racks · Armour grade 1. **68.76 t, 38.8 ly unladen**, Rebuy ≈231k CR. Engineered A-rated modules stored, not sold. Note: every `Loadout` since 1 Oct reports the thrusters as switched off (`On: false`), yet the Dart has flown ~150 jumps since — most likely a journal/Inara reporting quirk, not a real fault. |
 | **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Stored, not flown, since 19 Sept** (rule 6, §3) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 2 Oct:** a 6A fuel scoop in place of a 6E cargo rack → **694 t** (§4). |
-| **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **FSD upgraded to G5 today** (23 Sept, Felicity Farseer at Deciat, `EngineerCraft`): Increased Range g5 + Deep Charge (up from g4/43.08 ly — new jump range not yet re-read from a fresh `Loadout`/Inara export). **Thrusters partially engineered today too:** Tuned g1 → **Dirty Drive Tuning g3 + Overloaded** experimental (not full g5 yet — annex A4 still calls for g5). DSS 1I g5, Expanded Probe Scanning Radius (Lei Cheung, unchanged) · Fuel Scoop 6A · Power Plant 5A, Armoured g1 (unchanged) · Planetary hangar 2D · Shield 5D · 20 t cargo racks · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher (all tiny hardpoints). Still carrying the rescue-run weapons (2× pulse laser, 4× dumbfire missile rack, collector limpet controller) as of the 23 Sept `Loadout` — strip again before the *Long range* loadout is saved. SCO FSD 5A bought and tested (18 Sept), reverted, stored free at the same station. **Stored, not flown, between sessions** (rule 6) — bridge ship for exploration/exobiology until Marco Polo (Phase 6, §5); her DSS and FSD migrate to that hull. |
+| **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **Retiring** (decided 7 Oct): the Marco Polo flies the Guardian expedition. **DSS removed and moved to the Marco Polo, 8 Oct.** Last `Loadout` (8 Oct): **53.6 ly**. FSD 5A Increased Range G5 + Deep Charge · Thrusters Dirty Drive G3 + Overloaded · Power Plant 5A Armoured G1 · Fuel Scoop 6A · Planetary hangar 2D · Shield 5D · 20 t cargo · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher; rescue-run weapons possibly still fitted (2× pulse laser, dumbfire racks — check before storing). Next: strip and store at the Medupe City museum (`Shipyard.md`). |
+| **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). |
 
 **In storage:** Modified Mining Laser 1A, pre-engineered grade 5, at LHS 3872 [Curbeam Hub] —
 Class 1 hardpoint (incompatible with any Clipper); to retrieve when a compatible hull is fitting
@@ -515,6 +516,87 @@ Source: journal file of 7 Oct, 06:15–15:45 UTC. No merits.
 kept for shields, the guns swapped for ones that actually track, and a hundred kills in one
 long shift. The CG bracket climbing from the bottom quarter to the top quarter of 8,000 pilots.
 
+
+### 8 October — The Marco Polo, Bought and Engineered in a Morning (journal-verified)
+
+Source: journal files of 8 Oct, 06:15–10:01 UTC. No merits.
+
+- **Purchase, 06:23:** Corsair bought at **Crevenna's Folly** (Col 285 Sector AC-H b12-1) for
+  **77,322,128 CR**, the Pacifier stored there. Stock core swapped for D-rated modules, the 5A
+  SCO FSD (5.97M CR), a 6A fuel scoop (28.0M CR), **two 6A AFMUs (14.9M CR each)**, a 5D
+  shield, a 4D hull reinforcement, an SRV hangar, a DSS and a heat sink launcher; 72 t of cargo
+  racks. First `Loadout`: 38.3 ly before engineering.
+- **Material trades:** Hale Port (G 180-18, manufactured): Chemical Manipulators ×2, Military
+  Supercapacitors ×4; Gooch Terminal (LHS 246, raw): Chromium ×6, Manganese ×12 — the four
+  Tier 1 shortfalls covered, at traders on the way instead of Zahn / Olahus Hub.
+- **Engineering, 06:57–09:33:** The Dweller (distributor High Capacity G5 + Stripped Down), Lei
+  Cheung (shield Reinforced G5 + Stripped Down, sensors Lightweight G5), Farseer (thrusters
+  Dirty Drive G3 + Drag Drives, FSD Increased Range G5 + Mass Manager, power plant Overcharged
+  G1 + Stripped Down). Jump range **38.3 → 58.6 ly** after the Dweller and Lei Cheung, **63.4 ly**
+  at the end.
+- **Home, 09:57:** docked at Medupe City; the Pacifier transferred back from Crevenna's Folly
+  (3.27M CR, ~70 min). The **Hyperion's DSS** (Expanded G5) moved to the Marco Polo, the
+  bought one stored.
+- **Travel benchmark:** 16 jumps, 791 ly, average **49.5 ly**, best 60.9 ly; about **3,200 ly per
+  hour** of route time — 1.5× the Hyperion, 3× the Dart (`tools/travel_stats.py`, card in
+  `Shipyard.md`).
+- **CG 860** ended 8 Oct 10:00 UTC with Onclemarcel in the **Top 25 %**. Final contribution
+  **19,122,798 CR** (the last hand-in of 7 Oct, 18:33, counted after the 18:32 reading), 8,849
+  contributors, tier 2, bonus pool 220M CR.
+- **10:15–10:39, first long trip:** ship named "MARCO POLO", then Cubeo → Redonesses → Cubeo to
+  collect the CG reward: **7 jumps / ~400 ly each way, about 5 minutes of jumping each way**
+  (≈4,000 ly/h), 24 minutes dock to dock including the stop. Nothing to collect yet: at 10:39
+  the CG still read `IsComplete: false` with the expiry passed — Frontier finalises CGs some
+  hours after they end (the reward then appears at the CG station); try again later.
+
+**Raw material for future `Logbook.md` days:** the first Corsair — a Gutamaya hull, not a bridge
+ship — bought, stripped to the bone and rebuilt by three engineers before lunch; the Hyperion
+giving up her surface scanner, the first sign she's being let go.
+
+
+### 8–9 October — CG 860 Paid, CG 861 Under Way (journal-verified)
+
+Source: journal files of 8 Oct, 20:11–22:11 UTC, and 9 Oct, 06:25–11:58 UTC. No merits.
+
+- **8 Oct evening, Marco Polo:** flew to **Zero Squared (HIP 74116)**, then HR 5518 (Grushin
+  Prospect), where she requested The Brick's transfer from Medupe City (5.42M CR, ~78 min).
+  On to Redonesses meanwhile: **CG 860 reward collected, 220,000,000 CR** (Top 25 %, 21:26).
+  Back at Grushin Prospect for the night.
+- **9 Oct, The Brick back to 758 t:** the 6A fuel scoop swapped back for a 6E cargo rack.
+- **CG 861 runs, Thorn Constructions (HR 5518) → Zero Squared:** **14 runs of 758 t
+  Superconductors** (one at 06:31, thirteen 07:11–11:45), bought at 6,808 CR, sold at
+  **65,510 CR** — **44.5M CR profit per run, ≈623M CR in total**. Signed up on the first sale
+  (06:40). Two NPC interdictions escaped.
+  - **Cycle:** ~13–14 min sale to sale. Route out 2 jumps empty (28.7 + 27.1 ly), back
+    **4 jumps laden** (18.4 / 15.2 / 19.1 / 9.7 ly) — laden range ≈ 20 ly.
+  - **Rate:** ≈4.4 runs/h when uninterrupted → **≈3,300 t/h and ≈195M CR/h**.
+  - **Fuel:** two near-empty arrivals (1.2 t at 09:03 after a detour, 1.8 t at 11:27 after a
+    five-jump route and SCO use) — analysis and the 6C tank task in `Shipyard.md`, The Brick.
+- **CG 861 standing at 11:58:** contribution **10,612 t, Top 25 %**, tier 2 of 5, 4,620
+  contributors, bonus pool 155M CR, ends **15 Oct 10:00 UTC**. Already inside both reward brackets (Top 75 % and
+  Top 50 %, the SCO FSDs); further runs mainly add credits and keep the Top 25 % margin.
+- **Thorn Constructions running dry:** Superconductor stock down to 9,305 t on Spansh (673,423 t
+  on 8 Oct) — other commanders are on the same route. New sources: CG card in §5.4.
+
+- **9 Oct afternoon (12:55–13:26), new source Vercher Survey** (Col 285 Sector US-B b29-3,
+  Superconductors at 6,608 CR): 6C fuel tank fitted there (`Shipyard.md`, The Brick), two runs.
+  Route: out 3 jumps empty, back **4 jumps laden** (19.7 / 19.9 / 19.1 / 17.1 ly, 30.6 t of fuel).
+  **Cycle 13:05 sale to sale**, against a median of ~14:30 from HR 5518 in the morning (best
+  12:50) — slightly quicker on average, and 200 CR/t cheaper (≈44.6M CR profit per run).
+  CG 861 at 13:25: **12,128 t, Top 25 %**, 4,872 contributors.
+
+- **10 Oct, three sessions (10:52–15:56), Vercher Survey → Zero Squared:** one full Superconductor
+  run in the morning, then **seven mixed runs** from 14:03: Vercher restocks Superconductors
+  between visits, so each load takes whatever is there (243–628 t) and tops up with **Power
+  Generators** (130–515 t) to the full 758 t. Cycle ~13–14 min, as before. A mixed run pays
+  ≈21–40M CR depending on the share of Superconductors.
+- **CG 861 at 15:56:** **18,950 t — back in the Top 25 %** (it had slipped to Top 50 % at 07:35,
+  13,644 t at 11:06), 9,629 contributors, 122.5M of 200M, tier 3, bonus pool 170M CR.
+
+**Raw material for future `Logbook.md` days:** a 220-million reward cashed on the way to the next
+job; a heavy hauler shuttling between an outpost and a megaship all morning, emptying a market
+alongside thousands of other pilots for a corporation's satellite programme.
+
 ---
 
 ## 5. ROADMAP
@@ -614,10 +696,85 @@ risk-free.
 - [x] Pacifier v2 (annex A3) — done 6 Oct, weapons reworked 7 Oct (1 beam + 3 gimballed
       multi-cannons), validated in CG 860. No weapon engineering on her (decision 7 Oct): that
       goes to the Corsairs — `Shipyard.md`.
-- [ ] **Next (decided 7 Oct, after CG 860): start the Corsair series with the Marco Polo**
-      (taxi core, then exploration kit) — an exploration / long-distance CG is the likely next
-      one. Build plan with stages, materials and trips: `Shipyard.md`, Marco Polo card. Nemesis
-      and Soteria follow, depending on missions, Powerplay and CGs.
+- [~] **CG 861 — "Brewer Corporation Jump Satellite Initiative"** (Inara, 8 Oct 20:01 UTC) —
+      **10,612 t delivered, Top 25 %** (9 Oct 11:58); log in §4. Original plan below.
+      deliver **Semiconductors, Superconductors, Power Generators or Computer Components** to the
+      megaship **Zero Squared, HIP 74116** (6 ls; sign up there first). ~461 ly from Cubeo. Runs
+      one week (≈ until 15 Oct; ends early if the 200M target is met — 4.7 % on 8 Oct).
+      - **Rewards:** Top 75 % → pre-engineered SCO FSDs **size 4 and 5** (Increased Range + Fast
+        Boot, experimentals unlocked); **Top 50 % → also size 6 and 7**, plus credits by tier.
+        Size 5 = Corsairs (Nemesis, Soteria, Aegis) and Clippers; **size 6 = the three Cutters**
+        (Cornucopia, Hephaestus, Charybdis). **Target: Top 50 %** — thresholds on 8 Oct: Top 50 %
+        from ~3,645 t, Top 25 % from ~6,912 t, rising during the week; aim for **10,000 t+**
+        (≈ 15 runs of 694 t).
+      - **Source (Spansh, 8 Oct):** **Peralta Station, Praea Euq PY-Y b1-0** — 52.4 ly from
+        HIP 74116, **25 ls** from its star, sells all four commodities (Superconductors 6,723 CR,
+        86,547 t; Semiconductors 1,106 CR, 564,882 t). Better than Inara's Schubert Berth
+        (HIP 75663, 50.5 ly but **1,019 ls** out; Superconductors 6,071 CR, 1.25M t): same jumps,
+        a much shorter supercruise. Both are planetary outposts with large pads. Backup if
+        Peralta runs dry: Thorn Constructions (HR 5518, 55.1 ly, 608 ls, all three big ones).
+      - **Commodity:** contribution counts tonnes, so any of the four works; Superconductors
+        also sell for ~65,500 CR at Zero Squared (≈ +58,800 CR/t, ≈ 40M CR per run).
+      - **Plan (taxi doctrine):** the Marco Polo flies to Zero Squared (~9 jumps, ~10 min),
+        signs up, requests The Brick's transfer from Medupe City (~1 h 15, judging by the
+        Pacifier's 392 ly / 70 min on 8 Oct), and checks the megaship's pads and Peralta's market
+        meanwhile. Then The Brick runs Peralta ↔ Zero Squared. *(Done 8–9 Oct, from HR 5518
+        instead: Peralta's Superconductors were already gone.)*
+      - **Sources update (Spansh, 9 Oct)** — Thorn's and Peralta's Superconductors are spent.
+        Zero Squared buys: Superconductors 65,510 · Power Generators 23,880 · Semiconductors
+        10,840 · Computer Components 7,080 CR. Profit per 758 t run: Superconductors ≈44.6M,
+        Power Generators ≈16.5M, Semiconductors ≈7.4M, Computer Components ≈4.9M CR — same
+        tonnes for the CG either way, so Superconductors stay first while a source lasts.
+
+        | Source (L pad) | ly from HIP 74116 | ls | Superconductors | Also |
+        |---|---|---|---|---|
+        | **Vercher Survey**, Col 285 Sector US-B b29-3 | 70.8 | 35 | 6,608 CR, **504k t** | Semis 1.32M t, Power Gen 207k t, Computers 554k t |
+        | Schroder Vision, Col 285 Sector GQ-F b27-1 | 66.1 | 16 | 6,584 CR, 96k t | Semis 102k t; Stupka Berth (28 ls): Power Gen 273k t |
+        | Porzio Station, Praea Euq IT-X b2-1 | 68.5 | 109 | 6,808 CR, 347k t | Semis 528k t, Power Gen 76k t |
+        | Arnold Collection, Praea Euq ZP-X c1-9 | 70.4 | 536 | 5,909 CR, 1.32M t | Semis 809k t |
+        | Peralta Station, Praea Euq PY-Y b1-0 (fallback, shortest) | 52.4 | 25 | — | Power Gen 2,330 CR, 123k t; Semis 565k t |
+
+        Laden range ≈ 20 ly, so 66–71 ly is likely 4 laden jumps as from HR 5518 (55 ly), plus
+        one more empty jump out; with 16–35 ls instead of 608 ls, the cycle should stay near
+        14–15 min. Time the first Vercher Survey run before committing. *(Done 9 Oct: 13:05.)*
+      - **10 Oct — the CG accelerates:** projected to complete in ~1 day 4 h (it ends as soon as
+        the 200M target is met: 100.3M at 11:06), Top 25 % now above 17,000 t. Onclemarcel
+        **13,644 t**; bracket slipped from Top 25 % to **Top 50 %** at 07:35 — still inside the
+        size 6/7 FSD reward. Superconductors nearly gone (Spansh 10 Oct): Vercher Survey, Thorn,
+        Porzio, Arnold Collection empty or ~1–2k t; left: **Lim Hub, 3 Serpentis** (73.1 ly,
+        **1,648 ls**, 123k t @ 6,710) and Busch Excavation (54,000 ls — too far).
+        **Rule for the last day: tonnes per hour first** (a tonne of any of the four counts the
+        same, and the CG may close within hours). Best tonnes/h = same route, other commodity:
+        **Power Generators at Vercher Survey** (206k t @ 2,666 → ≈16M CR/run, ~13 min cycle,
+        ≈3,500 t/h); then Stupka Berth (Col 285 Sector GQ-F b27-1, 28 ls, 233k t @ 1,973).
+        Semiconductors (Vercher 1.32M t) if Power Generators run out. Lim Hub only if the
+        Superconductor profit matters more than the bracket (longer supercruise ≈ +3–4 min/run).
+        **Spansh caution:** with thousands of commanders on these markets, stock figures older
+        than a few hours are unreliable — check the market's update time (Inara / Spansh "age")
+        or the market in game before committing a run.
+        **Applied 10 Oct afternoon:** mixed loads at Vercher (whatever Superconductors have
+        restocked, Power Generators for the rest) — full tonnage every run, Superconductor
+        profit whenever available. Back in the Top 25 % at 18,950 t (15:56).
+      - **Forecast (10 Oct, from 30 journal `CommunityGoal` readings):**
+        - *End (revised the same evening — the pace is accelerating, not steady):* rate per
+          interval 2.9M/h overnight → 3.2 (07:26–10:52) → 4.3 (10:52–13:57) → **5.1M/h**
+          (13:57–15:29), i.e. +≈0.33M/h every hour; new contributors 150 → 220 per hour. With
+          77.5M to go at 15:56: if the acceleration holds, **≈ 11 Oct 03:00 UTC** (~11 h); at a
+          flat 5.1M/h, ≈ 07:00; with a night dip, ≈ 09:00–12:00. **Plan for an end in the
+          early morning of 11 Oct, UTC** — finish the runs this evening.
+        - *Top 25 % threshold:* tracks **≈ 1.45 × the average contribution** (total ÷
+          contributors) — measured twice from the bracket changes (9 Oct 11:53: 1.37–1.47;
+          10 Oct 15:56: 1.43–1.49), and it matches Inara's ~6,912 t of 8 Oct (1.34).
+          Contributors grow ~165–220/h (9,629 at 15:56) → ~12,000–13,000 at an earlier end →
+          **Top 25 % at ≈ 22,000–25,000 t** (an earlier end means fewer contributors to share
+          200M, so a *higher* threshold). **Target: 25,000 t or more** (≈ 8 more runs, ~2 h),
+          to be delivered tonight.
+        - *For reference:* Top 50 % ≈ 0.7 × the average (9 Oct 09:40), Top 75 % ≈ 0.1–0.35 ×.
+- [x] CG 860 reward collected — 220,000,000 CR (8 Oct, 21:26).
+- [~] **Corsair series started with the Marco Polo** (decided 7 Oct, bought 8 Oct): Tier 1
+      engineering done, 63.4 ly; power for the second AFMU and the rest of the exploration kit
+      still open — `Shipyard.md`, Marco Polo card. Nemesis and Soteria follow, depending on
+      missions, Powerplay and CGs.
 - [x] The Brick V2 — "90 %" plan (annex A5) — done 30 Sept, plus a 6A SCO FSD.
 - [x] Hyperion — FSD G5 done 23 Sept; thrusters stay at G3 (no more engineering: she retires
       once the Marco Polo is equipped, decided 7 Oct).
@@ -902,6 +1059,7 @@ Moved to `Shipyard.md` §3 (25 Sept 2026). Annex labels A1–A5 and B1–B9 are 
 | EDSM | Cartography, stations, history |
 | Spansh | Exobiology, material, cargo and neutron routes |
 | Coriolis / EDSY | Builds before purchase |
+| `tools/travel_stats.py` | Jump metrics per ship from the journal: jumps, ly, average / best jump, jump cadence, ly per hour of route time, scooping, neutron boosts (`--since`, `--routes`) |
 | `tools/combat_stats.py` | Combat metrics from the journal: zones, kills/h, gap and time on target, ship types and pilot ranks killed, shields lost, outcomes, per weapon fit (`--kills`, `--csv`) |
 | ED Colonisation Planner | Build order for a system |
 | EDMC / EDDiscovery | Automatic journal upload, Inara sync |
@@ -911,7 +1069,7 @@ the account in settings, or pull each hull out of the hangar once with EDMC runn
 
 ---
 
-*Last updated: 7 October 2026 (journal read through 7 Oct 18:33 UTC; session logs 2–7 Oct
+*Last updated: 9 October 2026 (journal read through 10 Oct 15:56 UTC; session logs 2–9 Oct
 added). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
