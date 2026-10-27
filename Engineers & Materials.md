@@ -19,13 +19,14 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 | Engineer | Track | Status | Needed for | Unlock route |
 |---|---|---|---|---|
 | Felicity Farseer (Deciat) | Ship | **Unlocked, G5** | FSD, thrusters (Brick V2 step 6) | Done |
-| Elvira Martuuk | Ship | **Unlocked, G3** | Opens Nemo and Qwent | Done |
-| The Dweller (Wyrd) | Ship | **Unlocked, G1** | Distributor (Brick V2 step 4; Nemesis G5) | Done; grind to G5 |
+| Elvira Martuuk | Ship | **Unlocked, G5** (19 Oct 2026 — Nemesis FSD Faster Boot G5) | Opens Nemo and Qwent | Done |
+| The Dweller (Wyrd) | Ship | **Unlocked, G5** (15 Oct, Nemesis distributor and lasers) | Distributor, lasers | Done |
 | Juri Ishmaak | Ship | **Unlocked, G1** | Not in the plan yet | Role undecided (§5.6) |
-| Tod McQuinn (Wolf 397) | Ship | **Invited** | Multi-cannons; opens Jean → Vatermann | 100,000 CR unclaimed bounty vouchers (§3) |
+| Tod McQuinn (Wolf 397) | Ship | **Unlocked, G5** (unlocked 17 Oct 2026; G5 on 19 Oct — four Nemesis multi-cannons Overcharged G5) | Multi-cannons; opens Jean → Vatermann | Done |
 | Liz Ryder | Ship | Known | Dart missiles (annex A2) | Not yet invited |
 | Lei Cheung (Laksak) | Ship | — | Shields, boosters (Brick V2 step 5, Pacifier, Phase 4 Prismatics) | Via The Dweller, then Brick V2 step 5 |
-| Selene Jean | Ship | — | Hull & armour | Via McQuinn (500 t mined, 10 Painite) |
+| Selene Jean | Ship | **Invited** (19 Oct 2026) | Hull & armour | Unlock: 500 t mined, 10 Painite |
+| Petra Olmanova | Ship | **Invited** (19 Oct 2026, via McQuinn) | Armour, hull, chaff, heat sinks (role to confirm) | Unlock conditions to check |
 | Didi Vatermann (Leesti) | Ship | — | Boosters G5 | Via Jean (Merchant rank, 50 Lavian Brandy) |
 | Hera Tani | Ship | — | Power plant | Unknown |
 | Zacariah Nemo | Ship | — | Fragment cannons (Nemesis) | Via Martuuk |
@@ -53,7 +54,7 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 UTC (state, not the reveal *chain* — Frontier doesn't log which engineer reveals which).
 - [x] Elvira Martuuk — already **Unlocked, Grade 3** (`EngineerProgress`) — the "if not already
       unlocked" hedge from the first draft is resolved; access to Zacariah Nemo is open.
-- [ ] **Tod McQuinn — status "Invited" (`EngineerProgress`), unlock needs 100,000 CR of
+- [x] **Unlocked 17 Oct 2026 (`EngineerContribution`, 19:33).** **Tod McQuinn — status "Invited" (`EngineerProgress`), unlock needs 100,000 CR of
       *unclaimed* bounty vouchers donated at her base (Trophy Camp, Wolf 397) via its "donate"
       button — the normal redeem-at-a-station flow does NOT count.** Checked the journal (18–23
       Sept): she currently holds **zero unclaimed vouchers** — the three from 18 Sept
@@ -90,7 +91,8 @@ UTC (state, not the reveal *chain* — Frontier doesn't log which engineer revea
 - [ ] Zacariah Nemo: Fragment Cannon G5, by Martuuk's invitation (Martuuk herself already
       unlocked, Grade 3 — see Phase 1, §5.4).
 - [ ] Professor Palin: thrusters G5 (Dirty Drives).
-- [ ] Tod McQuinn: Multi-Cannon G5 (useful for the Pacifier and later the Charybdis) — her base
+- [x] **Done 19 Oct 2026:** the Nemesis's four multi-cannons Overcharged G5 (no experimental
+      yet). Tod McQuinn: Multi-Cannon G5 (useful for the Pacifier and later the Charybdis) — her base
       unlock moved up to Phase 1 (§5.4, status "Invited" as of 23 Sept); this is the later G5
       grind once the Nemesis is in the yard.
 

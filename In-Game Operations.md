@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 6 October 2026 (3312), journal read through 11 Oct 13:59 UTC
+## Campaign memory — status as of 27 October 2026 (3312), journal read through 27 Oct 18:25 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -24,15 +24,15 @@
 | CMDR | Onclemarcel |
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
-| Trade rank | **Elite** (earned 16 Sept 2026) |
-| Combat rank | **Competent** (since 29 Sept 2026) — **83 %** toward Expert (7 Oct evening; 9 % before CG 860) |
+| Trade rank | **Elite III** (rank 11, 19 Oct 2026, 18:11 UTC — Cubeo supply missions). Elite II on 9 Oct, Elite on 16 Sept |
+| Combat rank | **Expert** (since 14 Oct 2026, 23:17 UTC) — **41 %** toward Master (27 Oct 17:58) |
 | Explorer rank | **Ranger** |
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Mostly Defenceless** (since 29 Sept 2026) |
-| Imperial Navy rank | **Viscount** — **95 %** toward Count (6 Oct; was 86 % on 1 Oct) |
-| Power | Aisling Duval — pledged, **Rank 12 / 75,458 merits** (3 Oct, 10:10 UTC; no merits since) |
+| Imperial Navy rank | **Earl** (promoted 17 Oct 2026, 20:43 UTC) — **48 %** toward Marquis (27 Oct 17:58) |
+| Power | Aisling Duval — pledged, **Rank 23 / 164,825 merits** (27 Oct, 17:59 UTC login) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈3,872,500,000 CR** (11 Oct 2026, 13:57 UTC — `LoadGame` 13:47 + CG 861 reward). CG rewards: 859 (170M), 860 (220M), 861 (200M) — `Community Goals.md` |
+| Treasury | **≈4,049,500,000 CR** (27 Oct 2026, 17:58 UTC `LoadGame`) — past 4 billion, on the Faulcon DeLacy CGs' uranium runs. CG rewards: 859 (170M), 860 (220M), 861 (200M) — `Community Goals.md` |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -52,9 +52,10 @@ nothing more is added.
 | **Astroforge** (mining Clipper, `CL-002`, ShipID 10) | Imperial Clipper | *Journal `Loadout` 1 Oct 09:00 + `EngineerCraft` 09:13–09:49 (Farseer, Deciat).* Cargo rack 7E (128 t) · 2× Collector Limpet Controller 3A · Prospector Limpet Controller 1A · Refinery 4A · Fuel Scoop 4A · Shield Cell Bank 2A · 2× Mining Laser 2D (Fixed) · 1× Beam Laser (Large, Gimballed) · 1× Multi-Cannon (Large, Gimballed) · **4× Shield Booster 0A, Heavy Duty G1 + Super Capacitors** · **Shield 6A, Reinforced G5** · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Monstered** · **Distributor 6A, High Capacity G5** · **FSD 5A SCO, Increased Range G5 + Mass Manager** (32.8 ly before Mass Manager) · DSS Expanded G3 · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 1. No chaff/ECM any more. Merits/h of the PP mining loop still to measure (Checkpoint 1). |
 | **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Pacifier V2 refit, 6 Oct 2026; weapons changed 7 Oct (journal `Loadout` 06:57).* **Multi-Cannon (Large, Gimballed)** (stock, bought 7 Oct; replaces one beam, stored) · Beam Laser (Large, Gimballed), **Overcharged G3 + Flow Control** (The Dweller) · **2× Multi-Cannon (Medium, Gimballed)** (stock, 7 Oct; the turrets were sold) · **2× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · **2× Heat Sink Launcher** (no chaff left since 7 Oct) · **Shield 7A, Reinforced G5 + Hi-Cap** (Lei Cheung, bought 6 Oct, 50.0M CR) · **Shield Cell Bank 6A** (bought 6 Oct, replaces the old 6A shield) · 2× Hull Reinforcement 4D · Module Reinforcement 3D + 1D · Fuel Scoop 3A · 2× Cargo Rack 2E (8 t) · **Distributor 6A, High Capacity G5 + Super Conduits** (The Dweller) · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Thermal Spread** · **FSD 5A, Faster Boot G5 + Mass Manager** (Farseer) · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 (Military Grade). Removed 6 Oct and stored: 7E cargo rack, FSD interdictor, planetary hangar, multi-drone controller. ~784.6 t, ~17.9 ly, Rebuy ≈7.1M CR. First combat test: CG 860, Redonesses (§4, 6 Oct). |
 | **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026 (`ShipyardBuy`, 2,479,358 CR). *Dart V2 Tier 1 done 5 Oct 2026 (journal `Loadout` 6 Oct 06:50).* 2× Pulse Laser (Medium, Gimballed), **Lightweight G4 + Stripped Down** · Dumbfire Missile Rack (Medium) · Heat Sink Launcher (replaces the point defence) · Chaff · **2× Shield Booster 0D, Resistance Augmented G3 + Super Capacitors** · **Shield 3D, Reinforced G5 + Hi-Cap** · **FSD 3A SCO, Increased Range G5 + Deep Charge** · **Distributor 3D, Engine Focused G5 + Super Conduits** · **Thrusters 3D, Dirty Drive G3 + Drag Drives** · **Power Plant 4D, Overcharged G1 + Stripped Down** · **Sensors 2D, Lightweight G5** (60 % roll) · Life Support 1D · Fuel Tank 2C · Fuel Scoop 3A · Planetary hangar 2G · Collector Limpet Controller 1D · DSS Expanded G3 · 10 t cargo racks · Armour grade 1. **68.76 t, 38.8 ly unladen**, Rebuy ≈231k CR. Engineered A-rated modules stored, not sold. Note: every `Loadout` since 1 Oct reports the thrusters as switched off (`On: false`), yet the Dart has flown ~150 jumps since — most likely a journal/Inara reporting quirk, not a real fault. |
-| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Stored at Grushin Prospect (HR 5518) since 11 Oct** after CG 861 (flown 8–11 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
+| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **At Homer Platform (AD Leonis) since 24 Oct** for CG 864 (back at Medupe City between 13 and 24 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **Retiring** (decided 7 Oct): the Marco Polo flies the Guardian expedition. **DSS removed and moved to the Marco Polo, 8 Oct.** Last `Loadout` (8 Oct): **53.6 ly**. FSD 5A Increased Range G5 + Deep Charge · Thrusters Dirty Drive G3 + Overloaded · Power Plant 5A Armoured G1 · Fuel Scoop 6A · Planetary hangar 2D · Shield 5D · 20 t cargo · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher; rescue-run weapons possibly still fitted (2× pulse laser, dumbfire racks — check before storing). Next: strip and store at the Medupe City museum (`Shipyard.md`). |
-| **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). |
+| **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). **19 Oct `Loadout`:** 208 t of cargo racks, 6A fuel scoop, multi-drone controller, planetary hangar, DSS Expanded G5, FSD Increased Range G5 — **341.5 t, 66.5 ly**. |
+| **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32).* **Multi-Cannon (Large, Gimballed), Overcharged G5** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** (McQuinn; no experimental yet) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Shield 6A, Reinforced G5 + Hi-Cap** (Lei Cheung) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **4× Hull Reinforcement 5D** · Module Reinforcement 4D + **3D** (24 Oct) + 2E + 1E · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
 
 **In storage:** Modified Mining Laser 1A, pre-engineered grade 5, at LHS 3872 [Curbeam Hub] —
 Class 1 hardpoint (incompatible with any Clipper); to retrieve when a compatible hull is fitting
@@ -573,6 +574,270 @@ Source: journal file of 11 Oct, 13:47–13:59 UTC. No merits.
 **Raw material for future `Logbook.md` days:** a third reward from a third campaign, collected in
 the hold of the ship that earned it; the heavy hauler left at an outpost, the Corsair taken back.
 
+### 12–13 October — Four Assignments in One Night, the Alpha Centauri Wreck Left Alone (journal-verified)
+
+Source: journal file of 12–13 Oct, 23:28–03:17 UTC. PP week of the 8 Oct tick —
+detail in `Powerplay Missions.md` §1. **+17,452 merits** (75,433 → 92,885), **Rank 12 → 14**.
+
+- **Rare goods, Marco Polo:** out of Grushin Prospect (HR 5518) at 23:38, back into Aisling
+  space; 18 Karsuki Locusts at West Market (Karsuki Ti), sold at Fan Base (HIP 7311) 23:56 —
+  **+3,600, Rank 13**.
+- **Alpha Centauri, given up:** via Khepri (Banks Port, refit 00:07–00:10) to Alpha Centauri
+  (Aisling Stronghold, six Powers present); limpets bought at al-Din Prospect (00:18). The
+  salvageable wreckage lay **≈800,000 Ls** out — not worth a 2,800-merit assignment. Back to
+  Khepri at 00:30.
+- **Sealed contracts:** 30 collected at Wheelock Settlement (Zeaex), delivered at Banks Port
+  (Khepri, undermined) 00:48 — **+2,000**.
+- **Holoscreens:** 7 hacks at Newton Port (Khepri) for loose merits (126 each), then the
+  assignment proper at **Wilson Stop, Chinga** (Lavigny-Duval): 9 hacks (8 paid), nine 2,000 CR fines,
+  **+4,800 and Rank 14** at 01:48.
+- **Navy donations at Medupe City:** four at 01:19–01:20 (3.575M CR) and eight at 03:15 (7M CR)
+  for Cubeo Patron's Principles and Nexus Heavy Industries — ≈10.6M CR toward Count (§5.4).
+- **On foot, the Dart:** Power containers emptied at **Savko Nutrition Habitat** (Kremovi,
+  Lavigny-Duval) — an 800 CR trespass fine on the first approach at Verne Landing. Two trips to
+  Reid Gateway (Oshanla): 7 items (02:46), then 5 more (03:08) — **+4,800**. (The journal
+  wrote a second +4,800 there; the next login's total shows it was a duplicate line.)
+- Logged off at Medupe City, 03:17.
+
+**Raw material for future `Logbook.md` days:** a night of small errands for Aisling across the
+border — locusts, sealed contracts, rival adverts hijacked under the nose of Lavigny's Legion,
+goods lifted from a Lavigny settlement on foot; a wreck at humanity's oldest neighbour star left
+where it lay because it was too far out; ten million credits given away to buy the Navy's notice.
+
+### 13–14 October — The Navy Bar Full, Count at Last (journal-verified)
+
+Source: journal files of 13 Oct (22:21–23:12 UTC) and 14 Oct (02:23–04:12 UTC).
+
+- **13 Oct evening, The Brick:** Imperial Navy bar at **100 %** at login. Six industrial supply
+  missions for Cubeo Patron's Principles and Nexus Heavy Industries (gold, superconductors,
+  tritium, steel, insulating membrane), bought at McQuarrie Landing and Fefra's Legacy, handed in
+  at Medupe City 22:55 — **≈25.5M CR**. Then the Marco Polo to Zero Squared; 29,437 CR of fines
+  paid (23:11).
+- **14 Oct night, Marco Polo:** two donations, then a megaship-uplink hack for Prismatic
+  Imperium (Silinqang, 1.49M CR, +936 merits). Cargo racks and a multi-drone controller fitted
+  back at Medupe City.
+- **Promotion to Count, 03:03:** Prismatic Imperium offered the promotion mission — a courier
+  run for the Imperial fleet intelligence service to Sellers Vista (Shui Wei Sector DG-O b6-4).
+- **Afterwards:** a black box recovered at Iktock for Prismatic Imperium (0.40M CR); three
+  delivery missions at Sellers Vista (gold, indium, tritium — ≈35.4M CR); about **28M CR** of
+  donations to five Imperial factions (Hernovacle Crimson Galactic's civil-unrest appeals
+  among them), starting the climb toward Earl.
+
+**Raw material for future `Logbook.md` days:** the bar full at last, and the promotion arrives
+not as a ceremony but as a sealed envelope carried to an outpost for Naval Intelligence; a
+Countess by the morning, already paying for the next title.
+
+### 14–15 October — Osane Pirates, the Pacifier Outgunned, the Nemesis Born (journal-verified)
+
+Source: journal files of 14 Oct 22:03 → 15 Oct 03:57 UTC (two sessions).
+
+- **Donations at Kessel Platform (HIP 3254):** ten more (≈7.4M CR) — **Aisling Rank 15**
+  (22:22).
+- **Massacre stack, Osane (Aisling Stronghold):** five wing-massacre missions against the
+  pirates of the Family of Osane — Cubeo Patron's Principles (35, 30 kills) and Prismatic
+  Imperium (56, 25, 35); **≈87.3M CR** in all.
+- **Pacifier, 22:33–00:10:** ten "Target" signals at Osane 1 — each an Anaconda whose
+  escorts (4–5 Eagles and Cobras) all jump in at once when it's attacked. 37 kills, hull down
+  to 40 % twice; three stops at Kemurdzhian Terminal (HIP 1914), a 3A shield cell bank bought
+  there (23:37). **Combat rank Expert at 23:17.** The first mission (Cubeo, 35 kills) paid
+  16.9M CR at 00:26; **6.38M CR of bounties redeemed** at Kessel Platform.
+- **The Nemesis, 00:31–03:09:** a second Corsair bought at Kenig City (ICZ EG-O b6-2), fitted out on
+  the spot, then a tour of the engineers: Lei Cheung (shield G5, boosters G3), The Dweller
+  (distributor G5, lasers G4 + Oversized — The Dweller now **G5**), Farseer (thrusters G3,
+  power plant, sensors). Fit in §2.
+- **Nemesis first sortie, 03:17–03:51, Osane:** four Target signals, 17 kills, no hull alarm.
+  Firepower good; **handling poor** — the Eagles keep turning inside her. **3.47M CR of bounty
+  vouchers left unclaimed.** Logged off at Kessel Platform. Four massacre missions still open
+  (expire ≈21 Oct).
+- **Tonton Marcel's own conclusions:** improve the Nemesis's handling if possible, and change
+  technique — no turning fights; boost away, flip (FA off), and come back head-on at the
+  Eagles. Detail in `Shipyard.md`, Nemesis card.
+
+**Raw material for future `Logbook.md` days:** the old Clipper trapped among a pirate lord's
+escorts, swarming out of nowhere; a new Gutamaya hull bought the same night and taken to three
+engineers before dawn; the first sortie in her, every gun landing and every Eagle still slipping
+behind her.
+
+### 16–17 October — The Nemesis Finds Her Stride; Rival Power Hunting (journal-verified)
+
+Source: journal files of 16 Oct (01:07–04:09 UTC) and 17 Oct (11:18–18:04 UTC, three sessions).
+
+- **Nemesis refit, 16 Oct 01:09:** first steps of the handling plan — second shield cell bank,
+  planetary hangar and DSS out, a 4D hull reinforcement and two small module reinforcements in;
+  the large multi-cannon moved to the first large hardpoint. 842.8 → 810.8 t.
+- **New technique works:** boost away, flip, come back head-on (`Shipyard.md`, Nemesis card).
+  Osane massacre stacks re-taken twice (16 and 17 Oct, Prismatic Imperium, Cubeo Patron's
+  Principles, HIP 1914 Imperial Society), plus two assassinations (Stuart Swarbrick, Alexis).
+  Since 15 Oct: **13 massacre/assassination missions paid ≈119.8M CR** and **228 bounties
+  ≈39.0M CR**. No ship lost. Combat 2 % → 32 % toward Master; Navy 57 % → **93 %** toward Earl.
+- **Merits along the way:** +7 per ship scanned in Aisling space — the week's ship-scan
+  assignment paid itself in Osane (+2,000, 16 Oct 01:36). **Aisling Rank 16** (17 Oct 12:13).
+- **Bounties:** ≈17.6M CR redeemed on 16 Oct (HIP 1914 Imperial Society, at Digges Park and
+  Kessel Platform) — the 15 Oct vouchers kept for McQuinn went with them. 17 Oct's ≈24.9M
+  still unclaimed.
+- **Rival Power hunting, 17 Oct afternoon:**
+  - **HIP 3254** (14:52–16:06, then 16:30–16:39): weapons-fire signals, a trade beacon, convoy
+    dispersal and Power wreckage — only minor-faction pirates and Imperial ships. No rival
+    Power ships: the system lists only Aisling.
+  - **Shui Wei Sector VT-R b4-5** (Lavigny-Duval, 16:09–16:24): a Power convoy distress
+    signal — five Lavigny-Duval ships destroyed (Dolan, Durzo Blint, Turner, Cuvelier, Barrel
+    Roll), +230 merits each, and five murder bounties (25,000 CR) with The 10th Legion. A second
+    signal at 16:20 (Anacondas, Type-9s), left after a look. Interdicted there later by an
+    Imperial Python (16:47).
+- **Donations:** ≈40M CR across nine Imperial factions (Osane, HIP 3254, Wonomi, Huang Gun).
+- **Evening:** three megaship-uplink missions for Prismatic Imperium (Huang Gun done, Segnir and
+  HIP 7869 open); the Marco Polo transferred from Kenig City to Medupe City (18:03, 142k CR).
+
+**Raw material for future `Logbook.md` days:** the duellist's lesson learned — stop turning, run,
+flip and face them; a pirate family bled for three days at the Navy's request; then the first
+deliberate killing of another Power's pilots, in Lavigny-Duval's own space, with murder written
+against her name in that system.
+
+### 17 October, evening — Earl, McQuinn, and the Rival Kills Paid (journal-verified)
+
+Source: journal file of 17 Oct, 18:46–21:16 UTC. **+13,023 merits** (110,205 → 123,228),
+**Aisling Rank 16 → 18**.
+
+- **Megaship uplinks, Marco Polo:** six Prismatic Imperium hack missions (Huang Gun, HIP 7869,
+  Boloine, Clido Pi, Koyans; Segnir abandoned) — ≈3.0M CR, and nine datalink scans at 468 merits
+  that completed the week's megaship assignment (+2,400, 20:25). Rank 17 at 19:09.
+- **Tod McQuinn unlocked, 19:33:** 100,000 CR of bounty vouchers donated at Trophy Camp
+  (Wolf 397) — the multi-cannon engineer, and the road to Selene Jean and Didi Vatermann, open
+  (`Engineers & Materials.md`).
+- **Promotion to Earl, 20:43:** Cubeo Patron's Principles' promotion mission — 63 superconductors
+  for the Imperial fleet, bought at Fefra's Legacy, delivered at Medupe City (3.86M CR). Plus
+  ≈11.2M CR of donations to four Cubeo and Nexus factions.
+- **Rival Power kills, Nemesis, 20:48–21:03:** back in Shui Wei Sector VT-R b4-5 — a Power
+  weapons-fire signature, then two convoy signals: six more Lavigny-Duval ships destroyed.
+  The **10th kill paid the assignment (+4,800, 21:02) — Rank 18**. Six more murders on her
+  record there.
+- **Bounties:** the remaining ≈24.9M CR redeemed at Medupe City (21:15). Logged off there.
+
+**Raw material for future `Logbook.md` days:** an Earl's coronet won with a hold of
+superconductors, the same evening a Wolf 397 engineer finally opens her door to bounty paper;
+then back across the border to finish a killing contract in Lavigny-Duval's space.
+
+### 19 October — Engineers by Day, The Brick by Afternoon; Trade Elite III (journal-verified)
+
+Source: journal files of 19 Oct (06:39–10:44, 11:54–16:34, 17:48–18:43 UTC). +902 merits; no
+weekly assignment progress.
+
+- **Morning refit, Nemesis at Kenig City:** an unengineered 5A SCO FSD retrieved, a 6A fuel
+  scoop in the shield cell bank's slot, a 3A collector limpet controller and a 5D hull
+  reinforcement. Donations at Olahus Hub (Kou Hua) and Paola Prospect (Kuki An).
+- **Engineering tour, 10:17–13:51:** the Marco Polo flew to Ballard Survey (Suhte, Pranav Antal
+  space) and had the Nemesis transferred there as a forward base. In the Nemesis:
+  - **Elvira Martuuk** (Long Sight Base, Khun): FSD **Faster Boot G5 + Double Braced** —
+    Martuuk now **G5**.
+  - **Tod McQuinn** (Trophy Camp, Wolf 397), two days after the unlock: large and three medium
+    multi-cannons **Overcharged G5** — McQuinn **G5** in 10 minutes. **Selene Jean** and
+    **Petra Olmanova** now *Invited*.
+  - Back to Suhte, the Marco Polo home to Medupe City, the Nemesis transferred back.
+- **The Brick, Cubeo supply missions, 14:12–18:26:** eleven industrial missions for Prismatic
+  Imperium, Nexus Heavy Industries and Cubeo Purple Deeds — among them two of **50M CR** each
+  from Prismatic Imperium (**1,152 t of gold**, **477 t of palladium**). Bought at McQuarrie
+  Landing (Lambda-2 Tucanae) and Fefra's Legacy; **≈222.9M CR** of rewards. **Trade rank
+  Elite III** at 18:11. Thirty donations along the way (26.2M CR); Navy 7 % → 30 % toward
+  Marquis.
+- **Last flight, Dart:** to Tucanae Sector BV-X b1-1 — landed at **Techno Defence Facility**
+  (planet 5) and stepped out at 18:40; logged off three minutes later.
+
+**Raw material for future `Logbook.md` days:** a day split in two — the gunsmith of Wolf 397
+finally at her bench, the Corsair's cannons overcharged one after another; then the old Type-9
+hauling a fortune in gold for the Princess's own house, a Princess's Earl turned merchant again.
+
+### 19–21 October — Power Data at Techno Defence Facility; the Week Closed (journal-verified)
+
+Source: journal files of 19 Oct (18:31–18:43 UTC) and 21 Oct (07:05–08:34, 11:11–12:01 UTC).
+**+10,404 merits** (124,130 → 134,534), **Aisling Rank 19**.
+
+- **Target:** Techno Defence Facility (Tucanae Sector BV-X b1-1 5, unoccupied, owned by HIP
+  1914 Imperial Society), for the week's last assignment — Power association or political data.
+  First landing on 19 Oct evening, then two sessions on 21 Oct, all in the Dart.
+- **Two methods** (Tonton Marcel's account, `On-Foot.md` §1):
+  - **Brute force** through the bar: download, alarm, shields up, run.
+  - **Discreet:** through the command building to the alarm console, alarm off — turrets,
+    drones and the ship left alone, but any NPC who saw a download still opened fire.
+- **Rhythm:** one item per landing, then lift off and drop back in. 21 Oct morning: 3
+  association items (07:41–08:02), handed in at Roelofs Station, Wababa (+1,620). Afternoon: 4
+  more association items and 2 political (11:20–11:48), handed in at 11:54 — **+3,240 and the
+  assignment +5,600; Rank 19**. Only the last two items came without a fine.
+- **Cost:** 8 on-foot fines (3,750 CR, unpaid) with HIP 1914 Imperial Society; three energy
+  cells and a medkit used.
+- **Week of the 15 Oct tick closed: 4 of 5 assignments** (ship scans, rival kills, megaship
+  scans, Power data); the HIP 3254 rival-kill assignment couldn't be done in Solo.
+- Four donations at Medupe City (3.5M CR) before logging off; Navy 38 % toward Marquis.
+
+**Raw material for future `Logbook.md` days:** an Earl in a borrowed technician's routine — in
+through the bar, out under fire; later the quiet way, the alarm silenced by her own hand, yet
+every pair of eyes in the room still turning on her. Nine trips to the same facility, nine
+files lifted.
+
+### 21 October, afternoon — The Pyrophyllite Loop (journal-verified)
+
+Source: journal file of 21 Oct, 14:49–15:26 UTC. **+5,153 merits**, **Aisling Rank 20** (15:02).
+
+- **The Brick** out of Medupe City for the route found that morning (`Powerplay Missions.md`
+  §3): pyrophyllite bought at **Temple Works** (HIP 5623, Fortified), sold at **Spitzer
+  Gateway** (Col 285 Sector WO-O b20-1, Exploited), 7.8 ly.
+- Three full holds, 14:57–15:24: 1,642, 1,643 and 1,644 merits, ≈13.7M CR profit each. A round
+  trip in ≈11.5 min — **~8,600 merits/h, ~71M CR/h**, the best Powerplay rate so far. The buy
+  price didn't rise between trips. Logged off docked at Spitzer Gateway.
+
+**Raw material for future `Logbook.md` days:** the old Type-9 back on a short shuttle, a mineral
+nobody else wants carried eight light-years for the Princess — eleven minutes a trip.
+
+### 24 October — Four CGs in One Week, the Fleet Spread Out (journal-verified)
+
+Source: journal files of 24 Oct (08:34–08:42, 09:18–11:08, 14:57–15:39 UTC). No merits.
+Detail per CG: `Community Goals.md`, CG 863–865.
+
+- **Prep at Medupe City (08:40):** the Marco Polo's two 6A AFMUs and the Nemesis's 6A shield
+  cell bank and a 3D module reinforcement taken back out of storage. A 400 CR fine for a
+  collision at speed in the no-fire zone (08:36).
+- **Fleet deployment, Marco Polo as taxi (09:20–09:54):** three Faulcon DeLacy CGs, three
+  stations about two jumps apart — signed up at each and transferred a ship to each from Cubeo:
+  **Nemesis → Bowen Dock, HR 8061** (military, CG 865), **The Brick → Homer Platform, AD Leonis**
+  (trade, CG 864), **Astroforge → Davies High, Reorte** (mining, CG 863). Transfers 8.95M CR.
+- **CG 865, Nemesis (10:08–11:07):** massacre missions from Noblemen of LHS 475 at Old Sharlayan
+  (Thuleppa) against the AY Indi and Anekaliti pirates — 5.85M CR of mission value, **Top 50 %**;
+  27 bounties (3.7M CR). Lesson: this CG counts mission value, not bounties. Nemesis left at
+  Thuleppa, the Marco Polo brought over.
+- **CG 864, The Brick (15:05–15:33):** uranium from Wang City (Duamta) and Schirra Dock
+  (Coriccha) at 7,241 CR, sold at 57,104 CR — two runs, **1,516 t, Top 50 %**, ≈63M CR profit.
+- **CG 863:** the Marco Polo flew on to Reorte; logged off aboard the Astroforge at Davies High
+  (15:39), not yet mining.
+- Navy 43 % → 45 %, combat 33 % → 36 %.
+
+**Raw material for future `Logbook.md` days:** a Viscountess-turned-Earl dispatching her ships like
+a fleet admiral — a gunship, a freighter and a miner sent to three stations of the same
+corporation's campaign, and herself ferrying between them in the explorer.
+
+### 25–27 October — Five Assignments, Four Faulcon DeLacy CGs (journal-verified)
+
+Source: journal files of 25 Oct (07:05 → 23:16 UTC), 26 Oct and 27 Oct (to 18:25 UTC). Detail:
+`Powerplay Missions.md` §1, `Community Goals.md` CG 862–865.
+
+- **Weekly assignments, 5 of 5** (25 Oct evening, 26 Oct morning): holoscreens at Bowen Beacon
+  (ICZ OX-U c2-15), Power wreckage rescued at Col 285 Sector WO-O b20-1, Power goods stolen at
+  Heath's Quarry (Shui Wei Sector VT-R b4-4), **a new one — Power malware uploaded at Heath's
+  Quarry** (collected at Bessel Dock, Munshin), holoscreens at Amaneque. **+24,000 merits,
+  Aisling Rank 20 → 23.**
+- **CG 863, mining:** 109 t of Osmium from LTT 5058, sold at Davies High at ×6 (264,306 CR/t,
+  28.8M CR) — Top 75 %.
+- **CG 864, trade:** The Brick's uranium runs to Homer Platform — **6,064 t** in all (plus
+  liquid oxygen), ≈364M CR of sales — Top 50 %.
+- **CG 865, combat:** **16.7M CR** of mission value — Top 25 %.
+- **CG 862, exploration:** signed up at Magrathea II (HD 232819) on 26 Oct 12:36, ≈14.0M CR of
+  data sold — **Top 25 %**. All four Initiatives contributed → golden decal.
+- Treasury past **4 billion CR**; Navy 45 % → 48 %, combat 36 % → 41 %. Logged on 27 Oct at Homer
+  Platform in The Brick.
+
+**Raw material for future `Logbook.md` days:** a week of a corporation's campaigns run in
+parallel — osmium cut from a pristine ring, uranium by the thousand tonnes, a pirate clan
+thinned out for a shipbuilder's trials, and a long run to the Elysian Shore; meanwhile, for
+Aisling, malware slipped into a Lavigny-Duval quarry under the guards' noses.
+
 ---
 
 ## 5. ROADMAP
@@ -603,10 +868,10 @@ satellite ticks the steps).
 
 | Gauge | Status | Target | Unlocks |
 |---|---|---|---|
-| Imperial Navy | Viscount | Duke (4 promotions) | Imperial Cutter |
-| Aisling rank | Rank 12 / 75,458 merits | Rank 34 (≈247,000 merits) | Prismatic Shields |
+| Imperial Navy | Earl | Duke (2 promotions) | Imperial Cutter |
+| Aisling rank | Rank 15 / 96,987 merits | Rank 34 (≈247,000 merits) | Prismatic Shields |
 | Engineering | FSD G5 accessible | Combat and defence engineers at G5, Guardian tech | All target builds, §5.7 |
-| Combat piloting | Competent | Comfortable in HazRES and conflict zones | Actually usable TTK |
+| Combat piloting | Expert (14 Oct) | Comfortable in HazRES and conflict zones | Actually usable TTK |
 | On-foot gear | Defenceless | Better suits and weapons | Ground missions, §5.2 |
 
 **Rules of conduct**
@@ -686,21 +951,33 @@ risk-free.
 - [x] Hyperion — FSD G5 done 23 Sept; thrusters stay at G3 (no more engineering: she retires
       once the Marco Polo is equipped, decided 7 Oct).
 
-**Powerplay** → `Powerplay Missions.md` — ≈172,000 merits remaining to rank 34 (1 Oct:
-74,756 of ≈247,000 — about 23 h of The Brick's trade loop at ~7,600 merits/h)
+**Powerplay** → `Powerplay Missions.md` — ≈150,000 merits remaining to rank 34 (15 Oct:
+96,987 of ≈247,000 — about 20 h of The Brick's trade loop at ~7,600 merits/h)
 - [ ] Weekly assignments, every Thursday tick.
 - [~] Three merit loops run and measured: **PP trade (The Brick) ✔ 30 Sept** (~7,600
       merits/h, Checkpoint 1 below), PP mining (Astroforge), Low RES (Pacifier).
       Also measured 1 Oct with the Dart: **megaship scans ~3,100–4,300 merits/h** and
       **Power data on foot ~2,100–3,300 merits/h** (rough; `Powerplay Missions.md` §3).
 
-**Imperial Navy: Viscount → Duke** — remaining: Count → Earl → Marquis → Duke. Duke rank unlocks
+**Imperial Navy: Viscount → Duke** — remaining: Marquis → Duke (Count ✔ 14 Oct, Earl ✔ 17 Oct). Duke rank unlocks
 the **Imperial Cutter**. Method: rank up to **Allied** with an Imperial faction in a dense system
 (Aisling's +100% rep-gain perk applies in ducal territory) → "Imperial Navy" missions start
 appearing on the board → stack them. Ranks are never lost, one rank per session, in parallel with
 merit grinding.
 - *Progress:* 86 % → **95 %** toward Count (2–3 Oct: Gallium contract + eight altruism
-      donations, §4).
+      donations, §4). Still 95 % at the 12 Oct 23:35 login; twelve more donations on 13 Oct
+      (≈10.6M CR, Cubeo Patron's Principles and Nexus Heavy Industries, §4) — read the
+      `Progress` line at next login.
+- [x] **Count — 14 Oct 2026, 03:03 UTC.** The bar read 100 % at the 13 Oct 22:21 login; the
+      promotion mission came from **Prismatic Imperium** (Medupe City): a courier run for the
+      Imperial fleet intelligence service to Sellers Vista (Shui Wei Sector DG-O b6-4), 5 min.
+      Lesson: once the bar is full, check the Allied Imperial factions' boards for a
+      `Mission_*_RankEmp` mission.
+- [x] **Earl — 17 Oct 2026, 20:43 UTC**, three days after Count. Bar at 47 % (14 Oct) → 93 %
+      (17 Oct 17:47) on massacre stacks and donations, then 100 %; the promotion mission was a
+      **delivery**: 63 superconductors for the Imperial fleet (`Mission_Collect_RankEmp`, Cubeo
+      Patron's Principles), bought at Fefra's Legacy, 11 min.
+- *Next: Marquis.* Same method — check the boards for a `RankEmp` mission once the bar is full.
 - [ ] Push reputation with one Imperial faction in a dense system to **Allied**.
 - [ ] Missions for minor Imperial factions in Aisling space (stacks PP and Navy progress); trade
       and delivery missions count too.
@@ -820,11 +1097,14 @@ Directionless), which funds what follows.
 **Goal:** replace the Pacifier with a proper combat platform, now that piloting has improved.
 
 **Engineers and materials** → `Engineers & Materials.md`
-- [ ] Combat engineers: The Dweller to G5, Zacariah Nemo, Professor Palin, McQuinn G5.
+- [~] Combat engineers: The Dweller to G5 ✔ (15 Oct), McQuinn G5 ✔ (19 Oct); Zacariah Nemo,
+      Professor Palin still to do.
 - [ ] Materials farmed toward shields, Frags and thrusters.
 
 **Nemesis** → `Shipyard.md`
-- [ ] Corsair #1 bought, named Nemesis (annex B2), engineered in order.
+- [x] Corsair #1 bought and named Nemesis — 15 Oct 2026, Kenig City; first engineering pass the
+      same night (Deciat / Wyrd / Laksak, §2).
+- [ ] Handling fixed for small, fast targets (thrusters G5, weight) — `Shipyard.md`, Nemesis card.
 
 **Missions**
 - [ ] On-foot Phase 3 steps (Frontline CZs, cut-the-reactor, Dominator suit) → `On-Foot.md`.
@@ -833,7 +1113,7 @@ Directionless), which funds what follows.
 
 **📍 Checkpoint 3 — combat is validated**
 - [ ] Nemesis at G5; reference TTK measured in HazRES.
-- [ ] Combat rank Expert or above (indicative).
+- [x] Combat rank Expert or above (indicative) — **Expert, 14 Oct 2026**.
 - [ ] At least one combat or bounty-hunting CG played.
 
 #### Phase 4 — Prismatic and Spectre (in parallel)

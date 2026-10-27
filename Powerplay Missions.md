@@ -18,24 +18,30 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **12** (`PowerplayRank`, 1 Oct 2026 17:21 UTC) |
-| Merits | **75,257** (`PowerplayMerits`, 1 Oct 2026 20:16 UTC) |
+| Rank | **23** (`PowerplayRank`, 26 Oct 2026 10:55 UTC — 21 and 22 on 25 Oct) |
+| Merits | **164,825** (`Powerplay` at login, 27 Oct 2026 17:59 UTC) |
 | Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
 
 ---
 
-## 1. THIS WEEK — tick of Thursday 1 October 2026
+## 1. THIS WEEK — tick of Thursday 22 October 2026
 
 *Reset at every Thursday tick: delete last week's rows, after moving each result into its card's
-Stats line (§4).*
+Stats line (§4).* Last week's rows (15 Oct tick, 4 of 5) are already in the cards' Stats.
+
+*Deduced from the journal (27 Oct): each payout matched to the events just before it.* **5 of 5
+done** in two sessions (25 Oct 20:56–23:16, 26 Oct 07:18–11:31 UTC) — **+24,000 merits**, Rank
+20 → 23.
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | Rare goods → unoccupied system | 4.1 | Karsuki Ti → Tucanae Sector WO-Z b0 | ✔ 1 Oct 12:11 | 3,600 |
-| 2 | Megaship datalink scans | 4.9 | Karsuki Ti, Primi, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade, HIP 7142 | ✔ 1 Oct 14:27 | 2,400 (+ 8 × 468) |
-| 3 | Aisling sealed contracts | 4.10 | Cubeo → Wababa | ✔ 1 Oct 14:51 | 2,000 |
-| 4 | Power data (association / political / research) | 4.11 | Irush → Kapoongzi | ✔ 1 Oct 17:21 | 5,600 (+ 5,040) |
-| 5 | *to fill — not started* | | | | |
+| 1 | Holoscreens, **unoccupied** system | 4.6 | ICZ OX-U c2-15 (Bowen Beacon) | ✔ 25 Oct 21:41 — 12 hacks | 4,800 (+ 12 × 126) |
+| 2 | Rescue — Power wreckage | 4.4 | Col 285 Sector WO-O b20-1 → Spitzer Gateway | ✔ 25 Oct 21:58 | 2,800 |
+| 3 | Power goods stolen on foot | 4.12 | Heath's Quarry (Shui Wei Sector VT-R b4-4) → Smoot Station, Chona | ✔ 25 Oct 22:59 | 4,800 |
+| 4 | **Power malware uploads** (new) | 4.14 | Bessel Dock, Munshin → Heath's Quarry | ✔ 26 Oct 10:55 | 5,200 |
+| 5 | Holoscreens, reinforcement | 4.7 | Amaneque (Gilliland Colony) | ✔ 26 Oct 11:31 — 8 hacks | 2,400 |
+
+The journal again wrote the 2,800 twice (21:58:49 and :50); the next total shows one was real.
 
 ---
 
@@ -62,9 +68,9 @@ Stats line (§4).*
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈172,000 merits remaining to rank 34** (≈247,000 − 74,756, 1 Oct)
+**Powerplay: ≈112,500 merits remaining to rank 34** (≈247,000 − 134,534, 21 Oct)
 
-**Comparison, rough (assignment bonuses excluded, journal 1 Oct):**
+**Comparison, rough (assignment bonuses excluded; journal 1–21 Oct):**
 
 | Loop | Ship | Merits/h | Basis |
 |---|---|---|---|
@@ -72,6 +78,26 @@ Stats line (§4).*
 | Megaship datalink scans | Dart | **~3,100**, **~4,300** at a steady pace | 8 paid scans × 468 in ~72 min; steady stretch 6 scans in 39 min (~6.5 min per megaship). The 2 unpaid scans in Cubeo cost ~10 min. Card 4.9 |
 | Power data on foot | Dart + suit | **~2,100**, **~3,300** without lost time | 10 items, 5,040 merits, 14:58 undock → 17:21 hand-in (143 min). ~50 min of it gave nothing (first landings, two re-logs). Card 4.11 |
 | Holoscreens (side income) | any + recon limpets | ~126 per hack, ~1 min each | 3 hacks, 1 Oct. Cards 4.6/4.7 |
+| PP mining, Platinum / LTD hotspot | Astroforge (110 t) | **~7,700–11,500 per hold** (estimate) — hours per hold not yet measured | `tools/pp_mining_routes.py`, 21 Oct: HIP 5700 Platinum 3× (sell Kaiser's Journey, price 240 days old — check in game); Reddis LTD (Olahus Port, fresh price, demand 2,268 t). Formula exact, 1 Oct |
+| Rival Power kills | Nemesis | **~5,000–6,000** while fighting | 11 kills × ≈230 in two 15-min visits, Shui Wei Sector VT-R b4-5, 17 Oct. Murders pile up in that system. Card 4.13 |
+| Holoscreens, Aisling system with rivals | any + recon limpets | **~3,800** | Khepri, 7 × 126 in 13 min, no fines, 13 Oct. Card 4.7 |
+| Power data on foot, re-landing loop | Dart + suit | **~2,800** | 9 items × 540, 21 Oct. Card 4.11 |
+| Massacre stacks | Nemesis | ~1,700 (+7 per scan) — but ≈50M CR/h and Navy progress | Osane, 16–17 Oct |
+
+**Route check, 21 Oct** (`pp_trade_routes.py --ref Cubeo --radius 25 --cargo 758 --mode reinforce`,
+markets ≤ 3 days old): **cobalt** is the loop — huge stocks, so buying barely moves the price.
+- Bainbridge Orbital (Lambda-1 Tucanae, 2,702) → Borrelly Hub (Purungurawn, 15,570), **1.4 ly**,
+  ~1,393 merits per hold; stock 407,651 t.
+- Kristina Queen (ICZ EG-O b6-2, 2,787) → Dayuan Vista (Tucanae Sector YZ-X b1-1, 16,008),
+  5.5 ly, ~1,431 merits; stock 4.3M t.
+- ✔ **Pyrophyllite, Temple Works (HIP 5623) → Spitzer Gateway (Col 285 Sector WO-O b20-1),
+  7.8 ly — the best loop measured so far.** Flown 21 Oct, 3 holds of 758 t (14:57–15:24): bought
+  10,394 → 10,384 → 10,375 CR, sold ~28,435 → **1,642 / 1,643 / 1,644 merits** and 13.7M CR
+  profit per hold. **One round trip ≈ 11.5 min → ~8,600 merits/h and ~71M CR/h.** Spansh
+  showed only 2,321 t of stock, yet the price didn't rise after 2,274 t bought — the stock seems
+  to regenerate between trips (Tonton Marcel's observation). Formula exact on all three sales.
+  Keep watching the buy price: if it climbs above ~13,000, the margin over the 40 % line shrinks.
+- Alternate the two cobalt buyers so neither sale price sinks.
 
 The Brick's trade loop is still the best merits/h by about 2×. The Dart loops are worth running
 when an assignment pays for the same work, since the assignment bonus is added on top.
@@ -217,9 +243,11 @@ specific week — the week's progress lives in §1.*
   - [ ] Buy the required quantity.
   - [ ] Fly to the target system and deliver.
 - **Pitfalls:** none met so far.
-- **Stats:** 2 runs · +3,600 merits each · last: 1 Oct, **Karsuki Ti** (West Market, Karsuki
-  Locusts) → **Tucanae Sector WO-Z b0** (Fefra's Legacy, unoccupied), sold 12:11 — ~20 min from
-  Kenig City. First run 18 Sept: Karsuki Ti → HIP 7311 (Fan Base), ~12 min.
+- **Shortcut:** it has been **Karsuki Locusts every time** (18× at West Market, Karsuki Ti, 915 CR)
+  — go straight there. HIP 7311 (Fan Base) is one jump away and sells them at a small profit.
+- **Stats:** 3 runs · +3,600 merits each · last: 12 Oct, **Karsuki Ti** (West Market) →
+  **HIP 7311** (Fan Base, unoccupied), bought 23:48, sold 23:56 — ~18 min from Grushin
+  Prospect. 1 Oct: → Tucanae Sector WO-Z b0 (Fefra's Legacy), ~20 min. 18 Sept: → HIP 7311, ~12 min.
 
 ### 4.2 Ship scans, reinforcement
 
@@ -231,7 +259,10 @@ specific week — the week's progress lives in §1.*
 - **Pitfalls:** pirates thick around the beacon at **HIP 3254** (Aisling Stronghold, heavy
   undermining). Second visit that day: shields dropped, hull down to 79.9%, lost power mid-fight
   — escaped on the Clipper's speed.
-- **Stats:** 1 run · +2,000 merits · last: 18 Sept, HIP 3254 — scan done 11:18 (visit 11:12–11:24).
+- **Easy in passing:** every ship targeted in an Aisling system pays **+7 merits** per scan, so
+  any combat session there fills this assignment without trying (16 Oct, Osane massacre stack).
+- **Stats:** 2 runs · +2,000 merits each · last: 16 Oct, **Osane** (Stronghold), during the
+  massacre stack — paid 01:36. 18 Sept: HIP 3254 — scan done 11:18 (visit 11:12–11:24).
 
 ### 4.3 Aisling Programme → undermine an exploited system
 
@@ -268,7 +299,18 @@ specific week — the week's progress lives in §1.*
   - [ ] FSS for Power-ship wreckage signal sources.
   - [ ] Collect; watch for authorities arriving when black boxes are aboard.
   - [ ] Hand in to the Imperial contact **in the same system**.
-- **Stats:** 1 assignment (first hand-in + three more runs) · +2,800 merits · last: 18 Sept,
+- **Pitfalls:**
+  - **Check the distance before accepting the trip.** 13 Oct, Alpha Centauri (Aisling
+    Stronghold, six Powers present): two salvageable-wreckage signals, but ≈800,000 Ls from the
+    arrival star — limpets bought at al-Din Prospect (00:18), then given up. A 2,800-merit
+    assignment isn't worth a long supercruise; skip it that week (§2).
+- **Quick version (25 Oct):** in an **Aisling Exploited** system with a station, drop on the
+  **"Power wreckage signature"** signals (*Signature d'épave de puissance*), collect with limpets,
+  hand in at the same system's station (`SearchAndRescue`). Col 285 Sector WO-O b20-1: three
+  signals, 4 occupied escape pods + 8 wreckage components + 3 black boxes, handed in at **Spitzer
+  Gateway** — **15 min**. It's the pyrophyllite loop's sell station (§3): do both together.
+- **Stats:** 2 assignments · +2,800 merits each · last: 25 Oct, Col 285 Sector WO-O b20-1 →
+  Spitzer Gateway, 21:43–21:58. 18 Sept:
   **Lambda Hydri** (Hansteen Depot, pop. 2,490, exploited) — Clipper first pass 18:01, Asp from
   18:38.
 
@@ -295,9 +337,20 @@ specific week — the week's progress lives in §1.*
   - [ ] Drop at the station, target a holoscreen, launch a recon limpet (+merits per hack).
   - [ ] Back to supercruise, drop again: the screens reset, hack them again. Repeat until the
         assignment pays out.
-- **Pitfalls:** none met — "easy." Every screen can be selected in these systems.
-- **Stats:** 1 assignment · +4,800 merits (+ 14 × 86 per hack) · last: 25 Sept, **Shui Wei
-  Sector VT-R b4-5** (Lavigny-Duval, Exploited), Lounge Reach — 06:32–06:52, ~20 min.
+- **Pitfalls:**
+  - Every screen can be selected in these systems — "easy."
+  - **Each hack is a crime:** `stationTamperingMinor`, **2,000 CR fine** to the station's
+    faction (9 fines at Chinga, 13 Oct; 11 on 25 Sept). Cheap, but pay them before docking there.
+  - Hacks in an **Aisling** system don't count for this one: 7 hacks at Newton Port (Khepri,
+    13 Oct 00:55–01:08) paid 126 merits each but no assignment payout — that's card 4.7.
+- **Unoccupied variant (25 Oct):** the assignment can name an **unoccupied** system instead —
+  same method. ICZ OX-U c2-15, Bowen Beacon: 12 hacks in 4 drops of 3, 126 merits each, paid on
+  the 12th. ⚠ The fines (2,000 CR each) went to **Nexus Heavy Industries** — a Cubeo faction
+  you donate to for Navy rank. Check who owns the station before hacking.
+- **Stats:** 3 assignments · +4,800 merits each · last: 25 Oct, **ICZ OX-U c2-15** (unoccupied),
+  21:27–21:41, ~14 min. 13 Oct: **Chinga** (Lavigny-Duval,
+  Fortified), Wilson Stop — 9 limpets, 8 paid hacks × 67, 01:38–01:48, ~10 min (3 drops of 3). 25 Sept: Shui Wei
+  Sector VT-R b4-5 (Lavigny-Duval, Exploited), Lounge Reach — 14 × 86, ~20 min.
 
 ### 4.7 Holoscreens, reinforcement
 
@@ -321,7 +374,11 @@ specific week — the week's progress lives in §1.*
   - A day lost searching Aisling-only systems (25 Sept) before finding the rule above.
   - Merits per hack dropped from 100 (25 Sept) to 65 (26 Sept) — reason unconfirmed (maybe the
     system's reinforcement going up).
-- **Stats:** 1 assignment · +2,400 merits (+ 5 × 100 and 7 × 65 per hack) · last: 25–26 Sept,
+  - Another system that fits the rule: **Khepri** (Exploited; Lavigny-Duval, Mahon, Grom
+    present), Newton Port — 7 hacks × **126 merits** on 13 Oct (00:55–01:08), no fines. Good
+    loose merits even when this isn't the week's assignment.
+- **Stats:** 2 assignments · +2,400 merits each · last: 26 Oct, **Amaneque** again (Gilliland
+  Colony) — 8 hacks, one per drop, 11:17–11:31, ~14 min, **no fines**. First: +2,400 (+ 5 × 100 and 7 × 65 per hack), 25–26 Sept,
   **Amaneque** (Aisling, Exploited; Lavigny-Duval, Mahon, Torval also present), Gilliland Colony
   (outpost) — completed 26 Sept 09:18.
 
@@ -383,21 +440,30 @@ specific week — the week's progress lives in §1.*
   - **Cubeo paid 0 merits** for two scans (1 Oct 13:40 and 13:46). Every other system paid
     468: Karsuki Ti, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade (Strongholds), Primi and
     HIP 7142 (Fortified). Cause unconfirmed (Cubeo is Aisling's capital). Skip Cubeo.
-- **Stats:** 1 assignment · +2,400 merits + **468 per scan** (8 paid) · last: 1 Oct, 11:57–14:27.
+- **Combine it with faction missions:** Prismatic Imperium's "access the megaship uplink" missions
+  (`Mission_HackMegaship`, 0.1–1.9M CR each) are the same scan — credits, Navy progress and
+  merits at once (17 Oct).
+- **Stats:** 2 assignments · +2,400 merits each + **468 per scan** · last: 17 Oct, 9 scans
+  18:58–20:25 alongside six Prismatic Imperium hack missions (Huang Gun, HIP 7869, Boloine, Clido
+  Pi, Koyans…; Segnir abandoned). 1 Oct: 8 paid, 11:57–14:27.
   **~6.5 min per megaship** at a steady pace (6 scans 13:48 → 14:27) → **~4,300 merits/h**;
   ~3,100 merits/h over the whole run.
 
 ### 4.10 Aisling sealed contracts
 
-- **Recognise it:** collect `aislingmediaresources` ("Aisling's sealed contracts") and deliver
-  them to another Aisling system.
-- **Ship:** any hull with a small cargo hold (1 Oct: the Dart, 14 t).
+- **Recognise it:** collect `aislingmediaresources` ("Aisling's sealed contracts", Tonton
+  Marcel's "Aisling bonds") and deliver them to another Aisling system — sometimes one under
+  undermining.
+- **Ship:** any hull with a small cargo hold (1 Oct: the Dart, 14 t; 13 Oct: Marco Polo, 30 t).
 - **Run:**
-  - [ ] Collect at the Power contact (1 Oct: 12 at Medupe City, Cubeo).
+  - [ ] Collect at the Power contact (1 Oct: 12 at Medupe City, Cubeo; 13 Oct: 30 at Wheelock
+        Settlement, Zeaex).
   - [ ] Deliver to the target system's station.
-- **Pitfalls:** none met — 7 min from collection to delivery.
-- **Stats:** 1 run · +2,000 merits (+37) · last: 1 Oct, Medupe City (14:44) → **Roelofs
-  Station, Wababa** (Stronghold, 14:51).
+- **Pitfalls:** none met — 6–7 min from collection to delivery. A bigger load pays a bit more on
+  top (+180 for 30, +37 for 12).
+- **Stats:** 2 runs · +2,000 merits each · last: 13 Oct, Wheelock Settlement, **Zeaex**
+  (Stronghold, 00:42) → **Banks Port, Khepri** (Exploited, four Powers present — undermined,
+  00:48). 1 Oct: Medupe City → Roelofs Station, Wababa.
 
 ### 4.11 Power data on foot (association / political / research)
 
@@ -406,16 +472,110 @@ specific week — the week's progress lives in §1.*
   and hand them in.
 - **Ship / suit:** the Dart (lands close to the settlement); on-foot suit.
 - **Run:**
-  - [ ] Pick settlements in an **unoccupied** system next to Aisling space (1 Oct: Irush).
-  - [ ] Land, open the data ports, check the backpack.
-  - [ ] Hand in at an Aisling Stronghold station (1 Oct: Jones Hub, Kapoongzi).
+  - [ ] Pick settlements in an **unoccupied** system next to Aisling space (1 Oct: Irush;
+        21 Oct: Tucanae Sector BV-X b1-1, one jump from Cubeo).
+  - [ ] Prefer a settlement **not** owned by an Imperial faction you're building rep with: every
+        download seen is a fine with the owner (21 Oct: HIP 1914 Imperial Society, a Navy-rank
+        faction).
+  - [ ] **One item per landing, then leave:** download, run back to the Dart, lift off,
+        supercruise, drop straight back in. The settlement resets — fresh data ports, guards
+        calm again (21 Oct: 9 items in 9 drops, ~4–6 min each).
+  - [ ] Stealth or brute force: see `On-Foot.md` §1 ("Play-tested 21 Oct").
+  - [ ] Hand in at an Aisling Stronghold station (1 Oct: Jones Hub, Kapoongzi; 21 Oct: Roelofs
+        Station, Wababa — two jumps).
 - **Pitfalls:**
   - 1 Oct took 12 landings for 10 items.
   - Two re-logs on the ground (15:47, 16:07) and ~50 min lost before the first item.
   - Value per item depends on where it came from: **540** (association, political) and **360**
     (research) for Irush data. An older association item from the locker paid **187** at
     Wababa.
-- **Stats:** 1 assignment · +5,600 merits + **5,040 for the items** (5 association, 3 political,
+  - **21 Oct: 7 `onFoot_dataTransfer` fines (500 CR each) + 1 trespass (250 CR)** with HIP 1914
+    Imperial Society — every download that an NPC saw, even with the alarm disabled.
+- **Stats:** 2 assignments · +5,600 merits each · last: 21 Oct, **Techno Defence Facility**
+  (Tucanae Sector BV-X b1-1 5, unoccupied) → Roelofs Station, Wababa — 7 association + 2
+  political, **540 merits each** (4,860) — 07:05–08:08 and 11:13–11:54, **~6,000 merits/h with
+  the assignment, ~2,800/h without**. 1 Oct: +5,600 merits + **5,040 for the items** (5 association, 3 political,
   2 research) · last: 1 Oct, **Irush A 3 a** (Ganguly's Garden, Ma Hydroponics Hub),
   15:09–17:15. ~2,100 merits/h over the whole session (143 min); ~3,300 merits/h if the lost
   50 min are left out.
+
+### 4.12 Power goods stolen on foot (Power containers) → Aisling system
+
+- **Recognise it:** take Power goods from the **Power containers** at a settlement in a
+  **rival Power's** system, and hand them in at an Aisling station. Items seen (13 Oct):
+  `powerequipment` (personal protective equipment), `powerinventory` (stock register),
+  `poweragriculture`, `powermedical`, `powerresearch`, `powerexperiment`.
+- **Ship / suit:** the Dart (lands close to the settlement); on-foot suit.
+- **Run:**
+  - [ ] Pick a settlement in a rival system next to Aisling space (13 Oct: Kremovi,
+        Lavigny-Duval Fortified, one jump from Cubeo via Morinmutino).
+  - [ ] Land **outside the no-landing zone** (800 CR `dockingMinorTresspass` fine at Verne
+        Landing, 02:06), walk in, empty the Power containers.
+  - [ ] Hand in at the nearest Aisling station (13 Oct: Reid Gateway, **Oshanla**, Fortified —
+        one jump from Kremovi).
+- **Pitfalls:**
+  - Goods are worth little on their own: ~52 merits per item (7 items → 367, 5 items → 262).
+    The assignment payout is what counts.
+  - Took **two trips**: the first hand-in (7 items) paid no assignment; the payout came with the
+    second (5 more, 12 in all). Check the required quantity before the first landing.
+- **Stats:** 2 assignments · +4,800 merits each · last: 25 Oct, **Heath's Quarry** (Shui Wei
+  Sector VT-R b4-4 A 2, Lavigny-Duval Exploited) → **Smoot Station, Chona** (Stronghold) — three
+  landings, 18 items (equipment, inventory, extraction samples, a military plan…), paid on the
+  10th handed in, 22:07–22:59.
+  13 Oct: **Savko Nutrition
+  Habitat** (Kremovi A 2) → Reid Gateway, Oshanla — 01:58–03:08, ~70 min with the two trips.
+
+### 4.13 Kill rival Power ships in a named system
+
+- **Recognise it:** destroy ships of **another Power** in the system the assignment names. Only
+  ships whose target panel shows a rival Power count (journal `ShipTargeted` → `Power`).
+  Minor-faction pirates, even Wanted ones, don't count (17 Oct, HIP 3254).
+- **Ship:** combat hull (17 Oct: Nemesis).
+- **Where the rival ships are:**
+  - [ ] **In a system the rival Power holds:** look for **"Power convoy distress signal"**
+        (*Signal de détresse de convoi de puissance*). 17 Oct, Shui Wei Sector VT-R b4-5
+        (Lavigny-Duval, Exploited): two signals in 15 min, full of Lavigny-Duval Type-9s,
+        Cobras, Vipers and Anacondas, all marked "Enemy". A **"Power weapons fire signature"**
+        (*Signature de tirs de puissance*) works too (17 Oct evening, 2 kills).
+  - [ ] **In an Aisling system:** rival ships only show up if a rival Power is **present**
+        there — check the `Powers` list (system panel, or journal `FSDJump`), the same rule as
+        the reinforcement holoscreens (card 4.7). **HIP 3254 lists only Aisling** (17 Oct,
+        five visits), despite 42,125 undermining. That undermining most likely comes from rival
+        commanders playing in Open, who can't be met in Solo. Convoy dispersals, weapons fire,
+        trade beacons and Power wreckage signals there held only minor-faction ships.
+  - [ ] So in an Aisling system with only Aisling listed, the assignment **can't be done in
+        Solo**. Probably not a bug in the mission itself: the game picks a system where rivals
+        are active, but in Solo only their effect (the undermining) is visible, not their
+        ships. Skip it (§2) — or, if a rival Power is listed, look for its ships at the
+        signals above.
+- **Pitfalls:**
+  - **Every kill is a murder** for the system's authorities: 5,000 CR bounty per ship plus
+    200 CR per assault (The 10th Legion, 17 Oct). You're **Wanted** in that system afterwards:
+    expect the police to join in, and don't dock there.
+  - Convoys mix armed escorts and Type-9 haulers; the haulers are slow and tanky, kill the
+    escorts first.
+  - The journal again wrote the +4,800 payout twice (21:02:04 inside a +4,978, 21:02:05 alone);
+    the next line's total shows only one was real (same glitch as card 4.12).
+- **Stats:** 1 assignment · **+4,800 merits on the 10th kill** + ≈230 per kill (178–312) ·
+  17 Oct, **Shui Wei Sector VT-R b4-5** (Lavigny-Duval) — 11 kills in two visits: 5 at 16:11–16:17,
+  6 at 20:50–21:03 (one weapons-fire signature, two convoy signals). ≈20 min of fighting in all.
+  Cost: 11 murders, ≈57,000 CR of bounties with The 10th Legion.
+
+### 4.14 Power malware uploads at a rival settlement
+
+- **Recognise it:** collect **Power injection malware** (`powerpreparationspyware`, *Malware
+  d'injection de puissance*) at an Aisling Power contact and upload it at a **rival Power's
+  settlement** — each upload uses one from the backpack.
+- **Ship / suit:** the Dart; on-foot suit.
+- **Run (25–26 Oct):**
+  - [ ] Collect at the Power contact (Bessel Dock, **Munshin**, Stronghold — 10 at a time).
+  - [ ] Land at the rival settlement (**Heath's Quarry**, Shui Wei Sector VT-R b4-4 A 2,
+        Lavigny-Duval, one jump), find the terminals, upload.
+  - [ ] Same re-landing loop as card 4.11 when things heat up; collect more malware at
+        Munshin if needed. Steal the Power goods in passing (card 4.12) — they pay too.
+- **Pitfalls:**
+  - Two `onFoot_dataTransfer` fines and one *failure to submit to police* (The 10th Legion) on
+    26 Oct — the uploads are witnessed like downloads (`On-Foot.md` §1).
+  - The payout came on the **11th upload** (10:55), over three landings and ≈3.5 h with a
+    break.
+- **Stats:** 1 assignment · **+5,200 merits** · 26 Oct, Munshin → Heath's Quarry, 07:24–10:55.

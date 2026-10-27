@@ -52,6 +52,8 @@ annex A3 (v2), annex B4 (Diplomat).
 - [ ] Boosters to G5 with Didi Vatermann (Leesti) — same unlock chain as The Brick V2 "Beyond".
 - [ ] Sensors Long Range (annex A3 target).
 - [ ] Medium-intensity CZs as a habit (two done in CG 860); hand-off to the Nemesis in Phase 3.
+- **14 Oct, Osane massacre stack:** 37 kills, but hull down to 40 % twice. Against an Anaconda
+  with 4–5 Eagles and Cobras arriving at once, her firepower is too low — wings go to the Nemesis.
 
 ### Dart — Imperial Courier (Odyssey taxi, recovery, snatch and flee)
 
@@ -317,19 +319,65 @@ home port; swap per trip (taxi ⇄ exploration).
 | 4 | Marco Polo | → Cubeo, Medupe City | Stage 3 kit fitted, taxi kit stored | ≈ 1 h |
 | 5 | Marco Polo | First exploration / exobiology trip, or the next CG | Validation | — |
 
+### Nemesis — Corsair (combat) — bought 15 Oct 2026
+
+*Role:* bounties, massacres, PP combat — takes over from the Pacifier (Phase 3). *Spec:* annex B2
+(target build). Fit as flown: §2.
+
+- [x] Bought 15 Oct 2026, Kenig City (ICZ EG-O b6-2), hull 74,961,584 CR; fitted out on the spot.
+- [x] First engineering pass, 15 Oct (Tier 1 engineers): shield Reinforced G5 + Hi-Cap, boosters
+      Heavy Duty G3 + Super Capacitors (Lei Cheung, Laksak) · distributor High Capacity G5 +
+      Cluster Capacitors, 2 large pulse lasers Overcharged G4 + Oversized (The Dweller, Wyrd) ·
+      thrusters Dirty Drive G3 + Drag Drives, power plant Overcharged G1 + Monstered, sensors
+      Lightweight G3 (Farseer, Deciat).
+- [x] First sortie, 15 Oct, Osane massacre stack: 17 kills, no hull alarm. **Firepower good,
+      handling poor** — the Eagles keep turning inside her.
+- [x] Second engineering pass, 19 Oct: four multi-cannons **Overcharged G5** (McQuinn, Wolf 397);
+      FSD **Faster Boot G5 + Double Braced** (Martuuk, Khun). 6A fuel scoop and a 3A collector
+      limpet controller fitted in place of the shield cell bank.
+- [ ] Multi-cannon experimentals still to choose (e.g. Corrosive Shell on one, Auto Loader or
+      Incendiary on the others — check in EDSY).
+- [x] **Shield cell bank back** in the size-6 slot (24 Oct, for CG 865), plus a 3D module
+      reinforcement; fuel scoop out again.
+
+**Handling plan** — agility depends on the ship's mass against what the thrusters are rated
+for, so two levers: stronger thrusters, less weight. Check each change in EDSY first (§5.0).
+- [ ] **Thrusters Dirty Drive G3 → G5** — the biggest single gain. Farseer stops at G3; G5 needs
+      Professor Palin (Arque; Martuuk → Qwent → Palin, `Engineers & Materials.md`).
+- [x] **Second 6A shield cell bank removed** (16 Oct) — a 4D hull reinforcement in its slot
+      until a Guardian shield reinforcement is unlocked (annex B2).
+- [ ] **Life support 4A → 4D** and **sensors 6A → 6D Lightweight** — annex B2 already plans
+      the D-rated ones; same function in combat, much lighter.
+- [x] **Planetary hangar and DSS out** (16 Oct) — small module reinforcements in their slots.
+      Total so far: 842.8 → **810.8 t**.
+- [ ] Look at the power plant in EDSY: 7A may be more than this fit needs. A lighter plant
+      only if power stays above 100 % with everything deployed.
+- [ ] Keep for now (survival over agility while learning): mirrored armour, the three hull
+      reinforcements.
+- [ ] Later: distributor Charge Enhanced (annex B2) — faster engine-capacitor recharge, so more
+      boosts per fight.
+
+**Combat technique against escort wings** (Tonton Marcel's plan, 15 Oct, plus standard tips)
+- [ ] **No turning fights with Eagles.** Boost straight away for 2–3 km, flip round (FA off:
+      pitch 180°, then FA back on), and come back head-on; the escorts line up in front of the
+      guns. Repeat. **Validated 16–17 Oct** (Tonton Marcel: "it paid"): ≈200 kills in Osane
+      Target signals, no ship lost.
+- [ ] When you do have to turn: throttle in the **blue zone** (around half throttle) turns
+      tightest. Full throttle widens the circle. Add **vertical thrust up** while pitching up.
+- [ ] Pips: 4 to ENG for jousting and boosting, 4 to SYS when the whole wing is on you.
+- [ ] Kill the escorts first while the Anaconda is slow and still far; then take the Anaconda.
+- [ ] Use the shield cell bank as soon as the shields drop, not after.
+- [ ] Other option for massacre kills: every Family of Osane pirate killed in Osane counts, not
+      only the "Target" signals. A nav beacon or a resource extraction site gives single ships
+      or small groups instead of a full wing at once.
+
 ---
 
 ## 2. FUTURE SHIPS
 
 *Purchase milestones stay in the phase plan (§5.4); target roles in §5.5.*
 
-### Nemesis — Corsair #1 (combat, Phase 3) — annex B2
-
-- [ ] Buy Corsair #1 (≈79.3M CR, no rank required). Name her Nemesis (annex B2, §5.7).
-- [ ] Engineer in order: (1) Bi-Weave shield, boosters, Guardian reinforcements; (2) armour and
-      hull; (3) distributor; (4) thrusters; (5) Frags.
-- [ ] Transition: Pacifier runs Medium RES while the Nemesis is being engineered, then the
-      Nemesis takes over.
+### Nemesis — moved to §1 (bought 15 Oct 2026; target build still annex B2)
 
 ### Spectre — Courier #2 (stealth, Phase 4) — annex B3
 

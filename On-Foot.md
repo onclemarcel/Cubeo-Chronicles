@@ -58,6 +58,23 @@ problem, not the two stacked ones they first look like. Order of leverage, cheap
 5. **No stun/incapacitation tool exists in the game** — confirmed, not a gear gap to engineer
    around.
 
+**Play-tested 21 Oct 2026 — Techno Defence Facility (Tucanae Sector BV-X b1-1 5), Power data
+for a PP assignment (`Powerplay Missions.md` card 4.11).** Two ways tried, both worked:
+- **Brute force:** walk into the bar (no clearance needed), download at its data port — the
+  alarm goes off — combat shields up, run back to the Dart under fire.
+- **Discreet:** into the command building (one `onFoot_trespass` fine), up to the **alarm
+  console**, alarm off. Result: no base-wide response — **turrets and drones stay quiet, the
+  ship isn't attacked**. But each NPC who **sees** the download still reacts on their own and
+  opens fire (`onFoot_dataTransfer` fine), even from far away across the room.
+- **Why (as far as we can tell):** the alarm console only stops the *settlement's* alarm. The
+  download itself remains a crime, and any NPC with a line of sight is a witness. Disabling the
+  alarm limits the response; it doesn't make you invisible.
+- **So, for a clean download:** pick a port no one can see — check every NPC's position and
+  patrol first, wait until they turn away or leave the room, crouch. It can be done: the last
+  two items (11:48) came with **no fine at all**.
+- **Simplest in practice:** one item per landing, then lift off and drop back in — the
+  settlement resets each time (9 items in 9 drops on 21 Oct).
+
 **Where this fits in the plan:** the zero-risk steps (1–2, still pending — the 21 Sept session
 played wreck-salvage and settlement-collect missions instead, see §4) sit in **Phase 1** alongside
 the other risk-free grinding, since they need no rank/gear and plausibly feed the same

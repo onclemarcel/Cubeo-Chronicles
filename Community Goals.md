@@ -18,11 +18,20 @@
 
 | CG | Type | Dates | Ship | Contribution | Bracket | Contributors | Reward |
 |---|---|---|---|---|---|---|---|
+| **865** Faulcon DeLacy Combat Initiative (Bowen Dock, HR 8061) | Combat (mission value) | 22 → 29 Oct 2026 | Nemesis | 16,672,354 CR *(running, 27 Oct)* | **Top 25 %** | 9,064 | — |
+| **864** Faulcon DeLacy Trade Initiative (Homer Platform, AD Leonis) | Trade (delivery) | 22 → 29 Oct 2026 | The Brick | 6,064 t *(running, 27 Oct)* | Top 50 % | 12,359 | — |
+| **862** Faulcon DeLacy Exploration Initiative (Magrathea II, HD 232819) | Exploration (data sales) | 22 → 29 Oct 2026 | Marco Polo | 744 *(sold 26 Oct)* | **Top 25 %** | 7,782 | — |
+| **863** Faulcon DeLacy Mining Initiative (Davies High, Reorte) | Mining (delivery) | 22 → 29 Oct 2026 | Astroforge | 109 t Osmium *(27 Oct)* | Top 75 % | 7,089 | — |
 | **861** Brewer Corporation Jump Satellite Initiative (Zero Squared, HIP 74116) | Trade (delivery) | 8–11 Oct 2026 | The Brick | **26,530 t** | **Top 25 %** | 11,810 | **200,000,000 CR** (11 Oct) + SCO FSDs size 4–7 (not located yet) |
 | **860** Eliminate criminal pilots in Redonesses (Sword of Iustitia) | Combat (kill bonds) | 6–8 Oct 2026 | Pacifier | **19,122,798 CR** of bonds | **Top 25 %** | 8,849 | **220,000,000 CR** (8 Oct) |
 | **859** Wreaken Calls for Sourced Materials… (Metz Enterprise, Ega) | Trade (delivery) | → 18 Sept 2026 | The Brick | **15,918 units** | **Top 25 %** | — | **170,000,000 CR** (18 Sept) |
 
-Three CGs since the return, three Top 25 % finishes.
+Three CGs since the return, three Top 25 % finishes. **Week of 22 Oct: four CGs at once**
+— **Faulcon DeLacy's four "Initiatives"** for the Anaconda Mk II (trade, combat, mining,
+exploration), all closing **29 Oct ≈10:00 UTC**. One contribution to all four earns a **golden
+Faulcon DeLacy decal**; each also gives a decal and an Anaconda Mk II paint job; one ship per CG,
+spread over three stations ~25 ly apart (CG 863–865 cards). The fourth: **exploration data at
+HD 232819**, ~2,000 ly away (Marco Polo).
 
 ---
 
@@ -51,6 +60,17 @@ Three CGs since the return, three Top 25 % finishes.
   night needs a smaller margin than a daytime one (CG 861: 8 runs would have done instead of 10).
   The in-game bracket is coarse and moves back and forth near the line (CG 861 slipped to Top
   50 % twice overnight).
+  ⚠ **The rule overshoots on CGs with a few huge contributors** (the Faulcon DeLacy CGs,
+  24 Oct): Inara's real Top 25 % lines were about half the ×1.45 estimate (combat 6.5M vs 13.2M,
+  trade 5,664 t vs 7,200, mining 288 t vs 460). When Inara shows the tier table, use it.
+- **Several CGs at once (22 Oct week):** park one working ship at each CG station (transfers
+  from Medupe City: ≈1.2–5.3M CR, 40–90 min) and hop between them in the Marco Polo — the CG
+  stations here are 2 jumps apart. Each `CommunityGoal` journal reading reports all joined CGs at
+  once, so the forecast for each can be tracked from any session.
+- **Combat-mission CGs count mission value, not bounties** (CG 865, confirmed by the CG text):
+  any combat mission taken within 25 ly of the CG station counts for **its highest possible
+  credit reward, whichever reward you actually pick** (512,516 + 518,279 = 1,030,795; then
+  4,814,250). Redeeming 3.7M CR of bounty vouchers added nothing. Pick missions by top reward.
 - **Reward collection:** Frontier finalises a CG some hours after it closes (`IsComplete: true`);
   the credits then appear at the CG station (`CommunityGoalReward`). Collected so far in the
   working ship, on the spot.
@@ -62,6 +82,110 @@ Three CGs since the return, three Top 25 % finishes.
 ---
 
 ## 3. CG cards
+
+### CG 862 — Faulcon DeLacy Exploration Initiative — Magrathea II, HD 232819 (22 → 29 October 2026)
+
+**Brief (Inara, 24 Oct 15:56):** sign up at the megaship **Magrathea II** (HD 232819, ~2,000 ly
+from the bubble), scan systems and planets in the **Elysian Shore** region, sell the data to
+Universal Cartographics at Magrathea II. Elysian Shore data sold there pays **×1.5**. Any ship.
+CG number to note on signing up.
+
+- **Standing (Inara, 24 Oct):** 1.11M of 25M contributions (tier 4 of 6), 4,089 contributors.
+  Brackets: **Top 25 % from ~308**, Top 50 % from ~137, Top 75 % from ~64. Rewards: Top 25 %
+  280M CR, Top 50 % 250M, Top 75 % 200M, Top 100 % 100M — **100M CR for a single sale**.
+- **⚠ Same close as the other three: 29 Oct ≈10:00 UTC.** The trip has to fit before it.
+- **✔ Done 26 Oct:** signed up 12:36, data sold 12:36–12:38 (nine sales, **≈14.0M CR**) —
+  **744 contributions, Top 25 %** (27 Oct reading: 7,782 contributors, tier 5).
+- **All four Initiatives now have a contribution → golden Faulcon DeLacy decal.**
+- **Plan:** Marco Polo (66.5 ly, 2 AFMUs, fuel scoop) — ≈31 jumps each way, plus an
+  **ammonia-world route** ~250 ly from HD 232819.
+- [ ] Check in the galaxy map that the route's systems are inside **Elysian Shore** (the map
+      shows the region name) — data from elsewhere doesn't count.
+- [ ] Sign up at Magrathea II **before** selling anything.
+- [ ] FSS every system, then **map** the ammonia worlds with the DSS — mapping and first
+      discovery are where the value is.
+- [ ] **Risk:** unsold exploration data is lost if the ship is destroyed — no fights, no
+      reckless landings; sell at Magrathea II before anything else.
+
+### CG 865 — Faulcon DeLacy military operation (→ 29 October 2026)
+
+**Station:** Bowen Dock, **HR 8061** (Fortified, Zemina Torval). Signed up 24 Oct 09:32 (Marco
+Polo); the **Nemesis** transferred there from Medupe City (5.32M CR, ≈31 min).
+
+- **What counts (CG text + journal, 24 Oct):** combat missions taken from **any mission board
+  within 25 ly of HR 8061**, counted at hand-in for their **highest possible credit reward**
+  (whichever reward you pick); bounties don't count (playbook §2). Used so far: massacre missions
+  from **Noblemen of LHS 475** at **Old Sharlayan, Thuleppa** (Aisling Stronghold, next door),
+  against the pirates of AY Indi and Anekaliti. ×1 — no price multiplier.
+- **24 Oct, 10:14–11:07:** two 2-kill massacres (AY Indi Drug Empire, Anekaliti Dragons), then
+  a 20-kill wing massacre (Anekaliti Dragons, 4.81M CR) — **5,845,045 CR, Top 50 %**. 27
+  bounties on top (3.7M CR, redeemed at Old Sharlayan). The Nemesis is parked at Thuleppa.
+- **Standing (Inara, 24 Oct 15:56):** 41.9 billion of 1,000 billion CR (tier 1 of 5), 4,601
+  contributors. Brackets: **Top 25 % from ~6.5M** (200M CR reward), Top 50 % from ~1.85M (140M),
+  Top 75 % from ~0.64M (110M). **5.85M → one more wing massacre puts her in Top 25 %**; aim for
+  ≈10M to stay there as the line rises.
+
+### CG 864 — Faulcon DeLacy trade operation (→ 29 October 2026)
+
+**Station:** Homer Platform, **AD Leonis** (Fortified, Edmund Mahon). Signed up 24 Oct 09:39;
+**The Brick** transferred from Medupe City (2.47M CR, ≈43 min).
+
+- **What counts:** tonnes of **Uranium, Coffee, Polymers or Liquid Oxygen** delivered to Homer
+  Platform, sold at **×8 the normal price** — hence 57,104 CR for uranium (first sale: 439 t
+  uranium + 319 t liquid oxygen = 758 counted).
+- **Sources (24 Oct):** **Wang City, Duamta** and **Schirra Dock, Coriccha** — uranium at
+  **7,241 CR**, sold at Homer Platform for **57,104 CR**: **≈37.8M CR profit per 758 t**. Liquid
+  oxygen 667 → 11,000 CR. A round trip ≈12 min (Coriccha is 2 jumps).
+- **24 Oct, 15:05–15:33:** two runs, **1,516 t, Top 50 %**, ≈63M CR of profit. The Brick is
+  parked at Homer Platform.
+- **Standing (Inara, 24 Oct 15:56):** 35.5M of 3,000M t (tier 2 of 6), 7,123 contributors.
+  Brackets: **Top 25 % from ~5,664 t** (220M CR), Top 50 % from ~1,281 t (170M), Top 10 from
+  ~82,160 t (280M). **1,516 t → 6 more runs for Top 25 %**; aim for 8,000–10,000 t (9–12 runs)
+  to keep the margin — at ≈190M CR/h of profit it pays on its own.
+
+### CG 863 — Faulcon DeLacy mining operation (→ 29 October 2026)
+
+**Station:** Davies High, **Reorte** (Fortified, Nakato Kaine). Signed up 24 Oct 09:46;
+**Astroforge** transferred from Medupe City (1.16M CR, ≈40 min) — on board since 15:39.
+
+- **What counts (CG text):** **Platinum, Painite or Osmium** you mined yourself, sold at **Davies
+  High's** market — at **×6 the normal price**. Sign up first (done).
+- **Standing (Inara, 24 Oct 15:56):** 1.11M of 35M t (tier 0 of 5), 3,508 contributors. Brackets:
+  **Top 25 % from ~288 t**, Top 50 % from ~128 t, Top 75 % from ~22 t (rewards not shown yet).
+  **Three Astroforge holds (≈110 t each) → Top 25 %.**
+- **Where to mine** (Spansh ring hotspots within 25 ly of Reorte, 24 Oct — none in Reorte itself,
+  no Osmium hotspot nearby; all laser-minable):
+
+  | System | ly | Ring (arrival ls) | Hotspots | Reserves | Note |
+  |---|---|---|---|---|---|
+  | **Diso** | 5.7 | 4 B Ring (1,636) | **Platinum 2× + Painite 2×** | ? | Closest; overlap possible |
+  | Diso | 5.7 | 4 A Ring (1,636) | Platinum 2×, Painite 1× | ? | Same body |
+  | **LTT 5058** | 16.2 | 1 A Ring (2,797) | 7 Painite + 3 Platinum hotspots | **Pristine** ✔ | Flown 25 Oct — see below |
+  | Arexe | 12.1 | 1 A Ring (1,255) | Painite 2×, Platinum 1× | Pristine | |
+  | Kebes | 14.0 | 4 A Ring (1,411) | Platinum 2× | Major | |
+  | Zaonce / Diso 5 | 7.7 / 5.7 | 6 A / 5 A | Platinum 4× / 3× | Depleted | Skip — depleted |
+
+  Recommendation: **Diso 4 B** first (one jump each way); if prospecting is poor, **LTT 5058 1 A**
+  (Pristine, 7 Painite hotspots). Map the ring with the DSS, drop into the hotspot marker, only
+  mine rocks with a good share of Platinum/Painite (`Powerplay Missions.md` §3, mining run).
+- **Depleted or not?** Two different things:
+  - **Ring reserves** (Pristine → Major → Common → Low → Depleted) are a fixed property of the
+    ring — shown in the system map once the body is scanned — and other players' mining doesn't
+    lower them. Prefer Pristine/Major; Diso 4's level is unknown in Spansh: check it on arrival.
+  - **Single asteroids** do run out. The prospector limpet shows each rock's content (and says
+    when it's depleted); a rock without a decent share of the target is skipped, not mined.
+    If several in a row are poor, move a few km within the hotspot or drop back in from
+    supercruise for fresh rocks.
+  - In Solo, the hotspot isn't crowded with other commanders either way.
+  - Spansh's "Painite 7" is the **number of Painite hotspots on the ring**, not their strength.
+- **25 Oct, LTT 5058 1 A Ring (Astroforge, 128 limpets):** ring mapped (1 probe), dropped in at
+  07:19, 14 rocks prospected in 5 min — **no Painite, no Platinum**, but **Osmium in three
+  (34.4 %, 24.0 %, 9.3 %)**, and Osmium counts. Every rock at 100 % remaining: not depleted.
+  Lessons: mine the Osmium rocks instead of moving on; check the drop point is right on a
+  Painite/Platinum marker (the ring's own mix fills the gaps between hotspots).
+- **Effort vs reward:** Top 75 % starts at ~22 t and the mining rewards aren't published yet;
+  one contribution also counts toward the golden decal. Two good Osmium rocks are enough — the
+  hours are better spent on CG 864 (≈190M CR/h).
 
 ### CG 861 — "Brewer Corporation Jump Satellite Initiative" (8–11 October 2026)
 
