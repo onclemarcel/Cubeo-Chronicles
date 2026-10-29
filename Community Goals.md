@@ -18,19 +18,20 @@
 
 | CG | Type | Dates | Ship | Contribution | Bracket | Contributors | Reward |
 |---|---|---|---|---|---|---|---|
-| **865** Faulcon DeLacy Combat Initiative (Bowen Dock, HR 8061) | Combat (mission value) | 22 → 29 Oct 2026 | Nemesis | 16,672,354 CR *(running, 27 Oct)* | **Top 25 %** | 9,064 | — |
-| **864** Faulcon DeLacy Trade Initiative (Homer Platform, AD Leonis) | Trade (delivery) | 22 → 29 Oct 2026 | The Brick | 6,064 t *(running, 27 Oct)* | Top 50 % | 12,359 | — |
-| **862** Faulcon DeLacy Exploration Initiative (Magrathea II, HD 232819) | Exploration (data sales) | 22 → 29 Oct 2026 | Marco Polo | 744 *(sold 26 Oct)* | **Top 25 %** | 7,782 | — |
-| **863** Faulcon DeLacy Mining Initiative (Davies High, Reorte) | Mining (delivery) | 22 → 29 Oct 2026 | Astroforge | 109 t Osmium *(27 Oct)* | Top 75 % | 7,089 | — |
+| **865** Faulcon DeLacy Combat Initiative (Bowen Dock, HR 8061) | Combat (mission value) | 22 → 29 Oct 2026 | Nemesis | **16,672,354 CR** | **Top 25 %** | 10,615 | **220,000,000 CR** (29 Oct) |
+| **864** Faulcon DeLacy Trade Initiative (Homer Platform, AD Leonis) | Trade (delivery) | 22 → 29 Oct 2026 | The Brick | **9,836 t** | **Top 25 %** | 13,911 | **250,000,000 CR** (29 Oct) |
+| **862** Faulcon DeLacy Exploration Initiative (Magrathea II, HD 232819) | Exploration (data sales) | 22 → 29 Oct 2026 | Marco Polo | **744** (≈14.0M CR of data) | **Top 25 %** | 9,262 | **310,000,000 CR** (29 Oct) |
+| **863** Faulcon DeLacy Mining Initiative (Davies High, Reorte) | Mining (delivery) | 22 → 29 Oct 2026 | Astroforge | **228 t** Osmium | **Top 50 %** | 8,535 | **140,000,000 CR** (29 Oct) |
 | **861** Brewer Corporation Jump Satellite Initiative (Zero Squared, HIP 74116) | Trade (delivery) | 8–11 Oct 2026 | The Brick | **26,530 t** | **Top 25 %** | 11,810 | **200,000,000 CR** (11 Oct) + SCO FSDs size 4–7 (not located yet) |
 | **860** Eliminate criminal pilots in Redonesses (Sword of Iustitia) | Combat (kill bonds) | 6–8 Oct 2026 | Pacifier | **19,122,798 CR** of bonds | **Top 25 %** | 8,849 | **220,000,000 CR** (8 Oct) |
 | **859** Wreaken Calls for Sourced Materials… (Metz Enterprise, Ega) | Trade (delivery) | → 18 Sept 2026 | The Brick | **15,918 units** | **Top 25 %** | — | **170,000,000 CR** (18 Sept) |
 
-Three CGs since the return, three Top 25 % finishes. **Week of 22 Oct: four CGs at once**
+Seven CGs since the return: six Top 25 % finishes and one Top 50 %. **Week of 22 Oct: four CGs at once**
 — **Faulcon DeLacy's four "Initiatives"** for the Anaconda Mk II (trade, combat, mining,
 exploration), all closing **29 Oct ≈10:00 UTC**. One contribution to all four earns a **golden
 Faulcon DeLacy decal**; each also gives a decal and an Anaconda Mk II paint job; one ship per CG,
-spread over three stations ~25 ly apart (CG 863–865 cards). The fourth: **exploration data at
+spread over three stations ~25 ly apart (CG 863–865 cards). **Result: three Top 25 % + one Top 50 %,
+920,000,000 CR in rewards**, all collected on 29 Oct in one tour of the four stations. The fourth: **exploration data at
 HD 232819**, ~2,000 ly away (Marco Polo).
 
 ---
@@ -97,6 +98,8 @@ CG number to note on signing up.
 - **✔ Done 26 Oct:** signed up 12:36, data sold 12:36–12:38 (nine sales, **≈14.0M CR**) —
   **744 contributions, Top 25 %** (27 Oct reading: 7,782 contributors, tier 5).
 - **All four Initiatives now have a contribution → golden Faulcon DeLacy decal.**
+- **Closed: Top 25 %, tier 5 of 6, 9,262 contributors — reward 310,000,000 CR** collected at
+  Magrathea II on 29 Oct 22:48.
 - **Plan:** Marco Polo (66.5 ly, 2 AFMUs, fuel scoop) — ≈31 jumps each way, plus an
   **ammonia-world route** ~250 ly from HD 232819.
 - [ ] Check in the galaxy map that the route's systems are inside **Elysian Shore** (the map
@@ -108,6 +111,10 @@ CG number to note on signing up.
       reckless landings; sell at Magrathea II before anything else.
 
 ### CG 865 — Faulcon DeLacy military operation (→ 29 October 2026)
+
+**Result:** **16,672,354 CR, Top 25 %**, tier 2 of 5, 10,615 contributors — **220,000,000 CR**
+collected at Bowen Dock on 29 Oct 21:08.
+
 
 **Station:** Bowen Dock, **HR 8061** (Fortified, Zemina Torval). Signed up 24 Oct 09:32 (Marco
 Polo); the **Nemesis** transferred there from Medupe City (5.32M CR, ≈31 min).
@@ -127,6 +134,11 @@ Polo); the **Nemesis** transferred there from Medupe City (5.32M CR, ≈31 min).
 
 ### CG 864 — Faulcon DeLacy trade operation (→ 29 October 2026)
 
+**Result:** **9,836 t, Top 25 %**, tier 3 of 6, 13,911 contributors — **250,000,000 CR** collected
+at Homer Platform on 29 Oct 21:01. Last runs (27–28 Oct) from **Bloomfield Station, OU
+Geminorum** (≈8 min a leg, ≈43M CR per hold).
+
+
 **Station:** Homer Platform, **AD Leonis** (Fortified, Edmund Mahon). Signed up 24 Oct 09:39;
 **The Brick** transferred from Medupe City (2.47M CR, ≈43 min).
 
@@ -144,6 +156,11 @@ Polo); the **Nemesis** transferred there from Medupe City (5.32M CR, ≈31 min).
   to keep the margin — at ≈190M CR/h of profit it pays on its own.
 
 ### CG 863 — Faulcon DeLacy mining operation (→ 29 October 2026)
+
+**Result:** **228 t of Osmium, Top 50 %**, tier 1 of 5, 8,535 contributors — **140,000,000 CR**
+collected at Davies High on 29 Oct 20:53. Two Osmium trips: 109 t (25 Oct) and 119 t (28 Oct,
+31.5M CR at ×6).
+
 
 **Station:** Davies High, **Reorte** (Fortified, Nakato Kaine). Signed up 24 Oct 09:46;
 **Astroforge** transferred from Medupe City (1.16M CR, ≈40 min) — on board since 15:39.

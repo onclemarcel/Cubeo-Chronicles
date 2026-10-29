@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 27 October 2026 (3312), journal read through 27 Oct 18:25 UTC
+## Campaign memory — status as of 30 October 2026 (3312), journal read through 29 Oct 23:28 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -24,7 +24,7 @@
 | CMDR | Onclemarcel |
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
-| Trade rank | **Elite III** (rank 11, 19 Oct 2026, 18:11 UTC — Cubeo supply missions). Elite II on 9 Oct, Elite on 16 Sept |
+| Trade rank | **Elite III** (rank 11, 19 Oct 2026) — **62 %** toward Elite IV (29 Oct). Elite II on 9 Oct, Elite on 16 Sept |
 | Combat rank | **Expert** (since 14 Oct 2026, 23:17 UTC) — **41 %** toward Master (27 Oct 17:58) |
 | Explorer rank | **Ranger** |
 | Exobiologist rank | **Directionless** |
@@ -32,7 +32,7 @@
 | Imperial Navy rank | **Earl** (promoted 17 Oct 2026, 20:43 UTC) — **48 %** toward Marquis (27 Oct 17:58) |
 | Power | Aisling Duval — pledged, **Rank 23 / 164,825 merits** (27 Oct, 17:59 UTC login) |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈4,049,500,000 CR** (27 Oct 2026, 17:58 UTC `LoadGame`) — past 4 billion, on the Faulcon DeLacy CGs' uranium runs. CG rewards: 859 (170M), 860 (220M), 861 (200M) — `Community Goals.md` |
+| Treasury | **≈5,228,800,000 CR** (29 Oct 2026, 23:15 UTC `LoadGame`) — after the four Faulcon DeLacy rewards (920M). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -52,7 +52,7 @@ nothing more is added.
 | **Astroforge** (mining Clipper, `CL-002`, ShipID 10) | Imperial Clipper | *Journal `Loadout` 1 Oct 09:00 + `EngineerCraft` 09:13–09:49 (Farseer, Deciat).* Cargo rack 7E (128 t) · 2× Collector Limpet Controller 3A · Prospector Limpet Controller 1A · Refinery 4A · Fuel Scoop 4A · Shield Cell Bank 2A · 2× Mining Laser 2D (Fixed) · 1× Beam Laser (Large, Gimballed) · 1× Multi-Cannon (Large, Gimballed) · **4× Shield Booster 0A, Heavy Duty G1 + Super Capacitors** · **Shield 6A, Reinforced G5** · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Monstered** · **Distributor 6A, High Capacity G5** · **FSD 5A SCO, Increased Range G5 + Mass Manager** (32.8 ly before Mass Manager) · DSS Expanded G3 · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 1. No chaff/ECM any more. Merits/h of the PP mining loop still to measure (Checkpoint 1). |
 | **Pacifier** (combat Clipper, `MA-10E`, ShipID 2) | Imperial Clipper | *Pacifier V2 refit, 6 Oct 2026; weapons changed 7 Oct (journal `Loadout` 06:57).* **Multi-Cannon (Large, Gimballed)** (stock, bought 7 Oct; replaces one beam, stored) · Beam Laser (Large, Gimballed), **Overcharged G3 + Flow Control** (The Dweller) · **2× Multi-Cannon (Medium, Gimballed)** (stock, 7 Oct; the turrets were sold) · **2× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · **2× Heat Sink Launcher** (no chaff left since 7 Oct) · **Shield 7A, Reinforced G5 + Hi-Cap** (Lei Cheung, bought 6 Oct, 50.0M CR) · **Shield Cell Bank 6A** (bought 6 Oct, replaces the old 6A shield) · 2× Hull Reinforcement 4D · Module Reinforcement 3D + 1D · Fuel Scoop 3A · 2× Cargo Rack 2E (8 t) · **Distributor 6A, High Capacity G5 + Super Conduits** (The Dweller) · **Thrusters 6A, Dirty Drive G3 + Drag Drives** · **Power Plant 6A, Overcharged G1 + Thermal Spread** · **FSD 5A, Faster Boot G5 + Mass Manager** (Farseer) · Sensors 5D · Life Support 5D · Fuel Tank 4C · Armour grade 3 (Military Grade). Removed 6 Oct and stored: 7E cargo rack, FSD interdictor, planetary hangar, multi-drone controller. ~784.6 t, ~17.9 ly, Rebuy ≈7.1M CR. First combat test: CG 860, Redonesses (§4, 6 Oct). |
 | **Dart** (Imperial Courier, ShipID 12, CO-01) | Imperial Courier | Bought 21 Sept 2026 (`ShipyardBuy`, 2,479,358 CR). *Dart V2 Tier 1 done 5 Oct 2026 (journal `Loadout` 6 Oct 06:50).* 2× Pulse Laser (Medium, Gimballed), **Lightweight G4 + Stripped Down** · Dumbfire Missile Rack (Medium) · Heat Sink Launcher (replaces the point defence) · Chaff · **2× Shield Booster 0D, Resistance Augmented G3 + Super Capacitors** · **Shield 3D, Reinforced G5 + Hi-Cap** · **FSD 3A SCO, Increased Range G5 + Deep Charge** · **Distributor 3D, Engine Focused G5 + Super Conduits** · **Thrusters 3D, Dirty Drive G3 + Drag Drives** · **Power Plant 4D, Overcharged G1 + Stripped Down** · **Sensors 2D, Lightweight G5** (60 % roll) · Life Support 1D · Fuel Tank 2C · Fuel Scoop 3A · Planetary hangar 2G · Collector Limpet Controller 1D · DSS Expanded G3 · 10 t cargo racks · Armour grade 1. **68.76 t, 38.8 ly unladen**, Rebuy ≈231k CR. Engineered A-rated modules stored, not sold. Note: every `Loadout` since 1 Oct reports the thrusters as switched off (`On: false`), yet the Dart has flown ~150 jumps since — most likely a journal/Inara reporting quirk, not a real fault. |
-| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **At Homer Platform (AD Leonis) since 24 Oct** for CG 864 (back at Medupe City between 13 and 24 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
+| **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Back at Medupe City since 29 Oct** (CG 864 at Homer Platform, AD Leonis, 24–29 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **Retiring** (decided 7 Oct): the Marco Polo flies the Guardian expedition. **DSS removed and moved to the Marco Polo, 8 Oct.** Last `Loadout` (8 Oct): **53.6 ly**. FSD 5A Increased Range G5 + Deep Charge · Thrusters Dirty Drive G3 + Overloaded · Power Plant 5A Armoured G1 · Fuel Scoop 6A · Planetary hangar 2D · Shield 5D · 20 t cargo · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher; rescue-run weapons possibly still fitted (2× pulse laser, dumbfire racks — check before storing). Next: strip and store at the Medupe City museum (`Shipyard.md`). |
 | **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). **19 Oct `Loadout`:** 208 t of cargo racks, 6A fuel scoop, multi-drone controller, planetary hangar, DSS Expanded G5, FSD Increased Range G5 — **341.5 t, 66.5 ly**. |
 | **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32).* **Multi-Cannon (Large, Gimballed), Overcharged G5** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** (McQuinn; no experimental yet) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Shield 6A, Reinforced G5 + Hi-Cap** (Lei Cheung) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **4× Hull Reinforcement 5D** · Module Reinforcement 4D + **3D** (24 Oct) + 2E + 1E · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
@@ -837,6 +837,27 @@ Source: journal files of 25 Oct (07:05 → 23:16 UTC), 26 Oct and 27 Oct (to 18:
 parallel — osmium cut from a pristine ring, uranium by the thousand tonnes, a pirate clan
 thinned out for a shipbuilder's trials, and a long run to the Elysian Shore; meanwhile, for
 Aisling, malware slipped into a Lavigny-Duval quarry under the guards' noses.
+
+### 27–29 October — Four CGs Closed, 920 Million, Home to Medupe City (journal-verified)
+
+Source: journal files of 27 Oct (17:58–18:25), 28 Oct (08:52–10:05, 12:40–15:25) and 29 Oct
+(20:52–23:28 UTC). No merits. Detail: `Community Goals.md`, CG 862–865.
+
+- **Last pushes:** seven more uranium runs for CG 864 (27–28 Oct, now from Bloomfield Station,
+  OU Geminorum — ≈43M CR a hold) → **9,836 t**; a second Osmium trip in the Astroforge (119 t,
+  28 Oct) → **228 t**.
+- **Results (all closed 29 Oct):** exploration **Top 25 %** (310M CR), trade **Top 25 %** (250M),
+  combat **Top 25 %** (220M), mining **Top 50 %** (140M) — **920,000,000 CR**, plus the golden
+  Faulcon DeLacy decal for contributing to all four.
+- **Collection tour, 29 Oct evening:** Astroforge at Davies High (20:53), then the Marco Polo to
+  Homer Platform (21:01), Bowen Dock (21:08) and Magrathea II (22:48), home to **Medupe City**
+  (23:23). The Astroforge, The Brick and the Nemesis transferred back from Reorte, AD Leonis and
+  Thuleppa (9.4M CR). The whole fleet is home.
+- Treasury **≈5.23 billion CR**; trade 37 % → 62 % toward Elite IV.
+
+**Raw material for future `Logbook.md` days:** four stations, four envelopes from the same
+shipbuilder in one evening's flight, and the fleet called home — the Earl back at Medupe City
+richer by nearly a billion.
 
 ---
 
