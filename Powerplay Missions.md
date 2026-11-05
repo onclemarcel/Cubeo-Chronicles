@@ -18,30 +18,26 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **23** (`PowerplayRank`, 26 Oct 2026 10:55 UTC — 21 and 22 on 25 Oct) |
-| Merits | **164,825** (`Powerplay` at login, 27 Oct 2026 17:59 UTC) |
+| Rank | **28** (`PowerplayRank`, 2 Nov 2026 13:18 UTC — 26 at 09:59, 27 at 13:18) |
+| Merits | **203,510** (`Powerplay` at login, 2 Nov 2026 18:24 UTC) — ≈43,500 to rank 34 |
 | Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
 
 ---
 
-## 1. THIS WEEK — tick of Thursday 22 October 2026
+## 1. THIS WEEK — tick of Thursday 29 October 2026
 
 *Reset at every Thursday tick: delete last week's rows, after moving each result into its card's
-Stats line (§4).* Last week's rows (15 Oct tick, 4 of 5) are already in the cards' Stats.
+Stats line (§4).* Last week's rows (22 Oct tick, 5 of 5) are already in the cards' Stats.
 
-*Deduced from the journal (27 Oct): each payout matched to the events just before it.* **5 of 5
-done** in two sessions (25 Oct 20:56–23:16, 26 Oct 07:18–11:31 UTC) — **+24,000 merits**, Rank
-20 → 23.
+*From Tonton Marcel's note (1 Nov) and the journal.*
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | Holoscreens, **unoccupied** system | 4.6 | ICZ OX-U c2-15 (Bowen Beacon) | ✔ 25 Oct 21:41 — 12 hacks | 4,800 (+ 12 × 126) |
-| 2 | Rescue — Power wreckage | 4.4 | Col 285 Sector WO-O b20-1 → Spitzer Gateway | ✔ 25 Oct 21:58 | 2,800 |
-| 3 | Power goods stolen on foot | 4.12 | Heath's Quarry (Shui Wei Sector VT-R b4-4) → Smoot Station, Chona | ✔ 25 Oct 22:59 | 4,800 |
-| 4 | **Power malware uploads** (new) | 4.14 | Bessel Dock, Munshin → Heath's Quarry | ✔ 26 Oct 10:55 | 5,200 |
-| 5 | Holoscreens, reinforcement | 4.7 | Amaneque (Gilliland Colony) | ✔ 26 Oct 11:31 — 8 hacks | 2,400 |
-
-The journal again wrote the 2,800 twice (21:58:49 and :50); the next total shows one was real.
+| 1 | Aisling press dossiers → acquisition system | 4.3 | Medupe City → Martinez City (Col 285 Sector AV-M b21-0) | ✔ 30 Oct 15:38 | 3,600 |
+| 2 | Megaship datalink scans | 4.9 | Primi, Lambda-1 Tucanae, Osane, Ehlanda, Karsuki Ti, Fire Fade, HIP 7142, Jaroahy | ✔ 30 Oct 16:47 | 2,400 (+ 8 × 468) |
+| 3 | Kill rival Power ships, **reinforcement** system | 4.13 | Gadagombiri (Aisling, five Powers present) | ✔ 30 Oct 20:51 | 3,200 (+ 89–134 per kill) |
+| 4 | Malware uploads, **undermining** (rival system) — **tracing** malware | 4.14 | Herreshoff Prospect (Kherthaje) → Kewell's Club (Reorte) | ✔ 2 Nov 09:59 | 5,200 (+ 195 per upload) |
+| 5 | Power classified data, named system | 4.8 | **Ferenczi-houlden Extraction Exchange** (Crucis Sector OY-R b4-4) → Hale Gateway, Tripitaka | ⏳ **12 needed**, paid on the last hand-in — 5 handed in 2 Nov 13:18 (360 each), **6 held** (ship locker, journal 3 Nov 19:15; 2 found on 3 Nov), **1 to find** | — |
 
 ---
 
@@ -68,20 +64,22 @@ The journal again wrote the 2,800 twice (21:58:49 and :50); the next total shows
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈112,500 merits remaining to rank 34** (≈247,000 − 134,534, 21 Oct)
+**Powerplay: ≈43,500 merits remaining to rank 34** (≈247,000 − 203,510, 2 Nov 13:18). About
+**30,000 more are already in the ship locker** as Power data not yet handed in (3 Nov 19:15:
+21 industrial, 18 political, 14 association, 9 research, 6 classified). Handing it all in at
+Hale Gateway would leave ≈13,000 to go.
 
-**Comparison, rough (assignment bonuses excluded; journal 1–21 Oct):**
+**Comparison, rough (assignment bonuses excluded; journal 1 Oct – 2 Nov):**
 
 | Loop | Ship | Merits/h | Basis |
 |---|---|---|---|
+| **Power data raid, extraction settlement** | Dart + Maverick | **~15,000–16,500** — the best loop measured | 2 Nov evening: 41 downloads in 4 landings, 18:31 dock → 19:38 last lift-off (67 min), worth **18,360 merits** at hand-in rates. ~15,000/h counting the hand-in hop. Noon run: 33 downloads, 14,760 merits in 66 min (~13,400/h). Loop below, card 4.8 |
 | PP trade (pyrophyllite) | The Brick | **~7,600** | 30 Sept, measured (below) |
 | Megaship datalink scans | Dart | **~3,100**, **~4,300** at a steady pace | 8 paid scans × 468 in ~72 min; steady stretch 6 scans in 39 min (~6.5 min per megaship). The 2 unpaid scans in Cubeo cost ~10 min. Card 4.9 |
-| Power data on foot | Dart + suit | **~2,100**, **~3,300** without lost time | 10 items, 5,040 merits, 14:58 undock → 17:21 hand-in (143 min). ~50 min of it gave nothing (first landings, two re-logs). Card 4.11 |
 | Holoscreens (side income) | any + recon limpets | ~126 per hack, ~1 min each | 3 hacks, 1 Oct. Cards 4.6/4.7 |
 | PP mining, Platinum / LTD hotspot | Astroforge (110 t) | **~7,700–11,500 per hold** (estimate) — hours per hold not yet measured | `tools/pp_mining_routes.py`, 21 Oct: HIP 5700 Platinum 3× (sell Kaiser's Journey, price 240 days old — check in game); Reddis LTD (Olahus Port, fresh price, demand 2,268 t). Formula exact, 1 Oct |
 | Rival Power kills | Nemesis | **~5,000–6,000** while fighting | 11 kills × ≈230 in two 15-min visits, Shui Wei Sector VT-R b4-5, 17 Oct. Murders pile up in that system. Card 4.13 |
 | Holoscreens, Aisling system with rivals | any + recon limpets | **~3,800** | Khepri, 7 × 126 in 13 min, no fines, 13 Oct. Card 4.7 |
-| Power data on foot, re-landing loop | Dart + suit | **~2,800** | 9 items × 540, 21 Oct. Card 4.11 |
 | Massacre stacks | Nemesis | ~1,700 (+7 per scan) — but ≈50M CR/h and Navy progress | Osane, 16–17 Oct |
 
 **Route check, 21 Oct** (`pp_trade_routes.py --ref Cubeo --radius 25 --cargo 758 --mode reinforce`,
@@ -99,8 +97,33 @@ markets ≤ 3 days old): **cobalt** is the loop — huge stocks, so buying barel
   Keep watching the buy price: if it climbs above ~13,000, the margin over the 40 % line shrinks.
 - Alternate the two cobalt buyers so neither sale price sinks.
 
-The Brick's trade loop is still the best merits/h by about 2×. The Dart loops are worth running
-when an assignment pays for the same work, since the assignment bonus is added on top.
+**Since 2 Nov, the Power data raid is the best loop, about 2× The Brick's trade.** The Brick
+remains the credit engine (~70M CR/h, against nothing but fines for the raid). The other Dart
+loops are still worth running when an assignment pays for the same work, since the assignment
+bonus is added on top.
+
+- [~] **Power data raid at Ferenczi-houlden Extraction Exchange** (Crucis Sector OY-R b4-4 C 3,
+      unoccupied; hand-in at Hale Gateway, Tripitaka, ~5 min away). Measured 2 Nov (journal):
+  - **Run:** dock on the settlement's own pad. **First switch the settlement's alarms off and
+    its authorisation scans off** (one level-3 clone to reach the switches): every building then
+    opens with no more credentials to steal. Then walk the **8 data ports, about 10 units per
+    landing**, in ~12 min on foot, lift off and come straight back. Building-by-building route:
+    `On-Foot.md` §5.1. This replaces the old grab-and-run method
+    (jump to one port, download, alarm, escape to the ship), which made only ~2,100–2,800
+    merits/h on 1 and 21 Oct (card 4.11 Stats). Each landing takes
+    ~17 min including the flight; the settlement is fresh again after the hop. Hand everything
+    in once per session: the hand-in pays per unit, so there's nothing to gain by going often.
+  - **Values per unit at Hale Gateway** (2 Nov 13:18, five hand-ins): association and political
+    **540**; industrial, research and classified **360**. A download averages **≈450
+    merits** at this site's mix (card 4.8 table).
+  - **Costs:** a few `onFoot_dataTransfer` / `failureToSubmitToPolice` fines of 500 CR per
+    session (2 Nov noon: 1; 3 Nov: 1). Paid at the station, nothing more.
+  - **Upgrade lever:** if the backpack filling up is what ends each landing, the heist Maverick's
+    **Extra Backpack Capacity** (`On-Foot.md` §2.1, slot 1) raises this rate directly.
+  - **Stats:** 3 measured runs · 2 Nov noon: 33 downloads, 3 landings, ~13,400/h · 2 Nov evening:
+    41 downloads, 4 landings, **~16,400/h** (on foot and flying only, no hand-in) · 3 Nov: 20
+    downloads in 2 landings, 18:32–19:15 (9,180 merits, ~12,800/h). Evening and 3 Nov values are
+    projected at the 13:18 rates (not handed in yet). Check them at the next hand-in.
 
 - [x] PP trade with The Brick: high-margin sales in the targeted Aisling systems — **measured
       30 Sept: ~7,600 merits/h, ~64M CR/h** (pyrophyllite loop, benchmark in
@@ -272,7 +295,11 @@ specific week — the week's progress lives in §1.*
   - [ ] Collect `aislingpromotionalmaterials` at Cubeo (15× on 18 Sept).
   - [ ] Fly to the target system and deliver.
 - **Pitfalls:** none met so far — "easy."
-- **Stats:** 1 run · +3,600 merits · last: 18 Sept, **Vargerson** (Browncoat Refuge; exploited by
+- **Variant — Aisling press dossiers → acquisition system (30 Oct):** collect
+  `aislingmediamaterials` ("Dossiers de presse d'Aisling", 10 at Medupe City) and deliver them in
+  an **unoccupied** system: Martinez City, Col 285 Sector AV-M b21-0, one jump — 7 min, +3,600.
+- **Stats:** 2 runs · +3,600 merits each · last: 30 Oct, Medupe City → **Martinez City** (Col 285
+  Sector AV-M b21-0), 15:31–15:38. 18 Sept: **Vargerson** (Browncoat Refuge; exploited by
   A. Lavigny-Duval + Aisling) — collected 12:03, delivered 12:21, ~18 min. Route out via Ehlanda /
   Gliese 54.3 / Tehuenef, back via HIP 6616 / Kaukamal / Hernovacle.
 
@@ -419,7 +446,38 @@ specific week — the week's progress lives in §1.*
   - 27 Sept — **Gabraceni** (Stronghold, heavily undermined): about 20 downloads, none
     classified (and no research data either). Settlements: Sklyarenko's Edge (tourism,
     3 passes), Hammond Military Site (military), Pidgaiko's Joy (tourism).
-- **Stats:** 1 classified data handed in · **+187 merits** · last: 29 Sept, **Sarana**
+  - 30–31 Oct — **Baker's Plantation** (Crucis Sector OY-R b4-4 C 2, agricultural; the system
+    is named by the assignment): data ports and alarm console found, only common data
+    (industrial, political) and a military plan from a container. Retried 2 Nov: 5 more
+    downloads, still no classified. Layout and route: `On-Foot.md` §5.3 (Agriculture 1, easy
+    alarm, few scans).
+  - **Tip from 21 Oct (card 4.11):** one download per landing, then lift off and drop back in —
+    the settlement resets with fresh ports. The fastest way to roll many ports, which is what
+    classified data needs.
+- **✔ Found, 2 Nov 2026 — the raid loop that works:** **Ferenczi-houlden Extraction Exchange**
+  (Crucis Sector OY-R b4-4 C 3, unoccupied, democracy; Aisling, Mahon and Kaine present). Dock on
+  the settlement's own pad, download, take off, come back: **≈20 min per round trip**
+  (Tonton Marcel). 68 downloads in three sessions → **8 classified** (9 units).
+- **Odds per download, from the journal** (all data-port downloads since 25 Sept, 115 Power-data
+  downloads; malware and ordinary data left out):
+
+  | Type (journal name) | All sites (115) | Ferenczi-houlden, extraction (68) | Other sites (47) | Merits per unit handed in |
+  |---|---|---|---|---|
+  | Association (`poweremployeedata`) | 29.6 % | 20.6 % | 42.6 % | 540 |
+  | Political (`powerpropagandadata`) | 25.2 % | 26.5 % | 23.4 % | 540 |
+  | Industrial (`powerfinancialrecords`) | 24.3 % | 23.5 % | 25.5 % | 360 |
+  | Research (`powerresearchdata`) | 13.0 % | 17.6 % | 6.4 % | 360 |
+  | **Classified** (`powerclassifieddata`) | **7.8 %** | **11.8 %** | **2.1 %** (1, Sarana) | 360 |
+
+  - **≈1 classified in 8 downloads at the extraction site, ≈1 in 47 elsewhere.** Small samples:
+    it suggests extraction settlements are better for classified (and research), not proof.
+  - About one download in ten gives 2 units instead of 1.
+  - Classified data pays **no more per unit** than industrial or research (360) — its value is
+    the assignment.
+- **Stats:** 9 classified units found (8 on 2 Nov); 5 handed in at Hale Gateway (Tripitaka,
+  Stronghold) on 2 Nov 13:18 — 1,800 merits. The assignment (29 Oct week) asks for **12** and
+  pays on the last one; hand-ins at Hale Gateway count (Tonton Marcel). At ≈1 in 8 downloads,
+  3 more units ≈ 25 downloads. First one: **+187 merits**, 29 Sept, **Sarana**
   (Aisling Stronghold, anarchy) — Sharma Analytics Installation (Sarana 6 a, high-tech), handed
   in at Blaha Dock. Side income from the common data: 234 merits per item handed in (27 Sept,
   Gabraceni). **7 common data items still in the ship locker** (29 Sept) — hand them in. One
@@ -443,7 +501,9 @@ specific week — the week's progress lives in §1.*
 - **Combine it with faction missions:** Prismatic Imperium's "access the megaship uplink" missions
   (`Mission_HackMegaship`, 0.1–1.9M CR each) are the same scan — credits, Navy progress and
   merits at once (17 Oct).
-- **Stats:** 2 assignments · +2,400 merits each + **468 per scan** · last: 17 Oct, 9 scans
+- **Stats:** 3 assignments · +2,400 merits each + **468 per scan** · last: 30 Oct, 8 paid scans
+  in ≈56 min (Primi, Lambda-1 Tucanae, Osane, Karsuki Ti ×2, Fire Fade, HIP 7142, Jaroahy) —
+  **Cubeo's megaship skipped by mistake, as it pays nothing** (pitfall above). 17 Oct: 9 scans
   18:58–20:25 alongside six Prismatic Imperium hack missions (Huang Gun, HIP 7869, Boloine, Clido
   Pi, Koyans…; Segnir abandoned). 1 Oct: 8 paid, 11:57–14:27.
   **~6.5 min per megaship** at a steady pace (6 scans 13:48 → 14:27) → **~4,300 merits/h**;
@@ -477,7 +537,9 @@ specific week — the week's progress lives in §1.*
   - [ ] Prefer a settlement **not** owned by an Imperial faction you're building rep with: every
         download seen is a fine with the owner (21 Oct: HIP 1914 Imperial Society, a Navy-rank
         faction).
-  - [ ] **One item per landing, then leave:** download, run back to the Dart, lift off,
+  - [ ] ~~One item per landing, then leave~~ (**superseded 2 Nov**: switch alarms and
+        authorisation scans off first, then empty every data port, §3 "Power data raid").
+        Old method: download, run back to the Dart, lift off,
         supercruise, drop straight back in. The settlement resets — fresh data ports, guards
         calm again (21 Oct: 9 items in 9 drops, ~4–6 min each).
   - [ ] Stealth or brute force: see `On-Foot.md` §1 ("Play-tested 21 Oct").
@@ -516,6 +578,9 @@ specific week — the week's progress lives in §1.*
 - **Pitfalls:**
   - Goods are worth little on their own: ~52 merits per item (7 items → 367, 5 items → 262).
     The assignment payout is what counts.
+  - **Pick the settlement layout:** tourist settlements like Kewell's Club are a poor choice,
+    since NPCs ask for scans in almost every building (`On-Foot.md` §5.2). Prefer a layout with
+    an authorisation switch you can reach, like the extraction site (§5.1).
   - Took **two trips**: the first hand-in (7 items) paid no assignment; the payout came with the
     second (5 more, 12 in all). Check the required quantity before the first landing.
 - **Stats:** 2 assignments · +4,800 merits each · last: 25 Oct, **Heath's Quarry** (Shui Wei
@@ -556,16 +621,23 @@ specific week — the week's progress lives in §1.*
     escorts first.
   - The journal again wrote the +4,800 payout twice (21:02:04 inside a +4,978, 21:02:05 alone);
     the next line's total shows only one was real (same glitch as card 4.12).
-- **Stats:** 1 assignment · **+4,800 merits on the 10th kill** + ≈230 per kill (178–312) ·
+- **Reinforcement variant (30 Oct, Gadagombiri):** the rule held — this Aisling system lists
+  **five Powers** (Aisling, Lavigny-Duval, Mahon, Winters, Kaine), so rival ships were there: one
+  **Power weapons fire signature** and two **Power convoy distress signals**. Most rival ships
+  were **Wanted** (Nakato Kaine, Winters, Mahon): **legal kills with bounties**, no murders — the
+  opposite of a rival-held system. 89–134 merits per kill, **+3,200** after ≈10 kills
+  (20:21–20:51, 30 min). The bounties were paid at Gooch Survey.
+- **Stats:** 2 assignments · last: 30 Oct, **Gadagombiri** (reinforcement) — +3,200. 17 Oct, rival
+  system: **+4,800 merits on the 10th kill** + ≈230 per kill (178–312) ·
   17 Oct, **Shui Wei Sector VT-R b4-5** (Lavigny-Duval) — 11 kills in two visits: 5 at 16:11–16:17,
   6 at 20:50–21:03 (one weapons-fire signature, two convoy signals). ≈20 min of fighting in all.
   Cost: 11 murders, ≈57,000 CR of bounties with The 10th Legion.
 
-### 4.14 Power malware uploads at a rival settlement
+### 4.14 Power malware uploads (injection = acquisition, tracing = undermining)
 
-- **Recognise it:** collect **Power injection malware** (`powerpreparationspyware`, *Malware
-  d'injection de puissance*) at an Aisling Power contact and upload it at a **rival Power's
-  settlement** — each upload uses one from the backpack.
+- **Recognise it:** collect **Power malware** at an Aisling Power contact and upload it at
+  settlement terminals in the target system — each upload uses one from the backpack. Which
+  malware depends on the target system's state (below).
 - **Ship / suit:** the Dart; on-foot suit.
 - **Run (25–26 Oct):**
   - [ ] Collect at the Power contact (Bessel Dock, **Munshin**, Stronghold — 10 at a time).
@@ -578,4 +650,29 @@ specific week — the week's progress lives in §1.*
     26 Oct — the uploads are witnessed like downloads (`On-Foot.md` §1).
   - The payout came on the **11th upload** (10:55), over three landings and ≈3.5 h with a
     break.
+- **Two kinds of malware — pick the one that matches the system's state** (Tonton Marcel,
+  1 Nov, corrected):
+  - **Injection malware** (`powerpreparationspyware`, *Malware d'injection de puissance*) — for
+    a system Aisling is **acquiring** (unoccupied). Collected at Bessel Dock, Munshin (26 Oct).
+  - **Tracing malware** (`powerspyware`, *Malware de traçage de puissance*) — for **undermining**
+    a system another Power holds (i.e. that Power's reinforcement). Collected at **Herreshoff
+    Prospect, Kherthaje** (Aisling, 10 at a time). Uploaded at **Kewell's Club, Reorte** (Nakato
+    Kaine, Exploited — a resort with **8 data ports**, many guards scanning; route and NPCs in
+    `On-Foot.md` §5.2): **195 merits per upload**. Injection malware tried there on 31 Oct did nothing.
+  - ❓ **Correction pending — the rule above doesn't fit 26 Oct.** Injection malware paid at
+    Heath's Quarry, Shui Wei Sector VT-R b4-4, a **Lavigny-Duval Exploited** system on every
+    visit (17, 25, 26 Oct; undermining 406 → 700 meanwhile). At Kewell's Club, Reorte (**Nakato
+    Kaine Exploited**), the data ports **grey out injection** and accept tracing (1 Nov).
+  - **Hypothesis — it's the `Powers` list, as for holoscreens (4.7) and rival ships (4.13):**
+
+    | System | Held by | Powers present | Injection | Tracing |
+    |---|---|---|---|---|
+    | Shui Wei Sector VT-R b4-4 | Lavigny-Duval, Exploited | Lavigny-Duval, **Aisling** | ✔ accepted | not tried |
+    | Reorte | Nakato Kaine, Exploited | Mahon, Kaine — **no Aisling** | ✘ greyed out | ✔ accepted |
+
+    → **Injection** where Aisling is already present (a rival system she can contest or
+    acquire); **tracing** where she isn't (plain undermining). To confirm:
+    - [ ] Try a tracing malware at Shui Wei Sector VT-R b4-4: greyed out = hypothesis holds.
+    - [ ] Before collecting, check whether the target system's `Powers` list names Aisling.
 - **Stats:** 1 assignment · **+5,200 merits** · 26 Oct, Munshin → Heath's Quarry, 07:24–10:55.
+  In progress (29 Oct week): tracing malware at Kewell's Club, 2 uploads on 1 Nov (19:17, 19:23).

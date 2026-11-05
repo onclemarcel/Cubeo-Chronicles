@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 30 October 2026 (3312), journal read through 29 Oct 23:28 UTC
+## Campaign memory — status as of 2 November 2026 (3312), journal read through 2 Nov 19:37 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -30,9 +30,9 @@
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Mostly Defenceless** (since 29 Sept 2026) |
 | Imperial Navy rank | **Earl** (promoted 17 Oct 2026, 20:43 UTC) — **48 %** toward Marquis (27 Oct 17:58) |
-| Power | Aisling Duval — pledged, **Rank 23 / 164,825 merits** (27 Oct, 17:59 UTC login) |
+| Power | Aisling Duval — pledged, **Rank 28 / 203,510 merits** (2 Nov, 18:24 UTC login) — ≈43,500 to rank 34 |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈5,228,800,000 CR** (29 Oct 2026, 23:15 UTC `LoadGame`) — after the four Faulcon DeLacy rewards (920M). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
+| Treasury | **≈5,209,700,000 CR** (1 Nov 2026, 18:32 UTC `LoadGame`). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -859,6 +859,50 @@ Source: journal files of 27 Oct (17:58–18:25), 28 Oct (08:52–10:05, 12:40–
 shipbuilder in one evening's flight, and the fleet called home — the Earl back at Medupe City
 richer by nearly a billion.
 
+### 30 October – 1 November — The Week's Assignments, Two Still Open (journal-verified)
+
+Source: journal files of 30 Oct (15:26–21:39), 31 Oct (10:28–11:40, 16:16–16:39) and 1 Nov
+(18:32–19:25 UTC). **+14,487 merits** (164,825 → 179,312), **Aisling Rank 23 → 25**. Detail:
+`Powerplay Missions.md` §1.
+
+- **Done, 30 Oct (Marco Polo):** Aisling press dossiers to Martinez City (Col 285 Sector AV-M
+  b21-0, +3,600, Rank 24); eight megaship scans ending at Jaroahy (+2,400 — Cubeo's megaship
+  doesn't pay). The Nemesis and the Dart transferred to **Chamitoff Horizons, Jaroahy** as a
+  forward base.
+- **Done, 30 Oct evening (Nemesis):** rival Power ships in **Gadagombiri** — a Power weapons fire
+  signature and two convoy distress signals; most rivals Wanted, so legal kills (+3,200, Rank
+  25 at 20:42).
+- **Open — classified data (Dart):** Baker's Plantation (Crucis Sector OY-R b4-4), one landing
+  on 30–31 Oct — only common data.
+- **Open — malware uploads (Dart):** injection malware (for acquisition) tried at Reorte (31 Oct)
+  without effect; tracing malware (for undermining) collected at Herreshoff Prospect (Kherthaje) on 1 Nov and uploaded at **Kewell's
+  Club, Reorte** — 2 uploads (195 merits each) among the guards. Four *failure to submit to police*
+  crimes over the two days (31 Oct ×3, 1 Nov ×1).
+
+**Raw material for future `Logbook.md` days:** an Earl running Aisling's errands across
+her own contested border — press dossiers, megaships, a convoy fight among five Powers' pilots —
+then a long, patient game of hide-and-seek in a resort full of guards, a tracer in her pocket.
+
+### 2 November — Malware Done, Classified Data at Last (journal-verified)
+
+Source: journal files of 2 Nov (07:31–19:37 UTC, four sessions). **+24,198 merits**
+(179,312 → 203,510), **Aisling Rank 25 → 28**.
+
+- **Tracing malware, Kewell's Club (Reorte):** the last uploads among the guards — assignment
+  paid **+5,200** at 09:59, **Rank 26**.
+- **Classified data, Crucis Sector OY-R b4-4:** a second look at Baker's Plantation, then the
+  find of the week — **Ferenczi-houlden Extraction Exchange**, raided in ≈20-minute round trips
+  (dock, download, leave, return). 68 downloads over three sessions, **8 of them classified**.
+- **Hand-ins at Hale Gateway, Tripitaka (Stronghold):** 10:40 (common data, +2,340) and 13:18 —
+  5 classified + 29 common data items, **+15,120 merits, Rank 27 and 28** within ten seconds.
+  The classified assignment hasn't paid yet; 4 more classified units and the evening's data
+  still in the backpack.
+- Odds per download, from the journal: `Powerplay Missions.md` card 4.8.
+
+**Raw material for future `Logbook.md` days:** the same extraction outpost robbed again and
+again in one day, the guards never learning; the rarest file finally turning up, eight times —
+patience as a weapon.
+
 ---
 
 ## 5. ROADMAP
@@ -1007,6 +1051,8 @@ merit grinding.
 
 **On-foot** → `On-Foot.md`
 - [ ] Zero-risk steps done: abandoned-settlement reactivation, data recovery.
+- [ ] Heist Maverick at G5 with 4 mods (added 3 Nov 2026): roadmap in `On-Foot.md` §2.1, engineer
+      unlocks (Domino Green first) in `Engineers & Materials.md` §3.
 
 **Engineers** → `Engineers & Materials.md`
 - [ ] Tod McQuinn unlocked (unclaimed bounty-voucher donation — prerequisite: the Low RES loop).

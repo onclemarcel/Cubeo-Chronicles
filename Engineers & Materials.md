@@ -32,9 +32,15 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 | Zacariah Nemo | Ship | — | Fragment cannons (Nemesis) | Via Martuuk |
 | Professor Palin (Arque) | Ship | — | Thrusters G5 | Martuuk → Qwent, then Palin |
 | Ram Tah | Ship | — | Utilities and limpets (Phase 4) | Conditions to verify |
-| Hero Ferrari | Odyssey | Known | Suits | Not yet invited |
-| Eleanor Bresa, Jude Navarro, Rosa Dayette, Baltanos, Domino Green | Odyssey | Known | Not in the plan yet | — |
-| Oden Geiger, Terra Velasquez | Odyssey | — | Data, suits | Unknown |
+| Domino Green (Orishis, The Jackrabbit) | Odyssey | Known | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | 100 ly in Apex shuttles (§3) |
+| Kit Fowler (Capoya, The Last Call) | Odyssey | — | Step on the way to Yarden Bond | Via Domino Green (5 Push), then sell 5 Opinion Polls |
+| Yarden Bond (Bayan, Salamander Bank) | Odyssey | — | **Heist Maverick slots 2–3** (Improved Jump Assist, Quieter Footsteps) | Via Kit Fowler (5 Surveillance Equipment), then sell 5 Smear Campaign Plans |
+| Jude Navarro (Aurai, Marshall's Drift) | Odyssey | Known | Opens Terra Velasquez; Dominator mods later | 10 restore/reactivation missions |
+| Terra Velasquez (Shou Xing, Rascal's Choice) | Odyssey | — | Opens Oden Geiger; Dominator mods later | Via Navarro (5 Genetic Repair Meds), then 6 covert theft/heist missions |
+| Oden Geiger (Candiaei, Ankh's Promise) | Odyssey | — | **Heist Maverick slot 4** (Improved Battery Capacity; Night Vision the alternative) | Via Velasquez (15 Financial Projections), then sell 20 Biological Samples / Employee Genetic Data / Genetic Research |
+| Hero Ferrari (Siris, Nevermore Terrace) | Odyssey | Known | Sprint, jump, air; Noise Suppressor (weapons) | 10 surface conflict zones (`On-Foot.md` §3 Phase 3) |
+| Wellington Beck, Uma Laszlo | Odyssey | — | Beck: the other source of Improved Battery Capacity, not used (route needs combat) | Via Ferrari |
+| Eleanor Bresa, Rosa Dayette, Baltanos, Yi Shen | Odyssey (Colonia) | Known (Yi Shen —) | Not in the plan (22,000 ly away) | — |
 
 ---
 
@@ -42,7 +48,13 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 
 - **Ship engineer priorities:** Farseer (FSD) · Martuuk · McQuinn or Nemo (weapons) · Qwent
   (power plant) · Vatermann (shields).
-- **Odyssey engineer priorities:** Oden Geiger (data), Hero Ferrari (suit), Terra Velasquez.
+- **Odyssey engineer priorities** (revised 3 Nov 2026 for the heist Maverick, `On-Foot.md` §2.1):
+  **Domino Green** (Extra Backpack Capacity, trivial unlock, gateway) · Kit Fowler → **Yarden
+  Bond** (Improved Jump Assist + Quieter Footsteps) · Navarro → Velasquez → **Oden Geiger**
+  (Improved Battery Capacity; later the Dominator) · Hero Ferrari last (comes with the Phase 3
+  conflict zones). *Battery via Oden Geiger, not Wellington Beck:* Beck needs Hero Ferrari
+  first, which means 10 surface conflict zones and an armed suit. The Navarro chain is
+  reactivation and covert theft/heist missions, which is heist practice anyway.
 
 ---
 
@@ -76,11 +88,48 @@ UTC (state, not the reveal *chain* — Frontier doesn't log which engineer revea
 
 **Odyssey engineers** (moved from Phase 1, on-foot)
 
-- Of the three Odyssey engineers named in §5.3, only **Hero Ferrari is "Known"**
-  (`EngineerProgress`, 23 Sept) — Oden Geiger and Terra Velasquez aren't even that yet, the same
-  situation as Vatermann/Cheung/Tani/Jean above. Whether these two on-foot missions are what
-  reveals them is unconfirmed (same caveat as McQuinn) — worth re-checking `EngineerProgress`
-  after running them.
+*Rewritten 3 Nov 2026 for the heist Maverick (`On-Foot.md` §2.1). Unlock conditions and mod
+lists are taken from the ED Field Manual engineer table, which gives the values after Update
+18.08 (several conditions were reduced in that update). `EngineerProgress` on 2 Nov 07:31
+lists Domino Green, Jude Navarro and Hero Ferrari as **Known** (plus the four Colonia
+engineers); none is invited yet. The unlock *chains* are referrals: each engineer asks for a
+delivery that reveals the next one.*
+
+**Heist chain: Domino Green → Kit Fowler → Yarden Bond** (priority)
+- [ ] **Domino Green**, Orishis, *The Jackrabbit*: **travel 100 ly in shuttles**. One or two
+      Apex trips (booked at any station's Apex terminal) are enough. His suit mods: **Extra
+      Backpack Capacity** (in the build), Enhanced Tracking, Reduced Tool Battery Consumption.
+      Weapon mods: Greater Range, Stability.
+- [ ] Referral: deliver **5 Push** to Domino Green → reveals Kit Fowler. Push turns up at
+      irregular-marker surface sites and at crashed ships in low-security systems. Stock on
+      3 Nov: 0.
+- [ ] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders. Stock on
+      3 Nov: 0. Not needed for his own mods (melee, ammo, shield regen).
+- [ ] Referral: deliver **5 Surveillance Equipment** to Kit Fowler → reveals Yarden Bond.
+- [ ] **Yarden Bond**, Bayan, *Salamander Bank*: **sell 5 Smear Campaign Plans** to bartenders.
+      Her suit mods: **Quieter Footsteps** and **Improved Jump Assist** (both in the build),
+      Combat Movement Speed. Weapon
+      mods: **Audio Masking**, Faster Handling, Hip-Fire Accuracy.
+
+**Battery branch (and later the Dominator): Jude Navarro → Terra Velasquez → Oden Geiger** (second)
+- [ ] **Jude Navarro**, Aurai, *Marshall's Drift*: **10 restore or reactivation missions**. The
+      same missions as `On-Foot.md` §3 Phase 1, so run them as one task. His mods: Damage
+      Resistance, Extra Ammo, Melee, Magazine Size, Reload Speed.
+- [ ] Referral: **5 Genetic Repair Meds** (locked medical lockers at settlements) → Terra Velasquez.
+- [ ] **Terra Velasquez**, Shou Xing, *Rascal's Choice*: **6 covert theft and/or covert heist
+      missions**. One covert heist was already done on 29 Sept (`On-Foot.md` 4.3); whether
+      missions run before she is revealed count toward the 6 is unconfirmed. Her mods: Combat
+      Movement Speed, Sprint, Air; Noise Suppressor, Hip-Fire Accuracy.
+- [ ] Referral: **15 Financial Projections** → Oden Geiger.
+- [ ] **Oden Geiger**, Candiaei, *Ankh's Promise*: **sell 20 Biological Samples / Employee
+      Genetic Data / Genetic Research** (combined) to bartenders. His mods: **Improved Battery
+      Capacity** (in the build), Night Vision (the alternative), Enhanced Tracking; Scope,
+      Stability.
+
+**Later / not planned**
+- Hero Ferrari, Siris: 10 surface conflict zones. Arrives with `On-Foot.md` §3 Phase 3
+  (Frontline CZs); his 5 Settlement Defence Plans referral opens Wellington Beck → Uma Laszlo.
+- Colonia (Baltanos, Eleanor Bresa, Rosa Dayette, then Yi Shen): out of range, 22,000 ly.
 - Also flagging: **Liz Ryder** (ship engineer, missile specialist — needed for the Dart's "High
   Capacity" missile blueprint, annex A2) is likewise only "Known," not yet invited.
 

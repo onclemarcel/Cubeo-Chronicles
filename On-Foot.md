@@ -52,9 +52,9 @@ problem, not the two stacked ones they first look like. Order of leverage, cheap
 3. **Movement discipline over gunplay** — crouch/walk (footstep noise is a real detection input),
    use rooftops/cover to break line of sight, approach NPCs from behind (their vision cone
    doesn't cover their back).
-4. A community tool, the **Odyssey Mapping Guide**, shows exact alarm-console/regulator
-   locations per settlement layout — worth using for planning instead of learning each site by
-   dying in it.
+4. A community tool shows the exact alarm panel and data port locations for each settlement
+   layout: **Odyssey Site Maps** (§5, link there). Worth using for planning instead of
+   learning each site by dying in it.
 5. **No stun/incapacitation tool exists in the game** — confirmed, not a gear gap to engineer
    around.
 
@@ -72,8 +72,27 @@ for a PP assignment (`Powerplay Missions.md` card 4.11).** Two ways tried, both 
 - **So, for a clean download:** pick a port no one can see — check every NPC's position and
   patrol first, wait until they turn away or leave the room, crouch. It can be done: the last
   two items (11:48) came with **no fine at all**.
-- **Simplest in practice:** one item per landing, then lift off and drop back in — the
-  settlement resets each time (9 items in 9 drops on 21 Oct).
+- **Simplest in practice (21 Oct):** one item per landing, then lift off and drop back in. The
+  settlement resets each time (9 items in 9 drops on 21 Oct). **Superseded on 2 Nov**, see below.
+
+**Method since 2 Nov 2026 — settle in before downloading (Ferenczi-houlden Extraction Exchange,
+`Powerplay Missions.md` §3 and card 4.8).** On landing, first switch the settlement's **alarms
+off** and its **authorisation scans off**. One level-3 profile clone gets you to the two
+switches. After that, every building can be entered with no further credentials. Then walk all
+the data ports at leisure: 8 ports and about 10 units per landing instead of one, and ~15,000
+merits/h instead of ~2,800. NPCs who see a download can still fine you (one or two 500 CR
+fines per session), so the witness rule above still applies. The full route is in §5.1.
+
+**Download time depends on the data type** (Tonton Marcel, 3 Nov): anything from 10 to 30 s.
+**Classified Power data always takes 30 s**, and research data seems to take 20 s. The NPC's
+patrol has to leave you that much time. A long download is also a longer exposure: two long
+ones in a row are where an NPC walking back past the port catches the hack.
+
+**Never run past a guard who is scanning you**, even when clean. Running off a scan is a crime
+in itself (`onFoot_failureToSubmitToPolice`, 500 CR): logged on 2 Nov 11:18 and 3 Nov 18:56.
+Stop and let the scan finish. **If you are carrying a cloned profile, drop the credentials
+before the scan** to avoid the fine, then re-clone another NPC afterwards (learned at Kewell's
+Club, §5.2).
 
 **Where this fits in the plan:** the zero-risk steps (1–2, still pending — the 21 Sept session
 played wreck-salvage and settlement-collect missions instead, see §4) sit in **Phase 1** alongside
@@ -90,6 +109,93 @@ cut-the-reactor) sits in **Phase 3**, timed to match the rising ship-combat conf
   - **Artemis** for exobiology (Phase 2, §5.4);
   - **Maverick** for sabotage and PP data;
   - **Dominator** for on-foot combat (Phase 3, §5.4).
+
+### 2.1 Heist Maverick — roadmap to G5 (planned 3 Nov 2026)
+
+*For PP downloads, uploads and thefts (`Powerplay Missions.md` cards 4.8, 4.11, 4.14) and heist
+missions (card 4.3). Unarmed for now: no armed PP assignment has come up for Aisling yet.
+Engineer unlock steps are ticked in `Engineers & Materials.md` §3, not here.*
+
+**Starting point (journal, 3 Nov 18:59):** one Maverick, **Grade 2, no mods** (loadout "maverick
+NON armee", no weapons). 5.2 bn CR, so credits are no constraint; micro-resources are.
+
+**Rules that shape the plan**
+- One mod slot per grade above 1: G2 = 1 slot, G3 = 2, G4 = 3, **G5 = 4**.
+- **A mod is permanent**: it can't be removed or replaced. Fill slots in order of certainty.
+- Grades are bought or raised at **Pioneer Supplies** (credits + micro-resources). Mods are
+  applied **on foot at the engineer's base**. Odyssey engineers have no grades: once unlocked,
+  they apply all their mods.
+- Pioneer Supplies sometimes sells **pre-upgraded / pre-engineered** gear. Stock is limited and
+  refreshes weekly (Thursday). Worth checking before raising grades by hand.
+
+**Target build: 4 mods**
+
+*Build revised the same day by Tonton Marcel: Improved Jump Assist replaces Enhanced Tracking
+(roof-to-roof movement without draining the sprint meter), and Improved Battery Capacity
+replaces Reduced Tool Battery Consumption (the arc cutter is rarely used, so a bigger battery
+is worth more than cheaper tools).*
+
+| Slot | Mod | Why it matters for a heist | Engineer |
+|---|---|---|---|
+| 1 | **Extra Backpack Capacity** | More data, items and assets per landing | Domino Green |
+| 2 | **Improved Jump Assist** | Roof-to-roof routes over the settlement, out of NPC sight lines, without spending the sprint meter | Yarden Bond (also Hero Ferrari) |
+| 3 | **Quieter Footsteps** | Footstep noise is a detection input. Fewer witnesses for downloads (the 21 Oct lesson, §1) | Yarden Bond |
+| 4 | **Improved Battery Capacity** | +50 % suit battery: longer stays on site, more margin for the tools and shields on the way out | Oden Geiger (also Wellington Beck) |
+
+- **Order of the slots:** each mod goes in as soon as its engineer is unlocked. Battery comes
+  last because Oden Geiger is at the end of the longest chain.
+- **Dropped:** Enhanced Tracking and Reduced Tool Battery Consumption, both Domino Green.
+  **Night Vision** (Oden Geiger) is out of the build too. If cutting the reactor (§1 step 3)
+  becomes the standard approach, it could take slot 4 instead of the battery. Decide when the
+  suit reaches G5.
+- **Escape mods** (Combat Movement Speed, Increased Sprint Duration, Damage Resistance) belong on
+  the Dominator, not here.
+
+**Roadmap**
+- [ ] **Stage A — Domino Green, slot 1 (now).** Unlock him (100 ly in Apex shuttles), then
+      apply **Extra Backpack Capacity** to the current G2. Cheapest step, and it pays off at once
+      on PP download runs.
+- [ ] **Stage B — G3 and G4, slots 2–3.** Raise the suit to G3, then G4, at Pioneer Supplies.
+      A bought suit starts with no mods, so raising the modded one is better. Once the Domino
+      Green → Kit Fowler → Yarden Bond chain is done (`Engineers & Materials.md` §3), apply
+      **Improved Jump Assist** and **Quieter Footsteps** at Yarden Bond, in one visit.
+- [ ] **Stage C — G5, slot 4.** Raise the suit to G5. Once the Jude Navarro → Terra Velasquez →
+      Oden Geiger chain is done (`Engineers & Materials.md` §3), apply **Improved Battery
+      Capacity**, or Night Vision (see above).
+- [ ] **Stage D — later, only if armed PP assignments appear:** a suppressed sidearm. Stealth
+      mods for it: **Audio Masking** (Yarden Bond), **Noise Suppressor** (Hero Ferrari, Terra
+      Velasquez).
+
+**Micro-resource shopping list**
+- **Grade raises** (exact counts are shown by the Pioneer Supplies storekeeper): before Update
+  18.08, the G5 step alone cost 15 each of **Suit Schematic, Health Monitor, Power Regulator,
+  Manufacturing Instructions**, with smaller amounts for the lower steps. Community reports say
+  18.08 cut Odyssey upgrade costs to about a quarter. Stock on 3 Nov: Suit Schematic **0**,
+  Health Monitor 7, Power Regulator 3, Manufacturing Instructions **0**. **Suit Schematics and
+  Manufacturing Instructions are the real gaps.**
+- **Mods:** about 500,000–750,000 CR each, plus materials. Improved Battery Capacity, for
+  example: 5 Reactor Output Review, 8 Maintenance Logs, 3 Ion Battery, 5 Micro Supercapacitor,
+  5 Electrical Wiring, 750,000 CR (wiki figure, possibly from before 18.08). Stock on 3 Nov:
+  the components are covered (Ion Battery 4, Micro Supercapacitor 22, Electrical Wiring 20).
+  The two data items, Reactor Output Review and Maintenance Logs, are at 0.
+- **Planning tool:** *Elite Dangerous Odyssey Materials Helper* (EDOMH, GitHub
+  `jixxed/ed-odyssey-materials-helper`) reads the same journal files and turns a wishlist
+  (suit grades + mods) into an exact shopping list, including which settlement type drops what.
+  Simpler than keeping counts here by hand.
+
+**Where the materials come from** (cheapest first)
+1. **Mission rewards, materials option:** on-foot missions already paid Weapon Schematics and
+   Chemical Patents this way (cards 4.1, 4.5). Sort the board by material rewards, and check
+   several stations.
+2. **Reactivation / restore missions** (§1 step 1, §3 Phase 1): zero risk. Ten of them also
+   unlock **Jude Navarro**, the start of the Night Vision branch. Two objectives in one.
+3. **Settlement data ports and lockers** during the PP download runs already planned: grab
+   ordinary data and items while you're inside, once the Power data is in the backpack (only
+   with no witnesses, §1). Suit Schematics come from lockers; Manufacturing Instructions
+   from data ports, mostly at industrial settlements.
+4. **Bartender:** barter surplus components (Circuit Switch 38, Metal Coil 34, Memory Chip 29
+   are well stocked) for the missing ones. Selling data to a bartender is also how several
+   engineers unlock (`Engineers & Materials.md` §3).
 
 ---
 
@@ -112,7 +218,8 @@ cut-the-reactor) sits in **Phase 3**, timed to match the rising ship-combat conf
 - [ ] On-foot: **cut-the-reactor infiltration** at an active settlement (§5.2 step 3) — the first
       real on-foot risk, timed to match the combat confidence built on the ship side (§5.4). Still untried as of
       23 Sept (§4).
-- [ ] Dominator suit (combat) or upgraded Maverick (sabotage, PP data) for Dart's missions.
+- [ ] Dominator suit (combat) for Dart's missions. The upgraded Maverick (sabotage, PP data)
+      moved forward on 3 Nov 2026 and now has its own roadmap (§2.1), run alongside Phase 1.
 
 ---
 
@@ -178,3 +285,156 @@ is still the untried fix).
 - **Stats:** 1 run, success · last: 29 Sept, **Sharma Analytics Installation** (Sarana 6 a,
   high-tech) for The Eldaren — 18,863 CR + 14× Weapon Schematic (offer 308,863 CR; the
   materials option was taken again).
+
+---
+
+## 5. SETTLEMENT ROUTES
+
+*Added 3 Nov 2026. One card per settlement worth repeating: the layout, the route through it,
+and where the NPCs are. Odyssey settlements reportedly come in about 28 layout types, and
+settlements that share a type share a layout, so a route learned here should work at any
+settlement of the same type. Same growth rule as §4: refine in place.*
+
+**Map reference: Odyssey Site Maps** (CMDR DeCarabas and CMDR Thing Fish, updated Oct 2026):
+<https://voz-decarabas.github.io/Odyssey-Site-Maps/browser.html>. One annotated map per layout
+(the 28 = 4 tourist, 5 agricultural, 5 military, 5 industrial, 5 extraction, 4 high-tech), with
+airlocks and their access level, data ports, terminals, alarm panel, PP containers, and hints on
+where to scan. **There is no marker for the authorisation switch**, so that's the one thing to
+note from play. Maps can miss things: Extraction 2 lacks a data port on the first floor of CMD
+(§5.1). And a marker's text label can be wrong even when its position on the image is right
+(Agriculture 1's alarm, §5.3). Go by the image. Data-port counts can differ between settlements of the same layout (forum
+reports), so check them on the first visit.
+
+### 5.1 Ferenczi-houlden Extraction Exchange (extraction layout)
+
+- **Where:** Crucis Sector OY-R b4-4 C 3, unoccupied system. Used for the Power data raid
+  (`Powerplay Missions.md` §3, card 4.8). Hand-in at Hale Gateway, Tripitaka.
+- **Layout:** simple. CMD (command), HAB ×2, STO (storage), PWR (power), EXT (extraction).
+  **8 data ports** in all. Journal: 7–9 downloads and 9–13 units per landing over 9 landings,
+  2–3 Nov.
+- **Arrival:** dock on the settlement's own pad.
+- **Map: "Extraction 2 – small (+)"** on Odyssey Site Maps (recognised on sight by Tonton
+  Marcel, 3 Nov). Two HABs. The map shows the alarm panel next to a data port (the CMD switch
+  room, step 2), a "possible scan through window" hint (step 1) and 2 PP containers. **It lists
+  only 7 data ports: it misses the one on the first floor of CMD** (step 3), so there are 8 in
+  play. *(Extraction 1 – medium also has 8 ports with the alarm next to one, which is why it
+  looked like the match from the map data alone.)*
+
+**Route** (Tonton Marcel, 3 Nov)
+1. **Rooftops to the level-3 NPC.** Off the ship, jump across the HAB, STO, PWR and CMD roofs.
+   The level-3 NPC stands near a window on the CMD rooftop. Scan them (Profile Analyser clone).
+2. **CMD, ground floor: the switch room.** Enter, walk past a level-2 NPC, into an **empty,
+   unguarded room** (restricted zone). It holds **the alarm switch, the authorisation scan
+   switch and a data port**. Switch both off, download (**port 1**).
+3. **CMD, upstairs.** A restricted room with one NPC patrolling a simple back-and-forth line.
+   Reach the port as soon as their back is turned, start the download, hide behind a crate
+   (**port 2**).
+4. **HAB next door:** empty, one port, wait inside while it downloads (**port 3**).
+5. **EXT, across the settlement, upstairs:** one port, one NPC on a 3-point patrol. There's no
+   way out during the download, so circle the big round pillar, keeping it between you and the
+   NPC (**port 4**).
+6. **Second HAB:** empty, one port (**port 5**).
+7. **STO:** 2 ports. Easy: hide behind the crates while each downloads (**ports 6–7**).
+8. **PWR, last: the difficult one.** 2 NPCs in a small area, on two different patrol cycles.
+   It's where most of the catches (download or trespass) happen (**port 8**).
+9. Back to the ship, lift off, come straight back for the next landing.
+
+**Pitfalls and fixes**
+- **PWR timing:** the tempting moment, both backs turned, often comes when one of them has
+  already had their back turned for a while, so they turn around mid-download. Better: wait
+  until the NPC with the *longer* cycle has *just* turned away, then start. If that NPC's cycle
+  is shorter than the download (up to 30 s for classified data, §1), wait for the next window.
+- **Download times vary** (10–30 s by type, §1). In patrolled rooms (CMD upstairs, EXT, PWR)
+  you can't know the type before you start, so count on the full 30 s.
+- **Two long downloads in a row** can catch you: an NPC walking back past the port notices the
+  hack, turns hostile in their area and starts searching. Break line of sight, then hide or
+  leave the building.
+- **Don't run past a guard who is scanning you** (§1): it's a fine even when you're clean.
+
+**Heist Maverick payoff** (§2.1): this route is why **Improved Jump Assist** (the rooftop
+approach in step 1, the jump across in step 5) and **Quieter Footsteps** (EXT pillar, PWR) are
+in the build.
+
+**Stats:** 9 full landings (2 Nov noon and evening, 3 Nov) · 13–26 min per landing (most
+13–17; the first landing of a session runs longest), first to last download in 9–22 min · fines:
+2 data transfer (2 Nov noon), 2 failure to submit (2 Nov 11:18 on the first scouting landing,
+3 Nov 18:56), none on 2 Nov evening (4 landings).
+
+### 5.2 Kewell's Club (tourist layout)
+
+- **Where:** Reorte 5 a, Nakato Kaine Exploited (Mahon and Kaine present, no Aisling). Used for
+  the **tracing malware** uploads (`Powerplay Missions.md` card 4.14).
+- **Layout:** a big central **HAB on two floors**, **5 small HABs**, a **bar** and a **PWR**.
+  8 data ports (card 4.14).
+- **Map: "Tourist 4 – small (+)"** on Odyssey Site Maps (confirmed by Tonton Marcel, 3 Nov).
+  It shows **8 data ports** (the site lists 9, but two share
+  the same spot) and the **alarm panel at the very top of the central building**, which fits
+  the second-floor find in step 1. The map's hint: an L3 sometimes comes up onto the roof for an
+  easy scan. The other tourist layouts don't fit: Tourist 2 and 3 have the alarm in the reactor
+  room, and Tourist 1 has only 2 data ports.
+- **Population: the hard part.** Full of guards, pilots and travellers, and almost **all of
+  them may ask to scan you**. The big HAB holds several of them, and their patrols take the
+  stairs up and down on different paths, so the gaps for slipping through are short.
+
+**Route** (Tonton Marcel, 3 Nov; learned over several sessions with re-logs to watch the place)
+1. **Alarm switch: big HAB, second floor.** Spotted by chance **through a window** of one of the
+   second-floor rooms. A **level-2 NPC can be scanned from the window of the next room**, which
+   gives you the clone without going inside.
+2. **Into the alarm room.** Another NPC is in the room: wait until they turn their back, then
+   switch the alarm off.
+3. **No authorisation switch found.** It may be in PWR, not yet checked. So the clearance
+   checks stay on for the rest of the run.
+4. **Data ports in the small HABs.** Move between the HABs avoiding the patrols that cross the
+   rooms, circle the furniture when the room allows it, upload, and re-clone an NPC each time
+   the credentials have had to be dropped (below).
+
+**Pitfalls and fixes**
+- **When a guard is about to scan you with a cloned profile, drop the credentials** to avoid
+  the fine, then re-scan another NPC afterwards (§1). At this settlement that happens over and
+  over, which is what makes it slow.
+- **Next visit:** look for the authorisation switch in PWR. If it's there, this settlement
+  becomes a run like Ferenczi-houlden (§5.1): no more credentials to manage once it's off.
+- **Not a place to steal goods** (card 4.12): too many potential scans in almost every
+  building.
+- Doable, but it takes patience and observation, much more than the extraction layout.
+
+**Stats** (journal): 8 tracing-malware uploads, 195 merits each, the assignment's 5,200 paid on
+the 8th (2 Nov 09:59).
+- **31 Oct 16:16–16:39:** first look. Injection malware didn't work here (card 4.14).
+- **1 Nov 18:32–19:24:** 3 landings, 2 uploads.
+- **2 Nov 07:33–08:00:** 5 uploads in 25 min, once the route was known. A 6th at 09:51–09:59.
+- **Fines:** 1 failure to submit (1 Nov 18:58), 2 data transfer (1 Nov 19:22, 2 Nov 07:58).
+
+### 5.3 Baker's Plantation (agricultural layout)
+
+- **Where:** Crucis Sector OY-R b4-4 C 2, the same system as Ferenczi-houlden (§5.1). Tried
+  before the extraction site, for the classified Power data (`Powerplay Missions.md` card 4.8).
+- **Map: "Agriculture 1 – small (+)"** on Odyssey Site Maps (recognised by Tonton Marcel,
+  3 Nov). The map shows **7 data ports**, 2 PP containers and the hint "scan L3 through the roof
+  while crouching". **The map image is right**: its alarm marker sits in the big AGRI building,
+  where Tonton Marcel found the switch. PWR is a small building in the middle of the map, with
+  no alarm marker. Only the marker's text label is wrong ("in the unrestricted area of the
+  power building"). Lesson for this site: **trust the map image over the label text** (data
+  read 3 Nov, image checked by Tonton Marcel).
+- **Population: easy.** Lots of NPCs, but only scientists and technicians, **nobody who asks for
+  a scan** (no pilots, travellers or guards inside), apart from one guard at the front door of
+  the big building.
+
+**Route** (Tonton Marcel, 3 Nov)
+1. **Roof of the big agricultural building** near the large landing pad: watch from there. A
+   **level-3 NPC wanders on the roof**: scan them.
+2. **In by the back door**, into the building's storage area, climb up: **the alarm switch** is
+   there. Switch it off.
+3. **Data ports:** STO, the agricultural building with the glass domes, and the HABs all have
+   one. The port **at the entrance of the big building** is the hard one, right next to the
+   front-door guard.
+
+**Verdict:** the easiest alarm of the three sites so far, and few scans. But **no classified
+Power data** in 5 downloads (2 Nov: 5 industrial, 1 association), against about 1 in 8 at the
+extraction site (card 4.8). Too few downloads to call it, but the extraction site won on
+results.
+
+**Stats** (journal): 30 Oct 21:14, first landing (scouting) · 31 Oct 10:33–11:06: no data, but
+2 Power goods (data storage device, military plan, handed in for 92 merits each on 2 Nov) and
+consumables from lockers; 1 failure-to-submit fine (11:05) · 2 Nov 10:08–10:34: 5 downloads, 6
+units, all common data.
