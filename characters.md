@@ -85,7 +85,7 @@ for later, not for her to ask out loud yet.
 
 ### Writer's perspective
 
-The Viscountess is a cyborg created in 3305 in Roskam Enterprise, 3 years before the 'accident'. She's part of a secret program of Aisling council to build advanced cyborgs to undermine adverse powers, through reckless missions for her - thus explained why Aisling is so powerful in-game in PowerPlay 2.0 
+The Viscountess is a cyborg created in 3305 in Roskam Enterprise, 3 years before the 'accident'. A cyborg, not an android: closer to the human side than to a robot, which explains many of her reactions. She's part of a secret program of Aisling council to build advanced cyborgs to undermine adverse powers, through reckless missions for her - thus explained why Aisling is so powerful in-game in PowerPlay 2.0 
 
 Built and trained by Al Kurdi, Marcella exceeds her specifications and integrates human world with perfection, she even develops human-like cognitive perks, to such a point that Al Kurdi is mesmerised by her own product. 
 
@@ -110,7 +110,7 @@ She will enventually conclude on her eyes surgery when discovering a photography
 
 ### Writer's perspective
 
-Al kurdi modified the android after the accident by changing the eyes, a proper way to scan people on ground, so she's got a completely new identity from a biological perspective.
+Al kurdi modified the cyborg after the accident by changing the eyes, a proper way to scan people on ground, so she's got a completely new identity from a biological perspective.
 
 Marcella's physical characteristics are good-looking for many humans, so entries into any place is usually easy, except for those where she is expected by foes...
 
@@ -283,7 +283,7 @@ He reads Dr. Al Kurdi as a fellow protector, not as a woman in love with the Vis
 ## 5. Upbringing and background
 Sam is built quickly from previous technology than the one used by Al Kurdi for Marcella. He's been built by an engineer from the Empire, but pledged to Zemina Torval. The engineer creates a back door in Sam, in any case the Power would need to use it.
 
-He is dispatched just a few months before Marcella is operational and set to his workshop in Medupe City.
+He is dispatched around 3292, some thirteen years before Marcella is operational (3305), and set to his workshop in Medupe City.
 
 No deference to aristocracy beyond basic manners. He knows everything about a
 ship, including things he'd be better off not knowing: **how to recognise certified armour plating
@@ -421,7 +421,7 @@ that isolation cracked the Viscountess's fact-to-fact, no-feelings default, and 
 her own past, what becoming a pilot had cost her, how it felt — in a register she used nowhere
 else, including naming LHS 3447 herself. That's the only reason the doctor knows to build the
 discharge question around that specific system: not a probe at random, a callback. The doctor let
-herself get closer over it afterward, slowly, deliberately, for the first time in years — and it
+herself get closer over it afterward, slowly, deliberately, for the first time — and it
 didn't hold. Whatever almost started between them broke before either of them could name it. The
 Viscountess taking on such an absurdly remote, notoriously slow CG right after (`Galaxy
 Chronicles.md`, "The Great Solitude") reads, in hindsight, like flight — five hundred and twenty
@@ -478,6 +478,9 @@ fragment of the through-line.
   reads two ways at once — inspecting the rebuild, and a finger lingering from feeling — with the
   human reading meant to come first for the reader. What she has never dared hand over now includes
   what the Viscountess is. Still open: whether she came out of the enemy programme that built Sam.
+- 2026-11-05 — dates split: her programme and Sam go back to about 3292, when she moved from Roskam
+  to Medupe City (same system, so she kept working at Roskam); the Viscountess was completed in
+  3305. Her feelings therefore grew over a few years, not twenty.
 
 ---
 

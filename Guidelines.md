@@ -154,7 +154,7 @@ before she understands why. The rest will come in fragments: contacts, rumours, 
 manipulations.
 
 **2026-09-20 — added to the File (internal, not yet on the page):** she is herself a built pilot
-(the doctor's work, ~20 years ago), and the logbook is partly the doctor's instrument for watching
+(the doctor's work, completed in 3305, from a programme going back ~20 years), and the logbook is partly the doctor's instrument for watching
 her "product" develop. See Ch. III decision 9 (Through-Line, below).
 
 ---
@@ -308,7 +308,7 @@ the page):**
    seam on Sam's wrist, the catch she felt shaking his hand); the hands.
 9. **DECIDED in outline (Tonton Marcel, 20 Sept) — what she is, and what Sam is.** Internal record;
    none of it on the page before its own beat.
-   - **She is a built pilot** — the doctor's work, about 20 years ago: an ideal pilot / mercenary.
+   - **She is a built pilot** — the doctor's work, completed in 3305 (the programme goes back about 20 years): an ideal pilot / mercenary.
      The four-year "recovery" was a rebuild. Level of construct deliberately in the middle
      (rebuilt human vs implanted template): **never settle whether she can feel.**
    - **Her moral code is built in**, coming from the doctor's own way of thinking.
@@ -332,10 +332,12 @@ the page):**
    - **The enemy programme behind Sam is Zemina Torval's:** same Superpower (the Empire), inside
      enemy. Rebuilt people as property — the opposite of the code built into her.
    - **Sam's origin — confirmed 21 Sept (Tonton Marcel): candidate (2).** Built in parallel and in
-     haste with older technology, dispatched a few months after the doctor left Roskam and placed
-     as a mechanic; she met him as a stranger and introduced the Viscountess as a recruit from
-     another system; she has known him ~20 years; his release date ≈ hers (`characters.md`,
-     Mechanic of Hangar 12, §5). Fits the 20-year horizon exactly and keeps the doctor innocent.
+     haste with older technology around 3292, dispatched a few months after the doctor moved from
+     Roskam to Medupe City (same system: she kept working on her programme at Roskam) and placed as
+     a mechanic; she met him as a stranger and has known him ~20 years. In 3305 she introduced the
+     Viscountess to him as a recruit from another system (`characters.md`, Mechanic of Hangar 12,
+     §5). Fits the 20-year horizon exactly and keeps the doctor innocent. **Dates updated 5 Nov
+     2026:** the 20 years belong to the programme and to Sam; the Viscountess dates from 3305.
      Candidate (1) — Roskam built him specifically to watch the doctor — is retired. The naming
      objection that used to weigh against (2) (why didn't a man named Roskam alarm someone who'd
      just left Roskam?) no longer applies either way: his own name was separately settled as
@@ -390,6 +392,39 @@ check it, look it up, read the small print. She never links them into one questi
 Her stated reason for working stays practical (get back to her business, be away from faces that
 know her). Corollary for the doctor: she may ask, but sparingly — at most one pointed question per
 scene, and her wish to get closer is what makes it read as care rather than interrogation.
+
+**Side notes, 2026-11-05 — the Fleet Carrier as climax (Tonton Marcel; ideas, nothing on the page).**
+The long-term goal, in game and in the story: she buys a Fleet Carrier and chooses her own way of
+life, away from the emotional relationships that cost her so much before the accident and during
+the logbook.
+- **Ch. VII — agreed:** founding a system comes first and is **not enough**. A system is an anchor;
+  a carrier can leave.
+- **Who leaves, who stays:** the Asp and the Type-9 stay in the Medupe City "museum", reminders left
+  in the home system, while the Gutamaya fleet leaves aboard the carrier. No Gutamaya carrier exists
+  (maybe one day, but doubtful), so the one hull that carries the fleet breaks the Gutamaya-only vow
+  — fitting for the moment she stops answering to it.
+- **Aisling stays possible:** she may still come back from nowhere to fulfil her duty, without
+  having to face known people trying to study her, attract her, repair her or trick her.
+- **OPEN — Ch. VIII and timing:** does the carrier close the book, or does it expand her means of
+  finding the truth? Undecided, and tied to when it reaches the page.
+- *Claude's notes, to check against this idea when it's decided:*
+  - Decision 10 already has her leave Cubeo for good, the doctor letting her go, and the last page
+    as her account of the near-shutdown. "Closes the book" has to fit around that page, or change it.
+  - "Expands her means" must keep the golden rule: she chases loose ends and never *the* question.
+  - The doctor's "lacking only attachment" (decision 10) could make the choice ambiguous: is leaving
+    her own decision, or the spec showing through? In keeping with "never settle whether she can
+    feel".
+  - A carrier has a crew. She may not end up alone so much as among people who need nothing from her.
+  - In game the carrier may arrive long before its beat on the page, so those sessions may stay off
+    the page for a long time.
+
+**Side note, 2026-11-05 — Sorbago, CG 866 (Tonton Marcel; material for an entry, nothing on the
+page).** She defends Sorbago Mastopolos Mining Inc against Lady Zi's Fire Lotus Coalition because
+she is helping the Empire. But Sorbago is run by Zemina Torval, the inside enemy behind Sam's
+programme (decision 10), and her pledge to Aisling flags her as **HOSTILE** there. So she fights for
+the Empire in a system where the Empire's own politics mark her as a target. She can read Torval's
+name on the map, but not what Torval means to her. Usable as a loose end under the golden rule: the tag is a
+practical nuisance, never a question.
 
 ---
 
