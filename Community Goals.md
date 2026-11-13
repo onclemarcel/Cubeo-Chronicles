@@ -72,6 +72,10 @@ HD 232819**, ~2,000 ly away (Marco Polo).
   any combat mission taken within 25 ly of the CG station counts for **its highest possible
   credit reward, whichever reward you actually pick** (512,516 + 518,279 = 1,030,795; then
   4,814,250). Redeeming 3.7M CR of bounty vouchers added nothing. Pick missions by top reward.
+- **Combat-bond CGs: the line rises fast early in the week.** CG 866 went Top 25 % → Top 50 %
+  within three hours on 6 Nov with no change in contribution (1,826 → 2,039 contributors), and
+  contributors tripled over the following week. A Top 25 % reading on day 2 is not a result:
+  plan for the close, not the current bracket.
 - **Reward collection:** Frontier finalises a CG some hours after it closes (`IsComplete: true`);
   the credits then appear at the CG station (`CommunityGoalReward`). Collected so far in the
   working ship, on the spot.
@@ -83,6 +87,33 @@ HD 232819**, ~2,000 ly away (Marco Polo).
 ---
 
 ## 3. CG cards
+
+### CG 866 — "Défendez Sorbago Mastopolos Mining Inc dans le système Sorbago" — Hencke Orbital, Sorbago (→ 19 November 2026, 11:00 UTC)
+
+**Type:** combat — **combat bonds** for Sorbago Mastopolos Mining Inc, redeemed at Hencke
+Orbital (`RedeemVoucher` `CombatBond`, the contribution moves with each redemption). Ship: the
+**Nemesis**. **Imperial side only** (Tonton Marcel, 7 Nov): no other CG this cycle.
+
+- **Signed up 5 Nov 2026**, Hencke Orbital (Sorbago).
+- **Bonds redeemed (journal):**
+
+  | Date (UTC) | Bonds | Contribution | Bracket | Contributors | CG total |
+  |---|---|---|---|---|---|
+  | 5 Nov 18:17 / 18:55 | 1,351,658 + 1,401,901 | 2,753,559 | Top 50 % | 491 | 1.57 bn |
+  | 6 Nov 17:28 / 17:55 / 18:08 | 1,242,540 + 1,929,124 + 844,862 | 6,770,085 | **Top 25 %** | 1,826 | 9.0 bn |
+  | 6 Nov 20:59 (no bond) | — | 6,770,085 | Top 50 % | 2,039 | 10.6 bn |
+  | 9 Nov 11:18 / 13:44 | 2,092,057 + 1,167,166 | 10,029,308 | Top 50 % | 3,917 → 4,904 | 27.0 bn |
+  | 12 Nov 10:40 | 891,566 | **10,920,874** | Top 50 % | 5,266 | 46.2 bn |
+
+- **Tier:** 2 of 5 reached (12 Nov).
+- **Bracket forecast (playbook §2, rough):** average contribution on 12 Nov = 46.2 bn ÷ 5,266
+  ≈ 8.8M → the ×1.45 rule puts Top 25 % near **12.7M** today. The CG grows ≈6 bn a day; if the
+  pace holds, ≈90 bn and ≈8,000+ contributors at the close, so the line could reach **≈15–16M**.
+  ⚠ The rule overshoots on CGs with a few huge contributors (Faulcon DeLacy, §2) — check Inara's
+  tier table before committing. **Plan: ≈5M more in bonds before 19 Nov 11:00 UTC** to be safe.
+- [ ] Back in the conflict zone (Nemesis, Hencke Orbital).
+- [ ] Re-read the bracket at each redemption; collect the reward at Hencke Orbital after the
+      close.
 
 ### CG 862 — Faulcon DeLacy Exploration Initiative — Magrathea II, HD 232819 (22 → 29 October 2026)
 

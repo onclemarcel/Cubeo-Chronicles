@@ -18,26 +18,24 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **28** (`PowerplayRank`, 2 Nov 2026 13:18 UTC — 26 at 09:59, 27 at 13:18) |
-| Merits | **203,510** (`Powerplay` at login, 2 Nov 2026 18:24 UTC) — ≈43,500 to rank 34 |
-| Target | Rank 34 (≈247,000 merits) — unlocks Prismatic Shields (Phase 4, §5.4) |
+| Rank | **39** (`PowerplayRank`, 9 Nov 2026 08:40 UTC) |
+| Merits | **291,760** (`PowerplayMerits`, 12 Nov 2026 10:40 UTC) |
+| Target | ✔ **Rank 34 reached 7 Nov 2026 11:37** (≈247,000 merits) — Prismatic Shields unlocked for Phase 4 (§5.4). No next rank target set yet |
 
 ---
 
-## 1. THIS WEEK — tick of Thursday 29 October 2026
+## 1. THIS WEEK — tick of Thursday 12 November 2026
 
 *Reset at every Thursday tick: delete last week's rows, after moving each result into its card's
-Stats line (§4).* Last week's rows (22 Oct tick, 5 of 5) are already in the cards' Stats.
+Stats line (§4).* The 29 Oct week (5 of 5, the classified data paid 4 Nov) and the 5 Nov week
+(4 paid: malware 4.14, Wababa data 4.11, holoscreens 4.6, exobiology 4.15) are already in the
+cards' Stats.
 
-*From Tonton Marcel's note (1 Nov) and the journal.*
+*This week's assignments not read yet — fill in from the Powerplay screen.*
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | Aisling press dossiers → acquisition system | 4.3 | Medupe City → Martinez City (Col 285 Sector AV-M b21-0) | ✔ 30 Oct 15:38 | 3,600 |
-| 2 | Megaship datalink scans | 4.9 | Primi, Lambda-1 Tucanae, Osane, Ehlanda, Karsuki Ti, Fire Fade, HIP 7142, Jaroahy | ✔ 30 Oct 16:47 | 2,400 (+ 8 × 468) |
-| 3 | Kill rival Power ships, **reinforcement** system | 4.13 | Gadagombiri (Aisling, five Powers present) | ✔ 30 Oct 20:51 | 3,200 (+ 89–134 per kill) |
-| 4 | Malware uploads, **undermining** (rival system) — **tracing** malware | 4.14 | Herreshoff Prospect (Kherthaje) → Kewell's Club (Reorte) | ✔ 2 Nov 09:59 | 5,200 (+ 195 per upload) |
-| 5 | Power classified data, named system | 4.8 | **Ferenczi-houlden Extraction Exchange** (Crucis Sector OY-R b4-4) → Hale Gateway, Tripitaka | ⏳ **12 needed**, paid on the last hand-in — 5 handed in 2 Nov 13:18 (360 each), **6 held** (ship locker, journal 3 Nov 19:15; 2 found on 3 Nov), **1 to find** | — |
+| 1 | | | | | |
 
 ---
 
@@ -64,10 +62,9 @@ Stats line (§4).* Last week's rows (22 Oct tick, 5 of 5) are already in the car
 
 *Moved from Phase 1 (§5.4). "Measure merits/h for each loop" is Checkpoint 1.*
 
-**Powerplay: ≈43,500 merits remaining to rank 34** (≈247,000 − 203,510, 2 Nov 13:18). About
-**30,000 more are already in the ship locker** as Power data not yet handed in (3 Nov 19:15:
-21 industrial, 18 political, 14 association, 9 research, 6 classified). Handing it all in at
-Hale Gateway would leave ≈13,000 to go.
+**Rank 34 reached on 7 Nov** — the 3 Nov locker (73 Power data units) was handed in at Hale
+Gateway on 4 Nov 19:00–19:01 (Rank 28 → 33 in 20 s), the Techno Defence malware assignment
+finished the job. Merit loops now serve higher ranks and Navy-side goals, no deadline.
 
 **Comparison, rough (assignment bonuses excluded; journal 1 Oct – 2 Nov):**
 
@@ -122,8 +119,12 @@ bonus is added on top.
     **Extra Backpack Capacity** (`On-Foot.md` §2.1, slot 1) raises this rate directly.
   - **Stats:** 3 measured runs · 2 Nov noon: 33 downloads, 3 landings, ~13,400/h · 2 Nov evening:
     41 downloads, 4 landings, **~16,400/h** (on foot and flying only, no hand-in) · 3 Nov: 20
-    downloads in 2 landings, 18:32–19:15 (9,180 merits, ~12,800/h). Evening and 3 Nov values are
-    projected at the 13:18 rates (not handed in yet). Check them at the next hand-in.
+    downloads in 2 landings, 18:32–19:15 (9,180 merits, ~12,800/h). The projected rates held:
+    the 4 Nov hand-in paid 360 / 540 per unit as planned.
+  - **Second site, military: Techno Defence Facility** (Tucanae Sector BV-X b1-1, unoccupied,
+    6–8 Nov): **5–7 Power data per landing** (52 in 9 landings) instead of ~10 — 5 data ports
+    only, more guards. But **17 % classified** (card 4.8). Values identical at Medupe City and
+    Wababa (360 / 540). Route: `On-Foot.md` §5.4.
 
 - [x] PP trade with The Brick: high-margin sales in the targeted Aisling systems — **measured
       30 Sept: ~7,600 merits/h, ~64M CR/h** (pyrophyllite loop, benchmark in
@@ -370,11 +371,18 @@ specific week — the week's progress lives in §1.*
     faction (9 fines at Chinga, 13 Oct; 11 on 25 Sept). Cheap, but pay them before docking there.
   - Hacks in an **Aisling** system don't count for this one: 7 hacks at Newton Port (Khepri,
     13 Oct 00:55–01:08) paid 126 merits each but no assignment payout — that's card 4.7.
+  - **Stay out of the station's guns** (8 Nov, Chinga): after two hacks at Wilson Stop, the
+    Dart — which had left the station to hack its screen — was **destroyed by the station
+    itself** (17:46). Hack from a distance, outside the no-fire zone, and fly a cheap hull: the
+    Dart's rebuy is why it flies these jobs. The two hacks before the death still counted.
+  - Fines vary by station: 2,000 CR at Chinga, **1,000 CR** in HIP 95350 (Torval).
 - **Unoccupied variant (25 Oct):** the assignment can name an **unoccupied** system instead —
   same method. ICZ OX-U c2-15, Bowen Beacon: 12 hacks in 4 drops of 3, 126 merits each, paid on
   the 12th. ⚠ The fines (2,000 CR each) went to **Nexus Heavy Industries** — a Cubeo faction
   you donate to for Navy rank. Check who owns the station before hacking.
-- **Stats:** 3 assignments · +4,800 merits each · last: 25 Oct, **ICZ OX-U c2-15** (unoccupied),
+- **Stats:** 4 assignments · +4,800 merits each · last: 8 Nov, **Chinga** (Wilson Stop, 2 hacks ×
+  67, then the Dart destroyed) and **HIP 95350** (Torval Stronghold; Aisling present) — 6 hacks
+  × 48, paid on the 6th there (18:07), 17:46–18:07. 25 Oct, **ICZ OX-U c2-15** (unoccupied),
   21:27–21:41, ~14 min. 13 Oct: **Chinga** (Lavigny-Duval,
   Fortified), Wilson Stop — 9 limpets, 8 paid hacks × 67, 01:38–01:48, ~10 min (3 drops of 3). 25 Sept: Shui Wei
   Sector VT-R b4-5 (Lavigny-Duval, Exploited), Lounge Reach — 14 × 86, ~20 min.
@@ -411,7 +419,7 @@ specific week — the week's progress lives in §1.*
 
 ### 4.8 Power classified data (settlement data ports)
 
-*Not completed yet — this card holds what is known so far.*
+*✔ First completed 4 Nov 2026 (12 units, +5,600).*
 
 - **Recognise it:** download **Power classified data** at settlement data ports and hand it in.
 - **Ship / suit:** any ship that can land near the settlement; on-foot suit and a tool to open
@@ -471,13 +479,19 @@ specific week — the week's progress lives in §1.*
 
   - **≈1 classified in 8 downloads at the extraction site, ≈1 in 47 elsewhere.** Small samples:
     it suggests extraction settlements are better for classified (and research), not proof.
+  - **Update, 6–8 Nov — military beats it: Techno Defence Facility** (military, Tucanae Sector
+    BV-X b1-1): 52 Power data downloads → association 25.0 %, political 23.1 %, industrial
+    21.2 %, **classified 17.3 % (9)**, research 13.5 %. So the "extraction is best" hint above
+    doesn't hold: both raided sites beat the scattered early samples. Likelier explanation: the
+    early "other sites" were one-port grab-and-run downloads, the raids empty every port.
+    `../elite-loot/loot_stats.py --item powerclassified` keeps the running count.
   - About one download in ten gives 2 units instead of 1.
   - Classified data pays **no more per unit** than industrial or research (360) — its value is
     the assignment.
-- **Stats:** 9 classified units found (8 on 2 Nov); 5 handed in at Hale Gateway (Tripitaka,
-  Stronghold) on 2 Nov 13:18 — 1,800 merits. The assignment (29 Oct week) asks for **12** and
-  pays on the last one; hand-ins at Hale Gateway count (Tonton Marcel). At ≈1 in 8 downloads,
-  3 more units ≈ 25 downloads. First one: **+187 merits**, 29 Sept, **Sarana**
+- **Stats:** 1 assignment · **+5,600 merits** · 29 Oct week, completed **4 Nov 19:01** at Hale
+  Gateway (Tripitaka, Stronghold): 12 needed, 13 handed in (5 on 2 Nov 13:18, 8 more on 4 Nov
+  with 65 common data units — Rank 28 → 33). Found at Ferenczi-houlden over 2–4 Nov (≈110 data
+  items downloaded). First one: **+187 merits**, 29 Sept, **Sarana**
   (Aisling Stronghold, anarchy) — Sharma Analytics Installation (Sarana 6 a, high-tech), handed
   in at Blaha Dock. Side income from the common data: 234 merits per item handed in (27 Sept,
   Gabraceni). **7 common data items still in the ship locker** (29 Sept) — hand them in. One
@@ -553,7 +567,17 @@ specific week — the week's progress lives in §1.*
     Wababa.
   - **21 Oct: 7 `onFoot_dataTransfer` fines (500 CR each) + 1 trespass (250 CR)** with HIP 1914
     Imperial Society — every download that an NPC saw, even with the alarm disabled.
-- **Stats:** 2 assignments · +5,600 merits each · last: 21 Oct, **Techno Defence Facility**
+  - **⚠ Read where the data must come from and where it must be sold** (5 Nov week): the
+    assignment named **industrial or research data from Tucanae Sector BV-X b1-1, sold only in
+    Wababa**. On 7 Nov everything was sold at Medupe City instead — paid merits (11,520), but
+    nothing toward the assignment, restart from zero. Keep the assignment's data in the ship
+    locker until you dock in the named system, and sell nothing else there. Data from other
+    systems doesn't count either, even of the right type (the old stacks in the locker were
+    ignored).
+- **Stats:** 3 assignments · +5,600 merits each · last: 8 Nov, **Tucanae Sector BV-X b1-1 →
+  Roelofs Station, Wababa**, 9 industrial/research needed (18 of 52 downloads at Techno
+  Defence were industrial or research, ≈2 per landing): 27 units handed in at 17:32, **+17,300
+  with the bonus** — Rank 36–38. 21 Oct, **Techno Defence Facility**
   (Tucanae Sector BV-X b1-1 5, unoccupied) → Roelofs Station, Wababa — 7 association + 2
   political, **540 merits each** (4,860) — 07:05–08:08 and 11:13–11:54, **~6,000 merits/h with
   the assignment, ~2,800/h without**. 1 Oct: +5,600 merits + **5,040 for the items** (5 association, 3 political,
@@ -669,10 +693,45 @@ specific week — the week's progress lives in §1.*
     |---|---|---|---|---|
     | Shui Wei Sector VT-R b4-4 | Lavigny-Duval, Exploited | Lavigny-Duval, **Aisling** | ✔ accepted | not tried |
     | Reorte | Nakato Kaine, Exploited | Mahon, Kaine — **no Aisling** | ✘ greyed out | ✔ accepted |
+    | Tucanae Sector BV-X b1-1 (7 Nov) | Unoccupied | **Aisling** only | ✔ accepted (11 uploads) | not tried |
 
     → **Injection** where Aisling is already present (a rival system she can contest or
     acquire); **tracing** where she isn't (plain undermining). To confirm:
     - [ ] Try a tracing malware at Shui Wei Sector VT-R b4-4: greyed out = hypothesis holds.
     - [ ] Before collecting, check whether the target system's `Powers` list names Aisling.
-- **Stats:** 1 assignment · **+5,200 merits** · 26 Oct, Munshin → Heath's Quarry, 07:24–10:55.
-  In progress (29 Oct week): tracing malware at Kewell's Club, 2 uploads on 1 Nov (19:17, 19:23).
+- **Pitfall — a crash loses the upload:** on 6 Nov a crash to desktop came seconds after an
+  upload, as the alarm went off. The upload was never recorded and all the malware was back in
+  the locker at the next login. With the page file fix (§4, 7 Nov) there has been no crash since.
+- **Malware also at Medupe City:** 10 tracing + 2 injection collected there on 6 Nov — no need
+  to fly to Munshin or Kherthaje.
+- **Stats:** 3 assignments · **+5,200 merits** each · last: 7 Nov, **Techno Defence Facility**
+  (Tucanae Sector BV-X b1-1, unoccupied, military) — injection, **250 merits per upload**, 3
+  landings, undetected, paid on the **11th upload** (11:37). 2 Nov: tracing at Kewell's Club,
+  Reorte (195 per upload). 26 Oct: Munshin → Heath's Quarry, 07:24–10:55.
+
+### 4.15 Exobiology data sold in a reinforcement system
+
+- **Recognise it:** sell a given value of organic data (5 Nov week: **390,000 CR**) at Vista
+  Genomics in a system Aisling reinforces.
+- **Ship / suit:** an explorer with a **Detailed Surface Scanner** (Marco Polo) and the
+  **Artemis** suit (loadout "EXOBIO SANS ARME") with the Genetic Sampler.
+- **Run:**
+  - [ ] Pick a planet with biological signals — **Spansh** (exobiology search) beats flying
+        out to look: around the bubble, up to ≈1,400 ly out, everything is already discovered.
+  - [ ] Map it with the DSS: each genus shows as zones on the planet.
+  - [ ] Sample one species three times (log + 2 samples), at the minimum distance the sampler
+        shows between samples. Bacterium is a thin film on the ground, easy to walk past.
+  - [ ] Sell at **Medupe City, Cubeo** (Stronghold, Vista Genomics ✔). Hencke Orbital (Sorbago)
+        and Kenig City also have Vista Genomics.
+- **Pitfalls:**
+  - **Organic data is lost on death, whatever the ship** — sell before any combat (on 9 Nov the
+    Frutexa Acus was carried through a CG combat session in the Nemesis, unsold).
+  - First-logged bonus (×5) is never shown in advance: the Codex "new entry" is personal only.
+    Bodies near the bubble have been sampled by others — the planet card names who.
+  - The journal's `WasFootfalled` flag is **not reliable** (said "false" at LTT 5058 1 c, where
+    others had sampled).
+- **Value scale (9 Nov, no bonus):** Stratum Tectonicas **19,010,800** · Frutexa Acus
+  7,774,700 · Tussock Ventusa 3,227,700 · Bacterium Aurasus 1,000,000. One species covers the
+  assignment many times over.
+- **Stats:** 1 assignment · **+5,600 merits** · 9 Nov 08:40, two Stratum Tectonicas from
+  **HIP 12013 B 5 and B 6** sold at Medupe City (38.0M CR) — Rank 39.

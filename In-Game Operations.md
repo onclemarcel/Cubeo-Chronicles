@@ -903,6 +903,150 @@ Source: journal files of 2 Nov (07:31–19:37 UTC, four sessions). **+24,198 mer
 again in one day, the guards never learning; the rarest file finally turning up, eight times —
 patience as a weapon.
 
+### 3–4 November — Classified Data Paid, Rank 33, Two Theft Contracts (journal-verified)
+
+Source: journal files of 3 Nov (18:29–19:16) and 4 Nov (18:30–23:01 UTC, six sessions).
+**+39,082 merits** (203,510 → 242,592), **Aisling Rank 28 → 33**.
+
+- **Last raids at Ferenczi-houlden:** 20 downloads on 3 Nov (2 classified), 12 on 4 Nov
+  (2 classified). One *failure to submit to police* on 3 Nov.
+- **Hand-in at Hale Gateway, Tripitaka, 4 Nov 19:00–19:01:** 73 Power data units in one go
+  (18 industrial, 9 research, **8 classified**, 19 association, 19 political). The classified
+  assignment paid **+5,600**; **Rank 29, 30, 32 and 33 within 20 seconds**.
+- **Fleet home:** the Dart and the Nemesis transferred back from Chamitoff Horizons, Jaroahy, to
+  Medupe City (≈4M CR).
+- **Two covert heist contracts:** a personal computer from **Vannier Drilling Rigs** (HIP 5623,
+  for Medupe City, 66,585 CR) and a **suit schematic** from **Hakimi Manufacturing** (Guuguyni,
+  for Shen Terminal, 177,843 CR) — the schematic was the mission item, handed in, not kept.
+- **Donations:** six donation missions at Medupe City (5.75M CR).
+- **Three game crashes** (18:32, 21:50, 22:36 UTC) — see 7 Nov for cause and fix.
+
+**Raw material for future `Logbook.md` days:** a whole week of stolen files emptied onto one
+counter, the ranks clicking past faster than she can read them; then a schematic lifted from a
+factory floor for someone else's suit.
+
+### 5–6 November — CG 866 at Sorbago, a New Week at Techno Defence (journal-verified)
+
+Source: journal files of 5 Nov (17:16–18:56) and 6 Nov (17:06–18:09, 20:32–22:59 UTC).
+**+457 merits** (242,592 → 243,049). Detail: `Community Goals.md`, CG 866.
+
+- **CG 866 — "Défendez Sorbago Mastopolos Mining Inc"** (combat, Hencke Orbital, Sorbago; ends
+  **19 Nov, 11:00 UTC**): the Nemesis in the conflict zone, 1.35M + 1.40M CR in combat bonds on
+  5 Nov (Top 50 %), then **6.77M by 6 Nov 18:08 — Top 25 %**. Imperial side only — Tonton
+  Marcel's choice: no other CG this cycle.
+- **Donations, 6 Nov evening:** ≈20.8M CR of donation missions for Imperial factions in
+  Dounthiassi, Sorbago and HIP 1914.
+- **New assignments (tick of 5 Nov):** injection malware uploads **and** Power data downloads at
+  **Techno Defence Facility** (Tucanae Sector BV-X b1-1, military, the "military 3" layout with
+  5 data ports) — more guards, restricted zones, turrets, drones and ships on alarm. First run
+  with the Dart: data downloaded, 4 malware taken, one upload done as the alarm went off — then
+  **a crash to desktop (≈23:00 UTC)**. The upload was never recorded; all 12 malware were still in
+  the locker at the next login.
+- Two crashes that evening (20:47 and ≈23:00 UTC).
+
+**Raw material for future `Logbook.md` days:** a Viscountess turned soldier for an Imperial
+mining company; then a fortress full of guards, the alarm, the upload — and the world going black.
+
+### 7 November — The Crashes Fixed; Malware Done, Data Sold in the Wrong System (journal-verified)
+
+Source: journal files of 7 Nov (09:14–09:19, 10:15–11:53, 16:06–16:39, 16:49–17:40 UTC).
+**+19,470 merits** (243,049 → 262,519), **Aisling Rank 33 → 35**.
+
+- **Crash fix (technical):** six of the seven unclean exits since 24 Oct matched a Windows
+  "low virtual memory" event (EliteDangerous64 at 7–12 GB). The page file sat on the 10 GB E:
+  partition, 1–4 GB. Moved to **C:, 16–32 GB** on 7 Nov morning — commit limit 16.7 → 31.7 GB. No
+  memory warning and no crash in any session since (7–12 Nov).
+- **Malware, Techno Defence (morning):** three runs, **undetected**, 11 injection uploads (250
+  each); the assignment paid **+5,200** with the 11th — **Rank 34** (Prismatic Shields threshold).
+- **The mistake:** all the Techno data sold at **Medupe City** (+11,520 merits, Rank 35) — but the
+  second assignment wanted **industrial or research data from that system, sold only in Wababa**.
+  Restarted from zero: **9 needed**.
+- **Afternoon:** three more runs, now also looting coded lockers — **5 of 9** data, goods and
+  components to the backpack limits (40 / 60). Two fines (property theft, failure to submit),
+  1,000 CR, paid.
+
+**Raw material for future `Logbook.md` days:** the same fortress, three times, and nobody sees
+her; then the haul handed to the wrong buyer, and the whole job to do again.
+
+### 8 November — Wababa Delivered, Holoscreens, Rank 38 (journal-verified)
+
+Source: journal files of 8 Nov (10:25–10:51, 16:56–18:26 UTC). **+23,282 merits**
+(262,519 → 285,801), **Aisling Rank 35 → 38**.
+
+- **Techno Defence, two more runs:** alarms off, 9 of 9 reached.
+- **Wababa (Stronghold), Roelofs Station, 17:32:** 27 data units, **+17,300** including the
+  **+5,600** assignment bonus — Rank 36, 37 and 38.
+- **Holoscreens (Dart):** two hacks at Wilson Stop, **Chinga** (Lavigny-Duval, Fortified) — the
+  Dart, which had left the station to hack its screen, then **destroyed by the station itself**
+  (small rebuy — the reason the Dart flies these jobs). Then six hacks in **HIP 95350** (Torval
+  Stronghold) — assignment **+4,800**. Fines 10,000 CR.
+- Back to Medupe City; a new exobiology assignment taken: sell **390,000 CR** of organic data in
+  a reinforcement system.
+
+**Raw material for future `Logbook.md` days:** a rival station's own guns answering a hacked
+screen; a cheap ship lost on purpose, a plan that had already counted the loss.
+
+### 9 November — First Exobiology, 50 Million in Species; Marquis (journal-verified)
+
+Source: journal files of 9 Nov (04:15–06:00, 07:52–08:42, 08:59–11:19, 11:50–12:48 UTC).
+**+5,674 merits** (285,801 → 291,475), **Aisling Rank 39**. **Imperial Navy: Marquis.**
+
+- **Looking for the unknown (Marco Polo):** 48 jumps, up to ≈1,380 ly from Cubeo — all 256 bodies
+  scanned already discovered.
+- **HIP 12013 B 5 and B 6** (a Spansh pick): two **Stratum Tectonicas**, sold at Medupe City —
+  **19,010,800 CR each (38.0M)**, no first-logged bonus. Assignment **+5,600**, **Rank 39**.
+- **LTT 5058 1 c** (222 ly, already discovered and mapped by XCaliber_Elite): **Frutexa Acus**
+  (7,774,700), **Tussock Ventusa** (3,227,700), **Bacterium Aurasus** (1,000,000) — **12.0M CR** at
+  Kenig City, no bonus. The planet card names another CMDR who sampled first; **the journal's
+  `WasFootfalled` flag said "false" anyway — not reliable**, the planet card is.
+- **Imperial Navy rank mission:** 45 Indium to Medupe City, **4.63M CR** → **Marquis** (Earl →
+  Marquis; one step from Duke).
+- **CG 866:** 2.09M CR of combat bonds → **8.86M**, back to **Top 50 %** (contributors 1,826 →
+  3,917).
+
+**Raw material for future `Logbook.md` days:** the first time she kneels to touch something
+alive on a dead world — and every world already has someone else's footprint. A new title the
+same morning.
+
+### 9 November, afternoon — Hunting Push in Anarchy Space (journal-verified)
+
+Source: journal files of 9 Nov (13:24–13:45, 14:51–16:06, 16:19–16:46, 18:22–19:44,
+22:15–23:20 UTC). No merits.
+
+- **CG 866 first:** 1,167,166 CR of bonds at Hencke Orbital (13:44) → **10.03M**, Top 50 %.
+- **Goal:** 5 Push for Domino Green's referral to Kit Fowler.
+- **Papacosta Horticultural Exchange** (Rata Bares, anarchy) visited, no loot logged; then
+  theft runs at **Kolsuk Agricultural Centre** and **Fry Agricultural Hub** (Senones, anarchy,
+  Diamond Frogs). Kolsuk is small with guards in every corner; Fry has many lockers — **12 Hush, 5 Lazarus, 1 suit schematic, 2 manufacturing
+  instructions**, but no Push.
+- First visit to **The Jackrabbit** (Orishis) — Domino Green still *Invited* (5 Push needed).
+- **Akers Station** (Senones, anarchy) bartender: surplus sold, **4.04M CR** — including the 12
+  tracer malware and the Hush and Lazarus. Fines paid: 7,500 CR.
+
+**Raw material for future `Logbook.md` days:** a noblewoman picking locks in pirate country for a
+drug she doesn't take, to buy an introduction.
+
+### 11–12 November — Push at Last, Domino Green Unlocked (journal-verified)
+
+Source: journal files of 11 Nov (06:38–08:04) and 12 Nov (10:21–10:41 UTC). **+285 merits**
+(291,475 → 291,760).
+
+- **HR 5295** (anarchy, all settlements run by a local militia, several settlement types — a
+  system to raid regularly to learn its loot): **Barbier Tourism Complex** first, for its HAB
+  lockers — **5 Push**, plus 5 Hush and 4 Lazarus.
+- **The Jackrabbit, Orishis:** 5 Push to Domino Green → **Domino Green Unlocked**, **Kit Fowler
+  Known** (journal, 12 Nov).
+- Surplus sold (1.62M CR). Next time, use the bartender in HR 5295.
+- **Still missing for the extra backpack modification:** weapon inventory and digital designs —
+  never found in any visit so far (script, §6).
+- **CG 866:** 891,566 CR more on 12 Nov → **10.92M**, still **Top 50 %** (5,266 contributors,
+  Tier 2). Ends 19 Nov 11:00 UTC.
+- Ship scans don't check the ship locker (scanned at The Jackrabbit with drugs in the locker:
+  clean). On-foot scans do check the backpack.
+
+**Raw material for future `Logbook.md` days:** the right building, the right lockers, and the
+drug finally in her hand — traded the same day for a name.
+
 ---
 
 ## 5. ROADMAP
@@ -933,8 +1077,8 @@ satellite ticks the steps).
 
 | Gauge | Status | Target | Unlocks |
 |---|---|---|---|
-| Imperial Navy | Earl | Duke (2 promotions) | Imperial Cutter |
-| Aisling rank | Rank 15 / 96,987 merits | Rank 34 (≈247,000 merits) | Prismatic Shields |
+| Imperial Navy | **Marquis** (9 Nov) | Duke (1 promotion) | Imperial Cutter |
+| Aisling rank | **Rank 39 / 291,760 merits** (12 Nov) — rank 34 reached 7 Nov | ~~Rank 34 (≈247,000 merits)~~ ✔ | Prismatic Shields |
 | Engineering | FSD G5 accessible | Combat and defence engineers at G5, Guardian tech | All target builds, §5.7 |
 | Combat piloting | Expert (14 Oct) | Comfortable in HazRES and conflict zones | Actually usable TTK |
 | On-foot gear | Defenceless | Better suits and weapons | Ground missions, §5.2 |
@@ -1315,6 +1459,7 @@ Moved to `Shipyard.md` §3 (25 Sept 2026). Annex labels A1–A5 and B1–B9 are 
 | Coriolis / EDSY | Builds before purchase |
 | `tools/travel_stats.py` | Jump metrics per ship from the journal: jumps, ly, average / best jump, jump cadence, ly per hour of route time, scooping, neutron boosts (`--since`, `--routes`) |
 | `tools/combat_stats.py` | Combat metrics from the journal: zones, kills/h, gap and time on target, ship types and pilot ranks killed, shields lost, outcomes, per weapon fit (`--kills`, `--csv`) |
+| `../elite-loot/loot_stats.py` | Settlement loot from the journal: every on-foot visit's goods, components and data against the settlement's and system's economy, government, faction state, security… Shows where an item drops (`--item suitschematic`, `--by settlement_economy`, `--since`, `--csv`). Built 10 Nov 2026, outside this repo |
 | ED Colonisation Planner | Build order for a system |
 | EDMC / EDDiscovery | Automatic journal upload, Inara sync |
 
@@ -1323,8 +1468,8 @@ the account in settings, or pull each hull out of the hangar once with EDMC runn
 
 ---
 
-*Last updated: 11 October 2026 (journal read through 11 Oct 13:59 UTC; CG detail moved to
-`Community Goals.md`). To be completed session by session.*
+*Last updated: 13 November 2026 (journal read through 12 Nov 10:41 UTC; session logs 3–12 Nov
+added). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier
 Developments\Elite Dangerous\`) on this machine as you play — plain JSON-lines, one event per

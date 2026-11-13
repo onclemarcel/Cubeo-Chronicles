@@ -32,8 +32,8 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 | Zacariah Nemo | Ship | — | Fragment cannons (Nemesis) | Via Martuuk |
 | Professor Palin (Arque) | Ship | — | Thrusters G5 | Martuuk → Qwent, then Palin |
 | Ram Tah | Ship | — | Utilities and limpets (Phase 4) | Conditions to verify |
-| Domino Green (Orishis, The Jackrabbit) | Odyssey | Known | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | 100 ly in Apex shuttles (§3) |
-| Kit Fowler (Capoya, The Last Call) | Odyssey | — | Step on the way to Yarden Bond | Via Domino Green (5 Push), then sell 5 Opinion Polls |
+| Domino Green (Orishis, The Jackrabbit) | Odyssey | **Unlocked** (`EngineerProgress`, 12 Nov 2026) | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | Done — Apex shuttles (155 ly), 5 Push delivered 11 Nov |
+| Kit Fowler (Capoya, The Last Call) | Odyssey | **Known** (12 Nov 2026) | Step on the way to Yarden Bond | Sell 5 Opinion Polls (stock 0) |
 | Yarden Bond (Bayan, Salamander Bank) | Odyssey | — | **Heist Maverick slots 2–3** (Improved Jump Assist, Quieter Footsteps) | Via Kit Fowler (5 Surveillance Equipment), then sell 5 Smear Campaign Plans |
 | Jude Navarro (Aurai, Marshall's Drift) | Odyssey | Known | Opens Terra Velasquez; Dominator mods later | 10 restore/reactivation missions |
 | Terra Velasquez (Shou Xing, Rascal's Choice) | Odyssey | — | Opens Oden Geiger; Dominator mods later | Via Navarro (5 Genetic Repair Meds), then 6 covert theft/heist missions |
@@ -96,16 +96,25 @@ engineers); none is invited yet. The unlock *chains* are referrals: each enginee
 delivery that reveals the next one.*
 
 **Heist chain: Domino Green → Kit Fowler → Yarden Bond** (priority)
-- [ ] **Domino Green**, Orishis, *The Jackrabbit*: **travel 100 ly in shuttles**. One or two
-      Apex trips (booked at any station's Apex terminal) are enough. His suit mods: **Extra
-      Backpack Capacity** (in the build), Enhanced Tracking, Reduced Tool Battery Consumption.
-      Weapon mods: Greater Range, Stability.
-- [ ] Referral: deliver **5 Push** to Domino Green → reveals Kit Fowler. Push turns up at
-      irregular-marker surface sites and at crashed ships in low-security systems. Stock on
-      3 Nov: 0.
+- [x] **Domino Green**, Orishis, *The Jackrabbit*: **travel 100 ly in shuttles** — done (155 ly
+      of Apex trips in the journal; *Invited* by 7 Nov). His suit mods: **Extra Backpack
+      Capacity** (in the build), Enhanced Tracking, Reduced Tool Battery Consumption. Weapon
+      mods: Greater Range, Stability. **Unlocked** after the Push delivery (`EngineerProgress`,
+      12 Nov). Talk to him in his workshop: landing and leaving within 5 minutes (9 Nov) didn't
+      move his status.
+  - [ ] **Extra Backpack Capacity — materials missing:** **Weapon Inventory** and **Digital
+        Designs** (Tonton Marcel, 11 Nov). Neither has turned up in any of the 82 visits logged
+        so far, including 17 at military settlements — try other settlement types and bartender
+        stock (`On-Foot.md` §2.1).
+- [x] Referral: **5 Push** delivered to Domino Green, 11 Nov → **Kit Fowler Known**. Where the
+      Push came from: **HAB building lockers at a tourism settlement in an anarchy system** —
+      Barbier Tourism Complex, HR 5295, 5 Push in one visit (11 Nov). Agricultural sites in
+      Senones (Kolsuk, Fry) gave Hush and Lazarus but no Push (9 Nov). The only earlier Push: 4
+      from a heist-mission secret cache, Koller (anarchy), April 2023.
 - [ ] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders. Stock on
-      3 Nov: 0. Not needed for his own mods (melee, ammo, shield regen).
+      12 Nov: 0 — never found yet. Not needed for his own mods (melee, ammo, shield regen).
 - [ ] Referral: deliver **5 Surveillance Equipment** to Kit Fowler → reveals Yarden Bond.
+      **Stock on 12 Nov: 7 ✔** (Techno Defence Facility lockers) — keep them, don't sell.
 - [ ] **Yarden Bond**, Bayan, *Salamander Bank*: **sell 5 Smear Campaign Plans** to bartenders.
       Her suit mods: **Quieter Footsteps** and **Improved Jump Assist** (both in the build),
       Combat Movement Speed. Weapon
@@ -116,9 +125,10 @@ delivery that reveals the next one.*
       same missions as `On-Foot.md` §3 Phase 1, so run them as one task. His mods: Damage
       Resistance, Extra Ammo, Melee, Magazine Size, Reload Speed.
 - [ ] Referral: **5 Genetic Repair Meds** (locked medical lockers at settlements) → Terra Velasquez.
+      Stock on 12 Nov: 0, never found yet (*Traitement gravitationnel* / G-Meds is a different item).
 - [ ] **Terra Velasquez**, Shou Xing, *Rascal's Choice*: **6 covert theft and/or covert heist
-      missions**. One covert heist was already done on 29 Sept (`On-Foot.md` 4.3); whether
-      missions run before she is revealed count toward the 6 is unconfirmed. Her mods: Combat
+      missions**. Three covert heists already done — 29 Sept and two on 4 Nov (`On-Foot.md`
+      4.3); whether missions run before she is revealed count toward the 6 is unconfirmed. Her mods: Combat
       Movement Speed, Sprint, Air; Noise Suppressor, Hip-Fire Accuracy.
 - [ ] Referral: **15 Financial Projections** → Oden Geiger.
 - [ ] **Oden Geiger**, Candiaei, *Ankh's Promise*: **sell 20 Biological Samples / Employee
@@ -129,6 +139,10 @@ delivery that reveals the next one.*
 **Later / not planned**
 - Hero Ferrari, Siris: 10 surface conflict zones. Arrives with `On-Foot.md` §3 Phase 3
   (Frontline CZs); his 5 Settlement Defence Plans referral opens Wellington Beck → Uma Laszlo.
+  Stock on 12 Nov: 0 (*Settlement Assault Plans* are a different item).
+- **Finding referral items:** `../elite-loot/loot_stats.py` (§6 of `In-Game Operations.md`)
+  lists where each item has dropped so far, by settlement type, government and faction state —
+  e.g. `--item push`, `--item geneticrepair`.
 - Colonia (Baltanos, Eleanor Bresa, Rosa Dayette, then Yi Shen): out of range, 22,000 ly.
 - Also flagging: **Liz Ryder** (ship engineer, missile specialist — needed for the Dart's "High
   Capacity" missile blueprint, annex A2) is likewise only "Known," not yet invited.

@@ -94,6 +94,35 @@ Stop and let the scan finish. **If you are carrying a cloned profile, drop the c
 before the scan** to avoid the fine, then re-clone another NPC afterwards (learned at Kewell's
 Club, §5.2).
 
+**Scans — what they check, and how to live with them** (Tonton Marcel, 11 Nov; journal-checked)
+- **On-foot scans check the backpack**, and they happen almost every time a guard is nearby, so
+  hide-and-seek with guards is the rule. **Ship scans check the cargo hold only, not the ship
+  locker**: scanned arriving at The Jackrabbit (11 Nov) with Hush, Lazarus and Push in the
+  locker — all clear.
+- **Never get scanned with stolen goods or Power malware in the backpack.** Take only the malware
+  the run needs from the locker (4 at a time at Techno Defence): a failed scan then costs less.
+  Journal: the scanned run of 6 Nov ended in an identity theft fine and an attack; the three
+  clean runs of 7 Nov carried malware and stolen data with no fine at all.
+- **Scan-cooldown trick for narrow spots** where you can't hide: walk past the guard openly
+  with no credentials (clean scan), go back to the level-3 NPC and clone them, then pass the
+  guard again openly — guards usually don't scan twice in a short time. "Short" is short:
+  30 s is already long. Only works with nothing stolen in the backpack.
+- **Coded lockers fill the backpack fast** (7–8 Nov, Maverick G2): goods stop at **40** and
+  components at **60** per landing. Pick what you loot (§2.1 shopping list) instead of emptying
+  everything.
+
+**Settlement type and risk** (journal, Sept–Nov 2026, on-foot crimes per visit; small samples,
+and the looting style changed on 7 Nov)
+
+| Settlement type | Visits | Crimes per visit | Who's inside |
+|---|---|---|---|
+| **Extraction** | 17 | **0.29** | Few guards, many workers and technicians who don't scan — the easiest raids |
+| Agricultural | 16 | 0.44 | Scientists and technicians; one or two guards (§5.3) |
+| Tourism | 10 | 0.60 | Guards, pilots, mercenaries in the HABs — someone is always nearby (§5.2, §5.5) |
+| Military | 17 | 0.71 | Many guards, restricted zones, small rooms, turrets/drones/ships on alarm (§5.4) |
+
+High-tech (4 visits, 4.5 per visit) is skewed by one massacre mission (15 murders, 29 Sept).
+
 **Where this fits in the plan:** the zero-risk steps (1–2, still pending — the 21 Sept session
 played wreck-salvage and settlement-collect missions instead, see §4) sit in **Phase 1** alongside
 the other risk-free grinding, since they need no rank/gear and plausibly feed the same
@@ -106,7 +135,8 @@ cut-the-reactor) sits in **Phase 3**, timed to match the rising ship-combat conf
 ## 2. GEAR
 
 - **On-foot gear** (suit/weapon engineering follows a track separate from ship engineering):
-  - **Artemis** for exobiology (Phase 2, §5.4);
+  - **Artemis** for exobiology (Phase 2, §5.4) — in use: G1, loadout "EXOBIO SANS ARME",
+    Genetic Sampler, first species sampled 9 Nov 2026 (`Powerplay Missions.md` card 4.15);
   - **Maverick** for sabotage and PP data;
   - **Dominator** for on-foot combat (Phase 3, §5.4).
 
@@ -152,9 +182,12 @@ is worth more than cheaper tools).*
   the Dominator, not here.
 
 **Roadmap**
-- [ ] **Stage A — Domino Green, slot 1 (now).** Unlock him (100 ly in Apex shuttles), then
+- [ ] **Stage A — Domino Green, slot 1 (now).** ✔ Domino Green **unlocked** (12 Nov). Next:
       apply **Extra Backpack Capacity** to the current G2. Cheapest step, and it pays off at once
-      on PP download runs.
+      on PP download runs. **Blocked on two data items: Weapon Inventory and Digital Designs**
+      (Tonton Marcel, 11 Nov) — never found yet in any settlement visit (`../elite-loot/
+      loot_stats.py --item weaponinventory`). Next tries: other settlement types in HR 5295,
+      every data port even without Power data, bartender stock.
 - [ ] **Stage B — G3 and G4, slots 2–3.** Raise the suit to G3, then G4, at Pioneer Supplies.
       A bought suit starts with no mods, so raising the modded one is better. Once the Domino
       Green → Kit Fowler → Yarden Bond chain is done (`Engineers & Materials.md` §3), apply
@@ -170,9 +203,13 @@ is worth more than cheaper tools).*
 - **Grade raises** (exact counts are shown by the Pioneer Supplies storekeeper): before Update
   18.08, the G5 step alone cost 15 each of **Suit Schematic, Health Monitor, Power Regulator,
   Manufacturing Instructions**, with smaller amounts for the lower steps. Community reports say
-  18.08 cut Odyssey upgrade costs to about a quarter. Stock on 3 Nov: Suit Schematic **0**,
-  Health Monitor 7, Power Regulator 3, Manufacturing Instructions **0**. **Suit Schematics and
-  Manufacturing Instructions are the real gaps.**
+  18.08 cut Odyssey upgrade costs to about a quarter. Stock on 12 Nov (ship locker): Suit
+  Schematic **1**, Health Monitor **10**, Power Regulator 3, Manufacturing Instructions **2**.
+  **Suit Schematics are the real gap** (Tonton Marcel: mostly data and suit schematics missing
+  for the four suits to G5).
+  - ⚠ **Don't sell Health Monitors:** 39 went to the Akers Station bartender on 9 Nov with the
+    surplus — they're one of the four grade-raise items. Keep all four kinds out of bartender
+    sales.
 - **Mods:** about 500,000–750,000 CR each, plus materials. Improved Battery Capacity, for
   example: 5 Reactor Output Review, 8 Maintenance Logs, 3 Ion Battery, 5 Micro Supercapacitor,
   5 Electrical Wiring, 750,000 CR (wiki figure, possibly from before 18.08). Stock on 3 Nov:
@@ -192,7 +229,12 @@ is worth more than cheaper tools).*
 3. **Settlement data ports and lockers** during the PP download runs already planned: grab
    ordinary data and items while you're inside, once the Power data is in the backpack (only
    with no witnesses, §1). Suit Schematics come from lockers; Manufacturing Instructions
-   from data ports, mostly at industrial settlements.
+   from data ports, mostly at industrial settlements. **Our finds so far** (journal, script
+   `../elite-loot/loot_stats.py`): the only kept Suit Schematic and both Manufacturing
+   Instructions came from **Fry Agricultural Hub** (Senones, anarchy, 9 Nov); a second Suit
+   Schematic, from Hakimi Manufacturing (industrial), was a heist-mission item and went to the
+   client. A settlement keeps giving the same locker loot visit after visit (Techno Defence,
+   §5.4), so new items mean new settlements, not more visits.
 4. **Bartender:** barter surplus components (Circuit Switch 38, Metal Coil 34, Memory Chip 29
    are well stocked) for the missing ones. Selling data to a bartender is also how several
    engineers unlock (`Engineers & Materials.md` §3).
@@ -209,7 +251,8 @@ is worth more than cheaper tools).*
       materials.
 
 **Phase 2** (moved from §5.4)
-- [ ] On-foot gear: Artemis suit + Genetic Sampler (exobiology).
+- [x] On-foot gear: Artemis suit + Genetic Sampler (exobiology) — in use since 9 Nov 2026,
+      5 species sampled that day (`Powerplay Missions.md` card 4.15).
 
 **Phase 3 — first real risk** (moved from §5.4)
 - [ ] On-foot: **Frontline conflict zones** first (§5.2 step 5) — allies nearby, free respawns,
@@ -263,7 +306,12 @@ faction before landing. On a heist a scan alone is not stealth: being challenged
 submitting is logged as a crime and turns the site hostile (§5.2 step 3, *cut the reactor first*,
 is still the untried fix).
 
-- **Stats:** 2 runs · 1 failed, 1 success · last: 29 Sept, **Simon Biochemical Forum**
+- **Stats:** 4 runs · 1 failed, 3 success · last: 4 Nov, two covert heists
+  (`Mission_OnFoot_Heist_Covert_MB`): a personal computer from **Vannier Drilling Rigs** (HIP
+  5623, extraction), for Medupe City, 66,585 CR (21:12); a **Suit Schematic** from **Hakimi
+  Manufacturing** (Guuguyni, industrial), for Shen Terminal, 177,843 CR (22:46) — the stolen item
+  goes to the client. Three covert heists done in all — they may count toward Terra Velasquez's 6
+  (`Engineers & Materials.md` §3). 29 Sept, **Simon Biochemical Forum**
   (Sarana 6 b, high-tech, anarchy faction) — covert variant (`Mission_OnFoot_Heist_Covert_MB`),
   biological samples stolen, 191,735 CR + data materials (offer 314,235 CR; the difference is
   the materials reward option).
@@ -438,3 +486,51 @@ results.
 2 Power goods (data storage device, military plan, handed in for 92 merits each on 2 Nov) and
 consumables from lockers; 1 failure-to-submit fine (11:05) · 2 Nov 10:08–10:34: 5 downloads, 6
 units, all common data.
+
+### 5.4 Techno Defence Facility (military layout)
+
+- **Where:** Tucanae Sector BV-X b1-1 5, **unoccupied** (only Aisling present), one jump from
+  Cubeo. Owner: **HIP 1914 Imperial Society** — a Navy-rank faction, so every fine hurts a
+  relationship you're building. Used for Power data (`Powerplay Missions.md` cards 4.8, 4.11)
+  and injection malware (card 4.14).
+- **Map: "Military 3"** on Odyssey Site Maps (chosen by Tonton Marcel, 6–7 Nov): **5 data
+  ports**.
+- **Population: the hardest so far.** More guards, more restricted zones, smaller rooms; outside
+  turrets, drones and ships swarm when the alarm goes off. The bar's data port needs no clearance
+  (21 Oct).
+- **Alarm:** console in the command building (21 Oct, §1 "Play-tested"). With the alarm off,
+  turrets, drones and ships stay quiet; NPCs who see a download still fire.
+
+**Yield per landing** (journal, 9 landings 6–8 Nov): **5–7 Power data** (52 in all: association
+13, political 12, industrial 11, **classified 9**, research 7), plus ordinary data (shareholder
+information, patient history, medical records, political affiliations, pharmaceutical patents,
+faction donator lists), and from coded lockers the backpack's **40 goods / 60 components**.
+Locker loot is **the same set every visit**: ion batteries, graphene, memory chips, circuit
+switches, optical lenses, epoxy, metal coils; compact libraries, personal computers, Insight
+goods, G-Meds, health monitors; **Surveillance Equipment** (7 so far, Kit Fowler's referral
+item, `Engineers & Materials.md` §3).
+
+**Stats** (journal): 6 Nov evening, 2 landings (data, one upload lost to a crash ≈23:00) · 7 Nov
+10:19–11:44, 3 landings,
+**undetected**, 11 malware uploads (assignment paid) · 7 Nov 16:13–17:37, 3 landings with
+locker looting — property theft (17:09) and failure to submit (17:28), 500 CR each · 8 Nov
+10:29–10:50 and 16:58–17:26, 2 landings, alarms off, no fine.
+
+### 5.5 Anarchy loot sites — Senones and HR 5295
+
+*Push and illegal goods hunt, 9–11 Nov (`Engineers & Materials.md` §3). Anarchy stations have
+bartenders who buy stolen and illegal goods (Akers Station, 9 and 11 Nov).*
+
+- **Kolsuk Agricultural Centre** (Senones 1, Diamond Frogs): very small; guards wait in the
+  corners while you wait for a level-3 NPC to turn their back. 2 visits, 12 items. Not worth it.
+- **Fry Agricultural Hub** (Senones 1, Diamond Frogs): **many lockers** — 2 visits, ≈120 items:
+  12 Hush, 5 Lazarus, 1 **Suit Schematic**, 2 **Manufacturing Instructions**, Power goods, no
+  Push.
+- **Barbier Tourism Complex** (HR 5295, anarchy, every settlement run by a local militia):
+  picked for its **HAB building lockers** — **5 Push** in one visit (11 Nov), plus 5 Hush and 4
+  Lazarus. Tourism population: guards, pilots, mercenaries in the HABs, a scan risk everywhere
+  (§1).
+- **HR 5295 has several settlement types** — raid each in turn to learn what it drops (the
+  script records it). The system has its own bartender: sell the surplus there instead of
+  flying to **Akers Station, Senones** (anarchy, bartender used 9 and 11 Nov).
+- Papacosta Horticultural Exchange (Rata Bares, anarchy) was visited on 9 Nov: no loot logged.
