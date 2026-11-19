@@ -182,13 +182,21 @@ is worth more than cheaper tools).*
   the Dominator, not here.
 
 **Roadmap**
-- [ ] **Stage A — Domino Green, slot 1 (now).** ✔ Domino Green **unlocked** (12 Nov). Next:
+- [x] **Stage A — Domino Green, slot 1 — ✔ done 19 Nov 2026:** **Extra Backpack Capacity**
+      applied at The Jackrabbit, Orishis (journal `SuitMods: suit_backpackcapacity`, 20:45).
+      History: ✔ Domino Green **unlocked** (12 Nov). Then:
       apply **Extra Backpack Capacity** to the current G2. Cheapest step, and it pays off at once
       on PP download runs. **Blocked on two data items: Weapon Inventory and Digital Designs**
-      (Tonton Marcel, 11 Nov) — never found yet in any settlement visit (`../elite-loot/
-      loot_stats.py --item weaponinventory`). Next tries: other settlement types in HR 5295,
-      every data port even without Power data, bartender stock.
-- [ ] **Stage B — G3 and G4, slots 2–3.** Raise the suit to G3, then G4, at Pioneer Supplies.
+      (Tonton Marcel, 11 Nov), 5 of each. **First of each found 16 Nov** (21:25 and 21:26 UTC),
+      both from **Dias's Territory** data ports (Sorbago, extraction) during a Power data raid:
+      **1/5 each**. **Digital Designs done 18 Nov: 15 from a covert assassination mission's
+      materials reward (19/5).** **Weapon Inventory done 18 Nov: 15 from a sabotage mission
+      (16/5).** ✔ **Unblocked** — on the way to Domino Green (Orishis, The Jackrabbit) the same
+      evening to apply Extra Backpack Capacity.
+- [ ] **Stage B — G3 and G4, slots 2–3 (now).** Next gate: **5 Opinion Polls** for Kit Fowler
+      (`Engineers & Materials.md` §3) — never found yet; filter mission rewards for them, check
+      bartender stock, and the data ports (EDOMH says which settlement types hold them).
+      Raise the suit to G3, then G4, at Pioneer Supplies.
       A bought suit starts with no mods, so raising the modded one is better. Once the Domino
       Green → Kit Fowler → Yarden Bond chain is done (`Engineers & Materials.md` §3), apply
       **Improved Jump Assist** and **Quieter Footsteps** at Yarden Bond, in one visit.
@@ -198,6 +206,50 @@ is worth more than cheaper tools).*
 - [ ] **Stage D — later, only if armed PP assignments appear:** a suppressed sidearm. Stealth
       mods for it: **Audio Masking** (Yarden Bond), **Noise Suppressor** (Hero Ferrari, Terra
       Velasquez).
+
+**Update 18 Nov 16:14 (`ShipLocker.json`, after five materials-reward missions, §4.6):** Suit
+Schematic **22/12 ✔**, Digital Designs **19/5 ✔**, Tactical Plans **13/5 ✔**, Topographical
+Surveys **5/5 ✔**, Carbon Fibre Plating **29/28 ✔**. **Still short:** Manufacturing
+Instructions 7/12 (**5**), Weapon Inventory 1/5 (**4**), Maintenance Logs 4/8 (**4**), Reactor
+Output Review 3/5 (**2**), Patrol Routes 3/5 (**2**). **Confirmed by Inara the same evening**
+(identical counts; G-Meds down to 10/5, still covered). **Weapon Inventory 16/5 ✔ the same
+evening (§4.6). 13 items short, four kinds:** filter the next materials missions for
+**Manufacturing Instructions (5), Maintenance Logs (4), Reactor Output Review (2), Patrol
+Routes (2)**. Inara still plans from
+G1 (the suit is G2). The table below is the 16 Nov baseline.
+
+**Status of the whole build, 16 Nov 2026** (Inara wishlist "Maverick Heist": the 4 mods + grade
+raises, checked by Tonton Marcel; "have" from the journal's `ShipLocker.json`, 16 Nov 21:55
+UTC, which is a little fresher than Inara). ⚠ Inara's plan reads **Grade 1 → 5**, but the suit
+is already **G2** (journal `SuitLoadout`, `utilitysuit_class2`): set the start grade to 2 on
+Inara — the grade-raise items (Suit Schematic, Manufacturing Instructions, Health Monitor…) may
+then drop a little.
+
+| Still missing | Need | Have | Short | Found so far (`../elite-loot/loot_stats.py --item …`) |
+|---|---|---|---|---|
+| Suit Schematic (`suitschematic`) | 12 | 5 | **7** | lockers: industrial, agricultural (Fry Agricultural Hub), extraction |
+| Manufacturing Instructions (`manufacturinginstructions`) | 12 | 5 | **7** | data ports: agricultural, industrial; once extraction |
+| Weapon Inventory (`weaponinventory`) | 5 | 1 | **4** | Dias's Territory data port, 16 Nov — only find |
+| Digital Designs (`digitaldesigns`) | 5 | 1 | **4** | Dias's Territory data port, 16 Nov — only find |
+| Tactical Plans (`tacticalplans`) | 5 | 0 | **5** | never found — not in 11 military visits either |
+| Reactor Output Review (`reactoroutputreview`) | 5 | 2 | **3** | extraction data ports (2 of 9 visits) |
+| Maintenance Logs (`maintenancelogs`) | 8 | 4 | **4** | extraction, industrial data ports |
+| Topographical Surveys (`topographicalsurveys`) | 5 | 3 | **2** | agricultural, extraction |
+| Patrol Routes (`patrolroutes`) | 5 | 3 | **2** | before 7 Nov (source not logged by the script) |
+| Carbon Fibre Plating (`carbonfibreplating`) | 28 | 21 | **7** | component — lockers and crates |
+
+**Covered — keep, don't sell to a bartender until the mods are applied:** Health Monitor 15/12,
+Chemical Inventory 15/5, G-Meds 14/5, **Settlement Assault Plans 3/3 (exactly enough)**,
+Graphene 35/28, Epoxy Adhesive 28/5, Memory Chip 40/3, Ion Battery 32/3, Micro Supercapacitor
+20/5, Electrical Wiring 20/5, Micro Thrusters 26/3, Motor 20/5, Micro Hydraulics 17/3,
+Viscoelastic Polymer 32/8. Surplus above those lines can still be bartered for the missing
+items.
+
+**Where to look next:** extraction settlements cover most of the data gaps (Weapon Inventory,
+Digital Designs, Reactor Output Review, Maintenance Logs) — the classified-data raids already
+go there, so empty every data port and every locker on the way. Suit Schematics and
+Manufacturing Instructions: industrial and agricultural sites. Tactical Plans: nowhere yet —
+try the bartender, and EDOMH's settlement tables (below).
 
 **Micro-resource shopping list**
 - **Grade raises** (exact counts are shown by the Pioneer Supplies storekeeper): before Update
@@ -218,7 +270,8 @@ is worth more than cheaper tools).*
 - **Planning tool:** *Elite Dangerous Odyssey Materials Helper* (EDOMH, GitHub
   `jixxed/ed-odyssey-materials-helper`) reads the same journal files and turns a wishlist
   (suit grades + mods) into an exact shopping list, including which settlement type drops what.
-  Simpler than keeping counts here by hand.
+  Simpler than keeping counts here by hand. **Inara's wishlist now does the same job** (16 Nov
+  status above).
 
 **Where the materials come from** (cheapest first)
 1. **Mission rewards, materials option:** on-foot missions already paid Weapon Schematics and
@@ -334,6 +387,39 @@ is still the untried fix).
   high-tech) for The Eldaren — 18,863 CR + 14× Weapon Schematic (offer 308,863 CR; the
   materials option was taken again).
 
+### 4.6 Missions for materials — the concourse board (18 Nov)
+
+- **Recognise it:** any on-foot mission whose reward screen offers **micro-resources** instead of
+  most of the credits. Sort the board by material rewards; Krenkel Terminal (Calea, Aisling
+  Stronghold) had five worth taking on 18 Nov.
+- **Why it beats raiding for rare items:** each mission pays **12–15 units of one item** (or
+  2–3 for the easy ones), against one unit per lucky locker or port. 18 Nov: 17 Suit
+  Schematics, 15 Digital Designs and 12 Tactical Plans in ≈3 h.
+- **Pitfalls (Tonton Marcel):**
+  - **Covert missions (`…_Covert_MB`): one attempt only** — caught (or the target alarmed) =
+    mission failed, reward lost. **Plain ones are forgiving:** the non-covert sabotage at Zambo
+    Horticultural Biosphere (18 Nov evening) survived being caught several times — three
+    landings, one fine, then success. Prefer the non-covert version when the board offers
+    both.
+  - The target settlements are often ones where **the alarm is hard to switch off** — scout
+    the alarm panel and the authorisation switch first (§1, settlement maps §5).
+  - Taking the materials costs most of the credits (e.g. 229,837 → 69,837 CR) — irrelevant at
+    5 bn CR.
+- **Stats (18 Nov, all for the materials option):**
+
+  | Mission (journal name) | Giver | Where | Reward |
+  |---|---|---|---|
+  | Wreck salvage (`Mission_OnFoot_Salvage_MB`) | Daily Routine Inc. | wreck, Calea AB 1 c | 3 Suit Schematic |
+  | Package to a contact (`Mission_OnFoot_Delivery_Contact_MB`) | Daily Routine Inc. | Collinson Arms Base (military), Calea | 2 Suit Schematic |
+  | Covert assassination (`Mission_OnFoot_Assassination_Covert_MB`) | Daily Routine Inc. | Oladoyinbo Nurseries (agricultural), Jeterait | **15 Digital Designs** |
+  | Heist, secret cache (`Mission_OnFoot_Heist_POI_MB`) | Calea Imperial Society | ICZ KC-U b3-4 6 a | **12 Tactical Plans** |
+  | Covert production sabotage (`Mission_OnFoot_Sabotage_Production_Covert_MB`) | Daily Routine Inc. | Biggs Chemical Assembly (industrial), ICZ FB-X c1-25 | **12 Suit Schematic** |
+
+  | Production sabotage, plant a pathogen (`Mission_OnFoot_Sabotage_Production_MB`) | Samebito Purple Advanced Co. | Zambo Horticultural Biosphere (agricultural, Agriculture 3), Marki | **15 Weapon Inventory** (evening, 3 landings) |
+
+  6 of 6 successful. The covert assassination and the sabotages pay the most; the secret-cache
+  heist was the quickest (≈6 min on site).
+
 ---
 
 ## 5. SETTLEMENT ROUTES
@@ -386,6 +472,24 @@ reports), so check them on the first visit.
 8. **PWR, last: the difficult one.** 2 NPCs in a small area, on two different patrol cycles.
    It's where most of the catches (download or trespass) happen (**port 8**).
 9. Back to the ship, lift off, come straight back for the next landing.
+
+**Classified data by port** (journal, 2–4 Nov, download order mapped onto this route —
+uninterrupted runs only): CMD ports 1–2 **6 / 21**, HAB ports 3 and 5 2 / 20, EXT port 4
+**4 / 10**, STO and PWR ports 6–8 **0 / 31**. **Confirmed 18 Nov at a second settlement of the
+same layout** (below): classified only from **CMD and EXT**. For classified data, run **CMD →
+HAB → EXT → HAB** and re-land; skip STO and PWR (`Powerplay Missions.md` card 4.8).
+
+**Same layout elsewhere — how to find one** (Tonton Marcel, 17 Nov): Inara settlement search,
+**extraction + large pad**, then the in-game size marker **(+)** — only two layouts are left.
+Found: **Auclair Metallurgic Base** (Angi A 3 a, The Order of Mobius; Angi is **Torval
+Exploited**, so its Power data counts for undermining assignments, not acquisition ones).
+Same route, same ports: 4 runs on 18 Nov, 21 downloads, **4 classified** (CMD 2 / 4, EXT 2 / 6,
+HAB 0 / 8, STO + PWR 0 / 3). Fines with The Order of Mobius: trespass and data transfer
+(750 CR). Hand-in at Crossfield Market, Marki (one jump).
+- **Auclair's EXT port:** a technician walks a short patrol in the port's room — about **40 s**
+  hidden, no more. **Split the download in two**: start, break off before being seen, hide,
+  finish on the next window. The journal shows it as two downloads from the same port, and
+  either half can give the classified (18 Nov: one of each).
 
 **Pitfalls and fixes**
 - **PWR timing:** the tempting moment, both backs turned, often comes when one of them has
@@ -534,3 +638,33 @@ bartenders who buy stolen and illegal goods (Akers Station, 9 and 11 Nov).*
   script records it). The system has its own bartender: sell the surplus there instead of
   flying to **Akers Station, Senones** (anarchy, bartender used 9 and 11 Nov).
 - Papacosta Horticultural Exchange (Rata Bares, anarchy) was visited on 9 Nov: no loot logged.
+
+### 5.6 Dias's Territory (extraction layout) — Sorbago
+
+- **Where:** Sorbago A 2, Magnates of Cemiess; Sorbago is **Torval Exploited**, so its Power
+  data counts for undermining assignments (classified, `Powerplay Missions.md` card 4.8) but
+  **not** for acquisition ones (card 4.11). Hand-in at Crossfield Market, **Marki** (Aisling
+  Stronghold, two jumps). One hop from the CG 866 conflict zones and Hencke Orbital.
+- **Data ports: 7** (Tonton Marcel) — 7 downloads per raid on 16 Nov, plus Power containers.
+- **Loop:** dock on the settlement's own pad, empty the ports, lift off, drop back in:
+  **≈17–21 min per raid** (three raids on 16 Nov: 15:41–16:02, 16:06–16:22, 16:38–16:55).
+- **Fines with Magnates of Cemiess:** failure to submit to police, data transfer (500 CR each) —
+  a faction she also donates to (9.25M on 15 Nov, 9.75M on 16 Nov).
+- **Layout:** **not** the Ferenczi-houlden one (7 ports, not 8) — the likely reason classified
+  data is so rare here (`Powerplay Missions.md` card 4.8).
+- **Stats:** 9 raids (15–17 Nov) · 57 Power data downloads · **3 classified (5.3 %)** against
+  17 % at the other extraction and military sites — ≈1.6 % odds of being that bad by luck. **Poor
+  for classified**, most likely the layout/ports rather than the system (card 4.8). Still good
+  for the common Power data (association, political, industrial) and quick to raid — and the
+  **only source so far of Weapon Inventory and Digital Designs** (one each, 16 Nov 21:25–21:26),
+  the Maverick's first-mod blockers (§2.1).
+
+### 5.7 Zambo Horticultural Biosphere (agricultural layout 3, size ++) — Marki
+
+- **Where:** Marki 2, Daily Routine Incorporated; Marki is an **Aisling Stronghold** (its Power
+  data won't count for undermining). Hand-ins at Crossfield Market in the same system.
+- **Layout:** Odyssey Site Maps **"Agriculture 3"**, size **(++)** — "a big labyrinth" (Tonton
+  Marcel, 18 Nov). First time on this layout.
+- **Played for:** a production-sabotage mission — switch the alarm off, then plant the pathogen
+  in the **biological area**. Three landings before a patient route through to the alarm and
+  the bio area worked; note it in detail on the next visit.

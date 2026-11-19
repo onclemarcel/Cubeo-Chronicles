@@ -1,5 +1,5 @@
 # OPERATIONAL GUIDE — CMDR ONCLEMARCEL
-## Campaign memory — status as of 2 November 2026 (3312), journal read through 2 Nov 19:37 UTC
+## Campaign memory — status as of 19 November 2026 (3312), journal read through 19 Nov 20:56 UTC
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
 > Restructured 23 September 2026 per Tonton Marcel's review (`Reviews.md`): fleet table
@@ -30,9 +30,9 @@
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Mostly Defenceless** (since 29 Sept 2026) |
 | Imperial Navy rank | **Earl** (promoted 17 Oct 2026, 20:43 UTC) — **48 %** toward Marquis (27 Oct 17:58) |
-| Power | Aisling Duval — pledged, **Rank 28 / 203,510 merits** (2 Nov, 18:24 UTC login) — ≈43,500 to rank 34 |
+| Power | Aisling Duval — pledged, **Rank 51 / 386,198 merits** (18 Nov 2026, 09:17 UTC) — rank 40 on 14 Nov, 41 on 15 Nov, 42–48 on 16 Nov, 49–51 on 18 Nov |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈5,209,700,000 CR** (1 Nov 2026, 18:32 UTC `LoadGame`). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
+| Treasury | **≈5,471,900,000 CR** (19 Nov 2026, 20:29 UTC `LoadGame`; +268M since 18 Nov, most likely the CG 866 reward). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -55,7 +55,7 @@ nothing more is added.
 | **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Back at Medupe City since 29 Oct** (CG 864 at Homer Platform, AD Leonis, 24–29 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **Retiring** (decided 7 Oct): the Marco Polo flies the Guardian expedition. **DSS removed and moved to the Marco Polo, 8 Oct.** Last `Loadout` (8 Oct): **53.6 ly**. FSD 5A Increased Range G5 + Deep Charge · Thrusters Dirty Drive G3 + Overloaded · Power Plant 5A Armoured G1 · Fuel Scoop 6A · Planetary hangar 2D · Shield 5D · 20 t cargo · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher; rescue-run weapons possibly still fitted (2× pulse laser, dumbfire racks — check before storing). Next: strip and store at the Medupe City museum (`Shipyard.md`). |
 | **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). **19 Oct `Loadout`:** 208 t of cargo racks, 6A fuel scoop, multi-drone controller, planetary hangar, DSS Expanded G5, FSD Increased Range G5 — **341.5 t, 66.5 ly**. |
-| **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32).* **Multi-Cannon (Large, Gimballed), Overcharged G5** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** (McQuinn; no experimental yet) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Shield 6A, Reinforced G5 + Hi-Cap** (Lei Cheung) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **4× Hull Reinforcement 5D** · Module Reinforcement 4D + **3D** (24 Oct) + 2E + 1E · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
+| **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32); Prismatic and limpets 13 Nov (journal `Loadout` 14 Nov 14:12).* **Multi-Cannon (Large, Gimballed), Overcharged G5 + Auto Loader** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** — 2× Corrosive Shell + 1× Incendiary (McQuinn, experimentals 19 Oct) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Prismatic Shield 6A, Reinforced G5 + Hi-Cap** (bought 13 Nov at Hencke Orbital, 23,662,565 CR; the old 6A Reinforced G5 + Hi-Cap shield is stored there) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **4× Hull Reinforcement 5D** · Module Reinforcement 2E + 1E (the 4D and 3D stored 13 Nov) · **Cargo Rack 4E (16 t) + Recon Limpet Controller 3E** (13 Nov, for holoscreens) · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
 
 **In storage:** Modified Mining Laser 1A, pre-engineered grade 5, at LHS 3872 [Curbeam Hub] —
 Class 1 hardpoint (incompatible with any Clipper); to retrieve when a compatible hull is fitting
@@ -1047,6 +1047,284 @@ Source: journal files of 11 Nov (06:38–08:04) and 12 Nov (10:21–10:41 UTC). 
 **Raw material for future `Logbook.md` days:** the right building, the right lockers, and the
 drug finally in her hand — traded the same day for a name.
 
+### 13–14 November — The Prismatic Fitted, Medium Conflict Zones, Holoscreens at Dalgarno Colony (journal-verified)
+
+Source: journal files of 13 Nov (20:33–21:41 and 21:43–22:47 UTC) and 14 Nov (14:11–14:46 UTC),
+plus Tonton Marcel's report of 14 Nov. **+5,863 merits** (291,703 → 297,566), **Aisling Rank 40**
+(14 Nov 14:16). The 12 Nov total of 291,760 was 57 too high: the 13 Nov `Powerplay` login line
+says 291,703 (one donation counted twice, the same journal glitch as cards 4.12/4.13).
+
+- **The Prismatic, 13 Nov:** bought at **Hencke Orbital** (Sorbago), 23.66M CR, fitted in the
+  Marco Polo for the trip (in place of an AFMU). Reinforced G1–G4 applied on the spot (remote
+  workshop, Lei Cheung's blueprint); materials traded at **Cassidy Orbital, Wulganda**
+  (manufactured trader, mostly for Improvised Components); **G5 + Hi-Cap at Trader's Rest**
+  (Laksak, 20:58–20:59). Strength 150 → 219.4 MJ (base), kinetic 49.9 %, thermal −0.2 %,
+  explosive 58.3 %. Back at Hencke Orbital (21:09), the Prismatic moved into the **Nemesis**.
+- **Medium-intensity conflict zones, Sorbago A 1** (first time in medium CZs with the Nemesis):
+  three sorties on 13 Nov (21:12–21:20, 21:24–21:38, 22:10–22:30) and one on 14 Nov
+  (14:19–14:43), **37 kill bonds**, 4.52M CR redeemed. **The shields never fell in combat.**
+  Tonton Marcel: the Nemesis can hold a medium CZ and win it for her side, as long as kills come
+  fast enough.
+  - Tactic: small targets first, to cut the enemy count; big ships after. Two drawbacks: fewer
+    enemies brings reinforcements into the zone, and big ships nearby sometimes open fire on her
+    while she chases the small, fast ones.
+  - **The Vultures** (59 scanned, 34 of them Elite; many in "Escadrille de forces spéciales"
+    wings): fast, quick shield regeneration, shield cell banks, lots of chaff — and a weapon
+    whose hits get through her shields to the hull or modules. Meanwhile her side's NPCs die, so
+    she breaks off, kills one or two easy targets to rebalance the zone, then goes back to the
+    Vulture.
+  - Bonds per sortie: 146k (8 min), 823k (14 min), 1.89M (20 min), 1.66M (24 min) — **≈4M CR of
+    bonds an hour** once settled in. Best single bond: 176,851 CR.
+- **Rival hunting, 13 Nov 21:48–22:08, Shui Wei Sector MI-S b4-3** (Aisling, Lavigny-Duval, Grom
+  and Torval present): a weapons-fire signal and a convoy dispersal gave two **Wanted pirates**
+  (The Sovereign Justice Collective, bounties 272,391 + 39,933 CR, +69 and +10 merits); two Power
+  wreckage signatures, empty. **No Power convoy distress or weapons-fire signal** — the week's
+  "kill rival ships" assignment is stuck there (Tonton Marcel).
+- **Holoscreens at Dalgarno Colony** (Sorbago — Torval Exploited, Aisling present): a recon
+  limpet controller and a 16 t rack fitted to the Nemesis in place of two module
+  reinforcements (13 Nov 22:35), 16 limpets. **10 hacks × 67 merits** in 5 drops of 2
+  (13 Nov 22:40–22:46 and 14 Nov 14:14–14:17); the assignment paid **+4,800 on the 9th hack**
+  (14 Nov 14:16) — Rank 40 on the same line. Ten 1,000 CR fines to Magnates of Cemiess, paid
+  14 Nov.
+- **Donations at Hencke Orbital:** 2M CR on 12 Nov (Magnates of Cemiess), 5.5M CR on 14 Nov to
+  both sides of the Sorbago civil war (Sorbago Imperial Society, MLC Incorporated) and to
+  Magnates of Cemiess — 57 merits per 1M, 43 per 750k.
+- **CG 866:** 4.52M CR of bonds → **15.44M**, **Top 25 %** (5,878 contributors, Tier 2, 58.8 bn).
+  Ends **Thursday 19 Nov 11:00 UTC**. Detail: `Community Goals.md`.
+- **The week's assignments all sit around Sorbago** — it is a Torval Exploited system with all
+  four imperial Powers present (reinforcement 23,743 vs undermining 20,395, 14 Nov), so Aisling
+  points her pilots at it. Handy: one hop between a PP job and the CZ. Done: holoscreens. Open:
+  rival kills (no Power signals), and three settlement jobs (data port downloads — classified,
+  research or political Power data — and malware uploads). `Powerplay Missions.md` §1.
+
+**Raw material for future `Logbook.md` days:** a shield only Aisling's loyal may buy, fitted the
+same evening; the first battle where her side wins because she is in it; the Vultures — Elite
+pilots in special-forces wings, a weapon that reaches through her shield — and the choice,
+again and again, between the duel and the people on her side who are dying while she has it.
+
+### 15 November — On Foot in Sorbago, Rank 41 at Marki (journal-verified)
+
+Source: journal files of 15 Nov (17:41–18:35, 19:29–20:25, 20:55–21:11 UTC) and screenshots of
+the Powerplay screen (21:07–21:08). **+9,631 merits** (297,566 → 307,197), **Aisling Rank 41**
+(21:03).
+
+- **Ships:** the Nemesis all day, landing at the settlements; the Dart sent from Cubeo to
+  Sorbago (`ShipyardTransfer`, 117 ly, 17:44).
+- **Donations:** 2M CR to Sorbago Imperial Society, 9.25M CR to Magnates of Cemiess (at Dias's
+  Territory), 2M CR to Daily Routine Incorporated (Marki) — 754 merits for 13.25M CR.
+- **Raids on foot, Maverick "NON armee", Sorbago A 2:** a first stop at Nnamani Mineralogic
+  Station (Sorbago Mastopolos Mining Inc — the CG faction; nothing taken), then **Dias's
+  Territory** (extraction, Magnates of Cemiess) twice: 18:03–18:34 and 19:55–20:24. 18 Power
+  data downloads (1 classified, 6 association, 5 political, 4 industrial, 2 research), Power
+  goods from the containers (inventory, extraction, equipment, agriculture, experiment…), 79
+  goods and 75 components in all (`loot_stats.py`). Two *failure to submit to police* and one
+  data-transfer fine (1,500 CR, paid at Plumb's Chase).
+- Between the raids: **Plumb's Chase** (Sorbago A 1, tourism) — on foot 19:35–19:45 with a relog,
+  nothing taken; **Seidel Cultivation Holding** refused docking four times.
+- **Hand-in at Crossfield Market, Marki** (Aisling Stronghold, two jumps via Kuan Ti): 26 Power
+  data units (18 fresh + 8 from the locker) → **8,877 merits**, Rank 41; the bounties of 13 Nov
+  (312,324 CR) redeemed. The Power goods stayed in the backpack.
+- **The week's assignments, from the screenshots** (`Powerplay Missions.md` §1): classified data
+  1/10 — Sorbago counts; association + political **0/8** — Sorbago data doesn't count, it's a
+  rival **Exploited** system and the assignment wants an unoccupied or contested one; malware
+  0/10 in Shui Wei Sector MI-S b4-1; rival kills 0/8 in MI-S b4-3; holoscreens done. About 3
+  days 10 hours left (tick ≈ Thu 19 Nov 07:00 UTC).
+
+**Raw material for future `Logbook.md` days:** the woman who fights for Sorbago's mining company
+by day goes back at night, unarmed, to rob a settlement of the faction she paid nine million to
+the same afternoon — and the haul is weighed in a Stronghold two jumps away, where only part of
+it is the right kind of secret.
+
+### 15–16 November — Malware and Data Done at Xiao Chemical, Classified Hunt, Rank 46 (journal-verified)
+
+Source: journal files of 15 Nov (21:19–22:10 UTC) and 16 Nov (08:48–09:28, 09:51–10:18,
+11:38–17:27 UTC), plus Tonton Marcel's report of 16 Nov. **+39,462 merits** (307,197 →
+346,659), **Aisling Rank 46** (five ranks on 16 Nov).
+
+- **Malware, 15 Nov evening:** 10 injection malware collected at Crossfield Market, **Marki**;
+  three jumps to **Shui Wei Sector MI-S b4-1** (unoccupied; Aisling, Patreus, Grom and Torval
+  present). Target: **Xiao Chemical Enterprise** (A 8, industrial, Sorbago Imperial Society),
+  docked on its own pad. A first look on foot that evening (Power goods only, one fine).
+- **16 Nov, four landings at Xiao Chemical** (08:52–12:52): **10 injection uploads × 250**, the
+  assignment paid **+5,200 on the 10th** (12:48) — Rank 42. 13 Power data downloads on the way
+  (association, political, industrial, research). Fines with Sorbago Imperial Society
+  (trespass, failure to submit, data transfer, two property thefts — 2,750 CR, paid each time),
+  while 11.5M CR went to the same faction in donations (15–16 Nov).
+- **Hand-in at Marki, 12:58:** 18 data units → 8,280 merits — the association + political
+  data from MI-S b4-1 (unoccupied) **completed the association/political assignment, +5,600**.
+  Ranks 43 and 44.
+- **Classified hunt in the Dart** (swapped at Hencke Orbital, 13:20):
+  - **LPM 26** (Yuri Grom Exploited, dictatorship): **Schwarz Landing** (military, 1 a,
+    13:59–14:44) 3 downloads, 1 classified; **Varma's Consulting** (5 d) nothing but a trespass
+    fine; **Uduike Excavation Complex** (extraction, 2 a, 15:03–15:33) 4 downloads, **2
+    classified**, plus Power goods. 3 classified in 7 downloads.
+  - **Dias's Territory, Sorbago**, three raids (15:41–16:02, 16:06–16:22, 16:38–16:55): 21
+    downloads (7 per raid, one per data port), **1 classified**. 9.75M CR donated to Magnates
+    of Cemiess around the raids.
+- **Hand-in at Marki, 17:01:** 43 data units → **16,927 merits**, Ranks 45–46. The 3 LPM 26
+  classified **counted for the assignment** although Tonton Marcel expected Marki to be too far
+  from LPM 26 — the undermining version has no range limit. Classified **5/10**.
+- **Malarhones** (Torval Exploited), **Prabhune Keep** (military, A 8 b): 6M CR donated to Daily
+  Routine Incorporated, then on foot 17:13–17:27 — one download. Tonton Marcel: a pure military
+  settlement is a pain, guards everywhere asking for scans.
+- **Evening (18:34–19:38):** relog at Prabhune Keep and away; a short stop at Schwarz Landing
+  (LPM 26, no download); then **two more Dias's Territory raids** (18:54–19:15, 19:18–19:37): 14
+  downloads, **1 classified** (in the backpack, not handed in yet → 6/10 once delivered).
+  5.75M CR more to Magnates of Cemiess. Tonton Marcel: "not just bad luck" — and the numbers
+  now agree (`Powerplay Missions.md` card 4.8).
+- **Night (20:35–21:40), the Dart:** **ICZ FB-X c1-25** (Torval Exploited, one jump from
+  Sorbago; Daily Routine Incorporated): **Shepherd Command Point** (military, 20:44–21:05) — 3
+  downloads, no classified; **Schofield Munitions Stockade** (military) — 3 minutes on foot, a
+  failure-to-submit fine, nothing taken; two *fire in no-fire zone* fines (100 CR) on lift-off.
+  Then one more **Dias's Territory** raid (21:20–21:34): 6 downloads, no classified — but the
+  first **Weapon Inventory** and **Digital Designs** ever found came out of its ports (21:25,
+  21:26): the two data items blocking the Maverick's first mod (`On-Foot.md` §2.1, now 1/5
+  each). Tonton Marcel: "completely unfruitful" — for classified data, yes.
+- **Late night (22:28–23:36), the Dart:** **LHS 480** (Grom Exploited, six Powers present),
+  **Yan Metallurgic Station** (extraction, A 4, 22:46–23:07): 8 downloads, no classified; then
+  **Uduike Excavation Complex** again (LPM 26, 23:14–23:35): 3 downloads, no classified.
+  Tonton Marcel: "without success" — and the question whether some data ports never give
+  classified data (`Powerplay Missions.md` card 4.8).
+- **Hand-in at Marki, 21:39:** 32 data units → **11,877 merits**, the evening's classified
+  among them → **6/10**. Ranks 47–48. 9.75M CR of donations that night (Daily Routine
+  Incorporated, Magnates of Cemiess, NLTT 4671 Dynasty).
+- **The hunt paid anyway** (Tonton Marcel: "more merits than the PP mission reward"): Power data
+  hand-ins brought **≈46,000 merits** over 15–16 Nov (8,877 + 8,280 + 16,927 + 11,877) against
+  the 5,600 the classified assignment pays. Since the 12 Nov tick: **≈+67,800 merits**, Rank 39
+  → 48.
+- **CG 866:** no bonds since 14 Nov; still **Top 25 %** at 15.44M (6,567 contributors,
+  73.2 bn, 16 Nov 21:39). ≈2M more bonds still planned before 19 Nov 11:00 UTC.
+
+**Raw material for future `Logbook.md` days (15–16 Nov):** the day she becomes, in one sitting, five grades
+more trusted by Aisling's people; the same faction thanked with eleven million and robbed in its
+own corridors the same morning; and the rarest secret, never where she expects it — three from
+a dictator's rock she thought too far to count, one from the place she had chosen for its seven
+doors.
+
+---
+
+### 17–18 November — Angi: Same Layout, Classified Only in CMD and EXT; Assignment Done, Rank 51 (journal-verified)
+
+Source: journal files of 17 Nov (19:20–20:04 UTC) and 18 Nov (07:59–09:20 UTC), plus Tonton
+Marcel's report of 18 Nov. **+26,727 merits** (359,471 → 386,198), **Aisling Rank 51**.
+
+- **17 Nov, Dias's Territory once more** (19:27–19:36, the Dart): 4 downloads, no classified.
+  4M CR donated to Magnates of Cemiess first.
+- **Looking for the Ferenczi-houlden layout elsewhere** (Tonton Marcel's method): Inara search
+  for **extraction settlements with a large pad**, then the in-game size marker **(+)** — that
+  narrows the layout to two types. Pick: **Auclair Metallurgic Base**, Angi A 3 a (The Order of
+  Mobius; **Angi is Torval Exploited**, so its data counts for undermining). First approach
+  17 Nov evening, a relog on foot overnight.
+- **18 Nov, four runs at Auclair** (08:04–09:11), with notes taken building by building:
+  - **Full run** (08:04–08:33): CMD → HAB → EXT → HAB → STO → STO → PWR, 7 downloads — **one
+    classified, in CMD** (the first download).
+  - **Three short runs** (08:35–08:43, 08:46–08:57, 09:00–09:11): **CMD → HAB → EXT → HAB**
+    only, then lift off and land again. 14 downloads, **3 classified — from CMD and EXT only**
+    (Tonton Marcel). The last two runs show 5 downloads: in EXT a technician patrols the port's
+    room and she can stay hidden only ≈40 s, so she **split the EXT download in two** (#3 and
+    #4, 64–96 s apart in the journal).
+  - **Per building at Auclair:** CMD **2 / 4**, EXT **2 / 6**, HAB 0 / 8, STO + PWR 0 / 3.
+  - In all: **21 downloads, 4 classified (19 %)**; the three short runs alone gave 3 in 14 in
+    36 minutes.
+- **Hand-in at Crossfield Market, Marki, 09:16:** 51 Power data units, **4 classified →
+  assignment complete, +5,600** — ≈20,900 merits for the data. Ranks 49, 50 and 51 in a minute.
+- **The week:** four assignments of five done (holoscreens, malware, association/political,
+  classified); only the rival kills in Shui Wei Sector MI-S b4-3 are left (0/8). Tick ≈ Thu
+  19 Nov 07:00 UTC.
+- **CG 866:** still no bonds since 14 Nov — 15.44M, **Top 25 %** on 18 Nov 09:15, but 6,849
+  contributors and 80.2 bn; the line is closing in. **Ends 19 Nov 11:00 UTC.**
+
+**Raw material for future `Logbook.md` days:** after days of rolling dice she stops trusting
+luck and starts reading buildings — the same settlement drawn twice in two systems, the same
+two rooms that keep secrets — and the classified files finally come, four in a morning.
+
+---
+
+### 18 November, afternoon — CG 866 Secured; Five Concourse Missions Paid in Materials (journal-verified)
+
+Source: journal file of 18 Nov (10:16–16:15 UTC) and Tonton Marcel's report. **+891 merits**
+(386,198 → 387,089, donations only).
+
+- **CG 866, two medium-CZ sorties** in the Nemesis (Sorbago A 1, 10:48–11:08 and 11:12–11:31):
+  **2.75M CR of bonds** (1,250,907 + 1,495,050) → **18.19M**, **Top 25 %** (6,880 contributors,
+  81.1 bn). Tonton Marcel: should be safe by now. Ends 19 Nov 11:00 UTC.
+- **New strategy for the Maverick: missions that pay in materials.** Base: **Krenkel Terminal,
+  Calea** (Aisling Stronghold), in the Dart. Five on-foot missions in ≈3 h (13:04–16:14), the
+  materials option taken each time (it costs most of the credit reward):
+  - **Wreck salvage** (Daily Routine Incorporated; wreck on Calea AB 1 c) → **3 Suit
+    Schematics**.
+  - **Package delivery to a contact**, Justine Mckee at Collinson Arms Base (Calea AB 3 b,
+    military; one failure-to-submit fine) → **2 Suit Schematics**.
+  - **Covert assassination**, Alex Reilly at Oladoyinbo Nurseries (Jeterait A 2 a, agricultural,
+    Jeterait Cartel; Torval Stronghold), 14:06–14:44 → **15 Digital Designs**.
+  - **Heist from a secret cache** (Calea Imperial Society; ICZ KC-U b3-4 6 a), 15:03–15:09 →
+    **12 Tactical Plans** — never found in any settlement before.
+  - **Covert production sabotage** at Biggs Chemical Assembly (ICZ FB-X c1-25 3, industrial,
+    NLTT 4671 Dynasty; Torval Exploited), 15:38–16:09 → **12 Suit Schematics**.
+- **Result:** Suit Schematic 5 → **22**, Digital Designs 1 → **19**, Tactical Plans 0 → **13** —
+  three of the Maverick's biggest gaps closed in an afternoon (`On-Foot.md` §2.1).
+- Tonton Marcel: efficient, but more stressful — **one attempt per mission**: caught means the
+  mission is lost; and the target settlements are often ones where the alarm is hard to switch
+  off. "No stress, no fun."
+- Donations: 10.75M CR to Daily Routine Incorporated, 2M CR to NLTT 4671 Dynasty.
+
+**Raw material for future `Logbook.md` days:** contracts, not luck — a dead man in a nursery, a
+cache nobody was meant to find, a chemical plant left silent; each job one chance only, each
+paid not in credits but in the plans and designs she needs to rebuild the suit she hides in.
+
+---
+
+### 18 November, evening — Weapon Inventory from a Labyrinth; Off to Domino Green (journal-verified)
+
+Source: journal file of 18 Nov (18:25–19:42 UTC) and Tonton Marcel's report.
+
+- **Sabotage mission for Weapon Inventory** — the Maverick's last blocker for its first mod.
+  Taken at Krenkel Terminal (Calea) from Samebito Purple Advanced Company: *disrupt production at
+  **Zambo Horticultural Biosphere*** (Marki 2, agricultural, Daily Routine Incorporated — in
+  Aisling's own Stronghold), 18:27.
+- **A new layout for her:** agricultural, size **(++)**, Odyssey Site Maps' **Agriculture 3** —
+  "a big labyrinth" (Tonton Marcel). **Three landings** (18:33–18:42, 18:45–19:05,
+  19:08–19:25): caught several times (one identity-theft fine), but this **non-covert**
+  sabotage didn't fail when she was seen, so she came back and retried until she found a
+  patient path to the alarm switch, then to the biological area to plant the pathogen.
+- **Paid at Krenkel Terminal, 19:30:** **15 Weapon Inventory** (79,065 CR with the materials
+  option) → **16/5**. 2M CR donated to Daily Routine Incorporated before going in — the
+  faction whose crops she then poisoned.
+- **Then straight to Orishis** for Domino Green (The Jackrabbit): swapped to the Marco Polo at
+  Hencke Orbital (19:35), four jumps via Arth, Ross 486 and Lindol; logged off on arrival
+  (19:42). Next: **Extra Backpack Capacity**, the Maverick's first mod.
+- CG 866: 18.19M, Top 25 % (6,889 contributors, 81.6 bn, 19:41).
+
+**Raw material for future `Logbook.md` days:** a garden that is a maze; caught, out, back in,
+three times, until patience finds the way to the alarm and to the beds where the blight goes —
+in a Stronghold of her own Power, against a faction she had paid two million an hour before.
+
+---
+
+### 19 November — The First Suit Mod, CG 866 Paid, the Fleet Home (journal-verified)
+
+Source: journal file of 19 Nov (20:29–20:56 UTC) and Tonton Marcel's report.
+
+- **Extra Backpack Capacity** applied by **Domino Green** at The Jackrabbit, Orishis
+  (20:32–20:35, on foot) — the Heist Maverick's **first mod** (`SuitLoadout` → `SuitMods:
+  suit_backpackcapacity`). Stage A of the suit plan done (`On-Foot.md` §2.1).
+- **CG 866 closed, Top 25 %** (Tonton Marcel). Final contribution **18,185,623 CR** of bonds.
+  The treasury went from 5,203.9M (18 Nov 18:25 login) to **5,471.9M** (19 Nov 20:29 login) with
+  no session in between: +268M, most likely the reward — no `CommunityGoalReward` event was
+  written.
+- **Home:** back through Sorbago (4M CR more to Magnates of Cemiess and MLC Incorporated at
+  Hencke Orbital), then to **Medupe City, Cubeo** in the Marco Polo; the **Dart** and the
+  **Nemesis** transferred from Hencke Orbital (117 ly, 24.5 min, 2.74M CR). All ships home.
+- **The 12 Nov Powerplay week closed** (tick 19 Nov ≈07:00): 4 of 5 assignments — holoscreens,
+  malware, association/political data, classified data; the rival kills in MI-S b4-3 never
+  had a Power signal. Rank 51, 387,458 merits.
+- **Next for the suit:** **5 Opinion Polls** sold to bartenders, to invite **Kit Fowler** —
+  never found yet.
+
+**Raw material for future `Logbook.md` days:** home at last, every hull back in its berth at
+Medupe City; a quiet tailor at the Jackrabbit makes her suit carry more — the first thing she
+has changed about herself in a long time, chosen and paid for.
+
 ---
 
 ## 5. ROADMAP
@@ -1078,7 +1356,7 @@ satellite ticks the steps).
 | Gauge | Status | Target | Unlocks |
 |---|---|---|---|
 | Imperial Navy | **Marquis** (9 Nov) | Duke (1 promotion) | Imperial Cutter |
-| Aisling rank | **Rank 39 / 291,760 merits** (12 Nov) — rank 34 reached 7 Nov | ~~Rank 34 (≈247,000 merits)~~ ✔ | Prismatic Shields |
+| Aisling rank | **Rank 51 / 386,198 merits** (18 Nov) — rank 34 reached 7 Nov | ~~Rank 34 (≈247,000 merits)~~ ✔ | Prismatic Shields |
 | Engineering | FSD G5 accessible | Combat and defence engineers at G5, Guardian tech | All target builds, §5.7 |
 | Combat piloting | Expert (14 Oct) | Comfortable in HazRES and conflict zones | Actually usable TTK |
 | On-foot gear | Defenceless | Better suits and weapons | Ground missions, §5.2 |
@@ -1329,9 +1607,10 @@ Directionless), which funds what follows.
 
 #### Phase 4 — Prismatic and Spectre (in parallel)
 
-- [ ] Aisling rank 34: buy and store the Prismatics — 8A for Charybdis; 6A for Cornucopia; 6A for
-      Hephaestus; optional for Nemesis.
-- [ ] Engineer: Reinforced + Hi-Cap (Lei Cheung).
+- [~] Aisling rank 34: buy and store the Prismatics — 8A for Charybdis; 6A for Cornucopia; 6A for
+      Hephaestus; optional for Nemesis. **Nemesis done first: 6A bought 13 Nov 2026** (Hencke
+      Orbital, Sorbago, 23.66M CR) and fitted (§2, §4).
+- [~] Engineer: Reinforced + Hi-Cap (Lei Cheung) — Nemesis's 6A done 13 Nov.
 - [ ] Buy Courier #2 (≈2.4M CR). Name her Spectre (annex B3, §5.7).
 - [ ] Useful engineer for utilities and limpets: Ram Tah (conditions to verify).
 

@@ -335,10 +335,20 @@ home port; swap per trip (taxi ⇄ exploration).
 - [x] Second engineering pass, 19 Oct: four multi-cannons **Overcharged G5** (McQuinn, Wolf 397);
       FSD **Faster Boot G5 + Double Braced** (Martuuk, Khun). 6A fuel scoop and a 3A collector
       limpet controller fitted in place of the shield cell bank.
-- [ ] Multi-cannon experimentals still to choose (e.g. Corrosive Shell on one, Auto Loader or
-      Incendiary on the others — check in EDSY).
+- [x] Multi-cannon experimentals (McQuinn, 19 Oct): **Auto Loader** on the large, **Corrosive
+      Shell** on two mediums, **Incendiary** on the third.
+- [ ] Corrosive Shell doesn't stack — the second one adds nothing. Re-roll that medium with
+      another experimental (e.g. Emissive Munitions, or Auto Loader like the large) — check in
+      EDSY.
 - [x] **Shield cell bank back** in the size-6 slot (24 Oct, for CG 865), plus a 3D module
       reinforcement; fuel scoop out again.
+- [x] **Prismatic Shield 6A, Reinforced G5 + Hi-Cap** (13 Nov 2026): bought at Hencke Orbital
+      (Sorbago), 23,662,565 CR; G1–G4 by remote workshop, G5 + Hi-Cap at Lei Cheung (Laksak) —
+      the Marco Polo carried it there. 219.4 MJ base, kinetic 49.9 %, thermal −0.2 %, explosive
+      58.3 %. The old 6A Reinforced G5 + Hi-Cap shield is stored at Hencke Orbital. First test,
+      medium CZs at Sorbago, 13–14 Nov: **shields never down in combat**.
+- [x] **Holoscreen kit** (13 Nov): module reinforcements 4D and 3D stored → Cargo Rack 4E (16 t)
+      + Recon Limpet Controller 3E. Swap back when no holoscreen job is on.
 
 **Handling plan** — agility depends on the ship's mass against what the thrusters are rated
 for, so two levers: stronger thrusters, less weight. Check each change in EDSY first (§5.0).
@@ -370,6 +380,24 @@ for, so two levers: stronger thrusters, less weight. Check each change in EDSY f
 - [ ] Other option for massacre kills: every Family of Osane pirate killed in Osane counts, not
       only the "Target" signals. A nav beacon or a resource extraction site gives single ships
       or small groups instead of a full wing at once.
+
+**Medium-intensity conflict zones** (Tonton Marcel, Sorbago, 13–14 Nov — with the Prismatic)
+- [x] **The Nemesis holds a medium CZ** and wins it for her side, shields up, as long as the
+      kills come fast. ≈4M CR of bonds an hour.
+- [x] **Small targets first** to cut the enemy count, big ships after. Two costs: fewer enemies
+      draws reinforcements into the zone, and big ships nearby take free shots while she chases
+      the small, fast ones — check the radar behind before starting a long chase.
+- [x] **Elite Vultures** ("Escadrille de forces spéciales" wings) are the hard target: fast,
+      quick shield regen, shield cell banks, heavy chaff, and hits that get through her shields
+      to hull or modules (most likely engineered lasers with Phasing Sequence, which sends part
+      of the damage past the shield). While she duels one, her side's NPCs die: break off, kill
+      one or two easy targets to rebalance the zone, then go back to the Vulture.
+- [ ] **Chaff and gimbals:** all six weapons are gimballed, and chaff breaks gimbal tracking — so
+      every Vulture chaff costs the whole broadside. Option to test: **fixed** large pulse lasers
+      (chaff can't touch fixed weapons; the Corsair turns well enough to hold a Vulture in
+      front), multi-cannons kept gimballed for the small, fast ships. Check in EDSY first.
+- [ ] With the holoscreen kit fitted, only the 2E + 1E module reinforcements stand against
+      shield-piercing hits — put the 4D and 3D back for CZ work.
 
 ---
 

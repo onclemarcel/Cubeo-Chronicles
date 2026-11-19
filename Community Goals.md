@@ -18,6 +18,7 @@
 
 | CG | Type | Dates | Ship | Contribution | Bracket | Contributors | Reward |
 |---|---|---|---|---|---|---|---|
+| **866** Défendez Sorbago Mastopolos Mining Inc (Hencke Orbital, Sorbago) | Combat (kill bonds) | 5 → 19 Nov 2026 | Nemesis | **18,185,623 CR** of bonds | **Top 25 %** | ≈6,900 | ≈268,000,000 CR (treasury jump, 18 → 19 Nov — no journal event; confirm in game) |
 | **865** Faulcon DeLacy Combat Initiative (Bowen Dock, HR 8061) | Combat (mission value) | 22 → 29 Oct 2026 | Nemesis | **16,672,354 CR** | **Top 25 %** | 10,615 | **220,000,000 CR** (29 Oct) |
 | **864** Faulcon DeLacy Trade Initiative (Homer Platform, AD Leonis) | Trade (delivery) | 22 → 29 Oct 2026 | The Brick | **9,836 t** | **Top 25 %** | 13,911 | **250,000,000 CR** (29 Oct) |
 | **862** Faulcon DeLacy Exploration Initiative (Magrathea II, HD 232819) | Exploration (data sales) | 22 → 29 Oct 2026 | Marco Polo | **744** (≈14.0M CR of data) | **Top 25 %** | 9,262 | **310,000,000 CR** (29 Oct) |
@@ -26,7 +27,7 @@
 | **860** Eliminate criminal pilots in Redonesses (Sword of Iustitia) | Combat (kill bonds) | 6–8 Oct 2026 | Pacifier | **19,122,798 CR** of bonds | **Top 25 %** | 8,849 | **220,000,000 CR** (8 Oct) |
 | **859** Wreaken Calls for Sourced Materials… (Metz Enterprise, Ega) | Trade (delivery) | → 18 Sept 2026 | The Brick | **15,918 units** | **Top 25 %** | — | **170,000,000 CR** (18 Sept) |
 
-Seven CGs since the return: six Top 25 % finishes and one Top 50 %. **Week of 22 Oct: four CGs at once**
+Eight CGs since the return: seven Top 25 % finishes and one Top 50 %. **Week of 22 Oct: four CGs at once**
 — **Faulcon DeLacy's four "Initiatives"** for the Anaconda Mk II (trade, combat, mining,
 exploration), all closing **29 Oct ≈10:00 UTC**. One contribution to all four earns a **golden
 Faulcon DeLacy decal**; each also gives a decal and an Anaconda Mk II paint job; one ship per CG,
@@ -103,17 +104,39 @@ Orbital (`RedeemVoucher` `CombatBond`, the contribution moves with each redempti
   | 6 Nov 17:28 / 17:55 / 18:08 | 1,242,540 + 1,929,124 + 844,862 | 6,770,085 | **Top 25 %** | 1,826 | 9.0 bn |
   | 6 Nov 20:59 (no bond) | — | 6,770,085 | Top 50 % | 2,039 | 10.6 bn |
   | 9 Nov 11:18 / 13:44 | 2,092,057 + 1,167,166 | 10,029,308 | Top 50 % | 3,917 → 4,904 | 27.0 bn |
-  | 12 Nov 10:40 | 891,566 | **10,920,874** | Top 50 % | 5,266 | 46.2 bn |
+  | 12 Nov 10:40 | 891,566 | 10,920,874 | Top 50 % | 5,266 | 46.2 bn |
+  | 13 Nov 21:22 / 21:39 / 22:32 | 146,316 + 822,935 + 1,888,754 | 13,778,879 | **Top 25 %** | 5,690 | 55.2 bn |
+  | 14 Nov 14:45 | 1,660,787 | **15,439,666** | **Top 25 %** | 5,878 | 58.8 bn |
+  | 16 Nov 16:55 (no bond) | — | 15,439,666 | **Top 25 %** | 6,502 | 71.8 bn |
+  | 16 Nov 21:39 (no bond) | — | 15,439,666 | **Top 25 %** | 6,567 | 73.2 bn |
+  | 18 Nov 09:15 (no bond) | — | 15,439,666 | **Top 25 %** | 6,849 | 80.2 bn |
+  | 18 Nov 11:09 / 12:23 | 1,250,907 + 1,495,050 | **18,185,623** | **Top 25 %** | 6,880 | 81.1 bn |
 
-- **Tier:** 2 of 5 reached (12 Nov).
-- **Bracket forecast (playbook §2, rough):** average contribution on 12 Nov = 46.2 bn ÷ 5,266
-  ≈ 8.8M → the ×1.45 rule puts Top 25 % near **12.7M** today. The CG grows ≈6 bn a day; if the
-  pace holds, ≈90 bn and ≈8,000+ contributors at the close, so the line could reach **≈15–16M**.
-  ⚠ The rule overshoots on CGs with a few huge contributors (Faulcon DeLacy, §2) — check Inara's
-  tier table before committing. **Plan: ≈5M more in bonds before 19 Nov 11:00 UTC** to be safe.
-- [ ] Back in the conflict zone (Nemesis, Hencke Orbital).
-- [ ] Re-read the bracket at each redemption; collect the reward at Hencke Orbital after the
-      close.
+- **Tier:** 2 of 5 reached (12 Nov, still 2 on 14 Nov).
+- **Medium-intensity CZs from 13 Nov** (Sorbago A 1), with the Prismatic on the Nemesis: shields
+  never down in combat, **≈4M CR of bonds an hour** once settled in (1.89M in 20 min, 1.66M in
+  24 min). Low-intensity CZs before that. Tactics and the Vulture problem: `Shipyard.md`,
+  Nemesis card.
+- **Bracket forecast (playbook §2, rough), 14 Nov:** average = 58.8 bn ÷ 5,878 ≈ 10.0M → the
+  ×1.45 rule puts Top 25 % near **14.5M** today, consistent with the 15.44M Top 25 % reading.
+  Pace since 12 Nov: ≈5.8 bn and ≈280 contributors a day → ≈87 bn and ≈7,250 contributors at the
+  close, so the line could reach **≈17–18M**. ⚠ The rule overshoots on CGs with a few huge
+  contributors (Faulcon DeLacy, §2) — check Inara's tier table before committing. **Plan: ≈2.5–3M
+  more in bonds (≈40 min of medium CZ) before 19 Nov 11:00 UTC**, best split over two sessions
+  to re-read the bracket in between.
+- **Forecast check, 16 Nov:** average 71.8 bn ÷ 6,502 ≈ 11.0M → the ×1.45 rule says 16.0M,
+  yet 15.44M still reads Top 25 % — the rule overshoots here too (real ratio ≤ 1.40). Pace ≈6.2
+  bn and ≈300 contributors a day → ≈89 bn and ≈7,300 at the close → line ≈ **17M**. Plan
+  unchanged: **≈2–2.5M more bonds** before 19 Nov 11:00 UTC.
+- [x] Back in the conflict zone (Nemesis, Hencke Orbital) — 13–14 Nov, Top 25 % regained on
+      13 Nov.
+- [x] **Safety margin added, 18 Nov:** two medium-CZ sorties, 2.75M → 18.19M. Average 81.1 bn ÷
+      6,880 ≈ 11.8M; even at ×1.45 the line would be ≈17.1M — margin ≈1M, with less than a day
+      left.
+- [x] Re-read the bracket at each redemption; collect the reward at Hencke Orbital after the
+      close. **Closed 19 Nov 11:00 UTC, Top 25 %** (Tonton Marcel); the treasury shows +268M
+      between the 18 and 19 Nov logins. Low-intensity CZs, then medium ones with the Prismatic
+      from 13 Nov; bonds 5–18 Nov.
 
 ### CG 862 — Faulcon DeLacy Exploration Initiative — Magrathea II, HD 232819 (22 → 29 October 2026)
 

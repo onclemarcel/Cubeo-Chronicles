@@ -13,8 +13,8 @@
 
 ## 1. ENGINEER ROSTER
 
-*Status from the journal `EngineerProgress` snapshot, 25 Sept 2026 06:18 UTC (unchanged since 23
-Sept for the ship engineers). Engineers not listed by the game at all are marked "—".*
+*Status from the journal `EngineerProgress` snapshot, 14 Nov 2026 14:11 UTC. Engineers not listed
+by the game at all are marked "—".*
 
 | Engineer | Track | Status | Needed for | Unlock route |
 |---|---|---|---|---|
@@ -23,17 +23,19 @@ Sept for the ship engineers). Engineers not listed by the game at all are marked
 | The Dweller (Wyrd) | Ship | **Unlocked, G5** (15 Oct, Nemesis distributor and lasers) | Distributor, lasers | Done |
 | Juri Ishmaak | Ship | **Unlocked, G1** | Not in the plan yet | Role undecided (§5.6) |
 | Tod McQuinn (Wolf 397) | Ship | **Unlocked, G5** (unlocked 17 Oct 2026; G5 on 19 Oct — four Nemesis multi-cannons Overcharged G5) | Multi-cannons; opens Jean → Vatermann | Done |
-| Liz Ryder | Ship | Known | Dart missiles (annex A2) | Not yet invited |
-| Lei Cheung (Laksak) | Ship | — | Shields, boosters (Brick V2 step 5, Pacifier, Phase 4 Prismatics) | Via The Dweller, then Brick V2 step 5 |
+| Liz Ryder | Ship | Known | Dart missiles (annex A2); opens Hera Tani | Not yet invited (referral from McQuinn — conditions to check in the engineer panel) |
+| Lei Cheung (Laksak) | Ship | **Unlocked, G5** (30 Sept 2026; Nemesis Prismatic Reinforced G5 + Hi-Cap, 13 Nov) | Shields, boosters (Brick V2 step 5, Pacifier, Phase 4 Prismatics) | Done |
 | Selene Jean | Ship | **Invited** (19 Oct 2026) | Hull & armour | Unlock: 500 t mined, 10 Painite |
 | Petra Olmanova | Ship | **Invited** (19 Oct 2026, via McQuinn) | Armour, hull, chaff, heat sinks (role to confirm) | Unlock conditions to check |
 | Didi Vatermann (Leesti) | Ship | — | Boosters G5 | Via Jean (Merchant rank, 50 Lavian Brandy) |
-| Hera Tani | Ship | — | Power plant | Unknown |
-| Zacariah Nemo | Ship | — | Fragment cannons (Nemesis) | Via Martuuk |
+| Hera Tani | Ship | — | Power plant | Via Liz Ryder (to verify) |
+| Zacariah Nemo | Ship | Known | Fragment cannons (Nemesis) | Revealed by Martuuk; invitation tied to the Party of Yuri Grom (check the engineer panel) |
+| Marco Qwent | Ship | Known | Opens Professor Palin; power plant, power distributor | Revealed by Martuuk; invitation tied to Sirius Corporation (check the engineer panel) |
 | Professor Palin (Arque) | Ship | — | Thrusters G5 | Martuuk → Qwent, then Palin |
-| Ram Tah | Ship | — | Utilities and limpets (Phase 4) | Conditions to verify |
-| Domino Green (Orishis, The Jackrabbit) | Odyssey | **Unlocked** (`EngineerProgress`, 12 Nov 2026) | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | Done — Apex shuttles (155 ly), 5 Push delivered 11 Nov |
-| Kit Fowler (Capoya, The Last Call) | Odyssey | **Known** (12 Nov 2026) | Step on the way to Yarden Bond | Sell 5 Opinion Polls (stock 0) |
+| Ram Tah | Ship | **Invited** (seen 14 Nov 2026) | Utilities and limpets (Phase 4) | Unlock condition in the engineer panel (commonly listed: 50 Classified Scan Databanks — verify) |
+| Marsha Hicks, Mel Brandon | Ship (Colonia) | Hicks **Invited**, Brandon Known (14 Nov 2026) | Not in the plan (Colonia) | — |
+| Domino Green (Orishis, The Jackrabbit) | Odyssey | **Unlocked** (`EngineerProgress`, 12 Nov 2026) — **Extra Backpack Capacity applied 19 Nov** | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | Done — Apex shuttles (155 ly), 5 Push delivered 11 Nov |
+| Kit Fowler (Capoya, The Last Call) | Odyssey | **Known** (12 Nov 2026) | Step on the way to Yarden Bond | **Next gate:** sell 5 Opinion Polls (stock 0, 19 Nov); then 5 Surveillance Equipment (15 in stock ✔) |
 | Yarden Bond (Bayan, Salamander Bank) | Odyssey | — | **Heist Maverick slots 2–3** (Improved Jump Assist, Quieter Footsteps) | Via Kit Fowler (5 Surveillance Equipment), then sell 5 Smear Campaign Plans |
 | Jude Navarro (Aurai, Marshall's Drift) | Odyssey | Known | Opens Terra Velasquez; Dominator mods later | 10 restore/reactivation missions |
 | Terra Velasquez (Shou Xing, Rascal's Choice) | Odyssey | — | Opens Oden Geiger; Dominator mods later | Via Navarro (5 Genetic Repair Meds), then 6 covert theft/heist missions |
@@ -77,14 +79,18 @@ UTC (state, not the reveal *chain* — Frontier doesn't log which engineer revea
       donation can be any faction's vouchers; later ones need his system/Alliance vouchers
       specifically (only matters once she's actually unlocked). Possibly what reveals the four
       engineers below too — unconfirmed, visit and see.
-- [ ] Didi Vatermann (boosters G5), Lei Cheung (shield G5), Hera Tani (power plant G5), Selene
-      Jean (hull & armour G5): **none of these four are even "Known" yet** on the engineer
-      roster. Their rank conditions (Trade Merchant ✔, Navy Outsider ✔, etc.) being met isn't
-      sufficient on its own — something else has to reveal them first. Re-check
-      `EngineerProgress` after visiting McQuinn. **Lei Cheung** now has a planned route: The
-      Dweller's invitation, then 50+ markets traded and 200 t of Gold donated (Brick V2 plan,
-      steps 4–5, `Shipyard.md`). Vatermann and Jean are on the Brick V2 "beyond 90 %" chain
-      (McQuinn → Jean → Vatermann).
+- [x] **Lei Cheung** (shields, boosters) — **unlocked 30 Sept 2026, 11:22** via The Dweller's
+      referral, without the planned 200 t Gold donation; G5 since (Nemesis Prismatic, 13 Nov).
+- [ ] **Selene Jean** (hull & armour G5) — **Invited** since 19 Oct (via McQuinn); unlock: 500 t
+      mined, 10 Painite. She opens **Didi Vatermann** (boosters G5), still unlisted (Brick V2
+      "beyond 90 %" chain, `Shipyard.md`).
+- [ ] **Hera Tani** (power plant G5) — still unlisted; the route goes through **Liz Ryder**
+      (Known), to verify.
+- [ ] **Zacariah Nemo** and **Marco Qwent** — both **Known** (revealed by Martuuk); Qwent opens
+      Professor Palin (thrusters G5, the Nemesis handling plan). Read the invitation conditions
+      in the engineer panel.
+- [ ] **Ram Tah** (utilities, limpets — Phase 4) and **Petra Olmanova** — both **Invited**;
+      unlock conditions to read in the engineer panel.
 
 **Odyssey engineers** (moved from Phase 1, on-foot)
 
@@ -111,10 +117,15 @@ delivery that reveals the next one.*
       Barbier Tourism Complex, HR 5295, 5 Push in one visit (11 Nov). Agricultural sites in
       Senones (Kolsuk, Fry) gave Hush and Lazarus but no Push (9 Nov). The only earlier Push: 4
       from a heist-mission secret cache, Koller (anarchy), April 2023.
-- [ ] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders. Stock on
-      12 Nov: 0 — never found yet. Not needed for his own mods (melee, ammo, shield regen).
+- [ ] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders — **the
+      next gate (19 Nov)**. Stock 0, never found in 99 settlement visits (`loot_stats.py`).
+      Ways in: mission rewards (sort the board by materials — the 18 Nov missions paid 12–15
+      units of one item), bartender stock, data ports of the settlement types EDOMH lists.
+      Not needed for his own mods (melee, ammo, shield regen).
 - [ ] Referral: deliver **5 Surveillance Equipment** to Kit Fowler → reveals Yarden Bond.
-      **Stock on 12 Nov: 7 ✔** (Techno Defence Facility lockers) — keep them, don't sell.
+      **Stock on 19 Nov: 15 ✔** — keep them, don't sell.
+- Yarden Bond's own gate after that: 5 Smear Campaign Plans — **1 in stock** (Yan Metallurgic
+  Station, LHS 480, 16 Nov).
 - [ ] **Yarden Bond**, Bayan, *Salamander Bank*: **sell 5 Smear Campaign Plans** to bartenders.
       Her suit mods: **Quieter Footsteps** and **Improved Jump Assist** (both in the build),
       Combat Movement Speed. Weapon

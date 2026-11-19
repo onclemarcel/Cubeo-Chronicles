@@ -18,18 +18,19 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **39** (`PowerplayRank`, 9 Nov 2026 08:40 UTC) |
-| Merits | **291,760** (`PowerplayMerits`, 12 Nov 2026 10:40 UTC) |
+| Rank | **51** (`PowerplayRank`, 18 Nov 2026 09:17 UTC) |
+| Merits | **387,458** (`PowerplayMerits`, 19 Nov 2026 20:44 UTC) |
 | Target | ✔ **Rank 34 reached 7 Nov 2026 11:37** (≈247,000 merits) — Prismatic Shields unlocked for Phase 4 (§5.4). No next rank target set yet |
 
 ---
 
-## 1. THIS WEEK — tick of Thursday 12 November 2026
+## 1. THIS WEEK — tick of Thursday 19 November 2026
 
 *Reset at every Thursday tick: delete last week's rows, after moving each result into its card's
-Stats line (§4).* The 29 Oct week (5 of 5, the classified data paid 4 Nov) and the 5 Nov week
-(4 paid: malware 4.14, Wababa data 4.11, holoscreens 4.6, exobiology 4.15) are already in the
-cards' Stats.
+Stats line (§4).* The 29 Oct week (5 of 5), the 5 Nov week (4 paid) and the **12 Nov week (4 of
+5: holoscreens 4.6, classified data 4.8, association/political 4.11, malware 4.14 — the rival
+kills, 4.13, never had a Power signal in Shui Wei Sector MI-S b4-3)** are already in the cards'
+Stats.
 
 *This week's assignments not read yet — fill in from the Powerplay screen.*
 
@@ -78,6 +79,9 @@ finished the job. Merit loops now serve higher ranks and Navy-side goals, no dea
 | Rival Power kills | Nemesis | **~5,000–6,000** while fighting | 11 kills × ≈230 in two 15-min visits, Shui Wei Sector VT-R b4-5, 17 Oct. Murders pile up in that system. Card 4.13 |
 | Holoscreens, Aisling system with rivals | any + recon limpets | **~3,800** | Khepri, 7 × 126 in 13 min, no fines, 13 Oct. Card 4.7 |
 | Massacre stacks | Nemesis | ~1,700 (+7 per scan) — but ≈50M CR/h and Navy progress | Osane, 16–17 Oct |
+| Power data raids, rival-held systems (classified hunt) | Nemesis / Dart + Maverick | **≈4,000–5,000** over whole sessions | 15–16 Nov around Sorbago: ≈46,000 merits of Power data in ≈11 h played (travel, relogs, malware landings included). Fresh data from a rival Exploited system pays **435** (association/political) and **290** (other types) — less than the 540/360 for unoccupied-system data. Card 4.8 |
+| Altruism donations | any | **57 merits per 1M CR** (43 per 750k) — buys merits, ≈17.5M CR per 1,000 | Hencke Orbital, 12 and 14 Nov. Was ~88 per 1M on 30 Sept |
+| Conflict zones (CG bonds) | Nemesis | **0** — kill bonds pay no merits, even in a contested system | Sorbago (Torval Exploited, Aisling present), 37 bonds, 13–14 Nov |
 
 **Route check, 21 Oct** (`pp_trade_routes.py --ref Cubeo --radius 25 --cargo 758 --mode reinforce`,
 markets ≤ 3 days old): **cobalt** is the loop — huge stocks, so buying barely moves the price.
@@ -379,8 +383,17 @@ specific week — the week's progress lives in §1.*
 - **Unoccupied variant (25 Oct):** the assignment can name an **unoccupied** system instead —
   same method. ICZ OX-U c2-15, Bowen Beacon: 12 hacks in 4 drops of 3, 126 merits each, paid on
   the 12th. ⚠ The fines (2,000 CR each) went to **Nexus Heavy Industries** — a Cubeo faction
-  you donate to for Navy rank. Check who owns the station before hacking.
-- **Stats:** 4 assignments · +4,800 merits each · last: 8 Nov, **Chinga** (Wilson Stop, 2 hacks ×
+  you donate to for Navy rank. Check who owns the station before hacking. Same again 13–14 Nov:
+  the Dalgarno Colony fines went to **Magnates of Cemiess**, a faction she donated to that
+  same week.
+- **The Nemesis can fly it** (13–14 Nov): recon limpet controller 3E + a 16 t rack swapped in for
+  two module reinforcements, in minutes at Hencke Orbital. Two screens per drop at Dalgarno
+  Colony, no trouble from the station — the cheap-hull rule matters most at stations with
+  aggressive guns (Wilson Stop).
+- **Stats:** 5 assignments · +4,800 merits each · last: 13–14 Nov, **Sorbago** (Torval
+  Exploited; Aisling present), **Dalgarno Colony** — 10 hacks × 67 in 5 drops of 2, ≈11 min in
+  all (13 Nov 22:40–22:46, 14 Nov 14:14–14:17), **paid on the 9th**; 10 × 1,000 CR fines.
+  8 Nov, **Chinga** (Wilson Stop, 2 hacks ×
   67, then the Dart destroyed) and **HIP 95350** (Torval Stronghold; Aisling present) — 6 hacks
   × 48, paid on the 6th there (18:07), 17:46–18:07. 25 Oct, **ICZ OX-U c2-15** (unoccupied),
   21:27–21:41, ~14 min. 13 Oct: **Chinga** (Lavigny-Duval,
@@ -426,6 +439,12 @@ specific week — the week's progress lives in §1.*
   the data ports.
 - **What to look for (the tricky part):** the assignment says **download in a reinforcement
   system and deliver in the same system** (an Aisling system being reinforced).
+  - **Undermining variant (12 Nov week):** "dans des systèmes undermining" — download in any
+    system **controlled by a rival Power**, hand in to a Power contact in a **friendly** system.
+    10 units, +5,600. Sorbago (Torval Exploited) counts: 1 unit from Dias's Territory, handed in
+    at Crossfield Market, **Marki** (Aisling Stronghold, two jumps), 15 Nov. **No range limit:**
+    3 units from **LPM 26** (Yuri Grom Exploited), several jumps from Marki, counted too
+    (16 Nov). Any rival-held system will do.
   - [ ] Settlement type does **not** seem to decide it: players report classified data drops
         **at random from any type of settlement data port**, with a low chance (Steam thread,
         not confirmed by Frontier). Our own results agree: tourism, industrial, agricultural and
@@ -486,9 +505,106 @@ specific week — the week's progress lives in §1.*
     early "other sites" were one-port grab-and-run downloads, the raids empty every port.
     `../elite-loot/loot_stats.py --item powerclassified` keeps the running count.
   - About one download in ten gives 2 units instead of 1.
+  - **Per-download analysis, 16 Nov 2026** (all journals since 25 Sept; one download = one burst
+    of data items from a port, malware left out — so the counts differ a little from the
+    table above, which counted items): **217 downloads, 26 with classified (12.0 %)**.
+
+    | Settlement (type, system state) | Downloads | With classified | Rate |
+    |---|---|---|---|
+    | Ferenczi-houlden Extraction Exchange (extraction, unoccupied) | 82 | 12 | 14.6 % |
+    | Techno Defence Facility (military, unoccupied) | 44 | 8 | 18.2 % |
+    | **Dias's Territory** (extraction, Sorbago — Torval Exploited) | 53 | 3 | **5.7 %** |
+    | Shepherd Command Point (military, ICZ FB-X c1-25 — Torval Exploited) | 3 | 0 | 0 % |
+    | Xiao Chemical Enterprise (industrial, unoccupied) | 13 | 0 | 0 % |
+    | **Uduike Excavation Complex** (extraction, LPM 26 — Grom Exploited) | 7 | 2 | 29 % |
+    | Yan Metallurgic Station (extraction, LHS 480 — Grom Exploited) | 8 | 0 | 0 % |
+    | **Schwarz Landing** (military, LPM 26) | 3 | 1 | 33 % |
+    | Sharma Analytics (high-tech, Sarana) | 3 | 1 | 33 % |
+    | Agricultural, tourist, other industrial sites (≈45 downloads) | 45 | 0 | 0 % |
+
+    By settlement type: **military 18.4 %** (9/49), **extraction 13.4 %** (16/119), high-tech
+    1/3; agricultural, tourist and industrial 0 of 46.
+  - **Is Dias's Territory bad, or unlucky?** At 2 in 33 (16 Nov afternoon) it could still be luck
+    (≈12–22 %). **After three more raids the same day, 3 in 53 (5.7 %)** against **17 %** (23
+    in 138) at every other extraction or military site: the chance of doing that badly by luck
+    alone is **≈1.6 %**. Most likely **the settlement itself** is poor for classified.
+  - **Not Sorbago's state** (16 Nov, extraction + military sites only, per download):
+
+    | Attribute | Dias's Territory | Sites that share it, and their rate |
+    |---|---|---|
+    | Rival **Exploited**, 4 Powers present, high security | yes | **LPM 26** (Grom Exploited, 4 Powers, high security): 3 in 7 |
+    | Empire allegiance, owner = controlling faction, conflict in system | yes | **Techno Defence** (Empire, very high security, election, war): 8 in 44 (18 %) |
+    | Wars in the system (2) | yes | Conflicts vs none, all sites: 14.0 % vs 14.6 % — no effect |
+
+    Security (low 14.6 %, high 10.9 %, very high 17.8 %) and Powerplay state (unoccupied 15.9 %,
+    exploited 10.9 %) move only because Dias's Territory weighs on the "high" and "exploited"
+    rows. No system attribute singles Dias's out; its **layout and ports** (which buildings the
+    7 ports sit in) are the likely cause. The journal doesn't say which port a download came
+    from, so this can't be tested further from the logs.
+  - What the data does say: **extraction and military sites give classified; agricultural,
+    tourist and industrial sites haven't, in 46 downloads** (Xiao Chemical: 0 in 13).
+  - **Which port? (17 Nov)** The journal can't place a download: `BackpackChange` carries no
+    position, building or port name, and on-foot moves aren't logged. Two indirect tests:
+    - **Order within the raid** (same route each time → the Nth download is the same port).
+      **Ferenczi-houlden**, mapped to buildings with the documented route (`On-Foot.md` §5.1,
+      confirmed by Tonton Marcel 17 Nov — valid for uninterrupted runs only):
+
+      | Download # | Building (route) | Classified |
+      |---|---|---|
+      | 1–2 | CMD (switch room, upstairs) | **6 / 21 (29 %)** |
+      | 3, 5 | HAB ×2 | 2 / 20 (10 %) |
+      | 4 | EXT, upstairs | **4 / 10 (40 %)** |
+      | 6–9 | STO ×2, PWR (last) | **0 / 31** |
+
+      At the site's 14.6 % average, 0 in 31 happens **≈0.7 %** of the time.
+      **Every extraction and military site:** downloads #1–4 of a landing **25 / 135 (18.5 %)**,
+      #5 onward **1 / 67 (1.5 %)**. Without Ferenczi-houlden: 14 / 94 vs 0 / 26 (≈4 % by
+      luck). Dias's 3 classified: downloads #1, #3, #3 of 7.
+    - **Two explanations fit, and the routes can't tell them apart:**
+      - **The building:** CMD and EXT ports carry classified data, HAB rarely, STO and PWR
+        never — and STO/PWR always came last.
+      - **The landing:** only the first few downloads after landing can give classified data
+        (some per-visit cap or falling odds), whatever the port.
+    - **✔ Tested 18 Nov — the building it is** (Tonton Marcel's notes, building by building).
+      Same layout as Ferenczi-houlden found elsewhere: **Auclair Metallurgic Base** (Angi A 3 a,
+      Torval Exploited). One full run (CMD, HAB, EXT, HAB, STO, STO, PWR): classified once, in
+      **CMD**. Three short runs (CMD, HAB, EXT, HAB): classified **only in CMD and EXT** — the
+      HABs gave none even as the 2nd or 4th/5th download, so it is not just "early in the
+      landing". Per building, all four runs: **CMD 2 / 4, EXT 2 / 6** (the EXT download split
+      in two when the technician patrols — both halves are downloads), HAB 0 / 8, STO + PWR
+      0 / 3. Small numbers, same trend as Ferenczi-houlden's 31 STO/PWR downloads without
+      one.
+    - **Rule for the extraction layout ("Extraction 2 – small (+)", `On-Foot.md` §5.1):**
+      classified data comes from the **CMD** and **EXT** ports. Short run **CMD → (HAB) → EXT →
+      (HAB)**, lift off, land again; STO and PWR only if the common data is wanted. The three
+      short runs gave **3 classified in 14 downloads in 36 min** (≈5 an hour) — Dias's
+      Territory managed ≈1 an hour.
+    - **Why Dias's Territory failed:** it's a **different layout** (7 ports). Its ports likely sit
+      in buildings that rarely hold classified data. Pick settlements by layout, not by
+      settlement type alone.
+    - **Ordinary data dropped with it** (it depends on the building): since 8 Nov most
+      downloads also give ordinary data. The 7 classified downloads since then came with air
+      quality reports (2), purchase records, tax records, reactor output review, conflict
+      history, security expenses, exploration journals, topographical surveys — no building
+      type stands out; the samples are tiny.
+    - Same picture as a random roll per download, with a rate that differs by settlement.
+  - **To test ports properly:** log the position of each download. The journal's `Screenshot`
+    event records latitude, longitude, altitude and heading — **press F10 at each data port**
+    and the journal ties every download to a spot. Or a small logger reading `Status.json`
+    (live latitude, longitude, altitude, inside/outside a building) at each download, run
+    beside the game. A dozen raids at one settlement would show whether a port matters.
+  - **Downloads per hour still matter:** Dias's Territory gives 7 downloads per raid in ≈17–21
+    min — but at 6 % that is ≈1.2 classified an hour. A site at the usual 15–17 % needs only
+    ≈8–9 downloads per classified: worth even a slower raid. Next candidates, all in rival-held
+    systems: **Uduike Excavation Complex** (LPM 26, extraction, 2 in 4), other extraction or
+    military settlements in Torval/Grom systems near Sorbago (check on the galaxy map).
   - Classified data pays **no more per unit** than industrial or research (360) — its value is
     the assignment.
-- **Stats:** 1 assignment · **+5,600 merits** · 29 Oct week, completed **4 Nov 19:01** at Hale
+- **Stats:** 2 assignments · **+5,600 merits** each · last: **18 Nov 09:16**, undermining variant
+  (12 Nov week), handed in at Crossfield Market, **Marki**: 10 from Dias's Territory (3),
+  Uduike / Schwarz Landing (LPM 26, 3) and Auclair Metallurgic Base (Angi, 4), over 15–18 Nov.
+  ≈100 Power data downloads in all; the hunt paid ≈67,000 merits of common data on top. First:
+  29 Oct week, completed **4 Nov 19:01** at Hale
   Gateway (Tripitaka, Stronghold): 12 needed, 13 handed in (5 on 2 Nov 13:18, 8 more on 4 Nov
   with 65 common data units — Rank 28 → 33). Found at Ferenczi-houlden over 2–4 Nov (≈110 data
   items downloaded). First one: **+187 merits**, 29 Sept, **Sarana**
@@ -567,6 +683,13 @@ specific week — the week's progress lives in §1.*
     Wababa.
   - **21 Oct: 7 `onFoot_dataTransfer` fines (500 CR each) + 1 trespass (250 CR)** with HIP 1914
     Imperial Society — every download that an NPC saw, even with the alarm disabled.
+  - **⚠ A rival-held system is not "contested" (15 Nov):** the 12 Nov week's version asks for
+    association + political data from an **unoccupied or contested** system ("en proie à une
+    acquisition"), handed in at an Aisling **Fortified or Stronghold** in range. Data from
+    Dias's Territory, **Sorbago (Torval Exploited)**, handed in at Marki (Stronghold) paid
+    merits — **435 per unit** for fresh association/political, 290 for industrial/research/
+    classified, 207–310 for older locker stock — but left the assignment at **0/8**. Check the
+    system's state on the galaxy map (Powerplay view) before raiding.
   - **⚠ Read where the data must come from and where it must be sold** (5 Nov week): the
     assignment named **industrial or research data from Tucanae Sector BV-X b1-1, sold only in
     Wababa**. On 7 Nov everything was sold at Medupe City instead — paid merits (11,520), but
@@ -574,7 +697,11 @@ specific week — the week's progress lives in §1.*
     locker until you dock in the named system, and sell nothing else there. Data from other
     systems doesn't count either, even of the right type (the old stacks in the locker were
     ignored).
-- **Stats:** 3 assignments · +5,600 merits each · last: 8 Nov, **Tucanae Sector BV-X b1-1 →
+- **Stats:** 4 assignments · +5,600 merits each · last: 16 Nov, **Shui Wei Sector MI-S b4-1**
+  (unoccupied) → **Crossfield Market, Marki** (Stronghold, three jumps): association + political
+  from **Xiao Chemical Enterprise** (industrial, docked on its pad), collected alongside the
+  malware uploads; 18 units handed in at 12:58 — **540** per association/political unit, 360
+  per industrial/research. 8 Nov, **Tucanae Sector BV-X b1-1 →
   Roelofs Station, Wababa**, 9 industrial/research needed (18 of 52 downloads at Techno
   Defence were industrial or research, ≈2 per landing): 27 units handed in at 17:32, **+17,300
   with the bonus** — Rank 36–38. 21 Oct, **Techno Defence Facility**
@@ -632,6 +759,12 @@ specific week — the week's progress lives in §1.*
         five visits), despite 42,125 undermining. That undermining most likely comes from rival
         commanders playing in Open, who can't be met in Solo. Convoy dispersals, weapons fire,
         trade beacons and Power wreckage signals there held only minor-faction ships.
+  - [ ] **Rivals listed is necessary, not sufficient** (13 Nov): Shui Wei Sector MI-S b4-3,
+        next to Sorbago and the named system of the 12 Nov week's assignment, lists Aisling, Lavigny-Duval, Grom and Torval, yet 20 min of signals
+        gave no Power convoy distress and no Power weapons-fire signal — only a plain weapons-fire
+        signal and a convoy dispersal with two Wanted pirates (+69 and +10 merits for the
+        bounties) and two empty Power wreckage signatures. Power signals come and go: if none
+        shows, leave and come back later rather than grinding the system.
   - [ ] So in an Aisling system with only Aisling listed, the assignment **can't be done in
         Solo**. Probably not a bug in the mission itself: the game picks a system where rivals
         are active, but in Solo only their effect (the undermining) is visible, not their
@@ -697,14 +830,21 @@ specific week — the week's progress lives in §1.*
 
     → **Injection** where Aisling is already present (a rival system she can contest or
     acquire); **tracing** where she isn't (plain undermining). To confirm:
+    | Shui Wei Sector MI-S b4-1 (16 Nov) | Unoccupied | **Aisling**, Patreus, Grom, Torval | ✔ accepted (10 uploads) | not tried |
+
     - [ ] Try a tracing malware at Shui Wei Sector VT-R b4-4: greyed out = hypothesis holds.
-    - [ ] Before collecting, check whether the target system's `Powers` list names Aisling.
+    - [x] Before collecting, check whether the target system's `Powers` list names Aisling —
+          done for MI-S b4-1 (16 Nov): Aisling listed, injection worked. Four systems out of
+          four fit the rule.
 - **Pitfall — a crash loses the upload:** on 6 Nov a crash to desktop came seconds after an
   upload, as the alarm went off. The upload was never recorded and all the malware was back in
   the locker at the next login. With the page file fix (§4, 7 Nov) there has been no crash since.
 - **Malware also at Medupe City:** 10 tracing + 2 injection collected there on 6 Nov — no need
-  to fly to Munshin or Kherthaje.
-- **Stats:** 3 assignments · **+5,200 merits** each · last: 7 Nov, **Techno Defence Facility**
+  to fly to Munshin or Kherthaje. **And at Crossfield Market, Marki** (10 injection, 15 Nov).
+- **Stats:** 4 assignments · **+5,200 merits** each · last: 16 Nov, **Xiao Chemical Enterprise**
+  (Shui Wei Sector MI-S b4-1 A 8, unoccupied, industrial) — injection, 250 per upload, five
+  landings over 15–16 Nov (≈2.5 h on foot in all), paid on the **10th upload** (12:48). 7 Nov,
+  **Techno Defence Facility**
   (Tucanae Sector BV-X b1-1, unoccupied, military) — injection, **250 merits per upload**, 3
   landings, undetected, paid on the **11th upload** (11:37). 2 Nov: tracing at Kewell's Club,
   Reorte (195 per upload). 26 Oct: Munshin → Heath's Quarry, 07:24–10:55.
