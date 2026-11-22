@@ -55,7 +55,7 @@ nothing more is added.
 | **The Brick** (Type-9, `ON-16T`, ShipID 11) | Type-9 Heavy | 758 t cargo · 26.49 ly · FSD 6B, Increased Range g5 + Deep Charge · Power Plant 6A · Thrusters 6A · Distributor 6A · Shield 5A · Sensors 4E · 3 medium + 2 small gimballed weapons · Armour grade 1. **Back at Medupe City since 29 Oct** (CG 864 at Homer Platform, AD Leonis, 24–29 Oct) — bridge ship for bulk trade until the Cornucopia (Phase 5, §5). **V2 refit done 30 Sept** (`Shipyard.md`, annex A5): the loadout above is the *original* one. The V2 fit (no weapons, 7A Dirty Drive thrusters, 6A SCO FSD G5, 35.2 ly) is in the Shipyard card. **Since 9 Oct:** back to **758 t** (6E cargo rack in place of the 2 Oct fuel scoop) and a 6C fuel tank (§4). |
 | **Hyperion** (Asp Explorer, `MA-07A`, ShipID 4) | Asp Explorer | **Retiring** (decided 7 Oct): the Marco Polo flies the Guardian expedition. **DSS removed and moved to the Marco Polo, 8 Oct.** Last `Loadout` (8 Oct): **53.6 ly**. FSD 5A Increased Range G5 + Deep Charge · Thrusters Dirty Drive G3 + Overloaded · Power Plant 5A Armoured G1 · Fuel Scoop 6A · Planetary hangar 2D · Shield 5D · 20 t cargo · Collector Limpet Controller 3A · Life Support 4D · Distributor 4D · Sensors 5D · 4× Heat Sink Launcher; rescue-run weapons possibly still fitted (2× pulse laser, dumbfire racks — check before storing). Next: strip and store at the Medupe City museum (`Shipyard.md`). |
 | **Marco Polo** (Corsair, `MA-08C`, ShipID 16) | Corsair | **Bought 8 Oct 2026** at Crevenna's Folly (Col 285 Sector AC-H b12-1), 77,322,128 CR; engineered the same morning (journal `Loadout` 10:00). Named **"MARCO POLO"** in game on 8 Oct 10:15 (`SetUserShipName`). **Power Plant 4D, Overcharged G1 + Stripped Down** (Farseer) · **Thrusters 5D, Dirty Drive G3 + Drag Drives** (Farseer) · **FSD 5A SCO, Increased Range G5 + Mass Manager** (Farseer) · **Distributor 5D, High Capacity G5 + Stripped Down** (The Dweller) · **Sensors 6D, Lightweight G5** (Lei Cheung) · **Shield 5D, Reinforced G5 + Stripped Down** (Lei Cheung) · Life Support 4D · Fuel Tank 4C (16 t) · Fuel Scoop 6A · **2× AFMU 6A** · Hull Reinforcement 4D · Planetary hangar 2D · **DSS Expanded G5 (the Hyperion's, moved 8 Oct)** · Heat Sink Launcher · 72 t cargo racks (2× 5E + 3E) · Lightweight Alloy armour. **63.4 ly**, 339.5 t, Rebuy ≈7.0M CR. ⚠ Power: the second AFMU can't be powered with the G1 power plant (Shipyard card). **19 Oct `Loadout`:** 208 t of cargo racks, 6A fuel scoop, multi-drone controller, planetary hangar, DSS Expanded G5, FSD Increased Range G5 — **341.5 t, 66.5 ly**. |
-| **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32); Prismatic and limpets 13 Nov (journal `Loadout` 14 Nov 14:12).* **Multi-Cannon (Large, Gimballed), Overcharged G5 + Auto Loader** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** — 2× Corrosive Shell + 1× Incendiary (McQuinn, experimentals 19 Oct) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Prismatic Shield 6A, Reinforced G5 + Hi-Cap** (bought 13 Nov at Hencke Orbital, 23,662,565 CR; the old 6A Reinforced G5 + Hi-Cap shield is stored there) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **4× Hull Reinforcement 5D** · Module Reinforcement 2E + 1E (the 4D and 3D stored 13 Nov) · **Cargo Rack 4E (16 t) + Recon Limpet Controller 3E** (13 Nov, for holoscreens) · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
+| **Nemesis** (Corsair, ShipID 18) | Corsair | **Bought 15 Oct 2026** at Kenig City (ICZ EG-O b6-2), 74,961,584 CR hull; outfitted and engineered the same night (journal `Loadout` 15 Oct 03:09). *Refitted 19 Oct (journal `Loadout` 11:54 + `EngineerCraft` 12:01–12:32); Prismatic and limpets 13 Nov (journal `Loadout` 14 Nov 14:12).* **Multi-Cannon (Large, Gimballed), Overcharged G5 + Auto Loader** (McQuinn) · **2× Pulse Laser (Large, Gimballed), Overcharged G4 + Oversized** (The Dweller) · **3× Multi-Cannon (Medium, Gimballed), Overcharged G5** — 2× Corrosive Shell + 1× Incendiary (McQuinn, experimentals 19 Oct) · **3× Shield Booster 0A, Heavy Duty G3 + Super Capacitors** (Lei Cheung) · Heat Sink Launcher · **Prismatic Shield 6A, Reinforced G5 + Hi-Cap** (bought 13 Nov at Hencke Orbital, 23,662,565 CR; the old 6A Reinforced G5 + Hi-Cap shield is stored there) · **Shield Cell Bank 6A** (back in its slot 24 Oct, in place of the 19 Oct fuel scoop) · **3× Hull Reinforcement 5D** · **Module Reinforcement 5E + 4E** · **Cargo Racks 3E + 2E (12 t) + Collection Limpet Controller 1B** (refit 20 Nov at Roentgen Orbital, HR 5632, for PP rescue drops and convoys — journal `Loadout` 17:06; the Recon Limpet Controller 3E of 13 Nov is stored at Medupe City; **868.8 t, 17.8 ly**) · **Distributor 7A, High Capacity G5 + Cluster Capacitors** (The Dweller) · **Thrusters 7A, Dirty Drive G3 + Drag Drives** (Farseer) · **Power Plant 7A, Overcharged G1 + Monstered** (Farseer) · **FSD 5A SCO, Faster Boot G5 + Double Braced** (Martuuk, 19 Oct; the Increased Range FSD is back on the Marco Polo) · **Sensors 6A, Lightweight G3** · Life Support 4A · Fuel Tank 5C · Mirrored Surface Composite armour. **776.8 t, 17.3 ly** before the Faster Boot pass (11:54 `Loadout`). 842.8 t on 15 Oct → 810.8 t on 16 Oct → 776.8 t. |
 
 **In storage:** Modified Mining Laser 1A, pre-engineered grade 5, at LHS 3872 [Curbeam Hub] —
 Class 1 hardpoint (incompatible with any Clipper); to retrieve when a compatible hull is fitting
@@ -1327,6 +1327,95 @@ has changed about herself in a long time, chosen and paid for.
 
 ---
 
+### 20 November — Powerplay Calls: Donations, Contracts, Locusts, Rescue and Rival Ships (journal-verified)
+
+Source: journal file of 20 Nov (13:06–17:06 UTC) and Tonton Marcel's report. The on-foot
+material and mission run was paused: PP duty took over — **ship work only**, none of the ten
+assignments needed boots on the ground.
+
+- **Maverick raised G2 → G3 → G4** at Medupe City (13:08, 6.75M CR) — Stage B of the suit plan,
+  mods still to come (`On-Foot.md` §2.1).
+- **Nemesis refit** at Medupe City then Roentgen Orbital, HR 5632 (17:04): collection limpets in
+  place of the recon controller, 12 t of cargo, module reinforcements — **868.8 t, 17.8 ly**
+  (§2).
+- **Sealed contracts** (card 4.10): 10 collected at Medupe City (13:17), delivered at **Kessel
+  Platform, HIP 3254** (13:32, after a "no space" denial) — **+2,000**.
+- **Rare goods** (card 4.1): 9 **Karsuki Locusts** at West Market, Karsuki Ti (732 CR) → sold at
+  **Tsiolkovsky Ring, Fire Fade** (1,210) — **+2,000** at 13:51, **Rank 52**.
+- **Donations — 24 missions, 23.5M CR:** Karsuki Ti (Prismatic Imperium, Karsuki Ti Patrons of
+  Law, 4M), HIP 3254 (Prismatic Imperium, HIP 6161 Empire League — an outbreak, 5.75M), Fire Fade
+  Exchange (2M), HIP 1914 (Imperial Society, Purple Universal, 4M), **Nexus Heavy Industries** at
+  Medupe City (7.75M). 56–168 merits each on top. Interdicted by an Imperial military ship in
+  HIP 1914 (14:05, submitted).
+- **Rescue** (card 4.4): a Power emission drop at HIP 3254 in the Nemesis (pods, wreckage, a
+  black box → Kessel Platform, 360k CR, +982 merits); then, in the Marco Polo (collection
+  controller fitted at Hale Gateway), one at HR 5632, handed in at Tripitaka. The **Nemesis
+  transferred Cubeo → Tripitaka** (180 ly, 4.12M CR, 35 min) and took over at 16:06.
+- **HR 5632, Nemesis, 16:11–17:03:** four emission drops and a convoy distress signal — shields
+  down once (16:15) and a reboot-repair (16:25), 41k CR of repairs; four rival Power ships killed
+  (Torval, Grom ×2, Mahon). Rescue items handed in at **Roentgen Orbital**: assignment
+  **+2,800** (17:03). One Lavigny-Duval holoscreen hacked there in passing.
+- **Megaships** (card 4.9): **three uplink scans at HR 5632** in the Marco Polo (15:50–16:00,
+  468 each) — 3 of the 11.
+- **Merits:** 387,401 → 398,744 (`Powerplay` at the next login); 5,464.9M → 5,431.7M CR.
+
+**Raw material for future `Logbook.md` days:** a day of giving — twenty-four purses handed over
+in five systems, an outbreak among them; locusts bought at Karsuki and sold under Aisling's flag;
+escape pods pulled out of a Power's wreckage field while rival hunters circle; the warship
+brought up the line to finish what the trader started.
+
+---
+
+### 21 November — Rival Ships at HR 5632, Rank 53 (journal-verified)
+
+Source: journal file of 21 Nov (11:29–12:03 UTC).
+
+- **Nemesis back at HR 5632:** a Power emission drop, then a **convoy distress signal** — four
+  more rival ships, all wanted: Lavigny-Duval Viper and Anaconda (11:37, 11:41 — **Rank 53**),
+  Torval Anaconda ×2 (11:53–11:54). Rival-kills assignment **+3,200** at 11:54 (card 4.13): 8
+  kills over the two days.
+- Heat sinks synthesised once mid-fight (Basic); 3 Unidentified Scan Archives picked up.
+- **Tripitaka, Hale Gateway (12:02):** back into the Marco Polo, the **Nemesis stored there**;
+  2,800 CR of bounty vouchers cashed.
+- **Week status:** 4 of 10 assignments done — sealed contracts, rare goods, rescue, rival kills.
+- **Merits:** 398,744 → 402,934 (next login, 22 Nov).
+
+**Raw material for future `Logbook.md` days:** a convoy under attack and four rival flags struck
+in a quarter of an hour; the warship left in the dock at Tripitaka, as if she meant to come back
+for it.
+
+---
+
+### 22 November — Three Assignments in Forty Minutes, a Whisky for LP 684-17 (journal-verified)
+
+Source: journal files of 22 Nov (16:08–16:16 and 17:49–18:55 UTC) and Tonton Marcel's report.
+At Hale Gateway first (16:08): the week's assignments read from the Powerplay screen
+(screenshots), recon limpet controller back on the Marco Polo, jump to Ao. First route
+planned with `tools/pp_week.py` (`Powerplay Missions.md` §1). Marco Polo, recon limpets fitted.
+
+- **Ao, Avicenna Hub (Archer Fortified) — undermining holoscreens:** 8 screens per drop,
+  12 hacks × 48 in two drops (17:52–18:05); assignment **+4,800** at 18:04, **Rank 54**. Fines
+  12,400 CR to Bollwerk Mercenary Corporate, paid on docking.
+- **LHS 378 (Aisling Exploited):** 8 ships targeted (nav beacon, McCoy Platform) — scans
+  assignment **+2,000** at 18:15, in 4 min. Holoscreens: **one** hijacked screen in the whole
+  system (Ericsson Beacon, Mahon) — 11 hacks × 65 by **relogging** at the station between hacks,
+  18:19–18:33; **+2,400**, no fines.
+- **Wolf 587, Reamy City:** the **Nemesis** called from Tripitaka (80 ly, 1.88M CR, 18 min) — the
+  nearest shipyard to LP 684-17 (LHS 378 has none).
+- **Rare goods:** Aganippe Rush out of stock at Julian Market; **12 Eranin Pearl Whisky** bought
+  at Azeban City, Eranin (2,310 CR each), back at Reamy City at 18:54.
+- **Open:** swap to the Nemesis at Reamy City — the 12 rares move with the swap (cargo
+  transfer up to the smaller hold, 12 t) — then rares and bounties in LP 684-17 in one trip
+  (357,941 CR); 8 megaships on the way home (Tripitaka ×2, Sitakapa ×3, Ruwachis ×3 → Medupe
+  City).
+- **Merits:** 402,934 → **413,481** (+10,547 in 41 min).
+
+**Raw material for future `Logbook.md` days:** a station's adverts rewritten screen by screen
+under Archer's flag; a lone billboard in LHS 378 that keeps falling back to Mahon — and she keeps
+taking it back; a bottle of Eranin's whisky bought to be sold, not drunk.
+
+---
+
 ## 5. ROADMAP
 
 Consolidated 23 September 2026: this section now absorbs the old §§8–10 (Imperial rank, on-foot protocol, engineering) and
@@ -1737,6 +1826,8 @@ Moved to `Shipyard.md` §3 (25 Sept 2026). Annex labels A1–A5 and B1–B9 are 
 | Spansh | Exobiology, material, cargo and neutron routes |
 | Coriolis / EDSY | Builds before purchase |
 | `tools/travel_stats.py` | Jump metrics per ship from the journal: jumps, ly, average / best jump, jump cadence, ly per hour of route time, scooping, neutron boosts (`--since`, `--routes`) |
+| `tools/pp_week.py` | One route for the week's Powerplay assignments, read from `Powerplay Missions.md` §1: named systems with their tasks and stations, a rival system for undermining work, megaships still to scan, rare-goods source before the sale (`--rare-source`, `--to`, `--jump`). Built 22 Nov 2026 |
+| `tools/waypoint_route.py` | Route through N systems meeting criteria (megaships to scan, station type, power state), optional via/destination; megaships from a pasted Inara search (`tools/inara_megaships.txt`) and the journals. Built 22 Nov 2026 |
 | `tools/combat_stats.py` | Combat metrics from the journal: zones, kills/h, gap and time on target, ship types and pilot ranks killed, shields lost, outcomes, per weapon fit (`--kills`, `--csv`) |
 | `../elite-loot/loot_stats.py` | Settlement loot from the journal: every on-foot visit's goods, components and data against the settlement's and system's economy, government, faction state, security… Shows where an item drops (`--item suitschematic`, `--by settlement_economy`, `--since`, `--csv`). Built 10 Nov 2026, outside this repo |
 | ED Colonisation Planner | Build order for a system |
@@ -1747,7 +1838,7 @@ the account in settings, or pull each hull out of the hangar once with EDMC runn
 
 ---
 
-*Last updated: 13 November 2026 (journal read through 12 Nov 10:41 UTC; session logs 3–12 Nov
+*Last updated: 22 November 2026 (journal read through 22 Nov 18:55 UTC; session logs 20–22 Nov
 added). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier

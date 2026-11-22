@@ -18,8 +18,8 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **53** (`PowerplayRank`, 21 Nov 2026 11:41 UTC) |
-| Merits | **402,934** (Powerplay screen, 22 Nov 2026 ~17:10 UTC) |
+| Rank | **54** (`PowerplayRank`, 22 Nov 2026 18:04 UTC) |
+| Merits | **413,481** (`PowerplayMerits`, 22 Nov 2026 18:33 UTC) |
 | Target | ✔ **Rank 34 reached 7 Nov 2026 11:37** (≈247,000 merits) — Prismatic Shields unlocked for Phase 4 (§5.4). No next rank target set yet |
 
 ---
@@ -41,14 +41,14 @@ system or `reinforcement` / `undermining`, **Status** `done / target`).*
 |---|---|---|---|---|---|
 | 1 | Collect bounties (*Encaisser des primes dans le système LP 684-17*) — vouchers earned, not cashed | 4.5 | LP 684-17 | 0 / 357,941 CR | 4,800 |
 | 2 | Scan megaships in reinforcement systems | 4.9 | reinforcement | 3 / 11 | 2,400 |
-| 3 | Sell rare goods in LP 684-17 — not bought in LP 684-17 | 4.1 | LP 684-17 | 0 / 12 | 3,600 |
-| 4 | Scan ships and wakes in LHS 378 — hand in at any Aisling system | 4.2 | LHS 378 | 0 / 8 | 2,000 |
-| 5 | Hack holoscreens in the ports of LHS 378 | 4.7 | LHS 378 | 0 / 11 | 2,400 |
-| 6 | Hack holoscreens in undermining systems | 4.6 | undermining | 0 / 11 | 4,800 |
-| 7 | Transport power energy goods (*Transport de marchandises énergétiques…*) | ? | ? | ✔ | — |
-| 8 | Recover cargo (*Récupérez des cargaisons dans des systèmes…*) | ? | ? | ✔ | — |
-| 9 | Sell rare goods (*Vendez des marchandises rares dans des syst…*) — Karsuki Locusts ×9, 20 Nov | 4.1 | ? | ✔ | — |
-| 10 | Kill rival Power members (*Tuer des membres d'une puissance rivale…*) | 4.13 | ? | ✔ | — |
+| 3 | Sell rare goods in LP 684-17 — not bought in LP 684-17 (12 Eranin Pearl Whisky in the Marco Polo, 22 Nov) | 4.1 | LP 684-17 | 0 / 12 | 3,600 |
+| 4 | Scan ships and wakes in LHS 378 — paid 22 Nov 18:15 | 4.2 | LHS 378 | ✔ | 2,000 |
+| 5 | Hack holoscreens in the ports of LHS 378 — paid 22 Nov 18:33 | 4.7 | LHS 378 | ✔ | 2,400 |
+| 6 | Hack holoscreens in undermining systems — Ao, paid 22 Nov 18:04 | 4.6 | Ao | ✔ | 4,800 |
+| 7 | Transport power goods (*Transport de marchandises énergétiques…*) — most likely the 10 sealed contracts, Medupe City → Kessel Platform, paid 20 Nov 13:32 | 4.10 | HIP 3254 | ✔ | 2,000 |
+| 8 | Recover cargo (*Récupérez des cargaisons dans des systèmes…*) — Power emission drops, handed in at Roentgen Orbital, paid 20 Nov 17:03 | 4.4 | HR 5632 | ✔ | 2,800 |
+| 9 | Sell rare goods (*Vendez des marchandises rares dans des syst…*) — Karsuki Locusts ×9 → Tsiolkovsky Ring, paid 20 Nov 13:51 | 4.1 | Fire Fade | ✔ | 2,000 |
+| 10 | Kill rival Power members (*Tuer des membres d'une puissance rivale…*) — 8 kills over two days, paid 21 Nov 11:54 | 4.13 | HR 5632 | ✔ | 3,200 |
 
 ---
 
@@ -286,9 +286,20 @@ specific week — the week's progress lives in §1.*
 - **No rare-goods data on Spansh or EDSM** (checked 22 Nov: West Market's Karsuki Locusts are
   missing from both): look the source up on Inara, then plan with
   `python tools/pp_week.py --rare-source "<system>"` — it puts the source before the sale.
+  Every rare's origin station is in EDCD's `rare_commodity.csv` (GitHub, FDevIDs) by MarketID.
+- **Stock can be zero:** Aganippe Rush (Julian Market, Aganippe) had **no supply** on 22 Nov.
+  Keep a second source in reserve.
+- **Near LHS 378 / LP 684-17:** **Eranin Pearl Whisky**, Azeban City, Eranin (Coriolis, 294 ls)
+  — 12 bought at 2,310 CR, 22 Nov. Other close sources with a short supercruise: Pavonis Ear
+  Grubs (Delta Pavonis, 195 ls), Indi Bourbon (Epsilon Indi, 143 ls), Altairian Skin (Altair,
+  666 ls).
+- **Cargo follows a hull swap** at the shipyard, up to the smaller hold (22 Nov: 12 rares from
+  the Marco Polo into the Nemesis's 12 t) — rares and bounties in one trip with the combat hull.
 - **Shortcut:** it has been **Karsuki Locusts every time** (18× at West Market, Karsuki Ti, 915 CR)
   — go straight there. HIP 7311 (Fan Base) is one jump away and sells them at a small profit.
-- **Stats:** 3 runs · +3,600 merits each · last: 12 Oct, **Karsuki Ti** (West Market) →
+- **Stats:** 4 runs · +3,600 merits (+2,000 for the "sell in Aisling systems" variant) · last:
+  20 Nov, **Karsuki Ti** (9 Locusts at 732) → **Tsiolkovsky Ring, Fire Fade** (Stronghold,
+  1,210 each), bought 13:24, paid 13:51 — **+2,000**, between donation stops. 12 Oct, **Karsuki Ti** (West Market) →
   **HIP 7311** (Fan Base, unoccupied), bought 23:48, sold 23:56 — ~18 min from Grushin
   Prospect. 1 Oct: → Tucanae Sector WO-Z b0 (Fefra's Legacy), ~20 min. 18 Sept: → HIP 7311, ~12 min.
 
@@ -304,7 +315,9 @@ specific week — the week's progress lives in §1.*
   — escaped on the Clipper's speed.
 - **Easy in passing:** every ship targeted in an Aisling system pays **+7 merits** per scan, so
   any combat session there fills this assignment without trying (16 Oct, Osane massacre stack).
-- **Stats:** 2 runs · +2,000 merits each · last: 16 Oct, **Osane** (Stronghold), during the
+- **Stats:** 3 runs · +2,000 merits each · last: 22 Nov, **LHS 378** ("ships and wakes in a
+  named system" variant) — 6 ships targeted at the nav beacon, 2 more at McCoy Platform, paid
+  18:15, **4 min**; handed in by itself (no Power contact visit). 16 Oct, **Osane** (Stronghold), during the
   massacre stack — paid 01:36. 18 Sept: HIP 3254 — scan done 11:18 (visit 11:12–11:24).
 
 ### 4.3 Aisling Programme → undermine an exploited system
@@ -356,7 +369,15 @@ specific week — the week's progress lives in §1.*
   hand in at the same system's station (`SearchAndRescue`). Col 285 Sector WO-O b20-1: three
   signals, 4 occupied escape pods + 8 wreckage components + 3 black boxes, handed in at **Spitzer
   Gateway** — **15 min**. It's the pyrophyllite loop's sell station (§3): do both together.
-- **Stats:** 2 assignments · +2,800 merits each · last: 25 Oct, Col 285 Sector WO-O b20-1 →
+- **Power emission drops are the source** (20 Nov): each `$USS_Type_PowerEmissions;` signal
+  holds black boxes, wreckage and escape pods for collection limpets — sometimes guarded (HR 5632,
+  threat 4: shields down, a reboot-repair). Every item also pays PP merits at hand-in (228–520
+  per batch), assignment or not.
+- **Stats:** 3 assignments · +2,800 merits each · last: 20 Nov, **HR 5632** (Fortified) — four
+  emission drops in the Nemesis (collection limpets), handed in at **Roentgen Orbital** 17:03:
+  2 black boxes, 6 wreckage, 6 pods. Earlier the same day, a HIP 3254 drop (handed in at Kessel
+  Platform, +982 merits) and a first HR 5632 one (handed in at Hale Gateway, Tripitaka) did not
+  complete it (unconfirmed why: too few items, or the wrong system type). 25 Oct, Col 285 Sector WO-O b20-1 →
   Spitzer Gateway, 21:43–21:58. 18 Sept:
   **Lambda Hydri** (Hansteen Depot, pop. 2,490, exploited) — Clipper first pass 18:01, Asp from
   18:38.
@@ -405,7 +426,12 @@ specific week — the week's progress lives in §1.*
   two module reinforcements, in minutes at Hencke Orbital. Two screens per drop at Dalgarno
   Colony, no trouble from the station — the cheap-hull rule matters most at stations with
   aggressive guns (Wilson Stop).
-- **Stats:** 5 assignments · +4,800 merits each · last: 13–14 Nov, **Sorbago** (Torval
+- **Docking with fines is fine** (22 Nov, Avicenna Hub): docked straight after the hacks and paid
+  them at the station (12,400 CR), no trouble.
+- **Stats:** 6 assignments · +4,800 merits each · last: 22 Nov, **Ao** (Archer Fortified;
+  "undermining systems" variant), **Avicenna Hub** — 8 screens per drop, 12 hacks × 48 in 2
+  drops, 17:52–18:05, ~13 min, **paid on the 11th** (18:04, Rank 54); fines 12 × 1,000 + 400
+  (loitering) to Bollwerk Mercenary Corporate, paid on docking. 13–14 Nov, **Sorbago** (Torval
   Exploited; Aisling present), **Dalgarno Colony** — 10 hacks × 67 in 5 drops of 2, ≈11 min in
   all (13 Nov 22:40–22:46, 14 Nov 14:14–14:17), **paid on the 9th**; 10 × 1,000 CR fines.
   8 Nov, **Chinga** (Wilson Stop, 2 hacks ×
@@ -433,6 +459,9 @@ specific week — the week's progress lives in §1.*
   - [ ] Recon limpet on it (+merits per hack).
   - [ ] Back to supercruise, drop again: the screen shows the rival's adverts again — one screen
         is enough for the whole assignment.
+  - [ ] **Faster: relog instead of the supercruise loop** (22 Nov, LHS 378) — back to the main
+        menu and reload at the station: the screen is hijacked again on load. **One hack every
+        ~1 min 25 s** (11 in 14 min).
 - **Pitfalls:**
   - A day lost searching Aisling-only systems (25 Sept) before finding the rule above.
   - Merits per hack dropped from 100 (25 Sept) to 65 (26 Sept) — reason unconfirmed (maybe the
@@ -440,7 +469,12 @@ specific week — the week's progress lives in §1.*
   - Another system that fits the rule: **Khepri** (Exploited; Lavigny-Duval, Mahon, Grom
     present), Newton Port — 7 hacks × **126 merits** on 13 Oct (00:55–01:08), no fines. Good
     loose merits even when this isn't the week's assignment.
-- **Stats:** 2 assignments · +2,400 merits each · last: 26 Oct, **Amaneque** again (Gilliland
+  - **One screen in the whole system is common** (22 Nov, **LHS 378**, Exploited; Mahon, Winters,
+    Grom, Archer present): McCoy Platform had none, Ericsson Beacon a single one (Mahon). Use
+    the relog loop above rather than eleven drops.
+- **Stats:** 3 assignments · +2,400 merits each · last: 22 Nov, **LHS 378**, Ericsson Beacon —
+  11 hacks × 65 on one Mahon screen by relogging, 18:19–18:33, ~14 min, **no fines**, paid
+  18:33. 26 Oct, **Amaneque** again (Gilliland
   Colony) — 8 hacks, one per drop, 11:17–11:31, ~14 min, **no fines**. First: +2,400 (+ 5 × 100 and 7 × 65 per hack), 25–26 Sept,
   **Amaneque** (Aisling, Exploited; Lavigny-Duval, Mahon, Torval also present), Gilliland Colony
   (outpost) — completed 26 Sept 09:18.
@@ -674,7 +708,9 @@ specific week — the week's progress lives in §1.*
   - [ ] Deliver to the target system's station.
 - **Pitfalls:** none met — 6–7 min from collection to delivery. A bigger load pays a bit more on
   top (+180 for 30, +37 for 12).
-- **Stats:** 2 runs · +2,000 merits each · last: 13 Oct, Wheelock Settlement, **Zeaex**
+- **Stats:** 3 runs · +2,000 merits each · last: 20 Nov, **Medupe City** (10 contracts, 13:17,
+  Nemesis) → **Kessel Platform, HIP 3254** (Stronghold, 13:32; first docking denied, no space),
+  via Karsuki Ti — likely the week's *"Transport de marchandises énergétiques"*. 13 Oct, Wheelock Settlement, **Zeaex**
   (Stronghold, 00:42) → **Banks Port, Khepri** (Exploited, four Powers present — undermined,
   00:48). 1 Oct: Medupe City → Roelofs Station, Wababa.
 
@@ -807,7 +843,11 @@ specific week — the week's progress lives in §1.*
   were **Wanted** (Nakato Kaine, Winters, Mahon): **legal kills with bounties**, no murders — the
   opposite of a rival-held system. 89–134 merits per kill, **+3,200** after ≈10 kills
   (20:21–20:51, 30 min). The bounties were paid at Gooch Survey.
-- **Stats:** 2 assignments · last: 30 Oct, **Gadagombiri** (reinforcement) — +3,200. 17 Oct, rival
+- **Stats:** 3 assignments · last: 20–21 Nov, **HR 5632** (Aisling Fortified, six Powers
+  present) — Nemesis in Power emission drops and convoy distress signals: 8 rival ships, all
+  wanted (legal kills, bounties 400–800 CR): Torval Eagle, Grom Eagle, Grom Type-9 (convoy), Mahon
+  Python on 20 Nov 16:24–16:57; Lavigny-Duval Viper and Anaconda, Torval Anaconda ×2 on 21 Nov
+  11:37–11:54 — **+3,200** at 11:54, ≈110–190 per kill. 30 Oct, **Gadagombiri** (reinforcement) — +3,200. 17 Oct, rival
   system: **+4,800 merits on the 10th kill** + ≈230 per kill (178–312) ·
   17 Oct, **Shui Wei Sector VT-R b4-5** (Lavigny-Duval) — 11 kills in two visits: 5 at 16:11–16:17,
   6 at 20:50–21:03 (one weapons-fire signature, two convoy signals). ≈20 min of fighting in all.

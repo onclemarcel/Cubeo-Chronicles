@@ -196,7 +196,10 @@ is worth more than cheaper tools).*
 - [ ] **Stage B — G3 and G4, slots 2–3 (now).** Next gate: **5 Opinion Polls** for Kit Fowler
       (`Engineers & Materials.md` §3) — never found yet; filter mission rewards for them, check
       bartender stock, and the data ports (EDOMH says which settlement types hold them).
-      Raise the suit to G3, then G4, at Pioneer Supplies.
+      - [x] **Raised to G3, then G4 — ✔ 20 Nov 2026 13:08** at Medupe City (journal
+            `UpgradeSuit`: 2,250,000 + 4,500,000 CR, plus micro-resources). Slots 2–3 are open;
+            the mods still wait for Kit Fowler and Yarden Bond. The "Have" counts in the status
+            table below predate these raises.
       A bought suit starts with no mods, so raising the modded one is better. Once the Domino
       Green → Kit Fowler → Yarden Bond chain is done (`Engineers & Materials.md` §3), apply
       **Improved Jump Assist** and **Quieter Footsteps** at Yarden Bond, in one visit.
