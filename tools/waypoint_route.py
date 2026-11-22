@@ -121,7 +121,7 @@ def journal_megaships(folder):
     """{system: {"names": {name: last seen}, "scans": [timestamps]}}."""
     out, names, current = {}, {}, None
     keys = ('"FSSSignalDiscovered"', '"DataScanned"', '"FSDJump"',
-            '"Location"', '"CarrierJump"')
+            '"Location"', '"CarrierJump"', '"StartJump"')
     for path in journal_files(folder):
         try:
             with open(path, encoding="utf-8") as fh:
@@ -136,6 +136,10 @@ def journal_megaships(folder):
                     if name in ("FSDJump", "Location", "CarrierJump"):
                         current = ev.get("StarSystem")
                         names[ev.get("SystemAddress")] = current
+                    elif name == "StartJump" and ev.get("SystemAddress"):
+                        # the new system's signals can be logged BEFORE its
+                        # FSDJump (22 Nov, Ao): learn its address here
+                        names[ev["SystemAddress"]] = ev.get("StarSystem")
                     elif name == "FSSSignalDiscovered" and \
                             ev.get("SignalType") == "Megaship":
                         sys_name = names.get(ev.get("SystemAddress"), current)
