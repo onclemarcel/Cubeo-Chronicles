@@ -2,53 +2,50 @@
 """
 waypoint_route.py - route with N intermediate stops that meet given criteria.
 
-From a start system (default: current system, from the journal) to a
-destination, optionally through one or more mandatory systems (--via), pick
---stops systems that satisfy the criteria and order them so the trip costs
-as few jumps as possible.
+From a start system (default: current system, from the journal), optionally
+through mandatory systems (--via), to a destination (--to; leave it out to
+end wherever the last stop is), pick --stops stops that satisfy the criteria
+and order them for the fewest jumps. Also the library behind pp_week.py.
 
 Criteria:
   * system filters, applied by Spansh: controlling power (--power), power
     states (--states), plus any raw Spansh system filter (--filter JSON);
   * what the system must contain (--need):
-      megaship        a megaship is known there (see "Megaships" below)
+      megaship        megaships to scan (see "Megaships" below) - a system
+                      with 3 megaships counts as 3 stops
       station:<type>  a station of that Spansh type, e.g. "station:Outpost"
       any             no extra condition - the system filters are enough
   * systems that never count as a stop (--exclude; default Cubeo for
     megaships: Aisling's capital paid 0 merits for uplink scans, Powerplay
-    Missions.md card 4.9). Excluded systems can still be the start, the
-    destination or a --via, but never count towards --stops.
+    Missions.md card 4.9).
 
-The start, the destination and the --via systems count as stops when they
-meet the criteria themselves (e.g. a megaship at the via system).
-
-Megaships - Spansh lists only DOCKABLE megaships. Ordinary megaships, the
-ones with a datalink to scan, are missing there, so a system is a megaship
-stop if any of these sources knows one:
-  spansh   a dockable megaship in Spansh's station list
-  journal  your own journals: FSSSignalDiscovered "Megaship" signals, and
-           DataScanned $Datascan_ShipUplink; (an uplink scanned there)
-  known    systems where a scan paid merits (built-in list, Powerplay
-           Missions.md card 4.9), plus --known "Sys A,Sys B"
-Megaships can move at the Thursday tick: a sighting older than the last tick
-is flagged "pre-tick". --include-unknown also lets systems with no evidence
-fill the route (flagged "check on arrival").
+Megaships - Spansh lists only DOCKABLE megaships, not the scannable ones.
+Sources, best first:
+  inara    Inara "Search nearest", station type "Bulk Cruiser (Scannable
+           megaship)", power Aisling Duval (Controlled), states Exploited/
+           Fortified/Stronghold: select the whole page, paste it into
+           tools/inara_megaships.txt (default --inara file; git-ignored).
+           "Seen" ages count from the file's save time.
+  journal  your journals: FSSSignalDiscovered "Megaship" signals. Uplink
+           scans made since the last tick (DataScanned) are subtracted
+           from that system's count.
+  known    systems where a scan paid merits (built-in list, card 4.9)
+Megaships move at the Thursday tick: names seen since the tick count in
+full; older sightings are flagged "pre-tick" and cost a 1-jump penalty.
 
 Jumps are estimated as ceil(distance / (jump range x 0.9)) per leg - the
 real plot depends on star density. Plot each leg in the galaxy map.
 
 Data: https://spansh.co.uk (public API, EDDN-fed, power states can be a few
-days old).
+days old) and inara.cz (pasted by hand - Inara blocks scripts).
 
 Usage examples:
-  python tools/waypoint_route.py --to Cubeo --via "LHS 378" --stops 8
-  python tools/waypoint_route.py --from Tripitaka --to Cubeo \\
-      --via "LHS 378" --stops 8 --jump 45 --detour 40
+  python tools/waypoint_route.py --via "LHS 378" --stops 8
+  python tools/waypoint_route.py --to Cubeo --via "LHS 378" --stops 8 \\
+      --jump 38 --detour 40
   python tools/waypoint_route.py --to Cubeo --stops 5 --need any \\
       --states Fortified          # 5 Fortified Aisling systems on the way
   python tools/waypoint_route.py --to Cubeo --stops 4 --need station:Outpost
-  python tools/waypoint_route.py --to Cubeo --stops 6 --power "" \\
-      --states "" --need any --filter '{"allegiance":{"value":["Empire"]}}'
 """
 
 import argparse
@@ -56,6 +53,7 @@ import glob
 import json
 import math
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -64,13 +62,18 @@ from datetime import datetime, timedelta, timezone
 from pp_trade_routes import JOURNAL_DIR
 
 API = "https://spansh.co.uk/api/systems/search"
+STATIONS_API = "https://spansh.co.uk/api/stations/search"
 UA = {"Content-Type": "application/json",
       "User-Agent": "cubeo-chronicles-waypoint-route/1.0"}
+HERE = os.path.dirname(os.path.abspath(__file__))
+INARA_FILE = os.path.join(HERE, "inara_megaships.txt")
 CONTROL_STATES = "Exploited,Fortified,Stronghold"
 JUMP_EFFICIENCY = 0.9   # real legs rarely use the full jump range
 # Extra cost, in jumps, of a stop by evidence: the route only takes a stale
 # or unconfirmed megaship when it saves more jumps than this.
 PENALTY = {"fresh": 0.0, "pre-tick": 1.0, "unknown": 3.0}
+ORDER_PENALTY = 1000.0  # a broken "A before B" constraint
+END = "__END__"         # open route: free last leg
 # Uplink scans that paid merits (Powerplay Missions.md card 4.9, 1 + 30 Oct
 # 2026). Megaships may move at a tick - treated as pre-tick evidence.
 KNOWN_UPLINKS = {
@@ -88,8 +91,8 @@ def journal_files(folder):
 
 
 def journal_state(folder):
-    """Current system and max jump range from the latest journals."""
-    system, jump = None, None
+    """Current system, max jump range and ship name from the journals."""
+    system, jump, ship = None, None, None
     for path in reversed(journal_files(folder)[-5:]):
         try:
             with open(path, encoding="utf-8") as fh:
@@ -107,14 +110,16 @@ def journal_state(folder):
                 system = ev.get("StarSystem")
             if jump is None and name == "Loadout":
                 jump = ev.get("MaxJumpRange")
+                ship = (ev.get("ShipName") or ev.get("Ship") or "").replace(
+                    '"', "")
             if system and jump:
-                return system, jump
-    return system, jump
+                return system, jump, ship
+    return system, jump, ship
 
 
 def journal_megaships(folder):
-    """{system: (timestamp, label)} for megaships seen or scanned."""
-    seen, names, current = {}, {}, None
+    """{system: {"names": {name: last seen}, "scans": [timestamps]}}."""
+    out, names, current = {}, {}, None
     keys = ('"FSSSignalDiscovered"', '"DataScanned"', '"FSDJump"',
             '"Location"', '"CarrierJump"')
     for path in journal_files(folder):
@@ -134,25 +139,113 @@ def journal_megaships(folder):
                     elif name == "FSSSignalDiscovered" and \
                             ev.get("SignalType") == "Megaship":
                         sys_name = names.get(ev.get("SystemAddress"), current)
-                        label = ev.get("SignalName_Localised") or \
-                            ev.get("SignalName") or "megaship"
-                        note(seen, sys_name, ts, "seen: " + label)
-                    elif name == "DataScanned" and \
+                        label = (ev.get("SignalName_Localised") or
+                                 ev.get("SignalName") or "").strip()
+                        if sys_name and label:
+                            rec = out.setdefault(sys_name, {"names": {},
+                                                            "scans": []})
+                            rec["names"][label] = max(ts, rec["names"].get(
+                                label, ""))
+                    elif name == "DataScanned" and current and \
                             ev.get("Type") == "$Datascan_ShipUplink;":
-                        note(seen, current, ts, "uplink scanned")
+                        out.setdefault(current, {"names": {}, "scans": []})[
+                            "scans"].append(ts)
         except OSError:
             continue
-    return seen
+    return out
 
 
-def note(store, system, ts, label):
-    if system and (system not in store or ts >= store[system][0]):
-        store[system] = (ts, label)
+# ------------------------------------------------------------------ inara --
+AGE_RE = re.compile(r"^(\d+|an?|one)\s+(minute|hour|day|week|month|year)s?"
+                    r"\s+ago$", re.I)
+UNIT = {"minute": 1 / 1440, "hour": 1 / 24, "day": 1, "week": 7,
+        "month": 30, "year": 365}
+
+
+def parse_inara(path, saved=None):
+    """Inara 'Search nearest' page pasted as text.
+
+    Returns (reference system or None, {system: {name: iso timestamp}},
+    save time). Ages ("3 hours ago") count back from `saved` (default: the
+    file's modification time).
+    """
+    saved = saved or datetime.fromtimestamp(os.path.getmtime(path),
+                                            timezone.utc)
+    with open(path, encoding="utf-8-sig") as fh:
+        lines = [l.rstrip("\r\n") for l in fh]
+    ref, ships = None, {}
+    for i, line in enumerate(lines):
+        if line.strip().lower() == "near star system" and i + 1 < len(lines):
+            ref = ref or lines[i + 1].strip() or None
+        cols = [c.strip() for c in re.split(r"\t| {2,}", line)]
+        if len(cols) < 5:
+            continue
+        m = AGE_RE.match(cols[-1])
+        if not m or not cols[-2].lower().endswith("ly"):
+            continue
+        qty = 1 if not m.group(1).isdigit() else int(m.group(1))
+        seen = saved - timedelta(days=qty * UNIT[m.group(2).lower()])
+        stamp = seen.strftime("%Y-%m-%dT%H:%M:%SZ")
+        rec = ships.setdefault(cols[1], {})
+        rec[cols[0]] = max(stamp, rec.get(cols[0], ""))
+    return ref, ships, saved
+
+
+# --------------------------------------------------------------- evidence --
+def megaship_evidence(system, stations, jmega, inara, known, tick,
+                      include_unknown=False):
+    """(label, tier, count) for megaships still to scan in `system`.
+
+    tier: "fresh" (seen since the tick), "pre-tick" or "unknown". None when
+    nothing is known, or when this week's scans used up the known ones.
+    """
+    tick_s = tick.strftime("%Y-%m-%dT%H:%M:%S")
+    seen = {}                        # NAME -> (timestamp, source, name)
+    found = [(st["name"], st.get("updated_at") or "", "spansh")
+             for st in stations or [] if st.get("type") == "Mega ship"]
+    for src, names in (("journal", (jmega.get(system) or {}).get("names")),
+                       ("inara", inara.get(system))):
+        found += [(n, ts, src) for n, ts in (names or {}).items()]
+    for n, ts, src in found:
+        n = " ".join(n.split())             # journal names: double spaces
+        key = n.upper()
+        if key not in seen or ts > seen[key][0]:
+            seen[key] = (ts, src, n)
+    scans = sum(1 for ts in (jmega.get(system) or {}).get("scans", [])
+                if ts >= tick_s)
+    fresh = {n: v for n, v in seen.items() if v[0] >= tick_s}
+    if fresh:
+        left = len(fresh) - scans
+        if left <= 0:
+            return None
+        pick, tier = fresh, "fresh"
+    elif seen or system in known:
+        left = max(len(seen), 1) - scans
+        if left <= 0:
+            return None
+        pick, tier = seen, "pre-tick"
+    elif include_unknown:
+        return ("NO DATA - check on arrival", "unknown", 1)
+    else:
+        return None
+    ordered = sorted(pick.items(), key=lambda kv: kv[1][0], reverse=True)
+    if ordered:
+        last = ordered[0][1]
+        names = ", ".join(v[2] for _, v in ordered[:3])
+        label = "%d to scan [%s %s]: %s" % (left, last[1], last[0][:10],
+                                            names)
+    else:
+        label = "1 to scan [known: paid scan %s]" % known[system]
+    if scans:
+        label += " (%d scanned this week)" % scans
+    if tier == "pre-tick":
+        label += "  [pre-tick]"
+    return (label, tier, left)
 
 
 # ----------------------------------------------------------------- spansh --
-def post(body):
-    req = urllib.request.Request(API, data=json.dumps(body).encode(),
+def post(body, url=API):
+    req = urllib.request.Request(url, data=json.dumps(body).encode(),
                                  headers=UA)
     with urllib.request.urlopen(req, timeout=120) as resp:
         return json.load(resp)
@@ -164,6 +257,14 @@ def lookup(name):
         if r["name"].lower() == name.lower():
             return r
     sys.exit("System not found on Spansh: %s" % name)
+
+
+def system_stations(name):
+    """Full station records (services, pads, faction) of one system."""
+    data = post({"filters": {"distance": {"min": "0", "max": "0.1"}},
+                 "reference_system": name, "size": 200}, STATIONS_API)
+    return [s for s in data.get("results", [])
+            if s.get("system_name", "").lower() == name.lower()]
 
 
 def fetch_sphere(center, radius, filters):
@@ -185,6 +286,8 @@ def fetch_sphere(center, radius, filters):
 
 def fetch_corridor(points, detour, filters):
     """Systems matching filters within `detour` ly of the polyline."""
+    if len(points) == 1:
+        return fetch_sphere(points[0], detour, filters)
     systems = {}
     for a, b in zip(points, points[1:]):
         length = dist(a, b)
@@ -198,6 +301,15 @@ def fetch_corridor(points, detour, filters):
     return [s for s in systems.values()
             if min(seg_dist(xyz(s), a, b)
                    for a, b in zip(points, points[1:])) <= detour]
+
+
+def power_filters(power, states):
+    filters = {}
+    if power:
+        filters["controlling_power"] = {"value": [power]}
+    if states:
+        filters["power_state"] = {"value": list(states)}
+    return filters
 
 
 # ---------------------------------------------------------------- geometry --
@@ -219,13 +331,22 @@ def seg_dist(p, a, b):
 
 # ------------------------------------------------------------------ route --
 class Planner:
-    """Orders stops by estimated jumps; fixed nodes are never dropped."""
+    """Orders stops by estimated jumps.
 
-    def __init__(self, coords, jump, weight, fixed):
+    fixed nodes are never dropped; value[n] = how many of the wanted items
+    stop n provides (3 megaships = 3); weight[n] = penalty in jumps;
+    before = [(a, b)]: a must come before b. END as last node = open route.
+    """
+
+    def __init__(self, coords, jump, weight=None, value=None, fixed=(),
+                 before=()):
         self.coords, self.reach, self.memo = coords, jump * JUMP_EFFICIENCY, {}
-        self.weight, self.fixed = weight, set(fixed)
+        self.weight, self.value = weight or {}, value or {}
+        self.fixed, self.before = set(fixed), list(before)
 
     def leg(self, a, b):
+        if END in (a, b):
+            return 0.0
         key = (a, b) if a < b else (b, a)
         if key not in self.memo:
             d = dist(self.coords[a], self.coords[b])
@@ -233,8 +354,15 @@ class Planner:
         return self.memo[key]
 
     def cost(self, path):
+        pos = {n: i for i, n in enumerate(path)}
+        broken = sum(1 for a, b in self.before
+                     if a in pos and b in pos and pos[a] > pos[b])
         return sum(self.leg(a, b) for a, b in zip(path, path[1:])) + \
-            sum(self.weight.get(n, 0.0) for n in path if n not in self.fixed)
+            sum(self.weight.get(n, 0.0) for n in path
+                if n not in self.fixed) + broken * ORDER_PENALTY
+
+    def got(self, path):
+        return sum(self.value.get(n, 0) for n in path)
 
     def insert_cost(self, path, node):
         best = None
@@ -245,8 +373,8 @@ class Planner:
                 best = (delta, i)
         return best
 
-    def improve(self, path, pool, scored):
-        """2-opt, relocate and swap-with-pool until nothing improves."""
+    def improve(self, path, pool, needed):
+        """2-opt, relocate, drop and swap until nothing improves."""
         better = True
         while better:
             better = False
@@ -259,48 +387,53 @@ class Planner:
             for i in range(1, len(path) - 1):   # relocate one node
                 node = path[i]
                 rest = path[:i] + path[i + 1:]
-                if node in (path[0], path[-1]):
-                    continue
-                delta, j = self.insert_cost(rest, node)
+                j = self.insert_cost(rest, node)[1]
                 new = rest[:j] + [node] + rest[j:]
                 if self.cost(new) < self.cost(path) - 1e-9:
                     path, better = new, True
-            for i in range(1, len(path) - 1):   # swap a stop with the pool
-                if path[i] not in scored or path[i] in self.fixed:
+            for i in range(len(path) - 2, 0, -1):   # drop a spare stop
+                node = path[i]
+                if node in self.fixed:
                     continue
                 rest = path[:i] + path[i + 1:]
-                base = self.cost(rest)
-                old = self.cost(path) - base
+                if self.got(rest) >= needed and \
+                        self.cost(rest) < self.cost(path) - 1e-9:
+                    path, better = rest, True
+            slack = self.got(path) - needed
+            for i in range(1, len(path) - 1):   # swap a stop with the pool
+                node = path[i]
+                if node in self.fixed or node not in self.value:
+                    continue
+                rest = path[:i] + path[i + 1:]
                 best = None
                 for cand in pool:
-                    if cand in path:
+                    if cand in path or \
+                            self.value[cand] < self.value[node] - slack:
                         continue
-                    delta, j = self.insert_cost(rest, cand)
-                    if delta < old - 1e-9 and (best is None or
-                                               delta < best[0]):
-                        best = (delta, j, cand)
+                    j = self.insert_cost(rest, cand)[1]
+                    new = rest[:j] + [cand] + rest[j:]
+                    c = self.cost(new)
+                    if c < self.cost(path) - 1e-9 and \
+                            (best is None or c < best[0]):
+                        best = (c, new)
                 if best:
-                    delta, j, cand = best
-                    path = rest[:j] + [cand] + rest[j:]
-                    better = True
+                    path, better = best[1], True
                     break
         return path
 
-    def plan(self, fixed, pool, needed, scored):
+    def plan(self, fixed, pool, needed):
         path = list(fixed)
         free = [c for c in pool if c not in path]
-        for _ in range(needed):
-            if not free:
-                break
-            best = min(((self.insert_cost(path, c), c) for c in free),
-                       key=lambda x: x[0][0])
-            (delta, i), c = best
+        while self.got(path) < needed and free:
+            short = needed - self.got(path)
+            scored = [(self.insert_cost(path, c), c) for c in free]
+            (delta, i), c = min(scored, key=lambda x: x[0][0] / max(
+                1, min(self.value.get(x[1], 1), short)))
             path.insert(i, c)
             free.remove(c)
-        return self.improve(path, pool, scored)
+        return self.improve(path, pool, needed)
 
 
-# ------------------------------------------------------------------- main --
 def last_tick(now):
     """Most recent Thursday 07:00 UTC (weekly Powerplay tick)."""
     t = now.replace(hour=7, minute=0, second=0, microsecond=0)
@@ -308,51 +441,31 @@ def last_tick(now):
     return t if t <= now else t - timedelta(days=7)
 
 
-def evidence_for(s, args, jmega, tick):
-    """(label, tier) describing why s qualifies, or None.
-
-    tier: "fresh", "pre-tick" (seen before the last tick) or "unknown".
-    """
-    need = args.need
-    if need == "any":
-        return ("matches filters", "fresh")
-    stations = s.get("stations") or []
-    if need.startswith("station:"):
-        kind = need.split(":", 1)[1].lower()
-        hits = [st["name"] for st in stations
-                if (st.get("type") or "").lower() == kind]
-        return ("%s: %s" % (need[8:], ", ".join(hits[:3])), True) \
-            if hits else None
-    found = []
-    for st in stations:
-        if st.get("type") == "Mega ship":
-            found.append(("spansh: %s (dockable)" % st["name"],
-                          st.get("updated_at") or ""))
-    if s["name"] in jmega:
-        ts, label = jmega[s["name"]]
-        found.append(("journal %s, %s" % (ts[:10], label), ts))
-    if s["name"] in args.known:
-        ts = args.known[s["name"]]
-        found.append(("known: paid scan %s" % ts if ts else "known (--known)",
-                      ts or datetime.now(timezone.utc).isoformat()))
-    if not found:
-        return ("NO DATA - check on arrival", "unknown") \
-            if args.include_unknown else None
-    label, ts = max(found, key=lambda f: f[1])
-    if ts >= tick.strftime("%Y-%m-%dT%H:%M:%S"):
-        return (label, "fresh")
-    return (label + "  [pre-tick]", "pre-tick")
+def load_inara(path, tick, quiet=False):
+    """parse_inara() with a warning for files saved before the tick."""
+    if not path or not os.path.exists(path):
+        return None, {}
+    ref, ships, saved = parse_inara(path)
+    if not quiet:
+        print("Inara: %d megaship(s) in %d system(s) from %s (saved %s UTC)%s"
+              % (sum(len(v) for v in ships.values()), len(ships),
+                 os.path.basename(path), saved.strftime("%d %b %H:%M"),
+                 "  ** saved before the last tick - paste a fresh search **"
+                 if saved < tick else ""))
+    return ref, ships
 
 
+# ------------------------------------------------------------------- main --
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("--from", dest="start", default=None,
                     help="start system (default: current, from journal)")
-    ap.add_argument("--to", required=True, help="destination system")
+    ap.add_argument("--to", default=None,
+                    help="destination system (default: none, open route)")
     ap.add_argument("--via", action="append", default=[],
                     help="mandatory system on the way (repeatable)")
     ap.add_argument("--stops", type=int, required=True,
-                    help="number of qualifying systems to visit")
+                    help="number of qualifying stops (megaships) to visit")
     ap.add_argument("--need", default="megaship",
                     help="megaship | station:<type> | any (default megaship)")
     ap.add_argument("--power", default="Aisling Duval",
@@ -365,6 +478,9 @@ def main():
     ap.add_argument("--exclude", default=None,
                     help="comma list of systems that never count as a stop "
                          "(default: Cubeo with --need megaship)")
+    ap.add_argument("--inara", default=INARA_FILE,
+                    help="pasted Inara megaship search (default "
+                         "tools/inara_megaships.txt, if present)")
     ap.add_argument("--known", default="",
                     help="comma list of systems with a known megaship")
     ap.add_argument("--include-unknown", action="store_true",
@@ -381,104 +497,125 @@ def main():
     ap.add_argument("--journal-dir", default=JOURNAL_DIR)
     args = ap.parse_args()
 
-    j_sys, j_jump = journal_state(args.journal_dir)
+    j_sys, j_jump, _ = journal_state(args.journal_dir)
     args.start = args.start or j_sys
     if not args.start:
         ap.error("no --from given and no journal found")
     args.jump = args.jump or j_jump or 40.0
+    mega = args.need == "megaship"
     if args.exclude is None:
-        args.exclude = "Cubeo" if args.need == "megaship" else ""
+        args.exclude = "Cubeo" if mega else ""
     excluded = {s.strip().lower() for s in args.exclude.split(",")
                 if s.strip()}
-    known = dict(KNOWN_UPLINKS) if args.need == "megaship" else {}
+    known = dict(KNOWN_UPLINKS) if mega else {}
     known.update({k.strip(): "" for k in args.known.split(",") if k.strip()})
-    args.known = known
 
-    filters = {}
-    if args.power:
-        filters["controlling_power"] = {"value": [args.power]}
     states = [s.strip() for s in args.states.split(",") if s.strip()]
-    if states:
-        filters["power_state"] = {"value": states}
+    filters = power_filters(args.power, states)
     if args.filter:
         filters.update(json.loads(args.filter))
 
-    ends = [lookup(n) for n in [args.start] + args.via + [args.to]]
+    names = [args.start] + args.via + ([args.to] if args.to else [])
+    ends = [lookup(n) for n in names]
     points = [xyz(s) for s in ends]
-    print("Route %s, %d stop(s) [%s], power %s %s, jump %.1f ly, detour "
-          "<= %.0f ly" % (" -> ".join(s["name"] for s in ends), args.stops,
+    print("Route %s%s, %d stop(s) [%s], power %s %s, jump %.1f ly, detour "
+          "<= %.0f ly" % (" -> ".join(s["name"] for s in ends),
+                          "" if args.to else " -> (open end)", args.stops,
                           args.need, args.power or "any",
                           "/".join(states) or "any state", args.jump,
                           args.detour))
-    candidates = fetch_corridor(points, args.detour, filters)
-    jmega = journal_megaships(args.journal_dir) \
-        if args.need == "megaship" else {}
     tick = last_tick(datetime.now(timezone.utc))
+    candidates = fetch_corridor(points, args.detour, filters)
+    inara = {}
+    if mega:
+        ref, inara = load_inara(args.inara, tick)
+        if inara:       # Inara systems beyond the corridor: one sphere more
+            seen = {c["id64"] for c in candidates}
+            centre = xyz(lookup(ref)) if ref else points[0]
+            far = max((dist(centre, p) for p in points), default=0)
+            for s in fetch_sphere(centre, 100 + far, filters):
+                if s["name"] in inara and s["id64"] not in seen:
+                    candidates.append(s)
+    jmega = journal_megaships(args.journal_dir) if mega else {}
 
     info, coords = {}, {}
     for s in ends + candidates:
         coords[s["name"]] = xyz(s)
         info[s["name"]] = s
-    matching = {c["name"]: c for c in candidates}
     scored = {}
-    for name, s in matching.items():   # ends count only if they match too
+    for c in candidates:             # ends count only if they match too
+        name = c["name"]
         if name.lower() in excluded:
             continue
-        ev = evidence_for(s, args, jmega, tick)
+        if mega:
+            ev = megaship_evidence(name, c.get("stations"), jmega, inara,
+                                   known, tick, args.include_unknown)
+        elif args.need == "any":
+            ev = ("matches filters", "fresh", 1)
+        else:
+            kind = args.need.split(":", 1)[-1].lower()
+            hits = [st["name"] for st in c.get("stations") or []
+                    if (st.get("type") or "").lower() == kind]
+            ev = ("%s: %s" % (args.need[8:], ", ".join(hits[:3])),
+                  "fresh", 1) if hits else None
         if ev and (ev[1] == "fresh" or not args.fresh_only):
             scored[name] = ev
-    print("%d system(s) match the filters in the corridor, %d qualify as "
-          "stops (%d with evidence from this week)%s\n" % (
-              len(candidates), len(scored),
-              sum(1 for v in scored.values() if v[1] == "fresh"),
-              "" if args.need != "megaship" else
-              ", journal megaship sightings: %d" % len(jmega)))
+    print("%d system(s) match the filters, %d qualify (%d stop(s), %d from "
+          "this week)\n" % (len(candidates), len(scored),
+                            sum(v[2] for v in scored.values()),
+                            sum(v[2] for v in scored.values()
+                                if v[1] == "fresh")))
 
-    fixed = [s["name"] for s in ends]
-    # A fixed stop with no evidence is a bonus to check, not a counted stop.
-    bonus = {n for n in fixed if scored.get(n, ("", ""))[1] == "unknown"}
+    fixed = [s["name"] for s in ends] + ([] if args.to else [END])
+    bonus = {n for n in fixed if scored.get(n, ("", "", 0))[1] == "unknown"}
     for n in bonus:
         del scored[n]
-    have = sum(1 for n in fixed if n in scored)
-    weight = {n: PENALTY[v[1]] for n, v in scored.items()}
-    planner = Planner(coords, args.jump, weight, fixed)
+    planner = Planner(coords, args.jump,
+                      weight={n: PENALTY[v[1]] for n, v in scored.items()},
+                      value={n: v[2] for n, v in scored.items()},
+                      fixed=fixed)
     pool = [n for n in scored if n not in fixed]
-    path = planner.plan(fixed, pool, args.stops - have, set(scored))
-    got = sum(1 for n in path if n in scored)
+    path = planner.plan(fixed, pool, args.stops)
+    print_path(path, planner, info, coords, scored, args.via, excluded, bonus)
+    got = planner.got(path)
+    if got < args.stops:
+        print("Not enough qualifying stops - try a larger --detour%s." % (
+            ", a fresh Inara paste or --include-unknown" if mega else ""))
+    if mega and any(scored[n][1] == "pre-tick" for n in path if n in scored):
+        print("[pre-tick] = last seen before the %s tick: the megaship may "
+              "have moved." % tick.strftime("%d %b"))
 
+
+def print_path(path, planner, info, coords, scored, via=(), excluded=(),
+               bonus=()):
     total_ly, total_j, count = 0.0, 0, 0
-    for i, name in enumerate(path):
+    real = [n for n in path if n != END]
+    for i, name in enumerate(real):
         s = info[name]
-        mark = "   "
+        mark = "     "
         if name in scored:
-            count += 1
-            mark = "%2d." % count
-        role = "start" if i == 0 else "end" if i == len(path) - 1 else \
-            "via" if name in args.via else ""
+            n = scored[name][2]
+            mark = "%2d%s." % (count + 1, "+%d" % (n - 1) if n > 1 else "  ")
+            count += n
+        role = "start" if i == 0 else "end" if (i == len(real) - 1 and
+                                                path[-1] != END) else \
+            "via" if name in via else ""
         if i:
-            d = dist(coords[path[i - 1]], coords[name])
-            j = int(planner.leg(path[i - 1], name))
+            d = dist(coords[real[i - 1]], coords[name])
+            j = int(planner.leg(real[i - 1], name))
             total_ly += d
             total_j += j
             leg = "%6.1f ly ~%2d j" % (d, j)
         else:
             leg = " " * 15
-        print("%s %s  %-30s %-5s %-10s %s" % (
+        print("%s %s  %-28s %-5s %-10s %s" % (
             mark, leg, name, role, s.get("power_state") or "-",
             scored[name][0] if name in scored else
             "(excluded)" if name.lower() in excluded else
             "no data - check on arrival (bonus, not counted)"
             if name in bonus else ""))
-    print("\n%d / %d stops, %.0f ly, ~%d jumps (estimate at %.0f ly/jump)"
-          % (got, args.stops, total_ly, total_j, args.jump * JUMP_EFFICIENCY))
-    if got < args.stops:
-        print("Not enough qualifying systems - try a larger --detour%s." % (
-            ", --include-unknown or --known" if args.need == "megaship"
-            else ""))
-    if args.need == "megaship" and any(scored[n][1] == "pre-tick"
-                                       for n in path if n in scored):
-        print("[pre-tick] = last seen before the %s tick: the megaship may "
-              "have moved." % tick.strftime("%d %b"))
+    print("\n%d stop(s), %.0f ly, ~%d jumps (estimate at %.0f ly/jump)"
+          % (count, total_ly, total_j, planner.reach))
 
 
 if __name__ == "__main__":

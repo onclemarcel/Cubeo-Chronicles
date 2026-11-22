@@ -18,8 +18,8 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **51** (`PowerplayRank`, 18 Nov 2026 09:17 UTC) |
-| Merits | **387,458** (`PowerplayMerits`, 19 Nov 2026 20:44 UTC) |
+| Rank | **53** (`PowerplayRank`, 21 Nov 2026 11:41 UTC) |
+| Merits | **402,934** (Powerplay screen, 22 Nov 2026 ~17:10 UTC) |
 | Target | ✔ **Rank 34 reached 7 Nov 2026 11:37** (≈247,000 merits) — Prismatic Shields unlocked for Phase 4 (§5.4). No next rank target set yet |
 
 ---
@@ -32,11 +32,23 @@ Stats line (§4).* The 29 Oct week (5 of 5), the 5 Nov week (4 paid) and the **1
 kills, 4.13, never had a Power signal in Shui Wei Sector MI-S b4-3)** are already in the cards'
 Stats.
 
-*This week's assignments not read yet — fill in from the Powerplay screen.*
+*Read 22 Nov ~17:10 UTC from the Powerplay screen (screenshots), 3 d 14 h left — ten
+assignments at Rank 53, four already done. Plan the open ones in one route:
+`python tools/pp_week.py` (reads this table: **Card** gives the kind of work, **System(s)** a
+system or `reinforcement` / `undermining`, **Status** `done / target`).*
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | Collect bounties (*Encaisser des primes dans le système LP 684-17*) — vouchers earned, not cashed | 4.5 | LP 684-17 | 0 / 357,941 CR | 4,800 |
+| 2 | Scan megaships in reinforcement systems | 4.9 | reinforcement | 3 / 11 | 2,400 |
+| 3 | Sell rare goods in LP 684-17 — not bought in LP 684-17 | 4.1 | LP 684-17 | 0 / 12 | 3,600 |
+| 4 | Scan ships and wakes in LHS 378 — hand in at any Aisling system | 4.2 | LHS 378 | 0 / 8 | 2,000 |
+| 5 | Hack holoscreens in the ports of LHS 378 | 4.7 | LHS 378 | 0 / 11 | 2,400 |
+| 6 | Hack holoscreens in undermining systems | 4.6 | undermining | 0 / 11 | 4,800 |
+| 7 | Transport power energy goods (*Transport de marchandises énergétiques…*) | ? | ? | ✔ | — |
+| 8 | Recover cargo (*Récupérez des cargaisons dans des systèmes…*) | ? | ? | ✔ | — |
+| 9 | Sell rare goods (*Vendez des marchandises rares dans des syst…*) — Karsuki Locusts ×9, 20 Nov | 4.1 | ? | ✔ | — |
+| 10 | Kill rival Power members (*Tuer des membres d'une puissance rivale…*) | 4.13 | ? | ✔ | — |
 
 ---
 
@@ -271,6 +283,9 @@ specific week — the week's progress lives in §1.*
   - [ ] Buy the required quantity.
   - [ ] Fly to the target system and deliver.
 - **Pitfalls:** none met so far.
+- **No rare-goods data on Spansh or EDSM** (checked 22 Nov: West Market's Karsuki Locusts are
+  missing from both): look the source up on Inara, then plan with
+  `python tools/pp_week.py --rare-source "<system>"` — it puts the source before the sale.
 - **Shortcut:** it has been **Karsuki Locusts every time** (18× at West Market, Karsuki Ti, 915 CR)
   — go straight there. HIP 7311 (Fan Base) is one jump away and sells them at a small profit.
 - **Stats:** 3 runs · +3,600 merits each · last: 12 Oct, **Karsuki Ti** (West Market) →
@@ -624,10 +639,14 @@ specific week — the week's progress lives in §1.*
   - [ ] Target the datalink and scan it, then leave.
   - [ ] Chain systems one jump apart (1 Oct: Primi → Lambda-1 Tucanae → Osane → Ehlanda →
         Fire Fade → HIP 7142, via Cubeo as a hub).
-  - [ ] Plan the chain: `python tools/waypoint_route.py --to Cubeo --stops 8` (add
-        `--via "<mission system>"` for a PP mission on the way). Spansh lists only dockable
-        megaships, so the script relies on the journals (`FSSSignalDiscovered` Megaship,
-        `DataScanned` uplink) and the paid systems below; `--include-unknown` fills the gaps.
+  - [ ] Find them on **Inara** — Search nearest, station type *Bulk Cruiser (Scannable
+        megaship)*, power *Aisling Duval (Controlled)*, states Exploited/Fortified/Stronghold.
+        Spansh lists only dockable megaships. Select the whole results page and paste it into
+        `tools/inara_megaships.txt` (Inara blocks scripts; the file is git-ignored).
+  - [ ] Plan the chain: `python tools/pp_week.py` (with the week's other assignments) or
+        `python tools/waypoint_route.py --stops 8 [--via "<system>"] [--to Cubeo]`. A system
+        with several megaships counts several scans (Karsuki Ti ×2 paid twice, 30 Oct); this
+        week's uplink scans (`DataScanned`) are subtracted from the journals.
 - **Pitfalls:**
   - **Cubeo paid 0 merits** for two scans (1 Oct 13:40 and 13:46). Every other system paid
     468: Karsuki Ti, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade (Strongholds), Primi and
