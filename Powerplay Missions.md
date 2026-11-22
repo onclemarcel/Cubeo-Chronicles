@@ -624,6 +624,10 @@ specific week — the week's progress lives in §1.*
   - [ ] Target the datalink and scan it, then leave.
   - [ ] Chain systems one jump apart (1 Oct: Primi → Lambda-1 Tucanae → Osane → Ehlanda →
         Fire Fade → HIP 7142, via Cubeo as a hub).
+  - [ ] Plan the chain: `python tools/waypoint_route.py --to Cubeo --stops 8` (add
+        `--via "<mission system>"` for a PP mission on the way). Spansh lists only dockable
+        megaships, so the script relies on the journals (`FSSSignalDiscovered` Megaship,
+        `DataScanned` uplink) and the paid systems below; `--include-unknown` fills the gaps.
 - **Pitfalls:**
   - **Cubeo paid 0 merits** for two scans (1 Oct 13:40 and 13:46). Every other system paid
     468: Karsuki Ti, Lambda-1 Tucanae, Osane, Ehlanda, Fire Fade (Strongholds), Primi and
