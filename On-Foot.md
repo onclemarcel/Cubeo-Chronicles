@@ -2,12 +2,8 @@
 ## Odyssey playbook: protocol, gear, progression, mission type cards
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
-> Satellite of `In-Game Operations.md` §5 (Roadmap): the main line there holds phases and
-> checkpoints; this file holds the on-foot work. Created 25 September 2026 when §5 was split into
-> satellite files (content moved, not rewritten). Same growth rule as `Powerplay Missions.md`:
-> cards are refined in place; what *happened* in a session still goes to `In-Game Operations.md` §4.
-> **References:** a bare `§N` points to `In-Game Operations.md`, except "§5.2 step N", which now
-> means §1 of this file (the protocol moved here). "Engineers" = `Engineers & Materials.md`.
+> Satellite of `In-Game Operations.md` §5 (Roadmap): the main line there holds phases and checkpoints; this file holds the on-foot work. Created 25 September 2026 when §5 was split into satellite files (content moved, not rewritten). Same growth rule as `Powerplay Missions.md`: cards are refined in place; what *happened* in a session still goes to `In-Game Operations.md` §4.
+> **References:** a bare `§N` points to `In-Game Operations.md`, except "§5.2 step N", which now means §1 of this file (the protocol moved here). "Engineers" = `Engineers & Materials.md`.
 
 ---
 
@@ -15,7 +11,7 @@
 
 **the permission system**: Every door and terminal requires level 1, 2 or 3 access, obtained by **cloning an NPC's profile with the Profile Analyser**.
 
-**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, Energylink, **no arm allowed in regular inhabited settlements** so bring arms only when absolutely needed.
+**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, Energylink, **no weapon allowed in regular settlements** so bring weapons on ground only when absolutely needed.
 
 **Typical Progression** - not followed eventually:
 1. **Abandoned settlement reactivation** missions — zero NPCs, zero alarms. Find the power
