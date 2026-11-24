@@ -83,7 +83,7 @@ PADS = {
     "industrial_02": "L1",
     "industrial_03": "L1",
     "industrial_04": "L1 S1",
-    "industrial_05": "L1",
+    "industrial_05": "L1?",
     "military_01": "L1 S2",
     "military_02": "L1 S2",
     "military_03": "M1 S1",

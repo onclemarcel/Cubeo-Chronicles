@@ -445,6 +445,39 @@ note from play. Maps can miss things: Extraction 2 lacks a data port on the firs
 (Agriculture 1's alarm, §5.3). Go by the image. Data-port counts can differ between settlements of the same layout (forum
 reports), so check them on the first visit.
 
+### 5.0 Recognising the layout before landing — pads + size marker
+
+*Added 24 Nov 2026. Spansh gives a settlement's economy and pads; the in-game size marker next
+to its name (nav panel, system map: **−** tiny, **+** small, **++** medium) does the rest.
+Table in `tools/data/odyssey_layouts.json`, used by `tools/material_finder.py` (column `aim` =
+the marker to look for).*
+
+Pad signatures from a Spansh census of 20,000 settlements (150 ly around Cubeo and Sol): each
+economy has 3–4 signatures, about one per layout. Confirmed in play: Agri 1 and Agri 3 (Baker's
+Plantation, Zambo), Ext 2 (Auclair), Mil 3 (Techno Defence), Tour 4 (Kewell's Club).
+
+| Economy | Pads → layout (size marker) |
+|---|---|
+| Agricultural | L1 S1 → Agri 1 (+) or Agri 3 (++) · S1 → Agri 2 (−) or Agri 5 (+) · L1 S2 → Agri 4 (++) |
+| Extraction | L1 S1 → Ext 1 (++) or Ext 2 (+) · L1 → Ext 3 (++) · S1 / M1 → Ext 4 (+) / Ext 5 (−), **which is which: to check** |
+| High Tech | L1 S1 → HT 1 (++) or HT 3 (+) · S1 → HT 2 (−) · S3 → HT 4 (+) |
+| Industrial | L1 → Ind 2 (++), Ind 3 (+), Ind 5 (+)? · L1 S1 → Ind 4 (+) · S1 and M1 → Ind 1 (−) and **? — to check** |
+| Military | L1 S2 → Mil 1 (−) or Mil 2 (++) · M1 S1 → Mil 3 (+) · M1 → Mil 4 (+) · S1 → Mil 5 (+) |
+| Tourist | L2 S2 → Tour 1 (++) · M1 → Tour 2 (−) · L1 S2 → Tour 3 (+) · L1 S1 → Tour 4 (+) |
+
+**Check to do in game** — no landing needed, just read the markers in the nav panel:
+- [ ] **HIP 1914** (21.5 ly, Aisling Stronghold, 117 settlements, no war on 24 Nov):
+  - Extraction **M1** ×2 and **S1** ×4: M1 = (−) and S1 = (+) → Claude's reading (Ext 5 = M1);
+    M1 = (+) and S1 = (−) → Tonton Marcel's (Ext 4 = M1).
+  - Industrial **S1** ×13 and **M1** ×10: Tonton Marcel's reading is S1 = Ind 1 (−),
+    M1 = Ind 5 (+), then L1 (+) = Ind 3 only. Any other marker → a layout OMG doesn't map.
+  - Pairs: agricultural L1 S1 ×7 (+ Agri 1 / ++ Agri 3) and S1 ×10 (− Agri 2 / + Agri 5);
+    military L1 S2 ×11 (− Mil 1 / ++ Mil 2); extraction L1 S1 ×4 (++ Ext 1 / + Ext 2).
+    Expected: both markers turn up; one marker only → that pad signature is a single layout.
+- [ ] **Changwuti** (20.7 ly, Aisling Exploited): High Tech L1 S1 ×6 (++ HT 1 / + HT 3).
+- Lists: `python tools/material_finder.py --survey "HIP 1914,Changwuti"`. A doubt → fly over and
+  compare with the OMG image. Results go in this table and in `PADS` (`tools/build_layouts.py`).
+
 ### 5.1 Ferenczi-houlden Extraction Exchange (extraction layout)
 
 - **Where:** Crucis Sector OY-R b4-4 C 3, unoccupied system. Used for the Power data raid
@@ -486,7 +519,9 @@ same layout** (below): classified only from **CMD and EXT**. For classified data
 HAB → EXT → HAB** and re-land; skip STO and PWR (`Powerplay Missions.md` card 4.8).
 
 **Same layout elsewhere — how to find one** (Tonton Marcel, 17 Nov): Inara settlement search,
-**extraction + large pad**, then the in-game size marker **(+)** — only two layouts are left.
+**extraction + large pad**, then the in-game size marker **(+)** — only Extraction 2 is left
+(pads **L1 S1**, Spansh census 24 Nov, §5.0; confirmed by Tonton Marcel). Quicker:
+`tools/material_finder.py --survey <system>` lists a system's L1 S1 extraction sites.
 Found: **Auclair Metallurgic Base** (Angi A 3 a, The Order of Mobius; Angi is **Torval
 Exploited**, so its Power data counts for undermining assignments, not acquisition ones).
 Same route, same ports: 4 runs on 18 Nov, 21 downloads, **4 classified** (CMD 2 / 4, EXT 2 / 6,

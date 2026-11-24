@@ -362,7 +362,7 @@
     "CMD": 2,
     "IND": 2
    },
-   "pads": "L1",
+   "pads": "L1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },

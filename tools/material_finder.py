@@ -23,7 +23,10 @@ then scores the candidate layouts:
     about two, a big one more - the maps don't show lockers).
 "Settlements" (any building) counts 1 everywhere. Several items: each one
 is scaled to its best layout, then added, so they weigh the same.
-The layout guess is shown with each settlement; fly over it to confirm.
+The layout guess is shown with each settlement, with the in-game size
+marker of each candidate (- tiny, + small, ++ medium): column "aim" says
+which marker to look for next to the name in the nav panel to land on the
+best one. Pad table and checks: On-Foot.md §5.0.
 
 Data: https://spansh.co.uk (EDDN-fed; faction states as of the last visit
 by someone running an EDDN client).
@@ -34,6 +37,7 @@ Usage examples:
   python tools/material_finder.py "Patrol Routes,Weapon Test Data" --pad L
   python tools/material_finder.py "Ionised Gas" --info     # offline card
   python tools/material_finder.py --locker                  # what to sell
+  python tools/material_finder.py --survey "HIP 1914"       # pads/layouts
 """
 
 import argparse
@@ -54,6 +58,8 @@ PAD_RANK = {"S": 1, "M": 2, "L": 3}
 NOT_SETTLEMENT = ("Irregular markers", "Crashed satellite",
                   "Surface crash site", "Mission reward", "Thargoid site")
 CODE = {"MED room": "MED", "Settlements": "*"}
+# In-game size marker next to the settlement name (nav panel, system map)
+MARK = {"tiny": "-", "small": "+", "medium": "++"}
 
 
 # ----------------------------------------------------------------- data --
@@ -137,16 +143,19 @@ def candidates(st_pads, economy, layouts):
     """Layouts a settlement can be, with a weight from the pad match."""
     out = []
     total = sum(st_pads.values())
-    for lid, lay in layouts.items():
-        if lay["economy"] != economy:
-            continue
-        lp, sure = parse_pads(lay["pads"])
+    fam = [(lid,) + parse_pads(lay["pads"]) for lid, lay in layouts.items()
+           if lay["economy"] == economy]
+    # A signature a confirmed layout owns is not shared with unsure ones.
+    owned = any(sure and lp == st_pads for _, lp, sure in fam)
+    for lid, lp, sure in fam:
         if lp == st_pads:
             w = 1.0
+        elif sure or owned:
+            w = 0.0
         elif sum(lp.values()) == total and total:
-            w = 0.4 if not sure else 0.15
+            w = 0.4
         else:
-            w = 0.0 if sure else 0.05
+            w = 0.05
         if w:
             out.append((lid, w))
     if not out:   # pad table wrong or settlement odd: keep the whole family
@@ -161,6 +170,60 @@ def short_name(lid, layouts):
         .replace("Industrial", "Ind").replace("Military", "Mil") \
         .replace("High Tech", "HT").replace("Tourist", "Tour") \
         .replace(" ", "")
+
+
+def tag(lid, layouts):
+    return "%s(%s)" % (short_name(lid, layouts),
+                       MARK.get(layouts[lid]["size"], "?"))
+
+
+def guess_text(cands, layouts, n=3):
+    wsum = sum(w for _, w in cands)
+    txt = ", ".join("%s%s" % (tag(l, layouts), "" if len(cands) == 1 else
+                              " %d%%" % round(100 * w / wsum))
+                    for l, w in cands[:n])
+    return txt + (" +%d" % (len(cands) - n) if len(cands) > n else "")
+
+
+def aim(cands, scores, layouts):
+    """Size marker(s) of the best-yield layouts among the likely ones."""
+    top = max(w for _, w in cands)
+    likely = [l for l, w in cands if w >= 0.3 * top]
+    marks = {MARK.get(layouts[l]["size"], "?") for l in likely}
+    best = max(scores[l][0] for l in likely)
+    good = {MARK.get(layouts[l]["size"], "?") for l in likely
+            if scores[l][0] >= best - 1e-9}
+    return "any" if good == marks else "/".join(sorted(good, key=len))
+
+
+def survey(names, layouts):
+    from waypoint_route import system_stations
+    from settlement_finder import pad_sig
+    for name in names:
+        sts = [s for s in system_stations(name)
+               if s.get("type") == "Settlement"]
+        print("\n== %s: %d settlement(s)" % (name, len(sts)))
+        print("   %-34s %-22s %-8s %s" % ("settlement", "body", "pads",
+                                          "layout(size marker) by pads"))
+        sts.sort(key=lambda s: (s.get("primary_economy") or "", pad_sig(s),
+                                s.get("body_name") or "", s["name"]))
+        eco = None
+        for st in sts:
+            if st.get("primary_economy") != eco:
+                eco = st.get("primary_economy")
+                print("  %s" % eco)
+            pads = {k: st.get(f) or 0 for k, f in (
+                ("L", "large_pads"), ("M", "medium_pads"),
+                ("S", "small_pads"))}
+            cands = candidates({k: v for k, v in pads.items() if v}, eco,
+                               layouts)
+            cands.sort(key=lambda c: -c[1])
+            print("   %-34s %-22s %-8s %s" % (
+                st["name"][:34], (st.get("body_name") or "")
+                .replace(name, "").strip()[:22], pad_sig(st),
+                guess_text(cands, layouts, 5) if cands else "-"))
+    print("\nIn game, note the size marker next to each name (- tiny, "
+          "+ small, ++ medium) and compare.")
 
 
 # ---------------------------------------------------------------- views --
@@ -242,6 +305,10 @@ def main():
     ap.add_argument("--locker", action="store_true",
                     help="read ShipLocker.json: what to sell, what to keep")
     ap.add_argument("--journal", default=None, help="journal folder")
+    ap.add_argument("--survey", default=None, metavar="SYSTEMS",
+                    help="list the settlements of these systems (comma "
+                         "list) with their pads and possible layouts - for "
+                         "checking the layout table in game")
     args = ap.parse_args()
 
     items_db = load_items()
@@ -250,8 +317,12 @@ def main():
     if args.locker:
         print_locker(items_db, folder)
         return
+    if args.survey:
+        survey([s.strip() for s in args.survey.split(",") if s.strip()],
+               load_layouts())
+        return
     if not args.items:
-        ap.error("give at least one item (or --locker)")
+        ap.error("give at least one item (or --locker / --survey)")
     wanted = [resolve(q, items_db) for q in args.items.split(",") if q.strip()]
     layouts = load_layouts()
     scores = layout_scores(wanted, layouts)
@@ -326,21 +397,17 @@ def main():
           "(faction at war). Expected yield = average over the layouts the "
           "economy + pads allow, weighted by how well the pads match.\n"
           % (min(len(order), args.systems), dropped))
-    print(" #  %-5s %-30s %-24s %6s  %-8s %-36s %5s %6s  %s" % (
-        unit, "settlement", "system", "ly", "pads", "layout guess", "g",
-        "ls", "government / power"))
+    print(" #  %-5s %-30s %-24s %6s  %-8s %-40s %-4s %5s %6s  %s" % (
+        unit, "settlement", "system", "ly", "pads", "layout guess (size)",
+        "aim", "g", "ls", "government / power"))
     for i, (exp, st, sig, cands) in enumerate(ok[:args.top], 1):
         rec = info[st["system_name"]][0]
-        top = cands[:3]
-        wsum = sum(w for _, w in cands)
-        guess = ", ".join("%s%s" % (short_name(l, layouts),
-                                    "" if len(cands) == 1 else
-                                    " %d%%" % round(100 * w / wsum))
-                          for l, w in top) + (" +%d" % (len(cands) - 3)
-                                              if len(cands) > 3 else "")
-        print("%2d  %5.1f %-30s %-24s %6.1f  %-8s %-36s %5.2f %6d  %s / %s" % (
+        guess = guess_text(cands, layouts)
+        print("%2d  %5.1f %-30s %-24s %6.1f  %-8s %-40s %-4s %5.2f %6d  "
+              "%s / %s" % (
             i, exp, st["name"][:30], st["system_name"][:24],
-            st.get("distance") or 0, sig, guess[:36],
+            st.get("distance") or 0, sig, guess[:40],
+            aim(cands, scores, layouts),
             st.get("body_gravity") or 0, st.get("distance_to_arrival") or 0,
             rec.get("government") or "?",
             (rec.get("controlling_power") or "-")))
@@ -356,6 +423,9 @@ def main():
             print("  %-26s %5.1f ly  %d settlements, total %.1f" % (
                 s, rs[0][1].get("distance") or 0, len(rs),
                 sum(r[0] for r in rs)))
+    print("\naim = the size marker to look for next to the settlement's name "
+          "in game (- tiny, + small, ++ medium): it picks the best layout "
+          "among those the pads allow; 'any' = they all yield the same.")
     other = sorted({o for it in wanted for o in it["other"]})
     if other:
         print("\nAlso from: %s." % ", ".join(other))
