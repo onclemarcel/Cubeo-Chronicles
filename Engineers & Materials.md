@@ -35,8 +35,8 @@ by the game at all are marked "—".*
 | Ram Tah | Ship | **Invited** (seen 14 Nov 2026) | Utilities and limpets (Phase 4) | Unlock condition in the engineer panel (commonly listed: 50 Classified Scan Databanks — verify) |
 | Marsha Hicks, Mel Brandon | Ship (Colonia) | Hicks **Invited**, Brandon Known (14 Nov 2026) | Not in the plan (Colonia) | — |
 | Domino Green (Orishis, The Jackrabbit) | Odyssey | **Unlocked** (`EngineerProgress`, 12 Nov 2026) — **Extra Backpack Capacity applied 19 Nov** | **Heist Maverick slot 1** (Extra Backpack Capacity, `On-Foot.md` §2.1); opens Kit Fowler | Done — Apex shuttles (155 ly), 5 Push delivered 11 Nov |
-| Kit Fowler (Capoya, The Last Call) | Odyssey | **Known** (12 Nov 2026) | Step on the way to Yarden Bond | **Next gate:** sell 5 Opinion Polls (stock 0, 19 Nov); then 5 Surveillance Equipment (15 in stock ✔) |
-| Yarden Bond (Bayan, Salamander Bank) | Odyssey | — | **Heist Maverick slots 2–3** (Improved Jump Assist, Quieter Footsteps) | Via Kit Fowler (5 Surveillance Equipment), then sell 5 Smear Campaign Plans |
+| Kit Fowler (Capoya, The Last Call) | Odyssey | **Unlocked** (visit 22 Nov 2026 22:49; *Invited* after 5 Opinion Polls sold, `EngineerProgress` 22:44) | Step on the way to Yarden Bond — his own mods (melee, ammo, shield regen) not in the build | Done — 5 Surveillance Equipment delivered 22 Nov → Yarden Bond |
+| Yarden Bond (Bayan, Salamander Bank) | Odyssey | **Unlocked** (visit 23 Nov 2026 22:27; *Invited* after 5 Smear Campaign Plans sold at Akers Station, Senones) — **Improved Jump Assist applied 23 Nov** | **Heist Maverick slots 2–3** (Improved Jump Assist ✔, Quieter Footsteps) | **Quieter Footsteps:** 2 Patrol Routes short (3 of 5) |
 | Jude Navarro (Aurai, Marshall's Drift) | Odyssey | Known | Opens Terra Velasquez; Dominator mods later | 10 restore/reactivation missions |
 | Terra Velasquez (Shou Xing, Rascal's Choice) | Odyssey | — | Opens Oden Geiger; Dominator mods later | Via Navarro (5 Genetic Repair Meds), then 6 covert theft/heist missions |
 | Oden Geiger (Candiaei, Ankh's Promise) | Odyssey | — | **Heist Maverick slot 4** (Improved Battery Capacity; Night Vision the alternative) | Via Velasquez (15 Financial Projections), then sell 20 Biological Samples / Employee Genetic Data / Genetic Research |
@@ -117,16 +117,26 @@ delivery that reveals the next one.*
       Barbier Tourism Complex, HR 5295, 5 Push in one visit (11 Nov). Agricultural sites in
       Senones (Kolsuk, Fry) gave Hush and Lazarus but no Push (9 Nov). The only earlier Push: 4
       from a heist-mission secret cache, Koller (anarchy), April 2023.
-- [ ] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders — **the
-      next gate (19 Nov)**. Stock 0, never found in 99 settlement visits (`loot_stats.py`).
-      Ways in: mission rewards (sort the board by materials — the 18 Nov missions paid 12–15
-      units of one item), bartender stock, data ports of the settlement types EDOMH lists.
-      Not needed for his own mods (melee, ammo, shield regen).
-- [ ] Referral: deliver **5 Surveillance Equipment** to Kit Fowler → reveals Yarden Bond.
-      **Stock on 19 Nov: 15 ✔** — keep them, don't sell.
-- Yarden Bond's own gate after that: 5 Smear Campaign Plans — **1 in stock** (Yan Metallurgic
-  Station, LHS 480, 16 Nov).
-- [ ] **Yarden Bond**, Bayan, *Salamander Bank*: **sell 5 Smear Campaign Plans** to bartenders.
+- [x] **Kit Fowler**, Capoya, *The Last Call*: **sell 5 Opinion Polls** to bartenders — done
+      22 Nov. Never found in 99 settlement visits; they came as a **mission reward**: an
+      on-foot assassination from Medupe City's concourse board (Prismatic Imperium, *Éliminer
+      Bruno Cameron*, Navarro Botanical Base, Lambda-2 Tucanae) paid **8 Opinion Polls** +
+      144,114 CR. 5 sold at Medupe City's bar (22:33, 25,000 CR) → *Invited* → **Unlocked** on
+      the visit (22:49). 3 polls left. **Lesson: sort the concourse board by material
+      rewards** — the rare items come faster from missions than from lockers.
+- [x] Referral: **5 Surveillance Equipment** delivered to Kit Fowler (22 Nov; locker 15 → 10)
+      → **Yarden Bond Known**.
+- [x] **Yarden Bond**, Bayan, *Salamander Bank*: **sell 5 Smear Campaign Plans** to bartenders
+      — done 23 Nov. 1 in stock + **4 from Tutunnyk's Resort, LPM 746** (anarchy tourism,
+      Diamond Frogs — three landings, 19:23–21:54). **Medupe City's bartender won't buy them;
+      an anarchy bartender does:** sold at **Akers Station, Senones** (anarchy Orbis, Diamond
+      Frogs), 22:11, 130,000 CR → *Invited* → **Unlocked** on the visit (22:27).
+      **Improved Jump Assist applied** the same visit (Heist Maverick slot 2).
+  - [ ] **Quieter Footsteps** (slot 3) — **2 Patrol Routes short** (3 of 5). Patrol Routes come
+        from military-type data: CMD/SEC buildings' data ports (Tonton Marcel, from the Odyssey
+        Map Guide: Military 1 and 4, Extraction 1 and 2, Industrial 5, High Tech 1 have two ports
+        per CMD/SEC building), or a mission reward. Systems rich in those settlements:
+        `tools/settlement_finder.py`.
       Her suit mods: **Quieter Footsteps** and **Improved Jump Assist** (both in the build),
       Combat Movement Speed. Weapon
       mods: **Audio Masking**, Faster Handling, Hip-Fire Accuracy.

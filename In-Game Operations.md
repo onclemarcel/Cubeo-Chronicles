@@ -24,15 +24,15 @@
 | CMDR | Onclemarcel |
 | Inara role | Freelancer / Scientist |
 | Squadron | EliteCommanders |
-| Trade rank | **Elite III** (rank 11, 19 Oct 2026) — **62 %** toward Elite IV (29 Oct). Elite II on 9 Oct, Elite on 16 Sept |
-| Combat rank | **Expert** (since 14 Oct 2026, 23:17 UTC) — **41 %** toward Master (27 Oct 17:58) |
+| Trade rank | **Elite III** (rank 11, 19 Oct 2026) — **63 %** toward Elite IV (22 Nov 22:44). Elite II on 9 Oct, Elite on 16 Sept |
+| Combat rank | **Expert** (since 14 Oct 2026, 23:17 UTC) — **83 %** toward Master (22 Nov 22:44) |
 | Explorer rank | **Ranger** |
 | Exobiologist rank | **Directionless** |
 | Mercenary rank | **Mostly Defenceless** (since 29 Sept 2026) |
-| Imperial Navy rank | **Earl** (promoted 17 Oct 2026, 20:43 UTC) — **48 %** toward Marquis (27 Oct 17:58) |
-| Power | Aisling Duval — pledged, **Rank 51 / 386,198 merits** (18 Nov 2026, 09:17 UTC) — rank 40 on 14 Nov, 41 on 15 Nov, 42–48 on 16 Nov, 49–51 on 18 Nov |
+| Imperial Navy rank | **Marquis** (9 Nov 2026) — **92 %** toward **Duke** (22 Nov 22:44; 66 % on 19 Nov — the donation runs of 20–22 Nov) |
+| Power | Aisling Duval — pledged, **Rank 56 / 428,222 merits** (22 Nov 2026, 21:37 UTC) — rank 51 on 18 Nov, 52 on 20 Nov, 53 on 21 Nov, 54–56 on 22 Nov |
 | Home port | Cubeo — Medupe City |
-| Treasury | **≈5,471,900,000 CR** (19 Nov 2026, 20:29 UTC `LoadGame`; +268M since 18 Nov, most likely the CG 866 reward). CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
+| Treasury | **≈5,409,000,000 CR** (22 Nov 2026, 22:44 UTC `LoadGame`; ≈63M spent since 19 Nov — donations, transfers, suit grades). 19 Nov: 5,471.9M, +268M since 18 Nov, most likely the CG 866 reward. CG rewards: 859 (170M), 860 (220M), 861 (200M), 862 (310M), 863 (140M), 864 (250M), 865 (220M) — `Community Goals.md` |
 | Game mode | Solo |
 | Expansions | Horizons + Odyssey |
 | Absence | ~4 years (last memory: Thargoid war, Colonia CG) |
@@ -1416,6 +1416,79 @@ taking it back; a bottle of Eranin's whisky bought to be sold, not drunk.
 
 ---
 
+### 22 November, evening — The Week Closed 10 of 10; a Quiet Kill for Kit Fowler (journal-verified)
+
+Source: journal file of 22 Nov (20:42–23:05 UTC) and Tonton Marcel's report.
+
+- **Reamy City, Wolf 587:** into the Nemesis, the 12 Eranin Pearl Whisky carried across in the
+  swap. **LP 684-17:** rares sold at Planck Horizons (2,541 each) — **+3,600**, **Rank 55**
+  (20:47); then three weapons-fire signals near the star, a wanted ship in each (Diamondback,
+  Eagle, Krait Mk II — 598,069 CR of vouchers): bounty assignment **+4,800** at 20:56, five
+  minutes of fighting.
+- **Home run in the Marco Polo:** megaships at **Tripitaka ×2, Sitakapa ×3, Ruwachis ×3**
+  (21:06–21:37), **Rank 56** at 21:10, assignment **+2,400** at 21:37 — **the week closed, 10 of
+  10.** Docked at Medupe City 21:42; the **Nemesis transferred home** from Wolf 587 (239 ly,
+  5.46M CR, 45 min). Tonton Marcel: Aisling now asks **ten assignments a week**.
+- **Donations — 18 missions, 17.75M CR** at Medupe City (Cubeo Purple Deeds, Cubeo Patron's
+  Principles, Nexus Heavy Industries) and Lambda-2 Tucanae (Empire League). **Imperial Navy:
+  92 % toward Duke** (66 % on 19 Nov).
+- **The assassination (on foot):** from Medupe City's concourse board, Prismatic Imperium —
+  *Éliminer Bruno Cameron*, Navarro Botanical Base, **Lambda-2 Tucanae** (Aisling Stronghold,
+  one jump). In the Dart, unarmed Maverick: one discharge in passing, somewhere out of sight —
+  **no crime logged**. 21:56–22:23 on site; paid at Medupe City 22:27: **8 Opinion Polls** +
+  144,114 CR (`On-Foot.md` §4).
+- **Kit Fowler:** 5 Opinion Polls sold at Medupe City's bar (22:33) → *Invited*; to Capoya in
+  the Marco Polo (recon controller swapped for a cargo rack first), **The Last Call** 22:49 →
+  **Unlocked**; 5 Surveillance Equipment handed over → **Yarden Bond Known**. Fowler's own mods
+  (melee, ammo) are of no use to her. Back at Medupe City 23:01.
+- **Next — Yarden Bond's gate:** 5 **Smear Campaign Plans** (1 in stock). Medupe City's
+  bartender won't buy them: a black-market item, most likely. Plan: data ports at **tourism
+  settlements in an anarchy system** — three days before the 26 Nov tick.
+- **Merits:** 413,481 → **428,222** (+14,741). Treasury 5,409.0M CR (22:44).
+
+**Raw material for future `Logbook.md` days (Tonton Marcel's own words, to keep):** *"ce n'est
+pas à quelques jours d'être adoubée Duchesse qu'il faut faillir à l'Empire"*; eight opinion polls
+for a life — absurd, paper for a man, but the reward opens a door and removing the target serves
+the Empire's interests. **Lambda-2 Tucanae, an allied station:** a man she knows
+nothing about, *"et ce n'est pas plus mal"*. No weapon — a single discharge in passing, a
+discreet corner out of sight: *"pas de bruit, pas de détonation, pas de spectacle, une veuve
+noire qui ne faisait que passer…"* Kit Fowler: weapons-obsessed, suspicious of everything, of no
+interest to her — only a name to trade for Yarden's. Smear campaigns, refused at her own bar:
+she'll dig them out of the silicon of an anarchy where tourists — *"zèbres"* — pass in
+numbers. Three days' grace before duty calls again.
+
+---
+
+### 23 November — The Diamond Frogs' Smear Campaign: Yarden Bond Unlocked (journal-verified)
+
+Source: journal files of 23 Nov (18:22–23:21 UTC) and Tonton Marcel's report. Marco Polo,
+unarmed Maverick G4.
+
+- **LTT 7786** (anarchy, 80+ settlements, a dozen tourism ones): no landing — two of its
+  factions are **at war** (Posse of Niflheimri, LTT 7786 Major Group), their settlements are
+  ground conflict zones. On to **Ascella**: **Aloisio Lodges** unpowered and empty (18:36–18:40);
+  **Kaur's Link** (18:43–19:15) — the Smear Campaign port guarded by three NPCs in one room;
+  another port gave Tax Records and 2 Power propaganda data.
+- **Tutunnyk's Resort, LPM 746** (anarchy tourism, Diamond Frogs): three landings (19:23–21:54),
+  **4 Smear Campaign Plans** and a haul of HAB data (Kompromat, Campaign Plans, Digital Designs,
+  12 Power data units). With the one in stock: 5.
+- **Akers Station, Senones** (anarchy Orbis): the 5 sold at the bar, 130,000 CR (22:11) — Medupe
+  City's bartender had refused them. **Yarden Bond Invited**; **Salamander Bank, Bayan**, 22:27 →
+  **Unlocked**, **Improved Jump Assist applied** (Heist Maverick slot 2).
+- **First rooftop test, Kwon Metallurgic Enterprise, Bayan** (extraction, Alliance): Weapon
+  Inventory, Power research data, a Power extraction sample (500 CR theft fine, The Academy),
+  Insight data banks, components. Then **Richelieu's Barracks, HIP 48391** (military, 23:06–23:21):
+  nothing logged.
+- **Next:** Quieter Footsteps needs **2 Patrol Routes** (3 of 5) — military-type CMD/SEC data
+  ports; candidate systems from `tools/settlement_finder.py`.
+
+**Raw material for future `Logbook.md` days:** *"la calomnie des grenouilles diamantées"* — a
+resort full of tourists and secrets, its data ports emptied three times over; a war that closes
+a whole system to her; an abandoned settlement, dark and silent; a bartender at her own port who
+won't touch what an anarchy bar buys without a question.
+
+---
+
 ## 5. ROADMAP
 
 Consolidated 23 September 2026: this section now absorbs the old §§8–10 (Imperial rank, on-foot protocol, engineering) and
@@ -1828,6 +1901,7 @@ Moved to `Shipyard.md` §3 (25 Sept 2026). Annex labels A1–A5 and B1–B9 are 
 | `tools/travel_stats.py` | Jump metrics per ship from the journal: jumps, ly, average / best jump, jump cadence, ly per hour of route time, scooping, neutron boosts (`--since`, `--routes`) |
 | `tools/pp_week.py` | One route for the week's Powerplay assignments, read from `Powerplay Missions.md` §1: named systems with their tasks and stations, a rival system for undermining work, megaships still to scan, rare-goods source before the sale (`--rare-source`, `--to`, `--jump`). Built 22 Nov 2026 |
 | `tools/waypoint_route.py` | Route through N systems meeting criteria (megaships to scan, station type, power state), optional via/destination; megaships from a pasted Inara search (`tools/inara_megaships.txt`) and the journals. Built 22 Nov 2026 |
+| `tools/settlement_finder.py` | Systems richest in Odyssey settlements of given economies (default Military, Extraction, Industrial, High Tech) around a system, factions at war left out; pad signatures per economy to match against the Odyssey Map Guide layouts (`--radius`, `--min`, `--pads`, `--max-gravity`, `--details`). Built 24 Nov 2026 |
 | `tools/combat_stats.py` | Combat metrics from the journal: zones, kills/h, gap and time on target, ship types and pilot ranks killed, shields lost, outcomes, per weapon fit (`--kills`, `--csv`) |
 | `../elite-loot/loot_stats.py` | Settlement loot from the journal: every on-foot visit's goods, components and data against the settlement's and system's economy, government, faction state, security… Shows where an item drops (`--item suitschematic`, `--by settlement_economy`, `--since`, `--csv`). Built 10 Nov 2026, outside this repo |
 | ED Colonisation Planner | Build order for a system |
@@ -1838,7 +1912,7 @@ the account in settings, or pull each hull out of the hangar once with EDMC runn
 
 ---
 
-*Last updated: 22 November 2026 (journal read through 22 Nov 18:55 UTC; session logs 20–22 Nov
+*Last updated: 24 November 2026 (journal read through 23 Nov 23:21 UTC; session logs 20–23 Nov
 added). To be completed session by session.*
 
 **Data source note:** the game writes local Journal files (`%USERPROFILE%\Saved Games\Frontier

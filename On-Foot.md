@@ -193,9 +193,11 @@ is worth more than cheaper tools).*
       materials reward (19/5).** **Weapon Inventory done 18 Nov: 15 from a sabotage mission
       (16/5).** ✔ **Unblocked** — on the way to Domino Green (Orishis, The Jackrabbit) the same
       evening to apply Extra Backpack Capacity.
-- [ ] **Stage B — G3 and G4, slots 2–3 (now).** Next gate: **5 Opinion Polls** for Kit Fowler
-      (`Engineers & Materials.md` §3) — never found yet; filter mission rewards for them, check
-      bartender stock, and the data ports (EDOMH says which settlement types hold them).
+- [ ] **Stage B — G3 and G4, slots 2–3 (now).** ✔ Kit Fowler unlocked 22 Nov (8 Opinion Polls
+      from an assassination mission). ✔ **Yarden Bond unlocked 23 Nov** (Smear Campaign Plans
+      from Tutunnyk's Resort, sold to an anarchy bartender) and **✔ Improved Jump Assist
+      applied** (slot 2, 23 Nov 22:27). **Left: Quieter Footsteps (slot 3) — 2 Patrol Routes
+      short** (3 of 5): CMD/SEC data ports of military-type layouts, or a mission reward.
       - [x] **Raised to G3, then G4 — ✔ 20 Nov 2026 13:08** at Medupe City (journal
             `UpgradeSuit`: 2,250,000 + 4,500,000 CR, plus micro-resources). Slots 2–3 are open;
             the mods still wait for Kit Fowler and Yarden Bond. The "Have" counts in the status
@@ -238,7 +240,7 @@ then drop a little.
 | Reactor Output Review (`reactoroutputreview`) | 5 | 2 | **3** | extraction data ports (2 of 9 visits) |
 | Maintenance Logs (`maintenancelogs`) | 8 | 4 | **4** | extraction, industrial data ports |
 | Topographical Surveys (`topographicalsurveys`) | 5 | 3 | **2** | agricultural, extraction |
-| Patrol Routes (`patrolroutes`) | 5 | 3 | **2** | before 7 Nov (source not logged by the script) |
+| Patrol Routes (`patrolroutes`) | 5 | 3 | **2** | before 7 Nov (source not logged by the script). **The last gate for Quieter Footsteps (23 Nov)** — CMD/SEC ports of Military 1/4, Extraction 1/2, Industrial 5, High Tech 1 (OMG); systems: `tools/settlement_finder.py` |
 | Carbon Fibre Plating (`carbonfibreplating`) | 28 | 21 | **7** | component — lockers and crates |
 
 **Covered — keep, don't sell to a bartender until the mods are applied:** Health Monitor 15/12,
@@ -419,8 +421,9 @@ is still the untried fix).
   | Covert production sabotage (`Mission_OnFoot_Sabotage_Production_Covert_MB`) | Daily Routine Inc. | Biggs Chemical Assembly (industrial), ICZ FB-X c1-25 | **12 Suit Schematic** |
 
   | Production sabotage, plant a pathogen (`Mission_OnFoot_Sabotage_Production_MB`) | Samebito Purple Advanced Co. | Zambo Horticultural Biosphere (agricultural, Agriculture 3), Marki | **15 Weapon Inventory** (evening, 3 landings) |
+  | Assassination, illegal (`Mission_OnFoot_AssassinationIllegal_MB`), 22 Nov | Prismatic Imperium (Medupe City) | Navarro Botanical Base (agricultural, Lambda-2 Tucanae, Aisling Stronghold, one jump) | **8 Opinion Polls** + 144,114 CR — Kit Fowler's gate. Unarmed Maverick, a quiet kill out of sight: **no crime logged**. 21:56–22:23 on site, ≈38 min door to door |
 
-  6 of 6 successful. The covert assassination and the sabotages pay the most; the secret-cache
+  7 of 7 successful. The covert assassination and the sabotages pay the most; the secret-cache
   heist was the quickest (≈6 min on site).
 
 ---
@@ -641,6 +644,22 @@ bartenders who buy stolen and illegal goods (Akers Station, 9 and 11 Nov).*
   script records it). The system has its own bartender: sell the surplus there instead of
   flying to **Akers Station, Senones** (anarchy, bartender used 9 and 11 Nov).
 - Papacosta Horticultural Exchange (Rata Bares, anarchy) was visited on 9 Nov: no loot logged.
+- **Tutunnyk's Resort** (LPM 746 6 b, anarchy tourism, Diamond Frogs, 2,166 ls) — **the best
+  HAB data farm so far** (23 Nov): 7 data ports, a level-3 NPC to clone for the alarm. Three
+  landings (19:23–21:54) gave **4 Smear Campaign Plans** plus Kompromat, Campaign Plans,
+  Digital Designs, Political Affiliations, Faction Donator Lists, Shareholder Information, and
+  **Power data** (propaganda, financial, employee — 12 units). **Markus's Dream**, another
+  Diamond Frogs tourism site in the system (same distance), is untried.
+- **Akers Station, Senones** — its bartender **buys Smear Campaign Plans** (5 for 130,000 CR,
+  23 Nov); Medupe City's won't. Sell illegal-looking data at an anarchy bar.
+- **Dead ends, 23 Nov:** **LTT 7786** (anarchy, 13 tourism sites) — Posse of Niflheimri and
+  LTT 7786 Major Group are **at war**: their settlements are ground conflict zones, no landing.
+  Still open there (Diamond Frogs / Silver Partnership, not at war): Archambeau's Serenity,
+  Wolff's Haven, MacKinnon's Eden, Orlay Terminus. **Ascella:** Aloisio Lodges (5 a) was
+  **unpowered and empty** (an abandoned settlement — a Power Regulator in the power socket
+  should restore it; untried); **Kaur's Link** (5 c) keeps its Smear Campaign data port in a
+  room with **three NPCs** — no approach unseen (one other port gave Tax Records + 2 Power
+  propaganda data).
 
 ### 5.6 Dias's Territory (extraction layout) — Sorbago
 
