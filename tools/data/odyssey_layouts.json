@@ -71,9 +71,8 @@
     "STO": 1
    },
    "data_ports": {
-    "AGRI": 1,
-    "PWR": 2,
-    "STO": 1
+    "AGRI": 2,
+    "PWR": 2
    },
    "pads": "L1 M1 S1?",
    "alarm_panels": 1,
@@ -210,9 +209,9 @@
     "RES": 2
    },
    "data_ports": {
-    "CMD": 1,
+    "CMD": 2,
     "HAB": 1,
-    "PWR": 2,
+    "PWR": 1,
     "RES": 1
    },
    "pads": "L1 M1?",
@@ -395,9 +394,9 @@
     "PWR": 1
    },
    "data_ports": {
-    "CMD": 1,
+    "CMD": 2,
     "HAB": 2,
-    "PWR": 2
+    "PWR": 1
    },
    "pads": "L1 M2?",
    "alarm_panels": 1,

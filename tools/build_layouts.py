@@ -46,6 +46,16 @@ PORT_WORDS = (("hab", "HAB"), ("lab", "RES"), ("sec", "CMD"),
               ("pwr", "PWR"), ("power", "PWR"), ("ind", "IND"),
               ("cmd", "CMD"))
 
+# Ports the nearest-label rule gets wrong, checked on the map images (24 Nov
+# 2026): (layout, n-th data port of the map file, from 1) -> building. The
+# labels sit at a building's edge, not its middle, so a port in a big
+# building can be nearer the label of a small one next door.
+PORT_FIX = {
+    ("high_tech_01", 3): "CMD",    # east wing of CMD, upper floor (not PWR)
+    ("military_02", 5): "CMD",     # CMD building, under the dish (not PWR)
+    ("agriculture_04", 3): "AGRI",  # central AGRI building (not STO)
+}
+
 # Landing pads read from the map images (24 Nov 2026). Count is reliable
 # (pads are visible); sizes are judged against the ship parked on the pad
 # and the other pads of the same image - "?" where it is a guess. Confirm
@@ -108,10 +118,11 @@ def main():
             buildings = {}
             for l in labels:
                 buildings[l["code"]] = buildings.get(l["code"], 0) + 1
-            ports = {}
+            ports, n = {}, 0
             for m in raw.get("markers", []):
                 if m.get("type") == "dataPort":
-                    code = port_building(m, labels)
+                    n += 1
+                    code = PORT_FIX.get((lid, n)) or port_building(m, labels)
                     ports[code] = ports.get(code, 0) + 1
             title = titles.get(lid, raw.get("name", lid))
             size = re.search(r"(tiny|small|medium|large)", title.lower())
