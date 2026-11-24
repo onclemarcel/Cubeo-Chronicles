@@ -18,8 +18,8 @@
 | | |
 |---|---|
 | Power | Aisling Duval — pledged |
-| Rank | **54** (`PowerplayRank`, 22 Nov 2026 18:04 UTC) |
-| Merits | **413,481** (`PowerplayMerits`, 22 Nov 2026 18:33 UTC) |
+| Rank | **56** (`PowerplayRank`, 22 Nov 2026 21:10 UTC) |
+| Merits | **428,222** (`PowerplayMerits`, 22 Nov 2026 21:37 UTC) |
 | Target | ✔ **Rank 34 reached 7 Nov 2026 11:37** (≈247,000 merits) — Prismatic Shields unlocked for Phase 4 (§5.4). No next rank target set yet |
 
 ---
@@ -32,6 +32,9 @@ Stats line (§4).* The 29 Oct week (5 of 5), the 5 Nov week (4 paid) and the **1
 kills, 4.13, never had a Power signal in Shui Wei Sector MI-S b4-3)** are already in the cards'
 Stats.
 
+***✔ Week complete, 10 of 10 — 22 Nov 21:37 UTC** (Rank 56). Fold the results into the cards'
+Stats at the 26 Nov tick, then reset this table.*
+
 *Read 22 Nov ~17:10 UTC from the Powerplay screen (screenshots), 3 d 14 h left — ten
 assignments at Rank 53, four already done. Plan the open ones in one route:
 `python tools/pp_week.py` (reads this table: **Card** gives the kind of work, **System(s)** a
@@ -39,9 +42,9 @@ system or `reinforcement` / `undermining`, **Status** `done / target`).*
 
 | # | Assignment | Card | System(s) | Status | Merits |
 |---|---|---|---|---|---|
-| 1 | Collect bounties (*Encaisser des primes dans le système LP 684-17*) — vouchers earned, not cashed | 4.5 | LP 684-17 | 0 / 357,941 CR | 4,800 |
-| 2 | Scan megaships in reinforcement systems | 4.9 | reinforcement | 3 / 11 | 2,400 |
-| 3 | Sell rare goods in LP 684-17 — not bought in LP 684-17 (12 Eranin Pearl Whisky in the Marco Polo, 22 Nov) | 4.1 | LP 684-17 | 0 / 12 | 3,600 |
+| 1 | Collect bounties (*Encaisser des primes dans le système LP 684-17*) — 3 kills, 598,069 CR, paid 22 Nov 20:56 | 4.5 | LP 684-17 | ✔ | 4,800 |
+| 2 | Scan megaships in reinforcement systems — Tripitaka ×2, Sitakapa ×3, Ruwachis ×3, paid 22 Nov 21:37 | 4.9 | reinforcement | ✔ | 2,400 |
+| 3 | Sell rare goods in LP 684-17 — 12 Eranin Pearl Whisky, paid 22 Nov 20:47 | 4.1 | LP 684-17 | ✔ | 3,600 |
 | 4 | Scan ships and wakes in LHS 378 — paid 22 Nov 18:15 | 4.2 | LHS 378 | ✔ | 2,000 |
 | 5 | Hack holoscreens in the ports of LHS 378 — paid 22 Nov 18:33 | 4.7 | LHS 378 | ✔ | 2,400 |
 | 6 | Hack holoscreens in undermining systems — Ao, paid 22 Nov 18:04 | 4.6 | Ao | ✔ | 4,800 |
@@ -297,8 +300,9 @@ specific week — the week's progress lives in §1.*
   the Marco Polo into the Nemesis's 12 t) — rares and bounties in one trip with the combat hull.
 - **Shortcut:** it has been **Karsuki Locusts every time** (18× at West Market, Karsuki Ti, 915 CR)
   — go straight there. HIP 7311 (Fan Base) is one jump away and sells them at a small profit.
-- **Stats:** 4 runs · +3,600 merits (+2,000 for the "sell in Aisling systems" variant) · last:
-  20 Nov, **Karsuki Ti** (9 Locusts at 732) → **Tsiolkovsky Ring, Fire Fade** (Stronghold,
+- **Stats:** 5 runs · +3,600 merits (+2,000 for the "sell in Aisling systems" variant) · last:
+  22 Nov, **Eranin** (12 Pearl Whisky at 2,310) → **Planck Horizons, LP 684-17** (2,541 each),
+  carried in the Nemesis with the bounty run — **+3,600** at 20:47, Rank 55. 20 Nov, **Karsuki Ti** (9 Locusts at 732) → **Tsiolkovsky Ring, Fire Fade** (Stronghold,
   1,210 each), bought 13:24, paid 13:51 — **+2,000**, between donation stops. 12 Oct, **Karsuki Ti** (West Market) →
   **HIP 7311** (Fan Base, unoccupied), bought 23:48, sold 23:56 — ~18 min from Grushin
   Prospect. 1 Oct: → Tucanae Sector WO-Z b0 (Fefra's Legacy), ~20 min. 18 Sept: → HIP 7311, ~12 min.
@@ -392,7 +396,12 @@ specific week — the week's progress lives in §1.*
   - [ ] **While McQuinn is still locked:** keep the vouchers unclaimed for her unlock donation
         (Engineers) — don't redeem them at a station.
 - **Pitfalls:** none met so far — "easier than expected."
-- **Stats:** 1 run · +3,200 merits · last: 18 Sept, **Chinovane** (pop. 2,133, exploited) — nav
+- **Weapons-fire signals beat the nav beacon** (22 Nov, **LP 684-17**, unoccupied, low
+  security): three `$USS_Type_WeaponsFire;` drops (threat 1) near the star, one wanted ship each
+  — Diamondback 71,348, Eagle 49,329, **Krait Mk II 477,392 CR**. The 357,941 CR target was met
+  in **5 min** (20:51–20:56). Vouchers count when earned.
+- **Stats:** 2 runs · +3,200 / **+4,800** merits · last: 22 Nov, **LP 684-17** (named-system
+  variant, 357,941 CR) — Nemesis, 3 kills, paid 20:56. 18 Sept, **Chinovane** (pop. 2,133, exploited) — nav
   beacon, 19:42–19:48, ~6 min.
 
 ### 4.6 Holoscreens, rival system
@@ -688,7 +697,10 @@ specific week — the week's progress lives in §1.*
 - **Combine it with faction missions:** Prismatic Imperium's "access the megaship uplink" missions
   (`Mission_HackMegaship`, 0.1–1.9M CR each) are the same scan — credits, Navy progress and
   merits at once (17 Oct).
-- **Stats:** 3 assignments · +2,400 merits each + **468 per scan** · last: 30 Oct, 8 paid scans
+- **Stats:** 4 assignments · +2,400 merits each + **468 per scan** · last: 20–22 Nov, 11 scans
+  — HR 5632 ×3 (20 Nov), then **Tripitaka ×2, Sitakapa ×3, Ruwachis ×3 in 31 min** (22 Nov
+  21:06–21:37, Marco Polo, route from `tools/waypoint_route.py` + an Inara paste), paid 21:37,
+  Rank 56. ≈4 min per megaship when several share a system. 30 Oct, 8 paid scans
   in ≈56 min (Primi, Lambda-1 Tucanae, Osane, Karsuki Ti ×2, Fire Fade, HIP 7142, Jaroahy) —
   **Cubeo's megaship skipped by mistake, as it pays nothing** (pitfall above). 17 Oct: 9 scans
   18:58–20:25 alongside six Prismatic Imperium hack missions (Huang Gun, HIP 7869, Boloine, Clido
