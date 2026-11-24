@@ -1,0 +1,525 @@
+{
+ "source": "Odyssey Site Maps (Voz DeCarabas), github.com/voz-decarabas/Odyssey-Site-Maps",
+ "building_codes": {
+  "LAB": "RES",
+  "SEC": "CMD",
+  "OPR": "CMD",
+  "PROC": "IND"
+ },
+ "layouts": {
+  "agriculture_01": {
+   "name": "Agriculture 1",
+   "economy": "Agriculture",
+   "size": "small",
+   "buildings": {
+    "AGRI": 3,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "AGRI": 5,
+    "HAB": 1,
+    "STO": 1
+   },
+   "pads": "M1 S1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "agriculture_02": {
+   "name": "Agriculture 2",
+   "economy": "Agriculture",
+   "size": "tiny",
+   "buildings": {
+    "AGRI": 1,
+    "HAB": 1,
+    "PWR": 1
+   },
+   "data_ports": {
+    "AGRI": 1,
+    "HAB": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "agriculture_03": {
+   "name": "Agriculture 3",
+   "economy": "Agriculture",
+   "size": "medium",
+   "buildings": {
+    "AGRI": 1,
+    "HAB": 3,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 3,
+    "PWR": 3
+   },
+   "pads": "L1 M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09",
+   "notes": "Zambo Horticultural Biosphere, On-Foot.md 5.7"
+  },
+  "agriculture_04": {
+   "name": "Agriculture 4",
+   "economy": "Agriculture",
+   "size": "medium",
+   "buildings": {
+    "AGRI": 3,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "AGRI": 1,
+    "PWR": 2,
+    "STO": 1
+   },
+   "pads": "L1 M1 S1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "agriculture_05": {
+   "name": "Agriculture 5",
+   "economy": "Agriculture",
+   "size": "small",
+   "buildings": {
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "extraction_01": {
+   "name": "Extraction 1",
+   "economy": "Extraction",
+   "size": "medium",
+   "buildings": {
+    "CMD": 1,
+    "EXT": 1,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "CMD": 2,
+    "EXT": 1,
+    "HAB": 2,
+    "PWR": 1,
+    "STO": 2
+   },
+   "pads": "L1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "extraction_02": {
+   "name": "Extraction 2",
+   "economy": "Extraction",
+   "size": "small",
+   "buildings": {
+    "CMD": 1,
+    "EXT": 1,
+    "HAB": 2,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "EXT": 1,
+    "HAB": 2,
+    "PWR": 1,
+    "STO": 2
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09",
+   "notes": "Large pad confirmed in play (Ferenczi-houlden, Auclair). Map misses 1 data port on CMD 1st floor (8 in play). On-Foot.md 5.1"
+  },
+  "extraction_03": {
+   "name": "Extraction 3",
+   "economy": "Extraction",
+   "size": "medium",
+   "buildings": {
+    "EXT": 1,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 2
+   },
+   "data_ports": {
+    "EXT": 1,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "extraction_04": {
+   "name": "Extraction 4",
+   "economy": "Extraction",
+   "size": "small",
+   "buildings": {
+    "EXT": 2,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "EXT": 2,
+    "HAB": 1,
+    "PWR": 1
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "extraction_05": {
+   "name": "Extraction 5",
+   "economy": "Extraction",
+   "size": "tiny",
+   "buildings": {
+    "EXT": 1,
+    "HAB": 1,
+    "PWR": 1
+   },
+   "data_ports": {
+    "EXT": 1,
+    "HAB": 1,
+    "PWR": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "high_tech_01": {
+   "name": "High Tech 1",
+   "economy": "High Tech",
+   "size": "medium",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 1,
+    "PWR": 1,
+    "RES": 2
+   },
+   "data_ports": {
+    "CMD": 1,
+    "HAB": 1,
+    "PWR": 2,
+    "RES": 1
+   },
+   "pads": "L1 M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "high_tech_02": {
+   "name": "High Tech 2",
+   "economy": "High Tech",
+   "size": "tiny",
+   "buildings": {
+    "HAB": 2,
+    "PWR": 1,
+    "RES": 1
+   },
+   "data_ports": {
+    "HAB": 2,
+    "RES": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "high_tech_03": {
+   "name": "High Tech 3",
+   "economy": "High Tech",
+   "size": "small",
+   "buildings": {
+    "HAB": 2,
+    "PWR": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "RES": 1
+   },
+   "pads": "L1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "high_tech_04": {
+   "name": "High Tech 4",
+   "economy": "High Tech",
+   "size": "small",
+   "buildings": {
+    "HAB": 1,
+    "PWR": 1,
+    "RES": 2
+   },
+   "data_ports": {
+    "HAB": 1,
+    "RES": 2
+   },
+   "pads": "M3?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "industrial_01": {
+   "name": "Industrial 1",
+   "economy": "Industrial",
+   "size": "tiny",
+   "buildings": {
+    "HAB": 1,
+    "IND": 1,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 1,
+    "IND": 1,
+    "PWR": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "industrial_02": {
+   "name": "Industrial 2",
+   "economy": "Industrial",
+   "size": "medium",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 1,
+    "IND": 1,
+    "PWR": 1,
+    "RES": 2
+   },
+   "data_ports": {
+    "CMD": 1,
+    "HAB": 1,
+    "IND": 1,
+    "PWR": 1,
+    "RES": 1
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "industrial_03": {
+   "name": "Industrial 3",
+   "economy": "Industrial",
+   "size": "small",
+   "buildings": {
+    "HAB": 1,
+    "IND": 1,
+    "PWR": 1,
+    "RES": 1
+   },
+   "data_ports": {
+    "HAB": 1,
+    "PWR": 1,
+    "RES": 1
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "industrial_04": {
+   "name": "Industrial 4",
+   "economy": "Industrial",
+   "size": "small",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 1,
+    "IND": 3,
+    "PWR": 1,
+    "RES": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "HAB": 1,
+    "IND": 1
+   },
+   "pads": "L1 M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "industrial_05": {
+   "name": "Industrial 5",
+   "economy": "Industrial",
+   "size": "small",
+   "buildings": {
+    "CMD": 1,
+    "IND": 2,
+    "PWR": 1,
+    "RES": 2
+   },
+   "data_ports": {
+    "CMD": 2,
+    "IND": 2
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "military_01": {
+   "name": "Military 1",
+   "economy": "Military",
+   "size": "tiny",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "CMD": 2,
+    "HAB": 1,
+    "STO": 1
+   },
+   "pads": "L1",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "military_02": {
+   "name": "Military 2",
+   "economy": "Military",
+   "size": "medium",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 2,
+    "PWR": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "HAB": 2,
+    "PWR": 2
+   },
+   "pads": "L1 M2?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "military_03": {
+   "name": "Military 3",
+   "economy": "Military",
+   "size": "small",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 2,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "HAB": 3,
+    "STO": 2
+   },
+   "pads": "L1 M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "military_04": {
+   "name": "Military 4",
+   "economy": "Military",
+   "size": "small",
+   "buildings": {
+    "CMD": 1,
+    "HAB": 1,
+    "PWR": 1
+   },
+   "data_ports": {
+    "CMD": 2,
+    "PWR": 1
+   },
+   "pads": "M1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "military_05": {
+   "name": "Military 5",
+   "economy": "Military",
+   "size": "small",
+   "buildings": {
+    "CMD": 3,
+    "HAB": 1,
+    "MED": 1,
+    "PWR": 1,
+    "STO": 1
+   },
+   "data_ports": {
+    "CMD": 1,
+    "MED": 2,
+    "STO": 1
+   },
+   "pads": "S1?",
+   "alarm_panels": 2,
+   "map_updated": "2026-05-09"
+  },
+  "tourist_01": {
+   "name": "Tourist 1",
+   "economy": "Tourism",
+   "size": "medium",
+   "buildings": {
+    "HAB": 3,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 1,
+    "PWR": 1
+   },
+   "pads": "L2 S2?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "tourist_02": {
+   "name": "Tourist 2",
+   "economy": "Tourism",
+   "size": "tiny",
+   "buildings": {
+    "HAB": 6,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 6
+   },
+   "pads": "L1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "tourist_03": {
+   "name": "Tourist 3",
+   "economy": "Tourism",
+   "size": "small",
+   "buildings": {
+    "HAB": 6,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 7
+   },
+   "pads": "L1 S2?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09"
+  },
+  "tourist_04": {
+   "name": "Tourist 4",
+   "economy": "Tourism",
+   "size": "small",
+   "buildings": {
+    "HAB": 6,
+    "PWR": 1
+   },
+   "data_ports": {
+    "HAB": 9
+   },
+   "pads": "L1 S1?",
+   "alarm_panels": 1,
+   "map_updated": "2026-05-09",
+   "notes": "Kewell's Club, On-Foot.md 5.2"
+  }
+ }
+}

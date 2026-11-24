@@ -1,0 +1,183 @@
+Item	Type	Used	Location
+Accident Logs	Data	0	RES buildings, PWR buildings, IND buildings, HAB buildings, EXT buildings, AGRI buildings
+Agricultural Process Sample	Goods	0	
+Agricultural Sample	Goods	1	
+Air Quality Reports	Data	3	STO buildings, PWR buildings, IND buildings, HAB buildings, EXT buildings, AGRI buildings, Mission reward
+Atmospheric Data	Data	11	Irregular markers, RES buildings, IND buildings, Crashed satellite, Mission reward
+Audio Logs	Data	11	CMD buildings, Settlements, Mission reward
+AX Combat Logs	Data	0	CMD buildings
+Ballistics Data	Data	7	Irregular markers, CMD buildings, Mission reward
+Biochemical Agent	Goods	0	Irregular markers, Surface crash site
+Biological Sample	Goods	1	STO buildings, AGRI buildings
+Biological Weapon Data	Data	0	
+Biometric Data	Data	18	MED room, CMD buildings, Mission reward
+Blacklist Data	Data	0	CMD buildings, Crashed satellite
+Blood Test Results	Data	4	MED room, RES buildings, AGRI buildings, Mission reward
+Building Schematic	Goods	0	CMD buildings, AGRI buildings
+Californium	Goods	0	EXT buildings
+Campaign Plans	Data	0	HAB buildings
+Cast Fossil	Goods	0	EXT buildings
+Cat Media	Data	1	HAB buildings, Mission reward
+Census Data	Data	0	HAB buildings
+Chemical Experiment Data	Data	4	RES buildings, IND buildings, AGRI buildings, Mission reward
+Chemical Formulae	Data	4	RES buildings, IND buildings, AGRI buildings, Mission reward
+Chemical Inventory	Data	3	RES buildings, IND buildings, EXT buildings, AGRI buildings, Mission reward
+Chemical Patents	Data	4	RES buildings, IND buildings, AGRI buildings, Mission reward
+Chemical Process Sample	Goods	0	
+Chemical Sample	Goods	0	RES buildings
+Chemical Weapon Data	Data	0	
+Classic Entertainment	Data	1	HAB buildings, Mission reward
+Clinical Trial Records	Data	3	MED room, RES buildings, Mission reward
+Cocktail Recipes	Data	1	HAB buildings
+Combat Training Material	Data	25	RES buildings, HAB buildings, CMD buildings, Mission reward
+Combatant Performance	Data	25	HAB buildings, CMD buildings, Mission reward
+Compact Library	Goods	0	RES buildings, HAB buildings, CMD buildings, Settlements
+Compression-Liquefied Gas	Goods	16	RES buildings, PWR buildings, IND buildings, EXT buildings, AGRI buildings, Mission reward
+Computer Parts	Goods	1	
+Conflict History	Data	0	CMD buildings
+Contaminated Spire Refinery Compound	Goods	0	Mission reward
+Criminal Records	Data	0	CMD buildings
+Crop Yield Analysis	Data	0	AGRI buildings
+Culinary Recipes	Data	1	HAB buildings
+Data Storage Device	Goods	1	
+Deep Mantle Sample	Goods	0	RES buildings, EXT buildings
+Degraded Power Regulator	Goods	0	Irregular markers, RES buildings, Surface crash site
+Digital Designs	Data	15	HAB buildings, Mission reward
+Duty Rota	Data	0	RES buildings, PWR buildings, IND buildings, CMD buildings
+Electronics Package	Goods	1	
+Employee Directory	Data	0	HAB buildings
+Employee Expenses	Data	0	HAB buildings
+Employee Genetic Data	Data	1	RES buildings, MED room, CMD buildings, Mission reward
+Employment History	Data	0	HAB buildings
+Energy Regulator	Goods	1	
+Enhanced Interrogation Recordings	Data	0	CMD buildings
+Espionage Material	Data	0	
+Evacuation Protocols	Data	3	PWR buildings, IND buildings, HAB buildings, Mission reward
+Experiment Prototype	Goods	1	
+Exploration Journals	Data	0	HAB buildings
+Extraction Sample	Goods	1	
+Extraction Yield Data	Data	4	RES buildings, IND buildings, EXT buildings, Mission reward
+Faction Associates	Data	1	HAB buildings
+Faction Donator List	Data	0	HAB buildings
+Faction News	Data	0	HAB buildings, Crashed satellite
+Financial Projections	Data	1	HAB buildings, AGRI buildings, IND buildings, Mission reward
+Fleet Registry	Data	0	
+G-Meds	Goods	3	Irregular markers, MED room, RES buildings, CMD buildings, AGRI buildings, Settlements, Mission reward, Surface crash site
+Gene Sequencing Data	Data	3	MED room, RES buildings, AGRI buildings, Mission reward
+Genetic Repair Meds	Goods	1	MED room, STO buildings, RES buildings, IND buildings, EXT buildings, AGRI buildings
+Genetic Research	Data	4	MED room, RES buildings, AGRI buildings, Mission reward
+Geological Data	Data	0	EXT buildings
+Health Monitor	Goods	12	MED room, RES buildings, HAB buildings, CMD buildings, Mission reward, Surface crash site
+Hush	Goods	0	Irregular markers, Surface crash site
+Hydroponic Data	Data	0	AGRI buildings
+Incident Logs	Data	0	CMD buildings
+Industrial Component	Goods	1	
+Industrial Machinery	Goods	1	
+Inertia Canister	Goods	0	RES buildings, PWR buildings, IND buildings, AGRI buildings
+Infinity	Goods	0	HAB buildings, CMD buildings, Settlements
+Influence Projections	Data	0	HAB buildings
+Inorganic Contaminant	Goods	0	
+Insight	Goods	0	RES buildings, HAB buildings, CMD buildings, Settlements
+Insight Data Bank	Goods	0	RES buildings, HAB buildings, CMD buildings, Settlements
+Insight Entertainment Suite	Goods	1	Settlements
+Internal Correspondence	Data	0	HAB buildings, Crashed satellite
+Interrogation Recordings	Data	0	CMD buildings
+Interview Recordings	Data	0	
+Inventory Record	Goods	1	
+Ionised Gas	Goods	28	RES buildings, PWR buildings, IND buildings, EXT buildings, AGRI buildings, Mission reward
+Job Applications	Data	0	HAB buildings, CMD buildings
+Kompromat	Data	0	
+Lazarus	Goods	0	Irregular markers, Surface crash site
+Literary Fiction	Data	0	HAB buildings
+Maintenance Logs	Data	3	Irregular markers, PWR buildings, AGRI buildings, Mission reward
+Manufacturing Instructions	Data	57	EXT buildings, RES buildings, IND buildings, HAB buildings, CMD buildings, Mission reward
+Medical Records	Data	4	MED room, RES buildings, Mission reward
+Medical Sample	Goods	1	
+Meeting Minutes	Data	0	HAB buildings
+Microbial Inhibitor	Goods	0	RES buildings, AGRI buildings
+Military Schematic	Goods	1	
+Mineral Survey	Data	4	IND buildings, EXT buildings, Crashed satellite, Mission reward
+Mining Analytics	Data	22	IND buildings, EXT buildings, Mission reward
+Multimedia Entertainment	Data	1	HAB buildings, Mission reward
+Mutagenic Catalyst	Goods	0	
+Network Access History	Data	0	HAB buildings
+Network Security Protocols	Data	0	
+Next of Kin Records	Data	0	HAB buildings
+NOC Data	Data	3	Crashed satellite, Mission reward
+Nutritional Concentrate	Goods	0	RES buildings, AGRI buildings
+Operational Manual	Data	33	MED room, RES buildings, IND buildings, CMD buildings, Crashed satellite, Mission reward
+Opinion Polls	Data	1	HAB buildings, CMD buildings, Mission reward
+Patient History	Data	0	MED room
+Patrol Routes	Data	14	Irregular markers, CMD buildings, Mission reward
+Payroll Information	Data	0	HAB buildings
+Personal Computer	Goods	0	RES buildings, HAB buildings, CMD buildings, Settlements
+Personal Documents	Goods	0	HAB buildings, CMD buildings, Settlements
+Personal Logs	Data	0	HAB buildings
+Personal Protective Equipment	Goods	1	
+Petrified Fossil	Goods	0	EXT buildings
+Pharmaceutical Patents	Data	3	MED room, RES buildings, CMD buildings, AGRI buildings, Mission reward
+Photo Albums	Data	0	HAB buildings
+Plant Growth Charts	Data	0	AGRI buildings
+Political Affiliations	Data	0	HAB buildings
+Power Association Data	Data	1	
+Power Classified Data	Data	1	
+Power Industrial Data	Data	1	
+Power Injection Malware	Data	1	
+Power Megaship Data	Data	1	
+Power Political Data	Data	1	
+Power Regulator	Goods	1	Settlements
+Power Research Data	Data	1	
+Power Tracker Malware	Data	1	
+Prisoner Logs	Data	0	
+Production Reports	Data	14	RES buildings, IND buildings, AGRI buildings, Mission reward
+Production Schedule	Data	11	RES buildings, IND buildings, AGRI buildings, Mission reward
+Propaganda	Data	0	Crashed satellite
+Purchase Records	Data	0	HAB buildings, AGRI buildings
+Purchase Requests	Data	0	AGRI buildings
+Push	Goods	1	Irregular markers, Surface crash site
+Pyrolytic Catalyst	Goods	0	
+Radioactivity Data	Data	6	RES buildings, PWR buildings, IND buildings, Crashed satellite, Mission reward
+Reactor Output Review	Data	9	RES buildings, PWR buildings, Mission reward
+Recycling Logs	Data	3	IND buildings, HAB buildings, Mission reward
+Refinement Process Sample	Goods	0	
+Research Notes	Goods	1	
+Residential Directory	Data	0	HAB buildings
+Risk Assessments	Data	14	RES buildings, HAB buildings, CMD buildings, Mission reward
+Sales Records	Data	0	HAB buildings
+Security Expenses	Data	11	CMD buildings, Mission reward
+Security Logs	Goods	1	
+Seed Geneaology	Data	0	RES buildings, AGRI buildings
+Settlement Assault Plans	Data	3	CMD buildings, Mission reward
+Settlement Defence Plans	Data	1	Irregular markers, CMD buildings, Mission reward
+Shareholder Information	Data	0	
+Ship Schematic	Goods	0	STO buildings, CMD buildings
+Slush Fund Logs	Data	0	
+Smear Campaign Plans	Data	1	HAB buildings, CMD buildings, Mission reward
+Spectral Analysis Data	Data	17	RES buildings, CMD buildings, Crashed satellite, Mission reward
+Spire Refinery Compound	Goods	0	Thargoid site
+Spyware	Data	0	
+Stellar Activity Logs	Data	6	RES buildings, CMD buildings, AGRI buildings, Crashed satellite, Mission reward
+Suit Schematic	Goods	12	STO buildings, PWR buildings, CMD buildings, Mission reward
+Surveillance Equipment	Goods	4	STO buildings, EXT buildings, CMD buildings, Mission reward
+Surveillance Logs	Data	3	CMD buildings, Crashed satellite, Mission reward
+Synthetic Genome	Goods	0	AGRI buildings
+Synthetic Pathogen	Goods	0	Irregular markers, Surface crash site
+Tactical Plans	Data	3	Irregular markers, CMD buildings, Mission reward
+Tax Records	Data	0	HAB buildings
+Topographical Surveys	Data	10	RES buildings, IND buildings, Crashed satellite, Mission reward
+Travel Permits	Data	0	HAB buildings
+Troop Deployment Records	Data	3	CMD buildings, Mission reward
+True Form Fossil	Goods	0	EXT buildings
+Union Membership	Data	0	PWR buildings
+Universal Translator	Goods	0	HAB buildings, CMD buildings, Settlements
+Vaccination Records	Data	0	RES buildings
+Vaccine Research	Data	0	
+Vehicle Schematic	Goods	0	STO buildings, CMD buildings
+VIP Security Detail	Data	0	
+Virology Data	Data	0	RES buildings
+Virus	Data	0	
+Visitor Register	Data	0	HAB buildings
+Weapon Inventory	Data	6	CMD buildings, Mission reward
+Weapon Schematic	Goods	44	Irregular markers, STO buildings, PWR buildings, CMD buildings, Mission reward
+Weapon Test Data	Data	18	CMD buildings, Mission reward
+Xeno-Defence Protocols	Data	0	
