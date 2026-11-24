@@ -56,27 +56,43 @@ PORT_FIX = {
     ("agriculture_04", 3): "AGRI",  # central AGRI building (not STO)
 }
 
-# Landing pads read from the map images (24 Nov 2026). Count is reliable
-# (pads are visible); sizes are judged against the ship parked on the pad
-# and the other pads of the same image - "?" where it is a guess. Confirm
-# from Spansh/in play and correct here or in the JSON.
+# Landing pads, 24 Nov 2026: pad count read from the map images, sizes from
+# a Spansh census of 20,000 settlements (150 ly around Cubeo and Sol): each
+# economy has only a few pad signatures, about one per layout, and the
+# settlements visited in play confirm them (Agri 1 and 3, Ext 2, Mil 3,
+# Tour 4). "?" = still to check in game: Ext 4 / Ext 5 share S1 and M1, and
+# Industrial has both S1 and M1 for Ind 1 alone (a 6th, unmapped layout?).
+# Same signature, different layouts: tell them apart by the in-game size
+# marker (tiny "-", small "+", medium "++").
 PADS = {
-    "agriculture_01": "M1 S1?", "agriculture_02": "M1?",
-    "agriculture_03": "L1 M1", "agriculture_04": "L1 M1 S1?",
-    "agriculture_05": "M1?",
-    "extraction_01": "L1?", "extraction_02": "L1",
-    "extraction_03": "L1", "extraction_04": "L1",
+    "agriculture_01": "L1 S1",
+    "agriculture_02": "S1",
+    "agriculture_03": "L1 S1",
+    "agriculture_04": "L1 S2",
+    "agriculture_05": "S1",
+    "extraction_01": "L1 S1",
+    "extraction_02": "L1 S1",
+    "extraction_03": "L1",
+    "extraction_04": "S1?",
     "extraction_05": "M1?",
-    "high_tech_01": "L1 M1?", "high_tech_02": "M1?",
-    "high_tech_03": "L1?", "high_tech_04": "M3?",
-    "industrial_01": "M1?", "industrial_02": "L1",
-    "industrial_03": "L1", "industrial_04": "L1 M1?",
+    "high_tech_01": "L1 S1",
+    "high_tech_02": "S1",
+    "high_tech_03": "L1 S1",
+    "high_tech_04": "S3",
+    "industrial_01": "M1?",
+    "industrial_02": "L1",
+    "industrial_03": "L1",
+    "industrial_04": "L1 S1",
     "industrial_05": "L1",
-    "military_01": "L1", "military_02": "L1 M2?",
-    "military_03": "L1 M1?", "military_04": "M1?",
-    "military_05": "S1?",
-    "tourist_01": "L2 S2", "tourist_02": "L1?",
-    "tourist_03": "L1 S2?", "tourist_04": "L1 S1?",
+    "military_01": "L1 S2",
+    "military_02": "L1 S2",
+    "military_03": "M1 S1",
+    "military_04": "M1",
+    "military_05": "S1",
+    "tourist_01": "L2 S2",
+    "tourist_02": "M1",
+    "tourist_03": "L1 S2",
+    "tourist_04": "L1 S1",
 }
 
 

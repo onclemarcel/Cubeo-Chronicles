@@ -178,8 +178,8 @@ def print_card(items, layouts, scores):
         return
     unit = "data ports" if all(i["type"] == "Data" for i in items) else \
         "buildings" if all(i["type"] == "Goods" for i in items) else "score"
-    print("\nBest layouts (%s; OMG maps, pads read from the images, "
-          "'?' = unsure):" % (unit if len(items) == 1 else
+    print("\nBest layouts (%s; OMG maps; pads from the images "
+          "+ Spansh census, '?' = unsure):" % (unit if len(items) == 1 else
                               "score, each item scaled to its best layout"))
     for lid, (score, ys) in ranked[:12]:
         lay = layouts[lid]
@@ -316,7 +316,8 @@ def main():
             dropped += 1
             continue
         ok.append(r)
-    ok.sort(key=lambda r: (-round(r[0], 2), r[1].get("distance") or 0))
+    ok.sort(key=lambda r: (-round(r[0], 2), r[1].get("distance") or 0,
+                           r[1].get("distance_to_arrival") or 0))
     unit = ("ports" if all(i["type"] == "Data" for i in wanted) else
             "bldgs" if all(i["type"] == "Goods" for i in wanted) else "score")
     if len(wanted) > 1:

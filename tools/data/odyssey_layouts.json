@@ -22,9 +22,10 @@
     "HAB": 1,
     "STO": 1
    },
-   "pads": "M1 S1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "Baker's Plantation (Spansh L1 S1), On-Foot.md 5.3"
   },
   "agriculture_02": {
    "name": "Agriculture 2",
@@ -39,7 +40,7 @@
     "AGRI": 1,
     "HAB": 1
    },
-   "pads": "M1?",
+   "pads": "S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -56,10 +57,10 @@
     "HAB": 3,
     "PWR": 3
    },
-   "pads": "L1 M1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09",
-   "notes": "Zambo Horticultural Biosphere, On-Foot.md 5.7"
+   "notes": "Zambo Horticultural Biosphere (Spansh L1 S1), On-Foot.md 5.7"
   },
   "agriculture_04": {
    "name": "Agriculture 4",
@@ -74,7 +75,7 @@
     "AGRI": 2,
     "PWR": 2
    },
-   "pads": "L1 M1 S1?",
+   "pads": "L1 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -92,7 +93,7 @@
     "PWR": 1,
     "STO": 1
    },
-   "pads": "M1?",
+   "pads": "S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -114,7 +115,7 @@
     "PWR": 1,
     "STO": 2
    },
-   "pads": "L1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -136,10 +137,10 @@
     "PWR": 1,
     "STO": 2
    },
-   "pads": "L1",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09",
-   "notes": "Large pad confirmed in play (Ferenczi-houlden, Auclair). Map misses 1 data port on CMD 1st floor (8 in play). On-Foot.md 5.1"
+   "notes": "Auclair Metallurgic Base (Spansh L1 S1). Map misses 1 data port on CMD 1st floor (8 in play). On-Foot.md 5.1"
   },
   "extraction_03": {
    "name": "Extraction 3",
@@ -176,7 +177,7 @@
     "HAB": 1,
     "PWR": 1
    },
-   "pads": "L1",
+   "pads": "S1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -214,7 +215,7 @@
     "PWR": 1,
     "RES": 1
    },
-   "pads": "L1 M1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -231,7 +232,7 @@
     "HAB": 2,
     "RES": 1
    },
-   "pads": "M1?",
+   "pads": "S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -247,7 +248,7 @@
     "CMD": 1,
     "RES": 1
    },
-   "pads": "L1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -264,7 +265,7 @@
     "HAB": 1,
     "RES": 2
    },
-   "pads": "M3?",
+   "pads": "S3",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -343,7 +344,7 @@
     "HAB": 1,
     "IND": 1
    },
-   "pads": "L1 M1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -380,7 +381,7 @@
     "HAB": 1,
     "STO": 1
    },
-   "pads": "L1",
+   "pads": "L1 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -398,7 +399,7 @@
     "HAB": 2,
     "PWR": 1
    },
-   "pads": "L1 M2?",
+   "pads": "L1 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -417,9 +418,10 @@
     "HAB": 3,
     "STO": 2
    },
-   "pads": "L1 M1?",
+   "pads": "M1 S1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "Techno Defence Facility (Spansh M1 S1), On-Foot.md 5.4"
   },
   "military_04": {
    "name": "Military 4",
@@ -434,7 +436,7 @@
     "CMD": 2,
     "PWR": 1
    },
-   "pads": "M1?",
+   "pads": "M1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -454,7 +456,7 @@
     "MED": 2,
     "STO": 1
    },
-   "pads": "S1?",
+   "pads": "S1",
    "alarm_panels": 2,
    "map_updated": "2026-05-09"
   },
@@ -470,7 +472,7 @@
     "HAB": 1,
     "PWR": 1
    },
-   "pads": "L2 S2?",
+   "pads": "L2 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -485,7 +487,7 @@
    "data_ports": {
     "HAB": 6
    },
-   "pads": "L1?",
+   "pads": "M1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -500,7 +502,7 @@
    "data_ports": {
     "HAB": 7
    },
-   "pads": "L1 S2?",
+   "pads": "L1 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -515,10 +517,10 @@
    "data_ports": {
     "HAB": 9
    },
-   "pads": "L1 S1?",
+   "pads": "L1 S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09",
-   "notes": "Kewell's Club, On-Foot.md 5.2"
+   "notes": "Kewell's Club (Spansh L1 S1), On-Foot.md 5.2"
   }
  }
 }
