@@ -133,29 +133,33 @@ def layout_scores(items, layouts):
 
 
 def parse_pads(sig):
-    """'L1 M2?' -> ({'L': 1, 'M': 2}, sure?)"""
-    pads = {m.group(1): int(m.group(2))
-            for m in re.finditer(r"([LMS])(\d+)", sig or "")}
-    return pads, "?" not in (sig or "?")
+    """'L1 S1' -> ([{'L': 1, 'S': 1}], True); 'M1|S1?' -> ([{M1}, {S1}],
+    False): a layout whose pads are one of several, not yet known."""
+    alts = [{m.group(1): int(m.group(2))
+             for m in re.finditer(r"([LMS])(\d+)", alt)}
+            for alt in (sig or "").replace("?", "").split("|")]
+    return [a for a in alts if a], "?" not in (sig or "?")
 
 
 def candidates(st_pads, economy, layouts):
-    """Layouts a settlement can be, with a weight from the pad match."""
+    """Layouts a settlement can be, with a weight from the pad match:
+    1 = confirmed pads; 0.5 = unsure pads (0.25 if a confirmed layout
+    already has them); no match = 0, or a small weight for unsure layouts
+    with the same number of pads."""
     out = []
     total = sum(st_pads.values())
     fam = [(lid,) + parse_pads(lay["pads"]) for lid, lay in layouts.items()
            if lay["economy"] == economy]
-    # A signature a confirmed layout owns is not shared with unsure ones.
-    owned = any(sure and lp == st_pads for _, lp, sure in fam)
-    for lid, lp, sure in fam:
-        if lp == st_pads:
-            w = 1.0
+    owned = any(sure and st_pads in alts for _, alts, sure in fam)
+    for lid, alts, sure in fam:
+        if st_pads in alts:
+            w = 1.0 if sure else 0.25 if owned else 0.5
         elif sure or owned:
             w = 0.0
-        elif sum(lp.values()) == total and total:
-            w = 0.4
+        elif total and any(sum(a.values()) == total for a in alts):
+            w = 0.2
         else:
-            w = 0.05
+            w = 0.02
         if w:
             out.append((lid, w))
     if not out:   # pad table wrong or settlement odd: keep the whole family

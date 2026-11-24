@@ -57,13 +57,13 @@ PORT_FIX = {
 }
 
 # Landing pads, 24 Nov 2026: pad count read from the map images, sizes from
-# a Spansh census of 20,000 settlements (150 ly around Cubeo and Sol): each
-# economy has only a few pad signatures, about one per layout, and the
-# settlements visited in play confirm them (Agri 1 and 3, Ext 2, Mil 3,
-# Tour 4). "?" = still to check in game: Ext 4 / Ext 5 share S1 and M1, and
-# Industrial has both S1 and M1 for Ind 1 alone (a 6th, unmapped layout?).
-# Same signature, different layouts: tell them apart by the in-game size
-# marker (tiny "-", small "+", medium "++").
+# a Spansh census of 20,000 settlements (150 ly around Cubeo and Sol), then
+# checked in game against the size marker next to the settlement's name
+# (tiny "-", small "+", medium "++") at HIP 1914, Changwuti and HIP 118062
+# (On-Foot.md 5.0). "A|B?" = one of these, not yet known; "?" = unsure.
+# Open: Military 1 (tiny) is one of M1 / M1 S1 / S1 (every L1 S2 seen was
+# "++" = Military 2); High Tech 3 (small) is S1 or S3 (every L1 S1 seen was
+# "++" = High Tech 1).
 PADS = {
     "agriculture_01": "L1 S1",
     "agriculture_02": "S1",
@@ -73,22 +73,22 @@ PADS = {
     "extraction_01": "L1 S1",
     "extraction_02": "L1 S1",
     "extraction_03": "L1",
-    "extraction_04": "S1?",
-    "extraction_05": "M1?",
+    "extraction_04": "M1",
+    "extraction_05": "S1",
     "high_tech_01": "L1 S1",
     "high_tech_02": "S1",
-    "high_tech_03": "L1 S1",
+    "high_tech_03": "S1|S3?",
     "high_tech_04": "S3",
-    "industrial_01": "M1?",
+    "industrial_01": "S1",
     "industrial_02": "L1",
     "industrial_03": "L1",
     "industrial_04": "L1 S1",
-    "industrial_05": "L1?",
-    "military_01": "L1 S2",
+    "industrial_05": "M1",
+    "military_01": "M1|M1 S1|S1?",
     "military_02": "L1 S2",
     "military_03": "M1 S1",
-    "military_04": "M1",
-    "military_05": "S1",
+    "military_04": "M1?",
+    "military_05": "S1?",
     "tourist_01": "L2 S2",
     "tourist_02": "M1",
     "tourist_03": "L1 S2",

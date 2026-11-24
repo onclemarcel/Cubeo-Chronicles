@@ -177,7 +177,7 @@
     "HAB": 1,
     "PWR": 1
    },
-   "pads": "S1?",
+   "pads": "M1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -195,7 +195,7 @@
     "HAB": 1,
     "PWR": 1
    },
-   "pads": "M1?",
+   "pads": "S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -217,7 +217,8 @@
    },
    "pads": "L1 S1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "L1 S1 confirmed in game (HIP 118062, Changwuti: all ++). 2 data ports in CMD."
   },
   "high_tech_02": {
    "name": "High Tech 2",
@@ -248,7 +249,7 @@
     "CMD": 1,
     "RES": 1
    },
-   "pads": "L1 S1",
+   "pads": "S1|S3?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -283,7 +284,7 @@
     "IND": 1,
     "PWR": 1
    },
-   "pads": "M1?",
+   "pads": "S1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -362,7 +363,7 @@
     "CMD": 2,
     "IND": 2
    },
-   "pads": "L1?",
+   "pads": "M1",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -381,7 +382,7 @@
     "HAB": 1,
     "STO": 1
    },
-   "pads": "L1 S2",
+   "pads": "M1|M1 S1|S1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -401,7 +402,8 @@
    },
    "pads": "L1 S2",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "L1 S2 confirmed in game (HIP 1914: all ++)."
   },
   "military_03": {
    "name": "Military 3",
@@ -436,7 +438,7 @@
     "CMD": 2,
     "PWR": 1
    },
-   "pads": "M1",
+   "pads": "M1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -456,7 +458,7 @@
     "MED": 2,
     "STO": 1
    },
-   "pads": "S1",
+   "pads": "S1?",
    "alarm_panels": 2,
    "map_updated": "2026-05-09"
   },

@@ -2,26 +2,18 @@
 ## Odyssey playbook: protocol, gear, progression, mission type cards
 
 > Technical document. No narrative here — the story lives in `Logbook.md`.
-> Satellite of `In-Game Operations.md` §5 (Roadmap): the main line there holds phases and
-> checkpoints; this file holds the on-foot work. Created 25 September 2026 when §5 was split into
-> satellite files (content moved, not rewritten). Same growth rule as `Powerplay Missions.md`:
-> cards are refined in place; what *happened* in a session still goes to `In-Game Operations.md` §4.
-> **References:** a bare `§N` points to `In-Game Operations.md`, except "§5.2 step N", which now
-> means §1 of this file (the protocol moved here). "Engineers" = `Engineers & Materials.md`.
+> Satellite of `In-Game Operations.md` §5 (Roadmap): the main line there holds phases and checkpoints; this file holds the on-foot work. Created 25 September 2026 when §5 was split into satellite files (content moved, not rewritten). Same growth rule as `Powerplay Missions.md`: cards are refined in place; what *happened* in a session still goes to `In-Game Operations.md` §4.
+> **References:** a bare `§N` points to `In-Game Operations.md`, except "§5.2 step N", which now means §1 of this file (the protocol moved here). "Engineers" = `Engineers & Materials.md`.
 
 ---
 
 ## 1. PROTOCOL
 
-*Moved from the old §5.2.*
+**the permission system**: Every door and terminal requires level 1, 2 or 3 access, obtained by **cloning an NPC's profile with the Profile Analyser**.
 
-Root cause of past failures identified: **the permission system**. Every door and terminal
-requires level 1, 2 or 3 access, obtained by **cloning an NPC's profile with the Profile
-Analyser**. Without it, every access attempt is a break-in → alarm → hostile settlement.
+**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, Energylink, **no weapon allowed in regular settlements** so bring weapons on ground only when absolutely needed.
 
-**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, E-Breach, Energylink.
-
-**Progression**
+**Typical Progression** - not followed eventually:
 1. **Abandoned settlement reactivation** missions — zero NPCs, zero alarms. Find the power
    distribution centre, insert the regulator. Learn the layout + gather micro-resources.
    - *A `Salvage`-tagged ground wreck is not this case, even though it looks similarly
@@ -447,36 +439,34 @@ reports), so check them on the first visit.
 
 ### 5.0 Recognising the layout before landing — pads + size marker
 
-*Added 24 Nov 2026. Spansh gives a settlement's economy and pads; the in-game size marker next
-to its name (nav panel, system map: **−** tiny, **+** small, **++** medium) does the rest.
-Table in `tools/data/odyssey_layouts.json`, used by `tools/material_finder.py` (column `aim` =
-the marker to look for).*
+*Added 24 Nov 2026 (Tonton Marcel + Claude). Each layout has its own pad set, and Spansh lists the
+pads of every settlement; the in-game size marker next to the name (nav panel, system map:
+**−** tiny, **+** small, **++** medium) settles the pairs. So a system can be screened from home.
+Table: `tools/data/odyssey_layouts.json` (`PADS` in `tools/build_layouts.py`), used by
+`tools/settlement_finder.py` (`--layout`) and `tools/material_finder.py` (column `aim` = the
+marker to look for, `--survey` = a system's settlements with their possible layouts).*
 
-Pad signatures from a Spansh census of 20,000 settlements (150 ly around Cubeo and Sol): each
-economy has 3–4 signatures, about one per layout. Confirmed in play: Agri 1 and Agri 3 (Baker's
-Plantation, Zambo), Ext 2 (Auclair), Mil 3 (Techno Defence), Tour 4 (Kewell's Club).
+Method: Spansh census of 20,000 settlements (150 ly around Cubeo and Sol) — 3–4 pad signatures
+per economy — then the markers read in game at **HIP 1914** and **Changwuti** (24 Nov), plus
+HIP 118062 and the settlements already raided.
 
-| Economy | Pads → layout (size marker) |
-|---|---|
-| Agricultural | L1 S1 → Agri 1 (+) or Agri 3 (++) · S1 → Agri 2 (−) or Agri 5 (+) · L1 S2 → Agri 4 (++) |
-| Extraction | L1 S1 → Ext 1 (++) or Ext 2 (+) · L1 → Ext 3 (++) · S1 / M1 → Ext 4 (+) / Ext 5 (−), **which is which: to check** |
-| High Tech | L1 S1 → HT 1 (++) or HT 3 (+) · S1 → HT 2 (−) · S3 → HT 4 (+) |
-| Industrial | L1 → Ind 2 (++), Ind 3 (+), Ind 5 (+)? · L1 S1 → Ind 4 (+) · S1 and M1 → Ind 1 (−) and **? — to check** |
-| Military | L1 S2 → Mil 1 (−) or Mil 2 (++) · M1 S1 → Mil 3 (+) · M1 → Mil 4 (+) · S1 → Mil 5 (+) |
-| Tourist | L2 S2 → Tour 1 (++) · M1 → Tour 2 (−) · L1 S2 → Tour 3 (+) · L1 S1 → Tour 4 (+) |
+| Economy | Pads (Spansh) → OMG layout (size marker) | Status |
+|---|---|---|
+| Agricultural | **L1 S1** → Agri 1 (+) or Agri 3 (++) · **S1** → Agri 2 (−) or Agri 5 (+) · **L1 S2** → Agri 4 (++) | ✔ both markers seen for each pair (HIP 1914); Agri 1 = Baker's Plantation, Agri 3 = Zambo |
+| Extraction | **L1 S1** → Ext 1 (++) or Ext 2 (+) · **L1** → Ext 3 (++) · **M1** → Ext 4 (+) · **S1** → Ext 5 (−) | ✔ HIP 1914 (M1 all +, S1 all −, L1 S1 both); Ext 2 = Ferenczi-houlden, Auclair |
+| High Tech | **L1 S1** → HT 1 (++) · **S1** → HT 2 (−) · **S3** → HT 4 (+) · HT 3 (+) = S1 or S3 | ✔ L1 S1 = HT 1 only (HIP 118062; Changwuti 4/4 ++). **HT 3: to check** |
+| Industrial | **L1** → Ind 2 (++) or Ind 3 (+) · **L1 S1** → Ind 4 (+) · **M1** → Ind 5 (+) · **S1** → Ind 1 (−) | ✔ HIP 1914 (M1 5/5 +, S1 5/5 −) |
+| Military | **L1 S2** → Mil 2 (++) · **M1 S1** → Mil 3 (+) · **M1** → Mil 4 (+)? · **S1** → Mil 5 (+)? · Mil 1 (−) = M1, M1 S1 or S1 | ✔ L1 S2 = Mil 2 only (HIP 1914 3/3 ++); Mil 3 = Techno Defence. **Mil 1: to check** |
+| Tourist | **L2 S2** → Tour 1 (++) · **M1** → Tour 2 (−) · **L1 S2** → Tour 3 (+) · **L1 S1** → Tour 4 (+) | census; Tour 4 = Kewell's Club |
 
-**Check to do in game** — no landing needed, just read the markers in the nav panel:
-- [ ] **HIP 1914** (21.5 ly, Aisling Stronghold, 117 settlements, no war on 24 Nov):
-  - Extraction **M1** ×2 and **S1** ×4: M1 = (−) and S1 = (+) → Claude's reading (Ext 5 = M1);
-    M1 = (+) and S1 = (−) → Tonton Marcel's (Ext 4 = M1).
-  - Industrial **S1** ×13 and **M1** ×10: Tonton Marcel's reading is S1 = Ind 1 (−),
-    M1 = Ind 5 (+), then L1 (+) = Ind 3 only. Any other marker → a layout OMG doesn't map.
-  - Pairs: agricultural L1 S1 ×7 (+ Agri 1 / ++ Agri 3) and S1 ×10 (− Agri 2 / + Agri 5);
-    military L1 S2 ×11 (− Mil 1 / ++ Mil 2); extraction L1 S1 ×4 (++ Ext 1 / + Ext 2).
-    Expected: both markers turn up; one marker only → that pad signature is a single layout.
-- [ ] **Changwuti** (20.7 ly, Aisling Exploited): High Tech L1 S1 ×6 (++ HT 1 / + HT 3).
-- Lists: `python tools/material_finder.py --survey "HIP 1914,Changwuti"`. A doubt → fly over and
-  compare with the OMG image. Results go in this table and in `PADS` (`tools/build_layouts.py`).
+**Still to check in game** (nav panel markers, no landing):
+- [ ] **Military 1 (tiny −)**: HIP 1914 military **M1** ×11 and **M1 S1** ×12 — a (−) among them
+  is Military 1; none → look at **S1** (HIP 5700 has 2). Census within 80 ly: L1 S2 731, M1 496,
+  M1 S1 425, S1 134 — no military site has a single L pad.
+- [ ] **High Tech 3 (small +)**: Changwuti High Tech **S1** ×2 (− = HT 2, + = HT 3) and **S3** ×4
+  (+ = HT 4 or HT 3 — fly over one if both are +).
+- Lists: `python tools/material_finder.py --survey "HIP 1914,Changwuti"`. Results go in this table
+  and in `PADS`.
 
 ### 5.1 Ferenczi-houlden Extraction Exchange (extraction layout)
 
