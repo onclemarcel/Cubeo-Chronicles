@@ -13,15 +13,11 @@
 
 ## 1. PROTOCOL
 
-*Moved from the old §5.2.*
+**the permission system**: Every door and terminal requires level 1, 2 or 3 access, obtained by **cloning an NPC's profile with the Profile Analyser**.
 
-Root cause of past failures identified: **the permission system**. Every door and terminal
-requires level 1, 2 or 3 access, obtained by **cloning an NPC's profile with the Profile
-Analyser**. Without it, every access attempt is a break-in → alarm → hostile settlement.
+**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, Energylink, **no arm allowed in regular inhabited settlements** so bring arms only when absolutely needed.
 
-**Base loadout:** **Maverick** suit (not Dominator), Profile Analyser, E-Breach, Energylink.
-
-**Progression**
+**Typical Progression** - not followed eventually:
 1. **Abandoned settlement reactivation** missions — zero NPCs, zero alarms. Find the power
    distribution centre, insert the regulator. Learn the layout + gather micro-resources.
    - *A `Salvage`-tagged ground wreck is not this case, even though it looks similarly
