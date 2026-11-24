@@ -5,8 +5,12 @@ settlement_finder.py - systems richest in Odyssey settlements of given types.
 For on-foot farming: ranks the systems around a reference system by how many
 Odyssey settlements of the wanted economies they hold (default Military,
 Extraction, Industrial, High Tech), leaving out settlements whose
-controlling faction is at war (ground conflict zones can't be visited - the
-LTT 7786 lesson, 23 Nov 2026).
+controlling faction is at war or in an election (settlements in conflict
+can't be raided - LTT 7786, 23 Nov; HIP 118062, 24 Nov 2026).
+
+Confirmed layouts (one pad signature per layout, checked in game): High Tech
+L1 S1 = "High-Tech 1" (medium ++, two data ports in the CMD building),
+Military L1 S2 = "Military 2". Filter with --layout "High-Tech 1".
 
 Spansh does not know settlement LAYOUTS (Voz de Carabas' Odyssey Map Guide
 numbers: Military 1-4, Extraction 1-2, Industrial 1-5, High Tech 1-...).
@@ -39,7 +43,14 @@ from collections import Counter, defaultdict
 from waypoint_route import STATIONS_API, lookup, post
 
 ECONOMIES = "Military,Extraction,Industrial,High Tech"
-WAR_STATES = {"War", "Civil War"}
+# Factions in these states have their settlements shown "in conflict".
+# Election too: the five High-Tech 1 sites of HIP 118062 (24 Nov 2026) were
+# all in conflict while Spansh only listed elections (its states lag).
+WAR_STATES = {"War", "Civil War", "Election"}
+# Odyssey Map Guide layout <- (economy, pad signature): one pad signature per
+# layout, confirmed in game by Tonton Marcel (24 Nov 2026).
+LAYOUTS = {("High Tech", "L1 S1"): "High-Tech 1",     # medium ++, CMD x2 ports
+           ("Military", "L1 S2"): "Military 2"}
 SHORT = {"Military": "Mil", "Extraction": "Ext", "Industrial": "Ind",
          "High Tech": "HT", "Agriculture": "Agri", "Tourism": "Tour"}
 PORTS = ("Coriolis Starport", "Orbis Starport", "Ocellus Starport",
@@ -55,6 +66,10 @@ def pad_sig(st):
         if n:
             parts.append("%s%d" % (size, n))
     return " ".join(parts) or "no pad"
+
+
+def layout(st):
+    return LAYOUTS.get((st.get("primary_economy"), pad_sig(st)), "")
 
 
 def fetch_settlements(ref, radius, economies):
@@ -94,6 +109,9 @@ def main():
     ap.add_argument("--pads", default=None,
                     help="keep only settlements with this pad signature, "
                          "e.g. L1, 'L1 S1', M1")
+    ap.add_argument("--layout", default=None,
+                    help="keep only one confirmed OMG layout: %s" % ", ".join(
+                        sorted(LAYOUTS.values())))
     ap.add_argument("--max-gravity", type=float, default=None,
                     help="leave out settlements on heavier bodies (g)")
     ap.add_argument("--top", type=int, default=15)
@@ -102,6 +120,13 @@ def main():
     args = ap.parse_args()
 
     economies = [e.strip() for e in args.economy.split(",") if e.strip()]
+    if args.layout:
+        match = [k for k, v in LAYOUTS.items()
+                 if v.lower() == args.layout.lower()]
+        if not match:
+            ap.error("unknown layout %r - known: %s" % (
+                args.layout, ", ".join(sorted(LAYOUTS.values()))))
+        economies, args.pads = [match[0][0]], match[0][1]
     sets = fetch_settlements(args.ref, args.radius, economies)
     if args.pads:
         sets = [s for s in sets if pad_sig(s) == args.pads]
@@ -152,7 +177,9 @@ def main():
                           if s.get("primary_economy") == e)
             if sig:
                 print("      %-4s pads: %s" % (SHORT.get(e, e), ", ".join(
-                    "%s ×%d" % kv for kv in sig.most_common())))
+                    "%s x%d%s" % (k, n, " (%s)" % LAYOUTS[(e, k)]
+                                  if (e, k) in LAYOUTS else "")
+                    for k, n in sig.most_common())))
         print("      on %d bod%s, gravity up to %.2f g%s" % (
             bodies, "y" if bodies == 1 else "ies", grav,
             "; %d more at war (%s)" % (war_n, ", ".join(sorted(at_war)))
@@ -165,9 +192,9 @@ def main():
                 for p in ports[:4]) or "none"))
             for s in sorted(ok, key=lambda s: (s.get("primary_economy"),
                                                s.get("body_name") or "")):
-                print("        %-4s %-34s %-7s %-18s %4.2f g %6d ls  %s" % (
+                print("        %-4s %-34s %-7s %-11s %-18s %4.2f g %6d ls  %s" % (
                     SHORT.get(s.get("primary_economy"), "?"), s["name"][:34],
-                    pad_sig(s), (s.get("body_name") or "")[-18:],
+                    pad_sig(s), layout(s), (s.get("body_name") or "")[-18:],
                     s.get("body_gravity") or 0,
                     s.get("distance_to_arrival") or 0,
                     s.get("controlling_minor_faction") or ""))

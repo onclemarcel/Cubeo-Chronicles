@@ -445,6 +445,21 @@ note from play. Maps can miss things: Extraction 2 lacks a data port on the firs
 (Agriculture 1's alarm, §5.3). Go by the image. Data-port counts can differ between settlements of the same layout (forum
 reports), so check them on the first visit.
 
+**Telling the layout before landing — the landing pads** (Tonton Marcel, 24 Nov): each layout
+has its own pad set, and Spansh lists the pads of every settlement, so a system can be screened
+from home with `tools/settlement_finder.py` (`--layout`, `--pads`).
+
+| Economy | Pads (Spansh) | OMG layout | Status |
+|---|---|---|---|
+| High Tech | L1 S1 | **High-Tech 1** (medium ++) — two data ports in CMD | ✔ confirmed in game, HIP 118062 |
+| High Tech | S1, S3 | other High-Tech layouts | to map |
+| Military | L1 S2 | **Military 2** | ✔ confirmed |
+| Military | M1, M1 S1, S1 | Military 1, 3, 4 (which is which still to check on the OMG maps — Military 4 = M1 is the guess) | to map |
+
+Within 80 ly of Cubeo (24 Nov): Military L1 S2 731, M1 496, M1 S1 425, S1 134 — **no military
+settlement has a single L pad**, so Military 1 is one of M1 / M1 S1 / S1. High Tech: L1 S1 1,014,
+S1 890, S3 299.
+
 ### 5.1 Ferenczi-houlden Extraction Exchange (extraction layout)
 
 - **Where:** Crucis Sector OY-R b4-4 C 3, unoccupied system. Used for the Power data raid
