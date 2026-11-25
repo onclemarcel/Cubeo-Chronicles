@@ -61,11 +61,11 @@ PORT_FIX = {
 # checked in game against the size marker next to the settlement's name
 # (tiny "-", small "+", medium "++") at HIP 1914, Changwuti and HIP 118062
 # (On-Foot.md 5.0). "A|B?" = one of these, not yet known; "?" = unsure.
-# Open (25 Nov): Military 5 (small "+") - by elimination it shares L1 S2
-# with Military 2 (L1 S2 is twice as common as the other military
-# signatures; Military 4 = S1, flown over at HIP 5700). High Tech 3 (small
-# "+") - L1 S1 (twice as common as one layout) or S1; never S3 (an S3
-# flown over was High Tech 4).
+# Open (25 Nov): Military 5 (small "+") - never seen: L1 S2 is Military 2
+# only (HIP 1914 11/11 "++"), so the census hint (a signature twice as
+# common holds two layouts) failed there; parked on S1 with Military 4, the
+# rarest military signature. High Tech 3 (small "+") - L1 S1 or S1; never
+# S3 (an S3 flown over was High Tech 4).
 PADS = {
     "agriculture_01": "L1 S1",
     "agriculture_02": "S1",
@@ -90,7 +90,7 @@ PADS = {
     "military_02": "L1 S2",
     "military_03": "M1 S1",
     "military_04": "S1",
-    "military_05": "L1 S2?",
+    "military_05": "S1?",
     "tourist_01": "L2 S2",
     "tourist_02": "M1",
     "tourist_03": "L1 S2",

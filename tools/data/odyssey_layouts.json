@@ -406,7 +406,7 @@
    "pads": "L1 S2",
    "alarm_panels": 1,
    "map_updated": "2026-05-09",
-   "notes": "L1 S2 confirmed in game (HIP 1914: all ++)."
+   "notes": "L1 S2 confirmed in game, the only layout with it (HIP 1914: 11/11 ++)."
   },
   "military_03": {
    "name": "Military 3",
@@ -462,7 +462,7 @@
     "MED": 2,
     "STO": 1
    },
-   "pads": "L1 S2?",
+   "pads": "S1?",
    "alarm_panels": 2,
    "map_updated": "2026-05-09"
   },
