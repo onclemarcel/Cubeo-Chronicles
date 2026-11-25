@@ -61,9 +61,10 @@ PORT_FIX = {
 # checked in game against the size marker next to the settlement's name
 # (tiny "-", small "+", medium "++") at HIP 1914, Changwuti and HIP 118062
 # (On-Foot.md 5.0). "A|B?" = one of these, not yet known; "?" = unsure.
-# Open: Military 1 (tiny) is one of M1 / M1 S1 / S1 (every L1 S2 seen was
-# "++" = Military 2); High Tech 3 (small) is S1 or S3 (every L1 S1 seen was
-# "++" = High Tech 1).
+# Open (25 Nov): Military 4 and 5 (both small "+") - one shares L1 S2 with
+# Military 2 (L1 S2 is twice as common as the other military signatures),
+# the other is the rarer S1. High Tech 3 (small "+") - L1 S1 (twice as
+# common as one layout) or S1; never S3 (an S3 flown over was High Tech 4).
 PADS = {
     "agriculture_01": "L1 S1",
     "agriculture_02": "S1",
@@ -77,18 +78,18 @@ PADS = {
     "extraction_05": "S1",
     "high_tech_01": "L1 S1",
     "high_tech_02": "S1",
-    "high_tech_03": "S1|S3?",
+    "high_tech_03": "L1 S1|S1?",
     "high_tech_04": "S3",
     "industrial_01": "S1",
     "industrial_02": "L1",
     "industrial_03": "L1",
     "industrial_04": "L1 S1",
     "industrial_05": "M1",
-    "military_01": "M1|M1 S1|S1?",
+    "military_01": "M1",
     "military_02": "L1 S2",
     "military_03": "M1 S1",
-    "military_04": "M1?",
-    "military_05": "S1?",
+    "military_04": "L1 S2|S1?",
+    "military_05": "L1 S2|S1?",
     "tourist_01": "L2 S2",
     "tourist_02": "M1",
     "tourist_03": "L1 S2",

@@ -232,7 +232,7 @@ then drop a little.
 | Reactor Output Review (`reactoroutputreview`) | 5 | 2 | **3** | extraction data ports (2 of 9 visits) |
 | Maintenance Logs (`maintenancelogs`) | 8 | 4 | **4** | extraction, industrial data ports |
 | Topographical Surveys (`topographicalsurveys`) | 5 | 3 | **2** | agricultural, extraction |
-| Patrol Routes (`patrolroutes`) | 5 | 3 | **2** | before 7 Nov (source not logged by the script). **The last gate for Quieter Footsteps (23 Nov)** — CMD/SEC ports of Military 1/4, Extraction 1/2, Industrial 5, High Tech 1 (OMG); systems: `tools/settlement_finder.py` |
+| Patrol Routes (`patrolroutes`) | 5 | 3 | **2** | **all 3 from mission rewards** (journal, 25 Nov): 1 from an on-foot delivery for Atlantis Jet Creative & Co (Dec 2022), 2 from a salvage mission for Freedom Party of Fer Doira (Apr 2023); none from 23 data-port visits since 1 Nov — rare in ports, look on mission boards. **The last gate for Quieter Footsteps (23 Nov)** — CMD/SEC ports of Military 1/4, Extraction 1/2, Industrial 5, High Tech 1 (OMG); systems: `tools/settlement_finder.py` |
 | Carbon Fibre Plating (`carbonfibreplating`) | 28 | 21 | **7** | component — lockers and crates |
 
 **Covered — keep, don't sell to a bartender until the mods are applied:** Health Monitor 15/12,
@@ -454,17 +454,24 @@ HIP 118062 and the settlements already raided.
 |---|---|---|
 | Agricultural | **L1 S1** → Agri 1 (+) or Agri 3 (++) · **S1** → Agri 2 (−) or Agri 5 (+) · **L1 S2** → Agri 4 (++) | ✔ both markers seen for each pair (HIP 1914); Agri 1 = Baker's Plantation, Agri 3 = Zambo |
 | Extraction | **L1 S1** → Ext 1 (++) or Ext 2 (+) · **L1** → Ext 3 (++) · **M1** → Ext 4 (+) · **S1** → Ext 5 (−) | ✔ HIP 1914 (M1 all +, S1 all −, L1 S1 both); Ext 2 = Ferenczi-houlden, Auclair |
-| High Tech | **L1 S1** → HT 1 (++) · **S1** → HT 2 (−) · **S3** → HT 4 (+) · HT 3 (+) = S1 or S3 | ✔ L1 S1 = HT 1 only (HIP 118062; Changwuti 4/4 ++). **HT 3: to check** |
+| High Tech | **L1 S1** → HT 1 (++) · **S1** → HT 2 (−) · **S3** → HT 4 (+) · HT 3 (+) = L1 S1 or S1 | ✔ HT 1 (HIP 118062; Changwuti 4/4 ++), HT 2 (Changwuti 2/2 −), HT 4 (Changwuti S3 4/4 +, Takahashi flown over). **HT 3: to check** |
 | Industrial | **L1** → Ind 2 (++) or Ind 3 (+) · **L1 S1** → Ind 4 (+) · **M1** → Ind 5 (+) · **S1** → Ind 1 (−) | ✔ HIP 1914 (M1 5/5 +, S1 5/5 −) |
-| Military | **L1 S2** → Mil 2 (++) · **M1 S1** → Mil 3 (+) · **M1** → Mil 4 (+)? · **S1** → Mil 5 (+)? · Mil 1 (−) = M1, M1 S1 or S1 | ✔ L1 S2 = Mil 2 only (HIP 1914 3/3 ++); Mil 3 = Techno Defence. **Mil 1: to check** |
+| Military | **M1** → Mil 1 (−) · **L1 S2** → Mil 2 (++) · **M1 S1** → Mil 3 (+) · Mil 4 (+) / Mil 5 (+) = L1 S2 and S1, one each | ✔ Mil 1 (HIP 1914 M1 5/5 −), Mil 2 (3/3 ++), Mil 3 (M1 S1 4/4 +, Techno Defence). **Mil 4 / Mil 5: to check** |
 | Tourist | **L2 S2** → Tour 1 (++) · **M1** → Tour 2 (−) · **L1 S2** → Tour 3 (+) · **L1 S1** → Tour 4 (+) | census; Tour 4 = Kewell's Club |
 
-**Still to check in game** (nav panel markers, no landing):
-- [ ] **Military 1 (tiny −)**: HIP 1914 military **M1** ×11 and **M1 S1** ×12 — a (−) among them
-  is Military 1; none → look at **S1** (HIP 5700 has 2). Census within 80 ly: L1 S2 731, M1 496,
-  M1 S1 425, S1 134 — no military site has a single L pad.
-- [ ] **High Tech 3 (small +)**: Changwuti High Tech **S1** ×2 (− = HT 2, + = HT 3) and **S3** ×4
-  (+ = HT 4 or HT 3 — fly over one if both are +).
+Done 24–25 Nov (HIP 1914, Changwuti): Mil 1 = M1, HT 2 = S1, HT 4 = S3. Census hint for what is
+left: a pad signature twice as common as the others holds two layouts — military L1 S2 (1,479
+vs ~640) and High Tech L1 S1 (1,354 vs ~670).
+
+**Still to check in game:**
+- [ ] **Military 4 / Military 5** (both small +): read the 8 HIP 1914 **L1 S2** not yet seen —
+  Buzko Arms Hub, Serduk's Landing, Ozarkevich Military Stockade, Lacek Honour, Richelieu Defence
+  Complex, Vynnychenko's Honour, Lemaire Munitions Outpost, Pozandr's Liberty. A (+) = Mil 4 or 5:
+  fly over it. Then fly over one military **S1** (HIP 5700: Dhaenens Munitions Enterprise, Peng
+  Munitions Hold): Mil 4 = one long CMD block, Mil 5 = walled compound with MED/SEC/OPR.
+- [ ] **High Tech 3** (small +): High Tech **L1 S1** — Changwuti Petrenko Biological Facility,
+  Schmidt Research Institution, then HIP 115151 (×8, 27 ly); a (+) = HT 3. Else High Tech **S1** —
+  Machaquiaba (×7, anarchy) or HIP 118061 (×7); a (+) = HT 3.
 - Lists: `python tools/material_finder.py --survey "HIP 1914,Changwuti"`. Results go in this table
   and in `PADS`.
 

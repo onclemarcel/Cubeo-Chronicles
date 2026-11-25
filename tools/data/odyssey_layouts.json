@@ -235,7 +235,8 @@
    },
    "pads": "S1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "S1, tiny (Changwuti 2/2 -)."
   },
   "high_tech_03": {
    "name": "High Tech 3",
@@ -249,7 +250,7 @@
     "CMD": 1,
     "RES": 1
    },
-   "pads": "S1|S3?",
+   "pads": "L1 S1|S1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -268,7 +269,8 @@
    },
    "pads": "S3",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "S3 confirmed in game (Takahashi Genetics Laboratory, Changwuti, flown over 24 Nov)."
   },
   "industrial_01": {
    "name": "Industrial 1",
@@ -382,9 +384,10 @@
     "HAB": 1,
     "STO": 1
    },
-   "pads": "M1|M1 S1|S1?",
+   "pads": "M1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "M1 confirmed in game (HIP 1914: 5/5 tiny)."
   },
   "military_02": {
    "name": "Military 2",
@@ -438,7 +441,7 @@
     "CMD": 2,
     "PWR": 1
    },
-   "pads": "M1?",
+   "pads": "L1 S2|S1?",
    "alarm_panels": 1,
    "map_updated": "2026-05-09"
   },
@@ -458,7 +461,7 @@
     "MED": 2,
     "STO": 1
    },
-   "pads": "S1?",
+   "pads": "L1 S2|S1?",
    "alarm_panels": 2,
    "map_updated": "2026-05-09"
   },
