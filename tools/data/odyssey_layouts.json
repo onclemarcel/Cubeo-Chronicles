@@ -441,9 +441,10 @@
     "CMD": 2,
     "PWR": 1
    },
-   "pads": "L1 S2|S1?",
+   "pads": "S1",
    "alarm_panels": 1,
-   "map_updated": "2026-05-09"
+   "map_updated": "2026-05-09",
+   "notes": "S1 confirmed in game (HIP 5700: Dhaenens Munitions Enterprise, Peng Munitions Hold, flown over 25 Nov). One building, guards close together: hard to sneak past."
   },
   "military_05": {
    "name": "Military 5",
@@ -461,7 +462,7 @@
     "MED": 2,
     "STO": 1
    },
-   "pads": "L1 S2|S1?",
+   "pads": "L1 S2?",
    "alarm_panels": 2,
    "map_updated": "2026-05-09"
   },

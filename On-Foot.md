@@ -456,19 +456,18 @@ HIP 118062 and the settlements already raided.
 | Extraction | **L1 S1** → Ext 1 (++) or Ext 2 (+) · **L1** → Ext 3 (++) · **M1** → Ext 4 (+) · **S1** → Ext 5 (−) | ✔ HIP 1914 (M1 all +, S1 all −, L1 S1 both); Ext 2 = Ferenczi-houlden, Auclair |
 | High Tech | **L1 S1** → HT 1 (++) · **S1** → HT 2 (−) · **S3** → HT 4 (+) · HT 3 (+) = L1 S1 or S1 | ✔ HT 1 (HIP 118062; Changwuti 4/4 ++), HT 2 (Changwuti 2/2 −), HT 4 (Changwuti S3 4/4 +, Takahashi flown over). **HT 3: to check** |
 | Industrial | **L1** → Ind 2 (++) or Ind 3 (+) · **L1 S1** → Ind 4 (+) · **M1** → Ind 5 (+) · **S1** → Ind 1 (−) | ✔ HIP 1914 (M1 5/5 +, S1 5/5 −) |
-| Military | **M1** → Mil 1 (−) · **L1 S2** → Mil 2 (++) · **M1 S1** → Mil 3 (+) · Mil 4 (+) / Mil 5 (+) = L1 S2 and S1, one each | ✔ Mil 1 (HIP 1914 M1 5/5 −), Mil 2 (3/3 ++), Mil 3 (M1 S1 4/4 +, Techno Defence). **Mil 4 / Mil 5: to check** |
+| Military | **M1** → Mil 1 (−) · **L1 S2** → Mil 2 (++) or Mil 5 (+)? · **M1 S1** → Mil 3 (+) · **S1** → Mil 4 (+) | ✔ Mil 1 (HIP 1914 M1 5/5 −), Mil 2 (3/3 ++), Mil 3 (M1 S1 4/4 +, Techno Defence), Mil 4 (HIP 5700 S1, flown over — one building, guards packed: hard stealth). **Mil 5: to check** |
 | Tourist | **L2 S2** → Tour 1 (++) · **M1** → Tour 2 (−) · **L1 S2** → Tour 3 (+) · **L1 S1** → Tour 4 (+) | census; Tour 4 = Kewell's Club |
 
-Done 24–25 Nov (HIP 1914, Changwuti): Mil 1 = M1, HT 2 = S1, HT 4 = S3. Census hint for what is
+Done 24–25 Nov (HIP 1914, Changwuti, HIP 5700): Mil 1 = M1, Mil 4 = S1, HT 2 = S1, HT 4 = S3. Census hint for what is
 left: a pad signature twice as common as the others holds two layouts — military L1 S2 (1,479
 vs ~640) and High Tech L1 S1 (1,354 vs ~670).
 
 **Still to check in game:**
-- [ ] **Military 4 / Military 5** (both small +): read the 8 HIP 1914 **L1 S2** not yet seen —
-  Buzko Arms Hub, Serduk's Landing, Ozarkevich Military Stockade, Lacek Honour, Richelieu Defence
-  Complex, Vynnychenko's Honour, Lemaire Munitions Outpost, Pozandr's Liberty. A (+) = Mil 4 or 5:
-  fly over it. Then fly over one military **S1** (HIP 5700: Dhaenens Munitions Enterprise, Peng
-  Munitions Hold): Mil 4 = one long CMD block, Mil 5 = walled compound with MED/SEC/OPR.
+- [ ] **Military 5** (small +), by elimination in **L1 S2** with Mil 2: read the 8 HIP 1914
+  L1 S2 not yet seen — Buzko Arms Hub, Serduk's Landing, Ozarkevich Military Stockade, Lacek
+  Honour, Richelieu Defence Complex, Vynnychenko's Honour, Lemaire Munitions Outpost, Pozandr's
+  Liberty. A (+) = Mil 5 (walled compound with MED/SEC/OPR when flown over).
 - [ ] **High Tech 3** (small +): High Tech **L1 S1** — Changwuti Petrenko Biological Facility,
   Schmidt Research Institution, then HIP 115151 (×8, 27 ly); a (+) = HT 3. Else High Tech **S1** —
   Machaquiaba (×7, anarchy) or HIP 118061 (×7); a (+) = HT 3.
