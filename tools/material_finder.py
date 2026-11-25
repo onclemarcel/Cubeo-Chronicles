@@ -23,6 +23,15 @@ then scores the candidate layouts:
     about two, a big one more - the maps don't show lockers).
 "Settlements" (any building) counts 1 everywhere. Several items: each one
 is scaled to its best layout, then added, so they weigh the same.
+Your own loot corrects the building model: the journals (read by
+../elite-loot/loot_stats.py) give, per settlement economy, how often the
+item turned up per visit; the score is multiplied by that rate relative to
+the average, smoothed so that a few visits weigh little (an economy with no
+visit keeps x1). Inara's buildings alone put Manufacturing Instructions in
+tourist HABs - 0 found in 14 tourist visits, 2 in 6 industrial ones. An
+economy where the item turned up although Inara lists none of its
+buildings counts at least 1. --no-history turns it off. French item names
+from the journals are accepted too ("Guides industriels").
 The layout guess is shown with each settlement, with the in-game size
 marker of each candidate (- tiny, + small, ++ medium): column "aim" says
 which marker to look for next to the name in the nav panel to land on the
@@ -38,6 +47,7 @@ Usage examples:
   python tools/material_finder.py "Ionised Gas" --info     # offline card
   python tools/material_finder.py --locker                  # what to sell
   python tools/material_finder.py --survey "HIP 1914"       # pads/layouts
+  python tools/material_finder.py "Guides industriels"      # French name
 """
 
 import argparse
@@ -60,6 +70,13 @@ NOT_SETTLEMENT = ("Irregular markers", "Crashed satellite",
 CODE = {"MED room": "MED", "Settlements": "*"}
 # In-game size marker next to the settlement name (nav panel, system map)
 MARK = {"tiny": "-", "small": "+", "medium": "++"}
+# Loot history: ../elite-loot/loot_stats.py (sibling of this repo)
+LOOT_DIR = os.path.join(os.path.dirname(os.path.dirname(HERE)), "elite-loot")
+LOCKERS_SINCE = "2026-11-07"   # lockers looted from then on (goods)
+ECO_LOOT = {"Agri": "Agriculture", "Extraction": "Extraction",
+            "HighTech": "High Tech", "Industrial": "Industrial",
+            "Military": "Military", "Tourism": "Tourism"}
+SMOOTH = 3.0                   # pseudo-visits at the average rate
 
 
 # ----------------------------------------------------------------- data --
@@ -80,6 +97,7 @@ def load_items():
                 elif l.endswith(" buildings"):
                     codes.add(l.split()[0])
             items[key(row["Item"])] = {
+                "key": key(row["Item"]),
                 "name": row["Item"], "type": row["Type"],
                 "used": int(row["Used"] or 0), "locations": locs,
                 "codes": codes,
@@ -92,11 +110,19 @@ def load_layouts():
         return json.load(fh)["layouts"]
 
 
-def resolve(query, items):
+def resolve(query, items, local=None):
+    """Item from an Inara name or a localised journal name, partial ok."""
     k = key(query)
+    local = {key(loc): items[n] for n, loc in (local or {}).items()
+             if loc and n in items}
     if k in items:
         return items[k]
+    if k in local:
+        return local[k]
     hits = [v for kk, v in items.items() if k in kk]
+    if not hits:
+        hits = list({v["key"]: v for kk, v in local.items()
+                     if k in kk}.values())
     if len(hits) == 1:
         return hits[0]
     if not hits:
@@ -109,6 +135,38 @@ def resolve(query, items):
         ", ".join(h["name"] for h in hits) or "no close match"))
 
 
+def load_history(folder):
+    """(visits, localised names) from the journals via loot_stats.py."""
+    if not os.path.isdir(folder) or not os.path.isdir(LOOT_DIR):
+        return None, {}
+    sys.path.insert(0, LOOT_DIR)
+    try:
+        import loot_stats
+        return loot_stats.parse(folder)
+    except (ImportError, SystemExit):
+        return None, {}
+
+
+def eco_factors(item, visits):
+    """{economy: (factor, visits with the item, visits)}: how often the item
+    turned up per visit in each settlement economy, against the average,
+    smoothed with SMOOTH visits at the average. {} = never found."""
+    vs = [v for v in visits or [] if v["settlement_economy"] in ECO_LOOT
+          and (item["type"] == "Data" or v["start"] >= LOCKERS_SINCE)]
+    total = sum(v["loot"][item["key"]] for v in vs)
+    if not total:
+        return {}
+    avg = total / len(vs)
+    out = {}
+    for code, eco in ECO_LOOT.items():
+        grp = [v for v in vs if v["settlement_economy"] == code]
+        found = sum(v["loot"][item["key"]] for v in grp)
+        rate = (found + SMOOTH * avg) / (len(grp) + SMOOTH)
+        out[eco] = (rate / avg, sum(1 for v in grp if v["loot"][item["key"]]),
+                    len(grp))
+    return out
+
+
 # -------------------------------------------------------------- scoring --
 def layout_yield(item, lay):
     """Ports (data) or buildings (goods) where the item drops."""
@@ -119,16 +177,27 @@ def layout_yield(item, lay):
     return n
 
 
-def layout_scores(items, layouts):
-    """{layout_id: (score, [per-item yield])}, items scaled to their best."""
-    per = {lid: [layout_yield(it, lay) for it in items]
+def layout_scores(items, layouts, factors=None):
+    """{layout_id: (score, [per-item yield])}, items scaled to their best.
+    factors: per item, {economy: (factor, ...)} from the loot history."""
+    factors = factors or [{}] * len(items)
+    raw = {lid: [layout_yield(it, lay) for it in items]
            for lid, lay in layouts.items()}
-    best = [max(per[lid][i] for lid in per) or 1 for i in range(len(items))]
+    eff = {}
+    for lid, ys in raw.items():
+        eco = layouts[lid]["economy"]
+        eff[lid] = []
+        for y, fac in zip(ys, factors):
+            f = fac.get(eco, (1.0,))[0] if fac else 1.0
+            if not y and fac and fac.get(eco, (0, 0))[1]:
+                y = 1          # found there although Inara lists no building
+            eff[lid].append(y * f)
+    best = [max(eff[lid][i] for lid in eff) or 1 for i in range(len(items))]
     out = {}
-    for lid, ys in per.items():
+    for lid, ys in eff.items():
         score = ys[0] if len(items) == 1 else sum(
             y / b for y, b in zip(ys, best))
-        out[lid] = (score, ys)
+        out[lid] = (score, raw[lid])
     return out
 
 
@@ -231,13 +300,22 @@ def survey(names, layouts):
 
 
 # ---------------------------------------------------------------- views --
-def print_card(items, layouts, scores):
-    for it in items:
-        print("%s - %s, %s" % (it["name"], it["type"],
-                               "used in %d blueprint(s): keep" % it["used"]
-                               if it["used"] else "no blueprint: sell it"))
+def print_card(items, layouts, scores, factors=None, local=None):
+    factors = factors or [{}] * len(items)
+    for it, fac in zip(items, factors):
+        loc = (local or {}).get(it["key"])
+        print("%s%s - %s, %s" % (it["name"], " (%s)" % loc if loc and
+                                 key(loc) != it["key"] else "", it["type"],
+                                 "used in %d blueprint(s): keep" % it["used"]
+                                 if it["used"] else "no blueprint: sell it"))
         print("  drops in: %s" % (", ".join(it["locations"]) or
                                   "not lootable (mission reward / trade only)"))
+        if fac:
+            print("  your loot (journals%s): %s" % (
+                "" if it["type"] == "Data" else ", since %s" % LOCKERS_SINCE,
+                ", ".join("%s %d/%d visits x%.1f" % (e, h, n, f) for e, (
+                    f, h, n) in sorted(fac.items(), key=lambda kv: -kv[1][0])
+                    if n)))
     ranked = sorted(scores.items(), key=lambda kv: -kv[1][0])
     ranked = [kv for kv in ranked if kv[1][0] > 0]
     if not ranked:
@@ -245,6 +323,8 @@ def print_card(items, layouts, scores):
         return
     unit = "data ports" if all(i["type"] == "Data" for i in items) else \
         "buildings" if all(i["type"] == "Goods" for i in items) else "score"
+    if any(factors):
+        unit += " x your loot factor"
     print("\nBest layouts (%s; OMG maps; pads from the images "
           "+ Spansh census, '?' = unsure):" % (unit if len(items) == 1 else
                               "score, each item scaled to its best layout"))
@@ -252,7 +332,8 @@ def print_card(items, layouts, scores):
         lay = layouts[lid]
         print("  %-15s %-6s %-9s %5s   %s" % (
             lay["name"], lay["size"], lay["pads"],
-            ("%d" % score) if len(items) == 1 else "%.2f" % score,
+            ("%d" % score) if len(items) == 1 and not any(factors)
+            else "%.1f" % score,
             "  ".join("%s %d" % (it["name"][:18], y)
                       for it, y in zip(items, ys)) if len(items) > 1 else
             ", ".join("%s %d" % kv for kv in sorted(
@@ -309,6 +390,8 @@ def main():
     ap.add_argument("--locker", action="store_true",
                     help="read ShipLocker.json: what to sell, what to keep")
     ap.add_argument("--journal", default=None, help="journal folder")
+    ap.add_argument("--no-history", action="store_true",
+                    help="ignore your loot history (journals)")
     ap.add_argument("--survey", default=None, metavar="SYSTEMS",
                     help="list the settlements of these systems (comma "
                          "list) with their pads and possible layouts - for "
@@ -327,10 +410,13 @@ def main():
         return
     if not args.items:
         ap.error("give at least one item (or --locker / --survey)")
-    wanted = [resolve(q, items_db) for q in args.items.split(",") if q.strip()]
+    visits, local = (None, {}) if args.no_history else load_history(folder)
+    wanted = [resolve(q, items_db, local) for q in args.items.split(",")
+              if q.strip()]
     layouts = load_layouts()
-    scores = layout_scores(wanted, layouts)
-    print_card(wanted, layouts, scores)
+    factors = [eco_factors(it, visits) for it in wanted]
+    scores = layout_scores(wanted, layouts, factors)
+    print_card(wanted, layouts, scores, factors, local)
     if args.info:
         return
     if all(s == 0 for s, _ in scores.values()):
@@ -395,7 +481,7 @@ def main():
                            r[1].get("distance_to_arrival") or 0))
     unit = ("ports" if all(i["type"] == "Data" for i in wanted) else
             "bldgs" if all(i["type"] == "Goods" for i in wanted) else "score")
-    if len(wanted) > 1:
+    if len(wanted) > 1 or any(factors):
         unit = "score"
     print("War check on the %d best systems: %d settlement(s) left out "
           "(faction at war). Expected yield = average over the layouts the "

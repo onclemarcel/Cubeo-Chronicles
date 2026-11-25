@@ -245,7 +245,9 @@ items.
 **Where to look next:** extraction settlements cover most of the data gaps (Weapon Inventory,
 Digital Designs, Reactor Output Review, Maintenance Logs) — the classified-data raids already
 go there, so empty every data port and every locker on the way. Suit Schematics and
-Manufacturing Instructions: industrial and agricultural sites. Tactical Plans: nowhere yet —
+Manufacturing Instructions: industrial sites first — **Industrial 5 (pads M1, + small)**, 2 CMD +
+2 IND ports, also the best layout for Patrol Routes (CMD); HIP 5700 has 5 within 13 ly
+(`tools/material_finder.py "Guides industriels"`, 25 Nov). Agricultural sites second. Tactical Plans: nowhere yet —
 try the bartender, and EDOMH's settlement tables (below).
 
 **Micro-resource shopping list**
